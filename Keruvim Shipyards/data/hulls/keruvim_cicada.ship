@@ -1,0 +1,110 @@
+{
+  "bounds": [
+    14,
+    5.5,
+    1,
+    16.5,
+    -14,
+    6,
+    -14,
+    -6,
+    1,
+    -16.5,
+    14,
+    -5.5
+  ],
+  "builtInMods": [
+    "solar_shielding"
+  ],
+  "center": [
+    21,
+    19.5
+  ],
+  "collisionRadius": 30.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 3,
+      "length": 17,
+      "location": [
+        -18,
+        -4.5
+      ],
+      "style": "LOW_TECH",
+      "width": 3
+    },
+    {
+      "angle": -180,
+      "contrailSize": 3,
+      "length": 17,
+      "location": [
+        -18,
+        4.5
+      ],
+      "style": "LOW_TECH",
+      "width": 3
+    },
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 28.5,
+      "location": [
+        -17,
+        -0
+      ],
+      "style": "LOW_TECH",
+      "width": 6
+    }
+  ],
+  "height": 45,
+  "hullId": "keruvim_cicada",
+  "hullName": "Cicada",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 28.5,
+  "spriteName": "graphics/ships/keruvim_cicada.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        5.5,
+        -12.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        5.5,
+        12.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 180,
+      "arc": 360,
+      "id": "WS0003",
+      "locations": [
+        -5.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    }
+  ],
+  "width": 42
+}

@@ -1,0 +1,17 @@
+{
+	"id":"ii_photonbeam_core",
+	"specClass":"missile",
+	"missileType":"BOMB",
+	"sprite":"graphics/imperium/missiles/ii_photonbeam_core.png",
+	"size":[13,10],	
+	"center":[6.5,5],
+	"collisionRadius":5,
+	"fringeColor":[255,175,50,75],
+	"collisionClass":"NONE",
+	"explosionColor":[255,200,100,255],
+    "renderTargetIndicator":false,
+	"engineSpec":{"turnAcc":0,
+				  "turnRate":0,
+				  "acc":0,
+				  "dec":0}
+}

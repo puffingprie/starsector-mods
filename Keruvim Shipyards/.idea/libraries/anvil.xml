@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="anvil">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jars/anvil.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

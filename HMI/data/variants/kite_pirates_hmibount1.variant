@@ -1,0 +1,38 @@
+{
+  "variantId": "kite_pirates_hmibount1",
+  "hullId": "kite_pirates",
+  "displayName": "Raider",
+  "goalVariant": false,
+  "fluxCapacitors": 6,
+  "fluxVents": 3,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "militarized_subsystems"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "harpoon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 002": "swarmer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "lightac"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

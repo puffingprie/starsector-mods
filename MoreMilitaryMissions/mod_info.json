@@ -1,0 +1,21 @@
+{
+    "id":"MoreMilitaryMissions",
+    "name":"More Military Missions",
+    "author":"LngA7Gw",
+    "utility":"false",
+    "version": {"major":'0', "minor":'4', "patch":'3'},
+    "description":"Adds some bar missions and associates a mission with some distress calls.",
+    "gameVersion": "0.97a-RC6", 
+    "jars":["jars/MoreMilitaryMissions.jar"],
+    "dependencies": [
+        {
+            "id": "MagicLib",
+            "name": "MagicLib",
+        },
+        {
+            "id": "lunalib",
+            "name": "LunaLib",
+        }
+    ],
+    "modPlugin": "mmm.MoreMilitaryMissionsModPlugin"
+}

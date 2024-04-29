@@ -1,0 +1,54 @@
+{
+  "variantId": "doom_lpblack",
+  "hullId": "doom",
+  "displayName": "Illuminated",
+  "goalVariant": false,
+  "fluxCapacitors": 30,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "typhoon",
+        "WS 002": "typhoon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 007": "miningblaster",
+        "WS 008": "miningblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "lightdualac",
+        "WS 004": "lightdualac",
+        "WS 005": "lightdualac",
+        "WS 006": "lightdualac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 009": "lrpdlaser",
+        "WS 010": "lrpdlaser",
+        "WS 011": "lrpdlaser",
+        "WS 012": "lrpdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

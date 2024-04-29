@@ -1,0 +1,23 @@
+{
+    "id":"ii_shockbuster_station",
+    "type":"STAT_MOD",
+    "aiType":"CUSTOM",
+    "aiScript":"data.scripts.shipsystems.ai.II_ShockBusterAI",
+
+    "statsScript":"data.scripts.shipsystems.II_ShockBusterStats",
+
+	"canUseWhileRightClickSystemOn":true,
+
+    "fadeActivationSoundOnChargedown":true,
+    "outOfUsesSound":"gun_out_of_ammo",
+
+    "aiHints":{
+        "activeSpeedIncrease":0,
+        "burstMovementPotential":0,
+        "averageSpeedIncrease":0,
+        "threatRange":800,
+        "threatAmount":6,
+        "threatAngle":0,
+        "threatArc":360,
+    }
+}

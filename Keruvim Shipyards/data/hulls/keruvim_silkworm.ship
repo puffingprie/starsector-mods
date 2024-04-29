@@ -1,0 +1,91 @@
+{
+  "bounds": [
+    4.5,
+    -13,
+    -6,
+    -14.5,
+    -6,
+    14.5,
+    4.5,
+    13
+  ],
+  "center": [
+    22,
+    16.5
+  ],
+  "collisionRadius": 22,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 17,
+      "location": [
+        -12.5,
+        -0
+      ],
+      "style": "ANVIL",
+      "width": 10
+    },
+    {
+      "angle": 169,
+      "contrailSize": 4.855238,
+      "length": 13.715198,
+      "location": [
+        -8,
+        10.5
+      ],
+      "style": "ANVIL",
+      "width": 4.855238
+    },
+    {
+      "angle": -169,
+      "contrailSize": 4.855238,
+      "length": 13.715198,
+      "location": [
+        -8,
+        -10.5
+      ],
+      "style": "ANVIL",
+      "width": 4.855238
+    }
+  ],
+  "height": 30,
+  "hullId": "keruvim_silkworm",
+  "hullName": "Silkworm",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 20.5,
+  "spriteName": "graphics/ships/keruvim_silkworm.png",
+  "style": "PRIDE_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        5.5,
+        -11
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        5.5,
+        11
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 44
+}

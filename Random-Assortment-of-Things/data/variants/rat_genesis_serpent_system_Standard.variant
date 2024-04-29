@@ -1,0 +1,27 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 4,
+    "fluxVents": 5,
+    "goalVariant": false,
+    "hullId": "rat_genesis_serpent_system",
+    "hullMods": [
+        "fluxbreakers",
+        "heavyarmor",
+        "targetingunit",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "rat_genesis_serpent_system_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "rat_cecaelia",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

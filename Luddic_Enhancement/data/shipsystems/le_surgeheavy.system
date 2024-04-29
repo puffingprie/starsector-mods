@@ -1,0 +1,27 @@
+{
+    "id":"le_surgeheavy",
+    "type":"ENGINE_MOD",
+    "aiType":"BURN_DRIVE",
+
+    "statsScript":"data.shipsystems.LE_SurgeHeavyDriveStats",
+
+	"engineGlowLengthMult":3,
+	"engineGlowWidthMult":1.5,
+	"engineGlowGlowMult":3,
+
+    "flameoutOnImpactChance":0.3,
+
+    "clampTurnRateAfter":true,
+    "clampMaxSpeedAfter":true,
+    "alwaysAccelerate":true,
+	
+	"useSound":"system_plasma_burn",
+	"loopSound":"system_plasma_burn_loop",
+	"outOfUsesSound":"engine_disabled",
+
+    "aiHints":{
+        "activeSpeedIncrease":300,
+        "burstMovementPotential":0,
+        "averageSpeedIncrease":60,
+    }
+}

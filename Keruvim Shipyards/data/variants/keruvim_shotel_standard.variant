@@ -1,0 +1,32 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 10,
+  "fluxVents": 6,
+  "goalVariant": true,
+  "hullId": "keruvim_shotel",
+  "hullMods": [
+    "insulatedengine"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "keruvim_shotel_standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "keruvim_star"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "keruvim_blast_gun",
+        "WS0002": "heavyac"
+      }
+    }
+  ],
+  "wings": []
+}

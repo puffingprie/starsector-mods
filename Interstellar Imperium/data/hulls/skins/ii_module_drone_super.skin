@@ -1,0 +1,15 @@
+{
+	"baseHullId":"ii_module_drone",
+	"skinHullId":"ii_module_drone_super",
+	"descriptionPrefix":"Features additional, upgraded Tribunal drones.",
+	"restoreToBaseHull":true,
+	"hullDesignation":"Shock Drone Launcher",
+	"systemId":"ii_drone_station_super",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":[],
+	"builtInWeapons":{
+    },
+}

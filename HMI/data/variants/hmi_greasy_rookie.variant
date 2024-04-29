@@ -1,0 +1,48 @@
+{
+  "variantId": "hmi_greasy_rookie",
+  "hullId": "hmi_greasy",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 10,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "frontshield",
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "sml_shotgrun",
+        "WS0003": "sml_shotgrun",
+        "WS0004": "ioncannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "swarmer",
+        "WS0006": "swarmer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "lightmg",
+        "WS0007": "flak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

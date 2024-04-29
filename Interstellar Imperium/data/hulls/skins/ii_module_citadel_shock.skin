@@ -1,0 +1,15 @@
+{
+	"baseHullId":"ii_module_citadel",
+	"skinHullId":"ii_module_citadel_shock",
+	"descriptionPrefix":"Equipped with a station-grade Shock Buster system.",
+	"restoreToBaseHull":true,
+	"hullDesignation":"Shock Beam Bastion",
+	"systemId":"ii_shockbuster_station",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":[],
+	"builtInWeapons":{
+    },
+}

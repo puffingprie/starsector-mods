@@ -1,0 +1,25 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "mess_remnant_shield2",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0.5,
+  "variantId": "mess_remnant_shield2_Standard",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "guardian",
+        "WS 002": "guardian"
+      }
+    }
+  ],
+  "wings": [
+    "mess_spark_wing"
+  ]
+}

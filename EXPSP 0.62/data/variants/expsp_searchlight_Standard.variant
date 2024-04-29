@@ -1,0 +1,56 @@
+{
+  "variantId": "expsp_searchlight_Standard",
+  "hullId": "expsp_searchlight",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 26,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "frontemitter",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "expsp_plinker",
+        "WS0004": "expsp_plinker",
+        "WS0007": "expsp_railcannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "expsp_beacon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_coilciws",
+        "WS0002": "expsp_coilciws",
+        "WS0005": "expsp_coilciws",
+        "WS0006": "expsp_coilciws"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "expsp_glance_wing"
+  ]
+}

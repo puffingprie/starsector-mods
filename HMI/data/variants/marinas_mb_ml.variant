@@ -1,0 +1,49 @@
+{
+  "variantId": "marinas_mb_ml",
+  "hullId": "marinas",
+  "displayName": "Mining",
+  "goalVariant": false,
+  "fluxCapacitors": 16,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [
+    "hardenedshieldemitter",
+    "extendedshieldemitter",
+    "advancedshieldemitter"
+  ],
+  "hullMods": [
+    "advancedoptics",
+    "hmi_miningHSA"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "hmi_mininglaser_array"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mininglaser",
+        "WS0002": "mininglaser",
+        "WS0003": "mininglaser",
+        "WS0004": "mininglaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "burst_ml",
+        "WS0006": "burst_ml",
+        "WS0007": "burst_ml",
+        "WS0008": "burst_ml"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

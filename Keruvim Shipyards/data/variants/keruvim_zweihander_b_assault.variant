@@ -1,0 +1,51 @@
+{
+  "displayName": "Assault",
+  "fluxCapacitors": 18,
+  "fluxVents": 8,
+  "goalVariant": true,
+  "hullId": "keruvim_zweihander_b",
+  "hullMods": [
+    "unstable_injector",
+    "insulatedengine"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "keruvim_zweihander_b_assault",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "reaper",
+        "WS0004": "reaper"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "keruvim_blast_gun",
+        "WS0007": "keruvim_blast_gun",
+        "WS0009": "mark9"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "keruvim_gust",
+        "WS0002": "keruvim_gust"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "keruvim_needle",
+        "WS0008": "keruvim_needle"
+      }
+    }
+  ],
+  "wings": []
+}

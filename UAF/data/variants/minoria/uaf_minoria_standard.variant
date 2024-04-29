@@ -1,0 +1,32 @@
+{
+  "variantId": "uaf_minoria_standard",
+  "hullId": "uaf_minoria",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "recovery_shuttles",
+    "pointdefenseai",
+    "auxiliarythrusters",
+    "ecm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_pd_reina",
+        "WS0002": "uaf_pd_reina"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_aria",
+    "uaf_wing_exoscar"
+  ]
+}

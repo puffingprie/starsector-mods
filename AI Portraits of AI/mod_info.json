@@ -1,0 +1,8 @@
+{
+	"id":"aiportraitsofai", # internal id
+	"name":"AI Portraits of AI", # displayed to the player
+	"author":"mori",
+	"version":"1.0",
+	"description":"Stable Diffusion portraits of AI cores as humans using the Starsector Portrait model.",
+	"gameVersion":"0.95.1a-RC6",
+}

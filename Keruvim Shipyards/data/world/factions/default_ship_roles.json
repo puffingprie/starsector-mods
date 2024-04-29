@@ -1,0 +1,115 @@
+{
+
+"combatSmall":{
+		"keruvim_axe_b_sniper":10,
+		"keruvim_axe_b_support":10,
+		"keruvim_axe_b_assault":10,
+		"keruvim_flamberge_assault":10,
+		"keruvim_flamberge_standard":10,
+		"keruvim_bouncer_standard":10,
+		"keruvim_flail_assault":7,
+		"keruvim_flail_standard":10,
+		"keruvim_shotel_standard":10,
+		"keruvim_shotel_lgbt_standard":5,
+		"keruvim_brawler_xiv_standard":5,
+		"keruvim_shotel_sniper":10,
+	},
+
+	"freighterSmall":{
+		"keruvim_stallion_standard":10,
+		"keruvim_stallion_assault":6,
+		"keruvim_stallion_support":5,
+	},
+
+	"combatFreighterSmall":{
+		"keruvim_stallion_standard":10,
+		"keruvim_stallion_assault":6,
+		"keruvim_stallion_support":5,
+	},
+
+
+
+"carrierSmall":{
+		"keruvim_buccaneer_standard":9,
+		"keruvim_buccaneer_support":8,
+		"keruvim_axe_a_strike":10,
+		"keruvim_axe_lgbt_standard":5,
+		"keruvim_axe_a_support":10,
+		"keruvim_zweihander_a_standard":10,
+		"keruvim_zweihander_lgbt_standard":5,
+		"keruvim_zweihander_a_sniper":10,
+	},
+
+"combatMedium":{
+		"keruvim_culverin_assault":10, 
+		"keruvim_culverin_support":10, 
+		"keruvim_culverin_lgbt_standard":5, 
+		"keruvim_mortar_assault":9,
+		"keruvim_mortar_standard":10,
+		"keruvim_mortar_support":9,
+		"keruvim_zweihander_a_standard":10,
+		"keruvim_zweihander_a_sniper":10,
+		"keruvim_zweihander_b_sniper":10,
+		"keruvim_zweihander_b_assault":10,
+		"keruvim_zweihander_p_standard":10,
+		"keruvim_zweihander_p_assault":10,
+		"keruvim_rapier_standard":10,
+		"keruvim_rapier_assault":10,
+	},
+
+
+
+"combatFreighterMedium":{
+		"keruvim_carrion_standard":10,
+
+	},
+
+
+	"carrierMedium":{
+		"keruvim_chariot_a_support":10,
+		"keruvim_chariot_a_assault":5,
+		"keruvim_chariot_a_strike":6,
+	},
+
+
+"combatLarge":{
+		"keruvim_brute_assault":10,
+		"keruvim_brute_standard":10,
+		"keruvim_cudgel_standard":10,
+		"keruvim_cudgel_runner":10,
+		"keruvim_glaive_lgbt_standard":5,
+		"keruvim_glaive_standard":10,
+		"keruvim_glaive_sniper":10,
+		"keruvim_chariot_b_standard":10,
+		"keruvim_chariot_b_lgbt_standard":10,
+		"keruvim_chariot_b_assault":5,
+		"keruvim_chariot_b_sniper":5,
+		"keruvim_morgenstern_standard":10,
+		"keruvim_catapult_standard":10,
+		"keruvim_catapult_support":5,
+		"keruvim_morgenstern_assault":5,
+
+	},
+
+	"carrierLarge":{
+		"keruvim_empress_strike":10,
+		"keruvim_empress_support":10,
+	},
+
+	"combatFreighterLarge":{
+		"keruvim_quarry_standard":10,
+		"keruvim_quarry_assault":5,
+	},
+
+
+
+"combatCapital":{
+		"keruvim_duchess_sniper":10,
+		"keruvim_duchess_assault":10,
+		"keruvim_empress_strike":5,
+		"keruvim_empress_support":7,
+		"keruvim_bastion_standard":10,
+		"keruvim_paragon_p_elite":5,
+		"keruvim_paragon_p_standard":10,
+	},
+ }

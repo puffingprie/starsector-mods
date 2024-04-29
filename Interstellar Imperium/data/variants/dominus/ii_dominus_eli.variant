@@ -1,0 +1,75 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 15,
+    "fluxVents": 16,
+    "goalVariant": true,
+    "hullId": "ii_dominus",
+    "hullMods": [
+        "ii_elite_package",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "ii_dominus_eli",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ii_triplepbc"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "typhoon",
+                "WS0007": "typhoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "ioncannon",
+                "WS0009": "ioncannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "ii_particlecannon",
+                "WS0011": "ii_particlecannon",
+                "WS0012": "ii_particlecannon",
+                "WS0013": "ii_particlecannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "ii_heavypulselaser",
+                "WS0003": "ii_heavypulselaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "ii_sagittarius",
+                "WS0005": "ii_sagittarius"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0014": "vulcan",
+                "WS0015": "vulcan"
+            }
+        }
+    ],
+    "wings": [
+        "ii_scutum_wing",
+        "ii_scutum_wing"
+    ]
+}

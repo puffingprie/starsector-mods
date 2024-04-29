@@ -1,0 +1,22 @@
+{
+  "variantId": "sv_ultimafighter",
+  "hullId": "sv_ultimadrone",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sv_ultimaspam"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,4 @@
+commodity,group,freq
+item_modspec:hmi_subliminal,hmi_ctrl_mod,1000
+item_industry_bp:HMI_mindcontrol,hmi_ctrl_ind,1000
+gamma_core,hmi_ctrl_cores,1000

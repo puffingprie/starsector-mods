@@ -1,0 +1,72 @@
+{
+  "variantId": "sv_barrel_standerd",
+  "hullId": "sv_barrel",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 1,
+  "fluxVents": 18,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "sv_zweihander_large",
+        "WS0012": "sv_zweihander_large"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "sv_daneaxe",
+        "WS0010": "sv_daneaxe",
+        "WS0013": "sv_doorknocker",
+        "WS0014": "sv_doorknocker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "salamanderpod",
+        "WS0002": "salamanderpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sv_flyswatter",
+        "WS0004": "sv_flyswatter",
+        "WS0005": "sv_flyswatter",
+        "WS0006": "sv_flyswatter",
+        "WS0007": "sv_flyswatter",
+        "WS0008": "sv_flyswatter",
+        "WS0015": "sv_rustybarrellauncher",
+        "WS0016": "sv_rustybarrellauncher"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

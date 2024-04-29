@@ -1,0 +1,31 @@
+{
+  "variantId": "mess_buffalo_breach",
+  "hullId": "mess_buffalo",
+  "displayName": "Breach",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "breachpod",
+        "WS0002": "breach",
+        "WS0003": "breach",
+        "WS0004": "breach",
+        "WS0005": "breach",
+        "WS0006": "breach",
+        "WS0007": "breach"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

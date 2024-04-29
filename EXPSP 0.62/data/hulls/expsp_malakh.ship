@@ -1,0 +1,161 @@
+{
+  "hullName": "Malakh",
+  "hullId": "expsp_malakh",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/expsp_malakh.png",
+  "style": "EXPSP_MVS",
+  "height": 96,
+  "width": 98,
+  "center": [49, 46],
+  "collisionRadius": 73,
+  "shieldCenter": [-3.5, -0],
+  "shieldRadius": 62.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "machinatargetingsystems",
+    "expsp_interceptorfocus"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [17, 33]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [17, -33]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 90,
+      "locations": [0, 16]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -90,
+      "locations": [0, -16]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -3.5, 9,
+        -4, -7.5,
+        -4, -7.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-32.5, 9],
+      "length": 30,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-32.5, -9],
+      "length": 30,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-33.5, 13.5],
+      "length": 25,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-33.5, -13.5],
+      "length": 25,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-32, 18.5],
+      "length": 25,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-32, -18.5],
+      "length": 25,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-30.5, 23],
+      "length": 25,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-30.5, -23],
+      "length": 25,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    }
+  ],
+  "bounds": [
+    -15.5, -28,
+    -3, -37,
+    -3, -37,
+    10.5, -26,
+    41.5, -17.5,
+    41.5, 17.5,
+    10.5, 26,
+    -3, 37,
+    -3, 37,
+    -15.5, 28,
+    -37, 25.5,
+    -40, 12.5,
+    -36, 5,
+    -36, -5,
+    -40, -12.5,
+    -37, -25.5
+  ]
+}

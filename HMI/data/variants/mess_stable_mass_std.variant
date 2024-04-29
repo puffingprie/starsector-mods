@@ -1,0 +1,25 @@
+{
+  "variantId": "mess_stable_mass_std",
+  "hullId": "mess_stable_mass",
+  "displayName": "Hazardous",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "feeder_gun",
+        "WS0002": "feeder_gun",
+        "WS0003": "feeder_gun",
+        "WS0004": "feeder_gun"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

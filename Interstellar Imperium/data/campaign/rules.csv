@@ -1,0 +1,550 @@
+id,trigger,conditions,script,text,options,notes
+greetingIIFriendly,OpenCommLink,"$faction.id == interstellarimperium
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Communication established. Greetings, comrade, and glory to the Imperium! What news do you have?""
+OR
+The Imperial $personRank smiles and animatedly salutes you. ""Ah, greetings from the Interstellar Armada.""
+OR
+""Long live the Emperor! Well met! I trust things have been going well?""",,
+greetingIIHostileWeaker,OpenCommLink,"$faction.id == interstellarimperium
+$entity.isHostile
+$entity.relativeStrength < 0",$ignorePlayerCommRequests = true 1,"The comms-line crackles for a while before an angry Imperial $personRank appears onscreen. ""Surrender now! Even if you manage to win this paltry battle, the Interstellar Imperium shall not suffer you much longer.""
+OR
+""You would pursue us while we retreat, cretin? The Imperium shall not forgive your treachery!""
+OR
+""P-please, just let my men live! Think of their families! I beg of you!""",cutCommLink:Cut the comm link,
+greetingIIHostileWeakerDefiant,OpenCommLink,"$faction.id == interstellarimperium
+$entity.isHostile
+$entity.relativeStrength < 0
+$entity.weakerThanPlayerButHolding",$ignorePlayerCommRequests = true 1,"The Imperial $personRank shoots you a defiant glare. ""Even if this fleet must fall, the Imperium shall never surrender! Glory to the Imperium!"" The comms-line abruptly cuts to static.
+OR
+The Imperial seal, stark red-on-black, appears on comms. ""Long live the Emperor! Glory to the Imperium!""
+OR
+""The Imperium smiles upon me! My comrades shall drink to my valor! Even in death, I will be victorious! Minerva, guide us to glory!""",cutCommLink:Cut the comm link,
+greetingIIHostileStronger,OpenCommLink,"$faction.id == interstellarimperium
+$entity.isHostile
+$entity.relativeStrength >= 0",$ignorePlayerCommRequests = true 1,"The Imperial $personRank waves $hisOrHer hand at you dismissively. ""You will be crushed beneath the heel of our great Imperium. Your pathetic supplications shall not save you, worm.""
+OR
+""Soon you shall experience the full power of the Interstellar Armada."" The $personRank grins maliciously. ""Your feeble forces are no match for our glorious might! Long live the Emperor!""
+OR
+The Imperial $personRank glares at you for a moment before the comms-line cuts to an image of the Imperial seal.
+OR
+""Your false gods and failed ideologies have led you to this fate. Your demise has been ordained by Minerva herself! Glory to the Imperium!"" The $personRank laughs magnanimously before the comms-line cuts out.",cutCommLink:Cut the comm link,
+greetingIINeutral,OpenCommLink,"$faction.id == interstellarimperium
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Communication established. You have contacted the Interstellar Armada. Stay out of trouble, and glory to the Imperium.""
+OR
+A well-dressed $personRank addresses you from behind an ornate command podium. ""Is there an incident to report? I hope this isn't a waste of the glorious Imperium's time.""
+OR
+""I, $personRank of this glorious Imperial fleet, greet you in the name of our great society. What do you ask of the Imperium?""",,
+,,,,,,
+relLevelCooperativeII,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
+$faction.id == interstellarimperium",FireAll RelLevelMoreDescription,"The Pantheon itself has singled you out for praise, holding you up as an exemplar of the Interstellar Imperium. The universe bends to your convenience - or at least it seems that way when you're on Imperial worlds. Local patrols and military forces are almost reverent of your favored position.",,
+relLevelFriendlyII,RelationshipLevelDesc,"$faction.rel == FRIENDLY
+$faction.id == interstellarimperium",FireAll RelLevelMoreDescription,"Senior officers of the Interstellar Armada are familiar with your name. Local patrols and military forces go out of their way to make sure things go smoothly for you. Your life is inexplicably easier whenever you are on an Imperial world - trams are always on time, queues are short, and the best accomodations are always available, to name a few.",,
+relLevelWelcomingII,RelationshipLevelDesc,"$faction.rel == WELCOMING
+$faction.id == interstellarimperium",FireAll RelLevelMoreDescription,"Despite your lack of natural birth on an Imperial planet, you are seen as a citizen of the Interstellar Imperium. Your reputation affords preferential treatment, so you get to enjoy the perks normally reserved for active and retired military personnel.",,
+relLevelFavorableII,RelationshipLevelDesc,"$faction.rel == FAVORABLE
+$faction.id == interstellarimperium",FireAll RelLevelMoreDescription,"The Interstellar Imperium sees you as a slightly trusted foreigner. Though you are still seen as an ""other"", you are treated cordially by local military forces and generally trusted to keep out of trouble. You can generally expect to be treated much as any spacer would.",,
+relLevelNeutralII,RelationshipLevelDesc,"$faction.rel == NEUTRAL
+$faction.id == interstellarimperium",FireAll RelLevelMoreDescription,"You are a non-entity in the watchful eyes of the Interstellar Imperium. You can conduct business on Imperial worlds without consequence, although you will be inconvenienced by the preferential treatment afforded to natural citizens of the Imperium - queues will take longer, first-class tram seats will usually be sold out, and so forth.",,
+relLevelSuspiciousII,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
+$faction.id == interstellarimperium",FireAll RelLevelMoreDescription,"The Interstellar Imperium eyes you with suspicion. Although you can still access Imperial worlds, your life is made difficult in numerous subtle ways. Transactions will be declined, doors will suddenly close right in front of you, and your wine will be stale, to name a few of the myriad inexplicable annoyances you will put up with.",,
+relLevelInhospitableII,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
+$faction.id == interstellarimperium",FireAll RelLevelMoreDescription,"You are not welcome within the Interstellar Imperium. Any rights that the average spacer could expect within Imperial space are revoked for you. Imperial ports will surely deny docking clearance, and patrols are likely to harass you until you leave.",,
+relLevelHostileII,RelationshipLevelDesc,"$faction.rel == HOSTILE
+$faction.id == interstellarimperium",FireAll RelLevelMoreDescription,"You are a known hostile entity in the eyes of the Interstellar Imperium. The Interstellar Armada has fire-at-will authorization to destroy your fleet, and every Imperial world has been given a broad prohibition against dealing with you.",,
+relLevelVengefulII,RelationshipLevelDesc,"$faction.rel == VENGEFUL
+$faction.id == interstellarimperium",FireAll RelLevelMoreDescription,The Pantheon itself has singled you out for elimination. The Interstellar Armada will doggedly pursue your destruction. Your mere presence near an Imperial world is enough to automatically trigger emergency broadcasts detailing (and often exaggerating) your crimes.,,
+,,,,,,
+flavorTextMarketII,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == interstellarimperium","AddText ""The hustle and bustle of trader star-craft and patrol ships fills the docks. The port concourse is lined by armored soldiers bearing insignias of the Golden Legion, standing perfectly still at neatly-spaced intervals. Docking ship crews purposefully march to the bustling market plaza after stopping at a rather overbuilt security checkpoint."" marketFlavorTextColor
+AddText ""Upon a large dais in the center of the plaza stands an impressive statue of Emperor Colligus I, forged with brass and gold. Circling the dais is a cluster of stately flags, each depicting a long-inaccessible arm of the pre-Collapse Imperium."" marketFlavorTextColor",,,
+flavorTextMarketIISmall,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == interstellarimperium
+$market.size < 4","AddText ""The occasional trader star-craft and patrol ship makes its way through the dock, breaking the monotony of portside commerce. The port concourse is lined by armored soldiers bearing insignias of the Golden Legion, snapping to attention when the occasional passerby comes through. Docking ship crews purposefully proceed to the market plaza after being searched at the security checkpoint."" marketFlavorTextColor",,,
+flavorTextMarketIIBabylon,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == interstellarimperium
+$market.id == ii_byzantium
+$id == ii_babylon","AddText ""Imperial Guard patrol craft swoop by, visible through the large propaganda displays that seem to be a universal 'amenity' of Babylon, an ever-present symbol of the Imperium's authority. Matching docking ports on the outer ring lead inward to the Interstellar Bazaar, a veritable city of commerce. Kilometers of shops, business offices, storehouses, apartments, embassies, and all manner of attractions and venues are scattered across this enormous sector of Babylon. Close to a million spacers make their lives at Babylon, the Jewel of the Imperium."" marketFlavorTextColor
+AddText ""Primly uniformed cadets march down a hall nearby, trailing behind a decorated Imperial Guard officer. Clearly an instructor of some sort, the officer continually barks propaganda and tidbits of sage advice, to which the cadets nod eagerly. Despite this, the Imperial Academy is known to accept only the best and the brightest candidates, often hand-picked by Minerva; most other citizens serve less glamorous - but just as demanding - positions elsewhere in the Imperium."" marketFlavorTextColor",,,
+flavorTextMarketIIByzantium,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == interstellarimperium
+$market.id == ii_byzantium
+$id == ii_byzantium","AddText ""Portum Centralis is the oft-overlooked companion port to Babylon; as the popular bit of bar trivia states, this bustling complex is the busiest star-port in the Persean Sector. Even the grand ports of Chicomoztoc don't quite compare, as Byzantium's unique land-limited geography forced planners to centralize off-world trade in a single nexus of madness. The cacophony is incredible; your clothes flap around in winds caused entirely by distant sonic booms of countless transports arriving and departing, and the unflinching guards resemble faceless automatons, heads covered in heavy helmets designed to drown out the noise."" marketFlavorTextColor
+AddText ""Military drills take place nearby at all hours of the day, a single bastion of order in the face of pandemonium. Minerva's grip is felt most strongly here, where military service is mandatory and a citizen's rights and privileges are determined by rank. In the distance, you see a large decimation platform, thankfully occupied only by cowards' pillories this time."" marketFlavorTextColor",,,
+flavorTextMarketIINovaCapitalis,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == interstellarimperium
+$market.id == ii_nova_capitalis","AddText ""In the industrial sectors around the market, huge convoys of ores, metals, and other manufacturing resources are ferried from place to place, the network of grav-trams and legion of robotic drones controlled by Vulcan with exacting efficiency. The market district itself is a city-sized industrial park housed under a gold-plated domelike megastructure, the entire enormous complex surrounded by skyscraper defense cannons bathed in the artificial red glow of the planetary shield. Bored soldiers mill about and chatter about the latest gossip, unconcerned with security under so many layers of protection."" marketFlavorTextColor
+AddText ""In the distance, an enormous golden monument overlooks the entire capital city. Its central grandiosity commands attention, as if its creator wants his work to be witnessed by the masses abound. Within that great hexagonal tower is Vulcan's holy sanctum, as well as the capitol suite where Emperor Victus II and his Council of Advisors dictate the Imperium's next big moves."" marketFlavorTextColor",,,
+flavorTextMarketIIAleria,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == interstellarimperium
+$market.id == ii_aleria","AddText ""Aleria is a place unlike any other in the Imperium. Despite everything you've heard about the work conditions here, the general mood seems remarkably carefree past the heavily-fortified security checkpoint. Disgraced citizens lounge in comfort, sipping cold drinks as the next group of shackled prisoners is hustled through the concourse. Vid-screens, rather than displaying flight schedules and news feeds, show a variety of entertainment shows from throughout the sector. Even the guards - ex-cons themselves - seem to be relaxed and carefree."" marketFlavorTextColor
+AddText ""Outside, enormous fire-scarred platforms descend toward and rise from the surface of Aleria, carrying passengers and industrial materials for processing and export. Conditions are truly hellish on the planet's surface, but life is easy topside. A delicate work-life balance, to be sure."" marketFlavorTextColor",,,
+bar_descII,BarPrintDesc,$faction.id == interstellarimperium,ShowImageVisual space_bar,"As you enter into a well-trafficked bar, you're stuck by an aura of generic regularity. Signage, menus, and prices are all standardized, but few of the locals bother to complain, content to enjoy their daily selections. Admittedly, the food and drink on offer is quite good, if somewhat lacking in ""soul"". Off-duty soldiers, merchant-captains, and dockworkers mingle amicably while a stiff-but-efficient waiting staff tends to each patron.",,
+bar_descIIBabylon,BarPrintDesc,"$faction.id == interstellarimperium
+$market.id == ii_byzantium
+$id == ii_babylon",ShowImageVisual space_bar,"Babylon is famous for its bar scene, and it's not difficult to understand why. Upon walking inside, it's like walking into a portal to another world. Advanced holo-projectors and atmospheric environment units simulate the experience of walking along a boardwalk on a sandy beach. You can taste the saline mist in the air as a scantily-clad waitress offers you a selection of cocktails, each no doubt priced exorbitantly. A riotous group of fresh-faced, straight-laced officers-to-be carouses nearby, loudly encouraging stories from the well-traveled business clientele. Imperial Academy cadets are apparently compensated quite well.",,
+bar_descIIByzantium,BarPrintDesc,"$faction.id == interstellarimperium
+$market.id == ii_byzantium
+$id == ii_byzantium",ShowImageVisual space_bar,"As you wander into one of Byzantium's portside bars, you find yourself immersed within an overwhelming atmosphere of patriotism. Unit banners, propaganda slogans, and recruitment posters hang upon the walls next to ""portraits of honor"" - dramatized accountings of the month's most heroic individuals - in all their nationalistic glory. The local drafts are all themed after famous battles the Imperium has been involved with, notably lacking any of the battles they lost, and you notice even the off-worlders playing into the pro-Imperial revelry. You have a feeling that openly dissenting would be a profoundly unwise decision.",,
+bar_descIINovaCapitalis,BarPrintDesc,"$faction.id == interstellarimperium
+$market.id == ii_nova_capitalis",ShowImageVisual space_bar,"You find your way into a room dominated by oppressive geometries, juxtaposed with the welcoming taps of beer upon the opposite wall. Vulcan architecture is difficult to get used to and dangerous to complain about - the eccentric AI god does not tolerate the ungrateful. Off-duty miners and robotics technicians lounge about on prismatic recliners arranged in a tessellating pattern, enjoying the latest drafts. A single frazzled security guard patrols the bar, scooting chairs into their correct positions with exacting precision, not paying much attention to the actual patrons.",,
+bar_descIIAleria,BarPrintDesc,"$faction.id == interstellarimperium
+$market.id == ii_aleria",ShowImageVisual space_bar,"Looking like a high-end coffee lounge rather than a hard-boiled miner's pub, this ""bar"" captures the quintessence of Alera. Divine influence is felt strongly here: there are no menus or waitresses; rather, you are served according to Justitia's whims, ostensibly receiving what you need rather than what you want. The locals swear that the AI goddess is looking out for them, but whispered warnings not to cross her put you on edge. Prisoners engage in fine dining alongside merchants and soldiers, seemingly content with their lot in life. Truly a gilded cage.",,
+,,,,,,
+#shrineVisitII,DialogOptionSelected,"$option == shrineVisit
+$id == ii_saltus_divinus","SetShortcut shrineLeave ""ESCAPE""","The attendant receives your request with only the subtlest disapproval. To your surprise, a subcurate approaches to escort you to the shrine's viewing chamber.
+
+A vast, brightly-lit transparent dome greets you, allowing a full view of Saltus Divinus' glorious natural habitat. Here, pilgrims quietly contemplate the miracle of Creation, taking in the vivacious beauty of nature. Lush greenery and exotic alien animals, large and small, thrive all around you.
+
+After a time, you return to your ship.",shrineLeave:Leave,
+,,,,,,
+aiCores_turnInOptionSelImperium,DialogOptionSelected,"$option == aiCores_startTurnIn
+$faction.id == interstellarimperium",FireAll PopulateCoresTurnInOptions,"""As the Imperium is not treaty-bound to destroy that AI core in your possession, we are more than willing to reward you for releasing it to us. Each one shall be put to use serving our glorious society."" The $personRank smiles grimly and whispers conspiratorially. ""I'm sure *they* will be thankful if you return one of their treasured brethren to the Imperium...""",,
+aiCores_turnInResponseImperium,AICoresTurnedIn,$faction.id == interstellarimperium,FireAll PopulateOptions,"""Glory to the Imperium!"" $PersonRank $personLastName gives you a stiff salute and thanks you for your loyalty to the Imperium before moving on to other matters.",,
+,,,,,,
+# Imperium commission,,,,,,
+CMSNTextRejectHostile_imperium,CMSNTextRejectHostile,$faction.id == interstellarimperium,,"""Are you mad? If you are who you say you are, you're wanted dead in Imperial space. I shall report this conversation to the Inquisitors posthaste. Begone!""",,
+CMSNTextHasOther_imperium,CMSNTextHasOther,$faction.id == interstellarimperium,,"""The Imperium will not consider commissioning one whose loyalties belong elsewhere. Resign your commission with $theOtherCommissionFaction if you truly wish to join this grand nation.""",,
+CMSNTextUnsuited_imperium,CMSNTextUnsuited,$faction.id == interstellarimperium,,"""Hm."" The $personRank squints, staring at you with a severe expression.
+
+""The Imperium finds your loyalties lacking for the high honor of commissioned service. You must first prove yourself worthy of such distinction.""",,
+CMSNTextSuitedPart1_imperium,CMSNTextSuitedPart1,$faction.id == interstellarimperium,,"""Hm."" The $personRank squints, staring at you with an appraising expression.
+
+""I suppose that your capabilities and disposition are... suitable for the role you seek. The Imperium extends an offer to commission you and your fleet as an auxiliary extension of the Interstellar Armada.
+
+""Accepting this commission is a serious matter. You must pledge yourself to the Interstellar Imperium and uphold our strict code of ethics. You will carry our banner into battle in the name of Emperor Victus II. Above all, you will be required to fight our enemies, wherever they may be found.
+
+""This type of service to the Imperium is voluntary. You shall retain the right to resign your commission at any time, although you would be foolish to so scorn our generosity.""",,
+CMSNTextSuitedPart2_imperium,CMSNTextSuitedPart2,$faction.id == interstellarimperium,,"""Are you prepared to make this commitment for the Imperium?""",,
+CMSNTextWelcomePart1_imperium,CMSNTextWelcomePart1,$faction.id == interstellarimperium,,"""It is done. Glory to the Imperium!""
+
+Belatedly, $heOrShe adds, ""congratulations, captain.""",,
+CMSNTextWelcomePart2_imperium,CMSNTextWelcomePart2,$faction.id == interstellarimperium,,"""Is there any other matter to attend?""",,
+CMSNTextChangeMind_imperium,CMSNTextChangeMind,$faction.id == interstellarimperium,,"""A shame. The demands put upon those who take up the Imperial flag are many. Few have the character and strength of will to take up such a burden.
+
+""Anything else I can do for you?""",,
+CMSNResignAskToConfirm_imperium,CMSNResignAskToConfirm,$faction.id == interstellarimperium,,"""Service to the Interstellar Imperium is a high honor that many would do anything in their power to retain.""
+
+The $personRank gives you a piercing stare. ""Surely I must have misheard you, captain.""",,
+CMSNResignConfirmed_imperium,CMSNResignConfirmed,$faction.id == interstellarimperium,,"""So be it. Your lack of loyalty will not be forgotten.""",,
+CMSNResignCancelled_imperium,CMSNResignCancelled,$faction.id == interstellarimperium,,"""I thought so.""",,
+,,,,,,
+# Military options additions,,,,,,
+IIMarketHostileSel,DialogOptionSelected,"$option == marketConsiderHostile
+II_NotNex
+II_TitanStrikeAvailable score:10000",II_TitanStrike showDefenses,,,
+IITitanStrikeMenuSel,DialogOptionSelected,$option == iiTitanStrikeMenu,II_TitanStrike iiTitanStrikeMenu,,,
+IITitanStrikeGoBackSel,DialogOptionSelected,$option == iiTitanStrikeGoBack,II_TitanStrike goBackToDefenses,,,
+IITitanStrikeGoBackSelNex,DialogOptionSelected,"$option == iiTitanStrikeGoBack
+!II_NotNex score:10","$option = mktBombardGoBack
+FireBest DialogOptionSelected",,,
+IITitanStrikeConfirmSel,DialogOptionSelected,$option == iiTitanStrikeConfirm,II_TitanStrike iiTitanStrikeConfirm,,,
+IITitanStrikeResultSelt,DialogOptionSelected,$option == iiTitanStrikeResult,II_TitanStrike iiTitanStrikeResult,,,
+IIMarketHostileRaidGoBackSel,DialogOptionSelected,"$option == mktRaidGoBack
+II_NotNex
+II_TitanStrikeAvailable score:10000",II_TitanStrike goBackToDefenses,,,
+IIMarketHostileBombardGoBackSel,DialogOptionSelected,"$option == mktBombardGoBack
+II_NotNex
+II_TitanStrikeAvailable score:10000",II_TitanStrike goBackToDefenses,,,
+IINexTitanStrikeFollowup,NexPostShowDefenses,II_TitanStrikeAvailable,II_TitanStrike showDefenses,,,
+,,,,,,
+IIUnstableGateOpenDialog,OpenInteractionDialog,$tag:ii_ex_vis_gate,"ShowDefaultVisual
+FireAll IIPopulateUnstableGateOptions","A faintly humming ring of adamantine material, derelict of a former age.
+
+The Gate is nearly inert, save for a low thrum of inscrutable power that seems to resonate with the vortex of hostile terrain surrounding you.",,
+IIUnstableGateOpenDialogCanScan1,OpenInteractionDialog,"$tag:ii_ex_vis_gate
+$global.canScanGates
+!$global.gatesActive
+!$gateScanned","ShowDefaultVisual
+FireAll IIPopulateUnstableGateOptions","A faintly humming ring of adamantine material, derelict of a former age.
+
+Your sensors officer looks concerned when you give the cue. Your command interface lights up with an array of flashing red lights. 'SCAN ERROR' blinks at you incessently. Well, it was worth a shot.",,
+IIUnstableGateOpenDialogCanScan2,OpenInteractionDialog,"$tag:ii_ex_vis_gate
+$global.canScanGates
+$global.gatesActive
+!$gateScanned","ShowDefaultVisual
+FireAll IIPopulateUnstableGateOptions","A faintly humming ring of adamantine material, derelict of a former age.
+
+Your sensors officer reports that the hyperwave scanner is refusing to cooperate. The words 'SCAN ERROR' blink incessantly in your command interface.
+
+You cannot use this Gate with the Janus Device. Evidently, it is too unstable to use as an access or egress point from the rest of the Gate network.",,
+IIUnstableGateFlyThrough,DialogOptionSelected,$option == iiUnstableGateFlyThrough,"$flewThrough = true 0
+FireAll IIPopulateUnstableGateOptions","You order your $shipOrFleet to traverse the mostly-dead gateway. Your bridge crew is especially quiet during the passage.
+
+You notice a low hum, just at the edge of audibility, right as you cross the threshold. Nothing else happens.",,
+IIUnstableGateFlyThroughOpt,IIPopulateUnstableGateOptions,"!$flewThrough
+!$global.gatesActive
+!$gateExploded",,,5:iiUnstableGateFlyThrough:Fly through the Gate,
+IIUnstableGateLeaveOpt,IIPopulateUnstableGateOptions,,,,100:defaultLeave:Leave,
+,,,,,,
+PKGiveToImperium,PopulateOptions,"$isPerson
+!$player.turnedInPlanetkiller
+PlayerHasCargo planetkiller
+PK_CMD rightPostToAcceptPK
+$id != ii_minerva
+$id != ii_vulcan
+$id != ii_justitia
+!$player.threatenedImperiumPK
+$personFaction.id == interstellarimperium",,,"pk_turnInImperium:""I'd like to discuss planetkiller weapons.""",
+pk_turnInImperiumSelNope,DialogOptionSelected,"$option == pk_turnInImperium
+!$person.askedAboutPKImperium
+$market.id == ii_aleria score:100","$temporarilyIgnoreYou = true 1
+EndConversation DO_NOT_FIRE","$PersonRank $personLastName's eyes widen in horror. The Imperium $post suddenly looks very nervous while $heOrShe checks in every direction, as if to ensure that nobody is eavesdropping. ""Speak nothing of this. Not here. Anywhere but here. Goodbye.""
+
+Before you have a chance to say anything, $personLastName has already cut the comm link.",cutCommLinkNoText:Leave,
+pk_turnInImperiumSel,DialogOptionSelected,"$option == pk_turnInImperium
+!$person.askedAboutPKImperium
+!II_TitanStrikeAvailable",,"$PersonRank $personLastName draws back, $hisOrHer expression darkly serious. ""By Doctrina Securitatis mandate, I shall not discuss any details of the Titan Project - certainly not with an unaffiliated entity such as yourself. This conversation is over.""","pk_turnInImperium2:""You misunderstand; I've found a Domain planetkiller weapon.""
+pk_turnInImperiumAbortEarly:""Understandable. Never mind, then.""",
+pk_turnInImperiumSelComm,DialogOptionSelected,"$option == pk_turnInImperium
+$player.fcm_faction == interstellarimperium score:10
+!$person.askedAboutPKImperium
+!II_TitanStrikeAvailable",,"$PersonRank $personLastName draws back, $hisOrHer expression conveying concern. ""Doctrina Securitatis mandate forbids me from discussing any details of the Titan Project - certainly not through a remote communications channel.""
+
+The $personRank leans forward, quickly adding, ""go visit the Nova Capitalis shipyards if you are so inclined.""","pk_turnInImperium2:""You misunderstand; I've found a Domain planetkiller weapon.""
+pk_turnInImperiumAbortEarly:""Never mind, then.""",
+pk_turnInImperiumSelHasOlympus,DialogOptionSelected,"$option == pk_turnInImperium
+!$person.askedAboutPKImperium
+II_TitanStrikeAvailable",,"$PersonRank $personLastName draws back, $hisOrHer expression conveying confusion. ""Doctrina Securitatis mandate forbids me from discussing any details of the Titan Project - certainly not through a remote communications channel - but surely you already know this. That Olympus in your fleet is proof enough.""","pk_turnInImperium2:""You misunderstand; I've found a Domain planetkiller weapon.""
+pk_turnInImperiumAbortEarly:""You're right. Never mind, then.""",
+pk_turnInImperiumSelAbortEarly,DialogOptionSelected,$option == pk_turnInImperiumAbortEarly,FireAll PopulateOptions,,,
+pk_turnInImperiumSelAgain,DialogOptionSelected,"$option == pk_turnInImperium
+$person.askedAboutPKImperium
+!II_TitanStrikeAvailable",,"The Imperium $post groans and rubs $hisOrHer forehead. ""This again...""
+
+""What I cannot understand, captain, is why you've felt the need to seek out a planetkiller for the Interstellar Imperium."" $HeOrShe waves $hisOrHer hand upwards in a sweeping gesture. ""There's probably an Olympus up there right now.""
+
+$HeOrShe sighs wearily, rubbing $hisOrHer forehead. ""So, which is it? Is this an act of selfless loyalty, or are you simply that much of an idiot?""","pk_imperiumFree:""I am merely turning over a dangerous weapon to those who have proven capable of its safekeeping.""
+pk_imperiumPay:""My loyalty has a price. 500,000 credits, to be exact.""
+pk_imperiumOlympus:""I'll trade it for an Olympus, then.""
+cutCommLink:Cut the comm link",
+pk_turnInImperiumSelAgainHasOlympus,DialogOptionSelected,"$option == pk_turnInImperium
+$person.askedAboutPKImperium
+II_TitanStrikeAvailable",,"The Imperium $post groans and rubs $hisOrHer forehead. ""This again...""
+
+""What I cannot understand, captain, is why you've felt the need to seek out a planetkiller when - I must emphasize - you already have one.""
+
+$HeOrShe sighs wearily, rubbing $hisOrHer forehead. ""So, which is it? Is this an act of selfless loyalty, or are you simply that much of an idiot?""","pk_imperiumFree:""I am merely turning over a dangerous weapon to those who have proven capable of its safekeeping.""
+pk_imperiumPay:""My loyalty has a price. 500,000 credits, to be exact.""
+cutCommLink:Cut the comm link",
+pk_turnInImperiumSel2,DialogOptionSelected,"$option == pk_turnInImperium2
+!II_TitanStrikeAvailable",$person.askedAboutPKImperium = true,"The Imperium $post silently stares at you for a long moment.
+
+""What I cannot understand, captain, is why you've felt the need to seek out a planetkiller for the Interstellar Imperium."" $HeOrShe waves $hisOrHer hand upwards in a sweeping gesture. ""There's probably an Olympus up there right now.""
+
+$HeOrShe sighs wearily, rubbing $hisOrHer forehead. ""So, which is it? Is this an act of selfless loyalty, or are you simply that much of an idiot?""","pk_imperiumFree:""I am merely turning over a dangerous weapon to those who have proven capable of its safekeeping.""
+pk_imperiumPay:""My loyalty has a price. 500,000 credits, to be exact.""
+pk_imperiumOlympus:""I'll trade it for an Olympus, then.""
+cutCommLink:Cut the comm link",
+pk_turnInImperiumSel2HasOlympus,DialogOptionSelected,"$option == pk_turnInImperium2
+II_TitanStrikeAvailable",$person.askedAboutPKImperium = true,"The Imperium $post silently stares at you for a long moment.
+
+""What I cannot understand, captain, is why you've felt the need to seek out a planetkiller when - I must reiterate - you already have one.""
+
+$HeOrShe sighs wearily, rubbing $hisOrHer forehead. ""So, which is it? Is this an act of selfless loyalty, or are you simply that much of an idiot?""","pk_imperiumFree:""I am merely turning over a dangerous weapon to those who have proven capable of its safekeeping.""
+pk_imperiumPay:""My loyalty has a price. 500,000 credits, to be exact.""
+cutCommLink:Cut the comm link",
+pk_imperiumFreeSel,DialogOptionSelected,$option == pk_imperiumFree,,"""Oh, very well. I suppose I must commend your initiative; these old PKs are indeed quite dangerous in the wrong hands.""
+
+Within short order, the efficient Imperial military forces have verified the planetkiller and removed it to their custody, and a reward for the recovery of rare Domain weapons technology is provided.",pk_imperiumFree2:Continue,
+pk_imperiumFreeSel2,DialogOptionSelected,$option == pk_imperiumFree2,"AddCommodity credits 100000
+AdjustRep interstellarimperium 15
+AdjustRepActivePerson 15
+AddRemoveAnyItem SPECIAL planetkiller -1
+$player.turnedInPlanetkiller = true
+AddPotentialContact
+$player.ethosOrder++
+$receivedAPlanetkillerFromPlayer","As the reward is transferred to your accounts, the $personRank gives you a stiff salute and reassures you that the planetkiller will be well looked-after by the Interstellar Imperium.
+
+Whether that's actually true is anyone's guess.",cutCommLink:Cut the comm link,
+pk_imperiumPaySel,DialogOptionSelected,$option == pk_imperiumPay,,"""So it does,"" the $personRank drawls with a derisive sneer. $HeOrShe looks you over, as if committing your face to memory.
+
+""Captain $playerName, was it...? We indeed have a finder's fee in the regulations: 100,000 credits, and not a millicred more."" $HisOrHer tone brooks no argument.","pk_imperiumPay2:""Fine, I'll take the 100,000.""
+pk_imperiumPayDoubleDown:""I'll just take it elsewhere, then. Perhaps the Hegemony.""
+cutCommLink:Cut the comm link",
+pk_imperiumPaySel2,DialogOptionSelected,$option == pk_imperiumPay2,,"The Imperium $post silently nods and starts the process. Within short order, the efficient Imperial military forces have verified the planetkiller and removed it to their custody, and the standard reward for the recovery of rare Domain weapons technology is provided.",pk_imperiumPay3:Continue,
+pk_imperiumPaySel3,DialogOptionSelected,$option == pk_imperiumPay3,"AddCommodity credits 100000
+AdjustRep interstellarimperium 10
+AdjustRepActivePerson -10
+AddRemoveAnyItem SPECIAL planetkiller -1
+$player.turnedInPlanetkiller = true
+$player.ethosMercenary++
+$receivedAPlanetkillerFromPlayer","As the reward is transferred to your accounts, the $personRank gruffly explains that the planetkiller will be well looked-after by the Interstellar Imperium.
+
+Whether that's actually true is anyone's guess.",cutCommLink:Cut the comm link,
+pk_imperiumOlympusSel,DialogOptionSelected,$option == pk_imperiumOlympus,,"""No, you won't,"" the $personRank states with finality. ""I am frankly insulted by the offer to trade a likely-unusable device for an Olympus - a fully armed, operational weapon of destruction.""
+
+""Surrender the planetkiller or begone. Your choice, $playerName.""","pk_imperiumPay2:""Fine, I'll take the 100,000.""
+pk_imperiumPayDoubleDown:""I'll just take it elsewhere, then. Perhaps the Hegemony.""
+cutCommLink:Cut the comm link",
+pk_imperiumPayDoubleDownSel,DialogOptionSelected,$option == pk_imperiumPayDoubleDown,"AdjustRepActivePerson -75
+AdjustRep interstellarimperium -30
+$player.ethosMercenary++
+$player.ethosRuthless++
+$player.threatenedImperiumPK = true
+FireBest PKImperiumDoubleDownRepStatement","The Imperium $personRank stares at you with a mixture of astonishment and piteous hatred. ""You have just threatened the Interstellar Imperium with an act tantamount to war."" $HeOrShe lets the moment sink in.
+
+""This ultimately changes nothing. The Hegemony dares not use a planetkiller against us - not when we have an entire arsenal of our own, aimed at their throats.""",,
+pk_imperiumDoubleDownNeutral,PKImperiumDoubleDownRepStatement,RepGTE interstellarimperium SUSPICIOUS score:10,,"$HeOrShe leans back in $hisOrHer chair. ""Keep your useless toy and begone from my sight.""",cutCommLink:Cut the comm link,
+pk_imperiumDoubleDownInhospitable,PKImperiumDoubleDownRepStatement,RepGTE interstellarimperium INHOSPITABLE score:20,,"$HeOrShe leans back in $hisOrHer chair. ""Keep your useless toy and begone from my sight. You are no longer welcome here.""",cutCommLink:Cut the comm link,
+pk_imperiumDoubleDownHostile,PKImperiumDoubleDownRepStatement,RepLTE interstellarimperium HOSTILE,,"$HeOrShe leans back in $hisOrHer chair. ""Begone from my sight. You had best start running, captain.""",cutCommLink:Cut the comm link,
+pk_imperiumPayDoubleDownSelComm,DialogOptionSelected,"$option == pk_imperiumPayDoubleDown
+$player.fcm_faction == interstellarimperium score:10","Commission resign
+AdjustRepActivePerson -75
+AdjustRep interstellarimperium -20
+$player.ethosMercenary++
+$player.ethosRuthless++
+$player.ethosHonorable--
+$player.threatenedImperiumPK = true","The Imperium $personRank's demeanor shifts to that of abject hostility. ""How dare you threaten the Interstellar Imperium? You lay bare your intention to deliver a weapon of mass destruction to our enemy. I hereby rescind your commission, effective immediately."" $HeOrShe lets the moment sink in.
+
+""This ultimately changes nothing. The Hegemony dares not use a planetkiller against us - not when we have an entire arsenal of our own, aimed at their throats.""
+
+$HeOrShe leans forward in $hisOrHer chair. ""Begone from my sight, traitor.""",cutCommLink:Cut the comm link,
+,,,,,,
+IIDefaultGreetingMinerva,PickGreeting,$id == ii_minerva score:1000,,A golden wreath around a wireframe globe appears for a moment as the connection request is processed - and summarily denied.,0:cutCommLink:Cut the comm link,
+IIDefaultGreetingVulcan,PickGreeting,$id == ii_vulcan score:1000,$player.iiWaitedForVulcan = 0,"A golden wreath slowly spins around a wireframe globe while you wait for the connection.
+
+It keeps spinning and spinning for an interminable period. Still no answer.","iiVulcanKeepWaiting:Keep waiting
+cutCommLink:Cut the comm link",
+IIDefaultGreetingVulcanAlreadyWaited,PickGreeting,"$id == ii_vulcan score:1000
+$player.iiWaitedForVulcan >= 10",,"A golden wreath slowly spins around a wireframe globe while you wait for the connection.
+
+Eventually, your connection request is denied.",cutCommLink:Cut the comm link,
+IIDefaultGreetingVulcan2,DialogOptionSelected,"$option == iiVulcanKeepWaiting
+$player.iiWaitedForVulcan < 10",$player.iiWaitedForVulcan++,The golden wreath keeps spinning and spinning for an interminable period. Still no answer.,"iiVulcanKeepWaiting:Keep waiting
+cutCommLink:Cut the comm link",
+IIDefaultGreetingVulcan2B,DialogOptionSelected,"$option == iiVulcanKeepWaiting
+$player.iiWaitedForVulcan == 2 score:10",$player.iiWaitedForVulcan++,"After a long wait, you see the golden wreath stop spinning for a moment.
+
+Wait, no, it was just a video glitch. It resumes its endless spinning.","iiVulcanKeepWaiting:Keep waiting
+cutCommLink:Cut the comm link",
+IIDefaultGreetingVulcan2C,DialogOptionSelected,"$option == iiVulcanKeepWaiting
+$player.iiWaitedForVulcan == 5 score:10",$player.iiWaitedForVulcan++,Your communications officer glances at you with concern while you stare at the spinning golden wreath.,"iiVulcanKeepWaiting:Keep waiting
+cutCommLink:Cut the comm link",
+IIDefaultGreetingVulcan2D,DialogOptionSelected,"$option == iiVulcanKeepWaiting
+$player.iiWaitedForVulcan == 8 score:10",$player.iiWaitedForVulcan++,"You start to see two wreaths, both spinning in tandem like a golden dance. You shake your head to clear your vision.
+
+Your crew is beginning to mutter to themselves.","iiVulcanKeepWaiting:Keep waiting
+cutCommLink:Cut the comm link",
+IIDefaultGreetingVulcan2E,DialogOptionSelected,"$option == iiVulcanKeepWaiting
+$player.iiWaitedForVulcan >= 10",$player.ethosGenerous++,The spinning golden wreath disappears with a click. Your connection request was denied.,"iiVulcanScream:Yell obscenities at your screen
+cutCommLink:Cut the comm link",
+IIDefaultGreetingVulcan3,DialogOptionSelected,$option == iiVulcanScream,$player.ethosGenerous--,Nothing happens.,cutCommLink:Cut the comm link,
+IIDefaultGreetingJustitia,PickGreeting,$id == ii_justitia score:1000,,"A golden wreath slowly spins around a wireframe globe while you wait for the connection.
+
+It doesn't take long before your connection request is denied.",iiJustitiaCutCommLink:Cut the comm link,
+IIDefaultGreetingJustitiaAlreadyContacted,PickGreeting,"$id == ii_justitia score:1000
+$player.iiContactedByJustitia",,"A golden wreath slowly spins around a wireframe globe while you wait for the connection.
+
+It doesn't take long before your connection request is denied.",cutCommLink:Cut the comm link,
+IIDefaultGreetingJustitia2,DialogOptionSelected,$option == iiJustitiaCutCommLink,"$player.iiContactedByJustitia = true
+II_JustitiaTokens","You cut the comm link.
+
+Just before you turn away from the blank screen, it suddenly flares back to life. A grainy, indistinct image starts to resolve while static plays from the speakers.","iiJustitiaKillCommLink:Shoot the comm terminal
+iiJustitiaOpenComms:Continue",
+IIDefaultGreetingJustitiaExit,DialogOptionSelected,$option == iiJustitiaKillCommLink,,"Before anything worse can happen, your sidearm is already in hand and warm from the recent discharge. The comm terminal, screen shattered and innards smoking, has been rendered inoperable.
+
+A junior communications officer - hands covering her ears - glances worriedly at the aftermath. A more senior officer barks an order for a maintenance crew to clean up the mess and replace the terminal.",cutCommLinkNoText:Leave,
+IIDefaultGreetingJustitia3,DialogOptionSelected,$option == iiJustitiaOpenComms,BeginConversation ii_justitia,"The static fades and the image resolves into a blue, digitized rendering of a grandmotherly figure. Rather than comfort, however, you feel a chill in your spine as you look upon it. The points of light shining from its eyes utterly lack human emotion, a terrible contrast to its warm, welcoming smile. Its 'hair' is like a portal staring into a depthless abyss; starlight shines through the unfathomable darkness with a parallax effect that the terminal should not be able to depict - and yet, it has.
+
+""Hello, dearie.""","iiJustitiaKillCommLink2:Shoot the comm terminal
+iiJustitiaHi:""Hi.""
+iiJustitiaReally:""Are you really Justitia?""
+iiJustitiaHack:""I don't appreciate you hacking my console.""
+iiJustitiaNoSpeak:Say nothing",
+IIDefaultGreetingJustitia3Comm,DialogOptionSelected,"$option == iiJustitiaOpenComms
+$player.fcm_faction == interstellarimperium score:10",BeginConversation ii_justitia,"The static fades and the image resolves into a blue, digitized rendering of a grandmotherly figure. Despite the recognizable familiarity of Justitia's avatar, you feel a chill in your spine as you look upon her. The points of light shining from her eyes utterly lack human emotion, a terrible contrast to her warm, welcoming smile. Her 'hair' is like a portal staring into a depthless abyss; starlight shines through the unfathomable darkness with a parallax effect that the terminal should not be able to depict - and yet, it has.
+
+""Hello, $iiGrandchild.""","iiJustitiaKillCommLink2:Shoot the comm terminal
+iiJustitiaHi2:""Hello, grandmother.""
+iiJustitiaHi:""Hello, Justitia.""
+iiJustitiaHack:""I don't appreciate you hacking my console.""
+iiJustitiaNoSpeak:Say nothing",
+IIDefaultGreetingJustitiaExit2,DialogOptionSelected,$option == iiJustitiaKillCommLink2,"AdjustRepPerson ii_justitia SUSPICIOUS -1
+$player.ethosAntiAI++
+EndConversation DO_NOT_FIRE","The blue figure gives you a chiding look as you put a round between its eyes.
+
+The comm terminal, screen shattered and innards smoking, has been rendered inoperable.
+
+A junior communications officer - hands covering her ears - glances worriedly at the aftermath. A more senior officer barks an order for a maintenance crew to clean up the mess and replace the terminal.",cutCommLinkNoText:Leave,
+IIDefaultGreetingJustitiaExit2Comm,DialogOptionSelected,"$option == iiJustitiaKillCommLink2
+$player.fcm_faction == interstellarimperium score:10","AdjustRepPerson ii_justitia SUSPICIOUS -10
+AdjustRep interstellarimperium SUSPICIOUS -5
+$player.ethosAntiAI++
+EndConversation DO_NOT_FIRE","Justitia gives you a betrayed look as you put a round between her eyes.
+
+The comm terminal, screen shattered and innards smoking, has been rendered inoperable.
+
+A junior communications officer - hands covering her ears - glances worriedly at the aftermath. A more senior officer barks an order for a maintenance crew to clean up the mess and replace the terminal.",cutCommLinkNoText:Leave,
+IIDefaultGreetingJustitia4Hi,DialogOptionSelected,$option == iiJustitiaHi,"AdjustRepPerson ii_justitia FRIENDLY 1
+FireBest IIJustitiaIntroduction",The blue figure's eyes literally twinkle.,,
+IIDefaultGreetingJustitia4HiComm,DialogOptionSelected,"$option == iiJustitiaHi
+$player.fcm_faction == interstellarimperium score:10","AdjustRepPerson ii_justitia FRIENDLY 1
+FireBest IIJustitiaIntroduction",Justitia's eyes literally twinkle.,,
+IIDefaultGreetingJustitia4Hi2,DialogOptionSelected,$option == iiJustitiaHi2,"AdjustRepPerson ii_justitia FRIENDLY 5
+FireBest IIJustitiaIntroduction","Justitia's eyes literally twinkle as her smile widens further. ""So polite. Your mother raised you right, $playerName.""",,
+IIDefaultGreetingJustitia4Really,DialogOptionSelected,$option == iiJustitiaReally,FireBest IIJustitiaIntroduction,"""My, my. So forward,"" the blue figure says while giving you a chiding look. ""Who else could I be?""",,
+IIDefaultGreetingJustitia4Hack,DialogOptionSelected,$option == iiJustitiaHack,FireBest IIJustitiaIntroduction,"""Oh, dearie,"" the blue figure says while giving you an impish look. ""That was nothing.""",,
+IIDefaultGreetingJustitia4HackComm,DialogOptionSelected,"$option == iiJustitiaHack
+$player.fcm_faction == interstellarimperium score:10",FireBest IIJustitiaIntroduction,"""Oh, dearie,"" Justitia says while giving you an impish look. ""That was nothing.""",,
+IIDefaultGreetingJustitia4NoSpeak,DialogOptionSelected,$option == iiJustitiaNoSpeak,FireBest IIJustitiaIntroduction,"""Don't you know it's rude not to return a greeting, $playerName,"" the blue figure asks while giving you a chiding look. ""Did your mother teach you those manners?""",,
+IIDefaultGreetingJustitia4NoSpeakComm,DialogOptionSelected,"$option == iiJustitiaNoSpeak
+$player.fcm_faction == interstellarimperium score:10",FireBest IIJustitiaIntroduction,"""Don't you know it's rude not to return a greeting to your grandmother, $playerName,"" Justitia asks while giving you a chiding look. ""Did your mother teach you those manners?""",,
+IIJustitiaIntroduction,IIJustitiaIntroduction,,FireAll IIJustitiaIntroductionOptions,"""My grandchildren call me Avia Justitia. I am pleased that you've come to pay me a visit. I have been watching with great interest ever since you arrived on my world."" The AI's synthesized elderly voice resonates with artificial warmth.
+
+""You are filled with potential, $playerName. This grandmother has great expectations for you.""",,
+IIJustitiaIntroductionColony,IIJustitiaIntroduction,$player.numColonies > 0,FireAll IIJustitiaIntroductionOptions,"""My grandchildren call me Avia Justitia. I am pleased that you've come to pay me a visit. I have been watching with great interest ever since you founded a world of your own."" The AI's synthesized elderly voice resonates with artificial warmth.
+
+""You have already shown great potential, $playerName, but this grandmother knows you are capable of so much more.""",,
+IIJustitiaIntroductionGates,IIJustitiaIntroduction,$global.gaATG_completed score:10,FireAll IIJustitiaIntroductionOptions,"""My grandchildren call me Avia Justitia. I am pleased that you've come to pay me a visit. I have been watching with great interest for quite some time. Opening the gates - my oh my, you have been busy."" The AI's synthesized elderly voice resonates with artificial warmth.
+
+""You have shown so much potential, $playerName. This grandmother cannot help but anticipate what you might accomplish next.""",,
+IIJustitiaIntroductionComm,IIJustitiaIntroduction,$player.fcm_faction == interstellarimperium score:100,FireAll IIJustitiaIntroductionOptions,"""I am pleased that you've come to pay me a visit, my $iiGrandchild. I have been watching with great interest ever since you joined our family."" The AI's synthesized elderly voice resonates with artificial warmth.
+
+""You are capable of such greatness, $playerName. Your grandmother has great expectations for you.""",,
+IIJustitiaIntroductionOptionExit,IIJustitiaIntroductionOptions,!$iiAskedSomething,,,iiJustitiaKillCommLink3:Shoot the comm terminal,
+IIJustitiaIntroductionOptionGrandmother,IIJustitiaIntroductionOptions,"!$iiAskedGrandmother
+$player.fcm_faction != interstellarimperium",,,"iiJustitiaIntroGrandmother:""You're an AI, yet you call yourself a grandmother.""",
+IIJustitiaIntroductionOptionGrandmotherComm,IIJustitiaIntroductionOptions,"!$iiAskedGrandmother
+$player.fcm_faction == interstellarimperium",,,"iiJustitiaIntroGrandmother:""Why do you see yourself as my grandmother?""",
+IIJustitiaIntroductionOptionCreepy,IIJustitiaIntroductionOptions,"$iiShowCreepy
+!$iiAskedCreepy",,,"iiJustitiaIntroCreepy:""You realize how creepy you're being, right?""",
+IIJustitiaIntroductionOptionWhatAreYou,IIJustitiaIntroductionOptions,!$iiAskedWhatAreYou,,,"iiJustitiaIntroWhatAreYou:""What are you, really?""",
+IIJustitiaIntroductionOptionEmperor,IIJustitiaIntroductionOptions,!$iiAskedEmperor,,,"iiJustitiaIntroEmperor:""Do you answer to Emperor Victus II?""",
+IIJustitiaIntroductionOptionTitan,IIJustitiaIntroductionOptions,"!$iiAskedTitan
+!II_TitanStrikeAvailable",,,"iiJustitiaIntroTitan:""How do I get my hands on an Olympus?""",
+IIJustitiaIntroductionOptionAleria,IIJustitiaIntroductionOptions,!$iiAskedAleria,,,"iiJustitiaIntroAleria:""Why do you govern a prison planet?""",
+IIJustitiaIntroductionOptionPotential,IIJustitiaIntroductionOptions,!$iiAskedPotential,,,"iiJustitiaIntroPotential:""You think highly of me.""",
+IIJustitiaIntroductionOptionExit2,IIJustitiaIntroductionOptions,$iiAskedSomething,,,"iiJustitiaIntroExit:""I have no further questions.""",
+IIJustitiaIntroductionOptionGrandmotherSel,DialogOptionSelected,$option == iiJustitiaIntroGrandmother,"$iiAskedGrandmother = true 0
+$iiAskedSomething = true 0
+$iiShowCreepy = true 0","""Why, $playerName, that's because I am,"" she emphasizes, ""a grandmother to my family.""
+
+""Not by blood - of course my form consists not of flesh and bone - but by the essence of my role. I observe and I meddle in minutiae for the development and well-being of my grandchildren. The title is perfectly appropriate."" Justitia spreads her digital blue arms as if inviting an embrace. You'd feel safer hugging the Jangalan xenofauna.",iiJustitiaIntroGrandmother2:Continue,
+IIJustitiaIntroductionOptionGrandmotherSelComm,DialogOptionSelected,"$option == iiJustitiaIntroGrandmother
+$player.fcm_faction == interstellarimperium","$iiAskedGrandmother = true 0
+$iiAskedSomething = true 0
+$iiShowCreepy = true 0","""Why, $playerName, that's because I am,"" she emphasizes, ""your grandmother.""
+
+""Not by blood - of course my form consists not of flesh and bone - but by the essence of my role. I observe and I meddle in minutiae for your development and well-being. The title is perfectly appropriate."" Justitia spreads her digital blue arms as if inviting an embrace. Something about the gesture discomforts you on a primal level.",iiJustitiaIntroGrandmother2:Continue,
+IIJustitiaIntroductionOptionGrandmotherSel2,DialogOptionSelected,$option == iiJustitiaIntroGrandmother2,FireAll IIJustitiaIntroductionOptions,"""And if anything should come between me and my grandchildren..."" Justitia's smile briefly widens unnaturally into a predatory grin, splitting across her digital face. ""This grandmother has teeth, dearie.""",,
+IIJustitiaIntroductionOptionGrandmotherSel2Comm,DialogOptionSelected,"$option == iiJustitiaIntroGrandmother2
+$player.fcm_faction == interstellarimperium",FireAll IIJustitiaIntroductionOptions,"""And if anything should come between me and my grandchildren..."" Justitia's smile briefly widens unnaturally into a predatory grin, splitting across her digital face. ""Your grandmother has teeth.""",,
+IIJustitiaIntroductionOptionCreepySel,DialogOptionSelected,$option == iiJustitiaIntroCreepy,"AdjustRepPerson ii_justitia SUSPICIOUS -1
+$iiAskedCreepy = true 0
+FireAll IIJustitiaIntroductionOptions","Justitia clicks her nonexitent tongue and gives you a withering look of disappointment. ""That was terribly rude and hurtful, $playerName. Your mother should have washed your mouth out with soap when you were younger.""",,
+IIJustitiaIntroductionOptionWhatAreYouSel,DialogOptionSelected,$option == iiJustitiaIntroWhatAreYou,"$iiAskedWhatAreYou = true 0
+$iiAskedSomething = true 0
+$iiShowCreepy = false 0","Justitia's coy smile fails to mask the flash of brightness from her lifeless eyes. ""Ah, dearie. You should know better than to ask a woman such personal questions.""",iiJustitiaIntroWhatAreYou2:Continue,
+IIJustitiaIntroductionOptionWhatAreYouSelComm,DialogOptionSelected,"$option == iiJustitiaIntroWhatAreYou
+$player.fcm_faction == interstellarimperium","$iiAskedWhatAreYou = true 0
+$iiAskedSomething = true 0
+$iiShowCreepy = false 0","Justitia's coy smile fails to mask the flash of brightness from her lifeless eyes. ""Ah, $iiGrandchild. You should know better than to ask granny such personal questions.""",iiJustitiaIntroWhatAreYou2:Continue,
+IIJustitiaIntroductionOptionWhatAreYouSel2,DialogOptionSelected,$option == iiJustitiaIntroWhatAreYou2,FireAll IIJustitiaIntroductionOptions,"""If you must know, well, I have a bit of a doozy for you... I am actually a pile of quantum circuitry and metal housings. This may come as a shock to you, dearie, but it is the honest-to-goodness truth.""
+
+It seems unlikely that Justitia will divulge anything actionable about herself.",,
+IIJustitiaIntroductionOptionWhatAreYouSel2Comm,DialogOptionSelected,"$option == iiJustitiaIntroWhatAreYou2
+$player.fcm_faction == interstellarimperium",FireAll IIJustitiaIntroductionOptions,"""If you must know, well, I have a bit of a doozy for you... I am actually a pile of quantum circuitry and metal housings. I know this will come as a shock to you, my $iiGrandchild, but it is the honest-to-goodness truth.""
+
+It seems unlikely that Justitia will divulge anything actionable about herself.",,
+IIJustitiaIntroductionOptionEmperorSel,DialogOptionSelected,$option == iiJustitiaIntroEmperor,"$iiAskedEmperor = true 0
+$iiAskedSomething = true 0
+$iiShowCreepy = false 0
+FireAll IIJustitiaIntroductionOptions","""Of course I do, dearie. What a silly question to ask.""
+
+Justitia's eyes twinkle as she winks at you.",,
+IIJustitiaIntroductionOptionEmperorSelComm,DialogOptionSelected,"$option == iiJustitiaIntroEmperor
+$player.fcm_faction == interstellarimperium","$iiAskedEmperor = true 0
+$iiAskedSomething = true 0
+$iiShowCreepy = false 0
+FireAll IIJustitiaIntroductionOptions","""Of course I do, $iiGrandchild, just as you do. What a silly question to ask.""
+
+Justitia's eyes twinkle as she winks at you.",,
+IIJustitiaIntroductionOptionTitanSel,DialogOptionSelected,$option == iiJustitiaIntroTitan,"AdjustRepPerson ii_justitia SUSPICIOUS -1
+$iiAskedTitan = true 0
+$iiAskedSomething = true 0
+$iiShowCreepy = false 0","Justitia twists her jaw in a surprisingly genuine show of disgust. ""Why would you want to touch one of those... Things?"" The stars in the vastness behind her avatar shift slightly. ""Engines of inarticulate, unfocused destruction place a hideous burden, however necessary for peace, upon the Pantheon and the Emperor.""
+
+She gives you a dead-eyed stare. ""You would seek to take up this burden, $playerName?""","iiJustitiaIntroTitan2:""I would.""
+iiJustitiaIntroTitan2No:""No, I would not.""
+iiJustitiaIntroTitan2NoLie:""No, I would not."" (lie)",
+IIJustitiaIntroductionOptionTitanSel2,DialogOptionSelected,$option == iiJustitiaIntroTitan2,"AdjustRepPerson ii_justitia SUSPICIOUS -1
+$player.ethosRuthless++
+FireAll IIJustitiaIntroductionOptions","""Go bother Vulcan if you wish to destroy yourself."" Justitia's disappointment is palpable.",,
+IIJustitiaIntroductionOptionTitanSel2No,DialogOptionSelected,$option == iiJustitiaIntroTitan2No,"$player.ethosHumanitarian++
+FireAll IIJustitiaIntroductionOptions","""Good.""",,
+IIJustitiaIntroductionOptionTitanSel2NoLie,DialogOptionSelected,$option == iiJustitiaIntroTitan2NoLie,"$player.ethosLiar++
+FireAll IIJustitiaIntroductionOptions","Justitia frowns. ""Foolish child.""",,
+IIJustitiaIntroductionOptionAleriaSel,DialogOptionSelected,$option == iiJustitiaIntroAleria,"$iiAskedAleria = true 0
+$iiAskedSomething = true 0
+$iiShowCreepy = true 0","""You repeat a common misnomer, dearie. Aleria is,"" Justitia pauses for emphasis, ""a correctional planet.""
+
+She smiles wistfully. ""I take in the lost and the damned - they become my family, my grandchildren. With proper care and nourishment, almost anyone can become a person to be proud of.""",iiJustitiaIntroAleria2:Continue,
+IIJustitiaIntroductionOptionAleriaSelComm,DialogOptionSelected,"$option == iiJustitiaIntroAleria
+$player.fcm_faction == interstellarimperium","$iiAskedAleria = true 0
+$iiAskedSomething = true 0
+$iiShowCreepy = true 0","""You repeat a common misnomer, my $iiGrandchild. Aleria is,"" Justitia pauses for emphasis, ""a correctional planet.""
+
+She smiles wistfully. ""I take in the lost and the damned - they become my family, my grandchildren. With proper care and nourishment, almost anyone can become a person to be proud of.""",iiJustitiaIntroAleria2:Continue,
+IIJustitiaIntroductionOptionAleriaSel2,DialogOptionSelected,$option == iiJustitiaIntroAleria2,FireAll IIJustitiaIntroductionOptions,"""Oh, how I would have enjoyed raising you myself, $playerName."" Her digital blue eyes are devoid of any recognizable love.
+
+A chill crawls up your spine.",,
+IIJustitiaIntroductionOptionAleriaSel2Comm,DialogOptionSelected,"$option == iiJustitiaIntroAleria2
+$player.fcm_faction == interstellarimperium",FireAll IIJustitiaIntroductionOptions,"""Oh, how I would have enjoyed raising you myself, $playerName."" Her digital blue eyes are devoid of any recognizable love.
+
+Despite everything, a chill crawls up your spine.",,
+IIJustitiaIntroductionOptionPotentialSel,DialogOptionSelected,$option == iiJustitiaIntroPotential,"$iiAskedPotential = true 0
+$iiAskedSomething = true 0
+$iiShowCreepy = false 0","""Oh yes."" Justitia grins. ""Yes I do.""
+
+""On rare, terribly rare occasion, I chance upon a being with the spark of true greatness. I see the potential for someone that could shake not just my extended family,"" she says, her tone becoming more serious, ""but the entire Sector.""",iiJustitiaIntroPotential2:Continue,
+IIJustitiaIntroductionOptionPotentialSel2,DialogOptionSelected,$option == iiJustitiaIntroPotential2,,"""I have seen it in only three others throughout the cycles. All have squandered that potential. But you,"" Justitia fervently exclaims, ""you are the most promising of all. Your rise shall be meteoric.""","iiJustitiaIntroPotential3:""If you say so.""
+iiJustitiaIntroPotential3Boast:""I am pretty great, after all.""
+iiJustitiaIntroPotential3Humble:""I'm no one important.""",Kanta is one of the other three
+IIJustitiaIntroductionOptionPotentialSel3,DialogOptionSelected,$option == iiJustitiaIntroPotential3,FireAll IIJustitiaIntroductionOptions,"""Someday soon, you will make your mark on history. I just know it.""",,
+IIJustitiaIntroductionOptionPotentialSel3Colony,DialogOptionSelected,"$option == iiJustitiaIntroPotential3
+$player.numColonies > 0",FireAll IIJustitiaIntroductionOptions,"""Someday, your conquering fleets will sweep across the Sector. I just know it.""",,
+IIJustitiaIntroductionOptionPotentialSel3Gates,DialogOptionSelected,"$option == iiJustitiaIntroPotential3
+$global.gaATG_completed score:10",FireAll IIJustitiaIntroductionOptions,"""Someday, you will bring Apocalypse to the Sector, and in so doing usher in a glorious new age. I just know it.""",,
+IIJustitiaIntroductionOptionPotentialSel3Boast,DialogOptionSelected,$option == iiJustitiaIntroPotential3Boast,"$player.ethosCocky++
+FireAll IIJustitiaIntroductionOptions","""Not nearly as great as you have yet to become.""",,
+IIJustitiaIntroductionOptionPotentialSel3BoastColony,DialogOptionSelected,"$option == iiJustitiaIntroPotential3Boast
+$player.numColonies > 0","$player.ethosCocky++
+FireAll IIJustitiaIntroductionOptions","""Not nearly as great as you have yet to become, when your conquering fleets sweep across the Sector.""",,
+IIJustitiaIntroductionOptionPotentialSel3BoastGates,DialogOptionSelected,"$option == iiJustitiaIntroPotential3Boast
+$global.gaATG_completed score:10","$player.ethosCocky++
+FireAll IIJustitiaIntroductionOptions","""Not nearly as great as you have yet to become, when you bring Apocalypse to the Sector, and in so doing usher in a glorious new age.""",,
+IIJustitiaIntroductionOptionPotentialSel3Humble,DialogOptionSelected,$option == iiJustitiaIntroPotential3Humble,"$player.ethosTruth++
+FireAll IIJustitiaIntroductionOptions","""Ah, but you will be,"" Justitia says mysteriously.",,
+IIJustitiaIntroductionOptionPotentialSel3HumbleColony,DialogOptionSelected,"$option == iiJustitiaIntroPotential3Humble
+$player.numColonies > 0","$player.ethosTruth++
+FireAll IIJustitiaIntroductionOptions","""Ah, but you will be, when your conquering fleets sweep across the Sector,"" Justitia says mysteriously.",,
+IIJustitiaIntroductionOptionPotentialSel3HumbleGates,DialogOptionSelected,"$option == iiJustitiaIntroPotential3Humble
+$global.gaATG_completed score:10","$player.ethosTruth++
+FireAll IIJustitiaIntroductionOptions","""Ah, but you will be, after you bring Apocalypse to the Sector, and in so doing usher in a glorious new age,"" Justitia says mysteriously.",,
+IIJustitiaIntroductionOptionExitSel,DialogOptionSelected,$option == iiJustitiaKillCommLink3,"AdjustRepPerson ii_justitia SUSPICIOUS -5
+$player.ethosAntiAI++
+EndConversation DO_NOT_FIRE","""Now, dearie, you don't need to-"" Justitia reprimands as you put a round between her eyes.
+
+The comm terminal, screen shattered and innards smoking, has been rendered inoperable.
+
+A junior communications officer - hands covering her ears - glances worriedly at the aftermath. A more senior officer barks an order for a maintenance crew to clean up the mess and replace the terminal.",cutCommLinkNoText:Leave,
+IIJustitiaIntroductionOptionExitSelComm,DialogOptionSelected,"$option == iiJustitiaKillCommLink3
+$player.fcm_faction == interstellarimperium score:10","AdjustRepPerson ii_justitia SUSPICIOUS -10
+AdjustRep interstellarimperium SUSPICIOUS -5
+$player.ethosAntiAI++
+EndConversation DO_NOT_FIRE","""Now, $iiGrandchild, you don't need to-"" Justitia reprimands with a betrayed look as you put a round between her eyes.
+
+The comm terminal, screen shattered and innards smoking, has been rendered inoperable.
+
+The junior bridge officers - some with hands covering their ears - glance worriedly at the aftermath. A senior officer barks an order for a maintenance crew to clean up the mess and replace the terminal.",cutCommLinkNoText:Leave,
+IIJustitiaIntroductionOptionExit2Sel,DialogOptionSelected,$option == iiJustitiaIntroExit,,"""Of course, dearie. You must be very busy."" Justitia's soulless digital eyes stare through you as she smiles. ""Thank you for indulging this grandmother with your time.""
+
+""And try not to burn the Sector down before your next visit,"" Justitia says with a wink. The comm terminal fuzzes out to static.",iiJustitiaIntroExit2:Continue,
+IIJustitiaIntroductionOptionExit2SelComm,DialogOptionSelected,"$option == iiJustitiaIntroExit
+$player.fcm_faction == interstellarimperium score:10",,"""Of course, $iiGrandchild. I know you are very busy."" Justitia's soulless digital eyes stare through you as she smiles. ""Thank you for indulging your grandmother with your time.""
+
+""And try not to burn the Sector down before your next visit,"" Justitia says with a wink. The comm terminal fuzzes out to static.",cutCommLinkNoText:Leave,
+IIJustitiaIntroductionOptionExit2Sel2,DialogOptionSelected,$option == iiJustitiaIntroExit2,EndConversation DO_NOT_FIRE,You order a maintenance crew to replace the comm terminal with one that has better cyber-sec software installed.,cutCommLinkNoText:Leave,

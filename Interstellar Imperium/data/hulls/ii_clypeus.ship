@@ -1,0 +1,96 @@
+{
+  "hullName": "Clypeus",
+  "hullId": "ii_clypeus",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/imperium/ships/station/ii_clypeus.png",
+  "style": "IMPERIUM",
+  "height": 40,
+  "width": 158,
+  "center": [79, 24],
+  "collisionRadius": 159.5,
+  "shieldCenter": [-109, -0],
+  "shieldRadius": 203.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "supercomputer",
+    "shield_always_on",
+    "ii_no_package"
+  ],
+  "builtInWeapons": {
+    "WS0001": "ii_clypeus_lights",
+    "WS0002": "ii_particlerepeater",
+    "WS0003": "ii_particlerepeater"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 160,
+      "angle": 15,
+      "locations": [11, 39]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 160,
+      "angle": -15,
+      "locations": [11, -39]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [10.5, 0]
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-4, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-10, 76],
+      "length": 40,
+      "width": 16,
+      "angle": 135,
+      "contrailSize": 16,
+      "style": "IMPERIUM"
+    },
+    {
+      "location": [-10, -76],
+      "length": 40,
+      "width": 16,
+      "angle": -135,
+      "contrailSize": 16,
+      "style": "IMPERIUM"
+    }
+  ],
+  "bounds": [
+    14.5, -24,
+    10.5, -57.5,
+    4, -72.5,
+    -9, -75.5,
+    -6.5, -47,
+    -16, -21,
+    -22, -14.5,
+    -22, 14.5,
+    -16, 21,
+    -6.5, 47,
+    -9, 75.5,
+    4, 72.5,
+    10.5, 57.5,
+    14.5, 24
+  ]
+}

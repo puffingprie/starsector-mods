@@ -1,0 +1,88 @@
+{
+  "hullName": "Prognosticator",
+  "hullId": "prognosticator",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/prognosticator.png",
+  "style": "HIGH_TECH",
+  "height": 163,
+  "width": 88,
+  "center": [44, 81.5],
+  "collisionRadius": 90.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 88,
+  "viewOffset": 0,
+  "builtInMods": [
+    "delicate"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 254,
+      "angle": 20,
+      "locations": [35.5, 20]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [32, -19]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-56, 13],
+      "length": 19.5,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-79, 3],
+      "length": 32,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-73.5, -11.5],
+      "length": 12,
+      "width": 19,
+      "angle": -163.5,
+      "contrailSize": 19,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    34.5, 1,
+    74, 2,
+    76.5, 20.5,
+    54.5, 29.5,
+    47.5, 44,
+    27.5, 38.5,
+    1.5, 38,
+    -27.5, 19,
+    -55.5, 19,
+    -55.5, 8,
+    -81.5, 9,
+    -80, -3.5,
+    -70, -20,
+    -50.5, -24,
+    -43.5, -31,
+    -31.5, -30,
+    -13, -42,
+    -0.5, -42,
+    18.5, -36.5,
+    28, -28.5,
+    39, -27.5,
+    39, -10,
+    35, -10
+  ]
+}

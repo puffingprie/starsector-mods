@@ -1,0 +1,73 @@
+{
+  "variantId": "uaf_shinoria_surgical",
+  "hullId": "uaf_shinoria",
+  "displayName": "Surgical",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 6,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "targetingunit",
+    "eccm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "uaf_tona_ii",
+        "WS0008": "uaf_tona_ii",
+        "WS0010": "uaf_ivory"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "uaf_vocal_s_srm",
+        "WS0011": "uaf_clemente_s_mrm_double",
+        "WS0012": "uaf_selemene_m_mrm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_claris_cn",
+        "WS0004": "uaf_claris_cn"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_racun_pod",
+        "WS0002": "uaf_racun_pod",
+        "WS0005": "uaf_flair_pod",
+        "WS0006": "uaf_flair_pod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_exoscar",
+    "uaf_wing_exoscar"
+  ]
+}

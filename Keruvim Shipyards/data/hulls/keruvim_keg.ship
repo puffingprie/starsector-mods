@@ -1,0 +1,182 @@
+{
+  "bounds": [
+    69,
+    5,
+    64,
+    45,
+    54,
+    47.5,
+    44,
+    65,
+    9.5,
+    71.5,
+    -6,
+    48.5,
+    -6.5,
+    27,
+    -53,
+    24,
+    -85,
+    6.5,
+    -85,
+    -6.5,
+    -53,
+    -24,
+    -6.5,
+    -27,
+    -6,
+    -48.5,
+    9.5,
+    -71.5,
+    44,
+    -65,
+    54,
+    -47.5,
+    64,
+    -45,
+    69,
+    -5
+  ],
+  "builtInMods": [
+    "civgrade"
+  ],
+  "center": [
+    90,
+    101.5
+  ],
+  "collisionRadius": 105,
+  "coversColor": "255,255,255,255",
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 16,
+      "length": 69.5,
+      "location": [
+        -7,
+        -45
+      ],
+      "style": "MIDLINE",
+      "width": 16
+    },
+    {
+      "angle": -180,
+      "contrailSize": 16,
+      "length": 69.5,
+      "location": [
+        -7,
+        45
+      ],
+      "style": "MIDLINE",
+      "width": 16
+    },
+    {
+      "angle": 180,
+      "contrailSize": 7,
+      "length": 44,
+      "location": [
+        -7,
+        -33
+      ],
+      "style": "MIDLINE",
+      "width": 7
+    },
+    {
+      "angle": -180,
+      "contrailSize": 7,
+      "length": 44,
+      "location": [
+        -7,
+        33
+      ],
+      "style": "MIDLINE",
+      "width": 7
+    }
+  ],
+  "height": 187,
+  "hullId": "keruvim_keg",
+  "hullName": "Keg",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 96.5,
+  "spriteName": "graphics/ships/keruvim_keg.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": -50,
+      "arc": 225,
+      "id": "WS0001",
+      "locations": [
+        56.5,
+        -38
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 50,
+      "arc": 225,
+      "id": "WS0002",
+      "locations": [
+        56.5,
+        38
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -70,
+      "arc": 205,
+      "id": "WS0003",
+      "locations": [
+        23.5,
+        -50
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 70,
+      "arc": 205,
+      "id": "WS0004",
+      "locations": [
+        23.5,
+        50
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 180,
+      "arc": 225,
+      "id": "WS0005",
+      "locations": [
+        -70.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 125,
+      "id": "WS0006",
+      "locations": [
+        61.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 180
+}

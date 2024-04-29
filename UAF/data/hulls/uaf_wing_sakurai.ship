@@ -1,0 +1,87 @@
+{
+  "hullName": "Sakurai",
+  "hullId": "uaf_wing_sakurai",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/sakurai.png",
+  "style": "UAF_FIGHTER_S",
+  "height": 57,
+  "width": 66,
+  "center": [33, 27],
+  "collisionRadius": 35.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 35.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_limitedAmmo"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [26.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [16.5, 14]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [16.5, -14]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [3.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [8, 10],
+      "length": 13,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [8, -10],
+      "length": 13,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "MELODY_ENGINE_H"
+    }
+  ],
+  "bounds": [
+    -19, 2,
+    -23, 10.5,
+    -5, 19.5,
+    -9.5, 31,
+    4, 27.5,
+    28, 1,
+    28, -1,
+    4, -27.5,
+    -9.5, -31,
+    -5, -19.5,
+    -23, -10.5,
+    -19, -2
+  ]
+}

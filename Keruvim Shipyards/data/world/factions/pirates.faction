@@ -1,0 +1,14 @@
+{
+	"hullFrequency":{
+		#"tags":{},
+		"hulls":{"keruvim_quarry":4, "keruvim_paragon_p":4},
+	},
+	"knownShips":{
+		"tags":["reaver_bp"],
+		"hulls":["keruvim_quarry", "keruvim_paragon_p"],
+	},
+
+	"knownWeapons":{
+		"tags":["keruvim_bp", "keruvim_export_bp"],
+	},
+},

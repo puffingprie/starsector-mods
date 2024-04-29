@@ -1,0 +1,87 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+    "showIntelEvenIfDead":false,
+
+    "rebelFleetSuffix":"Criminals",
+
+    "marketSpawnWeight":1.2,
+
+    "startRelationships":{ "hegemony": 0.6},
+
+    "maxRelationships":{
+        "pirates": -1.0,
+        "new_galactic_order": -1.0
+    },
+
+	"factionsLiked":[
+    		"hegemony",
+    		"exalted",
+    		"persean_league"],
+    "factionsDisliked":[
+    		"luddic_path",
+    		"pirates",
+                "new_galactic_order"],
+
+    "diplomacyTraits":["pacifist", "submissive", "stalwart", "helps_allies"],
+    "morality":"good",
+    "alignments":{
+        "corporate":1,
+        "diplomatic":1,
+    },
+
+
+    "miningVariantsOrWings":[],
+
+    "colonyExpeditionChance":1,	# baseline expansion behaviour
+    "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
+
+
+    "startShipsSolo":[
+        ["keruvim_shotel_standard"],
+        ["keruvim_flamberge_assault"],
+    ],
+    "startShipsCombatSmall":[
+        "keruvim_zweihander_b_assault",
+        "keruvim_axe_a_support",
+        "keruvim_flamberge_assault" 
+],
+    "startShipsCarrierSmall":[
+        "keruvim_zweihander_a_standard", "keruvim_axe_a_strike", "keruvim_shotel_sniper"
+    ],
+
+    "startShipsCombatLarge":[
+        "keruvim_glaive_standard", "keruvim_culverin_assault", "keruvim_flamberge_assault", "keruvim_axe_b_sniper"
+],
+    "startShipsCarrierLarge":[
+        "keruvim_chariot_a_assault",
+        "keruvim_mortar_standard",
+        "keruvim_flamberge_standard",
+        "keruvim_flamberge_assault"
+    ],
+    "startShipsGrandFleet":[
+        "keruvim_empress_support",
+        "keruvim_glaive_standard",
+        "keruvim_chariot_b_assault",
+        "keruvim_culverin_support",
+        "keruvim_zweihander_a_standard",
+        "keruvim_zweihander_b_sniper",
+        "keruvim_axe_b_assault",
+        "keruvim_flamberge_assault",
+        "keruvim_axe_b_assault",
+        "keruvim_flamberge_assault"],
+    "startShipsSuper":[["keruvim_lucerne_assault"]],
+
+    "startSpecialItems":[
+        [["keruvim_package", ""]],
+    ],
+
+    "defenceStations":[
+        {"ids":["orbitalstation_mid", "battlestation_mid", "starfortress_mid"]},
+    ],
+
+    "industrySeeds":[
+        {"id":"orbitalworks", "count":1},
+        {"id":"nanoforge_pristine", "count":1}
+    ],
+}

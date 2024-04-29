@@ -1,0 +1,22 @@
+{
+  "variantId": "puer_chorum_std",
+  "hullId": "puer_chorum",
+  "displayName": "Assault Drone",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "burst_rem_ftr"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,165 @@
+{
+  "hullName": "Uknown Contact",
+  "hullId": "hmi_spookyboi_left_dd",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/mess/hmi_spookyboi_left_dd.png",
+  "style": "HIGH_TECH_VANISH",
+  "height": 140,
+  "width": 120,
+  "center": [60, 70],
+  "collisionRadius": 84.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 81.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "missile_reload",
+    "missile_autoloader",
+    "missleracks",
+    "eccm",
+    "armoredweapons",
+    "hmi_terror_vanish"
+  ],
+  "builtInWeapons": {
+    "WS0001": "tachyonlance_spook_tach_right",
+    "WS0002": "sabot",
+    "WS0003": "sabot",
+    "WS0004": "sabot",
+    "WS0005": "sabot",
+    "WS0006": "sabot"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 288,
+      "angle": 0,
+      "locations": [33.5, -1.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -62,
+      "locations": [35, -39]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -61,
+      "locations": [13.5, -47.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 103,
+      "angle": -137,
+      "locations": [-35.5, -20]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 102,
+      "angle": 43,
+      "locations": [2.5, 28.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 147,
+      "locations": [-25, 41.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-46, 30],
+      "length": 30,
+      "width": 10,
+      "angle": 161.5,
+      "contrailSize": 30,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-49, 19.5],
+      "length": 30,
+      "width": 10,
+      "angle": 169,
+      "contrailSize": 30,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-54, 0.5],
+      "length": 30,
+      "width": 10,
+      "angle": -177,
+      "contrailSize": 30,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-45.5, -27],
+      "length": 30,
+      "width": 10,
+      "angle": -165,
+      "contrailSize": 30,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-24, -35.5],
+      "length": 10.246246,
+      "width": 6.932367,
+      "angle": -125.5,
+      "contrailSize": 6.932367,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-15.5, -39.5],
+      "length": 11.123764,
+      "width": 6.561058,
+      "angle": -106,
+      "contrailSize": 6.561058,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-6.5, 51.5],
+      "length": 11.123764,
+      "width": 6.561058,
+      "angle": 93.5,
+      "contrailSize": 6.561058,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    67, 5.5,
+    60, 25.5,
+    37, 48.5,
+    26.5, 50.5,
+    18.5, 56,
+    -27, 51.5,
+    -36.5, 34.5,
+    -53.5, 27,
+    -60, 3.5,
+    -55, -3.5,
+    -65, -11,
+    -50, -29,
+    -51, -39,
+    -24.5, -38.5,
+    -2.5, -45.5,
+    12, -59.5,
+    49, -42,
+    48, -29,
+    61, -18
+  ]
+}

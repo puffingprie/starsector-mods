@@ -1,0 +1,52 @@
+{
+  "variantId": "enforcer_Balanced_luddic",
+  "hullId": "enforcer_luddic",
+  "displayName": "Balanced",
+  "goalVariant": false,
+  "fluxCapacitors": 9,
+  "fluxVents": 10,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "converted_hangar"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 006": "hammer",
+        "WS 007": "hammer",
+        "WS 008": "hammer",
+        "WS 009": "hammer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "arbalest",
+        "WS 003": "arbalest",
+        "WS 005": "arbalest"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "heavymortar",
+        "WS 004": "heavymortar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "perdition_wing"
+  ]
+}

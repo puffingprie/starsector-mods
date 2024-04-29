@@ -1,0 +1,21 @@
+{
+  "displayName": "Fighter",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "hmi_nail",
+  "hullMods": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "hmi_nail_standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "irpulse"
+      }
+    }
+  ],
+  "wings": []
+}

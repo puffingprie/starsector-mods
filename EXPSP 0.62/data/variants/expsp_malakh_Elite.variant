@@ -1,0 +1,41 @@
+{
+  "variantId": "expsp_malakh_Elite",
+  "hullId": "expsp_malakh",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 6,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "frontemitter",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "expsp_coilciws",
+        "WS0004": "expsp_armorhunter"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "expsp_coilciws",
+        "WS0006": "expsp_coilciws"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "expsp_blind_wing"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+	"id":"expsp_beat_msl",
+	"specClass":"missile",
+	"missileType":"MISSILE",
+	"sprite":"graphics/missiles/expsp_aam_msl.png",
+	"size":[4,18],	
+	"center":[2,9],
+	#"size":[10,21],	
+	#"center":[5,10.5],
+	"collisionRadius":12,
+	"collisionClass":"MISSILE_FF",
+	"explosionColor":[140,249,255,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":75, # purely visual
+	"flameoutTime":1, # total time from flameout to full fadeout
+	"noEngineGlowTime":0.5, # time spent without the engine glow being rendered
+	"fadeTime":0.5, # fadeout duration	
+	
+					
+	"engineSpec":{"turnAcc":500,
+				  "turnRate":90,
+				  "acc":1800,
+				  "dec":900},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-11, 0],
+				    #"style":"ROCKET_LOW_TECH",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[140,249,255,255],
+						"contrailDuration":.5,
+						"contrailWidthMult":2,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":0f, # how far away from engine it starts
+						"contrailColor":[40,149,155,150],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":4.0,
+				    "length":30.0,
+				    "angle":180.0}]
+}
+	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+					"range":60,
+					#"vsMissileRange":100,
+					"explosionSpec":{"duration":0.1f,
+									 "radius":80,
+									 "coreRadius":60, # full damage within core radius - also equal to proximity fuse range
+									 "collisionClass":PROJECTILE_FF,
+									 "collisionClassByFighter":PROJECTILE_FIGHTER,
+									 "particleSizeMin":2.0,
+									 "particleSizeRange":2.0,
+									 "particleDuration":1,
+									 "particleCount":25,
+									 "particleColor":[50,250,250,55],
+									 "sound":"explosion_flak"},
+					}
+			

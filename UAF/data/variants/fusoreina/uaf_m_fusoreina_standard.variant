@@ -1,0 +1,92 @@
+{
+  "variantId": "uaf_m_fusoreina_standard",
+  "hullId": "uaf_m_fusoreina",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 2,
+  "fluxVents": 12,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "autorepair",
+    "ballistic_rangefinder",
+    "fluxbreakers",
+    "targetingunit",
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_cyrexa",
+        "WS0002": "uaf_cyrexa"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "HP01": "uaf_hikone_quad",
+        "HP02": "uaf_hikone_quad",
+        "HP03": "uaf_hikone_quad",
+        "HP04": "uaf_hikone_quad"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "uaf_medlav_quad",
+        "WS0004": "uaf_medlav_quad"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "uaf_triyia_pdx",
+        "WS0006": "uaf_triyia_pdx"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "uaf_clemente_s_mrm_double",
+        "WS0018": "uaf_selemene_m_mrm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "uaf_pd_reina",
+        "WS0012": "uaf_pd_reina",
+        "WS0013": "uaf_pd_reina_ii",
+        "WS0014": "uaf_pd_reina_ii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "uaf_pd_reina",
+        "WS0008": "uaf_pd_reina",
+        "WS0009": "uaf_pd_reina_ii",
+        "WS0010": "uaf_pd_reina_ii",
+        "WS0015": "uaf_flair_pod",
+        "WS0016": "uaf_flair_pod"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "FUSOREINA_PORT_MODULE": "uaf_m_fusoreina_larmor_standard"
+    },
+    {
+      "FUSOREINA_STARPORT_MODULE": "uaf_m_fusoreina_rarmor_standard"
+    }
+  ],
+  "wings": []
+}

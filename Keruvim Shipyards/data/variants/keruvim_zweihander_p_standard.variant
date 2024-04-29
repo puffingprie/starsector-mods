@@ -1,0 +1,57 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 20,
+  "fluxVents": 8,
+  "goalVariant": true,
+  "hullId": "keruvim_zweihander_p",
+  "hullMods": [
+    "missleracks",
+    "unstable_injector"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "keruvim_zweihander_p_standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "locust"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "reaper",
+        "WS0004": "reaper"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "heavyac",
+        "WS0007": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightac",
+        "WS0002": "lightac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "lrpdlaser",
+        "WS0008": "lrpdlaser"
+      }
+    }
+  ],
+  "wings": []
+}

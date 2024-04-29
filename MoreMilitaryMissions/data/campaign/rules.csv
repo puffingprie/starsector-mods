@@ -1,0 +1,246 @@
+id,trigger,conditions,script,text,options,notes
+# rule for injecting person missions,,,,,,
+mmm_contactMHOpenText,MHOpenText,!$mmm_missions_injected,"$mmm_missions_injected = true 0
+MMM_MissionHubCMD
+FireBest MHOpenText
+unset $mmm_missions_injected",,,
+mmm_contactPostAccept,ContactPostAccept,!$mmm_missions_injected score:1000,"FireBest ContactPostAccept
+MMM_MissionHubCMD
+unset $mmm_missions_injected",,,"needed for missions that is complete on accept, like local cheapCom, so if another commodity is in surplus it is reinjected immediately"
+,,,,,,
+# Defense Mission,,,,,,
+mmm_dmBlurb,mmm_dm_blurb,,,"""There $mmm_dm_fleet_desc_contact we would like your help in repelling.""",,
+mmm_dmOfferOption,mmm_dm_option,,,,mmm_dm_start:Ask about the invasion fleet,
+mmm_dmOfferTextContact,DialogOptionSelected,$option == mmm_dm_start,"$missionId = mmm_dm
+ShowPersonVisual
+Highlight $mmm_dm_reward
+Call $mmm_dm_ref showBountyDetail","""You came at just the right time."" $heOrShe replies. ""These are all the reports we got from military intelligence. The reward is $mmm_dm_reward credits, assuming the station can be successfully defended.""","contact_accept:Accept
+contact_decline:Decline",
+mmm_dmBlurbBar,mmm_dm_blurbBar,,,You received an urgent summon from the station commander.,,
+mmm_dmOfferOptionBar,mmm_dm_optionBar,,,,mmm_dm_startBar:Answer the summon of the station commander,
+mmm_dmOfferTextBar,DialogOptionSelected,$option == mmm_dm_startBar,"$missionId = mmm_dm
+$option = mmm_dm_showOptionsBar 0
+FireBest DialogOptionSelected","""We are being invaded by $mmm_dm_fleet_desc_bar,"" $heOrShe explains. ""We could use some help in our defenses.""",,
+mmm_dmGoBackBarSel,DialogOptionSelected,$option == mmm_dm_showOptionsBar,"# removes map
+ShowPersonVisual",,"mmm_dm_showBountyBar:""How powerful are we looking at?""
+contact_declineBarNoContinue:""You're going to have to find someone else."" (decline)",
+mmm_dmShowBountyBar,DialogOptionSelected,$option == mmm_dm_showBountyBar,"Highlight $mmm_dm_reward
+Call $mmm_dm_ref showBountyDetail","""These are all the reports we got from military intelligence. The reward is $mmm_dm_reward credits, assuming the station can be successfully defended.""","contact_acceptBar:Accept
+contact_declineBarNoContinue:Decline",
+,,,,,,
+# repair mission,,,,,,
+mmm_rmBlurb,mmm_rm_blurb,,,"""We would like you to secure materials for the repair of our $mmm_rm_station_desc.""",,
+mmm_rmOfferOption,mmm_rm_option,,,,mmm_rm_start:Ask about the repair materials,
+mmm_rmOfferTextContact,DialogOptionSelected,$option == mmm_rm_start,"$missionId = mmm_rm
+ShowPersonVisual
+SetTextHighlights $mmm_rm_supplies $mmm_rm_heavy_machinery $mmm_rm_metals $mmm_rm_rare_metals $mmm_rm_profit_margin $mmm_rm_totalPrice $mmm_rm_time_limit","""Excellent. I need $mmm_rm_supplies supplies, $mmm_rm_heavy_machinery heavy machinery, $mmm_rm_metals metals, and $mmm_rm_rare_metals transplutonics,"" $heOrShe explains. ""You will be paid $mmm_rm_profit_margin above the base price, which amounts to $mmm_rm_totalPrice credits total if you can bring me these commodities in $mmm_rm_time_limit days.""
+
+""I won't ask, and you won't tell me, where you would acquire the materials in such quantities. You interested?""","contact_accept:Accept
+contact_decline:Decline",
+mmm_rmBlurbBar,mmm_rm_blurbBar,,,You noticed that the $mmm_rm_station_desc is in terrible shape.,,
+mmm_rmOfferOptionBar,mmm_rm_optionBar,,,,mmm_rm_startBar:Pay a visit to the station commander,
+mmm_rmOfferTextBar,DialogOptionSelected,$option == mmm_rm_startBar,$missionId = mmm_rm,"""Yes, our $mmm_rm_station_desc. We are running into some logistical challenges in our restoration efforts,"" $heOrShe grumbles. ""Apparently the higher-ups have better priorities.""
+
+Suddenly, a light bulb went off inside $hisOrHer head. ""You know, a freewheeling captain like you might be exactly who I need. I have the credits, just not the channels to properly spend it. You interested?""","mmm_rm_showDetail:""What do you need?""",
+mmm_rmShowDetail,DialogOptionSelected,$option == mmm_rm_showDetail,"# removes map
+ShowPersonVisual
+SetTextHighlights $mmm_rm_supplies $mmm_rm_heavy_machinery $mmm_rm_metals $mmm_rm_rare_metals $mmm_rm_profit_margin $mmm_rm_totalPrice $mmm_rm_time_limit","""Excellent. I need $mmm_rm_supplies supplies, $mmm_rm_heavy_machinery heavy machinery, $mmm_rm_metals metals, and $mmm_rm_rare_metals transplutonics,"" $heOrShe explains. ""You will be paid $mmm_rm_profit_margin above the base price, which amounts to $mmm_rm_totalPrice credits total if you can bring me these commodities in $mmm_rm_time_limit days.""
+
+""I won't ask, and you won't tell me, where you would acquire the materials in such quantities. Deal?""","contact_acceptBar:""It's a deal.""
+contact_declineBarNoContinue:Decline",
+,,,,,,
+mmm_rmDeliverGreetingNotEnough,PickGreeting,"$mmm_rm_needsCommodity score:20000
+Call $mmm_rm_ref updateData
+!$mmm_rm_playerHasEnough","ShowPersonVisual
+SetTextHighlights $mmm_rm_supplies $mmm_rm_heavy_machinery $mmm_rm_metals $mmm_rm_rare_metals
+FireAll PopulateOptions","""You having difficulty acquiring the materials?"" $heOrShe asks. ""I need $mmm_rm_supplies supplies, $mmm_rm_heavy_machinery heavy machinery, $mmm_rm_metals metals, and $mmm_rm_rare_metals transplutonics.""
+
+""Is there anything else you want to talk about?""",,
+mmm_rmDeliverGreeting,PickGreeting,"$mmm_rm_needsCommodity score:20000
+Call $mmm_rm_ref updateData
+$mmm_rm_playerHasEnough",ShowPersonVisual,"""So you came through, just as I expected,"" $heOrShe nods with approval. ""I'll show you where you can unload the materials.""",mmm_rm_deliver:Unload the materials,
+mmm_rmDeliverOptionSel,DialogOptionSelected,$option == mmm_rm_deliver,"RemoveCommodity supplies $mmm_rm_supplies
+RemoveCommodity heavy_machinery $mmm_rm_heavy_machinery
+RemoveCommodity metals $mmm_rm_metals
+RemoveCommodity rare_metals $mmm_rm_rare_metals
+$mmm_rm_completed = true
+Call $mmm_rm_ref updateStage
+FireAll PopulateOptions","""Anything else you want to talk about?""",,
+,,,,,,
+# escort mission,,,,,,
+mmm_emBlurb,mmm_em_blurb,,,"""We are assembling more ships for our $mmm_em_fleet_name.""",,
+mmm_emBlurbUnderworld,mmm_em_blurb,$mmm_em_underworld,,"""We need more ships for our $mmm_em_fleet_name.""",,
+mmm_emOfferOption,mmm_em_option,,,,mmm_em_start:Ask about the $mmm_em_fleet_name,
+mmm_emOfferOptionUnderworld,mmm_em_option,$mmm_em_underworld,,,mmm_em_start:Ask about the $mmm_em_fleet_name,
+mmm_emOfferText,DialogOptionSelected,$option == mmm_em_start,"$missionId = mmm_em
+# removes map
+ShowPersonVisual
+SetTextHighlightColors $mmm_em_to_market_color h h
+SetTextHighlights $mmm_em_to_market $mmm_em_delay_days $mmm_em_credits","""We will depart for $mmm_em_to_market in $mmm_em_delay_days $mmm_em_day_or_days,"" $heOrShe explain. ""We can pay you $mmm_em_credits to make it worth your time.""","mmm_em_showDetail:""Tell me more.""",
+mmm_emOfferDetail,DialogOptionSelected,$option == mmm_em_showDetail,Call $mmm_em_ref showDetail,,"contact_accept:""I'll be there.""
+contact_decline:Decline",
+mmm_emOfferDetailWithCargo,DialogOptionSelected,"$option == mmm_em_showDetail
+$mmm_em_has_commodities","Call $mmm_em_ref showDetail
+DoCanAffordCheck $mmm_em_escrow mmm_em_acceptCargo false",,"contact_accept:""I'm only interested in providing security.""
+mmm_em_acceptCargo:""I'm interested in making more money.""
+contact_decline:Decline",
+mmm_emAcceptCargo,DialogOptionSelected,$option == mmm_em_acceptCargo,"SetTextHighlightColors $mmm_em_from_market_color $mmm_em_to_market_color
+SetTextHighlights $mmm_em_agent $mmm_em_to_market
+RemoveCommodity credits $mmm_em_escrow
+Call $mmm_em_ref acceptCargo
+PlaySound ui_intel_update","""Excellent. Please contact $mmm_em_agent when you reach $mmm_em_to_market.""",contact_accept:Accept,
+,,,,,,
+mmm_emBlurbBar,mmm_em_blurbBar,,,You receive intel on your tripad that a $mmm_em_fleet_name is looking for more ships.,,
+mmm_emBlurbBarUnderworld,mmm_em_blurbBar,$mmm_em_underworld,,You hear rumors that a $mmm_em_fleet_name is being assembled.,,
+mmm_emOfferOptionBar,mmm_em_optionBar,,,,mmm_em_startBar:Offer your service to the $mmm_em_fleet_name,
+mmm_emOfferOptionBarUnderworld,mmm_em_optionBar,$mmm_em_underworld,,,mmm_em_startBar:See whether there are money to be made from the $mmm_em_fleet_name,
+mmm_emOfferTextBar,DialogOptionSelected,$option == mmm_em_startBar,"$missionId = mmm_em
+# removes map
+ShowPersonVisual
+SetTextHighlightColors $mmm_em_to_market_color h h
+SetTextHighlights $mmm_em_to_market $mmm_em_delay_days $mmm_em_credits","""Ah, Captain $playerName,"" $heOrShe explain. ""We are assembling a $mmm_em_fleet_name that will depart for $mmm_em_to_market in $mmm_em_delay_days $mmm_em_day_or_days. Would you be interested in joining? There is safety in numbers and we can pay you $mmm_em_credits to make it worth your time.""","mmm_em_showDetailBar:""Tell me more.""",
+mmm_emOfferTextBarUnderworld,DialogOptionSelected,"$option == mmm_em_startBar
+$mmm_em_underworld","$missionId = mmm_em
+# removes map
+ShowPersonVisual
+SetTextHighlightColors $mmm_em_to_market_color h h
+SetTextHighlights $mmm_em_to_market $mmm_em_credits $mmm_em_delay_days","$HeOrShe looks at you with recognition. ""Do you like making money? Our $mmm_em_fleet_name to $mmm_em_to_market needs more muscles. We can pay you $mmm_em_credits if you show up in $mmm_em_delay_days $mmm_em_day_or_days.""","mmm_em_showDetailBar:""I like money.""",
+mmm_emOfferDetailBar,DialogOptionSelected,$option == mmm_em_showDetailBar,Call $mmm_em_ref showDetail,,"contact_acceptBar:""I'll be there.""
+contact_declineBarNoContinue:Decline",
+mmm_emOfferDetailWithCargoBar,DialogOptionSelected,"$option == mmm_em_showDetailBar
+$mmm_em_has_commodities","Call $mmm_em_ref showDetail
+DoCanAffordCheck $mmm_em_escrow mmm_em_acceptCargoBar false",,"contact_acceptBar:""I'm only interested in providing security.""
+mmm_em_acceptCargoBar:""I'm interested in making more money.""
+contact_declineBarNoContinue:Decline",
+mmm_emAcceptCargoBar,DialogOptionSelected,$option == mmm_em_acceptCargoBar,"SetTextHighlightColors $mmm_em_from_market_color $mmm_em_to_market_color
+SetTextHighlights $mmm_em_agent $mmm_em_to_market
+RemoveCommodity credits $mmm_em_escrow
+Call $mmm_em_ref acceptCargo
+PlaySound ui_intel_update","""Excellent. Please contact $mmm_em_agent when you reach $mmm_em_to_market.""",contact_acceptBar:Accept,
+,,,,,,
+mmm_emContactPrintAccept,ContactPrintAcceptText,$missionId == mmm_em score:100,,"""Don't be late; we can't afford to wait for stragglers.""",,
+mmm_emTradeFleetGreetingWait,OpenCommLink,$entity.mmm_em_trade_fleet score:100,"ShowPersonVisual
+$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Glad to see you onboard, Captain $playerName"" says $Post $name.",,
+mmm_emTradeFleetGreetingTravel,OpenCommLink,"$entity.mmm_em_trade_fleet score:100
+$entity.mmm_em_is_travel","ShowPersonVisual
+$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Hail received,"" says $Post $name. ""Try not too fall too far behind; you won't get paid if you do.""",,
+,,,,,,
+mmm_emDeliverGreetingNotEnough,PickGreeting,"$mmm_em_needs_commodities score:20000
+Call $mmm_em_ref updateData
+!$mmm_em_has_enough","ShowPersonVisual
+SetTextHighlights $mmm_em_transport_desc
+FireAll PopulateOptions","""I am expecting a delivery of $mmm_em_transport_desc. You will be responsible for disposing of the commodities yourself if you fail to make delivery within the time window.""",,
+mmm_emDeliverGreeting,PickGreeting,"$mmm_em_needs_commodities score:20000
+Call $mmm_em_ref updateData
+$mmm_em_has_enough","ShowPersonVisual
+Call $mmm_em_ref unloadCargo
+AddCredits $mmm_em_escrow
+AddCredits $mmm_em_delivery_reward
+AdjustRepActivePerson 2
+AdjustRep $personFaction.id 1
+Call $mmm_em_ref updateStage
+FireAll PopulateOptions","""Good work. I'll show you where you can unload the commodities.""",,
+mmm_emHasCommodities,PickGreeting,"!$mmm_em_needs_commodities score:20000
+$mmm_em_has_commodities","ShowPersonVisual
+FireAll PopulateOptions","""I have been expecting you.""",,
+mmm_emMoreCommodities,PopulateOptions,"!$mmm_em_needs_commodities
+$mmm_em_has_commodities","Call $mmm_em_ref updateData
+Call $mmm_em_ref showCargoOffer
+DoCanAffordCheck $mmm_em_escrow mmm_emAcceptReturn false",,mmm_emAcceptReturn:Accept the delivery,
+mmm_emAcceptReturnSel,DialogOptionSelected,$option == mmm_emAcceptReturn,"SetTextHighlightColors $mmm_em_from_market_color $mmm_em_from_market_color
+SetTextHighlights $mmm_em_quest_giver $mmm_em_from_market
+RemoveCommodity credits $mmm_em_escrow
+Call $mmm_em_ref acceptCargo
+PlaySound ui_intel_update
+FireAll PopulateOptions","""Excellent. Please contact $mmm_em_quest_giver when you reach $mmm_em_from_market. Anything else you want to talk about?""",,
+,,,,,,
+# VIP distress call mission,,,,,,
+mmm_vipBeginMission,CheckSalvageSpecial,"$mmm_vip_derelict_picked score:10
+BeginMission mmm_vip false","unsetAll $mmm_vip_derelict_picked
+unsetAll $salvageSpecialData","While making a preliminary assessment, your salvage crews find a single occupied sleeper pod still running on backup power.",mmm_vipOpenPod:Attempt to open the pod,
+mmm_vipBeginMissionFailed,CheckSalvageSpecial,$mmm_vip_derelict_picked score:9,"unsetAll $mmm_vip_derelict_picked
+SalvageSpecialInteraction",,,
+mmm_vipOpenPod,DialogOptionSelected,$option == mmm_vipOpenPod,"BeginConversation $global.mmm_vip_person
+Call $global.tempMissionKey updateData
+FireBest mmm_vipPostOpenPod","The thawing process completes, and the pod opens.",,
+mmm_vipPostOpenPod,mmm_vipPostOpenPod,!$mmm_vip_is_luddic,,"""Thank the stars you showed up!"" the $manOrWoman exclaims, ""I thought I was a goner.""",mmm_vipInterrogate:What happened to you?,
+mmm_vipPostOpenPodLuddic,mmm_vipPostOpenPod,$mmm_vip_is_luddic,,"""Praise to providence and Ludd!"" the $manOrWoman exclaims, ""I thought I was a goner.""",mmm_vipInterrogate:What happened to you?,
+mmm_vipInterrogate,DialogOptionSelected,$option == mmm_vipInterrogate,"Call $global.tempMissionKey showMap ""Destination: $mmm_vip_market""
+SetTextHighlightColors $personFaction.baseColor
+SetTextHighlights $mmm_vip_market","""Our fleet ran into hostilities, and I had to abandon ship after it took a bad hit,"" The $manOrWoman explain. ""In the ensuing chaos the ship that I ended up in got separated from the rest of the fleet, and afterwards... well you can see the result for yourself.""
+
+""Now, enough of the past,"" $heOrShe perks up. ""I am a prominent $manOrWoman with considerable resources at my disposal. If you bring me to $mmm_vip_market I'm sure I can make it worth your time.""",mmm_vipAccept:Accept,
+mmm_vipAccept,DialogOptionSelected,$option == mmm_vipAccept,"AcceptMission
+ShowDefaultVisual
+EndConversation DO_NOT_FIRE
+FireBest BeginSalvage",,,
+,,,,,,
+mmm_vipConfirmNPCWantsToTalk,ConfirmNPCWantsToTalk,$mmm_vip_ref != null score:10,"Call $mmm_vip_ref updateData
+ShowPersonVisual
+FireBest mmm_vipShowOptions","As you get near $entityName, $PersonName approaches you.
+
+""A reward, as promised. What would you like?"" $heOrShe asks.",,
+mmm_vipShowOptions,mmm_vipShowOptions,,SetOptionColor mmm_vipPickStoryPoint story,,"mmm_vipPickCredits:Cold hard cash is all I need(+$mmm_vip_credits)
+mmm_vipPickRelations:Just put in good words for me(+$mmm_vip_rel_reward relations)
+mmm_vipPickStoryPoint:How about you owe me a favor(+1 story point)",
+mmm_vipPickCredits,DialogOptionSelected,$option == mmm_vipPickCredits,"AddCredits $mmm_vip_credits
+AdjustRep $personFaction.id 3
+AdjustRepActivePerson $mmm_vip_person_rel_reward","""Ask and you shall receive.""",mmm_vipCompleteMission:bid $himOrHer farewell,
+mmm_vipPickRelations,DialogOptionSelected,$option == mmm_vipPickRelations,"AdjustRep $personFaction.id $mmm_vip_rel_reward
+AdjustRepActivePerson $mmm_vip_rel_reward
+","""Is that all? Well you can't buy good reputation.""",mmm_vipCompleteMission:bid $himOrHer farewell,
+mmm_vipPickStoryPoint,DialogOptionSelected,$option == mmm_vipPickStoryPoint,"AddStoryPoints 1
+AdjustRep $personFaction.id 3
+AdjustRepActivePerson $mmm_vip_person_rel_reward","""My instinct is telling me that you're benefiting in ways I'm not aware of, but your secret is your own.""",mmm_vipCompleteMission:bid $himOrHer farewell,
+mmm_vipCompleteMission,DialogOptionSelected,$option == mmm_vipCompleteMission,"Call $mmm_vip_ref endSuccess
+EndConversation
+ShowDefaultVisual",,,
+,,,,,,
+# Scavenger Trading,,,,,,
+mmm_trade_offerOpt,PopulateOptions,"$menuState == fleetConvMain
+$entity.isScavenger
+!$mmm_trade_done",,,mmm_trade_offerSel:Propose a trade in commodities,
+mmm_trade_offerSel,DialogOptionSelected,$option == mmm_trade_offerSel,MMM_Trade_CMD,,,
+,,,,,,
+mmm_tradeIntel_offerOpt,PopulateOptions,"$menuState == fleetConvMain
+$entity.isScavenger
+!$mmm_tradeIntel_done",,,mmm_tradeIntel_offerSel:Buy intel on salvage opportunities,
+mmm_tradeIntel_offerSel,DialogOptionSelected,$option == mmm_tradeIntel_offerSel,"MMM_TradeIntel_CMD init
+FireBest mmm_tradeIntel_postOfferSel",,,
+mmm_tradeIntel_noInterest,mmm_tradeIntel_postOfferSel,!$mmm_tradeIntel_wantToTrade,"$mmm_tradeIntel_done = true 0
+FireAll PopulateOptions","""If we know about such things don't you think we would be getting it ourselves?""
+
+Perhaps we should try again when they reach their destination.",,
+mmm_tradeIntel_noTarget,mmm_tradeIntel_postOfferSel,$mmm_tradeIntel_wantToTrade,"$mmm_tradeIntel_done = true 0
+FireAll PopulateOptions","""Nothing worthwhile unfortunately.""",,
+mmm_tradeIntel_hasTarget,mmm_tradeIntel_postOfferSel,"$mmm_tradeIntel_wantToTrade
+$mmm_tradeIntel_targetDesc != null","SetTextHighlights $mmm_tradeIntel_highlight $mmm_tradeIntel_credits_str
+DoCanAffordCheck $mmm_tradeIntel_credits mmm_tradeIntel_accept false","""We know about $mmm_tradeIntel_targetDesc. It might be picked clean by the time we can get to it, so we're willing to let you have it for just $mmm_tradeIntel_credits_str. How about it?""","mmm_tradeIntel_accept:Accept
+mmm_tradeIntel_decline:Decline",
+mmm_tradeIntel_accept,DialogOptionSelected,$option == mmm_tradeIntel_accept,"$mmm_tradeIntel_done = true 0
+AddCredits -$mmm_tradeIntel_credits
+AdjustRepActivePerson $mmm_tradeIntel_rel_reward
+MMM_TradeIntel_CMD accept
+FireAll PopulateOptions",,,
+mmm_tradeIntel_decline,DialogOptionSelected,$option == mmm_tradeIntel_decline,FireAll PopulateOptions,"""That's too bad.""",,
+,,,,,,
+# Pick Your Ships,,,,,,
+mmm_ngc_CustomStart,AddNewGameChoices,,,,6:mmm_ngcCustom:(Pick your ships),
+mmm_ngc_CustomSel,NewGameOptionSelected,$option == mmm_ngcCustom,MMM_NGC_CMD,,,
+mmm_ngc_DoneQuick,mmm_ngc_DoneQuick,,"AddTextSmall ""Acquired level 1 officer"" good
+SetTextHighlights ""level 1 officer""
+$ngcAddOfficer = true
+$ngcMercSelected = true
+NGCAddCredits 18000
+NGCAddCargo RESOURCES heavy_machinery 20
+FireAll NGCDifficultyOptions",,,
+mmm_ngc_Done,mmm_ngc_Done,,"NGCAddCargo RESOURCES heavy_machinery 20
+FireAll NGCDifficultyOptions",,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,

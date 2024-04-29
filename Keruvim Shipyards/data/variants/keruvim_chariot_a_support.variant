@@ -1,0 +1,36 @@
+{
+  "variantId": "keruvim_chariot_a_support",
+  "hullId": "keruvim_chariot_a",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 17,
+  "fluxVents": 6,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "vulcan",
+        "WS0004": "vulcan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "flak",
+        "WS0002": "flak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "keruvim_antlion",
+    "keruvim_antlion",
+    "keruvim_antlion",
+    "keruvim_spider"
+  ]
+}

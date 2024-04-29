@@ -1,0 +1,24 @@
+{
+  "variantId": "mess_amalgam_med_mass_scary2",
+  "hullId": "mess_amalgam_med_mass",
+  "displayName": "Plasma",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "safetyoverrides"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "plasma"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

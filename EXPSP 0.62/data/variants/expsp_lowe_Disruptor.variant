@@ -1,0 +1,30 @@
+{
+  "variantId": "expsp_lowe_Disruptor",
+  "hullId": "expsp_lowe",
+  "displayName": "Disruptor Drone",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "expsp_frostbite"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_trip",
+        "WS0002": "expsp_trip"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

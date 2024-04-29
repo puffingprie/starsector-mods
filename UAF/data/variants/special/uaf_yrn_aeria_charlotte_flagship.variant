@@ -1,0 +1,91 @@
+{
+  "variantId": "uaf_yrn_aeria_charlotte_flagship",
+  "hullId": "uaf_yrn_aeria_charlotte",
+  "displayName": "Flagship",
+  "goalVariant": true,
+  "fluxCapacitors": 16,
+  "fluxVents": 12,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull",
+    "targetingunit",
+    "fluxbreakers",
+    "hardened_subsystems"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_herexa_triple",
+        "WS0002": "uaf_cyrexa",
+        "WS0003": "uaf_herexa_triple"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0015": "uaf_exoscar_torpedo_med",
+        "WS0016": "uaf_exoscar_torpedo_med"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0013": "uaf_swaras_m_mlrs",
+        "WS0014": "uaf_swaras_m_mlrs"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "uaf_edge_type_i",
+        "WS0010": "uaf_edge_type_i"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "uaf_ivory_triple",
+        "WS0005": "uaf_medlav_quad",
+        "WS0006": "uaf_medlav_quad"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "uaf_weiss_flk",
+        "WS0012": "uaf_weiss_flk"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "uaf_merupaka_epd",
+        "WS0008": "uaf_merupaka_epd"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0017": "uaf_m_zepporia_armor_1_plating"
+    },
+    {
+      "WS0018": "uaf_m_zepporia_armor_1_plating"
+    },
+    {
+      "WS0019": "uaf_m_zepporia_armor_1_plating"
+    },
+    {
+      "WS0020": "uaf_m_zepporia_armor_1_plating"
+    }
+  ],
+  "wings": []
+}

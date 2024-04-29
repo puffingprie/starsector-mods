@@ -1,0 +1,84 @@
+{
+  "variantId": "uaf_isenoria_prototype_suppressor",
+  "hullId": "uaf_isenoria_prototype",
+  "displayName": "Suppressor",
+  "goalVariant": true,
+  "fluxCapacitors": 2,
+  "fluxVents": 6,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "stabilizedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0018": "uaf_tona_iii",
+        "WS0019": "uaf_tona_iii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0016": "uaf_tona_ii",
+        "WS0017": "uaf_tona_ii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "uaf_exoscar_torpedo_base",
+        "WS0004": "uaf_exoscar_torpedo_base",
+        "WS0014": "uaf_swaras_m_mlrs",
+        "WS0015": "uaf_swaras_m_mlrs"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "uaf_tona_i",
+        "WS0011": "uaf_tona_i"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "uaf_shimata_155_cn",
+        "WS0008": "uaf_shimata_155_cn"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "uaf_weiss_ii_flk",
+        "WS0021": "uaf_selemene_m_mrm",
+        "WS0022": "uaf_selemene_m_mrm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_weiss_flk",
+        "WS0002": "uaf_weiss_flk",
+        "WS0005": "uaf_pd_reina_ii",
+        "WS0006": "uaf_pd_reina_ii",
+        "WS0012": "uaf_weiss_flk",
+        "WS0013": "uaf_weiss_flk"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_neoscar",
+    "uaf_wing_neoscar"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+	"id":"heavyblaster_rem_shot",
+	"specClass":"projectile",
+	"onHitEffect":"data.scripts.weapons.RemBlasterOnHitEffect",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":45.0,
+	"width":7,
+	"fadeTime":0.3,
+	"fringeColor":[255,90,60,255],
+	"coreColor":[255,255,255,255],
+	"glowColor":[255,90,60,75],
+	"glowRadius":45,
+	"hitGlowRadius":55,	
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_gauss_cannon.png"	
+}

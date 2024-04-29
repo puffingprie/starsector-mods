@@ -1,0 +1,63 @@
+{
+  "hullName": "PD Platform",
+  "hullId": "expsp_pdplatform",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/expsp_pdplatform.png",
+  "style": "EXPSP_MVS",
+  "height": 27,
+  "width": 32,
+  "center": [16, 12],
+  "collisionRadius": 23,
+  "shieldCenter": [1.5, -0],
+  "shieldRadius": 19.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "pointdefenseai"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [5.5, 4.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [6, 0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-9.5, 6],
+      "length": 14,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    },
+    {
+      "location": [-9.5, -6.5],
+      "length": 14,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    }
+  ],
+  "bounds": [
+    -6, -13,
+    7.5, -5.5,
+    7.5, 5.5,
+    -6, 13
+  ]
+}

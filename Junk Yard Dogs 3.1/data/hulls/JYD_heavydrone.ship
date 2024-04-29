@@ -1,0 +1,80 @@
+{
+  "hullName": "Heavy Drone",
+  "hullId": "JYD_heavydrone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/JYD_heavydrone.png",
+  "style": "LOW_TECH",
+  "height": 66,
+  "width": 60,
+  "center": [30, 33],
+  "collisionRadius": 52.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 49.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "armoredweapons",
+    "eccm"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 25,
+      "angle": 0,
+      "locations": [18, 20.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [5, -22]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [-2, 16.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 180,
+      "locations": [-22.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-28, 15],
+      "length": 25.5,
+      "width": 17,
+      "angle": -180,
+      "contrailSize": 17,
+      "style": "LOW_TECH_FIGHTER"
+    },
+    {
+      "location": [-27, -15.5],
+      "length": 25.5,
+      "width": 17,
+      "angle": -180,
+      "contrailSize": 17,
+      "style": "LOW_TECH_FIGHTER"
+    }
+  ],
+  "bounds": [
+    -42, -31,
+    32, -38.5,
+    35, 33,
+    -37, 33
+  ]
+}

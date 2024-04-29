@@ -1,0 +1,183 @@
+{
+
+#collapseopen MUSIC
+	
+"music":{
+		####################################
+		# "source" can also be a directory #
+		####################################
+
+		"rat_music_abyss":[
+			{"file":"EchoesOfTheDepths.ogg","source":"sounds/rat/music","volume":0.8},
+		],
+		
+		"rat_music_abyss2":[
+			{"file":"ImpendingPresence.ogg","source":"sounds/rat/music","volume":0.8},
+		],
+		
+		"rat_abyss_encounter":[
+			{
+				"file":"EyesOfTheAbyss.ogg",
+				"source":"sounds/rat/music",
+				"volume":1,
+				"randomStart":true, 
+			},
+		],
+		
+		"rat_abyss_encounter2":[
+			{
+				"file":"EtherealVanguards.ogg",
+				"source":"sounds/rat/music",
+				"volume":1,
+				"randomStart":true, 
+			},
+		],
+		
+		"rat_abyss_interaction1":[
+			{"file":"ThatWhichOnceWas.ogg","source":"sounds/rat/music","volume":0.8},
+		],
+		
+		"rat_abyss_interaction2":[
+			{"file":"TheHeartOfThoseForgotten.ogg","source":"sounds/rat/music","volume":0.8},
+		],
+		
+		"rat_abyss_genesis1":[
+			{"file":"Genesis.ogg","source":"sounds/rat/music","volume":1.2},
+		],
+		
+		"rat_abyss_genesis2":[
+			{"file":"PrimordialWaters.ogg","source":"sounds/rat/music","volume":1.2},
+		],
+		
+		"rat_exo_market":[
+			{
+				"file":"PhantomOfTheFringe.ogg",
+				"source":"sounds/rat/music",
+				"volume":1,
+				"randomStart":true, 
+			},
+		],
+		
+		
+		"rat_exo_encounter":[
+			{
+				"file":"PioneeringNomads.ogg",
+				"source":"sounds/rat/music",
+				"volume":1,
+				"randomStart":true, 
+			},
+		],
+		
+		
+		
+	
+# collapseclose
+	},
+
+	"rat_raguel_system_concordshift_fire":[
+		{"file":"sounds/sfx_wpn_energy/rift_explosion_01.ogg","pitch":0.9,"volume":0.8},
+		{"file":"sounds/sfx_wpn_energy/rift_explosion_01.ogg","pitch":1.1,"volume":0.8},
+		{"file":"sounds/sfx_wpn_energy/rift_explosion_01.ogg","pitch":1.0,"volume":0.8},
+		{"file":"sounds/sfx_wpn_energy/rift_explosion_02.ogg","pitch":0.9,"volume":0.8},
+		{"file":"sounds/sfx_wpn_energy/rift_explosion_02.ogg","pitch":1.1,"volume":0.8},
+		{"file":"sounds/sfx_wpn_energy/rift_explosion_02.ogg","pitch":1.0,"volume":0.8},
+		{"file":"sounds/sfx_wpn_energy/rift_explosion_03.ogg","pitch":0.9,"volume":0.8},
+		{"file":"sounds/sfx_wpn_energy/rift_explosion_03.ogg","pitch":1.1,"volume":0.8},
+		{"file":"sounds/sfx_wpn_energy/rift_explosion_03.ogg","pitch":1.0,"volume":0.8},
+                
+		#{"file":"sounds/sfx_wpn_energy/rift_explosion_01.ogg","pitch":1,"volume":1.0},
+		#{"file":"sounds/sfx_wpn_energy/rift_explosion_02.ogg","pitch":1,"volume":1.0},
+		#{"file":"sounds/sfx_wpn_energy/rift_explosion_03.ogg","pitch":1,"volume":1.0},
+		#{"file":"sounds/sfx_wpn_energy/rift_explosion_04.ogg","pitch":1,"volume":1.0},
+		#{"file":"sounds/sfx_wpn_energy/rift_explosion_05.ogg","pitch":1,"volume":1.0},
+	],
+
+	"rat_abyss_ambient_sounds":[
+		{"file":"sounds/sfx_abyss/rat_abyss_sound_1.ogg","pitch":1.0,"volume":1},
+		{"file":"sounds/sfx_abyss/rat_abyss_sound_2.ogg","pitch":1.0,"volume":1},
+		{"file":"sounds/sfx_abyss/rat_abyss_sound_3.ogg","pitch":1.0,"volume":1},
+		{"file":"sounds/sfx_abyss/rat_abyss_sound_4.ogg","pitch":1.0,"volume":1},
+		{"file":"sounds/sfx_abyss/rat_abyss_sound_5.ogg","pitch":1.0,"volume":1},
+		{"file":"sounds/sfx_abyss/rat_abyss_sound_6.ogg","pitch":1.0,"volume":1},
+		{"file":"sounds/sfx_abyss/rat_abyss_sound_7.ogg","pitch":1.0,"volume":1},
+		{"file":"sounds/sfx_abyss/rat_abyss_sound_8.ogg","pitch":1.0,"volume":1},
+		{"file":"sounds/sfx_abyss/rat_abyss_sound_9.ogg","pitch":1.0,"volume":1},
+		{"file":"sounds/sfx_abyss/rat_abyss_sound_10.ogg","pitch":1.0,"volume":1},
+	],
+
+	"rat_genesis_system_sound":[
+            {"file":"sounds/sfx_systems/mote_attractor_targeted_ship_01.ogg","pitch":0.8,"volume":0.6},
+    ],
+
+	"rat_abyss_storm_sounds":[
+		{"file":"sounds/sfx_terrain/terrain_hyperspace_deep_storm_lightning_01.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/sfx_terrain/terrain_hyperspace_deep_storm_lightning_02.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/sfx_terrain/terrain_hyperspace_deep_storm_lightning_03.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/sfx_terrain/terrain_hyperspace_deep_storm_lightning_04.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/sfx_terrain/terrain_hyperspace_deep_storm_lightning_05.ogg","pitch":1,"volume":0.5},
+    ],
+	
+ 	"abyss_haddock":[
+		{"file":"sounds/sfx_wpn_energy/antimatter_blaster_fire_01.ogg","pitch":0.9,"volume":0.8},
+	],
+
+	"abyss_humpback":[
+		{"file":"sounds/sfx_wpn_energy/antimatter_blaster_fire_01.ogg","pitch":0.8,"volume":0.75},
+	],
+	
+	"abyss_lusca":[
+		{"file":"sounds/sfx_wpn_energy/antimatter_blaster_fire_01.ogg","pitch":0.9,"volume":0.45},
+	],
+	
+	"rat_abyss_ceto_blaster":
+	[
+		{"file":"sounds/sfx_wpn_energy/antimatter_blaster_fire_01.ogg","pitch":0.7,"volume":0.4},
+	],
+	
+	"abyss_cecaelia":[
+ 		{"file":"sounds/sfx_wpn_energy/cryoblaster_fire_01.ogg","pitch":0.8,"volume":0.9},
+		{"file":"sounds/sfx_wpn_energy/cryoblaster_fire_02.ogg","pitch":0.8,"volume":0.9},
+		{"file":"sounds/sfx_wpn_energy/cryoblaster_fire_03.ogg","pitch":0.8,"volume":0.9},
+	],
+
+	"abyss_leviathan":[
+		{"file":"sounds/sfx_wpn_energy/rift_explosion_01.ogg","pitch":0.9,"volume":0.8},
+		{"file":"sounds/sfx_wpn_energy/rift_explosion_01.ogg","pitch":1.1,"volume":0.8},
+		{"file":"sounds/sfx_wpn_energy/rift_explosion_01.ogg","pitch":1.0,"volume":0.8},
+		{"file":"sounds/sfx_wpn_energy/rift_explosion_02.ogg","pitch":0.9,"volume":0.8},
+		{"file":"sounds/sfx_wpn_energy/rift_explosion_02.ogg","pitch":1.1,"volume":0.8},
+		{"file":"sounds/sfx_wpn_energy/rift_explosion_02.ogg","pitch":1.0,"volume":0.8},
+		{"file":"sounds/sfx_wpn_energy/rift_explosion_03.ogg","pitch":0.9,"volume":0.8},
+		{"file":"sounds/sfx_wpn_energy/rift_explosion_03.ogg","pitch":1.1,"volume":0.8},
+		{"file":"sounds/sfx_wpn_energy/rift_explosion_03.ogg","pitch":1.0,"volume":0.8},
+	],
+	
+	"rat_abyss_genesis_large1":[
+		{"file":"sounds/sfx_wpn_energy/rift_explosion_01.ogg","pitch":0.7,"volume":0.8},
+		{"file":"sounds/sfx_wpn_energy/rift_explosion_01.ogg","pitch":0.8,"volume":0.8},
+		{"file":"sounds/sfx_wpn_energy/rift_explosion_01.ogg","pitch":0.7,"volume":0.8},
+		{"file":"sounds/sfx_wpn_energy/rift_explosion_02.ogg","pitch":0.9,"volume":0.8},
+		{"file":"sounds/sfx_wpn_energy/rift_explosion_02.ogg","pitch":0.8,"volume":0.8},
+		{"file":"sounds/sfx_wpn_energy/rift_explosion_02.ogg","pitch":0.7,"volume":0.8},
+		{"file":"sounds/sfx_wpn_energy/rift_explosion_03.ogg","pitch":0.7,"volume":0.8},
+		{"file":"sounds/sfx_wpn_energy/rift_explosion_03.ogg","pitch":0.9,"volume":0.8},
+		{"file":"sounds/sfx_wpn_energy/rift_explosion_03.ogg","pitch":0.7,"volume":0.8},
+	],
+	
+	 "seadragon_payload_fire":
+    [
+            {"file":"sounds/sfx_wpn_missiles/dragonfire_dem_payload_01.ogg","pitch":1.0,"volume":0.3},
+    ],
+	
+	"rat_bloodstream_trigger":{
+		"sounds":[
+			{"file":"sounds/sfx_systems/combat_readiness_malfunctions_weapon_large_01.ogg","pitch":1,"volume":1},
+		],
+	},	
+
+	"rat_starburst_fire":
+    [
+            {"file":"sounds/sfx_wpn_missiles/harpoon_fire_01.ogg","pitch":1.1,"volume":0.5},
+    ],
+
+}

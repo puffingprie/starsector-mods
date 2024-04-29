@@ -1,0 +1,54 @@
+{
+  "variantId": "uaf_exoria_superiority",
+  "hullId": "uaf_exoria",
+  "displayName": "Superiority",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 3,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "eccm",
+    "expanded_deck_crew",
+    "recovery_shuttles"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_vocal_m_srm",
+        "WS0004": "uaf_vocal_m_srm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_weiss_flk",
+        "WS0002": "uaf_weiss_flk"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "uaf_pd_reina_ii",
+        "WS0006": "uaf_pd_reina_ii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "uaf_chorus_s_amm"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_surreal",
+    "uaf_wing_superaria",
+    "uaf_wing_superaria"
+  ]
+}

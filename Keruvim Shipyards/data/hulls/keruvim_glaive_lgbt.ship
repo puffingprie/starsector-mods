@@ -1,0 +1,249 @@
+{
+  "hullName": "Glaive (Pride)",
+  "hullId": "keruvim_glaive_lgbt",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/keruvim_glaive_lgbt.png",
+  "style": "PRIDE_TECH",
+  "height": 220,
+  "width": 200,
+  "center": [100, 105],
+  "collisionRadius": 137,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 129.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "keruvim_pride_bulkheads"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 75,
+      "angle": 0,
+      "locations": [-3, -44],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 75,
+      "angle": -0,
+      "locations": [-3, 44],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 217,
+      "angle": -108.5,
+      "locations": [-46, -53],
+      "renderOrderMod": 2
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 217,
+      "angle": 108.5,
+      "locations": [-46, 53],
+      "renderOrderMod": 2
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [39, 57]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [39, -57]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 217,
+      "angle": 45,
+      "locations": [76, 35]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 217,
+      "angle": -45,
+      "locations": [76, -35]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        62.5, 6.5,
+        62, -7
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-76.5, -37],
+      "length": 78.5,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "ANVIL"
+    },
+    {
+      "location": [-76.5, 37],
+      "length": 78.5,
+      "width": 19,
+      "angle": -180,
+      "contrailSize": 19,
+      "style": "ANVIL"
+    },
+    {
+      "location": [-77.5, -48.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "ANVIL"
+    },
+    {
+      "location": [-77.5, 48.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "ANVIL"
+    },
+    {
+      "location": [-81, -24],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "ANVIL"
+    },
+    {
+      "location": [-81, 24],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "ANVIL"
+    },
+    {
+      "location": [-81, -19],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "ANVIL"
+    },
+    {
+      "location": [-81, 19],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "ANVIL"
+    },
+    {
+      "location": [-81, -13],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "ANVIL"
+    },
+    {
+      "location": [-81, 13],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "ANVIL"
+    },
+    {
+      "location": [-74.5, 57.5],
+      "length": 22.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "ANVIL"
+    },
+    {
+      "location": [-74.5, -57.5],
+      "length": 22.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "ANVIL"
+    },
+    {
+      "location": [-74.5, 62.5],
+      "length": 22.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "ANVIL"
+    },
+    {
+      "location": [-74.5, -62.5],
+      "length": 22.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "ANVIL"
+    }
+  ],
+  "bounds": [
+    -80, 11,
+    -80, 27,
+    -76, 28,
+    -74, 73.5,
+    -57.5, 81,
+    -28.5, 69.5,
+    13, 69.5,
+    40, 66.5,
+    45, 43.5,
+    82.5, 42.5,
+    92.5, 17,
+    82, 4.5,
+    82, -4.5,
+    92.5, -17,
+    82.5, -42.5,
+    45, -43.5,
+    40, -66.5,
+    13, -69.5,
+    -28.5, -69.5,
+    -57.5, -81,
+    -74, -73.5,
+    -76, -28,
+    -80, -27,
+    -80, -11,
+    -49, -9,
+    -49, 9
+  ]
+}

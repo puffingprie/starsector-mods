@@ -1,0 +1,140 @@
+{
+  "hullName": "Mule (Mess)",
+  "hullId": "mess_mule",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/mess/mule_mess.png",
+  "style": "LOW_TECH",
+  "height": 192,
+  "width": 128,
+  "center": [64, 96],
+  "collisionRadius": 104.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 101.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+	"hmi_mess_visuals",
+    "hmi_mess_spawn"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 195,
+      "angle": 71.5,
+      "locations": [-9, 40.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 229,
+      "angle": -90,
+      "locations": [-9, -40.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [18, 39]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -5.5,
+      "locations": [18, -39]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 233,
+      "angle": 0,
+      "locations": [54, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-87.5, 29.5],
+      "length": 16,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-87.5, -29.5],
+      "length": 16,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-86, 22.5],
+      "length": 10.5,
+      "width": 11,
+      "angle": 177,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-86, -22.5],
+      "length": 10.5,
+      "width": 11,
+      "angle": -177,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-85.5, -16.5],
+      "length": 7.5,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -82, -8.5,
+    -87, -13,
+    -87.5, -33,
+    -79, -33.5,
+    -66, -48,
+    -42, -51,
+    -31, -40.5,
+    -30, -55.5,
+    -10, -56,
+    -6.5, -50.5,
+    21.5, -46,
+    25, -32.5,
+    67, -33.5,
+    74, -19,
+    87.5, -8.5,
+    87.5, 8.5,
+    74, 19,
+    67, 33.5,
+    25, 32.5,
+    21.5, 46,
+    -6.5, 50.5,
+    -10, 56,
+    -30, 55.5,
+    -31, 40.5,
+    -42, 51,
+    -66, 48,
+    -79, 33.5,
+    -87.5, 33,
+    -87, 13,
+    -82, 8.5
+  ]
+}

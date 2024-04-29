@@ -1,0 +1,80 @@
+{
+    "displayName": "Imperial Elite",
+    "fluxCapacitors": 0,
+    "fluxVents": 34,
+    "hullId": "ii_matriarch",
+    "hullMods": ["ii_elite_package"],
+    "permaMods": ["ii_elite_package"],
+    "sMods": ["ii_elite_package"],
+    "variantId": "ii_matriarch_ie",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "cyclone"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "ii_fundae_m",
+                "WS0003": "ii_fundae_m"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "ioncannon",
+                "WS0009": "ioncannon",
+                "WS0010": "ioncannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "ionbeam",
+                "WS0007": "ionbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "ii_solis",
+                "WS0005": "ii_telum",
+                "WS0011": "ii_siegemortar",
+                "WS0012": "ii_siegemortar",
+                "WS0015": "ii_siegemortar",
+                "WS0016": "ii_siegemortar"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0013": "ii_arcus",
+                "WS0014": "ii_arcus"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0017": "ii_custos",
+                "WS0018": "ii_custos",
+                "WS0019": "ii_custos",
+                "WS0020": "ii_custos"
+            }
+        }
+    ],
+    "wings": [
+        "ii_vicarius_wing",
+        "ii_vicarius_wing",
+        "ii_vicarius_wing",
+        "ii_scutum_wing",
+        "ii_scutum_wing",
+        "ii_scutum_wing"
+    ]
+}

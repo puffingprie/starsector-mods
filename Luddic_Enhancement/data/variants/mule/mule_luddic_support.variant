@@ -1,0 +1,39 @@
+{
+    "displayName": "FTR Support",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+	"goalVariant": false,
+	"hullId": "mule_luddic",
+    "hullMods": [
+        "converted_hangar",
+        "missleracks"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "mule_luddic_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "annihilator",
+                "WS 002": "annihilator"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "annihilatorpod",
+                "WS 004": "lightac",
+                "WS 006": "lightac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 005": "vulcan"}
+        }
+    ],
+    "wings": ["broadsword_wing"]
+}

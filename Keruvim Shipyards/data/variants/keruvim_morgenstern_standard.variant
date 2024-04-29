@@ -1,0 +1,62 @@
+{
+  "variantId": "keruvim_morgenstern_standard",
+  "hullId": "keruvim_morgenstern",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 24,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "breachpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "swarmer",
+        "WS0012": "swarmer",
+        "WS0014": "swarmer",
+        "WS0015": "swarmer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavyac",
+        "WS0002": "heavyac",
+        "WS0007": "ioncannon",
+        "WS0010": "ioncannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "lightag",
+        "WS0004": "lightag",
+        "WS0005": "irpulse",
+        "WS0006": "irpulse"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "keruvim_needle",
+        "WS0009": "keruvim_needle"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

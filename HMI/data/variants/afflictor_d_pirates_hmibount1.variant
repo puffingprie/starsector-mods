@@ -1,0 +1,34 @@
+{
+  "variantId": "afflictor_d_pirates_hmibount1",
+  "hullId": "afflictor_d_pirates",
+  "displayName": "Strike",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 3,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardened_subsystems",
+    "unstable_injector",
+    "magazines"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 002": "hmi_kiddie_mortar",
+        "WS 003": "hmi_kiddie_mortar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 006": "ioncannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

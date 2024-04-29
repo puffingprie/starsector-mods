@@ -1,0 +1,45 @@
+{
+  "hullName": "Type 14 Loader Drone",
+  "hullId": "expsp_cargodrone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/expsp_cargodrone.png",
+  "style": "EXPSP_MVS",
+  "height": 42,
+  "width": 32,
+  "center": [16, 14],
+  "collisionRadius": 22.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 21,
+  "viewOffset": 0,
+  "builtInMods": [
+    "pointdefenseai"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": -0,
+      "locations": [-2, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-11.5, -0],
+      "length": 9.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    }
+  ],
+  "bounds": [
+    -6, -4,
+    13, -3,
+    13, 3,
+    -6, 4
+  ]
+}

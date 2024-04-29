@@ -1,0 +1,37 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 7,
+    "fluxVents": 10,
+    "goalVariant": false,
+    "hullId": "vayra_afflictor_ai",
+    "hullMods": [
+        "fluxbreakers",
+        "hardened_subsystems"
+    ],
+    "permaMods": [],
+    "quality": 1,
+    "variantId": "vayra_afflictor_ai_Strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 002": "amblaster",
+                "WS 003": "amblaster"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "sabot",
+                "WS 004": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 006": "pdlaser"}
+        }
+    ]
+}

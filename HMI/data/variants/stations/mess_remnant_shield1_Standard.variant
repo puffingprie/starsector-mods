@@ -1,0 +1,39 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "mess_remnant_shield1",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0.5,
+  "variantId": "mess_remnant_shield1_Standard",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "irpulse",
+        "WS 004": "irpulse"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "pdlaser",
+        "WS 006": "pdlaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "heatseeker",
+        "WS 005": "heatseeker"
+      }
+    }
+  ],
+  "wings": []
+}

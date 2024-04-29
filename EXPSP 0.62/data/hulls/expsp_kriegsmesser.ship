@@ -1,0 +1,244 @@
+{
+  "hullName": "Kriegsmesser",
+  "hullId": "expsp_kriegsmesser",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/expsp_kriegsmesser.png",
+  "style": "EXPSP_MVS",
+  "height": 98,
+  "width": 80,
+  "center": [40, 44.5],
+  "collisionRadius": 85,
+  "shieldCenter": [8, -0],
+  "shieldRadius": 65.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "machinatargetingsystems"
+  ],
+  "builtInWings": [
+    "expsp_attackfunnel_PD_single"
+  ],
+  "builtInWeapons": {
+    "WS0007": "expsp_pokemini",
+    "WS0008": "expsp_pokemini",
+    "WS0009": "expsp_vernier",
+    "WS0010": "expsp_vernier",
+    "WS0011": "expsp_vernier",
+    "WS0012": "expsp_vernier"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 8,
+      "angle": 0,
+      "locations": [46.5, 15]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 8,
+      "angle": 0,
+      "locations": [46.5, -15]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -40,
+      "locations": [18.5, -18]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 40,
+      "locations": [18.5, 18]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 140,
+      "locations": [-18.5, 20]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -140,
+      "locations": [-18.5, -20]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [2, -22]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [2, 22]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -17, 10,
+        -17.5, 4
+      ]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [32, 22.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [32, -22.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [4, 29]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [4, -29]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-7, -31.5],
+      "length": 30,
+      "width": 10,
+      "angle": -152,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    },
+    {
+      "location": [-7.5, 32],
+      "length": 30,
+      "width": 10,
+      "angle": 152,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    },
+    {
+      "location": [-32, -18],
+      "length": 25,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-32, 18],
+      "length": 25,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-32, -22],
+      "length": 25,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-32, 22],
+      "length": 25,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-32, -15],
+      "length": 25,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-32, 15],
+      "length": 25,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    }
+  ],
+  "bounds": [
+    -16, -11.5,
+    -36, -12.5,
+    -37, -24,
+    -26, -29.5,
+    8, -30,
+    42.5, -19,
+    41, -10,
+    23, -10,
+    17, -5,
+    17, 5,
+    23, 10,
+    41, 10,
+    42.5, 19,
+    8, 30,
+    -26, 29.5,
+    -37, 24,
+    -36, 12.5,
+    -16, 11.5
+  ]
+}

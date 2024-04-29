@@ -1,0 +1,55 @@
+{
+  "variantId": "sv_powerdermonkey_standerd",
+  "hullId": "sv_powerdermonkey",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 8,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "hellbore",
+        "WS0003": "hellbore",
+        "WS0008": "hellbore",
+        "WS0009": "hellbore",
+        "WS0016": "hellbore",
+        "WS0017": "hellbore"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "lightdualac",
+        "WS0005": "lightdualac",
+        "WS0010": "lightdualac",
+        "WS0011": "lightdualac",
+        "WS0014": "lightdualac",
+        "WS0015": "lightdualac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0006": "vulcan",
+        "WS0007": "vulcan",
+        "WS0012": "vulcan",
+        "WS0013": "vulcan",
+        "WS0018": "vulcan",
+        "WS0019": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

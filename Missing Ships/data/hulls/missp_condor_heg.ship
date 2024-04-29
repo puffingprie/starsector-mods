@@ -1,0 +1,89 @@
+{
+  "hullName": "Condor (A)",
+  "hullId": "missp_condor_heg",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/condor/condor_hegemony.png",
+  "style": "LOW_TECH",
+  "height": 204,
+  "width": 110,
+  "center": [55, 102],
+  "collisionRadius": 117,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 109.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "heg_militarized"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-5, 43]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 0,
+      "locations": [79, 20]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-21, -29]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        9, -7,
+        8.5, 1.5,
+        14, 8,
+        47.5, 7,
+        30.5, 7
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-100, -19.5],
+      "length": 58.5,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-100, 17.5],
+      "length": 57.5,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    95, 19.5,
+    72, 48,
+    -71.5, 50,
+    -97.5, 28,
+    -98.5, -32.5,
+    -12.5, -54,
+    48, -51.5,
+    43.5, -25.5
+  ]
+}

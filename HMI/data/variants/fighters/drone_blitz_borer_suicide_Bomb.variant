@@ -1,0 +1,22 @@
+{
+  "variantId": "drone_blitz_borer_suicide_Bomb",
+  "hullId": "drone_blitz_borer_suicide",
+  "displayName": "Bomber",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "blitz_suicide_drive"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

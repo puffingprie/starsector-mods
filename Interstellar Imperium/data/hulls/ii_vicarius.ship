@@ -1,0 +1,86 @@
+{
+  "hullName": "Vicarius",
+  "hullId": "ii_vicarius",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/imperium/ships/fighter/ii_vicarius.png",
+  "style": "IMPERIUM",
+  "height": 52,
+  "width": 39,
+  "center": [19, 25],
+  "collisionRadius": 35,
+  "shieldCenter": [0, -0.5],
+  "shieldRadius": 34.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [4, 8.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -0,
+      "locations": [4, -9.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-10, -0.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [19, -0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-17, -0.5],
+      "length": 36,
+      "width": 18,
+      "angle": -180,
+      "contrailSize": 18,
+      "style": "IMPERIUM"
+    },
+    {
+      "location": [-20, 10.5],
+      "length": 28,
+      "width": 8,
+      "angle": -175,
+      "contrailSize": 8,
+      "style": "IMPERIUM"
+    },
+    {
+      "location": [-20, -11.5],
+      "length": 28,
+      "width": 8,
+      "angle": 175,
+      "contrailSize": 8,
+      "style": "IMPERIUM"
+    }
+  ],
+  "bounds": [
+    -9, -19,
+    -23.5, -4.5,
+    -15, -0.5,
+    -23.5, 3.5,
+    -9, 18,
+    24, -0.5
+  ]
+}

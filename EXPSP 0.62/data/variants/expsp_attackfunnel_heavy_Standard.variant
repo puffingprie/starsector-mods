@@ -1,0 +1,26 @@
+{
+  "variantId": "expsp_attackfunnel_heavy_Standard",
+  "hullId": "expsp_attackfunnel_heavy",
+  "displayName": "Heavy Point Defense Drone",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pdlaser",
+        "WS0002": "expsp_coilciwsmini",
+        "WS0003": "pdlaser",
+        "WS0004": "expsp_coilciwsmini",
+        "WS0005": "expsp_flarelauncher_crimson_1"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

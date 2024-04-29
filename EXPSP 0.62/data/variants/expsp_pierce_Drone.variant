@@ -1,0 +1,36 @@
+{
+  "variantId": "expsp_pierce_Drone",
+  "hullId": "expsp_pierce",
+  "displayName": "Heavy Drone Fighter",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_coilciwsmini"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "expsp_armorhunter_fighter"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "expsp_jab_fighter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

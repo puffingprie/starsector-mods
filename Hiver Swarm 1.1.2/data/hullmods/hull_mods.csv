@@ -1,0 +1,2 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+Biological Hull,HIVER_biohull,3,,HIVER,special,Defenses,12000,,TRUE,,0,0,0,0,data.scripts.hullmods.HIVER_BioHull,Hiver ships are cyberneitc in nature starting with organic hulls laced with cybernetics that regerate  %s/%s/%s/%s percent of the ships hull per second.,Regenerates hull lost in combat.,graphics/HIVER/hullmods/HIVER_BioHull.png

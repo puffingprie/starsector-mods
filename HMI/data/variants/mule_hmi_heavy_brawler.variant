@@ -1,0 +1,42 @@
+{
+  "displayName": "Brawler",
+  "fluxCapacitors": 0,
+  "fluxVents": 7,
+  "goalVariant": true,
+  "hullId": "mule_hmi_heavy",
+  "hullMods": [
+    "armoredweapons",
+    "reinforcedhull"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "mule_hmi_heavy_brawler",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "clyde_mg",
+        "WS 006": "clyde_mg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "harpoon",
+        "WS 002": "harpoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "vulcan"
+      }
+    }
+  ],
+  "wings": [
+    "piranha_wing"
+  ]
+}

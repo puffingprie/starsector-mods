@@ -1,0 +1,49 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 0,
+    "fluxVents": 11,
+    "goalVariant": true,
+    "hullId": "ii_ardea",
+    "hullMods": [
+        "ii_targeting_package",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "ii_ardea_str",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "ii_solis"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "typhoon",
+                "WS0002": "typhoon"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "ii_telum"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "ii_particlegun",
+                "WS0006": "vulcan",
+                "WS0007": "vulcan",
+                "WS0008": "ii_particlegun",
+                "WS0009": "ii_particlegun"
+            }
+        }
+    ],
+    "wings": [
+        "ii_carnifex_wing",
+        "ii_scutum_wing"
+    ]
+}

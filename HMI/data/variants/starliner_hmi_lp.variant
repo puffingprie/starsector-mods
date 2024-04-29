@@ -1,0 +1,36 @@
+{
+  "variantId": "starliner_hmi_lp",
+  "hullId": "starliner",
+  "displayName": "Divine",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "converted_hangar",
+    "militarized_subsystems"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 002": "rock_launcher",
+        "WS 003": "rock_launcher",
+        "WS 004": "rock_launcher",
+        "WS 005": "rock_launcher",
+        "WS 006": "rock_launcher"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": ["perdition_wing"]
+}

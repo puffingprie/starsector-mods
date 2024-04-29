@@ -1,0 +1,140 @@
+{
+  "hullName": "Miyo Juliet",
+  "hullId": "uaf_miyo_juliet",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/Miyo_Juliet.png",
+  "style": "UAF_CRUISER",
+  "height": 291,
+  "width": 138,
+  "center": [67, 145.5],
+  "collisionRadius": 181.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 156.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 191,
+      "angle": 90,
+      "locations": [-73.5, 29]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 191,
+      "angle": -90,
+      "locations": [-73.5, -29]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 191,
+      "angle": -135,
+      "locations": [-98, -27.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 191,
+      "angle": 135,
+      "locations": [-98, 27.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 277,
+      "angle": 0,
+      "locations": [56, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-121.5, 38.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-121.5, -38.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-120, 26],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-120, -26],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-131, 9.5],
+      "length": 43,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-131, -9.5],
+      "length": 43,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-133.5, -0],
+      "length": 53,
+      "width": 21,
+      "angle": -180,
+      "contrailSize": 21,
+      "style": "TUNE_ENGINE"
+    }
+  ],
+  "bounds": [
+    93, -56,
+    -76, -55,
+    -82.5, -60.5,
+    -130.5, -61.5,
+    -135, -47,
+    -128, -44.5,
+    -127, -14,
+    -140.5, -12.5,
+    -140.5, 12.5,
+    -127, 14,
+    -128, 44.5,
+    -135, 47,
+    -130.5, 61.5,
+    -82.5, 60.5,
+    -76, 55,
+    93, 56
+  ]
+}

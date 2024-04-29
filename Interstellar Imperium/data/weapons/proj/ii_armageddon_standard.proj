@@ -1,0 +1,38 @@
+{
+	"id":"ii_armageddon_standard",
+	"specClass":"missile",
+	"missileType":"MISSILE",
+	"sprite":"graphics/imperium/missiles/ii_armaenhanced_standard.png",
+	"size":[9,20],
+	"center":[4.5,10],
+	"collisionRadius":13,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,150,25,150],
+	"explosionRadius":125,
+	"flameoutTime":0.5, # total time from flameout to full fadeout
+	"noEngineGlowTime":0, # time spent without the engine glow being rendered
+	"fadeTime":0.25, # fadeout duration
+	"engineSpec":{"turnAcc":600,
+				  "turnRate":300,
+				  "acc":500,
+				  "dec":200},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-5, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP",
+						"engineColor":[255,150,50,255],
+						"contrailDuration":4,
+						"contrailWidthMult":2,
+						"contrailWidthAddedFractionAtEnd":0,
+						"contrailMinSeg":5,
+						"contrailMaxSpeedMult":.5,
+						"contrailAngularVelocityMult":0.5,
+						"contrailSpawnDistMult":.1,
+						"contrailColor":[255,150,50,120],
+						"type":"GLOW"
+					},
+				    "width":6.0,
+				    "length":60.0,
+				    "angle":180.0}]
+}

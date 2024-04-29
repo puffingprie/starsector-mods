@@ -1,0 +1,194 @@
+{
+  "hullName": "Armoured Bow",
+  "hullId": "hmi_locomotive_front",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/locomotive/hmi_locomotive_front.png",
+  "style": "LOW_TECH",
+  "height": 270,
+  "width": 220,
+  "center": [110, 140],
+  "collisionRadius": 170,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 165,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hmi_linkedhull",
+    "reduced_explosion",
+    "targetingunit",
+    "rapidrepaircheck",
+    "always_detaches"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [111.5, 38]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [111.5, -38]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 227,
+      "angle": 44,
+      "locations": [109.5, 66]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 227,
+      "angle": -44,
+      "locations": [109.5, -66]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 149,
+      "angle": 81.5,
+      "locations": [35, 66.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 149,
+      "angle": -81.5,
+      "locations": [35, -66.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 149,
+      "angle": 62.5,
+      "locations": [2, 47]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 149,
+      "angle": -62.5,
+      "locations": [2, -47]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 95,
+      "angle": 61.5,
+      "locations": [-24, 78]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 95,
+      "angle": -61.5,
+      "locations": [-24, -78]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 75,
+      "angle": 70,
+      "locations": [-45, 88.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 75,
+      "angle": -70,
+      "locations": [-45, -88.5]
+    },
+    {
+      "id": "WS0013",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 95,
+      "angle": 78.5,
+      "locations": [-65, 61.5]
+    },
+    {
+      "id": "WS0014",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 95,
+      "angle": -78.5,
+      "locations": [-65, -61.5]
+    },
+    {
+      "id": "WS0015",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 254,
+      "angle": 0,
+      "locations": [12, -0]
+    },
+    {
+      "id": "WS0016",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 110,
+      "angle": 0,
+      "locations": [57.5, -0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -133.5, -7,
+    -126, -14,
+    -137, -18.5,
+    -137.5, -43,
+    -118, -64.5,
+    -98, -63,
+    -78, -108.5,
+    -45.5, -110,
+    22, -88.5,
+    115, -88.5,
+    125, -76,
+    128.5, -22.5,
+    128.5, 22.5,
+    125, 76,
+    115, 88.5,
+    22, 88.5,
+    -45.5, 110,
+    -78, 108.5,
+    -98, 63,
+    -118, 64.5,
+    -137.5, 43,
+    -137, 18.5,
+    -126, 14,
+    -133.5, 7
+  ]
+}

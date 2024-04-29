@@ -1,0 +1,80 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 5,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "missp_expedition",
+  "hullMods": [
+    "reinforcedhull"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "missp_expedition_Standard",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavyac",
+        "WS0002": "heavyac",
+        "WS0003": "heavyac",
+        "WS0004": "heavyac",
+        "WS0005": "heavyac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "mark9",
+        "WS0007": "mark9"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "swarmer",
+        "WS0009": "swarmer",
+        "WS0010": "swarmer",
+        "WS0011": "swarmer",
+        "WS0012": "swarmer",
+        "WS0013": "swarmer",
+        "WS0014": "swarmer",
+        "WS0015": "swarmer",
+        "WS0026": "harpoonpod",
+        "WS0027": "harpoonpod",
+        "WS0028": "harpoonpod",
+        "WS0029": "harpoonpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0016": "vulcan",
+        "WS0017": "vulcan",
+        "WS0018": "vulcan",
+        "WS0019": "vulcan",
+        "WS0020": "vulcan",
+        "WS0021": "vulcan",
+        "WS0022": "vulcan",
+        "WS0023": "vulcan",
+        "WS0024": "vulcan",
+        "WS0025": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "wings": [
+    "talon_wing",
+    "talon_wing",
+    "talon_wing",
+    "talon_wing"
+  ]
+}

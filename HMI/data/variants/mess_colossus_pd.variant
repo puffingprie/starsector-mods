@@ -1,0 +1,43 @@
+{
+  "variantId": "mess_colossus_pd",
+  "hullId": "mess_colossus",
+  "displayName": "Point Defense",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "magazines",
+    "turretgyros"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "guardian"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "pdburst",
+        "WS0002": "pdburst",
+        "WS0003": "pdburst"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "guardian",
+        "WS0005": "guardian",
+        "WS0006": "guardian"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

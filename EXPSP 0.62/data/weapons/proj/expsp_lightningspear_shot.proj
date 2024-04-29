@@ -1,0 +1,20 @@
+{
+	"id":"expsp_lightningspear_shot",
+	"specClass":"projectile",
+	"onHitEffect":"com.fs.starfarer.api.impl.combat.IonCannonOnHitEffect",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",	
+	#"spawnType":"BALLISTIC_AS_BEAM",
+	#"collisionClass":"RAY",
+	#"collisionClassByFighter":"RAY_FIGHTER",
+	"length":200.0,
+	"width":15.0,
+	"fadeTime":0.15,
+	"fringeColor":[50,244,244,255],
+	"coreColor":[50,244,244,220],
+	"hitGlowRadius":100,
+	"textureScrollSpeed":32.0,
+	"pixelsPerTexel":10.0,
+	"bulletSprite":"graphics/missiles/expsp_shell_railcannon.png"	
+}

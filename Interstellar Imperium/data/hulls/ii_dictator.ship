@@ -1,0 +1,527 @@
+{
+  "bounds": [
+    124,
+    -12.5,
+    115,
+    -21.5,
+    59.5,
+    -27,
+    38.5,
+    -42.5,
+    16,
+    -44,
+    18,
+    -71.5,
+    31.5,
+    -63,
+    68,
+    -65.5,
+    68,
+    -77.5,
+    51,
+    -94.5,
+    25,
+    -95,
+    -21.5,
+    -104,
+    -40.5,
+    -104,
+    -73,
+    -76,
+    -41.5,
+    -76,
+    -44.5,
+    -67.5,
+    -79,
+    -62.5,
+    -78,
+    -48,
+    -92.5,
+    -40,
+    -89.5,
+    -7.5,
+    -67,
+    -5,
+    -67,
+    5,
+    -89.5,
+    7.5,
+    -92.5,
+    40,
+    -78,
+    48,
+    -79,
+    62.5,
+    -44.5,
+    67.5,
+    -41.5,
+    76,
+    -73,
+    76,
+    -40.5,
+    104,
+    -21.5,
+    104,
+    25,
+    95,
+    51,
+    94.5,
+    68,
+    77.5,
+    68,
+    65.5,
+    31.5,
+    63,
+    18,
+    71.5,
+    16,
+    44,
+    38.5,
+    42.5,
+    59.5,
+    27,
+    115,
+    21.5,
+    124,
+    12.5,
+    126.5,
+    -0
+  ],
+  "builtInMods": [
+    "ii_reinforced_emplacements"
+  ],
+  "builtInWeapons": {
+    "BLINKER1": "ii_targeting_blinker1",
+    "BLINKER2": "ii_targeting_blinker1",
+    "BLINKER3": "ii_targeting_blinker2",
+    "BLINKER4": "ii_targeting_blinker2",
+    "BLINKER5": "ii_targeting_blinker3",
+    "BLINKER6": "ii_targeting_blinker3",
+    "BLINKER7": "ii_targeting_blinker4",
+    "BLINKER8": "ii_targeting_blinker4",
+    "ELITE": "ii_elite_lights_dictator"
+  },
+  "builtInWings": [],
+  "center": [
+    107,
+    94
+  ],
+  "collisionRadius": 160.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 24,
+      "length": 64,
+      "location": [
+        -81,
+        56
+      ],
+      "style": "IMPERIUM",
+      "width": 24
+    },
+    {
+      "angle": -180,
+      "contrailSize": 24,
+      "length": 64,
+      "location": [
+        -81,
+        -56
+      ],
+      "style": "IMPERIUM",
+      "width": 24
+    },
+    {
+      "angle": 180,
+      "contrailSize": 16,
+      "length": 64,
+      "location": [
+        -94,
+        37
+      ],
+      "style": "IMPERIUM",
+      "width": 16
+    },
+    {
+      "angle": -180,
+      "contrailSize": 16,
+      "length": 64,
+      "location": [
+        -94,
+        -37
+      ],
+      "style": "IMPERIUM",
+      "width": 16
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 48,
+      "location": [
+        -94,
+        29
+      ],
+      "style": "IMPERIUM",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 48,
+      "location": [
+        -94,
+        -29
+      ],
+      "style": "IMPERIUM",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 64,
+      "location": [
+        -92,
+        10
+      ],
+      "style": "IMPERIUM",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 64,
+      "location": [
+        -92,
+        -10
+      ],
+      "style": "IMPERIUM",
+      "width": 12
+    }
+  ],
+  "height": 222,
+  "hullId": "ii_dictator",
+  "hullName": "Dictator",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    12,
+    -0
+  ],
+  "shieldRadius": 148,
+  "spriteName": "graphics/imperium/ships/dictator/ii_dictator.png",
+  "style": "IMPERIUM",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 90,
+      "arc": 225,
+      "id": "WS0001",
+      "locations": [
+        -24,
+        50
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -90,
+      "arc": 225,
+      "id": "WS0002",
+      "locations": [
+        -24,
+        -50
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0003",
+      "locations": [
+        11,
+        53
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0004",
+      "locations": [
+        11,
+        -53
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0005",
+      "locations": [
+        121,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 120,
+      "id": "WS0006",
+      "locations": [
+        103.5,
+        12
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 120,
+      "id": "WS0007",
+      "locations": [
+        103.5,
+        -12
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 120,
+      "id": "WS0008",
+      "locations": [
+        79,
+        14
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -0,
+      "arc": 120,
+      "id": "WS0009",
+      "locations": [
+        79,
+        -14
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 120,
+      "id": "WS0010",
+      "locations": [
+        55,
+        16
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -0,
+      "arc": 120,
+      "id": "WS0011",
+      "locations": [
+        55,
+        -16
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 22.5,
+      "arc": 135,
+      "id": "WS0012",
+      "locations": [
+        31,
+        30
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -22.5,
+      "arc": 135,
+      "id": "WS0013",
+      "locations": [
+        31,
+        -30
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 45,
+      "arc": 150,
+      "id": "WS0014",
+      "locations": [
+        40,
+        76
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -45,
+      "arc": 150,
+      "id": "WS0015",
+      "locations": [
+        40,
+        -76
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 90,
+      "arc": 120,
+      "id": "WS0016",
+      "locations": [
+        -31,
+        97
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -90,
+      "arc": 120,
+      "id": "WS0017",
+      "locations": [
+        -31,
+        -97
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "ELITE",
+      "locations": [
+        -5.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "BLINKER1",
+      "locations": [
+        9.5,
+        77.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 360,
+      "id": "BLINKER2",
+      "locations": [
+        9.5,
+        -77.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "BLINKER3",
+      "locations": [
+        6.5,
+        77.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 360,
+      "id": "BLINKER4",
+      "locations": [
+        6.5,
+        -77.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "BLINKER5",
+      "locations": [
+        3.5,
+        77.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 360,
+      "id": "BLINKER6",
+      "locations": [
+        3.5,
+        -77.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "BLINKER7",
+      "locations": [
+        0.5,
+        77.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 360,
+      "id": "BLINKER8",
+      "locations": [
+        0.5,
+        -77.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 214
+}

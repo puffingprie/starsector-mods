@@ -1,0 +1,236 @@
+{
+  "hullName": "Cresil",
+  "hullId": "vic_cresil",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/vic_cresil.png",
+  "style": "VIC",
+  "height": 303,
+  "width": 128,
+  "center": [64, 151],
+  "collisionRadius": 184,
+  "shieldCenter": [0.5, 0],
+  "shieldRadius": 157.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "vic_dynamicshields",
+    "vic_vBombHmod"
+  ],
+  "builtInWeapons": {
+    "WS0007": "vic_engine_glow_universal_big",
+    "WS0008": "vic_engine_glow_universal_big",
+    "WS0009": "vic_engine_glow_universal_small",
+    "WS0010": "vic_engine_glow_universal_small",
+    "WS0011": "vic_targetingLazer"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 226,
+      "angle": 45,
+      "locations": [103.5, 30]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 226,
+      "angle": -45,
+      "locations": [103.5, -30]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 134,
+      "angle": -90,
+      "locations": [-4, -38]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 134,
+      "angle": 90,
+      "locations": [-4, 38]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 128,
+      "angle": -143.5,
+      "locations": [-104, -32]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 128,
+      "angle": 143.5,
+      "locations": [-104, 32]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        23, 7,
+        25, 7
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        41.5, 18,
+        42.5, 15.5
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        23, -7,
+        25, -7
+      ]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        41.5, -18,
+        42.5, -15.5
+      ]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 128,
+      "angle": 0,
+      "locations": [-132, 8]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 128,
+      "angle": -0,
+      "locations": [-132, -8]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 128,
+      "angle": 0,
+      "locations": [-70, 56]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 128,
+      "angle": -0,
+      "locations": [-70, -56]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 0,
+      "locations": [6, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-134, 8],
+      "length": 90,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "CUSTOM",
+      "styleId": "VOLKOV-LAIDLAW'S"
+    },
+    {
+      "location": [-134, -8],
+      "length": 90,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 20,
+      "style": "CUSTOM",
+      "styleId": "VOLKOV-LAIDLAW'S"
+    },
+    {
+      "location": [-70, 56],
+      "length": 75,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "CUSTOM",
+      "styleId": "VOLKOV-LAIDLAW'S"
+    },
+    {
+      "location": [-70, -56],
+      "length": 75,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "CUSTOM",
+      "styleId": "VOLKOV-LAIDLAW'S"
+    }
+  ],
+  "bounds": [
+    -132, 17,
+    -148, 17,
+    -120.5, 45.5,
+    -68.5, 45.5,
+    -68.5, 61.5,
+    39, 57,
+    48, 49.5,
+    76.5, 45.5,
+    130, 44.5,
+    150, 24,
+    133, 17,
+    133, -17,
+    150, -24,
+    130, -44.5,
+    76.5, -45.5,
+    48, -49.5,
+    39, -57,
+    -68.5, -61.5,
+    -68.5, -45.5,
+    -120.5, -45.5,
+    -148, -17,
+    -132, -17
+  ]
+}

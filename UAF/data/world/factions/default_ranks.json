@@ -1,0 +1,18 @@
+{
+	#UAF Custom Tailored Ranks and Posts
+	"ranks":{
+		"uaf_researcher":{"name":"Auroran Researcher"},
+		"uaf_admiral_solvy":{"name":"Honorary Admiral"},
+		"uaf_vice_admiral":{"name":"Vice Admiral"},
+		"uaf_historian":{"name":"Seeker of Knowledge"},
+		"uaf_keycard_shop_title":{"name":"Crown Princess Type Neuko"},
+	},
+	
+	"posts":{
+		"uaf_researcher":{"name":"Auroran Researcher"},
+		"uaf_admiral_solvy":{"name":"Honorary Admiral"},
+		"uaf_vice_admiral":{"name":"Vice Admiral"},
+		"uaf_historian":{"name":"Administrator"},
+		"uaf_keycard_shop_title":{"name":"Special Economics Zone Gatekeeper / Narumi Bar Owner"},
+	},
+}

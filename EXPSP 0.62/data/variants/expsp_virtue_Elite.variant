@@ -1,0 +1,50 @@
+{
+  "variantId": "expsp_virtue_Elite",
+  "hullId": "expsp_virtue",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 6,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "frontemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "expsp_plinker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_coilciws",
+        "WS0002": "expsp_coilciws",
+        "WS0003": "expsp_coilciws",
+        "WS0004": "expsp_coilciws",
+        "WS0006": "expsp_poke",
+        "WS0007": "expsp_poke"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "expsp_eviscerate_wing",
+    "expsp_pierce_wing"
+  ]
+}

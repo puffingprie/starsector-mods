@@ -1,0 +1,16 @@
+{
+	"id":"med_frag_mg_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",	
+	"length":120.0,
+	"width":7.5,
+	"fadeTime":0.3,
+	"fringeColor":[240,190,90,255],
+	"coreColor":[240,190,90,155],	
+	"hitGlowRadius":100,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_gauss_cannon.png"
+}

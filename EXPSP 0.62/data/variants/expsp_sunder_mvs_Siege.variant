@@ -1,0 +1,50 @@
+{
+  "variantId": "expsp_sunder_mvs_Siege",
+  "hullId": "expsp_sunder_mvs",
+  "displayName": "Siege",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_reiterpallasch_builtin"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "expsp_plinker",
+        "WS0003": "expsp_plinker"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "expsp_trip",
+        "WS0005": "expsp_trip"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "expsp_particle_caliver",
+        "WS0007": "expsp_particle_caliver",
+        "WS0008": "expsp_particle_caliver"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

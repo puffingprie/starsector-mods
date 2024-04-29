@@ -1,0 +1,41 @@
+{
+  "hullName": "Sifter Scavenger",
+  "hullId": "sifter_drone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/derelicts/sifter.png",
+  "style": "LOW_TECH",
+  "height": 24,
+  "width": 21,
+  "center": [10.5, 12],
+  "collisionRadius": 21,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 19.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [0, 0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-10.5, -0],
+      "length": 13,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -9.5, -11,
+    12.5, -2.5,
+    12.5, 2.5,
+    -9.5, 11
+  ]
+}

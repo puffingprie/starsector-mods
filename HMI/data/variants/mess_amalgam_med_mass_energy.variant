@@ -1,0 +1,56 @@
+{
+  "variantId": "mess_amalgam_med_mass_energy",
+  "hullId": "mess_amalgam_med_mass",
+  "displayName": "Energy",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "hil"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "pdlaser",
+        "WS0007": "pdburst",
+        "WS0009": "pdlaser",
+        "WS0010": "pdlaser",
+        "WS0011": "lrpdlaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "amblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "irpulse",
+        "WS0008": "irpulse",
+        "WS0012": "pulselaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0013": "phasebeam"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,179 @@
+{
+  "hullName": "Stiletto",
+  "hullId": "expsp_stiletto",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/expsp_stiletto.png",
+  "style": "EXPSP_MVS",
+  "height": 100,
+  "width": 68,
+  "center": [34, 49.5],
+  "collisionRadius": 80,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 65,
+  "viewOffset": 0,
+  "builtInMods": [
+    "machinatargetingsystems",
+    "expsp_stilettoautoforge"
+  ],
+  "builtInWings": [
+    "expsp_attackfunnel_PD_single"
+  ],
+  "builtInWeapons": {
+    "WS0004": "expsp_coilciwsbuiltin",
+    "WS0005": "expsp_pokemini",
+    "WS0006": "expsp_pokemini",
+    "WS0007": "expsp_flickmini",
+    "WS0008": "expsp_flickmini"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [-1.5, 23]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [28, 10]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [28.5, -10]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": -0,
+      "locations": [33.5, 4.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [33, -5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -18, -13.5,
+        -17, -13.5
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 180,
+      "locations": [-26.5, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 0,
+      "locations": [-8.5, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [6, -16]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-21, 22],
+      "length": 26,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-21, -22],
+      "length": 26,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-40.5, 6.5],
+      "length": 25,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-40.5, -6.5],
+      "length": 25,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-42, -0],
+      "length": 32.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    }
+  ],
+  "bounds": [
+    -17, 28.5,
+    -19.5, 12,
+    -33, 16,
+    -39.5, 11,
+    -39.5, 10.5,
+    -39.5, -10.5,
+    -39.5, -11,
+    -33, -16,
+    -18, -12.5,
+    -16.5, -29.5,
+    3, -19.5,
+    6.5, -12,
+    34.5, -6,
+    34.5, 6,
+    -4, 13.5,
+    -7.5, 27.5
+  ]
+}

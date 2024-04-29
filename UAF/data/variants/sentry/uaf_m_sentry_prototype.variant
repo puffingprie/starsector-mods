@@ -1,0 +1,57 @@
+{
+  "variantId": "uaf_m_sentry_prototype",
+  "hullId": "uaf_m_sentry",
+  "displayName": "Prototype",
+  "goalVariant": true,
+  "fluxCapacitors": 12,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "uaf_automataSpec",
+    "pointdefenseai"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "uaf_tona_iv",
+        "WS0007": "uaf_tona_iv"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "uaf_missile_barrage",
+        "WS0010": "uaf_missile_barrage"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_edge_type_ii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "uaf_edge_type_i",
+        "WS0005": "uaf_edge_type_i"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "uaf_merupaka_epd",
+        "WS0003": "uaf_merupaka_epd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,68 @@
+{
+  "variantId": "expsp_815_Support",
+  "hullId": "expsp_815",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 18,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "expsp_lrm_med",
+        "WS0006": "expsp_lrm_med"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "expsp_plinker",
+        "WS0012": "expsp_plinker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "expsp_poke",
+        "WS0004": "expsp_poke"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_multilaser",
+        "WS0002": "expsp_multilaser",
+        "WS0009": "expsp_multilaser",
+        "WS0010": "expsp_multilaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "expsp_coilciws",
+        "WS0008": "expsp_coilciws"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "expsp_chainhunter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "expsp_mirage_wing"
+  ]
+}

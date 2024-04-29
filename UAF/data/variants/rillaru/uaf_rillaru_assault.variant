@@ -1,0 +1,82 @@
+{
+  "variantId": "uaf_rillaru_assault",
+  "hullId": "uaf_rillaru",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 23,
+  "fluxVents": 16,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "heavyarmor",
+    "autorepair"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_herexa",
+        "WS0002": "uaf_herexa"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0017": "uaf_typhoon_s_sasm",
+        "WS0018": "uaf_typhoon_s_sasm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "uaf_medlav_dual",
+        "WS0010": "uaf_medlav_dual",
+        "WS0011": "uaf_medlav_dual",
+        "WS0013": "uaf_ivory"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0012": "uaf_triyia_pdx"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0015": "uaf_rhythm_base_triple",
+        "WS0016": "uaf_rhythm_base_triple"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "uaf_racun_pod",
+        "WS0005": "uaf_racun_pod",
+        "WS0008": "uaf_flair_pod",
+        "WS0009": "uaf_flair_pod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "uaf_pd_reina_ii",
+        "WS0007": "uaf_pd_reina_ii",
+        "WS0014": "uaf_weiss_flk",
+        "WS0019": "uaf_weiss_flk"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_minersky"
+  ]
+}

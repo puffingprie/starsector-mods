@@ -1,0 +1,2 @@
+id,name,faction,desc,script,icon,order
+hmi_exec_market,Gendo Market,hmi_exec,"The main concentration the Company's saleable assets, the Gendo Market is also the focus of arms dealers and mercenaries all willing to offload particularly 'hot' weapons and ships.",data.campaign.submarkets.HMI_ExecMarketPlugin,,800.02

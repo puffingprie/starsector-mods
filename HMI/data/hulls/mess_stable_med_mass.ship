@@ -1,0 +1,258 @@
+{
+  "hullName": "Medium Stable Mass",
+  "hullId": "mess_stable_med_mass",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/mess/stable_med_mess.png",
+  "style": "LOW_TECH",
+  "height": 110,
+  "width": 120,
+  "center": [59.5, 60],
+  "collisionRadius": 67.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 65.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "pointdefenseai",
+    "automated"
+  ],
+  "builtInWeapons": {
+    "WS0001": "feeder_gun",
+    "WS0002": "feeder_gun",
+    "WS0003": "feeder_gun_med",
+    "WS0004": "feeder_gun_med",
+    "WS0005": "feeder_gun_med",
+    "WS0006": "feeder_gun_med",
+    "WS0007": "feeder_gun",
+    "WS0008": "feeder_gun",
+    "WS0009": "feeder_gun",
+    "WS0010": "feeder_gun_med",
+    "WS0011": "feeder_gun_med",
+    "WS0012": "feeder_gun_lrg",
+    "WS0013": "feeder_gun_lrg"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 48,
+      "angle": 46.5,
+      "locations": [29, 13.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 48,
+      "angle": -46.5,
+      "locations": [29, -13.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 53,
+      "angle": 48,
+      "locations": [23, 40]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 53,
+      "angle": -48,
+      "locations": [23, -40]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 43,
+      "angle": 109.5,
+      "locations": [-19.5, 45.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 43,
+      "angle": -109.5,
+      "locations": [-19.5, -45.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 136,
+      "angle": 147,
+      "locations": [-42.5, 20.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 136,
+      "angle": -147,
+      "locations": [-42.5, -20.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 127,
+      "angle": 180,
+      "locations": [-52.5, -0]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 31,
+      "angle": 14,
+      "locations": [40, 18]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 31,
+      "angle": -14,
+      "locations": [40, -18]
+    },
+    {
+      "id": "WS0012",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 18,
+      "angle": 0,
+      "locations": [41.5, 4]
+    },
+    {
+      "id": "WS0013",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 18,
+      "angle": -0,
+      "locations": [41.5, -4]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-35.5, 37],
+      "length": 11.677086,
+      "width": 5.880698,
+      "angle": 137,
+      "contrailSize": 5.880698,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-35.5, -37],
+      "length": 11.677086,
+      "width": 5.880698,
+      "angle": -137,
+      "contrailSize": 5.880698,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-39, 27],
+      "length": 14.835871,
+      "width": 7.182463,
+      "angle": 162,
+      "contrailSize": 7.182463,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-39, -27],
+      "length": 14.835871,
+      "width": 7.182463,
+      "angle": -162,
+      "contrailSize": 7.182463,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-22.5, 45.5],
+      "length": 29.50765,
+      "width": 11.966389,
+      "angle": 137,
+      "contrailSize": 11.966389,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-22.5, -45.5],
+      "length": 29.50765,
+      "width": 11.966389,
+      "angle": -137,
+      "contrailSize": 11.966389,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-48.5, 17],
+      "length": 14.835871,
+      "width": 7.182463,
+      "angle": 162,
+      "contrailSize": 7.182463,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-48.5, -17],
+      "length": 14.835871,
+      "width": 7.182463,
+      "angle": -162,
+      "contrailSize": 7.182463,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-52.5, 11],
+      "length": 14.835871,
+      "width": 7.182463,
+      "angle": 174.5,
+      "contrailSize": 7.182463,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-52.5, -11],
+      "length": 14.835871,
+      "width": 7.182463,
+      "angle": -174.5,
+      "contrailSize": 7.182463,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-53, -0],
+      "length": 55,
+      "width": 26,
+      "angle": 180,
+      "contrailSize": 26,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -53.5, -15,
+    -42, -20.5,
+    -35, -35.5,
+    -2, -56,
+    34.5, -40.5,
+    45, -15,
+    43.5, -5.5,
+    43.5, 5.5,
+    45, 15,
+    34.5, 40.5,
+    -2, 56,
+    -35, 35.5,
+    -42, 20.5,
+    -53.5, 15
+  ]
+}

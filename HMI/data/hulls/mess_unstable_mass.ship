@@ -1,0 +1,146 @@
+{
+  "hullName": "Unstable Mass",
+  "hullId": "mess_unstable_mass",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/mess/unstable_mess.png",
+  "style": "HIGH_TECH",
+  "height": 70,
+  "width": 74,
+  "center": [37, 35],
+  "collisionRadius": 56,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 51,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated"
+  ],
+  "builtInWings": [
+    "drone_feeder_wing",
+    "drone_feeder_wing",
+    "drone_feeder_wing",
+    "drone_feeder_heavy_wing",
+    "drone_feeder_heavy_wing"
+  ],
+  "builtInWeapons": {
+    "WS0001": "feeder_gun_med"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 60,
+      "angle": 0,
+      "locations": [23.5, -1.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        7, 14.5,
+        14, 7.5,
+        8, 25,
+        -4, 18,
+        14.5, -1.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        8, -11.5,
+        3, -18.5,
+        17.5, -11.5,
+        -1.5, -10
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -13, -10.5,
+        -19, -7,
+        -11, -17.5,
+        -15, -0.5
+      ]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -13.5, 11,
+        -12, 15.5,
+        -19.5, 8,
+        -8, 4.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-23, 22],
+      "length": 30,
+      "width": 10,
+      "angle": 155.5,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-27, -14],
+      "length": 13.5,
+      "width": 13,
+      "angle": -163.5,
+      "contrailSize": 13,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-28, -3],
+      "length": 8,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-27, 10],
+      "length": 8.105751,
+      "width": 7.885886,
+      "angle": 173.5,
+      "contrailSize": 7.885886,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    22.5, -0,
+    32.5, 9.5,
+    26.5, 26,
+    5.5, 32.5,
+    -24, 27,
+    -26.5, 12,
+    -29, -4,
+    -27, -19.5,
+    -20.5, -25,
+    -15.5, -29,
+    5.5, -31,
+    18.5, -28.5,
+    18.5, -19,
+    29.5, -16,
+    29.5, -5.5
+  ]
+}

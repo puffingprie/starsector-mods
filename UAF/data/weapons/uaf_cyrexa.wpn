@@ -1,0 +1,65 @@
+{
+  "id": "uaf_cyrexa",
+  "specClass": "projectile",
+  "projectileSpecId": "uaf_pu_ash_lg",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "everyFrameEffect":"org.niatahl.uaf.weapons.uaf_chemicalWeaponEffect",
+  "displayArcRadius": 650,
+  "turretSprite": "graphics/weapons/CYREXA/cyrexa_508mm_quad_turret_base.png",
+  "turretGunSprite": "graphics/weapons/CYREXA/cyrexa_508mm_quad_hardpoint_recoil.png",
+  "hardpointSprite": "graphics/weapons/CYREXA/cyrexa_508mm_quad_turret_base.png",
+  "hardpointGunSprite": "graphics/weapons/CYREXA/cyrexa_508mm_quad_turret_recoil.png",
+  "specialWeaponGlowHeight": 40,
+  "specialWeaponGlowWidth": 15,
+  "visualRecoil": 10,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    28,
+    13,
+    29,
+    7,
+    29,
+    -7,
+    28,
+    -13
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    46,
+    13,
+    47,
+    7,
+    47,
+    -7,
+    46,
+    -13
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 80,
+    "spread": 10,
+    "particleSizeMin": 20,
+    "particleSizeRange": 30,
+    "particleDuration": 0.1,
+    "particleCount": 30,
+    "particleColor": [
+      100,
+      180,
+      255,
+      120
+    ]
+  },
+  "fireSoundOne": "uaf_ru_cyrexa_452",
+  "fireSoundTwo": "uaf_cyrexa_452"
+}

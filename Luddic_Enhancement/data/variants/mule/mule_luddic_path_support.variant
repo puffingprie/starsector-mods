@@ -1,0 +1,33 @@
+{
+  "displayName": "Assault",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": false,
+  "hullId": "mule_luddic_path",
+  "hullMods": [
+    "armoredweapons",
+    "unstable_injector",
+    "blast_doors"
+  ],
+    "variantId": "mule_luddic_path_support",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+		"WS 002": "chaingun",
+        "WS 003": "chaingun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+	  "WS 001": "heavymg"
+	  }
+    }
+  ],
+  "modules": [],
+  "wings": [
+  ]
+}

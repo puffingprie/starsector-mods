@@ -1,0 +1,174 @@
+name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,hints,tags,rarity,breakProb,minPieces,maxPieces,number
+#SHIPS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Exoria,uaf_exoria,Carrier,Auroran Tech,uaf_midway_protocol,12,5600,650,6000,,300,120,3,70,90,60,50,40,600,FRONT,,150,0.6,1.0,,,100,300,130,90,3,20,8,123000,4,20,360,0.25,20,20,CARRIER,uaf_ship_bp,,0.5,2,5,210
+Exoria II(SP),uaf_ai_exoria,Elite Carrier,Advanced Auroran Tech,uaf_defensive_flare,14,8500,500,9000,,420,165,4,80,75,50,45,35,700,OMNI,,95,0.3,0.7,,,75,350,100,20,2.8,20,8,205000,3,25,320,0.25,30,30,"CARRIER, NO_AUTO_ESCORT",uaf_ai_ship_bp,,0.5,2,5,210
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Minoria,uaf_minoria,Escort Carrier,Auroran Tech,maneuveringjets,9,3550,400,2300,5800,125,50,2,120,100,100,45,30,250,FRONT,,150,0.5,1.0,,,60,120,90,60,2,20,9,54500,7,10,270,0.25,10,10,CARRIER,uaf_ship_bp,,0.7,2,3,408
+Minoria II(SP),uaf_ai_minoria,Elite Escort Carrier,Advanced Auroran Tech,recalldevice,14,3700,200,2800,6200,350,90,1,100,70,60,43,28,270,OMNI,,95,0.3,0.7,,,55,140,90,60,1.8,20,10,115000,3,15,235,0.25,14,14,CARRIER,uaf_ai_ship_bp,,0.7,2,3,408
+Minoria(M),uaf_m_minoria,Escort Carrier,Auroran Tech,reservewing,12,4000,550,2400,6150,245,80,1,110,80,70,45,30,250,FRONT,,180,0.4,0.9,,,65,160,90,60,2,20,9,65000,5,12,300,0.25,12,12,"CARRIER, NO_AUTO_ESCORT",uaf_m_ship_bp,,0.7,2,3,408
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Perwira(M),uaf_m_perwira,Combat Shuttle,Auroran Tech,uaf_flarelauncher,3,910,280,1600,1250,85,25,,155,140,100,105,70,200,FRONT,,180,0.5,0.85,,,7,30,70,30,1,30,10,7500,10,10,270,0.25,3,3,,uaf_m_ship_bp,,0.7,3,4,208
+Perwira II(SP),uaf_ai_perwira,Elite Stealth Shuttle,Experimental Auroran Tech,uaf_entropyamplifier,5,1300,185,2400,1250,165,35,,165,160,100,95,65,200,OMNI,,95,0.3,0.6,,,4,25,60,50,0.8,40,10,24000,5,14,240,0.25,7,7,,uaf_ai_ship_bp,,0.7,3,4,208
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Nakiha,uaf_nakiha,Frigate Leader,Auroran Tech,uaf_flarelauncher,5,2000,235,3000,4167,275,60,,140,85,80,60,85,200,FRONT,,150,0.4,1.0,,,35,50,40,25,1,25,10,24200,10,6,280,0.25,5,5,,uaf_ship_bp,,0.4,2,3,205
+Nakiha II(SP),uaf_ai_nakiha,Elite Frigate Leader,Advanced Auroran Tech,uaf_royalJets,8,2250,200,3450,4167,325,70,,150,95,100,75,95,210,OMNI,,95,0.3,0.55,,,25,50,40,35,0.8,25,11,59950,5,8,240,0.25,9,9,,uaf_ai_ship_bp,,0.4,2,3,205
+Nakiha(M),uaf_m_nakiha,Frigate Leader,Auroran Tech,uaf_evasive_manujet,6,2100,400,3200,4167,300,65,,120,80,90,65,90,200,FRONT,,210,0.35,0.9,,,30,50,40,25,1,25,10,34900,6,7,300,0.25,6,6,,uaf_m_ship_bp,,0.4,2,3,205
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Inazuma,uaf_inazuma,Cruiser,Auroran Tech,maneuveringjets,12,6000,650,10200,4167,325,125,,70,60,30,30,60,1700,FRONT,,150,0.5,1.0,,,115,150,100,60,3,30,9,82500,4,12,520,0.25,20,18,,uaf_ship_bp,,0.5,2,3,300
+Inazuma II(M),uaf_m_inazuma,Cruiser,Auroran Tech,ammofeed,14,7800,700,12850,4167,400,140,,65,40,27,35,45,1850,FRONT,,180,0.4,0.95,,,145,170,100,80,3,30,9,100050,3.5,13,600,0.25,21,18,SHIP_WITH_MODULES,uaf_m_ship_bp,,0.5,2,3,300
+Armor Section(M),uaf_m_inazuma_left_armor,Port Armor Section,Experimental Auroran Tech,,0,750,600,200,15000,200,0,,0,0,0,0,0,500,NONE,,,,,,,0,0,0,0,1,0,,75000,,1,840,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,1,2,4,506
+Armor Section(M),uaf_m_inazuma_right_armor,Starboard Armor Section,Experimental Auroran Tech,,0,750,600,200,15000,200,0,,0,0,0,0,0,500,NONE,,,,,,,0,0,0,0,1,0,,75000,,1,840,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,1,2,4,506
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Akatsuzuma,uaf_akatsuzuma,Light Cruiser,Auroran Tech,microburn,12,7100,575,6080,4167,420,135,,90,50,50,30,60,600,FRONT,,150,0.5,1.0,,,125,150,120,160,3,30,9,80000,4,15,515,0.25,20,20,,uaf_ship_bp,,0.5,2,3,300
+Akatsuzuma II(SP),uaf_ai_akatsuzuma,Elite Light Cruiser,Advanced Auroran Tech,uaf_entropyamplifier,16,8715,450,7110,4167,520,150,,105,70,65,40,70,700,OMNI,,95,0.3,0.6,,,95,150,120,200,2.5,30,9,105000,3,20,480,0.25,23,23,,uaf_ai_ship_bp,,0.5,2,3,300
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Lovela,uaf_lovela,Heavy Frigate,Auroran Tech,ammofeed,10,3450,480,2400,4167,165,70,,120,65,40,30,60,450,FRONT,,150,0.5,1.0,,,50,100,100,60,2,30,10,40000,8,11,260,0.25,6,6,,uaf_ship_bp,,0.5,2,3,300
+Lovela II(M),uaf_m_lovela,Heavy Frigate,Auroran Tech,uaf_rangeFinder,12,4850,550,5000,4167,200,80,,115,50,65,35,60,500,FRONT,,180,0.4,0.85,,,45,100,100,60,2,30,10,54500,6,13,290,0.25,8,8,SHIP_WITH_MODULES,uaf_m_ship_bp,,0.5,2,3,300
+Armor Section(S),uaf_m_lovela_left_armor,Port Armor Section,Experimental Auroran Tech,,0,300,400,200,15000,200,0,,0,0,0,0,0,500,NONE,,,,,,,0,0,0,0,1,0,,75000,,1,840,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,1,2,4,506
+Armor Section(S),uaf_m_lovela_right_armor,Starboard Armor Section,Experimental Auroran Tech,,0,300,400,200,15000,200,0,,0,0,0,0,0,500,NONE,,,,,,,0,0,0,0,1,0,,75000,,1,840,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,1,2,4,506
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Lyora (MP),uaf_lyora_prototype,Prototype Destroyer,Experimental Auroran Tech,uaf_royalJets,10,4000,550,4200,4167,300,100,,120,70,50,35,45,500,FRONT,,165,0.435,1,,,55,85,40,80,2,30,9,50000,4,15,400,0.25,13,13,,uaf_prototype_bp,,0.5,2,3,300
+Pr. Super Nakiha(MP),uaf_super_nakiha_prototype,Destroyer Leader,Advanced Auroran Tech,uaf_royalJets,15,3500,475,6000,4167,345,100,,130,80,80,40,40,375,FRONT,,180,0.325,0.8,,,60,70,60,50,2,25,9,66550,6,15,325,0.25,12,12,,uaf_prototype_bp,,0.4,2,3,205
+Seiichi (M),uaf_m_seiichi,Destroyer,Auroran Tech,uaf_evasive_manujet,11,5500,800,4200,4167,300,95,,65,40,27,30,18,550,FRONT,,180,0.4,0.95,,,70,110,70,70,3,30,9,42000,4,13,420,0.25,10,10,,uaf_m_ship_bp,,0.5,2,3,300
+Vaharagiri(SP),uaf_ai_vaharagiri,Destroyer,Advanced Auroran Tech,uaf_concord_sys,16,5000,350,5000,4167,485,105,,88,70,70,32,28,700,OMNI,,95,0.285,0.7,,,60,80,70,70,3,30,9,45000,3,14,420,0.25,12,12,,uaf_ai_ship_bp,,0.5,2,3,300
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Isenoria II(MP),uaf_isenoria_prototype,Prototype Battlecarrier,Experimental Auroran Tech,uaf_rafflesya_drone,20,13250,995,17520,1872,1150,300,3,30,20,40,6,7,3210,FRONT,,165,0.435,1,,,400,450,200,220,9,35,7,524000,3,30,696,0.25,55,53,"CARRIER, COMBAT, NO_AUTO_ESCORT",uaf_prototype_bp,,0.5,2,3,300
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Fusoreina II(MP),uaf_m_fusoreina,Prototype Battleship,Experimental Auroran Tech,uaf_fusoDrive,45,12850,1050,20050,1872,910,320,,35,30,20,8,8,3700,PHASE,uaf_damper,,,,,,350,425,125,120,8,35,8,650000,3,30,585,0.25,50,60,SHIP_WITH_MODULES,uaf_prototype_bp,,0.5,2,3,300
+Armor Section(L),uaf_m_fusoreina_larmor,Port Armor Section,Experimental Auroran Tech,,0,1280,1950,200,15000,200,0,,0,0,0,0,0,500,NONE,,,,,,,0,0,0,0,1,0,,75000,,1,840,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,1,2,4,506
+Armor Section(L),uaf_m_fusoreina_rarmor,Starboard Armor Section,Experimental Auroran Tech,,0,1280,1950,200,15000,200,0,,0,0,0,0,0,500,NONE,,,,,,,0,0,0,0,1,0,,75000,,1,840,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,1,2,4,506
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sentry(CY/P),uaf_m_sentry,Elite Artillery Cruiser,Experimental Auroran Tech,ammofeed,24,9850,650,9850,900,850,80,,75,35,100,35,20,650,FRONT,,90,0.45,0.65,,,65,110,110,80,3.5,300,9,176000,3.5,20,500,0.15,25,25,,uaf_prototype_bp,,0.5,2,2,220
+Sentry,uaf_sentry,Artillery Cruiser,Experimental Auroran Tech,ammofeed,20,9200,800,9200,850,600,60,,75,35,100,25,15,650,FRONT,,120,0.5,0.8,,,75,110,110,80,5,300,8,155000,8,25,480,0.15,20,20,,uaf_standard_rare_bp,,0.5,2,2,220
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Rama,uaf_rama_corvette,Corvette,Auroran Tech,uaf_flarelauncher,5,1180,200,2250,200,150,45,,145,130,100,60,120,200,FRONT,,150,0.5,0.9,,,15,30,50,20,1,20,10,16500,10,10,230,0.25,4,4,,uaf_ship_bp,,0.5,2,2,200
+Rama II(SP),uaf_ai_rama_corvette,Elite Corvette,Experimental Auroran Tech,plasmajets,8,1500,275,4000,220,200,60,,160,135,110,60,120,210,OMNI,,100,0.35,0.7,,,10,30,50,20,0.8,20,12,55535,4.5,15,200,0.25,7,7,,uaf_ai_ship_bp,,0.5,2,2,200
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Nebula Bravo(M),uaf_m_nebula_bravo,L-Freighter,Auroran Tech,burndrive,15,8800,700,7000,5000,600,100,,70,20,20,25,25,3500,OMNI,,80,0.4,0.65,,,50,100,1800,520,7,45,8,150500,2,25,700,0.25,10,15,"CIVILIAN, FREIGHTER",uaf_military_rare_bp,,0.7,2,4,502
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Neuxoria II(SP),uaf_ai_neuxoria,Elite Fleet Supercarrier,Advanced Auroran Tech,uaf_targetingfeed,50,18500,1300,18000,15000,900,320,6,48,30,15,10,12,4000,OMNI,,95,0.485,0.75,,,650,1500,450,450,8,45,8,650000,2.5,20,590,0.25,60,60,CARRIER,uaf_automata_rare_bp,,0,1,1,502
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Zepporia III(M),uaf_m_zepporia,Fleet Supercarrier,Auroran Tech,uaf_enh_defensive_flare,45,19850,2100,21500,15000,950,360,5,28,25,28,5,7,4500,FRONT,,180,0.575,0.85,,,850,1500,450,450,8.5,45,7,645500,5,20,800,0.25,55,55,"CARRIER, COMBAT, SHIP_WITH_MODULES",uaf_military_rare_bp,,0,1,1,502
+Armor Section (ZS),uaf_m_zepporia_armor_1,Armor Section,Experimental Auroran Tech,,0,700,800,200,15000,200,0,,0,0,0,0,0,500,NONE,,,,,,,0,0,0,0,1,0,,75000,,1,840,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,1,2,4,506
+Armor Section (L),uaf_m_zepporia_left_armor,Armor Section,Experimental Auroran Tech,,0,850,1100,200,15000,200,0,,0,0,0,0,0,500,NONE,,,,,,,0,0,0,0,1,0,,75000,,1,840,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,1,2,4,506
+Armor Section (L),uaf_m_zepporia_right_armor,Armor Section,Experimental Auroran Tech,,0,850,1100,200,15000,200,0,,0,0,0,0,0,500,NONE,,,,,,,0,0,0,0,1,0,,75000,,1,840,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,1,2,4,506
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Novayu(M),uaf_novayu,Frigate,Auroran Tech,uaf_acceleratedMissileRack,10,2090,250,3300,4167,270,50,,125,70,100,60,60,220,FRONT,,210,0.4,0.9,,,45,55,50,30,1,30,10,36500,6,10,300,0.25,8,8,,uaf_ship_bp,,0.5,2,3,300
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Rillaru,uaf_rillaru,Battlecruiser,Auroran Tech,maneuveringjets,24,12500,1050,21500,15500,1150,270,1,65,25,20,9,8,3200,FRONT,,180,0.5,0.95,,,400,475,160,350,4,45,8,320000,3.2,18,720,0.25,40,40,,uaf_standard_rare_bp,,0.5,1,2,503
+Rillaru II(SP),uaf_ai_rillaru,Elite Battlecruiser,Advanced Auroran Tech,uaf_evasive_manujet,40,15500,965,23500,16000,1450,320,2,60,23,23,8,7,3450,OMNI,,115,0.325,0.7,,,325,400,160,400,4.5,45,9,676500,2.5,25,720,0.25,55,50,,uaf_automata_rare_bp,,0.5,1,2,503
+Aeria Charlotte(YRN),uaf_yrn_aeria_charlotte,Royal Battlecruiser,Advanced Auroran Tech,uaf_royalJets,40,16000,1050,26500,16000,1250,285,0,70,23,40,11,8,3750,OMNI,,115,0.425,0.8,,,375,450,200,500,4,45,9,950500,7.5,22,720,0.25,47,50,"SHIP_WITH_MODULES, HIDE_IN_CODEX",uaf_elite_bp,,0.5,1,2,503
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Purcellyra(M),uaf_purcellyra,Missile Battlecruiser,Advanced Auroran Tech,uaf_acceleratedMissileRack,60,12000,950,22500,13500,850,260,,55,35,25,15,10,3500,FRONT,,150,0.55,0.85,,,650,700,160,350,10,45,7,856500,2.5,25,600,0.25,57,57,,uaf_military_rare_bp,,0.5,1,2,503
+Persephone Natasya (YRN),uaf_yrn_persephone_natasya,Royal Battlecruiser,Advanced Auroran Tech,uaf_acceleratedMissileRack,80,14000,1080,24500,13500,1050,285,,65,35,45,15,10,3500,OMNI,,115,0.425,0.8,,,600,700,160,350,10,45,7,1165000,2.5,25,720,0.25,75,75,"SHIP_WITH_MODULES, HIDE_IN_CODEX",uaf_elite_bp,,0.5,1,2,503
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Lillaru,uaf_lillaru,Heavy Cruiser,Auroran Tech,maneuveringjets,14,8350,650,10850,13000,590,170,,75,55,35,25,20,1300,FRONT,,150,0.5,1,,,140,230,150,160,3.5,45,8,120050,4,12,640,0.25,22,22,,uaf_standard_rare_bp,,0.5,1,2,503
+Lillaru (IRS),uaf_hg_lillaru,Heavy Cruiser,Captured Auroran Tech,plasmajets,20,8000,850,11950,13000,750,180,,68,45,40,25,20,1400,FRONT,,90,0.45,0.9,,,140,230,150,160,3.7,45,9,168000,4.5,20,620,0.25,25,25,,uaf_prototype_bp,,0.5,1,2,503
+Lillaru II(SP),uaf_ai_lillaru,Elite Heavy Cruiser,Advanced Auroran Tech,uaf_evasive_manujet,20,9750,575,13245,13000,750,190,,70,40,35,25,20,1400,OMNI,,90,0.325,0.75,,,115,230,150,160,3.7,45,9,250550,3,20,595,0.25,35,30,,uaf_automata_rare_bp,,0.5,1,2,503
+Mary Yi-Su (YRN),uaf_yrn_mary_su,Converted Cruiser,Advanced Auroran Tech,uaf_targetingfeed,24,7500,670,9500,13000,700,165,1,75,45,40,25,20,1400,FRONT,,90,0.45,0.9,,,200,450,150,160,3.7,45,9,275000,4.5,20,620,0.25,25,25,HIDE_IN_CODEX,uaf_elite_bp,,0.5,1,2,503
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Procastria(MP),uaf_procastria_prototype,Prototype Cruiser,Experimental Auroran Tech,uaf_royalBurn,16,12000,1000,14000,,700,170,,48,38,32,22,27,1600,FRONT,,165,0.435,1,,,200,270,150,200,3,33,8,180800,3,30,500,0.25,32,32,"WEAPONS_FRONT_TO_BACK, SHIP_WITH_MODULES",uaf_prototype_bp,0.5,0.5,2,3,
+Ularaya(MP),uaf_ularaya_prototype,Prototype Cruiser,Experimental Auroran Tech,uaf_mirage_swarm,24,8250,400,7000,,700,150,1,75,35,45,20,20,1400,FRONT,,165,0.435,1,,,210,240,200,200,3,33,8,200200,3,30,500,0.25,32,32,WEAPONS_FRONT_TO_BACK,uaf_prototype_bp,0.5,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Maisya(SP),uaf_ai_maisya,Elite Fast Cruiser,Advanced Auroran Tech,uaf_syncoreFocus,20,11500,545,9850,13000,700,170,,90,60,45,40,25,1500,OMNI,,95,0.35,0.6,,,145,190,150,160,3.7,45,9,285000,4,20,595,0.25,30,30,,uaf_automata_rare_bp,,0.5,1,2,503
+Sunami(MP),uaf_sunami_prototype,Prototype ASTL Cruiser,Experimental Auroran Tech,fastmissileracks,14,5640,540,7000,,450,145,2,65,80,60,35,30,600,FRONT,,120,0.6,1.0,,,150,700,160,100,3.2,20,8,165000,7.5,20,360,0.25,20,20,"CARRIER, COMBAT, TRANSPORT",uaf_prototype_bp,,0.5,2,5,210
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Shinoria,uaf_shinoria,Aviation Cruiser,Auroran Tech,maneuveringjets,15,7000,450,7000,,400,165,2,70,35,45,25,15,800,FRONT,,150,0.5,1.0,,,170,300,100,155,4,30,8,133000,4,15,380,0.25,20,20,"CARRIER, COMBAT, NO_AUTO_ESCORT",uaf_standard_rare_bp,,0.5,2,5,210
+Shinoria II(M),uaf_m_shinoria,Aviation Cruiser,Auroran Tech,targetingfeed,25,7500,550,10000,,460,195,1,65,35,45,22,15,1000,FRONT,,180,0.325,0.9,,,200,300,100,155,4,30,8,265099,3,25,480,0.25,28,28,"CARRIER, COMBAT, NO_AUTO_ESCORT, SHIP_WITH_MODULES",uaf_military_rare_bp,,0.5,2,5,210
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Reisen,uaf_reisen,Battleship,Auroran Tech,uaf_rangeFinder,28,13000,1045,22250,15000,1150,280,,35,32,30,6,7,3210,FRONT,,150,0.45,1,,,300,500,185,300,8,45,8,375000,3,18,720,0.25,44,44,,uaf_standard_rare_bp,,0.5,1,2,503
+Reisen II(M),uaf_m_reisen,Battleship,Auroran Tech,uaf_royalBurn,40,17500,1285,24450,15000,1250,320,,28,22,35,6,4,3700,FRONT,,185,0.375,0.85,,,350,550,170,350,8.5,45,8,455000,3,20,760,0.25,48,48,SHIP_WITH_MODULES,uaf_military_rare_bp,,0.5,1,2,503
+Armor Section(M),uaf_m_reisen_armor,Armor Section,Experimental Auroran Tech,,0,800,1000,200,15000,200,0,,0,0,0,0,0,500,NONE,,,,,,,0,0,0,0,1,0,,75000,,1,840,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,1,2,4,506
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Seniraja,uaf_seniraja,Heavy Cruiser,Auroran Tech,maneuveringjets,14,8400,900,11000,15000,600,130,,65,50,40,20,24,1500,FRONT,,150,0.525,1,,,170,220,140,90,3.5,45,8,160000,3.5,12,490,0.25,22,22,,uaf_standard_rare_bp,,0.5,1,2,503
+Seniraja II(M),uaf_m_seniraja,Heavy Cruiser,Auroran Tech,plasmajets,23,10500,1200,12300,15000,700,180,,55,35,35,18,20,1500,FRONT,,180,0.475,0.85,,,200,240,170,140,3.7,45,8,240000,3,17,525,0.25,27,27,SHIP_WITH_MODULES,uaf_military_rare_bp,,0.5,1,2,503
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Machi APA(M),uaf_m_machi_apa,Troop Transport,Auroran Tech,uaf_ravenya_troop_carrier,8,3550,410,2250,1833,110,55,2,80,60,60,30,45,400,FRONT,,90,0.5,0.8,,,55,520,50,80,2,40,9,46500,5,15,360,0.25,15,15,"CIVILIAN, TRANSPORT, UNDER_PARENT",uaf_m_ship_bp,,0.5,2,3,307
+Ravenya,uaf_ravenya,Personnel Spacecraft,Auroran Tech,,,55,25,120,,50,,,200,250,250,180,360,5,NONE,,,,,,,,,,,,,,,,,,,,,,,,0,,,1
+Vernya,uaf_vernya,Personnel Gunship,Auroran Tech,,,90,30,300,,50,,,195,250,250,180,360,10,NONE,,,,,,,,,,,,,,,,,,,,,,,,0,,,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sekai,uaf_sekai_s,S-Tanker,Auroran Tech,maneuveringjets,3,2780,400,2650,1250,225,45,,100,60,80,30,60,700,OMNI,,90,0.55,1.2,,,25,35,100,750,1,300,8,28300,8,20,360,0.25,12,12,"CIVILIAN, TANKER",uaf_ship_bp,,0.7,2,4,209
+Wo,uaf_wo_m,M-Tanker,Auroran Tech,microburn,6,3000,600,4000,2750,350,60,,50,70,50,25,60,5000,OMNI,,90,0.55,1.2,,,35,50,200,1275,2,300,7,67500,16,20,500,0.25,17,17,"CIVILIAN, TANKER",uaf_ship_bp,,0.7,2,4,209
+Tsutsumu,uaf_tsutsumu_l,L-Tanker,Auroran Tech,burndrive,12,13000,1600,13500,4500,600,160,1,25,30,20,15,60,8000,OMNI,,90,0.55,1.5,,,40,80,300,3500,5,300,6,86200,25,30,720,0.25,25,25,"CIVILIAN, TANKER",uaf_standard_rare_bp,,0.7,2,4,209
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Junyo Delta,uaf_junyo_delta,L-Freighter,Auroran Tech,burndrive,8,11500,1000,7500,5000,400,100,,30,20,20,20,15,1500,OMNI,,45,0.55,1.2,,,55,125,2770,440,5,300,6,90000,12,20,720,0.25,12,12,"CIVILIAN, FREIGHTER",uaf_standard_rare_bp,,0.7,2,4,209
+Miyo Juliet,uaf_miyo_juliet,M-Freighter,Auroran Tech,microburn,8,6500,500,3000,3500,380,70,,80,60,55,25,20,850,OMNI,,65,0.55,1.2,,,35,100,890,350,3,300,8,65000,6,20,500,0.25,10,10,"CIVILIAN, FREIGHTER",uaf_ship_bp,,0.3,2,4,209
+Supolev Alpha,uaf_supolev_alpha,S-Freighter,Auroran Tech,microburn,8,1000,200,1500,2500,200,20,,90,60,80,25,20,400,OMNI,,90,0.5,1.2,,,15,55,225,100,2,300,10,23000,2,20,320,0.25,7,7,"CIVILIAN, FREIGHTER",uaf_ship_bp,,0.8,2,4,209
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Scinaut(SE),uaf_scinaut_suv,Research Vessel,Auroran Tech,uaf_flarelauncher,5,5000,300,4500,450,300,50,1,65,75,35,15,30,1000,FRONT,,150,0.3,1.2,,,150,400,450,400,7,350,7,185000,7,12,320,0.25,12,12,"CIVILIAN, TRANSPORT, LINER",uaf_standard_rare_bp,,1,3,3,199
+Osela(SE),uaf_osela_suv,Destroyer,Auroran Tech,uaf_flarelauncher,5,4500,550,4100,450,210,90,,105,70,45,40,55,450,FRONT,,150,0.6,1.0,,,70,90,150,150,1.8,350,9,50000,5,12,320,0.25,12,12,,uaf_ship_bp,,1,3,3,199
+Eyeseau(SE),uaf_eyeseau,Auxillary Vessel,Advanced Auroran Tech,uaf_high_alert,12,10000,600,12230,450,1050,170,1,35,20,10,12,10,3000,OMNI,,120,0.45,0.8,,,150,200,300,300,9,350,7,365000,10,35,600,0.25,40,35,"CARRIER, SHIP_WITH_MODULES",uaf_military_rare_bp,,1,3,3,199
+,uaf_eyeseau_front_ecm,Bow Jamming Pod,Advanced Auroran Tech,uaf_emp,0,1000,1250,10800,28000,450,0,,0,0,0,0,0,5000,NONE,,0,0.1,2.5,,,0,0,0,0,1,0,,75000,,1,840,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,1,2,4,506
+,uaf_eyeseau_rear_ecm,Stern Jamming Pod,Advanced Auroran Tech,uaf_emp,0,1500,1500,10800,28000,450,0,,0,0,0,0,0,5000,NONE,,0,0.1,2.5,,,0,0,0,0,1,0,,75000,,1,840,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,1,2,4,506
+,uaf_eyeseau_left_tgt,Port Targeting Pod,Advanced Auroran Tech,uaf_eyeseau_laser_tgt,0,800,850,10800,28000,450,0,,0,0,0,0,0,5000,NONE,,0,0.1,2.5,,,0,0,0,0,1,0,,75000,,1,840,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,1,2,4,506
+,uaf_eyeseau_right_tgt,Starboard Targeting Pod,Advanced Auroran Tech,uaf_eyeseau_laser_tgt,0,800,850,10800,28000,450,0,,0,0,0,0,0,5000,NONE,,0,0.1,2.5,,,0,0,0,0,1,0,,75000,,1,840,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,1,2,4,506
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#SUPER CAPITALS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Roria Esvernia(SP),uaf_ai_roria_esvernia,Elite Battleship,Advanced Auroran Tech,uaf_royalBurn,80,25250,2600,25250,15000,1595,340,2,30,20,40,5,4,5000,OMNI,,120,0.45,0.6,,,450,700,200,500,13,50,6,2525252,2.5,20,1080,0.25,75,75,HIDE_IN_CODEX,"uaf_elite_bp, no_bp_drop, restricted, no_drop_salvage, no_dealer",,0.5,1,2,503
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Solvernia (YRN),uaf_supercap_slv_core,Flagship,Advanced Auroran Tech,uaf_supercap_royaljets,200,22000,3750,45000,31250,1500,305,2,50,5,10,3,3,6000,OMNI,,120,0.5,1.7,,,2500,4500,1500,1500,35,60,5,100000090,2,10,1080,0.45,150,150,"HIDE_IN_CODEX, SHIP_WITH_MODULES","uaf_elite_bp, no_bp_drop, restricted, no_drop_salvage, no_dealer",5,0.3,3,5,505
+,uaf_supercap_slv_fore_left,Port Defense Section,Advanced Auroran Tech,uaf_rangeFinder,0,14500,2000,10800,15000,590,65,,0,0,0,0,0,5000,FRONT,,0,0.1,1,,,0,0,0,0,1,0,,75000,,1,840,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,1,2,4,506
+,uaf_supercap_slv_fore_right,Starboard Defense Section,Advanced Auroran Tech,uaf_rangeFinder,0,14500,2000,10800,15000,590,65,,0,0,0,0,0,5000,FRONT,,0,0.1,1,,,0,0,0,0,1,0,,75000,,1,840,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,1,2,4,506
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,uaf_supercap_slv_engine_left,Port Engine Section,Advanced Auroran Tech,uaf_mini_drone_pd,0,19950,1000,10800,28000,450,60,,0,0,0,0,0,5000,NONE,,0,0.1,1,,,0,0,0,0,1,0,,75000,,1,840,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,1,2,4,506
+,uaf_supercap_slv_engine_right,Starboard Engine Section,Advanced Auroran Tech,uaf_mini_drone_pd,0,19950,1000,10800,28000,450,60,,0,0,0,0,0,5000,NONE,,0,0.1,1,,,0,0,0,0,1,0,,75000,,1,840,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,1,2,4,506
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Armor Section (SLV),uaf_xl_reflecta_left,Armor Section,Experimental Auroran Tech,,0,2000,6000,200,15000,200,0,,0,0,0,0,0,500,NONE,,,,,,,0,0,0,0,1,0,,75000,,1,840,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,1,2,4,506
+Armor Section (SLV),uaf_xl_reflecta_right,Armor Section,Experimental Auroran Tech,,0,2000,6000,200,15000,200,0,,0,0,0,0,0,500,NONE,,,,,,,0,0,0,0,1,0,,75000,,1,840,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,1,2,4,506
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Novaeria,uaf_novaeria,Elite Exploration Dreadnought,Advanced Auroran Tech,targetingfeed,200,36500,2000,30000,31250,1500,350,2,35,10,10,3,3,5000,OMNI,,80,0.45,1,,,1715,4000,2750,3315,20,60,7,100000090,3,20,1080,0.45,160,160,"HIDE_IN_CODEX, SHIP_WITH_MODULES","uaf_elite_bp, restricted, no_drop, no_drop_salvage, no_dealer",5,0.3,3,5,505
+,uaf_novaeria_right_hangar,Starboard Hangar Section,Advanced Auroran Tech,recalldevice,0,16000,1000,10000,23000,1250,230,5,0,0,0,0,0,5000,NONE,,0,0.1,1,,,0,0,0,0,1,0,,75000,,1,840,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,1,2,4,506
+,uaf_novaeria_left_hangar,Port Hangar Section,Advanced Auroran Tech,recalldevice,0,16000,1000,10000,23000,1250,230,5,0,0,0,0,0,5000,NONE,,0,0.1,1,,,0,0,0,0,1,0,,75000,,1,840,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,1,2,4,506
+,uaf_novaeria_right_fore,Starboard Defense Section,Advanced Auroran Tech,uaf_rangeFinder,0,18600,1500,24000,30000,1500,150,,0,0,0,0,0,5000,NONE,,0,0.1,1,,,0,0,0,0,1,0,,75000,,1,840,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,1,2,4,506
+,uaf_novaeria_left_fore,Port Defense Section,Advanced Auroran Tech,uaf_rangeFinder,0,18600,1500,24000,30000,1500,150,,0,0,0,0,0,5000,NONE,,0,0.1,1,,,0,0,0,0,1,0,,75000,,1,840,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,1,2,4,506
+,uaf_novaeria_engine,Engine Section,Advanced Auroran Tech,uaf_mini_drone_pd,0,19950,850,25000,28000,1400,90,,0,0,0,0,0,5000,NONE,,0,0.1,1,,,0,0,0,0,1,0,,75000,,1,840,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,1,2,4,506
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Cherry Vanguard,uaf_cherry_core,XXL-Hyper Freighter,Advanced Auroran Tech,uaf_burnDrive,100,20000,2250,22500,31250,1800,325,2,35,10,5,8,5,8000,OMNI,,60,0.4,1.2,,,150,1000,35100,3700,25,60,6,85000000,12,25,1080,0.45,120,150,"SHIP_WITH_MODULES,HIDE_IN_CODEX, CIVILIAN, FREIGHTER","uaf_elite_bp, restricted, no_drop, no_drop_salvage, no_dealer",5,0.3,3,5,505
+,uaf_cherry_center,Center Connector Section,Advanced Auroran Tech,,0,14500,2000,20000,15000,1600,200,,0,0,0,0,0,5000,FRONT,,5,0.1,1.2,,,0,0,0,0,1,0,,75000,,1,840,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,1,2,4,506
+,uaf_cherry_port_left,Port Cargo Section,Advanced Auroran Tech,,0,14500,2000,20000,15000,1600,200,,0,0,0,0,0,6500,FRONT,,90,0.1,1.2,,,0,0,0,0,1,0,,75000,,1,840,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,1,2,4,506
+,uaf_cherry_port_right,Starboard Cargo Section,Advanced Auroran Tech,,0,14500,2000,20000,15000,1600,200,,0,0,0,0,0,6500,FRONT,,90,0.1,1.2,,,0,0,0,0,1,0,,75000,,1,840,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,1,2,4,506
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Shield Missile Deployed,uaf_shield_generator,Shield,Auroran Tech,,1,100,10,1000,1,5,0,,0,0,0,0,0,0,FRONT,,90,0.1,1,,,0,0,0,0,1,0,,0,,1,840,0.25,0,0,"UNDER_PARENT, UNBOARDABLE, HIDE_IN_CODEX",,,1,2,4,506
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#FIGHTERS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Aria,uaf_wing_aria,Strike Fighter,Auroran Tech,,,490,100,400,,100,0,,200,200,150,180,250,30,NONE,,0,0,0,,,1,1,,,,,,,,,,,,,,,,0,,,105
+Super Aria,uaf_wing_superaria,Heavy Fighter,Auroran Tech,,,600,90,700,,150,0,,240,200,200,250,275,30,NONE,,0,0,0,,,1,1,,,,,,,,,,,,,,,,0,,,105
+Hyper Aria(YM),uaf_wing_hyperaria_custom,Experimental Fighter,Experimental Auroran Tech,uaf_royalJets,10,850,120,700,,150,0,,300,200,200,250,275,55,NONE,uaf_fighterflare,0,0,0,,,2,2,,,,,,,,,,,,,,"restricted, no_drop, no_drop_salvage, no_dealer",,0,,,105
+Naga(mFA),uaf_wing_naga,Advanced Attacker,Advanced Auroran Tech,uaf_fighterflare,,750,100,1000,,200,0,,250,230,200,250,300,100,FRONT,,35,0.6,2,,,2,2,,,,,,,,,,,,,,,,0,,,105
+Lumayan(mFA),uaf_wing_lumayan,Multirole Attacker,Advanced Auroran Tech,uaf_fighterflare,,655,90,800,,145,0,,230,200,200,250,300,100,NONE,,0,0,0,,,2,2,,,,,,,,,,,,,,,,0,,,105
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Exoscar,uaf_wing_exoscar,Strike Torpedo Bomber,Auroran Tech,uaf_fighterflare,,450,125,500,,100,0,,315,210,210,100,80,65,NONE,,0,0,0,,,2,2,,,,,,,,,,,,,,,,0,,,109
+Fisoyuz,uaf_wing_fisoyuz,Light Attacker,Auroran Tech,,,250,40,400,,100,0,,310,200,150,230,300,55,NONE,,0,0,0,,,1,1,,,,,,,,,,,,,,,,0,,,106
+Minersky,uaf_wing_minersky,Medium Attacker,Auroran Tech,,,440,95,1500,,300,0,,300,200,250,250,250,45,NONE,,0,0,0,,,1,1,,,,,,,,,,,,,,,,0,,,107
+Mitsurei,uaf_wing_mitsurei,Light Interceptor,Auroran Tech,,,250,50,400,,100,0,,325,230,210,300,300,55,NONE,,0,0,0,,,1,1,,,,,,,,,,,,,,,,0,,,108
+Sakurai,uaf_wing_sakurai,Medium Bomber,Auroran Tech,,,300,300,600,,100,0,,100,100,100,45,60,65,NONE,,0,0,0,,,3,3,,,,,,,,,,,,,,,,0,,,105
+Hibiscus,uaf_wing_hibiscus,Light Bomber,Auroran Tech,,,200,200,400,,100,0,,125,150,150,80,120,50,NONE,,0,0,0,,,2,2,,,,,,,,,,,,,,,,0,,,105
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Lynx (P),uaf_wing_lynx,Multi-Role Fighter,Experimental Auroran Tech,uaf_melodyOvercharge,5,1500,125,1000,,250,120,1,230,400,400,200,200,100,PHASE,phasecloak,180,0,0,,,1,1,5,15,1,25,11,,,,,,,,SHIP_WITH_MODULES,"restricted, no_drop, no_drop_salvage, no_dealer",,0,,,110
+Forlorn,uaf_wing_forlorn,Superiority Fighter,Auroran Tech,uaf_fighterflare,,750,250,200,,300,0,,275,250,250,300,360,85,NONE,,0,0,0,,,1,1,,,,,,,,,,,,,,,,0,,,110
+Noversky,uaf_wing_noversky,Heavy Attacker,Auroran Tech,uaf_fighterflare,,500,350,400,,500,0,,195,130,100,250,200,100,NONE,,0,0,0,,,3,3,,,,,,,,,,,,,,,,0,,,107
+Hyacinth,uaf_wing_hyacinth,Heavy Bomber,Auroran Tech,uaf_fighterflare,,720,650,1200,,50,0,,100,100,60,50,100,150,FRONT,,120,0.6,1.5,,,8,8,,,,,,,,,,,,,,,,0,,,105
+Nekonyan,uaf_wing_nekoyan,Stealth Strike Fighter,Advanced Auroran Tech,uaf_royalJets,,500,100,500,,250,0,,230,400,200,300,150,75,NONE,uaf_fighterflare,0,0,0,,,2,2,,,,,,,,,,,,,,,,0,,,108
+Menascar,uaf_wing_menascar,Surgical Bomber,Auroran Tech,uaf_fighterflare,,720,225,850,,200,0,,305,300,150,100,100,200,NONE,,0,0,0,,,6,6,,,,,,,,,,,,,,,,0,,,109
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Pengawas (GS),uaf_wing_pengawas,Air Defense Gunship,Advanced Auroran Tech,ammofeed,,650,230,1500,,500,0,,245,150,150,150,100,200,NONE,,0,0,0,,,6,6,,,,,,,,,,,,,,,,0,,,109
+Neoscar (GS),uaf_wing_neoscar,Anti Ship Gunship,Advanced Auroran Tech,uaf_fighterflare,,730,350,2000,,700,0,,275,300,170,150,100,200,NONE,,0,0,0,,,10,10,,,,,,,,,,,,,,,,0,,,109
+Puterisaya (AGS),uaf_wing_puterisaya,Hunter Killer Gunship,Advanced Auroran Tech,uaf_flarelauncher,,950,150,2000,,450,0,,225,150,170,250,100,200,OMNI,,75,0.2,0.6,,,10,10,,,,,,,,,,,,,,,3,0,,,109
+Puterakamu (SPHGS),uaf_wing_puterakamu,Spearhead Horizon Gunship,Advanced Auroran Tech,uaf_concord_sys,,1050,150,2000,,450,0,,215,150,120,200,100,200,OMNI,,75,0.2,0.7,,,10,10,,,,,,,,,,,,,,,3,0,,,109
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Revere,uaf_wing_revere,Horizon Interceptor,Auroran Tech,,,450,80,200,,200,0,,250,180,150,200,150,85,NONE,,0,0,0,,,1,1,,,,,,,,,,,,,,,,0,,,109
+Surreal,uaf_wing_surreal,Heavy Horizon Interceptor,Auroran Tech,,,600,60,300,,200,0,,285,250,150,100,110,95,NONE,,0,0,0,,,2,2,,,,,,,,,,,,,,,,0,,,109
+Minime,uaf_wing_minime,Defense Drone,Auroran Tech,,,300,50,400,,100,0,,325,230,210,300,300,55,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,0,,,108
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Taufan (NX),uaf_wing_taufan,Tactical Strike Fighter,Advanced Auroran Tech,uaf_fighterflare,,800,350,1300,,250,0,,230,400,200,300,150,75,FRONT,,35,0,1.5,,,2,2,,,,,,,,,,,,,,,,0,,,108
+Rafflesya (SvHB),uaf_wing_rafflesya,Strategic Bomber,Experimental Auroran Tech,uaf_mini_drone_pd,,2250,1150,1200,,350,0,,110,60,100,65,100,800,NONE,uaf_flarelauncher,0,0,0,,,40,40,,,,,,,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","restricted, no_drop, no_drop_salvage, no_dealer",,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

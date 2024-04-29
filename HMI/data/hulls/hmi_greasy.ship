@@ -1,0 +1,162 @@
+{
+  "hullName": "Greasy",
+  "hullId": "hmi_greasy",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/hmi_greasy.png",
+  "style": "LOW_TECH",
+  "height": 86,
+  "width": 88,
+  "center": [44, 40],
+  "collisionRadius": 67.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 63.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "junker",
+    "rapidrepaircheck"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 226,
+      "angle": 131.5,
+      "locations": [-3, 26]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 188,
+      "angle": -90,
+      "locations": [-3, -26]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 169,
+      "angle": 75,
+      "locations": [17.5, 23.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 104,
+      "angle": -38,
+      "locations": [22.5, -13.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [28.5, 3]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [31, 27]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 177,
+      "angle": -2,
+      "locations": [1, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-32.5, 36],
+      "length": 10,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-38, 14],
+      "length": 12.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-36, 9],
+      "length": 12,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-37.5, 22],
+      "length": 22,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-36.5, -8.5],
+      "length": 17.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-37.5, -13],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-37.5, -20.5],
+      "length": 11.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-36.5, -31],
+      "length": 17,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    30.5, 7,
+    44.5, -14,
+    28, -30,
+    1.5, -40,
+    -36.5, -36.5,
+    -38, -6.5,
+    -30, 1,
+    -38, 10,
+    -36, 41.5,
+    4, 42.5,
+    38, 30.5
+  ]
+}

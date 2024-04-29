@@ -1,0 +1,43 @@
+{
+  "id": "sv_daneaxe",
+  "specClass": "projectile",
+  "projectileSpecId": "sv_daneaxe_shot",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/sv_daneaxe_turret_base.png",
+  "turretGunSprite": "graphics/weapons/sv_daneaxe_turret_barrel.png",
+  "hardpointSprite": "graphics/weapons/sv_daneaxe_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/weapons/sv_daneaxe_hardpoint_barrel.png",
+  "visualRecoil": 5,
+  "turretOffsets": [
+    28.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    36,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 75,
+    "spread": 10,
+    "particleSizeMin": 10,
+    "particleSizeRange": 10,
+    "particleDuration": 0.5,
+    "particleCount": 20,
+    "particleColor": [
+      55,
+      55,
+      55,
+      255
+    ]
+  },
+  "fireSoundTwo": "sv_daneaxe"
+}

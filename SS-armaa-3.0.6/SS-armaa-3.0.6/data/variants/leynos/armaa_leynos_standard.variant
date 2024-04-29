@@ -1,0 +1,48 @@
+{
+  "variantId": "armaa_leynos_standard",
+  "hullId": "armaa_leynos_frig",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 8,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": ["armaa_selector_fist","armaa_selector_crusher","heavyarmor"],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS002": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {"A_GUN": "armaa_leynos_crusher_right"}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "C_ARML": "armaa_leynosBoostKnuckle",
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "E_HEAD": "armaa_leynos_head"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "armaa_valkenmp_wing"
+  ]
+}

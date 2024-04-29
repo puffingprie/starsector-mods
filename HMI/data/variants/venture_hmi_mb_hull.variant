@@ -1,0 +1,51 @@
+{
+  "variantId": "venture_hmi_mb_hull",
+  "hullId": "venture",
+  "displayName": "Reinforced",
+  "goalVariant": false,
+  "fluxCapacitors": 3,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull",
+    "insulatedengine",
+    "blast_doors",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 002": "hmi_khorkoi_miningblaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 004": "annihilator",
+        "WS 007": "annihilator"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 005": "sabotpod",
+        "WS 006": "sabotpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "pumm_mg",
+        "WS 003": "pumm_mg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

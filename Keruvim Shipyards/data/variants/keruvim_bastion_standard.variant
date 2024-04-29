@@ -1,0 +1,70 @@
+{
+  "variantId": "keruvim_bastion_standard",
+  "hullId": "keruvim_bastion",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 40,
+  "fluxVents": 18,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0013": "harpoonpod",
+        "WS0015": "harpoonpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "heavyac",
+        "WS0004": "mark9",
+        "WS0010": "keruvim_blast_gun",
+        "WS0012": "lightag",
+        "WS0016": "irpulse",
+        "WS0021": "irpulse"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "irpulse",
+        "WS0009": "lightac",
+        "WS0011": "lightac",
+        "WS0022": "irpulse"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "vulcan",
+        "WS0005": "lrpdlaser",
+        "WS0014": "lrpdlaser",
+        "WS0017": "lrpdlaser",
+        "WS0018": "lrpdlaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "flak",
+        "WS0006": "flak",
+        "WS0008": "flak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "broadsword_wing",
+    "talon_wing"
+  ]
+}

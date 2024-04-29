@@ -1,0 +1,48 @@
+{
+  "variantId": "mule_hmi_x_mb_strike",
+  "hullId": "mule_hmi_x",
+  "displayName": "All In",
+  "goalVariant": false,
+  "fluxCapacitors": 3,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "sMods": ["missleracks","eccm"],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "typhoon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sabot",
+        "WS0002": "sabot",
+        "WS0003": "sabot",
+        "WS0004": "sabot"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 004": "hmi_voracious"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 005": "lightdualmg",
+        "WS 006": "hmi_voracious"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

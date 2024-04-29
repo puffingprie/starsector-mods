@@ -1,0 +1,113 @@
+{
+  "hullName": "Fisoyuz",
+  "hullId": "uaf_wing_fisoyuz",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fisoyuz.png",
+  "style": "UAF_FIGHTER_S",
+  "height": 38,
+  "width": 43,
+  "center": [21.5, 16],
+  "collisionRadius": 23,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 0,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [8, 9.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [8, -9.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [6, 12.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [6, -12.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 14,
+      "angle": 0,
+      "locations": [14, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-9, -9],
+      "length": 15,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [-9, 9],
+      "length": 15,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [-10, 11],
+      "length": 15,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [-10, -11],
+      "length": 15,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "MELODY_ENGINE_H"
+    }
+  ],
+  "bounds": [
+    -3, 2,
+    -8, 5.5,
+    -12, 12,
+    -9, 19.5,
+    -2, 14.5,
+    8, 14.5,
+    9, 8.5,
+    19.5, 0.5,
+    19.5, -0.5,
+    9, -8.5,
+    8, -14.5,
+    -2, -14.5,
+    -9, -19.5,
+    -12, -12,
+    -8, -5.5,
+    -3, -2
+  ]
+}

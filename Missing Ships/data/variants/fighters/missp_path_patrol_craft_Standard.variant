@@ -1,0 +1,24 @@
+{
+  "displayName": "Torpedo Craft",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "missp_path_patrol_craft",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "missp_path_patrol_craft_variant",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hammer",
+        "WS0002": "vulcan",
+        "WS0003": "vulcan"
+      }
+    }
+  ],
+  "wings": []
+}

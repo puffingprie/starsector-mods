@@ -1,0 +1,69 @@
+{
+  "hullName": "Shank",
+  "hullId": "expsp_shank",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/expsp_shank.png",
+  "style": "EXPSP_MVS",
+  "height": 32,
+  "width": 24,
+  "center": [12, 16],
+  "collisionRadius": 19,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 17,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [3.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [2, 6],
+      "length": 8,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    },
+    {
+      "location": [2, -6],
+      "length": 8,
+      "width": 2,
+      "angle": -180,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    },
+    {
+      "location": [-6, 0],
+      "length": 15,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    },
+    {
+      "location": [-6, 0],
+      "length": 15,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    }
+  ],
+  "bounds": [
+    -8, -4.5,
+    8.5, -4,
+    8.5, 4,
+    -8, 4.5
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "variantId": "uaf_m_perwira_tactical",
+  "hullId": "uaf_m_perwira",
+  "displayName": "Tactical",
+  "goalVariant": true,
+  "fluxCapacitors": 3,
+  "fluxVents": 2,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_minibreve_tnt_s"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "uaf_vocal_s_srm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_pd_reina_ii"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

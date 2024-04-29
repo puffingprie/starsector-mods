@@ -1,0 +1,17 @@
+{
+	"baseHullId":"vigilance",
+	"skinHullId":"vigilance_tt",
+	"hullName":"Vigilance (TT)",
+	"descriptionId":"vigilance",
+    "descriptionPrefix":"This ship has been thoroughly overhauled by the Tri-Tachyon corporation. Tri-Tachyon compliant software patches have been installed which are fully integrated with TriPad (R) status monitoring protocols, high-spec flux conduit upgrades performed, and weapon attachment points refurbished for mounting advanced energy weapons.",
+	"systemId":"highenergyfocus",
+	"spriteName":"graphics/ships/vigilance/vigilance_tt.png",
+	"tags":["rare_bp"],
+	"tech":"Tri-Tachyon",
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":[],
+	"builtInWeapons":{
+    },
+}

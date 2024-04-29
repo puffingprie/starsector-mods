@@ -1,0 +1,45 @@
+{
+  "variantId": "tempest_HMI_MB",
+  "hullId": "tempest",
+  "displayName": "Bluff",
+  "goalVariant": false,
+  "fluxCapacitors": 6,
+  "fluxVents": 8,
+  "quality": 1,
+  "permaMods": [
+    "HMI_MB_boltcoherer"
+  ],
+  "hullMods": [
+    "targetingunit",
+    "missile_autoloader"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "pulselaser",
+        "WS 002": "pulselaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "sabot"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

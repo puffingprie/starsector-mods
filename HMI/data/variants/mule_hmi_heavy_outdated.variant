@@ -1,0 +1,43 @@
+{
+  "variantId": "mule_hmi_heavy_outdated",
+  "hullId": "mule_hmi_heavy",
+  "displayName": "Outdated",
+  "goalVariant": false,
+  "fluxCapacitors": 12,
+  "fluxVents": 0,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull",
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "shredder",
+        "WS 006": "shredder"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "annihilator",
+        "WS 002": "annihilator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "talon_wing"
+  ]
+}

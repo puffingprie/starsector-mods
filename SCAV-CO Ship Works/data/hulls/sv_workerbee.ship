@@ -1,0 +1,81 @@
+{
+  "hullName": "SCAV-CO Worker Bee",
+  "hullId": "sv_workerbee",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/sv_workerbee.png",
+  "style": "SCAVCO",
+  "height": 109,
+  "width": 96,
+  "center": [48, 54.5],
+  "collisionRadius": 98,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 93,
+  "viewOffset": 0,
+  "builtInMods": [
+    "repair_gantry",
+    "sv_scavcosubsytems",
+    "sv_scavcoConstruction",
+    "hiressensors"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-23.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 25,
+      "angle": 0,
+      "locations": [-1.5, -41]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 25,
+      "angle": 0,
+      "locations": [-1.5, 41]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-53.5, -36],
+      "length": 46.5,
+      "width": 25,
+      "angle": 180,
+      "contrailSize": 25,
+      "style": "CUSTOM",
+      "styleId": "SCAV-CO ENGINE"
+    },
+    {
+      "location": [-53.5, 36],
+      "length": 46.5,
+      "width": 25,
+      "angle": -180,
+      "contrailSize": 25,
+      "style": "CUSTOM",
+      "styleId": "SCAV-CO ENGINE"
+    }
+  ],
+  "bounds": [
+    -37.5, 28,
+    -51.5, 28,
+    -51.5, 43,
+    -10.5, 43,
+    36.5, 8.5,
+    36.5, -8.5,
+    -10.5, -43,
+    -51.5, -43,
+    -51.5, -28,
+    -37.5, -28
+  ]
+}

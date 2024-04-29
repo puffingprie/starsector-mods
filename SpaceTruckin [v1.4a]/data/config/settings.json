@@ -1,0 +1,76 @@
+{
+  # where rule commands called from rules.csv can be implemented.
+  # rules from multiple packages CAN NOT share the same name
+  "graphics":{
+      "misc":{
+          "usl_arrow":"graphics/misc/usl_arrow.png",
+          "usl_arrow_0":"graphics/misc/usl_arrow_0.png",
+          "usl_arrow_10":"graphics/misc/usl_arrow_10.png",
+          "usl_arrow_20":"graphics/misc/usl_arrow_20.png",
+          "usl_arrow_30":"graphics/misc/usl_arrow_30.png",
+          "usl_arrow_40":"graphics/misc/usl_arrow_40.png",
+          "usl_arrow_50":"graphics/misc/usl_arrow_50.png",
+          "usl_arrow_60":"graphics/misc/usl_arrow_60.png",
+          "usl_arrow_70":"graphics/misc/usl_arrow_70.png",
+          "usl_arrow_80":"graphics/misc/usl_arrow_80.png",
+          "usl_arrow_90":"graphics/misc/usl_arrow_90.png",
+          "usl_arrow_100":"graphics/misc/usl_arrow_100.png",
+          "usl_arrow_110":"graphics/misc/usl_arrow_110.png",
+          "usl_arrow_120":"graphics/misc/usl_arrow_120.png",
+          "usl_arrow_130":"graphics/misc/usl_arrow_130.png",
+          "usl_arrow_140":"graphics/misc/usl_arrow_140.png",
+          "usl_arrow_150":"graphics/misc/usl_arrow_150.png",
+          "usl_arrow_160":"graphics/misc/usl_arrow_160.png",
+          "usl_arrow_170":"graphics/misc/usl_arrow_170.png",
+          "usl_arrow_180":"graphics/misc/usl_arrow_180.png",
+          "usl_arrow_190":"graphics/misc/usl_arrow_190.png",
+          "usl_arrow_200":"graphics/misc/usl_arrow_200.png",
+          "usl_arrow_210":"graphics/misc/usl_arrow_210.png",
+          "usl_arrow_220":"graphics/misc/usl_arrow_220.png",
+          "usl_arrow_230":"graphics/misc/usl_arrow_230.png",
+          "usl_arrow_240":"graphics/misc/usl_arrow_240.png",
+          "usl_arrow_250":"graphics/misc/usl_arrow_250.png",
+          "usl_arrow_260":"graphics/misc/usl_arrow_260.png",
+          "usl_arrow_270":"graphics/misc/usl_arrow_270.png",
+          "usl_arrow_280":"graphics/misc/usl_arrow_280.png",
+          "usl_arrow_290":"graphics/misc/usl_arrow_290.png",
+          "usl_arrow_300":"graphics/misc/usl_arrow_300.png",
+          "usl_arrow_310":"graphics/misc/usl_arrow_310.png",
+          "usl_arrow_320":"graphics/misc/usl_arrow_320.png",
+          "usl_arrow_330":"graphics/misc/usl_arrow_330.png",
+          "usl_arrow_340":"graphics/misc/usl_arrow_340.png",
+          "usl_arrow_350":"graphics/misc/usl_arrow_350.png"
+      },
+      "characters":{
+          "bigal":"graphics/portraits/characters/st_big_al.png",
+          "trucker0":"graphics/portraits/characters/trucker0_portrait.png",
+          "trucker1":"graphics/portraits/characters/trucker1_portrait.png",
+          "trucker2":"graphics/portraits/characters/trucker2_portrait.png",
+          "trucker3":"graphics/portraits/characters/trucker3_portrait.png",
+          "trucker4":"graphics/portraits/characters/trucker4_portrait.png",
+          "angryforeman":"graphics/portraits/characters/angry_foreman.png",
+          "medic":"graphics/portraits/characters/medic.png",
+          "concierge1":"graphics/portraits/characters/concierge1.png",
+          "concierge2":"graphics/portraits/characters/concierge2.png",
+          "concierge3":"graphics/portraits/characters/concierge3.png",
+          "concierge4":"graphics/portraits/characters/concierge3.png",
+          "taxcollector1":"graphics/portraits/characters/taxcollector_1.png"
+      },
+        "spaceinvaders":{
+        "player_ship":"graphics/spaceinvaders/atlas_af.png",
+        "enemy_a":"graphics/spaceinvaders/enemy_a.png",
+        "enemy_b":"graphics/spaceinvaders/enemy_b.png",
+        "enemy_c":"graphics/spaceinvaders/enemy_c.png",
+        "enemy_d":"graphics/spaceinvaders/enemy_d.png",
+        "player_shot":"graphics/spaceinvaders/player_shot.png",
+        "enemy_shot":"graphics/spaceinvaders/enemy_shot.png",
+        "explosion":"graphics/spaceinvaders/explosion.png"
+      },
+        "sectoroids": {
+          "hyperion_ff": "graphics/ships/hyperion_ff.png"
+      },
+  },
+  "ruleCommandPackages":[
+  "Plugins",
+  ],
+}

@@ -1,0 +1,133 @@
+name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
+Sledge Gun,ii_sledgegun,2,,500,1000,,65,,20,15,7,,,,HIGH_EXPLOSIVE,80,,0,1,1,,0,5,1,5,,1000,,,50,,,,"he7, LR, ii_wpn_bp, merc",,Imperium,,Suppression,,,,,Hits on hull or armor have a %s chance to deal %s extra high explosive damage.,50% | 30,,,,7650
+Lux Repeater,ii_lux,3,0.3,800,700,,45,,1,20,7,,,,HIGH_EXPLOSIVE,30,,0,2.7,14,0.1,0,10,1,5,,1000,,,10,,,,"he7, LR, ii_rare_bp, rare_bp, merc",,Imperium,,Anti Armor,,,,,,,,,,7651
+Arcus Autocannon,ii_arcus,2,,400,650,,125,,5,30,6,,,,KINETIC,90,,0,1,1,,0,10,2,10,,1200,,,40,,,,"kinetic7, ii_wpn_bp, merc",,Imperium,,Anti Shield,,,,,,,,,,7672
+Siege Mortar,ii_siegemortar,2,,450,800,,150,,8,15,6,,,,HIGH_EXPLOSIVE,100,,0,1.5,1,,0,20,5,10,,500,,,10,,,,"he6, LR, ii_wpn_bp, merc",,Imperium,,Anti Armor,,,,,,,,,,7673
+Sledge Cannon,ii_sledgecannon,2,,2100,1500,,125,,50,5,13,,,,HIGH_EXPLOSIVE,175,,0,1.25,1,,0,5,1,5,,1100,,,100,,,,"he16, LR, ii_wpn_bp, merc",,Imperium,,Suppression,,,,,Hits on hull or armor have a %s chance to deal %s extra high explosive damage.,50% | 60,,,,7653
+Sagittarius Autogun,ii_sagittarius,1,,1000,700,,72,,40,40,11,,,,FRAGMENTATION,22,,0,0.1,1,,0,15,0.5,5,,1500,,,15,,,"ANTI_FTR,PD,PD_ALSO","pd13, he8, kinetic8, ii_common_bp, ii_wpn_bp, ind, merc",,Imperium,,Multirole,,,,,Will target missiles if no other targets are in range.,,,,,7654
+Solis Cannon,ii_solis,3,0.3,2600,800,,325,,50,10,15,,,,HIGH_EXPLOSIVE,330,,0.2,2.2,1,,0,12,3,6,,800,,,50,,,,"he16, ii_rare_bp, rare_bp, hist1t, merc",,Imperium,,Anti Armor,,,,,,,,,,7655
+Telum Autocannon,ii_telum,3,0.3,3000,800,,230,,25,7,15,,,,KINETIC,250,,0,2.4,3,0.3,0,10,1,5,,1200,,,50,,,,"kinetic16, ii_rare_bp, rare_bp, hist1t, merc",,Imperium,,Anti Shield,,,,,,,,,,7656
+Light Ballista Launcher,ii_smallballista,2,,250,6000,,225,,10,20,4,5,0.05,,HIGH_EXPLOSIVE,0,,0,10,1,,0,0,0,0,,150,50,50,50,,,"DO_NOT_AIM, DO_NOT_CONSERVE","utility7, missile3, ii_wpn_bp, merc, reload_2pt",,Imperium,,Anti Armor,Slow / Fast,Poor,,,Hits on hull or armor have a %s chance to deal %s extra high explosive damage.,50% | 350,"Boosts speed upon final approach to the target, but quickly fizzles if it misses.",,,7657
+Javelin ASM (Single),ii_javelinsingle,0,,100,1500,,1000,,25,30,1,1,,,HIGH_EXPLOSIVE,0,,0,5,1,,0,0,0,,,175,150,16,425,,,DO_NOT_AIM,"strike4, missile3, ii_common_bp, ind, reload_1_and_a_half_pt",,Imperium,,Finisher,Slow,Very Poor,,,,,,,TRUE,7658
+Javelin ASM Rack,ii_javelinsmall,1,,200,1500,,1000,,25,30,3,2,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,,,175,150,16,425,,,DO_NOT_AIM,"strike6, missile5, ii_wpn_bp, merc, reload_3pt",,Imperium,,Finisher,Slow,Very Poor,,,,,,,TRUE,7659
+Fundae SRM Pod,ii_fundae_s,2,,650,800,,40,,4,40,7,80,,,HIGH_EXPLOSIVE,0,,0,7.65,8,0.05,2,2,0,0,,400,500,4,30,,,"ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","utility9, missile1, ii_wpn_bp, merc",,Imperium,,Anti Small Craft (Area),Fast,Excellent,,,"Deals up to %s additional fragmentation damage to nearby ships, fighters, and missiles upon impact.",175,,,,7660
+Ballista LRM Launcher,ii_ballista,2,,1600,6000,,225,,10,10,12,40,0.15,4,HIGH_EXPLOSIVE,0,,0,11.1,4,0.3,0,0,0,0,,150,50,50,50,,,"DO_NOT_AIM, DO_NOT_CONSERVE","utility15, missile8, ii_wpn_bp, merc",,Imperium,,Long Range Support,Slow / Fast,Poor,,,Hits on hull or armor have a %s chance to deal %s extra high explosive damage.,50% | 350,"Boosts speed upon final approach to the target, but quickly fizzles if it misses.",,,7661
+Javelin ASM Pod,ii_javelin,1,,1300,1500,,1000,,25,10,7,9,,,HIGH_EXPLOSIVE,0,,0,9,3,0.5,0,0,0,,,175,150,16,425,,,DO_NOT_AIM,"strike13, missile10, ii_wpn_bp, merc",,Imperium,,Finisher,Slow,Very Poor,,,,,,,TRUE,7662
+Fundae MLRS,ii_fundae_m,2,0.5,2400,900,,40,,4,20,12,210,,,HIGH_EXPLOSIVE,0,,0,9.35,14,0.05,4,4,0,0,,400,600,4.5,30,,,"ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","utility16, missile5, ii_wpn_bp, merc",,Imperium,,Anti Small Craft (Area),Fast,Excellent,,,"Deals up to %s additional fragmentation damage to nearby ships, fighters, and missiles upon impact.",175,,,,7660
+Heavy Ballista Launcher,ii_heavyballista,2,0.7,7500,6000,,225,,10,5,24,90,0.4,6,HIGH_EXPLOSIVE,0,,0,5.5,6,0.5,0,0,0,0,,150,50,50,50,,,"DO_NOT_AIM, DO_NOT_CONSERVE","utility23, missile12, ii_rare_bp, rare_bp, hist1t, merc",,Imperium,,Long Range Support,Slow / Fast,Poor,,,Hits on hull or armor have a %s chance to deal %s extra high explosive damage.,50% | 350,"Boosts speed upon final approach to the target, but quickly fizzles if it misses.",,,7663
+Scorpio Javelin Launcher,ii_javelinlarge,1,,4000,1500,,1000,,25,15,16,24,,,HIGH_EXPLOSIVE,0,,0,10.5,6,0.3,0,0,0,,,175,250,16,425,,,DO_NOT_AIM,"strike17, missile15, ii_rare_bp, rare_bp, merc",,Imperium,,Finisher,Slow,Very Poor,,,,,,,TRUE,7664
+Onager MIRV Launcher,ii_onager,3,0.3,7000,2500,,2000,,50,10,26,14,,,HIGH_EXPLOSIVE,0,,0,15,1,,0,0,0,0,,150,100,24,1200,,,"ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","utility22, strike12, missile7, ii_rare_bp, rare_bp, hist1t, merc",,Imperium,,Anti Carrier,Very Slow,Poor,,,"Launches %s submunitions that deal %s high explosive damage and up to %s additional fragmentation damage to nearby ships, fighters, and missiles upon impact.",36 | 40 | 175,,,,7660
+Pulsar Cannon,ii_pulsar,1,,350,400,,60,,10,40,5,9,2,3,HIGH_EXPLOSIVE,22,,0,0.55,3,0.15,8,8,0,8,,450,,,20,,,USE_LESS_VS_SHIELDS,"he7, SR, ii_wpn_bp, merc",,Imperium,,Anti Armor,,,,,,,,,,7665
+Custos Defender,ii_custos,2,,450,300,250,,,0,100,6,,,,FRAGMENTATION,,85,0,0.1,,,,,,,10000,,,,,,,PD,"pd9, beam4, SR, ii_wpn_bp, merc",,Imperium,,Point Defense,,,,,,,,,,7669
+Particle Gun,ii_particlegun,0,,100,350,,50,,2,75,2,,,,FRAGMENTATION,12,,0,0.8,3,0.2,0,6,1,6,,1500,,,5,,,PD,"pd5, SR, ii_common_bp, ii_wpn_bp, ind",,Imperium,,Point Defense,,,,,,,,,,7670
+ER Particle Cannon,ii_particlecannon,3,0.5,600,1000,,130,,2,15,8,,,,FRAGMENTATION,40,,0.4,1.2,5,0.1,0,6,0.5,2,,1500,,,5,,,,"energy10, LR, ii_rare_bp, merc",,Imperium,,Suppression,,,,,,,,,,7671
+Pulsar Repeater,ii_pulsarrepeater,1,,1200,450,,60,,10,20,9,30,4,1,HIGH_EXPLOSIVE,22,,0,0.15,1,,5,15,1,5,,450,,,20,,,"USE_LESS_VS_SHIELDS, PD, PD_ALSO","he15, pd11, SR, ii_wpn_bp, merc",,Imperium,,Anti Armor (PD),,,,,Will target missiles if no other targets are in range.,,,,,7666
+Heavy Pulsar Cannon,ii_heavypulsar,2,,2200,600,,100,,20,15,12,12,1.5,3,HIGH_EXPLOSIVE,60,,0,0.6,3,0.2,8,8,0,8,,500,,,40,,,USE_LESS_VS_SHIELDS,"he16, ii_wpn_bp, merc",,Imperium,,Anti Armor,,,,,,,,,,7667
+Heavy Pulse Laser,ii_heavypulselaser,2,,2400,600,,200,,0,12,12,,,,ENERGY,200,,0.5,0,,,0,0,0,,,1000,,,20,,,,"energy14, ii_wpn_bp, merc",,Imperium,,General,,,,,,,,,,7668
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Crocea Mors,ii_croceamors,3,,8000,1250,,1500,,250,0,30,,,,ENERGY,2500,,1,9,1,,0,0,0,0,,2000,,,400,,,"SYSTEM, SHOW_IN_CODEX, STRIKE",,ii_special_only,Imperium,,Strike,,,,,,,,,,7669
+Apocalypse Array,ii_apocalypse_mirv,2,,,10000,,400,,10,0,80,72,1.2,,HIGH_EXPLOSIVE,40,,0,7.7,24,0.1,0,0,0,0,,300,600,35,100,,,"SYSTEM, DO_NOT_AIM, DO_NOT_CONSERVE",,,Imperium,,,,,,,,,,,,7670
+Fundae Array,ii_fundae_mirv,2,,,2000,,40,,4,0,40,144,2.4,,HIGH_EXPLOSIVE,10,,0,7.65,48,0.05,6,6,0,0,,400,800,8,30,,,"SYSTEM, ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE",,,Imperium,,,,,,,"Deals up to %s additional fragmentation damage to nearby ships, fighters, and missiles upon impact.",,,,,7660
+Particle Gun,ii_particlegun_f,0,,,350,,60,,2,75,,,,,FRAGMENTATION,10,,0,0.45,4,0.15,0,2,0.5,2,,1500,,,5,,,"SYSTEM, PD",,,Imperium,,Point Defense,,,,,,,,,,7671
+Particle Repeater,ii_particlerepeater,0,,,400,,40,,2,100,,,,,FRAGMENTATION,10,,0,0.2,1,,0,5,1,5,,1500,,,5,,,"SYSTEM, PD",,,Imperium,,Point Defense,,,,,,,,,,7673
+Photon Beam Cannon,ii_photonbeam,2,,7500,1100,2300,,,0,5,28,30,,,ENERGY,,1250,0.8,0.1,0.4,3.5,,,,,50000,,,,,,,"SYSTEM, SHOW_IN_CODEX",,ii_special_only,Imperium,,General,,,,,,,,,,7674
+Photon Beam Cannon (Station),ii_photonbeam_station,2,,7500,1100,2300,,,0,10,30,30,0.25,,ENERGY,,1250,0.8,0.1,0.4,3.5,,,,,50000,,,,,,,SYSTEM,,ii_adamas_stuff,Imperium,,General,,,,,,,,,,7674
+Gravity Cannon,ii_gravitycannon,3,,14000,1250,1250,,,0,0,50,,,,ENERGY,,1000,0.5,0.2,,,,,,,10000,,,,,,,"SYSTEM, AUTOZOOM, STRIKE, USE_VS_FRIGATES",,ii_special_only,Imperium,,Long Range Suppression,,,,,Pushes the target away.,,,,,7675
+Armageddon Launcher,ii_armageddon,2,,4000,1750,,350,,10,0,16,20,0.2,,HIGH_EXPLOSIVE,100,,0,7.2,5,0.2,0,0,0,0,,200,300,12,75,,,"SYSTEM, SHOW_IN_CODEX, DO_NOT_AIM, CONSERVE_1",,ii_special_only,Imperium,,Suppression,Medium-Slow,Good,,,Missile type temporarily changes after using %s.,Magnum Salvo,,,,7677
+Armageddon Launcher (Station),ii_armageddon_station,2,,4000,1750,,350,,10,0,16,20,0.2,,HIGH_EXPLOSIVE,50,,0,7.2,5,0.2,0,0,0,0,,200,300,12,75,,,"SYSTEM, SHOW_IN_CODEX, DO_NOT_AIM, CONSERVE_1",,ii_special_only,Imperium,,Suppression,Medium-Slow,Good,,,Missile type temporarily changes after using %s.,Magnum Salvo,,,,7677
+Lux Carbine,ii_lux_fighter,3,,,600,,40,,1,15,,,,,HIGH_EXPLOSIVE,30,,0,1,7,0.15,0,10,1,5,,1000,,,10,,,SYSTEM,,,Imperium,,Anti Armor,,,,,,,,,,7680
+Pulsar Bomb,ii_pulsarbomb,2,,,750,,750,,100,0,,1,,,HIGH_EXPLOSIVE,0,,0,10,1,,0,0,0,0,,200,50,5,150,,,"SYSTEM, STRIKE, BOMB",,,Imperium,,Strike,Very Slow,None,,,Splits into %s energy pulses that deal %s high explosive damage.,5 | 200,,,TRUE,7681
+Photon Blaster,ii_photonblaster_left,3,,3100,700,,175,,50,15,18,,,,ENERGY,200,,0.1875,0.1875,9999,0.375,0,5,1,5,,800,,,75,,,"SYSTEM, SHOW_IN_CODEX",,ii_adamas_stuff,Imperium,,General,,,,,Can't be fired while %s is active.,Lux Finis,,,,7682
+Photon Blaster,ii_photonblaster_right,3,,3100,700,,175,,50,15,18,,,,ENERGY,200,,0,0.375,9999,0.375,0,5,1,5,,800,,,50,,,SYSTEM,,ii_adamas_stuff,Imperium,,General,,,,,Can't be fired while %s is active.,Lux Finis,,,,7683
+Lightspear,ii_lightspear,3,,11000,800,4250,,,20,0,35,1,,,ENERGY,,2200,1.8,0.3,3.2,15,,,,,6000,,,,,,,"SYSTEM, SHOW_IN_CODEX, DANGEROUS",,ii_adamas_stuff,Imperium,,Strike,,,,,Can only be fired while %s is active. Reduces speed and maneuverability but reduces incoming damage by %s while firing. Specific properties depend on the selected %s.,Lux Finis | 67% | Imperial Package,Damage is reduced if one or more of the %s is disabled. Malfunctions if %s is deactivated or if the ship phases while firing.,Photon Blasters | Lux Finis,,7684
+Lightspear (Station),ii_lightspear_station,3,,11000,800,4250,,,20,4,40,1,,,ENERGY,,1750,1.8,0.3,4.7,15,,,,,12000,,,,,,,"SYSTEM, DANGEROUS",,ii_adamas_stuff,Imperium,,Strike,,,,,Can only be fired while %s is active. Reduces speed and maneuverability but reduces incoming damage by %s while firing.,Lux Finis | 67%,Damage is reduced if one or more of the %s is disabled. Malfunctions if %s is deactivated while firing.,Photon Beam Cannons | Lux Finis,,7684
+Ballista LRM (Single),ii_ballista_f,0,,,1000,,350,,10,20,,1,0.05,,HIGH_EXPLOSIVE,0,,0,10,1,,0,0,0,0,,150,50,20,50,,,"SYSTEM, GUIDED_POOR",,,Imperium,,Anti Armor,Slow / Fast,Poor,,,"Boosts speed upon final approach to the target, but quickly fizzles if it misses.",,,,,7685
+Light Fundae Rack,ii_fundae_f,1,,,600,,40,,4,40,,4,0.2,2,HIGH_EXPLOSIVE,0,,0,2.95,2,0.05,1,1,0,0,,400,300,3,30,,,"SYSTEM, ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE",,,Imperium,,Anti Small Craft (Area),Fast,Excellent,,,"Deals up to %s additional fragmentation damage to nearby ships, fighters, and missiles upon impact.",175,,,,7660
+Arcus Autocannon (Fighter),ii_arcus_f,2,,400,700,,100,,5,30,6,,,,KINETIC,75,,0,1,1,,0,10,2,10,,1200,,,40,,,SYSTEM,,,Imperium,,Anti Shield,,,,,,,,,,7672
+Siege Mortar (Fighter),ii_siegemortar_f,2,,450,800,,150,,8,15,6,,,,HIGH_EXPLOSIVE,115,,0,1.5,1,,0,20,5,10,,500,,,10,,,SYSTEM,,,Imperium,,Anti Armor,,,,,,,,,,7673
+Fundae SRM (Onager),ii_fundae_onagersub,3,,,800,,40,,4,0,,,,,HIGH_EXPLOSIVE,0,,0,1,1,,2,2,0,0,,400,100,5,30,,,SYSTEM,,,Imperium,,,,,,,,,,,,7660
+Triplex Beam Cannon,ii_triplepbc,2,,10000,850,1500,,,0,0,36,15,0.45,3,ENERGY,,2100,0.1,0.3,0.4,0.45,,,,,50000,,,,,,,"SYSTEM, SHOW_IN_CODEX",,ii_special_only,Imperium,,General,,,,,,,,,,7674
+Triplex Beam Cannon (Station),ii_triplepbc_station,2,,10000,850,2500,,,0,0,30,,,,ENERGY,,3500,0.1,0.3,0.65,2.7,,,,,50000,,,,,,,SYSTEM,,ii_special_only,Imperium,,General,,,,,,,,,,7674
+Patella Breaker,ii_patella,2,,2800,450,,100,400,0,0,15,,,,ENERGY,150,,0,0.333333333,1,,0,15,1,3,,1000,,,,,,"SYSTEM, SHOW_IN_CODEX, FIRE_WHEN_INEFFICIENT",,ii_special_only,Imperium,,Suppression,,,,,"Hits on hull or armor arc to weapons and engines, dealing extra damage equal to the original hit. Hits on shields have a chance to generate a shield-penetrating arc based on the target's hard flux level.",,,,,7675
+Titan,ii_titan_w,4,,60000,5000,,200000,,20,0,160,1,,,HIGH_EXPLOSIVE,500,,1,50,1,,0,0,0,0,,110,0,50,5000,,,"SYSTEM, SHOW_IN_CODEX, DO_NOT_AIM, DO_NOT_CONSERVE",,ii_special_only,Imperium,,Strategic Strike,Very Slow,Very Poor,,,Reduces CR by at least %s when used. Actual properties depend on the selected %s.,30% | Imperial Package,"Can't be used more than %s, even with Expanded Missile Racks.",once,TRUE,7657
+Magna Fulmen,ii_magna_fulmen,3,,9500,1000,,1000,,150,0,35,,,,ENERGY,1150,,0.2,7.8,1,,0,0,0,0,,1500,,,250,,,"SYSTEM, SHOW_IN_CODEX, DANGEROUS",,ii_special_only,Imperium,,General,,,,,Specific properties depend on the selected %s.,Imperial Package,,,,7669
+Amentum,ii_javelin_f,2,,,1200,,1100,,50,30,,1,,,HIGH_EXPLOSIVE,0,,0,5,1,,0,0,0,,,200,300,10,475,,,"SYSTEM, GUIDED_POOR, STRIKE",,,Imperium,,Strike,Slow,Poor,,,,,,,TRUE,7658
+Custos Defender (Fighter),ii_custos_f,2,,,300,250,,,0,200,,,,,FRAGMENTATION,,100,0,0.1,,,,,,,10000,,,,,,,"SYSTEM, PD, FIRE_WHEN_INEFFICIENT",,,Imperium,,Point Defense,,,,,,,,,,7669
+Sledge Gun (Fighter),ii_sledgegun_f,2,,,1000,,65,,20,15,,,,,HIGH_EXPLOSIVE,80,,0,1,1,,0,5,1,5,,1000,,,50,,,"SYSTEM, FIRE_WHEN_INEFFICIENT",,,Imperium,,Suppression,,,,,Hits on hull or armor have a %s chance to deal %s extra high explosive damage.,50% | 30,,,,7650
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Pulsar Bomb Pulse,ii_pulsarbomb_pulse,2,,,500,,200,,40,0,,,,,HIGH_EXPLOSIVE,0,,0,10,1,,8,8,0,0,,300,,,100,,,SYSTEM,,,,,,,,,,,,,,,7689
+Ballista Stage 2,ii_ballista_stage2,0,,,1400,,225,,10,20,,,,,HIGH_EXPLOSIVE,0,,0,10,1,,0,0,0,0,,400,50,4.5,50,,,SYSTEM,,,,,,,,,,,,,,,7690
+Armageddon (Normal),ii_armageddon_normal,2,,,1750,,350,,10,0,,,,,HIGH_EXPLOSIVE,0,,0,10,1,,0,0,0,0,,200,300,13,75,,,SYSTEM,,,,,,,,,,,,,,,7677
+Armageddon (Enhanced),ii_armageddon_standard,2,,,1750,,350,,10,0,,,,,HIGH_EXPLOSIVE,0,,0,10,1,,0,0,0,0,,300,200,7.5,100,,,SYSTEM,,,,,,,,,,,,,,,7677
+Armageddon (Armor-Enhanced),ii_armageddon_armor,2,,,1750,,350,,10,0,,,,,HIGH_EXPLOSIVE,0,,0,10,1,,0,0,0,0,,175,175,10,200,,,SYSTEM,,,,,,,,,,,,,,,7677
+Armageddon (Targeting-Enhanced),ii_armageddon_targeting,2,,,1750,,350,,10,0,,,,,KINETIC,0,,0,10,1,,0,0,0,0,,600,100,5,150,,,SYSTEM,,,,,,,,,,,,,,,7677
+Armageddon (Elite-Enhanced),ii_armageddon_elite,2,,,1750,,350,700,15,0,,,,,ENERGY,0,,0,10,1,,0,0,0,0,,400,400,9,100,,,SYSTEM,,,,,,,,,,,,,,,7677
+Magna Fulmen (Standard),ii_magna_fulmen_standard,3,,,1000,,1000,,150,0,,,,,ENERGY,0,,0,10,1,,0,0,0,0,,1500,,,250,,,SYSTEM,,,,,,,,,,,,,,,7669
+Magna Fulmen (Armor-Standard),ii_magna_fulmen_standard_armor,3,,,1000,,1000,,150,0,,,,,ENERGY,0,,0,10,1,,0,0,0,0,,1500,,,250,,,SYSTEM,,,,,,,,,,,,,,,7669
+Magna Fulmen (Targeting-Standard),ii_magna_fulmen_standard_targeting,3,,,1000,,1000,,150,0,,,,,ENERGY,0,,0,10,1,,0,0,0,0,,1500,,,250,,,SYSTEM,,,,,,,,,,,,,,,7669
+Magna Fulmen (Elite-Standard),ii_magna_fulmen_standard_elite,3,,,1000,,1000,1000,150,0,,,,,ENERGY,0,,0,10,1,,0,0,0,0,,1500,,,250,,,SYSTEM,,,,,,,,,,,,,,,7669
+Magna Fulmen (Armor-Enhanced),ii_magna_fulmen_enhanced_armor,3,,,1000,,250,,50,0,,,,,ENERGY,0,,0,10,1,,0,0,0,0,,1500,,,100,,,SYSTEM,,,,,,,,,,,,,,,7669
+Magna Fulmen (Targeting-Enhanced),ii_magna_fulmen_enhanced_targeting,3,,,1000,,1500,,1000,0,,,,,ENERGY,0,,0,10,1,,0,0,0,0,,750,,,500,,,SYSTEM,,,,,,,,,,,,,,,7669
+Magna Fulmen (Elite-Enhanced x1),ii_magna_fulmen_enhanced_elite1,3,,,1000,,1500,1400,300,0,,,,,ENERGY,0,,0,10,1,,0,0,0,0,,1600,,,375,,,SYSTEM,,,,,,,,,,,,,,,7669
+Magna Fulmen (Elite-Enhanced x2),ii_magna_fulmen_enhanced_elite2,3,,,1000,,2000,2000,450,0,,,,,ENERGY,0,,0,10,1,,0,0,0,0,,1700,,,500,,,SYSTEM,,,,,,,,,,,,,,,7669
+Magna Fulmen (Elite-Enhanced x3),ii_magna_fulmen_enhanced_elite3,3,,,1000,,2500,2500,600,0,,,,,ENERGY,0,,0,10,1,,0,0,0,0,,1800,,,625,,,SYSTEM,,,,,,,,,,,,,,,7669
+Magna Fulmen (Elite-Enhanced x4),ii_magna_fulmen_enhanced_elite4,3,,,1000,,3000,3000,750,0,,,,,ENERGY,0,,0,10,1,,0,0,0,0,,1900,,,750,,,SYSTEM,,,,,,,,,,,,,,,7669
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Plasma Core,ii_photonbeam_core,,,,500,,300,,,,,,,,ENERGY,0,,0,0,1,,0,0,0,0,,50,50,5,200,,,SYSTEM,,,,,,,,,,,,,,,7692
+Titan (Armor) Door,ii_titan_armor_door,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7693
+Titan (Targeting) Door,ii_titan_targeting_door,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7693
+Titan Lights,ii_titan_lights,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7693
+Titan (Armor) Lights,ii_titan_armor_lights,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7693
+Titan (Targeting) Lights,ii_titan_targeting_lights,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7693
+Titan (Elite) Lights,ii_titan_elite_lights,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7693
+Titan (Targeting) Door Lights,ii_titan_targeting_door_lights,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7693
+Titan Deco,ii_titan_deco,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7693
+Blinker 1 (Targeting),ii_targeting_blinker1,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7693
+Blinker 2 (Targeting),ii_targeting_blinker2,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7693
+Blinker 3 (Targeting),ii_targeting_blinker3,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7693
+Blinker 4 (Targeting),ii_targeting_blinker4,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7693
+Adamas Lights (Elite),ii_elite_lights_adamas,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7693
+Ardea Lights (Elite),ii_elite_lights_ardea,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7693
+Barrus Lights (Elite),ii_elite_lights_barrus,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7693
+Basileus Lights (Elite),ii_elite_lights_basileus,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7693
+Caesar Lights (Elite),ii_elite_lights_caesar,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7693
+Carrum Lights (Elite),ii_elite_lights_carrum,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7693
+Decurion Lights (Elite),ii_elite_lights_decurion,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7693
+Dictator Lights (Elite),ii_elite_lights_dictator,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7693
+Dominus Lights (Elite),ii_elite_lights_dominus,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7693
+Interrex Lights (Elite),ii_elite_lights_interrex,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7693
+Triarius Lights (Elite),ii_elite_lights_triarius,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7693
+Ixon Lights (Elite),ii_elite_lights_ixon,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7693
+Legionary Lights (Elite),ii_elite_lights_legionary,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7693
+Libritor Lights (Elite),ii_elite_lights_libritor,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7693
+Lynx Lights (Elite),ii_elite_lights_lynx,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7693
+Matriarch Lights (Elite),ii_elite_lights_matriarch,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7693
+Maximus Lights (Elite),ii_elite_lights_maximus,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7693
+Olympus Lights (Elite),ii_elite_lights_olympus,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7693
+Praetorian Lights (Elite),ii_elite_lights_praetorian,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7693
+Princeps Lights (Elite),ii_elite_lights_princeps,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7693
+Sebastos Lights (Elite),ii_elite_lights_sebastos,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7693
+Basileus Mask Lower,ii_basilius_mask_lower,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7695
+Basileus Mask Medium,ii_basilius_mask_medium,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7696
+Basileus Mask Middle,ii_basilius_mask_middle,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7697
+Basileus Mask Upper,ii_basilius_mask_upper,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7698
+Lynx Left Prong,ii_lynx_leftprong,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7697
+Lynx Right Prong,ii_lynx_rightprong,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7698
+Magna Fulmen Progress Bar,ii_magna_fulmen_bar,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7698
+Clypeus Lights,ii_clypeus_lights,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7693
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Flare Launcher (Base),ii_flares,,,,400,,10,100,,,,,0,,ENERGY,0,0,0,0.2,6,0.2,0,0,0,0,,150,300,3,1,,,SYSTEM,,,,,,,,,,,,,,,7691
+Flare Launcher (Standard),ii_flares_standard,,,,400,,10,100,,,,,0,,ENERGY,0,0,0,0,1,,30,30,0,0,,150,300,3,1,,,SYSTEM,,,,,,,,,,,,,,,7691
+Flare Launcher (Armor),ii_flares_armor,,,,600,,10,100,,,,,0,,ENERGY,0,0,0,0,1,,10,10,0,0,,100,200,6,1,,,SYSTEM,,,,,,,,,,,,,,,7691
+Flare Launcher (Targeting),ii_flares_targeting,,,,500,,10,300,,,,,0,,ENERGY,0,0,0,0,1,,90,90,0,0,,350,200,6,1,,,SYSTEM,,,,,,,,,,,,,,,7691
+Flare Launcher (Elite),ii_flares_elite,,,,800,,200,400,,,,,0,,ENERGY,0,0,0,0,1,,90,90,0,0,,400,150,6,150,,,"SYSTEM, DO_NOT_AIM",,,,,,,,,,,,,,,7691
+Decoy Flare Launcher (Burst),ii_burst_flares,,,,200,,10,,,,,,0,,ENERGY,0,0,0,0.5,1,,5,5,0,0,,150,200,5,200,,,SYSTEM,,,,,,,,,,,,,,,7691
+Decoy Flare Launcher (Single),ii_flamen_flares,,,,200,,10,,,,,,0,,ENERGY,0,0,0,0.1,1,,30,30,0,0,,150,200,5,200,,,SYSTEM,,,,,,,,,,,,,,,7692
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Wave Motion Cannon,ii_boss_wavemotion,4,,19000,1000,2500,,,0,0,50,15,,,ENERGY,,1000,2,0.5,3,10,,,,,1200,,,,,,,"SYSTEM,STRIKE",,ii_special_only,Unique Imperium,,Strike,,,,,Deals up to %s additional high explosive damage in a large area upon impact.,1000,,,,7676
+Apocalypse-X Array,ii_boss_apocalypse,4,,44000,10000,,400,,10,0,120,144,2.4,,HIGH_EXPLOSIVE,40,,0,5.3,48,0.1,0,0,0,0,,300,600,35,100,,,"SYSTEM, DO_NOT_AIM, DO_NOT_CONSERVE",,,Unique Imperium,,Mass Suppression,,,,,,,,,,7670
+Fundae-X Array,ii_boss_fundae,4,,30000,2000,,40,,4,0,80,336,5.6,,HIGH_EXPLOSIVE,10,,0,4.45,112,0.05,6,6,0,0,,400,800,8,30,,,"SYSTEM, ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE",,,Unique Imperium,,Mass Anti Small Craft (Area),,,,,"Deals up to %s additional fragmentation damage to nearby ships, fighters, and missiles upon impact.",140,,,,7660
+Yamato Radar,ii_boss_yamato_radar,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7697
+Yamato Left Wing,ii_boss_yamato_wing_left,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7697
+Yamato Right Wing,ii_boss_yamato_wing_right,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7697
+Titan-X Glow,ii_boss_titanx_glow,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,7693

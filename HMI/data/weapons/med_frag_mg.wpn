@@ -1,0 +1,33 @@
+{
+	"id":"med_frag_mg",
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"MEDIUM",
+	"turretSprite":"graphics/weapons/hmi_andersson/andersson_turret_base00.png",
+	"hardpointSprite":"graphics/weapons/hmi_andersson/andersson_hardpoint_base00.png",
+	"numFrames":4,
+	"frameRate":12,
+	"turretOffsets":[22, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[33, 0],
+	"hardpointAngleOffsets":[0],		
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	#"interruptibleBurst":true,
+	"muzzleFlashSpec": {
+    "length": 35,
+    "particleColor": [
+		255,
+		199,
+		127,
+		255
+    ],
+    "particleCount": 12,
+    "particleDuration": 0.15,
+    "particleSizeMin": 10,
+    "particleSizeRange": 16,
+    "spread": 5
+  },
+	"projectileSpecId":"slagger_cannon_shot",  # projectile that will be fired
+	"fireSoundTwo":"thumper_fire",	
+}

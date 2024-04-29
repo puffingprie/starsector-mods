@@ -1,0 +1,13 @@
+id
+# NOTES
+# Ship IDs entered here will be allowed by the Engineering hub (Reverse Engineering ship hulls)
+# Ships that would break the game (Balance/Technical/Lore) if the player could produce them via blueprint should not be on this list.
+fidem
+fasces
+sebastian
+hermes_pather
+phaeton_lp
+venture_luddic_path
+starliner_lp
+dram_lp_ied
+le_prometheus3

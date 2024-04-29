@@ -1,0 +1,109 @@
+{
+  "hullName": "Flak Craft",
+  "hullId": "missp_flak_craft",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/patrol_craft/flak_craft.png",
+  "style": "LOW_TECH",
+  "height": 75,
+  "width": 42,
+  "center": [21, 37.5],
+  "collisionRadius": 44.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 40,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 288,
+      "angle": 0,
+      "locations": [24.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 141,
+      "angle": 180,
+      "locations": [-23.5, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-0.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-33.5, 9.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-33.5, -9.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-35.5, 6.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-35.5, -6.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-37, -0],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [2.5, 14],
+      "length": 13.394921,
+      "width": 6.877817,
+      "angle": 145,
+      "contrailSize": 6.877817,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [2.5, -14],
+      "length": 13.394921,
+      "width": 6.877817,
+      "angle": -145,
+      "contrailSize": 6.877817,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    3.5, -16,
+    36, -9.5,
+    36, 9.5,
+    3.5, 16,
+    -35, 14,
+    -35, -14
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "variantId": "uaf_sunami_prototype_privateer",
+  "hullId": "uaf_sunami_prototype",
+  "displayName": "Privateer",
+  "goalVariant": true,
+  "fluxCapacitors": 1,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "eccm",
+    "expanded_deck_crew"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_clemente_s_mrm_double",
+        "WS0002": "uaf_selemene_m_mrm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_triyia_pdx"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "uaf_cantata_cn"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "uaf_pd_reina",
+        "WS0008": "uaf_pd_reina"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "uaf_chorus_s_amm",
+        "WS0007": "uaf_chorus_s_amm"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_neoscar",
+    "uaf_wing_neoscar"
+  ]
+}

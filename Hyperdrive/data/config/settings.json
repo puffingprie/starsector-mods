@@ -1,0 +1,8 @@
+{
+	"graphics":{
+		"hyperdrive":{
+			"warp_pulse":"sun_hd/graphics/fx/warp_pulse.png",
+			"mod_icon":"sun_hd/graphics/icons/mod_icon.png",
+		}
+	}
+}

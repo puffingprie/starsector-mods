@@ -1,0 +1,44 @@
+{
+  "variantId": "sv_fuelrunner_standerd",
+  "hullId": "sv_fuelrunner",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 12,
+  "fluxVents": 12,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "advancedoptics"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavyblaster",
+        "WS0002": "heavyblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "gravitonbeam",
+        "WS0008": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sv_flyswatter",
+        "WS0004": "sv_flyswatter",
+        "WS0005": "sv_flyswatter",
+        "WS0006": "sv_flyswatter",
+        "WS0009": "gravitonbeam"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,15 @@
+{
+	"id":"expsp_beamovercharge",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	
+	"statsScript":"data.shipsystems.scripts.BeamOverchargeStats",
+	
+	"weaponGlowColor":[27,250,250,155],
+	"weaponTypes":[ENERGY],
+	
+	"useSound":"system_high_energy_focus_activate",
+	"deactivateSound":"system_high_energy_focus_deactivate",
+	"outOfUsesSound":"gun_out_of_ammo",
+	"loopSound":"system_high_energy_focus_loop",	
+}

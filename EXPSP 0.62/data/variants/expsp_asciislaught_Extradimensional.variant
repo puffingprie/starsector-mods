@@ -1,0 +1,83 @@
+{
+  "variantId": "expsp_asciislaught_Extradimensional",
+  "hullId": "expsp_asciislaught",
+  "displayName": "Extradimensional",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 46,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "riftlance",
+        "WS 004": "riftlance",
+        "WS 005": "shockrepeater",
+        "WS 006": "shockrepeater",
+        "WS 014": "disintegrator",
+        "WS 015": "disintegrator",
+        "WS 019": "vpdriver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 018": "riftcascade",
+        "WS 020": "riftcascade"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 016": "expsp_asciitpc",
+        "WS 017": "expsp_asciitpc"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 007": "riftbeam",
+        "WS 010": "riftbeam",
+        "WS 011": "riftbeam",
+        "WS 012": "riftbeam",
+        "WS 013": "riftbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 021": "expsp_blam",
+        "WS 022": "expsp_blam",
+        "WS 023": "expsp_blam",
+        "WS 024": "expsp_blam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 008": "shockrepeater",
+        "WS 009": "shockrepeater"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "cryoflux",
+        "WS 003": "cryoflux"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,46 @@
+{
+  "variantId": "hmi_spookyboi_phase4_std",
+  "hullId": "hmi_spookyboi_phase4",
+  "displayName": "ERRORERROERRORERROR",
+  "goalVariant": true,
+  "fluxCapacitors": 50,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "hmi_spooky_p4_plasma"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "cyclone",
+        "WS0008": "cyclone"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "tachyonlance_spookp4_tach_left",
+        "WS0004": "tachyonlance_spookp4_tach_right"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "hmi_spookyboi_squall",
+        "WS0006": "hmi_spookyboi_squall"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

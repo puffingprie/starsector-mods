@@ -1,0 +1,96 @@
+{
+  "hullName": "Stern-Starboard Rampant Growth",
+  "hullId": "derelict_ramp_mothership_pod_m_right",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/derelicts/derelict_ramp_mothership_pod_m_right.png",
+  "style": "LOW_TECH",
+  "height": 190,
+  "width": 168,
+  "center": [84, 95],
+  "collisionRadius": 102,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 95.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "never_detaches",
+    "reduced_explosion",
+    "supercomputer",
+    "hmi_miningHSA"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 62,
+      "angle": -43,
+      "locations": [5, -16.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 99,
+      "angle": -24.5,
+      "locations": [32, -9]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 67,
+      "angle": 45,
+      "locations": [22, 12.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 110,
+      "angle": -55,
+      "locations": [-40, -12]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 103,
+      "angle": -119,
+      "locations": [-11, -31]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 23,
+      "angle": -54,
+      "locations": [0.5, 18]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 58,
+      "angle": -25.5,
+      "locations": [44.5, 11]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    78.5, 12,
+    47, 46,
+    5.5, 57,
+    -31, 40,
+    -75.5, -2.5,
+    -42.5, -30,
+    -1, -44.5,
+    36, -24.5
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "variantId": "brawler_hmimerc",
+  "hullId": "brawler",
+  "displayName": "Close Support",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "hveldriver",
+        "WS 002": "hveldriver"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "gorgon",
+        "WS 004": "gorgon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

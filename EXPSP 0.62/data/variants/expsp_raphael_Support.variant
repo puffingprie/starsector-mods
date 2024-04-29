@@ -1,0 +1,67 @@
+{
+  "variantId": "expsp_raphael_Support",
+  "hullId": "expsp_raphael",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 1,
+  "fluxVents": 13,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_type56",
+        "WS0002": "expsp_type56"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "expsp_lrm_med",
+        "WS0008": "expsp_lrm_med"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "expsp_coilciws",
+        "WS0004": "expsp_coilciws",
+        "WS0005": "expsp_coilciws",
+        "WS0006": "expsp_coilciws"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "expsp_blind_wing",
+    "expsp_blind_wing",
+    "expsp_raze_wing"
+  ]
+}

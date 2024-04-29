@@ -1,0 +1,177 @@
+{
+  "hullName": "Wayfarer",
+  "hullId": "mess_wayfarer",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/mess/wayfarer_mess.png",
+  "style": "LOW_TECH",
+  "height": 108,
+  "width": 86,
+  "center": [43, 54],
+  "collisionRadius": 72,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 68,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+	"hmi_mess_visuals",
+    "hmi_mess_spawn"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 174,
+      "angle": 41,
+      "locations": [33.5, 13]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 51,
+      "angle": 0,
+      "locations": [33.5, -13]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 57,
+      "angle": 160,
+      "locations": [-36.5, 27.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -98,
+      "locations": [-36.5, -27.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 59,
+      "angle": 90,
+      "locations": [4, 30]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 165,
+      "angle": -90,
+      "locations": [-2, -30]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 11,
+      "angle": -2.5,
+      "locations": [44, 27]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 11,
+      "angle": -47.5,
+      "locations": [37.5, -35]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 11,
+      "angle": -13,
+      "locations": [43, -30.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 11,
+      "angle": 116.5,
+      "locations": [-7.5, 30]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-50, 28.5],
+      "length": 8,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-50, -28.5],
+      "length": 8,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-50.5, 24.5],
+      "length": 8,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-50.5, -24.5],
+      "length": 8,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-52, 12],
+      "length": 14.5,
+      "width": 5,
+      "angle": -166,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-52, -11.5],
+      "length": 16,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -53, -24,
+    -45, -38,
+    -21.5, -39,
+    -14, -28.5,
+    -11.5, -37.5,
+    39.5, -36,
+    53, -19.5,
+    53, 19.5,
+    33, 37.5,
+    -6, 37,
+    -9, 28,
+    -21.5, 39,
+    -45, 38,
+    -53, 24
+  ]
+}

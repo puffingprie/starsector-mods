@@ -1,0 +1,53 @@
+{
+  "variantId": "outworks_missile",
+  "hullId": "outworks",
+  "displayName": "Close Support",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "hammerrack"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "annihilator_fighter",
+        "WS0002": "annihilator_fighter",
+        "WS0003": "annihilator_fighter",
+        "WS0004": "annihilator_fighter",
+        "WS0005": "annihilator_fighter",
+        "WS0006": "annihilator_fighter"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "heavyac",
+        "WS0008": "heavyac",
+        "WS0009": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0010": "dualflak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

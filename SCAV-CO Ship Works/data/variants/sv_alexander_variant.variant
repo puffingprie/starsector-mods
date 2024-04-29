@@ -1,0 +1,46 @@
+{
+  "variantId": "sv_alexander_variant",
+  "hullId": "sv_alexander",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 13,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "advancedoptics",
+    "efficiency_overhaul",
+    "hardenedshieldemitter",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hil",
+        "WS0002": "hil",
+        "WS0003": "guardian",
+        "WS0004": "hil",
+        "WS0005": "hil",
+        "WS0006": "guardian",
+        "WS0007": "salamanderpod",
+        "WS0008": "salamanderpod",
+        "WS0009": "dualflak",
+        "WS0010": "dualflak",
+        "WS0011": "taclaser",
+        "WS0012": "taclaser",
+        "WS0013": "taclaser",
+        "WS0014": "taclaser",
+        "WS0015": "lrpdlaser",
+        "WS0016": "lrpdlaser",
+        "WS0017": "taclaser",
+        "WS0018": "gravitonbeam",
+        "WS0019": "gravitonbeam",
+        "WS0020": "gravitonbeam"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

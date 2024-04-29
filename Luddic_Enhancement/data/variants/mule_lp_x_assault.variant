@@ -1,0 +1,51 @@
+{
+  "variantId": "mule_lp_x_assault",
+  "hullId": "mule_lp_x",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 19,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "unstable_injector"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "heavyac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "hammer",
+        "WS0008": "hammer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "lightmortar",
+        "WS0004": "lightmortar",
+        "WS0005": "lightmortar",
+        "WS0006": "lightmortar",
+        "WS0009": "lightmortar",
+        "WS0010": "lightmortar"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

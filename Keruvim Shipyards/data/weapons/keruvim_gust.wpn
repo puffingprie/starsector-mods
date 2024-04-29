@@ -1,0 +1,52 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 450,
+  "fireSoundTwo": "chaingun_fire",
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGunSprite": "graphics/weapons/gust/keruvim_gust_hardpoint_recoil.png",
+  "hardpointOffsets": [
+    12,
+    -0
+  ],
+  "hardpointSprite": "graphics/weapons/gust/keruvim_gust_hardpoint_base.png",
+  "id": "keruvim_gust",
+  "muzzleFlashSpec": {
+    "length": 54,
+    "particleColor": [
+      255,
+      185,
+      115,
+      215
+    ],
+    "particleCount": 32,
+    "particleDuration": 0.12,
+    "particleSizeMin": 18,
+    "particleSizeRange": 24,
+    "spread": 20
+  },
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "projectileSpecId": "hephag_shot",
+  "renderAboveAllWeapons": 0,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "size": "SMALL",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGunSprite": "graphics/weapons/gust/keruvim_gust_turret_recoil.png",
+  "turretOffsets": [
+    6,
+    0
+  ],
+  "turretSprite": "graphics/weapons/gust/keruvim_gust_turret_base.png",
+  "type": "BALLISTIC",
+  "visualRecoil": 10
+}

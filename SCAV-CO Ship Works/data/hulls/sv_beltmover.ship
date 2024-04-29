@@ -1,0 +1,169 @@
+{
+  "hullName": "SCAV_CO Belt Mover",
+  "hullId": "sv_beltmover",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/sv_beltmover.png",
+  "style": "SCAVCO",
+  "height": 354,
+  "width": 114,
+  "center": [57, 177],
+  "collisionRadius": 237,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 226,
+  "viewOffset": 0,
+  "builtInMods": [
+    "repair_gantry",
+    "advancedcore",
+    "sv_scavcoConstruction",
+    "sv_scavcosubsytems"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 256,
+      "angle": 0,
+      "locations": [161, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 171,
+      "angle": -104,
+      "locations": [-117, -27]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 171,
+      "angle": 104,
+      "locations": [-117, 27]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 90,
+      "locations": [-63, 27]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -90,
+      "locations": [-63, -27]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 90,
+      "locations": [26, 27]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -90,
+      "locations": [26, -27]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 90,
+      "locations": [115, 27]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -90,
+      "locations": [115, -27]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-174, 27.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "SCAV-CO ENGINE"
+    },
+    {
+      "location": [-174, -27.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "SCAV-CO ENGINE"
+    },
+    {
+      "location": [-174, -18.5],
+      "length": 49,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "CUSTOM",
+      "styleId": "SCAV-CO ENGINE"
+    },
+    {
+      "location": [-174, 18.5],
+      "length": 49,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "CUSTOM",
+      "styleId": "SCAV-CO ENGINE"
+    },
+    {
+      "location": [-177, -5.5],
+      "length": 64.5,
+      "width": 17,
+      "angle": -180,
+      "contrailSize": 17,
+      "style": "CUSTOM",
+      "styleId": "SCAV-CO ENGINE"
+    },
+    {
+      "location": [-177, 5.5],
+      "length": 64.5,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "CUSTOM",
+      "styleId": "SCAV-CO ENGINE"
+    }
+  ],
+  "bounds": [
+    -172, 33.5,
+    -144, 50,
+    162, 50,
+    175, 13.5,
+    175, -13.5,
+    162, -50,
+    -144, -50,
+    -172, -33.5
+  ]
+}

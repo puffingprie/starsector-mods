@@ -1,0 +1,49 @@
+{
+  "variantId": "uaf_nakiha_assault",
+  "hullId": "uaf_nakiha",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 3,
+  "fluxVents": 6,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "heavyarmor",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "uaf_ivory"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "uaf_vocal_s_srm",
+        "WS0006": "uaf_vocal_s_srm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_claris_cn",
+        "WS0002": "uaf_claris_cn"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_pd_reina"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,59 @@
+{
+  "hullName": "Scutum",
+  "hullId": "ii_scutum",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/imperium/ships/fighter/ii_scutum.png",
+  "style": "IMPERIUM",
+  "height": 53,
+  "width": 61,
+  "center": [31, 34],
+  "collisionRadius": 52.5,
+  "shieldCenter": [-2, 0.5],
+  "shieldRadius": 50,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux",
+    "ii_attraction_matrix"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [0.5, 0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-12.5, 13],
+      "length": 36,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "IMPERIUM"
+    },
+    {
+      "location": [-12.5, -12],
+      "length": 36,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "IMPERIUM"
+    }
+  ],
+  "bounds": [
+    17, -6.5,
+    8, -24.5,
+    -12, -13,
+    -11, -5,
+    -33.5, 0.5,
+    -11, 6,
+    -12, 14,
+    8, 25.5,
+    17, 7.5,
+    13.5, 0.5
+  ]
+}

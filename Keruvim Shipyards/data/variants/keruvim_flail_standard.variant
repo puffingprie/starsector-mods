@@ -1,0 +1,40 @@
+{
+  "variantId": "keruvim_flail_standard",
+  "hullId": "keruvim_flail",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "keruvim_star",
+        "WS0006": "keruvim_star"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "keruvim_blast_gun",
+        "WS0008": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "keruvim_needle"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

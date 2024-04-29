@@ -1,0 +1,35 @@
+{
+  "hullName": "Ultima Super Heavy Drone",
+  "hullId": "sv_ultimasuperdrone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sv_ultimacarnage.png",
+  "style": "ULTIMA",
+  "height": 30,
+  "width": 30,
+  "center": [15, 15],
+  "collisionRadius": 20,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 19,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0001": "heavyblaster"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 24,
+      "angle": 0,
+      "locations": [0, -0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    0, 13.5,
+    13.5, -0,
+    0, -13.5,
+    -13.5, -0.5
+  ]
+}

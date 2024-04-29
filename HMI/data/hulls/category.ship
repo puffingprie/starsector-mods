@@ -1,0 +1,205 @@
+{
+  "hullName": "Catagory",
+  "hullId": "category",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/category.png",
+  "style": "MIDLINE",
+  "height": 146,
+  "width": 104,
+  "center": [52, 74],
+  "collisionRadius": 83,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 82,
+  "viewOffset": 0,
+  "builtInMods": [
+    "HMI_techminedhull",
+    "hmi_category_range",
+    "armoredweapons"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 99,
+      "angle": 90,
+      "locations": [-8, 17]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 99,
+      "angle": -90,
+      "locations": [-8, -17]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [25, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [5, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 114,
+      "angle": 153.5,
+      "locations": [-40, 32]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 114,
+      "angle": -153.5,
+      "locations": [-40, -32]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [9, 33]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [9, -33]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [-5, -33]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [-5, 33]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-57.5, 27],
+      "length": 9,
+      "width": 6,
+      "angle": 156.5,
+      "contrailSize": 6,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-57.5, -27],
+      "length": 9,
+      "width": 6,
+      "angle": -156.5,
+      "contrailSize": 6,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-65, 15],
+      "length": 11.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-65, -15],
+      "length": 11.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-67.5, 4.5],
+      "length": 28.5,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-67.5, -4.5],
+      "length": 28.5,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-64, 20],
+      "length": 9,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-64, -20],
+      "length": 9,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -68, -8,
+    -54, -10.5,
+    -65.5, -13,
+    -65.5, -20.5,
+    -50.5, -29,
+    -43.5, -47,
+    -29.5, -47,
+    -22, -52,
+    11.5, -47.5,
+    14.5, -30.5,
+    74.5, -18,
+    71, -10,
+    45, -6,
+    45, 6,
+    71, 10,
+    74.5, 18,
+    14.5, 30.5,
+    11.5, 47.5,
+    -22, 52,
+    -29.5, 47,
+    -43.5, 47,
+    -50.5, 29,
+    -65.5, 20.5,
+    -65.5, 13,
+    -54, 10.5,
+    -68, 8
+  ]
+}

@@ -1,0 +1,55 @@
+{
+	"starSystem":"skarseld",
+	"markets":[
+		{
+			"entities":["anvil_jord"],
+			"faction":"keruvim",
+			"size":4,
+			"startingConditions":[
+				"habitable",
+				"population_4",
+				"farmland_rich",
+				"ore_sparse",
+				"rare_ore_sparse",
+				"organics_common",
+				"hot",
+			],
+			"industries":[
+				"population",
+				"spaceport",
+				"grounddefenses",
+				"battlestation_mid",
+				"farming",
+				"patrolhq",
+				"mining",
+			],
+		},
+		{
+			"entities":["anvil_pengar"],
+			"faction":"keruvim",
+			"size":5,
+			"freePort":true,
+			"startingConditions":[
+				"population_5",
+				"organics_common",
+				"volatiles_plentiful",
+				"water_surface",
+				"habitable",
+				"cold",
+			],
+			"industries":[
+				"population",
+				"spaceport",
+			        "aquaculture",
+				"mining",
+				"fuelprod",
+				"grounddefenses",
+				"patrolhq",
+				"orbitalstation_mid",
+			],
+		},	
+	],
+}
+
+
+

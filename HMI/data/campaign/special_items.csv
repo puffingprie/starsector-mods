@@ -1,0 +1,14 @@
+name,id,tags,rarity,base price,stack size,cargo space,icon,sound id,sound id drop,plugin,plugin params,desc,order
+HMI Junkship Package,hmi_junk_package,package_bp,0.5,10000,1000,1,graphics/icons/cargo/blueprint_lowtech.png,ui_chip_pickup,ui_bp_package_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,hmi_junk_bp,Enables heavy industry to construct literal trash that could be misconstrued as space ships often found in Hazard Mining Incorporated and Scavenger fleets.,200
+HMI Techmined Package,hmi_tech_package,package_bp,0.1,90000,1000,1,graphics/icons/cargo/blueprint_lowtech.png,ui_chip_pickup,ui_bp_package_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,hmi_techmine_bp,Enables heavy industry to construct the more advanced vessels often seen in the employ of Hazard Mining Incorporated.,200
+HMI Modification Package,hmi_package,package_bp,0.5,30000,1000,1,graphics/icons/cargo/blueprint_lowtech.png,ui_chip_pickup,ui_bp_package_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,hmi_bp,"Enables heavy industry to construct hulls, weapons, and fighter LPCs used by the Hazard Mining Incorporated, with a focus on mining operations.",200
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,, ,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,, ,,,,,,,,

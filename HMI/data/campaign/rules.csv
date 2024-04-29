@@ -1,0 +1,392 @@
+id,trigger,conditions,script,text,options,notes,,,,,,
+,,,,,,,,,,,,
+flavorTextMarketHMISamiel,TradePanelFlavorText,"$market.id == hmi_samiel score:1000
+$id == hmi_samiel","AddText""As you step off your ship, you are greeted by an unnervingly chipper port attendant, who hands you a data slate of the current inventory, before politely reminding you to wear a rebreather at all times. Befuddled by the fact they are not wearing one, and that she regularly turns to speak to people who are not there, you continue into the concourse. The area is full of drab run down stalls run by apathetic, empty eyed peddlers selling vials of the hallucinogenic Red Water. The sound of rhythmic pounding of pumping machines rumble from deep within the walls is covered by the cries of crew desperately bargaining with incoming captains to escape from this place, the muttered rumbling of those talking to themselves, or the hiss and click of rebreathers. Even through your own rebreather you can smell salt, produced from the refining of Red Water - clearly your rebreather is not up to snuff. The floor is covered in a thin layer of rubbish and red-brown stains, bathed in flickering fluorescent lighting. Continuing further into the concourse towards the administration area you enter a red-tinged atrium, a glass wall overlooking the ocean of crimson below. The sight is deeply unnerving, although you cannot explain why - until it occurs to you that you espy the regular motion of waves on the ocean, despite there being no atmosphere. The data slate blames the effect on the surface tension being held together by the organic mass within the ocean, which only puts you mildly at ease. Amongst the background noise of the pumping machines you swear you hear the sound of breaking waves, washing on a dead grey beach, and maybe...just maybe...the voice of a Mother you never met. You quickly resolve to get your business done as quickly as possible, before you get too addled by the fumes of the Red Water.""",,,,,,,,,
+hmi_mercy_stationOpenDialog,OpenInteractionDialog,$tag:hmi_mercy_stationtag,"AddText""Entering the station, you discover that despite the outside appearing intact, if pitted by space debris, the inside has been completely stripped out. All that is left is a labyrinth of the geometric shapes of structural supports holding up the exterior structure. Deeper exploration of the hulk reveals a circular core made of some thick, white, impenetrable material. Several hatches and entrances into the core are sealed shut, and all the access panels, if remaining, are completely fried. The only clue to the origin of the station lies on the reverse side of a metal panel covering a fried access station, spared whatever force stripped out this place. There, stamped in light blue is the Tri-Tachyon triangle, along with the words:""
+
+AddText ""\""Psi Division Mercy - PROJECT SEELE\"""" textNeutralColor",,,,,,,,,
+flavorTextMarketHMISoul,TradePanelFlavorText,"$market.id == path_soul score:1000
+
+$id == path_soul","AddText""Passing out of the bare bones spaceport (amusingly named 'The Ladder of Jacob'), you emerge onto the clean, almost sterile streets of The Capitol. Here and there green robed monks stroll in silent prayer around the slow and gentle activity of the public. Glass-fronted convenience stores hide behind primitive automobiles, all under a network of cables criss-crossing over the streets between the short apartment blocks. You feel like you're in an archaeolog of primitive Earth. At nearly every street corner and every entrance is a statue of Saint Eva the Exultant. The general public appear to be afflicted with some sort of strange albinism that turns their hair blue or white, eyes a dull red, and skin an alabaster. They look at you and your crew in distaste over your more flashier techno-augments and less than decent futuristic fashion.""",,,,,,,,,
+flavorTextMarketHMINuriel,TradePanelFlavorText,"$market.id == hmi_nuriel score:1000
+
+$id == hmi_nuriel","AddText""The spaceport of Nuriel is a strange thing, constructed of brutalist geometric designs with an ominously glow peeking through cracks in the structure. The entire thing feels like a monolithic tomb of some ancient deity rather than a spaceport, swept in clouds of hazardous chlorine and sulfuric dust. Once your shuttle is safely inside and properly decontaminated, however, you find the place is a hive of life as the local population dutifully work the 'divine machinery' to extract the deposits below for their sacred mission. Outsiders mill about the concourse making deals, eyeing the too-well constructed walls with uncertainty and the albino population with disdain.""",,,,,,,,,
+flavorTextMarketHMICorpse,TradePanelFlavorText,"$market.id == mercy_corpse score:1000
+
+$id == mercy_corpse","AddText""Corpse Station is rather consistent with the other strangely high-tech structures in the system, being of relatively old make but still reminiscent of the Expansion Epoch design. The smooth curves of the station however are ruined by newer, cruder  modular hab blocks and extensive bays to facilitate the transfer of volatile material from Metatron below. The concourse is comparatively bare, however - most deals occur elsewhere, and here the transport of materials is already established in one of the many other hangars. A chipper, purple-haired and red-eyed albino in a conservative green dress greets you as you disembark, and hands you a clipboard with all the standing contacts on station. The list is printed on sheets paper of all things - a novelty to be sure, but a pain in the neck to transcribe onto your data pad.""",,,,,,,,,
+flavorTextMarketHMI,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == HMI","AddText ""The spacedock is crowded with speculators and traders eager to meet with you and your crew. Here and there are signs and advertisement holos of a wide variety of quality and in many different languages, selling everything and anything - including several goods you're pretty sure are illegal. Several bored looking security thugs in the HMI black and red watch the controlled chaos, but immediate snap to attention as their Officer walks by."" textGrayColor",,,,,,,,,
+flavorTextMarketHMIHazard,TradePanelFlavorText,$id == fuyutsuki score:1001,"AddText ""Passing out of the main dock you enter into a promenade that overlooks the rugged, picturesque mountains, a carpet of green and peaks of white under a cold, blue sky. Below you is the main hustle and bustle of Fuyutsuki, loaded with admin blocks and apartment habs. Along the promenade are recruitment stations, duty-free shops and cafes, all seeing steady trade from both off-loading and departing crew. You watch as someone wearing the latest Tri Tachyon Fitness techmods jogs by, and an old scarred bastard with a Hegemony officer's cap argues with a security manager on break over the state of the Persean League. You take a moment to take in the view, before you return back to the business at hand and locate a public dataslate for all the current prices.""",,,,,,,,,
+flavorTextMarketHMIGemima,TradePanelFlavorText,"$tag:hmi_fuyutsuki_station
+$faction.id == HMI","AddText ""On entering the main concourse you discover that Gemima is more peaceful and contemplative than the hustle and bustle of Fuyutsuki. This station has been largely co-opted by the Company's bureaucracy, with an entire ring just put aside for offices. Another ring, restricted from the public, houses the higher up executives and what is rumoured to be one of the best, most pristine gardens in the Sector, arguably competing with the estates of Sphinx for rare and beautiful plants. For the common spacefarer, however, there is not much to do here - all business is usually conducted on planet, but one or two communication vendors are on hand and willing to put you into contact with someone planetside - for a commission of course.""",,,,,,,,,
+flavorTextMarketHMITimms,TradePanelFlavorText,"$market.id == timms score:1001
+$id == timms","AddText ""After landing in the docking bay, you pass through at least four security stations, all manned by weary and worn out guards. Passing the last station, you enter into a wide hall manned by security and some rather dirty runners and merchants. Outside the barred and scratched plasteel windows is a sprawling mass of shanty town, full of the desperate and the hungry. You see many empty eyed scum look at you desperately through the window, holding up hand-written signs in every language known to man, offering up everything and anything to escape. They duck away when one of the security officers moves towards the window, but pop right back as they pass.""",,,,,,,,,
+mess_stationOpenDialog,OpenInteractionDialog,$tag:hmi_messstationtag,"AddText ""On approach, you begin to hear the sound of alarms and alert klaxons indicating hazardous space ahead. The empty void seems to swirl like a heat haze around the orbital station, smothered in the grey bulbs of the rampant Mess nanite colony, as scrap is ejected and swarms of nanite ships toil away at their pointless work. To approach any nearer would be suicide. You stay a moment, watching in wonder at the aimless machine, and try not to think if there were any people aboard before it was overrun by the grey goo, before departing hastily - lingering too long here could attract the attention of one of the larger swarms.""",,,,,,,,,
+flavorTextMarketHMIGalena,TradePanelFlavorText,$id == galena score:1000,"AddText ""The distant ground below glows and sparkles in neon, as dazzling blue, magical purple, effervescent green and sickly yellow paint the otherwise rugged mountains. Rivers of oily hydrocarbons rumbles across the landscape between towering spires of throbbing, bleeding crystal. As you near the spaceport the landscape gradually gives way to dead, harvested land, the ground black and scarred with strip mining. Here and there stubborn crystal outgrowths attempt to reclaim the land between resident habs and warehouses. At the centre lies a large collection of concrete and metal, one of which your ship enters. During the lengthy decontamination sequence, you regard the ad holos and contacts rapidly uploaded from the local network, before you enter the spaceport proper.""",,,,,,,,,
+flavorTextMarketHMIFolly,TradePanelFlavorText,$id == hurricane_station score:1000,"AddText ""Even despite the fact that Fuyutsuki's Folly is firmly in the shadow of Hurricane, the residual radiation and magnetic fields makes entering the station incredibly bumpy, jarring, and otherwise a pain in the neck. Luckily, once your ship enters the dock, the ship rapidly settles. As you enter the largely deserted main hub of the barebones station, feeling the firm and stable footing beneath your feet, you spare a thought for the poor bastards still in orbit, withstanding the janky turbulence. Quickly however you encounter representatives from the separate distribution divisions of Fuyutsuki's Folly, and turn your mind to business.""",,,,,,,,,
+flavorTextMarketHMIShadedCove,TradePanelFlavorText,$id == typhoon_station score:1000,"AddText ""After a rather gruelling trip, you quickly discover that Shaded Cove is just as inhospitable as the local environment. It takes an inordinate amount of time to contact the space port officials, it takes an eternity to land at the designated place, and then you have to quickly move as apparently you've been sent to the wrong landing pad. With increasing frustration you eventually disembark on a random pad with several armed members of your crew. Ignoring repeated whining from port officials you enter into the main hab area. Despite the glares from agitated passerbys, you eventually manage to corner a merchant and gain access to the local market net, your crew looking on in displeasure.""",,,,,,,,,
+flavorTextMarketHMIRascal,TradePanelFlavorText,$id == tornado_station score:1000,"AddText ""The station is surprisingly upbeat as pirate crews and locals brawl openly in the streets. Here and there is the crack of a lasgun or primitive pistol that still uses ancient accelerants. Ladies and lads of the night sensuously dance amongst the rowdy crowd, teasing and offering, while captains and merchants watch from less bawdy restaurants, laughing at the ruckus as they shadily plot. Forging your way through, you escape from the current riot and enter the slightly less intense Merchant's Quarter, filled with yelling voices so loud they deafen, signs so garish they burn the eyes, and ad-holos that are so infectious even a military grade system would be popping up advertisements for dominatrix services if even slightly touched by this place. Taking in the chaos, you leap into the noise, searching for a deal.""",,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+greetingHMIFriendly,OpenCommLink,"$faction.id == HMI
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Hey,"" waves the $personRank lazily, ""How goes?""
+OR
+""This is probably a bad time,"" grimaces $personName, as what looks like steam and sparks erupt from a nearby console, ""Can you call back later?""
+OR
+The serious visage of $personName stares at you from the screen, cloaked in darkness aside from the glinting of orange glasses from the darkness, ""You are about to make some powerful enemies, Rimmer.""
+
+$personName suddenly smiles.
+
+""How's that? Super spooky, eh? Reckon I could be a Director with a glare like that? Or do you reckon I need the gloves and orange glasses combined with mood lighting. Was the mood lighting alright?""",,,,,,,,
+greetingHMIHostileWeaker,OpenCommLink,"$faction.id == HMI
+$faction.hostileToPlayer
+$relativeStrength < 0",$ignorePlayerCommRequests = true 1,"The HMI $personRank  looks at you worriedly. ""Yeah...this is happening, isn't it?""
+OR
+""Hey…um…how much could I pay you to NOT do what I think you're about to do?"" pleads the HMI $personRank, ""I mean, I don't have a whole lot of credits on me right now, but, I could float you an IOU!""
+OR
+The HMI $personRank is glaring from the darkness, orange glasses glinting, ""The Company will know what you did, you, you, YOU CAN'T DO THIS TO ME!"" $heorShe suddenly wails, before the comms line goes dead.
+OR
+""No amount of credits is worth this!""",cutCommLink:Cut the comm link,,,,,,,
+greetingHMIHostileWeakerDefiant,OpenCommLink,"$faction.id == HMI
+$faction.hostileToPlayer
+$relativeStrength < 0
+$weakerThanPlayerButHolding",$ignorePlayerCommRequests = true 1,"""Go. Screw Yerself.""
+OR
+The serious visage of $personName stares at you from the screen, cloaked in darkness aside from the glinting of orange glasses from the darkness, ""You are about to make some powerful enemies, Rimmer.""
+OR
+The repeated comm requests are denied, and no connection is made.",cutCommLink:Cut the comm link,,,,,,,
+greetingHMIHostileStronger,OpenCommLink,"$faction.id == HMI
+$faction.hostileToPlayer
+$relativeStrength >= 0",$ignorePlayerCommRequests = true 1,"""I have the legal right to kill you, take your cargo and your ships. Legal. LEGAL. By Ludd, this privateer stuff is AMAZING!""
+OR
+""You will be removed from the premises.""
+OR
+The HMI $personRank laughs uproariously, ""No time for talk, you're about to get murdered!""
+OR
+$personName looks at you for a moment, as if about to say something, and then cuts the comm link.",cutCommLink:Cut the comm link,,,,,,,
+greetingHMIkNeutral,OpenCommLink,"$faction.id == HMI
+$faction.neutralToPlayer",,"The HMI $personRank looks at you, mildly confused, ""Did you want something?""
+OR
+$personName regards you seriously, ""What do you want?"" they ask, suspiciously.
+OR
+""Hey,"" greets $personName, ""Hear about any good bounties in the area?""
+OR
+""Hey,"" greets a nervous $personName, ""Hear about any hidden caches in the area?""",cutCommLink:Cut the comm link,,,,,,,
+aiCores_turnInResponseHMI,AICoresTurnedIn,$faction.id == HMI,FireAll PopulateOptions,"$personName thanks you for your contribution to Hazard Mining Incorporated, completely baffled, before the conversation turns to more weighty matters.",,,,,,,,
+aiCores_turnInOptionSellHMI,DialogOptionSelected,"$option == aiCores_startTurnIn
+$faction.id == HMI",FireAll PopulateCoresTurnInOptions,"""I could take some AI cores off you, but we're kind of swamped with that tech out here. I can take some of the cores off you if you want, but I won't pay that much for 'em.""",,,,,,,,
+,,,,,,,,,,,,
+greetingMessHostile,OpenCommLink,"$faction.id == mess score:1000
+$entity.isHostile",$ignorePlayerCommRequests = true 1,"There is no response, merely the crackle and snap and clicks of unknown high frequency communications of the swarm amongst the increasing hiss of interference and static.",cutCommLink:Cut the comm link,,,,,,,
+greetingMessFriendly,OpenCommLink,"$faction.id == mess score:1000
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","There is a buzz over the intercom, which then vibrates all along the ship. The crew look about in mild fear and discomfort, but you do not. Your have received your orders from the Whole. Continue as planned.",,,,,,,,
+greetingMesstNeutral,OpenCommLink,"$faction.id == mess score:1000
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","There is no response, merely the crackle and snap and clicks of unknown high frequency communications of the swarm amongst the increasing hiss of interference and static.",,,,,,,,
+greetingRemMessHostile,OpenCommLink,"$faction.id == mess_remnant score:1000
+$entity.isHostile",$ignorePlayerCommRequests = true 1,"There is no response, merely the crackle and snap and clicks of unknown high frequency communications of the swarm amongst the increasing hiss of interference and static.",cutCommLink:Cut the comm link,,,,,,,
+greetingRemMessFriendly,OpenCommLink,"$faction.id == mess_remnant score:1000
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","There is a buzz over the intercom, which then vibrates all along the ship. The crew look about in mild fear and discomfort, but you do not. Your have received your orders from the Whole. Continue as planned.",,,,,,,,
+greetingRemMesstNeutral,OpenCommLink,"$faction.id == mess_remnant score:1000
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","There is no response, merely the crackle and snap and clicks of unknown high frequency communications of the swarm amongst the increasing hiss of interference and static.",,,,,,,,
+,,,,,,,,,,,,
+# Knights of Eva fleet greeting lines,,,,,,,,,,,,
+greetingHMIKoEFriendly,OpenCommLink,"$faction.id == knights_of_eva
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Greetings fellow walker. Blessings of Eva be upon you.""",,,,,,,,
+greetingHMIKoEHostileWeaker,OpenCommLink,"$faction.id == knights_of_eva
+$entity.isHostile
+$entity.relativeStrength < 0",$entity.ignorePlayerCommRequests = true 1,"""We follow the way of Eva amidst persecution. Yea, the righteous will suffer the lash and our reward will be everlasting grace.""",cutCommLink:Cut the comm link,,,,,,,
+greetingHMIKoEHostileWeakerDefiant,OpenCommLink,"$faction.id == knights_of_eva
+$entity.isHostile
+$entity.relativeStrength < 0
+$entity.weakerThanPlayerButHolding",$entity.ignorePlayerCommRequests = true 1,"""We follow the Will of Eva amidst persecution. Yea, the righteous will suffer the lash and our reward will be everlasting grace.""
+OR
+""Slave of Tabris! You cannot stand in the Path of Eva; we follow unwavering toward redemption in fated death.""",cutCommLink:Cut the comm link,,,,,,,
+greetingHMIKoEHostileStronger,OpenCommLink,"$faction.id == knights_of_eva
+$entity.isHostile
+$entity.relativeStrength >= 0",$entity.ignorePlayerCommRequests = true 1,"""Submit, repent, and your sinful technologies will be smashed; Resist, and only God's holy vacuum will show you mercy.""",cutCommLink:Cut the comm link,,,,,,,
+greetingHMIKoENeutral,OpenCommLink,$faction.id == knights_of_eva,"$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Do not interfere in our righteous mission, for we follow the Will of Eva.""",,,,,,,,
+,,,,,,,,,,,,
+flavorTextMarketHMIKoE,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == knights_of_eva","AddText ""Shabby trader starcraft huddle along the port concourse alongside scarred knightly ships, dominating in bright livery. Luddic merchants await meetings with offloading ship captains. Peddlers offer street food and handcrafts to spacer crew while monks pray quietly over begging-bowls. A handful of ranters harangue outsiders under the assured gaze of stern and thickly armour Security."" marketFlavorTextColor
+AddText ""Open display of technological vice not strictly necessary for duty and survival is not tolerated here. As such, one quickly learns not to display cybernetic mods and flashy gadgets. The lack of holoprojectors gives the feeling of an ancient history edutainment sim."" marketFlavorTextColor",,,,,,,,,
+,,,,,,,,,,,,
+bar_descHMIKoE,BarPrintDesc,$faction.id == knights_of_eva,ShowImageVisual teahouse,"An armoured Security thug glares rudely as you pass, but does not stop you as you enter the door. They want you to know that they could shut the place down at any time - but an illicit teahouse-bar is a useful conduit with the commerce required to carry out holy war. Inside it is dim, the ceiling low, and the crowd packed. The stench of drug fumes and cheap liquor competes with bodies that disdain modern enzyme soaps.",,,,,,,,
+bar_descHMIKoE_home1,BarPrintDesc,"$faction.id == knights_of_eva
+$market.id == path_soul score:1000
+
+$id == path_soul",ShowImageVisual teahouse,"Your choice of bar is rather restricted, as you find that your lack of albinism makes you stand out like a wild rat that had broken into a cage of staring, glaring lab mice. Luckily there is a local 'cafe' with somewhat old instead of ancient aesthetic, where spacers aggregate under the watchful eye of Internal Security, armed with amusingly old-fashion bullet sluggers. The table tops are sterile clean, the potted plants fresh, and the flowers on the plastic tables caustically fragrant.",,,,,,,,
+bar_descHMIKoE_home2,BarPrintDesc,"$faction.id == knights_of_eva
+$market.id == hmi_nuriel score:1000
+
+$id == hmi_nuriel",ShowImageVisual teahouse,"Your choice of bar is rather restricted, as you find that your lack of albinism makes you stand out like a wild rat that had broken into a cage of staring, glaring lab mice. Luckily there is a local 'cafe' with somewhat old instead of ancient aesthetic, where spacers aggregate under the watchful eye of Internal Security, armed with amusingly old-fashion bullet sluggers. The table tops are sterile clean, the potted plants fresh, and the flowers on the plastic tables caustically fragrant.",,,,,,,,
+bar_descHMIKoE_home3,BarPrintDesc,"$faction.id == knights_of_eva
+$market.id == mercy_corpse score:1000
+
+$id == mercy_corpse",ShowImageVisual teahouse,"Your choice of bar is rather restricted, as you find that your lack of albinism makes you stand out like a wild rat that had broken into a cage of staring, glaring lab mice. Luckily there is a local 'cafe' with somewhat old instead of ancient aesthetic, where spacers aggregate under the watchful eye of Internal Security, armed with amusingly old-fashion bullet sluggers. The table tops are sterile clean, the potted plants fresh, and the flowers on the plastic tables caustically fragrant.",,,,,,,,
+,,,,,,,,,,,,
+# Black Hole LP fleet greeting lines,,,,,,,,,,,,
+greetingBlackHoleLPFriendly,OpenCommLink,"$faction.id == luddic_path
+$tag:blackhole_LP_Fleet
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Greetings fellow walker. Blessings of the Song of Ludd be upon you.""",,,,,,,,
+greetingBlackHoleLPHostileWeaker,OpenCommLink,"$faction.id == luddic_path
+$tag:blackhole_LP_Fleet
+$entity.isHostile
+$entity.relativeStrength < 0",$entity.ignorePlayerCommRequests = true 1,"""We follow the way of Ludd amidst persecution. Yea, the righteous will suffer the lash and our reward will be to join the Heavenly Choir forevermore.""",cutCommLink:Cut the comm link,,,,,,,
+greetingBlackHoleLPHostileWeakerDefiant,OpenCommLink,"$faction.id == luddic_path
+$tag:blackhole_LP_Fleet
+$entity.isHostile
+$entity.relativeStrength < 0
+$entity.weakerThanPlayerButHolding",$entity.ignorePlayerCommRequests = true 1,"""We follow the Path of Ludd amidst persecution. Yea, the righteous will suffer the lash and our reward will be to join the Heavenly Choir forevermore.""
+OR
+""Slave of Mammon! You cannot hear the Hymn of Ludd; we follow unwavering toward redemption in fated death.""",cutCommLink:Cut the comm link,,,,,,,
+greetingBlackHoleLPHostileStronger,OpenCommLink,"$faction.id == luddic_path
+$tag:blackhole_LP_Fleet
+$entity.isHostile
+$entity.relativeStrength >= 0",$entity.ignorePlayerCommRequests = true 1,"""Submit, repent, and your sinful technologies will be smashed; Resist, and only God's holy vacuum will show you mercy.""",cutCommLink:Cut the comm link,,,,,,,
+greetingLPNeutral,OpenCommLink,"$faction.id == luddic_path
+$tag:blackhole_LP_Fleet","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Do not interfere in our righteous mission, for we walk the Path of Ludd, and follow the Heavenly Song of Ludd.""",,,,,,,,
+,,,,,,,,,,,,
+# Black Hole LP Monuments,,,,,,,,,,,,
+hmi_blackholemonument1_stationOpenDialog,OpenInteractionDialog,$tag:hmi_hmiblackluddmonument1,"AddText""Close examination of the probe reveals that it is little more than a transponder wired up to a browning-out power source. It emits its message on repeat into the darkness:""
+
+AddText ""\""I am Lieutenant Lucas Peru, Navigation Officer for the ISS Resolute, Doom-Class. I…I don't know what guided me here. It can only have been guidance. It was pure chance that we went out on this mission in deep space. It was pure chance ran out of fuel and fell into the gravity well. It was pure chance that the phase drives were not functioning correctly from lack of supplies. It was pure chance that...that I Heard. Over the bulkheads screeching and the conduits sparking and the ...screaming... for a single moment, I Heard.\"""" textNeutralColor
+
+AddText ""\""It was beautiful. It was perfect. It was proof of the Divine, the first thing I had seen of God in an entire life of...well, nothing that proved God was real, or cared. Nothing like what those Luddic nutcases talk about, nothing so...manipulative or cruel, sacrificing your life on a pointless crusade. It was perfect - no other word for it. And when we escaped the gravity well...it was gone. I had heard the voice of God, for a fleeting moment, and just like that it was gone. But...but I know, I know how to Hear again. It's there, in my brain, I can't get rid of it. This...this might be my last record. My last words, in case they don't find my cryopod. If it is...then know\"""" textNeutralColor
+
+AddText ""\""...that God is in the Singularity.\"""" textNeutralColor",,beacon2Leave:Leave,,,,,,,
+hmi_blackholemonument2_stationOpenDialog,OpenInteractionDialog,$tag:hmi_hmiblackluddmonument2,"AddText""The buoy glows dangerously on your screens, your sensors showing that the structure should have, by all rights, burned out ages ago doing... whatever it is that its doing. Troublingly, scans don't reveal what the energy source is. You feel that any nebulous, burning hot scrap you may be able to peel from this object would not be worth the possible rapid and violent deconstruction of the structure while you're near it.""",,beacon2Leave:Leave,,,,,,,
+hmi_blackholemonument2a_stationOpenDialog,OpenInteractionDialog,"$tag:hmi_hmiblackluddmonument2
+$global.gaPZ_scannedZiggurat score:101","AddText""The buoy glows dangerously on your screens, your sensors showing that the structure should have, by all rights, burned out ages ago.""
+
+AddText ""\""But you don't even need to be close to hear it. It's like that tune your hear sometimes, that song you first touched when you saw the Ziggurat. Not quite, but similar. And most importantly, LOUD. You feel it practically thrumming in your bones as you approach, feel the call of what sounds like one voice, or maybe a thousand voices, or maybe no voices at all, just feelings. And all of them call you by name, beckon you HERE. To THIS system. To HEAR the TRUE SONG OF LUDD.\"""" textNeutralColor
+
+AddText""Intellectually you know its not the real thing, but...maybe this beacon is why you're here to begin with.""",,beacon2Leave:Leave,,,,,,,
+beacon2Leave,DialogOptionSelected,$option == beacon2Leave,DismissDialog,,,,,,,,,
+,,,,,,,,,,,,
+#Blackhole LP Station interaction,,,,,,,,,,,,
+hmi_blackholeLPStationOpenDialog,OpenInteractionDialog,$hmi_hmiblackluddDefender score:100,"SalvageGenFromSeed
+ShowDefaultVisual
+FireBest SalvageCheckHostile","Your $shipOrFleet approaches the station.
+
+The station emits ominous readings consistent with extreme phase utilisation, contorting like a giant three dimensional kaleidoscope. Each shift emits alien and exotic particles, streaking across the holodisplay in strings of unhelpful 'Unknown' icons. But what amazes you is the truly absurd number of phase cloaks that have been awkwardly built directly into the structure, which turn on and off without obvious pattern, fuelling this horrifying yet somehow intact extradimensional piece of art.
+
+Your engineering officer and Navigation Officer both excerise extreme caution approaching the thing - who knows if the station will shift and end up taking your $shipOrFleet with it.",,,,,,,,
+hmi_blackholeLPStation2OpenDialog,OpenInteractionDialog,$hmi_hmiblackluddDefender score:100,"SalvageGenFromSeed
+ShowDefaultVisual
+FireBest SalvageCheckHostile","Your $shipOrFleet approaches the station.
+
+The station emits ominous readings consistent with extreme phase utilisation, contorting like a giant three dimensional kaleidoscope. Each shift emits alien and exotic particles, streaking across the holodisplay in strings of unhelpful 'Unknown' icons. But what amazes you is the truly absurd number of phase cloaks that have been awkwardly built directly into the structure, which turn on and off without obvious pattern, fuelling this horrifying yet somehow intact extradimensional piece of art. The sight is beautiful and harmonious, and instils in you a feeling akin to a song you've heard, yet made in real space.
+
+Your engineering officer and Navigation Officer both excerise extreme caution approaching the thing - who knows if the station will shift and end up taking your $shipOrFleet with it.",,,,,,,,
+hmi_blackholeLPStationdef,TriggerAutomatedDefenses,$hmi_hmiblackluddDefender score:100,HMIHumanDefenderCMD,"The station suddenly shifts erratically as your officers had forewarned, and you gaze in astonishment as a fleet emerges from the shift. It manoeuvres aggressively, and you internally debate whether you really want to bring your $shipOrFleet to readiness to fight whatever...this is.",,,,,,,,
+hmi_blackholeLPStationRequestComms,BeginFleetEncounter,"!$ignorePlayerCommRequests
+$hmiblackludd_Fleet score:1000","AddText ""You're being hailed."" $faction.baseColor
+$hailing = true 0",,,,,,,,,
+hmi_blackholeLPStationSpeech,OpenCommLink,$id == hmi_lpblackhole_francis score:1000,"$menuState = fleetConvMain 0
+$entity.ignorePlayerCommRequests = true","A crazed man clad in Luddic robes assembled for a Tri-Tachyon executive suit appears on the screen. The paradoxical mockery is the only thing that seems human about him - his skin is pale and clammy, his eyes burn like reactor cores, and when he opens his mouth  his skin flows like oil in anti-grav to reveal a black opening to the void.
+
+""Begone, Heathens!"" he says, the voice not coming from the comms but somehow into your mind, ""This is the Temple Mount, from which the Choir Listens/Sings Along with Ludd's Divine Song/Jubilation/Truth! You dare soil/despoil this place with your foul feet! BE GONE!""
+
+With a shudder the comms go silent, but it takes a moment for the echo to calm in your soul.",cutCommLink:Continue,,,,,,,
+,,,,,,,,,,,,
+hmi_blackholeLPStationPostDefenders,BeginSalvage,$hmi_hmiblackluddDefender score:100,,"As the enemy fleet succumbs there is an almighty shift, a twist, and like a pop the station bursts apart like a metallic bubble, leaving a cloud of radioactive debris and more questions than answers.",0:hmi_blackholeLP_salvage_pick:Pick through the salvage,,,,,,,
+hmi_blackholeLP_salvage_pick,DialogOptionSelected,$option == hmi_blackholeLP_salvage_pick,SalvageEntity performSalvage,,,,,,,,,
+,,,,,,,,,,,,
+#Blackhole Merc Interactions,,,,,cutCommLink:Cut the comm link,,,,,,,
+greetingBlackHoleMercHostile,OpenCommLink,"$faction.id == mercenary
+$tag:MysteryMerc_Fleet
+$entity.isHostile",$entity.ignorePlayerCommRequests = true 1,"The comms open and you are faced with a dead-eyed mercenary captain.
+
+$PlayerName, $heOrShe says, ""You have been looking in places that you should not be looking. Talking to people you should not be talking to. Asking questions that you should not be asking. Your death will be a lesson for others.""
+
+$HeOrShe switches off the comms.",,,,,,,,
+,,,,,,,,,,,,
+#Blackhole Merc Dockyard interaction,,,,,,,,,,,,
+hmi_blackholeMercStationOpenDialog,OpenInteractionDialog,$hmi_hmiblackmercDefender score:100,"SalvageGenFromSeed
+ShowDefaultVisual
+FireBest SalvageCheckHostile","Your $shipOrFleet approaches the dockyard.
+
+The station is of temporary construction, comprised of modular pre-fabricated parts. The frame of the yard drifts like a metal skeleton, with cargo holders and hab blocks crawling along the bones like parasites. Inside there's activity, as drones buzz and swarm around the interior.",,,,,,,,
+hmi_blackholeMercStationdefender_Desc,TriggerAutomatedDefenses,$hmi_hmiblackmercDefender score:100,HMIHumanDefenderCMD,"""In-bound contacts!"" Your Sensor Officer suddenly chirps, and you watch as ships emerge from the structure. The fleet is formidable, but what draws your attention is a partially constructed capital with a very odd feature.
+
+The fleet manoeuvres aggressively, but seems to be more focused on keeping the capital at dock than pursuing you if you were to leave. You debate whether to engage or not.",,,,,,,,
+hmi_blackholeMercStationPostDefenders,BeginSalvage,"$hmi_hmiblackmercDefender score:100
+",,"As the enemy fleet succumbs the dockyard buckles and crashes apart, bleeding vitals and scrap into space. You watch as the hab blocks detonate - taking whatever this operation was to the stars.",0:hmi_blackholeMerc_salvage_pick:Pick through the salvage,,,,,,,
+hmi_blackholeMerc_salvage_pick,DialogOptionSelected,$option == hmi_blackholeMerc_salvage_pick,SalvageEntity performSalvage,,,,,,,,,
+,,,,,,,,,,,,
+#Blackhole Merc Mining Station interaction,,,,,,,,,,,,
+hmi_blackholeMercMiningStationOpenDialog,OpenInteractionDialog,$hmi_hmiMercminingDefender score:100,"SalvageGenFromSeed
+ShowDefaultVisual
+FireBest SalvageCheckHostile","Your $shipOrFleet approaches the station.
+
+The station pulses with electronic life, albeit encrypted - short bursts of communications of scrambled messages washes the comms, getting more and more intense as you approach. You watch as mining drones are shepherded into the structure, and automated doors seal shut.",,,,,,,,
+hmi_blackholeMercMiningStationdefender_Desc,TriggerAutomatedDefenses,$hmi_hmiMercminingDefender score:100,HMIHumanDefenderCMD,"Rapidly a Mercenary fleet assembles from the structure and meets yours. It moves to aggressively protect the station, but you feel you could withdraw without the fleet attacking.",,,,,,,,
+,,,,,,,,,,,,
+#Blackhole Merc Refining Station interaction,,,,,,,,,,,,
+hmi_blackholeMercRefiningStationOpenDialog,OpenInteractionDialog,$hmi_hmiMercrefiningDefender score:100,"SalvageGenFromSeed
+ShowDefaultVisual
+FireBest SalvageCheckHostile","Your $shipOrFleet approaches the station.
+
+The station shows vast areas stripped away, revealing the burning Catalytic core pulsing away at the centre. Parked lines of ore cargo containers loiter in orbit, as smelted material flows into the structure for cooling. Despite the drones beginning to reorientate the ore stacks to act as an impromptu and pitiful minefield, the core continues to burn - in the case you are turned away key time would be saved if it were kept hot.",,,,,,,,
+hmi_blackholeMercRefiningStationdefender_Desc,TriggerAutomatedDefenses,$hmi_hmiMercrefiningDefender score:100,HMIHumanDefenderCMD,"Rapidly a Mercenary fleet assembles from the structure and meets yours. It moves to aggressively protect the station, but you feel you could withdraw without the fleet attacking.",,,,,,,,
+,,,,,,,,,,,,
+#Rampant Mothership Station interaction,,,,,,,,,,,,
+hmi_rampantmothershipDetails,ShowSalvageEntityDetails,"$customType == derelict_rampant_mothership
+$id:derelict_rampant_mothership_station_id score:1001
+$tag:hmi_hmirampantmotherStationg score:1001","ShowDefaultVisual
+FireBest DerelictPrintExtraInfo","The vast bulk of the automated exploration mothership shifts and burns under the sensors. Up close the metal throbs almost organically, the slippery internal piping and reinforcement squishing from every opening like coppery blood of a dying beast. 
+
+Dying, but not yet dead.",,,,,,,,
+,,,,,,,,,,,,
+#Nightmare Station interaction,,,,,,,,,,,,
+hmi_nightmarestationOpenDialog,OpenInteractionDialog,"$tag:hmi_nightmarestationtag score:101
+$hmi_nightmarestation score:101
+","SalvageGenFromSeed
+ShowDefaultVisual
+FireBest SalvageCheckHostile","Your $shipOrFleet approaches the station.
+
+At a distance it resembles other Domain-era research stations, with tall towers of research wings and cubic habitation blocks around a central core. On approach, however, the sensors pick up long protrusions from several sections of the station, like ominous spikes. Your ship detects faint readings from the slender structures, possibly decay from an old fission reactor finally giving out, or maybe accumulated extrastellar radiation from centuries of exposure. 
+
+When your $shipOrFleet is close enough to establish visual contact, the delta-class AI in charge of analysing the sensor data starts reporting increased energy readings from the core of the station itself. At the same time your sensor officer contradicts the report saying the station is a dead hulk, like many others before it.
+
+You swear you hear a low-pitched whine coming from the internal comms as your officer reports, and you begin to feel uneasy. Your navigation officer, unsure, asks whether fleet should continue the approach.",,,,,,,,
+hmi_nightmarestationdefender_Desc,TriggerAutomatedDefenses,"$tag:hmi_nightmarestationtag score:101
+$hmi_nightmarestation score:101
+",SalvageDefenderInteraction,"Before you can answer your breath hitches, the hair on your arms stands on end, and you break out into sweat as something emerges from the station's guts, something inherently wrong, something that cries against all known laws of shipcraft or biology. You have no idea where it came from - whether it was camouflaged on the structure's surface, or if it somehow phased out of the station, or if it came from somewhere else entirely and happened to crawl out of the station into reality itself, it matters not: it's here, right here in front of you in all its grotesque glory.
+
+Klaxons whine and comms are overloaded with terrified cries and screams and conflicting orders, all mixed into cacophony overloading your mind with noise. Your heart thumps in your ears as you rapidly call your $shipOrFleet to readiness.",,,,,,,,
+hmi_nightmarestationPostDefenders,BeatDefendersContinue,"$tag:hmi_nightmarestationtag score:101
+",,"As the Thing dies, you struggle to regain your senses. You cast your eyes about the bridge, taking in your readings from the $shipOrFleet, demanding reports and updates. It takes a few minutes before the dull roar of crying, screaming and shock is muted back down to more disciplined and manageable levels, and your heartbeat calms to a more standard cadence. Already the reports coming in make no sense - hull breaches, enemy boarding actions and even demons coming out of the walls have been reported across the $shipOrFleet. Soon the reports correct themselves, but make even less sense, indicating that the $shipOrFleet have actually been attacked by an enemy fleet, or infiltrated by saboteurs. Eventually your sensor officer tears you away from the baffling reports, and indicates that the research station, your prize, has been broken beyond recognition. It appears that in the battle against the Thing a stray round struck the structure, mortally wounding it. Quickly you dispatch salvage parties with one single question:",0:salBeatDefendersContinue:What the hell WAS that!?,,,,,,,
+hmi_nightmarestationContinueDefenders,BeginSalvage,"$tag:hmi_nightmarestationtag score:101
+","SetTextHighlights ""\""Recovered - A Mysterious Hullmod and A Mysterious Industrial Blueprint!\""""","Your salvage team, smaller than normal due to the large number of wounded or shaken crew refusing to get near the station, quickly begin the salvage operation. Interestingly, when the stray round from fighting shattered the station, it appears to have gone straight through some strange, exotic-looking structure at the core, linked up to a treasure trove of low-grade AI cores. While acquiring the surprise bounty, your nervous salvage team locates a server encased in sturdy plasteel connected to the bizarre AI core network. The outer shell is partially destroyed, with the physical server storage inside mostly intact.
+
+On downloading the contents of the server and analysing the data, you finally discover what just happened. Apparently, a secret Tri-Tachyon project was looking into mind control and had set up in this abandoned research station before the First AI War. They discovered that a combination of subliminal messaging, hypnotics, implant hacking, and several other vaguely mentioned pieces of ominous technology could be used to provide an aggressive form of mind control. The overall idea was to hack the target's comms, sensor and life support systems and cause enemy fleets to turn against themselves in paranoid delusion and hallucination. However, at some point the project was terminated - why is not clear. There are some references to vaguely mentioned technology used by the apparatus causing an 'Instrumentality Event', which you believe is the possibility of a beta level, or even an alpha level AI core taking over the mind control system and turning the researchers against themselves.
+
+Nevertheless, while the project was ostensibly shut down, this station was left dormant for future usage in something called the 'Seele Project' with the mind control system set to self-defence. Your $shipOrFleet had fallen prey to this defense system; it was not some ghost ship you were fighting, but in fact it was your $shipOrFleet tearing itself apart! That lucky stray round had destroyed a key component of the mind control system, and with its demise the mind control effects were lifted.
+
+""Recovered - A Mysterious Hullmod and A Mysterious Industrial Blueprint!""",0:hmi_explore:Extraordinary!,,,,,,,
+hmi_nightmarestationFacility,DialogOptionSelected,$option == hmi_explore,HMINightmareAddLoot HMINightmareAddLoot,"The experimental data, while analysing the effects and studies of the mind control technology itself, does not delve too deeply on the actual components of the mind control technology. However there are some blueprints of early, considerably less refined prototypes of the technology. These devices do not use the more exotic technologies mentioned in the data analyses of the later, refined versions, and their effects are considerably reduced in power, however they could be used to push a crew beyond it's normal capacity, and subtly influence people to join colonial ventures and pacify them subliminally once on planet. You consider the possibilities as your fleet pulls itself together, and salvage proceeds ahead.",0:hmi_nightmare_salvage_pick:Pick through the salvage,,,,,,,
+hmi_nightmare_salvage,DialogOptionSelected,$option == hmi_nightmare_salvage_pick,SalvageEntity performSalvage,,100:defaultLeave:Leave,,,,,,,
+,,,,,,,,,,,,
+HMIMessBlockExploration,OpenInteractionDialog,$tag:hmi_mess_blocktag,"ShowDefaultVisual
+SetShortcut defaultLeave ESCAPE","The surface of the planet crawls and shifts with nanites, the minute rampant robots roiling through the rapidly depleting crust. Bulbous growths form and grow and swell like metallic Eventide grapes, before they are plucked away by passing silvery clouds soaking the world. The glistening mists coalesce and crack with electricity and harvesting protocols, the air charged with voracious hunger, as resources are mindlessly collected to be sent onward.
+
+To land on that forbidden ground would be suicide.",,,,,,,,
+,,,,,,,,,,,,
+#Station Rewards,,,,,,,,,,,,
+liminaPostBattle,MessStationDestroyed,,,"Your $shipOrFleet begins to approach the hulk of the station to start evaluating salvage.
+
+Salvaging such a hulk will be incredibly perilous, as whatever vague centralised intelligence was controlling the individual nanite colonies is now absent, causing the Mess to divide into small bubbles and begin to cannibalise each other and the station. Even now you watch as debris around the station rapidly deteriorates from the rampant mess, and your ship's adjusted shielding is working overtime to keep any infection at bay. Getting close to the hulk will be difficult, as sections that might be solid metal will crumple and fold like tin foil at the slightest touch of an engine outflow. Even now the innards of the station roil and threaten to tear apart the skin of the structure and bleed nanite Mess into space.",liminaBeatDefendersContinue:Continue,,,,,,,
+liminaPostBattle2,DialogOptionSelected,$option == liminaBeatDefendersContinue,,"Things are tense. You've already had to promise your salvor crews triple hazard pay to even get them to contemplate harvesting this thing for ripe Nanite Mass.
+
+Luckily you have a well travelled rigger who did a stint in Opuntia for a cycle, although her predilection for recreational drugs has addled her somewhat. Lead by the crazy rigger and clad in magnetic fields strong enough to rattle anyone's headgear, you can only watch with baited breath as the salvage shuttles go out, the image on your screen fuzzy from electromagnetic interference.",liminaBeatDefendersContinue2:Continue,,,,,,,
+liminaPostBattle3,DialogOptionSelected,$option == liminaBeatDefendersContinue2,,"Suddenly the station buckles, and you watch the outer armour writhe and twist like a stormy sick-white sea. You grit your teeth as panicked messages crackle over the comms, your salvage chief alternating between giving orders and glaring at you.
+
+Then, like a hull-breach siren  the mad rigger's laughing cuts through the comms, her salvage shuttle streaking low across the surface. It ducks and weaves over the rolling surface, before sharply rising upwards. The salvage chief is yelling something, but it's drowned out as she screams in delight,
+
+""THERE SHE BLOWS!""",liminaBeatDefendersContinue3:Continue,,,,,,,
+liminaPostBattle4,DialogOptionSelected,$option == liminaBeatDefendersContinue3,,"You watch transfixed as the surface tears apart in her wake, a spray of malignant Mess erupting from the surface mixed with reinforced metal and modular factory components.
+
+And then you feel your stomach fall out from under you as whatever salvageable material could have been acquired is converted into space dust by hungry nanites before your eyes, your salvors running scared and giving panicked calls back to command. The salvage chief just glares at you, knowing exactly how bad of an idea it was to even consider harvesting the crumbling hulk, and here they stand, vindicated. You are more upset about the loss of the hulk - what might have been a goldmine of Nanite Mess just went up in smoke.
+
+""By Ludd,"" you suddenly hear the Sensor officer utter in shock, ""Look what just came out of the fissure!""
+
+Amazed, you watch as the Mess cannibalises itself into dust before your eyes, leaving behind the shadow of a cruiser-sized ship.",liminaBeatDefendersContinue4:Continue,,,,,,,
+liminaPostBattle5,DialogOptionSelected,$option == liminaBeatDefendersContinue4,FireBest OpenInteractionDialog,,,,,,,,,
+limina_wreckDetails,ShowSalvageEntityDetails,"$customType == wreck
+$limina score:1000",ShowDefaultVisual,"The ship drifts, glinting in Mansa's light like a jewel. It vaguely resembles the Coelum-class seen in Remnant fleets, but it's too clean, too alien in appearance. At once, you begin to consider salvaging it. The prospect does not sound appealing - this ship was buried deep within the bowels of a nanite infested station that just reduced itself to space dust, with no guarantee that this object won't do the exact same thing. But you've come too far, fought to hard to leave with nothing.
+
+The following negotiations are quickly made with your sputtering salvage chief, and become very loud once or twice, before your chief begrudging sends the incredulous salvage crews out to the ship. The command is made slightly easier by your sensor officer reporting a surprising absence of nanite infection on the ship.
+
+At least according to vague scans made through intense electromagnetic interference.",,,,,,,,
+liminaSalvage1,CheckSalvageSpecial,"$salvageSpecialData != null
+$customType == wreck
+$limina score:1000",,"The salvor crews are sent in - with promise of considerable hazard pay - to investigate the ship. Your salvage teams dock shuttles at various entry points along the vessel's massive hull, carefully ensuring that the hull is clean of nanite infestation with broad EM sweeps.",liminaSalvage2:Continue,,,,,,,
+liminaSalvage2,DialogOptionSelected,$option == liminaSalvage2,,"It doesn't take long for reports to come in -  the vessel is heavily damaged, and though of exotic design, it is theoretically recoverable.
+
+Strangely, the vessel appears to have been constructed with crew in mind, with all the amenities and interfaces necessary for a human crew to operate. What is even more bizarre is that while there are trace readings corresponding to nanite infestation, it seems contained within the ship's hull.",liminaSalvage3:Continue,,,,,,,
+liminaSalvage4,DialogOptionSelected,$option == liminaSalvage3,,"Your chief engineer is incredibly fast in their report.
+
+""$PlayerSirOrMadam, you will not believe what this thing is."" they say, with excitement tinged with relief, ""From what the computer systems indicate, at some point after this station was infected there was a glitch in the AI controlling the ship autofactory. Essentially a stray bit of code in the degraded systems picked up a Tri-Tachyon demand to refine the Coelum design, and set to work fulfilling it under the name ""Limina"". Except the Mess kept eating the ship, so the AI kept rebuilding the ship and redesigning it to resist nanite consumption. It kept doing it over, and over, and over, until it produced this ship - Iteration 180612.""",liminaSalvage4:Continue,,,,,,,
+liminaSalvage5,DialogOptionSelected,$option == liminaSalvage4,SalvageSpecialInteraction,"The chief engineer grins over the comms, ""This Iteration uses some kind of nanite controller made from AI-generated technology to not only contain the nanite infection, but direct it to reconstruct the hull. The method, I think, requires evening a flux differential, so the effects will only be pronounced when actively venting. But in all honesty I'm amazed that a ship-wide nanite infection is not only kept under control, but is actually used to maintain and repair the ship itself! The prospects alone in materials research...""
+
+The chief's smile fades as they see they're beginning to lose you, ""Alternatively, you could just see it as a ship that's nigh immortal in the hands of a good pilot. The ship's ready to be reactivated. Should we proceed with recovery?""",#recoverlimina:Recover the ship,,,,,,,
+#liminaRecover,DialogOptionSelected,$option == recoverlimina,LiminaAddShip,,defaultLeave:Leave,,,,,,,
+,,,,,,,,,,,,
+#Beacons,,,,,,,,,,,,
+beaconOpenDialogMessRem,OpenInteractionDialog,$tag:warning_beacon_messrem score:103,"ShowDefaultVisual
+SetShortcut beaconLeave ""ESCAPE""","This partially altered autonomous warning beacon emits a looping message.
+
+""DANGER: This star system is known to contain potentially active autonomous weapon systems. Access to this system by unauthorized parties is forbidden by Hegemony Navy diktat 224.34.""
+
+Alongside this message there is an underlying signal on a different channel. It takes your comms officer a couple of moments to filter it out and enhance it, due to the message being obscured both by static and the panicked voice that repeats it urgently and fearfully.
+
+""Contact the Execs - the Mess has gotten OUT. Repeat - the MESS HAS GOTTEN OUT. DO NOT TAKE THE JUMP POINTS! THE MESS HAS GOTTEN OUT!""",beaconLeave:Leave,,,,,,,
+beaconLeave,DialogOptionSelected,$option == beaconLeave,DismissDialog,,,,,,,,,
+,,,,,,,,,,,,
+#Kurita Mission 1,,,,,,,,,,,,
+,,,,,,,,,,,,
+hmi_kuritaM1_begin,AddBarEvents,"$global.daysSinceStart > 90
+$global.hmi_kuritaM1_seenMission != true
+HMI_CreateMission hmi_KuritaM1 score:999","AddBarEvent hmi_kuritaM1_barEvent ""Go and join the furious man glaring at the wineglass"" ""You see an overweight man stuffed into a shabby Hegemony Officer uniform. The man is glaring at a filled wineglass as if it was singularly responsible for the closure of the Gates. A Company Executive Pin, attached to his collar as if an afterthought, glints in the barlight."" highlight",,hmi_kuritaM1_intro2:Stare back.,,,,,,,
+hmi_kuritaM1_intro,DialogOptionSelected,$option == hmi_kuritaM1_barEvent,"$global.hmi_kuritaM1_seenMission = true
+CallEvent $global.hmi_kuritaM1_ref beginIntro",The man rips his eyes from the glass to you as you sit down. He stares at you for an overly long moment.,"hmi_kuritaM1_intro3:""Obviously.""",,,,,,,
+hmi_kuritaM1_intro2,DialogOptionSelected,$option == hmi_kuritaM1_intro2,FireBest DialogOptionSelected,"""Do you usually have a habit of sitting down at random tables?"" he eventually asks in the arrogant tone of an Eventide-born officer.","hmi_kuritaM1_intro4:""Sounds nice.""",,,,,,,
+hmi_kuritaM1_intro3,DialogOptionSelected,$option == hmi_kuritaM1_intro3,FireBest DialogOptionSelected,"""You must be all the rage at whatever gatherings you nacelle-humping scav scum attend that passes as a 'party' out here,"" he sneers, before turning back to the drink, ""Look at this""
+
+He gestures to the wineglass, filled with a dark red liquid.
+
+""This is supposed to be a Parle Maginot from the Vineyards of the Nickol Estate on Eventide. The grapes are delicately caressed until their bulbous insides are ripe for harvest, their juices squeezed by the dainty feet of students of the Gainsgrove Luddic Girl's College, and the juices aged finely in casks made from real oak wood - at least to a crust-riding space-sucker like yourself."" 
+
+He pokes the glass, and you notice that the liquid inside moves with the glass as if it were waste jelly.",hmi_kuritaM1_intro5:Continue,,,,,,,
+hmi_kuritaM1_intro4,DialogOptionSelected,$option == hmi_kuritaM1_intro4,FireBest DialogOptionSelected,"""Sounds nice?"" he angrily sneers, ""Well guess what, you bulkhead-buggering bastard, this worthless sludge is flux vent cleaner mixed with artificial, grape-flavoured bubblegum and lead!"" he cries, ""And what makes it WORSE is that I've been here SO LONG I can identify each of those components from the TASTE of it!""
+
+The man fumes, glaring at the glass, before he grabs it and downs the entire sorry mixture into his mouth, the sludge glugging sluggishly into his open maw. He slams the glass back onto the table, eyes watering, mouth screwed up in disgust.
+
+""And what's the absolute worst,"" he chokes, each word furiously forced hoarsely from his ragged throat, ""is that it's the BEST THING THEY SERVE HERE.""","hmi_kuritaM1_intro6:""What's the job?""
+hmi_kuritaM1_reject:""Not from someone who drinks vent cleaner."" [terminate quest]",,,,,,,
+hmi_kuritaM1_intro5,DialogOptionSelected,$option == hmi_kuritaM1_intro5,"HMI_AddOptionConfirmation hmi_kuritaM1_reject ""You will not get a second chance at building this connection. Proceed?"" ""Yes"" ""No""","The man fumes, both literally and figuratively, before looking you over.
+
+""Well, you look like something that crawled out from a sewage treatment modfac, got passed around by the Biological Containment killbots and stole command of a fertiliser haulership,"" he snorts, ""Just the sort of hardy scum I need. You looking for a job?""",hmi_kuritaM1_intro7:Continue,,,,,,,
+hmi_kuritaM1_intro6,DialogOptionSelected,$option == hmi_kuritaM1_intro6,SetTextHighlights  $hmi_kuritaM1_systemName $hmi_kuritaM1_dist $hmi_kuritaM1_reward ,"""There's a worthless Company scav called $hmi_kuritaM1_execName I need out of the way,"" says the watery-eyed man, grape-smelling vapour drifting from his mouth, ""This backstabbing bastard has been preventing me from advancing in this...illustrious organisation.""
+
+His derision is as thick and palpable as the thickening, sickening scent of fruity grape and caustic cleaning agent.
+
+""While this son of a bitch is in Company space, he's untouchable. However, they've gone beyond the Core Worlds looking for something, far from the grips of other Executives,"" he leans in conspiratorially, the sickly sweet scent pungent, ""But not from mine. Or, ours, I suppose. I just happen to know he's headed to $hmi_kuritaM1_systemName, $hmi_kuritaM1_dist light-years away from here.""
+
+""Unfortunately at this time I can only spare $hmi_kuritaM1_reward credits,"" he sniffs, although whether in its distaste at his poverty or the vent cleaner twisting its way through his sinuses, you really couldn't say, ""But what I offer you is continued employment. And who knows? I might find something more interesting for a recycled piss guzzler like yourself in the future.""","hmi_kuritaM1_accept:Accept
+hmi_kuritaM1_reject:Refuse [terminate quest]",,,,,,,
+hmi_kuritaM1_intro7,DialogOptionSelected,$option == hmi_kuritaM1_intro7,"HMI_AddOptionConfirmation hmi_kuritaM1_reject ""You will not get a second chance at building this connection. Proceed?"" ""Yes"" ""No""","""So, you game?"" he finally asks, eyes reddening at an alarming rate.",backToBar:Return to the bar,,,,,,,
+hmi_kuritaM1_accept,DialogOptionSelected,$option == hmi_kuritaM1_accept,CallEvent $global.hmi_kuritaM1_ref accept,"""Excellent,"" he smiles sharkishly, ""if you succeed, come back here and contact me under the name of... 'Bob' Kurita,"" he says the name with disdain, ""and I'm sure I'll have more jobs for trash like you.""
+
+He stands, his girth straining his too-tight Hegemony uniform as he trots out of the bar without a backwards glance.",backToBar:Return to the bar,,,,,,,
+hmi_kuritaM1_reject,DialogOptionSelected,$option == hmi_kuritaM1_reject,CallEvent $global.hmi_kuritaM1_ref cancel,"""Feh,"" scoffs the man, wiping his nose with his sleeve and leaving behind a reddy-purple trail on it, ""It was worth a shot. I'll find some other bastard to do it then.""
+
+He stands, his girth straining his too-tight Hegemony uniform as he trots out of the bar without a backwards glance.",,,,,,,,
+,,,,,,,,,,,,
+hmi_kuritaM1FoundClueShip,ShowSalvageEntityDetails,"$hmi_kuritaM1_clue score:100
+$customType == wreck
+Call $hmi_kuritaM1_ref updateData","$global.hmi_kuritaM1_foundclue = true
+Call $global.hmi_kuritaM1_ref updateStage
+Call $global.hmi_kuritaM1_ref unsetClues","Though obviously stripped for supplies and materials, a scant few signals can still be detected from the derelict ship's dying systems. It could not have been abandoned too long ago.
+
+A salvage crew is dispatched, and manage to extract partial fleet logs from a functioning server that record inter-fleet communications discussing a stop in the $hmi_kuritaM1_system2Name. $hmi_kuritaM1_execName's fleet should be there.",,,,,,,,
+hmi_kuritaM1FoundClueCache,ShowSalvageEntityDetails,"$hmi_kuritaM1_clue score:100
+$customType == supply_cache
+Call $hmi_kuritaM1_ref updateData","$global.hmi_kuritaM1_foundclue = true
+Call $global.hmi_kuritaM1_ref updateStage
+Call $global.hmi_kuritaM1_ref unsetClues","Barely weathered by the usual radiation and impacts of microscopic particles that pose a hazard to exposed cargo pods, it's obvious this supply cache has not been left here for long.
+
+Quick scans manage to pick up a fading signal from one in particular, and once broken open, a Tri-Pad found inside soon yields a fleetwide memo received by $hmi_kuritaM1_execName's captains, ordering a stop in the $hmi_kuritaM1_system2Name.",cutCommLink:Cut the comm link,,,,,,,
+hmi_kuritaM1_fleetOpen,OpenCommLink,$entity.hmi_kuritaM1_execfleet score:100,$entity.ignorePlayerCommRequests = true,"$personName angrily peers at your through the viewscreen. ""...It was that little Eventide piece of shit wasn't it? He was the only one who knew...""
+
+""Well it doesn't matter,"" $HeOrShe waves off dismissively, ""I'll deal with him, after I deal with you.""",,,,,,,,

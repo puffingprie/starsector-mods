@@ -1,0 +1,38 @@
+{
+  "variantId": "uaf_supolev_alpha_standard",
+  "hullId": "uaf_supolev_alpha",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 2,
+  "fluxVents": 3,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_cargo_holds"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "BUILT_IN_WEAPON": "uaf_chorus_m_amm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_pd_reina"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "uaf_claris_cn"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

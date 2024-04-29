@@ -1,0 +1,84 @@
+{
+  "variantId": "uaf_ai_roria_esvernia_anchor",
+  "hullId": "uaf_ai_roria_esvernia",
+  "displayName": "Flexible Anchor",
+  "goalVariant": false,
+  "fluxCapacitors": 6,
+  "fluxVents": 44,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "pointdefenseai",
+    "unstable_injector",
+    "dedicated_targeting_core"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_edge_type_iv",
+        "WS0003": "uaf_edge_type_iv",
+        "WS0005": "uaf_edge_type_iv"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "uaf_edge_type_iv",
+        "WS0004": "uaf_edge_type_iv",
+        "WS0006": "uaf_edge_type_iv"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "uaf_clemente_s_mrm_double",
+        "WS0008": "uaf_clemente_s_mrm_double",
+        "WS0009": "uaf_clemente_s_mrm_double",
+        "WS0010": "uaf_clemente_s_mrm_double"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "uaf_penulisa_acx",
+        "WS0018": "uaf_penulisa_acx",
+        "WS0023": "uaf_penulisa_acx"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0019": "uaf_ivory_triple",
+        "WS0020": "uaf_ivory_triple",
+        "WS0021": "uaf_medlav_dual",
+        "WS0022": "uaf_medlav_dual"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "uaf_catun_ii_erg",
+        "WS0014": "uaf_catun_ii_erg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "uaf_triyia_pdx",
+        "WS0012": "uaf_triyia_pdx",
+        "WS0015": "uaf_weiss_ii_flk",
+        "WS0016": "uaf_weiss_ii_flk"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

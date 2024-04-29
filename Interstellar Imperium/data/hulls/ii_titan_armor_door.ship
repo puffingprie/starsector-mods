@@ -1,0 +1,39 @@
+{
+  "bounds": [
+    12.5,
+    -14,
+    -12.5,
+    -14,
+    -12.5,
+    14,
+    12.5,
+    14
+  ],
+  "builtInMods": [
+    "automated",
+    "reduced_explosion",
+    "always_detaches",
+    "ii_no_package"
+  ],
+  "builtInWings": [],
+  "center": [
+    16.5,
+    15
+  ],
+  "collisionRadius": 19.5,
+  "engineSlots": [],
+  "height": 30,
+  "hullId": "ii_titan_armor_door",
+  "hullName": "Titan (Armor) Door",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 19.5,
+  "spriteName": "graphics/imperium/ships/titan/ii_titan_armor_door01.png",
+  "style": "IMPERIUM",
+  "viewOffset": 0,
+  "weaponSlots": [],
+  "width": 33
+}

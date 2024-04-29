@@ -1,0 +1,16 @@
+{
+	"id":"sv_atlascannon_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":100,
+	"hitGlowRadius":100,
+	"width":18.0,
+	"fadeTime":1,
+	"fringeColor":[200,200,200,255],
+	"coreColor":[200,200,200,255],	
+	"textureScrollSpeed":1,
+	"pixelsPerTexel":1.0,
+	"bulletSprite":"graphics/weapons/proj/sv_atlas_shot.png"
+}

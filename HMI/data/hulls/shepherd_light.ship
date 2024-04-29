@@ -1,0 +1,169 @@
+{
+  "hullName": "Shepherd (Light)",
+  "hullId": "shepherd_light",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/shepherd_light.png",
+  "style": "LOW_TECH",
+  "height": 86,
+  "width": 70,
+  "center": [35, 43],
+  "collisionRadius": 69.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 63.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade"
+  ],
+  "builtInWings": [
+    "drone_blitz_borer_wing",
+    "drone_blitz_borer_wing",
+    "drone_blitz_borer_suicide_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 0,
+      "locations": [-19, -1]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -10, 15.5,
+        -12, 19,
+        3, 14,
+        15, 13.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -10, -14.5,
+        3, -13.5,
+        16, -13,
+        22, -13.5
+      ]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 19,
+      "angle": 108.5,
+      "locations": [-24, 25.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 19,
+      "angle": -108.5,
+      "locations": [-24, -25.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-42, 21],
+      "length": 19.5,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-42, -21],
+      "length": 20,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-25.5, 33.5],
+      "length": 9.151056,
+      "width": 9.001816,
+      "angle": 127.5,
+      "contrailSize": 9.001816,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-25, -32],
+      "length": 9.151056,
+      "width": 9.001816,
+      "angle": -127.5,
+      "contrailSize": 9.001816,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [12, 31.5],
+      "length": 6.712008,
+      "width": 6.692967,
+      "angle": 116.5,
+      "contrailSize": 6.692967,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [12, -31.5],
+      "length": 6.712008,
+      "width": 6.692967,
+      "angle": -116.5,
+      "contrailSize": 6.692967,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-32, 32],
+      "length": 15.949545,
+      "width": 9.351364,
+      "angle": 154.5,
+      "contrailSize": 9.351364,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-32.5, -31.5],
+      "length": 15.949545,
+      "width": 9.351364,
+      "angle": -146.5,
+      "contrailSize": 9.351364,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-40, -1],
+      "length": 44,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -40, -5.5,
+    -34, -11,
+    -41, -15,
+    -41.5, -25.5,
+    -30.5, -34.5,
+    22, -35,
+    37, -27,
+    37, 27,
+    22, 35,
+    -30.5, 34.5,
+    -41.5, 25.5,
+    -41, 15,
+    -34, 11,
+    -40, 5.5
+  ]
+}

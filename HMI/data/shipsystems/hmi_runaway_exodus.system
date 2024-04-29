@@ -1,0 +1,31 @@
+{
+	"id":"hmi_runaway_exodus",
+	"type":"ENGINE_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.HMI_RunawayAI",
+
+	"statsScript":"data.shipsystems.scripts.HMI_RunawayExodusDriveStats",
+
+	"engineGlowColor":[255,100,255,255],
+	"engineGlowContrailColor":[255,100,255,25],
+	"engineGlowLengthMult":3.5,
+	"engineGlowWidthMult":2.5,
+	"engineGlowGlowMult":1.5,
+
+	"flameoutOnImpactChance":0,
+
+	"clampTurnRateAfter":false,
+	"clampMaxSpeedAfter":false,
+	"alwaysAccelerate":true,
+
+	"useSound":"system_runaway_drive_activate",
+	"loopSound":"system_runaway_drive_loop",
+	"deactivateSound":"system_runaway_drive_deactivate",
+	"outOfUsesSound":"engine_disabled",
+
+    "aiHints":{
+        "activeSpeedIncrease":150,
+        "burstMovementPotential":0,
+        "averageSpeedIncrease":45,
+    }
+}

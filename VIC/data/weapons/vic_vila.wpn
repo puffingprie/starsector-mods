@@ -1,0 +1,89 @@
+{
+  "id": "vic_vila",
+  "specClass": "projectile",
+  "projectileSpecId": "vic_arcaneBolt",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "everyFrameEffect": "data.scripts.weapons.vic_vila_script",
+  "displayArcRadius": 450,
+  "turretSprite": "graphics/weapons/vic_vila_base_turret.png",
+  "hardpointSprite": "graphics/weapons/vic_vila_base_hardpoint.png",
+    "turretGlowSprite": "graphics/weapons/vic_vila_glow_turret.png",
+  "hardpointGlowSprite": "graphics/weapons/vic_vila_glow_hardpoint.png",
+    "glowColor": [
+    255,
+    255,
+    255,
+    255
+	],
+  "turretOffsets": [
+    16,
+    0,
+    16.5,
+    0.5,
+    16.5,
+    -0.5,
+    17,
+    1,
+    17,
+    -1,
+    17.5,
+    1.5,
+    17.5,
+    -1.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    10,
+    -10,
+    20,
+    -20,
+    30,
+    -30
+  ],
+  "hardpointOffsets": [
+    24,
+    0,
+    24.5,
+    1,
+    24.5,
+    -1,
+    25,
+    1.5,
+    25,
+    -1.5,
+    25.5,
+    2,
+    25.5,
+    -2
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    10,
+    -10,
+    20,
+    -20,
+    30,
+    -30
+  ],
+  "autocharge": true,
+  "barrelMode": "LINKED",
+  "animationType": "GLOW_AND_FLASH",
+  "separateRecoilForLinkedBarrels":"TRUE",
+  "muzzleFlashSpec": {
+    "length": 20,
+    "spread": 5,
+    "particleSizeMin": 10,
+    "particleSizeRange": 5,
+    "particleDuration": 0.35,
+    "particleCount": 10,
+    "particleColor": [
+      0,
+      150,
+      255,
+      255
+    ]
+  },
+  "fireSoundOne": "vic_vila_chargeup",
+  "fireSoundTwo": "vic_vila_shot"
+}

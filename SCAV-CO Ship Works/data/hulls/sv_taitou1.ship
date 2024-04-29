@@ -1,0 +1,129 @@
+{
+  "hullName": "SCAV-CO The Taitou 1",
+  "hullId": "sv_taitou1",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/sv_taitou1.png",
+  "style": "MIDLINE",
+  "height": 220,
+  "width": 170,
+  "center": [85, 110],
+  "collisionRadius": 158.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 150.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "augmentedengines",
+    "tow_cable",
+    "civgrade",
+    "high_maintenance",
+    "drive_field_stabilizer"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 168,
+      "angle": -80,
+      "locations": [76, -46]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 168,
+      "angle": 80,
+      "locations": [76, 46]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -77.5,
+      "locations": [-9, -72]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 77.5,
+      "locations": [-9, 72]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 337,
+      "angle": -90,
+      "locations": [-43, -60]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 337,
+      "angle": 90,
+      "locations": [-43, 60]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-109, -45.5],
+      "length": 73,
+      "width": 28,
+      "angle": 180,
+      "contrailSize": 28,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-109, 45.5],
+      "length": 73,
+      "width": 28,
+      "angle": -180,
+      "contrailSize": 28,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-109, -27],
+      "length": 73,
+      "width": 28,
+      "angle": 180,
+      "contrailSize": 28,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-109, 27],
+      "length": 73,
+      "width": 28,
+      "angle": -180,
+      "contrailSize": 28,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -104.5, 57,
+    -74.5, 71.5,
+    -38, 71.5,
+    -25.5, 63.5,
+    60, 63.5,
+    60.5, 40.5,
+    97.5, 40.5,
+    103.5, 33,
+    103.5, -33,
+    97.5, -40.5,
+    60.5, -40.5,
+    60, -63.5,
+    -25.5, -63.5,
+    -38, -71.5,
+    -74.5, -71.5,
+    -104.5, -57
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "id": "vic",
+  "color": [238, 158, 0, 255],
+  "baseUIColor":[238,158,0,255],
+  "darkUIColor":[50,50,50,175],
+  "secondaryUIColor":[50,50,50,255],
+  "secondarySegments":6,
+  
+  "displayName": "VIC",
+  "displayNameWithArticle": "the VIC",
+  "displayNameLong": "Volkov Industrial Conglomerate",
+  "displayNameLongWithArticle": "the Volkov Industrial Conglomerate",
+  "logo": "graphics/factions/vic_flag.png",
+  "crest": "graphics/factions/vic_crest.png",
+  "shipNamePrefix": "ASCV",
+  "shipNameSources": {
+	"vic":10,
+	"vic_memes":0.5,
+  },
+  "names": {
+    "modern": 1,
+    "world": 1,
+    "future": 1,
+	"myth":1,
+	"old_english":1,
+	"vic_russian":1,    
+  },
+  # variantOverrides restricts hulls to listed variants and adjusts their probability
+  "variantOverrides": {
+  },
+  
+  # multiplier for how often hulls show up in the faction's fleets
+ "hullFrequency": {
+	"hulls":{
+ 			"vic_pruflas":1,
+			"vic_xaphan":1,
+            "vic_nybbas":0.05,
+			"vic_kobal":1,
+			"vic_jezebeth":1,
+            "vic_moloch":1.5,
+			"vic_samael":1,
+			"vic_thamuz":1,
+            "vic_valafar":1.5,
+			"vic_focalor_m":1,
+			"vic_focalor_l":1,
+			"vic_cresil":1,
+			"vic_oriax":0.75,
+			"vic_raum":0.65,
+			"vic_apollyon":0.5,
+    },
+  },
+  
+  # ships the faction gets access to when importing S&W out-of-faction
+    "shipsWhenImporting":{
+        "tags":["base_bp", "midline_bp", "eis_bp", "LP_bp", "diable_ship_bp", "vic_t2hulls_bp", "vic_t1hulls_bp",],
+        "hulls":[
+        ],
+    },
+  
+  "knownShips":{
+		"tags":["vic_t2hulls_bp", "vic_t1hulls_bp"],
+		"hulls":[
+			"dram",
+			"phaeton",
+			"prometheus",
+			"buffalo",
+			"mule",
+			"colossus",
+		    "atlas",
+			"vic_pruflas",
+			"vic_xaphan",
+			"vic_nybbas",
+			"vic_kobal",
+			"vic_jezebeth",
+			"vic_moloch",
+			"vic_samael",
+			"vic_thamuz",
+			"vic_valafar",
+			"vic_cresil",
+			"vic_focalor_m",
+			"vic_focalor_l",
+			"vic_oriax",
+			"vic_raum",
+			"vic_apollyon",
+		],
+	},
+  # listing ships here will make the faction mostly use them even if other hulls become available
+  "priorityShips": {
+    "tags": [],
+    "hulls": [
+			"phaeton",
+			"prometheus",
+			"buffalo",
+			"mule",
+			"colossus",
+		    "atlas",
+			"vic_pruflas",
+			"vic_xaphan",
+			"vic_nybbas",
+			"vic_kobal",
+			"vic_jezebeth",
+			"vic_moloch",
+			"vic_samael",
+			"vic_thamuz",
+			"vic_valafar",
+			"vic_focalor_m",
+			"vic_focalor_l",
+			"vic_cresil",
+			"vic_oriax",
+			"vic_apollyon",
+			"vic_raum",
+      ],
+  },
+  "knownFighters":{
+		"tags":["vic_figthers_bp"],
+		"fighters":[
+		],
+	},
+  "priorityFighters": {
+    "tags": [],
+    "fighters": [
+    ],
+  },
+  	"knownWeapons":{
+		"tags":["vic_t2weapons_bp","vic_t1weapons_bp"],
+		"weapons":[
+			"lightag",
+			"heavymg",
+			"chaingun",
+			"dualflak",
+			"mark9",
+			"hellbore",
+			"multineedler",
+			"gauss",
+			"mjolnir",
+			
+			"reaper",
+			"harpoon",
+			"harpoon_single",
+			"sabot",
+			"sabot_single",
+			"harpoonpod",
+			"sabotpod",
+			"phasecl",
+			"typhoon",
+			"cyclone",
+			"hurricane",
+			"squall",
+			
+			"pdlaser",
+			"lrpdlaser",
+			"amblaster",
+			"phasebeam",
+			"gravitonbeam",
+			"pulselaser",
+			"ionbeam",
+			"plasma",
+			"hil",
+			"autopulse",
+			"tachyonlance",
+		],
+	},
+  "priorityWeapons": {
+    "tags": ["vic_t2weapons_bp","vic_t1weapons_bp"],
+    "weapons": [
+    ],
+  },
+  "knownHullMods": {
+    "tags": ["base_bp"],
+    "hullMods": [
+		"advancedshieldemitter", # accelerated
+		"turretgyros",
+		"armoredweapons",
+		"augmentedengines",
+		"converted_hangar",
+		"expanded_deck_crew",
+		"magazines",
+		"missleracks",
+		"heavyarmor",
+		"insulatedengine",
+		"nav_relay",
+		"operations_center",
+		"recovery_shuttles",
+		"fluxbreakers",
+		"surveying_equipment",
+		"efficiency_overhaul",
+		"advancedoptics",
+		"solar_shielding",
+		"shielded_holds",
+		"recovery_shuttles",
+		"fluxcoil",
+		"fluxdistributor",
+		"eccm",
+		"ecm",
+		"hardenedshieldemitter",
+		"pointdefenseai",
+		"targetingunit",
+		"stabilizedshieldemitter",
+		"hiressensors",
+		"vic_assault",
+		"vic_deathProtocol",
+		"vic_allRoundShieldUpgrade",
+		"vic_loaderOverdrive",
+		"vic_PDArcEmitter",
+		"vic_ShturmSolution",
+    ],
+  },
+  
+  "factionDoctrine": {
+    "warships": 4,
+    "carriers": 2,
+    "phaseShips": 1,
+	
+    "officerQuality": 2,
+    "shipQuality": 3,
+    "numShips": 2,
+	
+    "shipSize": 4,
+	
+    "aggression": 4,
+
+    "combatFreighterProbability": 0, # instead of some portion of the freighters in a fleet
+    "combatFreighterCombatUseFraction": 0, # as part of the normal combat lineup
+    "combatFreighterCombatUseFractionWhenPriority": 0, # as part of normal combat lineup, when marked as priority ship
+	
+    "autofitRandomizeProbability": 0.25,
+	
+    "commanderSkillsShuffleProbability": 0,
+    "commanderSkills": [
+			"coordinated_maneuvers",
+			"flux_regulation",
+			"electronic_warfare",
+			"crew_training",
+			"officer_training",
+			"fighter_uplink",
+			"carrier_group",			
+    ],
+  },
+  "illegalCommodities": [
+    "ai_cores",
+  ],
+  "music": {
+    "theme": "music_vic_market_neutral",
+	
+    "market_neutral": "music_vic_market_neutral",
+    "market_hostile": "music_vic_market_hostile",
+    "market_friendly": "music_vic_market_friendly",
+	
+    "encounter_neutral": "music_vic_encounter_neutral",
+    "encounter_hostile": "music_vic_encounter_hostile",
+    "encounter_friendly": "music_vic_encounter_friendly",
+  },
+  "internalComms":"tritachyon_internal",
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/vic_dude1.jpg",
+			"graphics/portraits/vic_dude2.jpg",
+			"graphics/portraits/vic_dude3.jpg",
+			"graphics/portraits/vic_dude4.jpg",
+			"graphics/portraits/vic_dude5.jpg",
+			"graphics/portraits/vic_dude7.jpg",
+			"graphics/portraits/vic_dude8.jpg",
+			"graphics/portraits/vic_dude9.jpg",
+			"graphics/portraits/vic_dude10.jpg",
+		],
+		"standard_female":[
+			"graphics/portraits/vic_gurl1.jpg",
+			"graphics/portraits/vic_gurl2.jpg",
+			"graphics/portraits/vic_gurl3.jpg",
+			"graphics/portraits/vic_gurl5.jpg",
+			"graphics/portraits/vic_gurl6.jpg",
+			"graphics/portraits/vic_gurl7.jpg",
+			"graphics/portraits/vic_gurl8.jpg",
+			"graphics/portraits/vic_gurl9.jpg",
+			"graphics/portraits/vic_gurl10.jpg",
+			"graphics/portraits/vic_gurl11.png",
+			"graphics/portraits/vic_gurl12.jpg",
+			"graphics/portraits/vic_gurl13.png",
+		],
+	},
+	"ranks":{
+		"ranks":{	
+		    "factionLeader":{"name":"CEO"},
+			"formerFactionLeader":{"name":"Former CEO"},
+			"vicHighExecutive":{"name":"High Executive Officer"},
+
+		        
+		    "spaceSailor":{"name":"Able Spacer"},
+			"spaceChief":{"name":"Aerospace Corps Warrant Officer"},
+			"spaceCommander":{"name":"Aerospace Corps Commander"},
+		    "spaceEnsign":{"name":"Aerospace Corps Pilot Officer"},
+		    "spaceLieutenant":{"name":"Aerospace Corps Lieutenant"},
+		    "spaceCaptain":{"name":"Aerospace Corps Captain"},
+			"spaceAdmiral":{"name":"Aerospace Corps Admiral"},
+			"spaceMarshal":{"name":"Aerospace Corps Grand Admiral"},
+		
+			"groundPrivate":{"name":"Ground Defence Executive Specialist"},
+			"groundSergeant":{"name":"Assistant Ground Defence Commander"},
+			"groundLieutenant":{"name":"Ground Defence Commander"},
+			"groundCaptain":{"name":"Assistant Ground Defence Manager"},
+			"groundMajor":{"name":" Ground Defence Manager"},
+			"groundColonel":{"name":"Planetary Defence Manager"},
+			"groundGeneral":{"name":"Planetary Defence Director"},
+			
+			"citizen":{"name":"Citizen"},
+			"agent":{"name":"Operative"},
+		},
+		"posts":{
+			"factionLeader":{"name":"CEO"},
+				
+			"patrolCommander":{"name":" Aerospace Corps Patrol Commander"},
+			"fleetCommander":{"name":"Aerospace Corps Fleet Commmander"},
+			
+			"baseCommander":{"name":"Base Manager"},
+			"stationCommander":{"name":"Orbital Station Director"},
+			"outpostCommander":{"name":"Outpost Manager"},
+			"portmaster":{"name":"Port Manager"},
+			
+			"supplyOfficer":{"name":"Logistics Manager"},
+			"supplyManager":{"name":"Logistics Director"},
+			
+			"administrator":{"name":"Planetary Manager"},
+			"freeAdmin":{"name":"Freelance Planetary Manager"},
+
+			"vicPRDirector":{"name":"Advertisment and PR Dept. Director"},
+			"vicBIODirector":{"name":"Bio-Research Dept. Director"},
+			"vicTECHDirector":{"name":"Technological Advancement Dept. Director"},
+			"vicINTELDirector":{"name":"Intelligence and Inner Sec. Dept. Director"},
+			"vicFOUNDERDirector":{"name":"VIC Founder"},
+		},
+	},
+	
+  "custom": {
+    "offersCommissions": true,
+    "engagesInHostilities": true,
+    "buysAICores": true,
+    "AICoreValueMult": 2,
+    "AICoreRepMult": 1,
+    "buysSurveyData": true,
+    "hostilityImpactOnGrowth": true,
+    "caresAboutAtrocities": false,
+    "punitiveExpeditionData": {
+      "vsCompetitors": true,
+      "vsFreePort": false,
+      "canBombard": true,
+      "territorial": true,
+    },
+  },
+  "fleetTypeNames": {
+    "trade": "Grand Investment Fleet",
+    "smallTrader": "Distribution Convoy",
+	"tradeSmuggler":"Freelance Courier",
+    "tradeLiner": "VIC Spaceline Flight",
+	
+	
+    "patrolSmall": "Aerospace Corps Squadron",
+    "patrolMedium": "Aerospace Corps Fleet",
+    "patrolLarge": "Aerospace Corps Armada",
+	
+    "inspectionFleet": "Strategic Auditory Expedition",
+    "taskForce": "Special Procedures Fleet",
+	
+	"foodReliefFleet":"Financial Infusion Fleet",
+  },
+}
+

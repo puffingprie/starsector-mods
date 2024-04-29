@@ -1,0 +1,14 @@
+{
+	"starts":[
+		{
+			"id":"yamatoStart",
+			"name":"Space Battleship Yamato",
+			"difficulty":"Easy",
+			"desc":"A sleeping behemoth, an inheritance, a destiny. Reactivate this legendary battleship and forge a legend of your own.",
+			"className":"data.scripts.campaign.customstart.II_YamatoStart",
+			"factionId":"player",
+			"requiredModId":"swp",
+			"randomSector":0,
+		},
+	],
+}

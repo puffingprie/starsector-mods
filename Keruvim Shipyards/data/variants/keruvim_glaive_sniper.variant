@@ -1,0 +1,51 @@
+{
+  "displayName": "Sniper",
+  "fluxCapacitors": 15,
+  "fluxVents": 9,
+  "goalVariant": true,
+  "hullId": "keruvim_glaive",
+  "hullMods": [
+    "targetingunit"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "keruvim_glaive_sniper",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "typhoon",
+        "WS0006": "typhoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "gauss",
+        "WS0002": "gauss"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "ioncannon",
+        "WS0008": "ioncannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "flak",
+        "WS0004": "flak"
+      }
+    }
+  ],
+  "wings": [
+    "keruvim_silkworm"
+  ]
+}

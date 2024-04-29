@@ -1,0 +1,182 @@
+{
+  "hullName": "Kriss",
+  "hullId": "expsp_kris",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/expsp_kris.png",
+  "style": "EXPSP_MVS",
+  "height": 70,
+  "width": 64,
+  "center": [33, 26],
+  "collisionRadius": 75.5,
+  "shieldCenter": [4.5, -0],
+  "shieldRadius": 51,
+  "viewOffset": 0,
+  "builtInMods": [
+    "machinatargetingsystems"
+  ],
+  "builtInWeapons": {
+    "WS0003": "expsp_coilciwsbuiltin",
+    "WS0004": "expsp_coilciwsbuiltin",
+    "WS0005": "expsp_vernier",
+    "WS0006": "expsp_vernier",
+    "WS0007": "expsp_flarelauncher_crimson",
+    "WS0008": "expsp_flarelauncher_crimson",
+    "WS0009": "expsp_vernier",
+    "WS0010": "expsp_vernier"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [36, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-6, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [10, 14]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [10, -14]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 145.5,
+      "locations": [-5, 12]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -145.5,
+      "locations": [-5, -12]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 90,
+      "locations": [24.5, 7]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -90,
+      "locations": [24.5, -7]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [1.5, 19.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [1.5, -19.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-3, 21.5],
+      "length": 17.013996,
+      "width": 5.108397,
+      "angle": 151,
+      "contrailSize": 5.108397,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    },
+    {
+      "location": [-3, -21.5],
+      "length": 17.013996,
+      "width": 5.108397,
+      "angle": -151,
+      "contrailSize": 5.108397,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    },
+    {
+      "location": [-17, -0],
+      "length": 23,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-16, 6],
+      "length": 23,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-16, -6],
+      "length": 23,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    }
+  ],
+  "bounds": [
+    -18, -10.5,
+    -20, -16.5,
+    -12.5, -22.5,
+    -6, -17,
+    3, -14.5,
+    3, -14.5,
+    38.5, -5,
+    38.5, 5,
+    3, 14.5,
+    3, 14.5,
+    -6, 17,
+    -12.5, 22.5,
+    -20, 16.5,
+    -18, 10.5
+  ]
+}

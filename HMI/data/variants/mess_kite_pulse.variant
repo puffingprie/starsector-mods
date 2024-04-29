@@ -1,0 +1,29 @@
+{
+  "variantId": "mess_kite_pulse",
+  "hullId": "mess_kite",
+  "displayName": "Pulser",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "irpulse"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "ioncannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

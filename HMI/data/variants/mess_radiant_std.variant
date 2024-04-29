@@ -1,0 +1,66 @@
+{
+  "variantId": "mess_radiant_std",
+  "hullId": "mess_radiant",
+  "displayName": "Balanced",
+  "goalVariant": true,
+  "fluxCapacitors": 23,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 000": "hurricane",
+        "WS 001": "hurricane"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 012": "sabot",
+        "WS 013": "sabot",
+        "WS 014": "sabot",
+        "WS 015": "sabot"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 002": "gauss",
+        "WS 004": "gauss"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 005": "heavymauler",
+        "WS 006": "heavymauler",
+        "WS 007": "heavymauler",
+        "WS 008": "heavymauler",
+        "WS 011": "ioncannon",
+        "WS 016": "ioncannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 003": "guardian",
+        "WS 009": "pdburst",
+        "WS 010": "pdburst",
+        "WS 017": "pdburst",
+        "WS 018": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,25 @@
+{
+  "variantId": "sv_roughrider_standerd",
+  "hullId": "sv_roughrider",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 2,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sv_daneaxe"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

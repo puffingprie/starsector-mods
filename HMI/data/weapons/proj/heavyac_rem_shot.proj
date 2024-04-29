@@ -1,0 +1,20 @@
+{
+	"id":"heavyac_rem_shot",
+	"specClass":"projectile",
+	#"onHitEffect":"data.scripts.weapons.Autocannon_Rem_Fire",
+	"onHitEffect":"data.scripts.weapons.RemAutocannonOnHitEffect",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":30.0,
+	"hitGlowRadius":18,
+	"width":4,
+	"fadeTime":0.20,
+	#"fringeColor":[255,255,100,255],
+	#"coreColor":[255,255,200,150],
+	"fringeColor":[225,220,255,235],
+	"coreColor":[225,255,205,200],	
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_large_green.png"
+}

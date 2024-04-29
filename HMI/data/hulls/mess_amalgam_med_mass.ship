@@ -1,0 +1,214 @@
+{
+  "hullName": "Medium Amalgam Mass",
+  "hullId": "mess_amalgam_med_mass",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/mess/amalgam_med_mess.png",
+  "style": "LOW_TECH",
+  "height": 110,
+  "width": 108,
+  "center": [54, 55],
+  "collisionRadius": 66.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 65,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [34.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [31, 20]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [26, -23]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 123,
+      "locations": [-8, 41]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 130.5,
+      "locations": [-17.5, 34]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 180,
+      "locations": [-38, -26]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 159,
+      "angle": 0,
+      "locations": [14, -9]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 159,
+      "angle": -90,
+      "locations": [2, -20.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -41.5,
+      "locations": [6, 14.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 135,
+      "locations": [-34, -14.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 106,
+      "angle": 180,
+      "locations": [-19.5, 9]
+    },
+    {
+      "id": "WS0012",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 249,
+      "angle": 59.5,
+      "locations": [17, 29.5]
+    },
+    {
+      "id": "WS0013",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 249,
+      "angle": -158,
+      "locations": [-19, -26]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-39.5, 22],
+      "length": 24,
+      "width": 23,
+      "angle": 180,
+      "contrailSize": 23,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-42.5, 7],
+      "length": 23.5,
+      "width": 26,
+      "angle": 180,
+      "contrailSize": 26,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-47, -7],
+      "length": 15,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-47.5, -15.5],
+      "length": 19.650131,
+      "width": 6.594639,
+      "angle": -172,
+      "contrailSize": 6.594639,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [15.5, -42.5],
+      "length": 9.350679,
+      "width": 9.760079,
+      "angle": -57,
+      "contrailSize": 9.760079,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [21.5, -39],
+      "length": 9.536152,
+      "width": 5.499751,
+      "angle": -57,
+      "contrailSize": 5.499751,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [3, 42.5],
+      "length": 12.986516,
+      "width": 7.443229,
+      "angle": 67,
+      "contrailSize": 7.443229,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    50.5, -14,
+    50, 16.5,
+    38.5, 18,
+    37.5, 26.5,
+    18.5, 43,
+    -10, 47.5,
+    -39, 29,
+    -41.5, 2,
+    -49.5, -4,
+    -43, -34,
+    -15.5, -40.5,
+    -7, -37,
+    8.5, -40,
+    15, -45,
+    27, -36,
+    20.5, -30,
+    32.5, -28.5,
+    32.5, -17
+  ]
+}

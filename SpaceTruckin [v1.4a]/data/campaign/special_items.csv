@@ -1,0 +1,4 @@
+name,id,tags,tech/manufacturer,rarity,base price,stack size,cargo space,baseRaidDanger,icon,sound id,sound id drop,plugin,plugin params,desc,order
+Parcels,st_parcels,"st_parcel, st_cargo, st_nosell, nonecon",USL,,1,1000,1,,graphics/icons/cargo/st_parcels.png,ui_cargo_goods,ui_cargo_goods_drop,Commodities.Parcels,,"A collection of USL sorted and packaged parcels, ready for the next stop in the logistics chain.
+
+Dropping any portion of these items during a contract will result in immediate contract failure. If parcels must be dropped, remaining parcels can be turned in at any USL facility.",500

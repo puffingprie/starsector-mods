@@ -1,0 +1,17 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "ii_tribunal",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "ii_tribunal_sta",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ii_triplepbc_station"}
+        }
+    ]
+}

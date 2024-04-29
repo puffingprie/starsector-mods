@@ -1,0 +1,52 @@
+{
+  "hullName": "Bombardment Drone",
+  "hullId": "support_bombardment_drone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/support_bombardment_drone.png",
+  "style": "LOW_TECH",
+  "height": 23,
+  "width": 28,
+  "center": [14, 11.5],
+  "collisionRadius": 26,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 21.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hmi_safetyoverrides"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [0, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-10.5, 6.5],
+      "length": 13,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-10.5, -6.5],
+      "length": 13,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    -10, -14,
+    11, -14,
+    11, 14,
+    -10, 14
+  ]
+}

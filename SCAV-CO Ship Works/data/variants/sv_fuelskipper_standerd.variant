@@ -1,0 +1,34 @@
+{
+  "variantId": "sv_fuelskipper_standerd",
+  "hullId": "sv_fuelskipper",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 11,
+  "fluxVents": 12,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "ionbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sv_rustybarrellauncher",
+        "WS0002": "sv_rustybarrellauncher",
+        "WS0003": "sv_flyswatter",
+        "WS0004": "sv_flyswatter",
+        "WS0005": "sv_flyswatter",
+        "WS0006": "sv_flyswatter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

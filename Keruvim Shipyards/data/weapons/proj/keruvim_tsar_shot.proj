@@ -1,0 +1,16 @@
+{
+	"id":"keruvim_tsar_shot",
+	"specClass":"projectile",
+	"onHitEffect":"com.fs.starfarer.api.impl.combat.IonCannonOnHitEffect",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":70.0,
+	"width":60.0,
+	"fadeTime":0.5,
+	"hitGlowRadius":45,
+	"fringeColor":[3,48,252,255],
+	"coreColor":[255,47,0,255],
+	#"fringeColor":[255,0,0,255],
+	#"coreColor":[255,100,255,255],	
+}

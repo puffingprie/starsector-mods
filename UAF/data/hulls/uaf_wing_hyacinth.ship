@@ -1,0 +1,157 @@
+{
+  "hullName": "Hyacinth",
+  "hullId": "uaf_wing_hyacinth",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/hyacinth_hbmb.png",
+  "style": "UAF_FIGHTER_M",
+  "height": 95,
+  "width": 120,
+  "center": [60, 46],
+  "collisionRadius": 65.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 76,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_limitedAmmo"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 302,
+      "angle": 0,
+      "locations": [22, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 92,
+      "angle": 180,
+      "locations": [-22, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-39, -0]
+    },
+    {
+      "id": "BM0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [38, -14]
+    },
+    {
+      "id": "BM0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [38, 14]
+    },
+    {
+      "id": "BM0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [25, -28]
+    },
+    {
+      "id": "BM0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [25, 28]
+    },
+    {
+      "id": "BM0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [48, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [8.5, 23.5],
+      "length": 20.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [8.5, -23.5],
+      "length": 20.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [10, -19],
+      "length": 20.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [10, 19],
+      "length": 20.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [12, -14.5],
+      "length": 20.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [12, 14.5],
+      "length": 20.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "MELODY_ENGINE_H"
+    }
+  ],
+  "bounds": [
+    -43.5, 4.5,
+    -27.5, 10,
+    -32, 16,
+    -5.5, 50.5,
+    -6.5, 58.5,
+    1.5, 58,
+    48, 1.5,
+    48, -1.5,
+    1.5, -58,
+    -6.5, -58.5,
+    -5.5, -50.5,
+    -32, -16,
+    -27.5, -10,
+    -43.5, -4.5
+  ]
+}

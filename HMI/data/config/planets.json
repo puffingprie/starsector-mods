@@ -1,0 +1,37 @@
+{
+    "haunted":{
+            "name":"Haunted",
+			"tilt":-40, # left-right (>0 tilts to the left)
+			"pitch":12, # towards-away from the viewer (>0 pitches towards)
+			"rotation":-2.6, # degrees/second
+            "planetColor":[255,255,255,255],
+            "atmosphereThickness":0, # as fraction of radius.  Set to 0 for no atmosphere
+            "atmosphereThicknessMin":20, #  minimum thickness in pixels
+            "atmosphereColor":[51,0,107,60],
+            "texture":"graphics/planets/planet_haunted01.jpg",
+            "icon":"graphics/warroom/icon_planet.png",
+            "iconColor":[173,74,74,255],
+            "isStar":false,
+            "lightPosition":[0,0,1], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+            "glowColor":[255,255,255,255],
+            "useReverseLightForGlow":false,
+    },
+	"hmi_crystalline":{
+        "name":"Crystalline",
+		"tilt":30, # left-right (>0 tilts to the left)
+		"pitch":0, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.04, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":30, #  minimum thickness in pixels
+		"atmosphereColor":[130,220,230,90],
+		"texture":"graphics/planets/planet_crystal01.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[255,255,255,255],
+		"isStar":false,
+		"lightPosition":[-10,1,0], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+		"cloudTexture":"graphics/planets/clouds_banded01.png", # omit for no cloud layer
+		"cloudColor":[120,210,230,150],
+		"cloudRotation":-5, # degrees/second, optional
+    },
+}

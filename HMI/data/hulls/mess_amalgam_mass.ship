@@ -1,0 +1,123 @@
+{
+  "hullName": "Amalgamate Mass",
+  "hullId": "mess_amalgam_mass",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/mess/amalgam_mess.png",
+  "style": "HIGH_TECH",
+  "height": 84,
+  "width": 70,
+  "center": [35, 42],
+  "collisionRadius": 55.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 52.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-12, -19]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -160.5,
+      "locations": [-24.5, 5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 114,
+      "angle": 91.5,
+      "locations": [4, 16]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 212,
+      "angle": -28,
+      "locations": [13, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 17,
+      "angle": 4,
+      "locations": [35.5, -2]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 27,
+      "angle": -13,
+      "locations": [13, -27]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-37.5, -12],
+      "length": 7.654536,
+      "width": 12.908614,
+      "angle": -138,
+      "contrailSize": 12.908614,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-33.5, 23],
+      "length": 17.094317,
+      "width": 9.007627,
+      "angle": 157,
+      "contrailSize": 9.007627,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [23.5, 25.5],
+      "length": 9.591421,
+      "width": 11.0462,
+      "angle": 11.5,
+      "contrailSize": 11.0462,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-38, 0.5],
+      "length": 19.145453,
+      "width": 16.334219,
+      "angle": 179,
+      "contrailSize": 16.334219,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    40, -1.5,
+    23, 17.5,
+    22, 29.5,
+    -3.5, 26,
+    -11, 34,
+    -26.5, 27,
+    -34.5, 25.5,
+    -39.5, -0.5,
+    -32.5, -17,
+    -26.5, -17,
+    -19, -32,
+    -1.5, -28,
+    16.5, -33,
+    16, -17
+  ]
+}

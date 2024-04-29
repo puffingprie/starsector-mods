@@ -1,0 +1,69 @@
+{
+  "hullName": "UAF Hibiscus Wing",
+  "hullId": "uaf_wing_hibiscus",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Hibiscus.png",
+  "style": "UAF_FIGHTER_S",
+  "height": 39,
+  "width": 38,
+  "center": [19, 21],
+  "collisionRadius": 22,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 20,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_limitedAmmo"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [7, 9]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [7, -9]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [3, 6],
+      "length": 10,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [3, -6],
+      "length": 10,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "MELODY_ENGINE_H"
+    }
+  ],
+  "bounds": [
+    -17, 0.5,
+    -20, 6.5,
+    -15, 7,
+    -6, 17.5,
+    4.5, 17,
+    17, 1.5,
+    17, -1.5,
+    4.5, -17,
+    -6, -17.5,
+    -15, -7,
+    -20, -6.5,
+    -17, -0.5
+  ]
+}

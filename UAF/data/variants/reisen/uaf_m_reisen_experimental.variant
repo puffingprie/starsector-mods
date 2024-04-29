@@ -1,0 +1,93 @@
+{
+  "variantId": "uaf_m_reisen_experimental",
+  "hullId": "uaf_m_reisen",
+  "displayName": "Experimental",
+  "goalVariant": true,
+  "fluxCapacitors": 11,
+  "fluxVents": 40,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0013": "uaf_kanshee_sxc",
+        "WS0014": "uaf_kanshee_sxc"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "uaf_cyrexa_ii_sxc",
+        "WS0012": "uaf_cyrexa_ii_sxc"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0019": "uaf_clemente_s_mrm_double",
+        "WS0020": "uaf_selemene_m_mrm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_catun_ii_erg",
+        "WS0002": "uaf_catun_ii_erg",
+        "WS0015": "uaf_tona_ii",
+        "WS0016": "uaf_tona_ii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "uaf_weiss_flk",
+        "WS0008": "uaf_weiss_flk",
+        "WS0017": "uaf_yokata_155_cn",
+        "WS0018": "uaf_yokata_155_cn"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_edge_type_i",
+        "WS0004": "uaf_edge_type_i",
+        "WS0005": "uaf_merupaka_epd",
+        "WS0006": "uaf_merupaka_epd"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "uaf_flair_pod",
+        "WS0010": "uaf_flair_pod"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0021": "uaf_m_reisen_armor_plating"
+    },
+    {
+      "WS0022": "uaf_m_reisen_armor_plating"
+    },
+    {
+      "WS0023": "uaf_m_reisen_armor_plating"
+    },
+    {
+      "WS0024": "uaf_m_reisen_armor_plating"
+    }
+  ],
+  "wings": []
+}

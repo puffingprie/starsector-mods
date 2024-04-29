@@ -1,0 +1,17 @@
+{
+			
+			
+			
+			
+		
+			
+    "music":{
+        "mvs_theme_friendly":[
+            {"file":"mvs_theme_friendly.ogg","source":"sounds/music","volume":0.9,"randomStart":false}
+        ],
+         "mvs_theme_neutral":[
+            {"file":"mvs_theme_neutral.ogg","source":"sounds/music","volume":0.9,"randomStart":false}
+        ],
+    },
+			
+}

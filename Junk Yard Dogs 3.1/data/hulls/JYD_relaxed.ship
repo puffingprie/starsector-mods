@@ -1,0 +1,78 @@
+{
+  "hullName": "Relaxed",
+  "hullId": "JYD_relaxed",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/JYD_relaxed.png",
+  "style": "LOW_TECH",
+  "height": 129,
+  "width": 79,
+  "center": [39.5, 64.5],
+  "collisionRadius": 88.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 86,
+  "viewOffset": 0,
+  "builtInMods": [
+    "reinforcedhull"
+  ],
+  "builtInWings": [
+    "JYD_Termite_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 0,
+      "locations": [42.5, 19.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 180,
+      "locations": [-5.5, 2.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        39, -28.5,
+        48, -28.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-63, -25],
+      "length": 29.5,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-63, 21],
+      "length": 29.5,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    73, -46,
+    -10, -42,
+    -71.5, -42.5,
+    -71.5, 42.5,
+    -10, 42,
+    73, 46
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "variantId": "expsp_attackfunnel_PD",
+  "hullId": "expsp_attackfunnel",
+  "displayName": "Point Defense Drone",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pdlaser",
+        "WS0002": "expsp_coilciwsmini"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

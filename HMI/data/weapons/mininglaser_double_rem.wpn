@@ -1,0 +1,69 @@
+{
+  "id": "mininglaser_double_rem",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "collisionClass":"RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/rem_double_mining_turret_base.png",
+  "turretGlowSprite": "graphics/weapons/rem_double_mining_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/rem_double_mining_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/weapons/rem_double_mining_hardpoint_glow.png",
+  "glowColor": [
+    255,
+    215,
+    75,
+    255
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    8,
+    0,
+    18,
+    -9,
+    18,
+    9
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    11,
+    0,
+    20,
+    -8,
+    20,
+    8
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "fringeColor": [
+    255,
+    215,
+    75,
+    255
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    100
+  ],
+  "convergeOnPoint": true,
+  "width": 10,
+  "textureType": SMOOTH,
+  "textureScrollSpeed": 292,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER
+  ],
+  "fireSoundOne": "laser_intro",
+  "fireSoundTwo": "laser_loop"
+}

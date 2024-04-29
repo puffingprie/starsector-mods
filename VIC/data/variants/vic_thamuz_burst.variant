@@ -1,0 +1,39 @@
+{
+    "displayName": "Fortress",
+    "fluxCapacitors": 22,
+    "fluxVents": 28,
+    "goalVariant": true,
+    "hullId": "vic_thamuz_alt",
+    "hullMods": [
+        "vic_allRoundShieldUpgrade",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vic_thamuz_burst",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "vic_psotnik",
+                "WS0013": "vic_psotnik"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "tachyonlance"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "vic_strigoy",
+                "WS0003": "vic_strigoy",
+                "WS0010": "vic_strigoy",
+                "WS0011": "vic_strigoy"
+            }
+        }
+    ]
+}

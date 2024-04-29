@@ -1,0 +1,21 @@
+{
+    "quality":0.5,
+    "displayName":"Assault Fighter",
+    "hullId":"ii_vicarius",
+    "variantId":"ii_vicarius_Heavy",
+    "fluxVents":0,
+    "fluxCapacitors":0,
+    "hullMods":[], # array of strings
+
+    # mode is either LINKED or ALTERNATING
+    # slot ids (WS ***) must match what's in the .ship file
+    "weaponGroups":[
+        {"mode":"LINKED",
+         "weapons":{
+                    "WS0002":"ii_arcus_f",
+                    "WS0003":"ii_arcus_f",
+                    "WS0004":"ii_siegemortar_f",
+                   },
+        },
+    ],
+}

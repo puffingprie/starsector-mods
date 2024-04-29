@@ -1,0 +1,74 @@
+{
+  "variantId": "expsp_dominion_Support",
+  "hullId": "expsp_dominion",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 2,
+  "fluxVents": 35,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "frontemitter",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_arcfusil",
+        "WS0002": "expsp_arcfusil"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "expsp_plinker",
+        "WS0004": "expsp_plinker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "expsp_plasmamrm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "expsp_chainhunter",
+        "WS0006": "expsp_chainhunter",
+        "WS0007": "expsp_coilciws",
+        "WS0008": "expsp_coilciws",
+        "WS0009": "expsp_coilciws",
+        "WS0010": "expsp_coilciws",
+        "WS0011": "expsp_coilciws",
+        "WS0012": "expsp_coilciws",
+        "WS0013": "expsp_coilciws",
+        "WS0014": "expsp_coilciws",
+        "WS0016": "expsp_coilciws",
+        "WS0017": "expsp_coilciws"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0018": "expsp_icarus",
+        "WS0019": "expsp_icarus"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "expsp_raze_wing",
+    "expsp_raze_wing",
+    "expsp_pierce_wing",
+    "expsp_glance_wing",
+    "expsp_glance_wing",
+    "expsp_glance_wing"
+  ]
+}

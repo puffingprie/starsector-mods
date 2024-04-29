@@ -1,0 +1,25 @@
+id
+# NOTES
+# Ship IDs entered here will be allowed by the Engineering hub (Reverse Engineering ship hulls)
+# Ships that would break the game (Balance/Technical/Lore) if the player could produce them via blueprint should not be on this list.
+"# Remember that we are all in this to have fun. Reverse Engineering is neither easy nor cheap, and forbidding too much takes away from player experience."
+ii_basileus
+ii_carrum
+ii_decurion
+ii_triarius
+ii_maximus
+ii_praetorian
+ii_interrex
+ii_legionary
+ii_princeps
+ii_lynx
+ii_libritor
+ii_ixon
+ii_sebastos
+ii_dictator
+ii_ardea
+ii_adamas
+ii_dominus
+ii_caesar
+ii_matriarch
+ii_barrus

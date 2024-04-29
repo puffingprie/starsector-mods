@@ -1,0 +1,53 @@
+{
+  "hullName": "Capital Terror",
+  "hullId": "hmi_spookyboi_back",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/mess/hmi_spookyboi_back.png",
+  "style": "LOW_TECH",
+  "height": 86,
+  "width": 88,
+  "center": [44, 43],
+  "collisionRadius": 59,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 57.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "always_detaches",
+    "hmi_terror_spawner_back1"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [
+    {
+      "location": [-12, 40.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-12, -40.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    -42.5, -9.5,
+    -29, -30.5,
+    -10.5, -43.5,
+    2.5, -42.5,
+    15.5, -42,
+    42, -19.5,
+    42, 19.5,
+    42, 33.5,
+    29, 33.5,
+    15.5, 42,
+    2.5, 42.5,
+    -10.5, 43.5,
+    -29, 30.5,
+    -42.5, 9.5
+  ]
+}

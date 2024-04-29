@@ -1,0 +1,53 @@
+{
+  "variantId": "expsp_scholarmvs_Assault",
+  "hullId": "expsp_scholarmvs",
+  "displayName": "Close Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 21,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "devastator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "expsp_coilciws_med",
+        "WS0003": "expsp_coilciws_med"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "expsp_poke",
+        "WS0005": "expsp_poke"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "expsp_particle_caliver",
+        "WS0007": "expsp_particle_caliver",
+        "WS0008": "expsp_coilciws",
+        "WS0009": "expsp_coilciws"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "expsp_thunderer_wing",
+    "expsp_glance_wing"
+  ]
+}

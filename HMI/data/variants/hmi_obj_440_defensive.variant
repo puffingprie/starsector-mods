@@ -1,0 +1,49 @@
+{
+  "variantId": "hmi_obj_440_defensive",
+  "hullId": "hmi_obj_440",
+  "displayName": "Defensive",
+  "goalVariant": true,
+  "fluxCapacitors": 16,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "harpoonpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "swarmer",
+        "WS0008": "swarmer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0010": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "dualflak",
+        "WS0002": "dualflak",
+        "WS0003": "flak",
+        "WS0004": "flak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

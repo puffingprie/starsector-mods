@@ -1,0 +1,38 @@
+{
+  "id": "vic_capacitonsDischarger",
+  "specClass": "projectile",
+  "projectileSpecId": "vic_dummy_proj",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "everyFrameEffect": "data.scripts.weapons.vic_capacitonsDischargerFire",
+  "turretSprite": "graphics/weapons/vic_tesla_cannon_base_turret.png",
+  "turretGlowSprite": "graphics/weapons/vic_tesla_cannon_glow_turret.png",
+  "hardpointSprite": "graphics/weapons/vic_tesla_cannon_base.png",
+  "hardpointGlowSprite": "graphics/weapons/vic_tesla_cannon_glow.png",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+    144,
+    255,
+    255,
+    255
+  ],
+  "turretOffsets": [
+    26,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    24,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW",
+  "autocharge": true,
+  "textureType": ROUGH,
+  "fireSoundTwo": "tachyon_lance_emp_impact"
+}

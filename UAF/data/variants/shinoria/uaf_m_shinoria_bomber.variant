@@ -1,0 +1,87 @@
+{
+  "variantId": "uaf_m_shinoria_bomber",
+  "hullId": "uaf_m_shinoria",
+  "displayName": "Bomber",
+  "goalVariant": true,
+  "fluxCapacitors": 28,
+  "fluxVents": 26,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "autorepair",
+    "armoredweapons",
+    "fluxbreakers",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "uaf_shimata_155_cn",
+        "WS0008": "uaf_shimata_155_cn",
+        "WS0009": "uaf_hikone_quad"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_exoscar_torpedo_base_shield",
+        "WS0002": "uaf_exoscar_torpedo_base_shield",
+        "WS0021": "uaf_vocal_s_srm",
+        "WS0022": "uaf_vocal_m_srm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "uaf_rhythm_base_triple",
+        "WS0012": "uaf_rhythm_base_triple"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "uaf_tona_i",
+        "WS0004": "uaf_tona_i"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "uaf_hikone_quad"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "uaf_pd_reina",
+        "WS0006": "uaf_pd_reina"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "uaf_racun_pod",
+        "WS0018": "uaf_racun_pod"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0019": "uaf_m_inazuma_left_armor_plating"
+    },
+    {
+      "WS0020": "uaf_m_inazuma_right_armor_plating"
+    }
+  ],
+  "wings": [
+    "uaf_wing_sakurai"
+  ]
+}

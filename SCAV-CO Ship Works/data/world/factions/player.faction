@@ -1,0 +1,34 @@
+{
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/sv_port01.png",
+			"graphics/portraits/sv_port02.png",
+			"graphics/portraits/sv_port03.png",
+			"graphics/portraits/sv_port04.png",
+			"graphics/portraits/sv_port06.png",
+			"graphics/portraits/sv_port20.png",
+			],
+		"standard_female":[
+			"graphics/portraits/sv_port05.png",
+			"graphics/portraits/sv_port07.png",
+			"graphics/portraits/sv_port08.png",
+			"graphics/portraits/sv_port09.png",
+			"graphics/portraits/sv_port10.png",
+			"graphics/portraits/sv_port11.png",
+			"graphics/portraits/sv_port12.png",
+			"graphics/portraits/sv_port13.png",
+			"graphics/portraits/sv_port14.png",
+			"graphics/portraits/sv_port15.png",
+			"graphics/portraits/sv_port16.png",
+			"graphics/portraits/sv_port17.png",
+			"graphics/portraits/sv_port18.png",
+			"graphics/portraits/sv_port19.png",
+		],
+	},
+	"knownShips":{
+		"tags":["scavco_bp"],
+		"hulls":[],
+	},
+}
+
+

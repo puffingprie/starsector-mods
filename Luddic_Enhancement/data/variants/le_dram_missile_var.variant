@@ -1,0 +1,12 @@
+{
+    "displayName": "Station Breaker",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "lp_dram_missile",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "le_dram_missile_var",
+    "weaponGroups": [
+    ],
+}

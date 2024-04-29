@@ -1,0 +1,31 @@
+{
+  "variantId": "uaf_minoria_superiority",
+  "hullId": "uaf_minoria",
+  "displayName": "Superiority",
+  "goalVariant": true,
+  "fluxCapacitors": 1,
+  "fluxVents": 3,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "recovery_shuttles",
+    "eccm",
+    "ecm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_pd_reina",
+        "WS0002": "uaf_pd_reina"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_superaria",
+    "uaf_wing_surreal"
+  ]
+}

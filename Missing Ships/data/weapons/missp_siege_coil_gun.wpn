@@ -1,0 +1,62 @@
+{
+  "id": "missp_siege_coil_gun",
+  "specClass": "projectile",
+  "projectileSpecId": "heavy_mjolnir_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "displayArcRadius": 450,
+  "turretSprite": "graphics/weapons/siege_coil_gun.png",
+  "turretGlowSprite": "graphics/weapons/siege_coil_gun_glow.png",
+  "turretGunSprite": "graphics/weapons/heavy_mjolmir_turret_recoil.png",
+  "turretUnderSprite": "graphics/weapons/heavy_mjolmir_under.png",
+  "hardpointSprite": "graphics/weapons/heavy_mjolnir_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/weapons/heavy_mjolnir_hardpoint_recoil.png",
+  "hardpointUnderSprite": "graphics/weapons/heavy_mjolnir_hardpoint_under.png",
+  "glowColor": [
+    100,
+    100,
+    255,
+    255
+  ],
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    40.5,
+    -11,
+    40.5,
+    11
+  ],
+  "turretAngleOffsets": [
+    -0,
+    0
+  ],
+  "hardpointOffsets": [
+    37,
+    -4.5,
+    37,
+    4.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "DUAL",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 100,
+    "spread": 5,
+    "particleSizeMin": 20,
+    "particleSizeRange": 20,
+    "particleDuration": 0.25,
+    "particleCount": 25,
+    "particleColor": [
+      100,
+      100,
+      255,
+      255
+    ]
+  },
+  "fireSoundTwo": "gauss_cannon_fire"
+}

@@ -1,0 +1,16 @@
+{
+	"baseHullId":"vanguard",
+	"skinHullId":"vanguard_lp",
+	"hullName":"Vanguard (LP)",
+	"descriptionId":"vanguard",
+	"descriptionPrefix":"Fanatics of the Luddic Path have made this ship their own, stripping out all unnecessary furnishing and transforming it into a haphazard vehicle of holy war.",
+	"tags":["LP_bp", "special_allows_system_use", "system_allows_special_use"],
+	"tech":"Luddic Path",
+	"spriteName":"graphics/ships/vanguard/vanguard_lp.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInWeapons":{},
+	"builtInMods":["safetyoverrides","ill_advised"],    
+}

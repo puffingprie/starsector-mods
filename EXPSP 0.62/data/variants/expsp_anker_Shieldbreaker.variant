@@ -1,0 +1,67 @@
+{
+  "variantId": "expsp_anker_Shieldbreaker",
+  "hullId": "expsp_anker",
+  "displayName": "Shieldbreaker",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "stabilizedshieldemitter",
+    "targetingunit",
+    "hardenedshieldemitter",
+    "magazines"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_railcannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "expsp_coilciws",
+        "WS0003": "expsp_coilciws",
+        "WS0010": "expsp_coilciws",
+        "WS0011": "expsp_coilciws"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "expsp_plinker",
+        "WS0007": "expsp_plinker",
+        "WS0008": "expsp_plinker",
+        "WS0009": "expsp_plinker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "expsp_poke_med",
+        "WS0005": "expsp_poke_med",
+        "WS0014": "expsp_poke",
+        "WS0015": "expsp_poke"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

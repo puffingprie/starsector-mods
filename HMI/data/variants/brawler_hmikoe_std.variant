@@ -1,0 +1,34 @@
+{
+  "variantId": "brawler_hmikoe_std",
+  "hullId": "brawler_hmikoe",
+  "displayName": "Attack",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "pulselaser",
+        "WS 002": "pulselaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 003": "hammer",
+        "WS 004": "hammer"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

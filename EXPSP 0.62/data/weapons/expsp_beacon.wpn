@@ -1,0 +1,65 @@
+{
+  "id": "expsp_beacon",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/expsp_beacon_large_turret_base.png",
+  "turretGlowSprite": "graphics/weapons/expsp_beacon_large_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/expsp_beacon_large_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/weapons/expsp_beacon_large_hardpoint_glow.png",
+  "glowColor": [
+    70,
+    252,
+    255,
+    255
+  ],
+  "hitGlowRadius": 75,
+  "turretOffsets": [
+    23,
+    5,
+    23,
+    -5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    31,
+    5,
+    31,
+    -5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "fringeColor": [
+    70,
+    252,
+    252,
+    255
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+ 	"darkCore":false,
+	"convergeOnPoint":false,
+  "width": 11,
+  "textureType": LASER,
+  "textureScrollSpeed": 260,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundTwo": "ion_beam_loop"
+}

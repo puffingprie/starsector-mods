@@ -1,0 +1,11 @@
+{	
+	"startShipsSuper":[
+		["sv_enkidu_standerd"],
+		["sv_gilgamesh_standerd"],
+		["sv_ultima_standard"],
+		["sv_alexander_standard"],
+	],
+	"startShipsCombatLarge":[
+		["sv_scrapslaught_standerd", "sv_fatherhold_standerd", "sv_mallet_standerd", "sv_mallet_standerd", "sv_roughrider_standerd"]
+	],
+}

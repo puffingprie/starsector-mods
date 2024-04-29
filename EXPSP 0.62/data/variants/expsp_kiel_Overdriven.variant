@@ -1,0 +1,49 @@
+{
+  "variantId": "expsp_kiel_Overdriven",
+  "hullId": "expsp_kiel",
+  "displayName": "Overdriven",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 1,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "safetyoverrides"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "plasma"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "chaingun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "expsp_coilciws",
+        "WS0004": "expsp_particle_caliver",
+        "WS0005": "expsp_coilciws_med",
+        "WS0006": "expsp_coilciws_med",
+        "WS0008": "expsp_coilciws"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "expsp_poke_med"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

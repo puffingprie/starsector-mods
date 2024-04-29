@@ -1,0 +1,167 @@
+{
+  "hullName": "Kobal",
+  "hullId": "vic_kobal",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Kobal/vic_Kobal.png",
+  "style": "VIC",
+  "height": 84,
+  "width": 154,
+  "center": [77, 45],
+  "collisionRadius": 87.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 78,
+  "viewOffset": 0,
+  "builtInMods": [
+    "vic_aerodynamicdesign",
+    "vic_dynamicshields",
+	"vic_convoyDrive"
+  ],
+  "builtInWeapons": {
+    "WS0001": "vic_kobal_deco_left",
+    "WS0002": "vic_kobal_deco_right",
+    "WS0003": "vic_kobal_engine_glow_sides",
+    "WS0003t": "vic_kobal_deco_middle",
+    "WS0007": "vic_kobal_engine_glow_sides",
+    "WS0008": "vic_kobal_engine_glow_middle"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [7, 35]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [7, -35]
+    },
+    {
+      "id": "WS0003t",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [18, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [23.5, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [12, 34]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [12, -34]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-21, 34],
+      "renderOrderMod": 4
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-21, -34],
+      "renderOrderMod": 4
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-42, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-21, 34],
+      "length": 36,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "VOLKOV-LAIDLAW'S"
+    },
+    {
+      "location": [-21, -34],
+      "length": 36,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "VOLKOV-LAIDLAW'S"
+    },
+    {
+      "location": [-42, 0],
+      "length": 48,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "CUSTOM",
+      "styleId": "VOLKOV-LAIDLAW'S"
+    }
+  ],
+  "bounds": [
+    -41, 6.5,
+    -17, 8.5,
+    -34.5, 13,
+    -42, 21,
+    -5, 21,
+    -7.5, 28,
+    -20, 28,
+    -20, 40.5,
+    -7.5, 40.5,
+    -3.5, 68,
+    5.5, 77,
+    37.5, 9,
+    37.5, -9,
+    5.5, -77,
+    -3.5, -68,
+    -7.5, -40.5,
+    -20, -40.5,
+    -20, -28,
+    -7.5, -28,
+    -5, -21,
+    -42, -21,
+    -34.5, -13,
+    -17, -8.5,
+    -41, -6.5
+  ]
+}

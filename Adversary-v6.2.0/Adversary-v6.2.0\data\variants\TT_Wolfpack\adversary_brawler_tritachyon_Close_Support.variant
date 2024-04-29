@@ -1,0 +1,42 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "hullId": "brawler_tritachyon",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "stabilizedshieldemitter",
+        "fluxcoil",
+        "fluxdistributor",
+        "targetingunit"
+    ],
+    "permaMods": [
+        "hardenedshieldemitter",
+        "stabilizedshieldemitter"
+    ],
+    "sMods": [
+        "hardenedshieldemitter",
+        "stabilizedshieldemitter"
+    ],
+    "variantId": "adversary_brawler_tritachyon_Close_Support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "pulselaser"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 003": "breach",
+                "WS 004": "breach"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "ionbeam"}
+        }
+    ]
+}

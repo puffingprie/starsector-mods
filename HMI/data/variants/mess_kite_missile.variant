@@ -1,0 +1,31 @@
+{
+  "variantId": "mess_kite_missile",
+  "hullId": "mess_kite",
+  "displayName": "Missile",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sabot"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "harpoon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

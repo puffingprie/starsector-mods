@@ -1,0 +1,83 @@
+{
+  "variantId": "uaf_isenoria_prototype_strategic",
+  "hullId": "uaf_isenoria_prototype",
+  "displayName": "Strategic",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0018": "uaf_edge_type_iii",
+        "WS0019": "uaf_edge_type_iii"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0014": "uaf_minibreve_tnt_m",
+        "WS0015": "uaf_minibreve_tnt_m",
+        "WS0021": "uaf_minibreve_tnt_m",
+        "WS0022": "uaf_minibreve_tnt_m"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0016": "uaf_edge_type_ii",
+        "WS0017": "uaf_edge_type_ii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_edge_type_i",
+        "WS0002": "uaf_edge_type_i",
+        "WS0003": "uaf_edge_type_i",
+        "WS0004": "uaf_edge_type_i"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "uaf_medlav_quad",
+        "WS0008": "uaf_medlav_quad"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "uaf_deco_mg",
+        "WS0006": "uaf_deco_mg",
+        "WS0012": "uaf_deco_mg",
+        "WS0013": "uaf_deco_mg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "uaf_triyia_pdx",
+        "WS0010": "uaf_pd_reina",
+        "WS0011": "uaf_pd_reina"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_pengawas",
+    "uaf_wing_pengawas"
+  ]
+}

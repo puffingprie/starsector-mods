@@ -1,0 +1,48 @@
+{
+    "displayName": "Imperial Elite",
+    "fluxCapacitors": 12,
+    "fluxVents": 20,
+    "hullId": "ii_praetorian",
+    "hullMods": [
+        "ii_elite_package",
+        "unstable_injector",
+        "targetingunit"
+    ],
+    "permaMods": ["ii_elite_package"],
+    "sMods": ["ii_elite_package"],
+    "variantId": "ii_praetorian_ie",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "chaingun"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "ii_javelinsmall",
+                "WS0004": "ii_javelinsmall"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "ioncannon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "heavymg"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "ii_custos",
+                "WS0006": "ii_custos",
+                "WS0008": "ii_custos"
+            }
+        }
+    ]
+}

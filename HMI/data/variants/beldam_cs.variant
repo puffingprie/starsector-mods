@@ -1,0 +1,61 @@
+{
+  "variantId": "beldam_cs",
+  "hullId": "beldam",
+  "displayName": "Close Support",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 44,
+  "quality": 0.75,
+  "permaMods": [],
+  "hullMods": [
+    "advancedoptics",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "phasebeam",
+        "WS0005": "phasebeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "squall"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "taclaser",
+        "WS0004": "ionbeam",
+        "WS0007": "ionbeam",
+        "WS0008": "hil"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0012": "gravitonbeam",
+        "WS0013": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0010": "lrpdlaser",
+        "WS0011": "lrpdlaser",
+        "WS0014": "pdburst",
+        "WS0015": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

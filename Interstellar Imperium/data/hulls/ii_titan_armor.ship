@@ -1,0 +1,170 @@
+{
+  "hullName": "Titan-A",
+  "hullId": "ii_titan_armor",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/imperium/ships/titan/ii_titan01.png",
+  "style": "IMPERIUM",
+  "height": 242,
+  "width": 108,
+  "center": [54, 120.5],
+  "collisionRadius": 141,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 140,
+  "viewOffset": 0,
+  "builtInMods": [
+    "insulatedengine",
+    "automated",
+    "armoredweapons",
+    "ii_armor_package"
+  ],
+  "builtInWeapons": {
+    "WS0001": "ii_titan_armor_lights",
+    "WS0002": "ii_fundae_mirv",
+    "WS0003": "ii_fundae_mirv",
+    "WS0004": "ii_fundae_mirv",
+    "WS0005": "ii_fundae_mirv"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0.5, -1]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [64, 25]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [64, -25]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [23, 25]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [23, -25]
+    },
+    {
+      "id": "DOOR1",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [63.5, 24.5]
+    },
+    {
+      "id": "DOOR2",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [64.5, -24.5]
+    },
+    {
+      "id": "DOOR3",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [22.5, 24.5]
+    },
+    {
+      "id": "DOOR4",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [23.5, -24.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-81.5, 42],
+      "length": 48,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "IMPERIUM"
+    },
+    {
+      "location": [-81.5, -42],
+      "length": 48,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "IMPERIUM"
+    },
+    {
+      "location": [-118.5, 20],
+      "length": 80,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "IMPERIUM"
+    },
+    {
+      "location": [-118.5, -20],
+      "length": 80,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "IMPERIUM"
+    },
+    {
+      "location": [-120.5, -0],
+      "length": 80,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "IMPERIUM"
+    }
+  ],
+  "bounds": [
+    119.5, -10,
+    107.5, -30,
+    88, -38.5,
+    -20.5, -38.5,
+    -31, -50.5,
+    -75.5, -51,
+    -81, -30,
+    -117, -27,
+    -117, 27,
+    -81, 30,
+    -75.5, 51,
+    -31, 50.5,
+    -20.5, 38.5,
+    88, 38.5,
+    107.5, 30,
+    119.5, 10
+  ]
+}

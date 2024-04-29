@@ -1,0 +1,60 @@
+{
+  "variantId": "beldam_attack",
+  "hullId": "beldam",
+  "displayName": "Attack",
+  "goalVariant": true,
+  "fluxCapacitors": 14,
+  "fluxVents": 50,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "sabotpod",
+        "WS0005": "sabotpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "squall"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "heavyblaster",
+        "WS0008": "autopulse"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "ionpulser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "lrpdlaser",
+        "WS0010": "pdlaser",
+        "WS0011": "pdlaser",
+        "WS0012": "heavyburst",
+        "WS0013": "heavyburst",
+        "WS0014": "pdlaser",
+        "WS0015": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

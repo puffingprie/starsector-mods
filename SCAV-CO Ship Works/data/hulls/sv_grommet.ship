@@ -1,0 +1,70 @@
+{
+  "hullName": "Grommet",
+  "hullId": "sv_grommet",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/pirate ships/sv_grommet.png",
+  "style": "VACSINC",
+  "height": 170,
+  "width": 92,
+  "center": [46, 85],
+  "collisionRadius": 112,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 108.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sv_vacsincconstruction",
+    "sv_spokeengines"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-8, 28]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": 0,
+      "locations": [32, 12]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-82, -21],
+      "length": 46.5,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-65, 20],
+      "length": 46.5,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    }
+  ],
+  "bounds": [
+    80.5, -29.5,
+    80.5, -21,
+    51.5, -7.5,
+    51.5, 25.5,
+    -9.5, 41.5,
+    -63.5, 26.5,
+    -63, 13,
+    -25, 13,
+    -80, -14.5,
+    -80, -29
+  ]
+}

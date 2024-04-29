@@ -1,0 +1,57 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 10,
+    "fluxVents": 14,
+    "goalVariant": true,
+    "hullId": "ii_ixon",
+    "hullMods": [
+        "ii_targeting_package",
+        "targetingunit",
+        "magazines"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "ii_ixon_ass",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "ii_armageddon",
+                "WS0002": "ii_armageddon"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "sabot",
+                "WS0008": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "ii_pulsar",
+                "WS0006": "ii_pulsar"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "ii_heavypulsar",
+                "WS0004": "ii_heavypulsar"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "pdburst",
+                "WS0010": "pdburst"
+            }
+        }
+    ]
+}

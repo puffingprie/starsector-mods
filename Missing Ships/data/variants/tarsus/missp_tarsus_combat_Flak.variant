@@ -1,0 +1,33 @@
+{
+  "variantId": "missp_tarsus_combat_Flak",
+  "hullId": "missp_tarsus_combat",
+  "displayName": "Flakboat",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "militarized_subsystems",
+    "defensive_targeting_array",
+    "blast_doors"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightdualmg",
+        "WS0002": "lightdualmg",
+        "WS0003": "vulcan",
+        "WS0004": "vulcan",
+        "WS0005": "swarmer_fighter",
+        "WS0006": "swarmer_fighter",
+        "WS0007": "dualflak",
+        "WS0008": "dualflak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

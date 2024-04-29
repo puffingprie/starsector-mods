@@ -1,0 +1,25 @@
+{
+  "variantId": "hmi_scogliera_std",
+  "hullId": "hmi_scogliera",
+  "displayName": "Fighter",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hmi_prendergast_left",
+        "WS0002": "hmi_prendergast_right",
+        "WS0003": "swarmer_fighter",
+        "WS0004": "swarmer_fighter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

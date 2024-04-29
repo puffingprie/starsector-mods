@@ -1,0 +1,43 @@
+{
+  "displayName": "Lancer",
+  "fluxCapacitors": 20,
+  "fluxVents": 30,
+  "goalVariant": true,
+  "hullId": "mess_dominator",
+  "hullMods": [
+    "advancedoptics"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "dominator_mess_lancer",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "tachyonlance",
+        "WS0002": "tachyonlance",
+        "WS0003": "phasebeam",
+        "WS0004": "phasebeam",
+        "WS0005": "phasebeam",
+        "WS0006": "pdburst",
+        "WS0007": "pdburst",
+        "WS0008": "pdburst",
+        "WS0009": "phasebeam",
+        "WS0010": "pdburst",
+        "WS0011": "pdburst"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    }
+  ],
+  "wings": []
+}

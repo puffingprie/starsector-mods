@@ -1,0 +1,79 @@
+{
+  "variantId": "junk_hellbore",
+  "hullId": "junk",
+  "displayName": "Hellbore",
+  "goalVariant": true,
+  "fluxCapacitors": 22,
+  "fluxVents": 47,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0021": "squall"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0014": "pumm_cannon",
+        "WS0018": "hellbore"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "sml_shotgrun",
+        "WS0007": "med_frag_mg",
+        "WS0016": "med_frag_mg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "sml_shotgrun",
+        "WS0013": "launcher_cannon",
+        "WS0023": "sml_shotgrun",
+        "WS0024": "sml_shotgrun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "twotherac",
+        "WS0002": "vulcan",
+        "WS0004": "hmi_slagger_gun",
+        "WS0006": "lightdualmg",
+        "WS0008": "vulcan",
+        "WS0009": "vulcan",
+        "WS0010": "vulcan",
+        "WS0011": "hmi_slagger_gun",
+        "WS0012": "vulcan",
+        "WS0015": "vulcan",
+        "WS0019": "vulcan",
+        "WS0020": "vulcan",
+        "WS0025": "dualflak"
+      }
+    },    
+	{
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0017": "pilum",
+        "WS0022": "swarmer_junk"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "talon_wing",
+    "talon_wing"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "hullName": "Eviscerate",
+  "hullId": "expsp_eviscerate",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/expsp_eviscerate.png",
+  "style": "EXPSP_MVS",
+  "height": 25,
+  "width": 40,
+  "center": [20, 12.5],
+  "collisionRadius": 30.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 27,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux",
+    "terminator_core"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [-1, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [-5.5, 10]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-10, 6],
+      "length": 15,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    },
+    {
+      "location": [-10, -6],
+      "length": 15,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    },
+    {
+      "location": [-7.5, -0],
+      "length": 25,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    }
+  ],
+  "bounds": [
+    -7, -6.5,
+    -7, -6.5,
+    -1.5, -15.5,
+    10, -3.5,
+    10, 3.5,
+    -1.5, 15.5,
+    -7, 6.5,
+    -7, 6.5
+  ]
+}

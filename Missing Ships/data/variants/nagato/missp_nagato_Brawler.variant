@@ -1,0 +1,105 @@
+{
+  "variantId": "missp_nagato_Brawler",
+  "hullId": "missp_nagato",
+  "displayName": "Brawler",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0002": "vulcan",
+        "WS0003": "vulcan",
+        "WS0004": "vulcan",
+        "WS0005": "vulcan",
+        "WS0006": "vulcan",
+        "WS0007": "vulcan",
+        "WS0008": "vulcan",
+        "WS0009": "vulcan",
+        "WS0010": "lightmg",
+        "WS0011": "lightmg",
+        "WS0016": "pdlaser",
+        "WS0017": "pdlaser",
+        "WS0018": "pdlaser",
+        "WS0019": "pdlaser",
+        "WS0020": "pdlaser",
+        "WS0021": "pdlaser",
+        "WS0026": "pdlaser",
+        "WS0027": "pdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0046": "missp_heavy_mjolnir",
+        "WS0047": "missp_heavy_mjolnir",
+        "WS0048": "missp_heavy_mjolnir"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0040": "multineedler",
+        "WS0041": "multineedler",
+        "WS0042": "multineedler",
+        "WS0043": "multineedler",
+        "WS0044": "multineedler",
+        "WS0045": "multineedler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0032": "dualflak",
+        "WS0033": "dualflak",
+        "WS0034": "dualflak",
+        "WS0035": "dualflak",
+        "WS0036": "dualflak",
+        "WS0037": "dualflak",
+        "WS0038": "dualflak",
+        "WS0039": "dualflak"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "ioncannon",
+        "WS0013": "ioncannon",
+        "WS0014": "ioncannon",
+        "WS0015": "ioncannon",
+        "WS0022": "ioncannon",
+        "WS0023": "ioncannon",
+        "WS0024": "ioncannon",
+        "WS0025": "ioncannon",
+        "WS0028": "ionpulser",
+        "WS0029": "ionpulser",
+        "WS0030": "ionpulser",
+        "WS0031": "ionpulser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

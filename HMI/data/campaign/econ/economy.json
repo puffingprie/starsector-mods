@@ -1,0 +1,9 @@
+{
+    "starSystems":[
+        "HMI_mercy.json",
+		"HMI_opuntia.json",
+		"HMI_hazard.json",
+		"HMI_obsidian.json",
+		"HMI_kamikaze.json",
+    ],
+}

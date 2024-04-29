@@ -1,0 +1,24 @@
+{
+	"quality":0.25,
+	"displayName":"Interceptor",
+	"hullId":"ii_flamen",
+	"variantId":"ii_flamen_Interceptor",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"hullMods":[], # array of strings
+	
+	# mode is either LINKED or ALTERNATING
+	# slot ids (WS ***) must match what's in the .ship file
+	"weaponGroups":[
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS0001":"ii_particlegun_f",
+		 		   },
+		},
+		{"mode":"ALTERNATING",
+		 "weapons":{
+		 			"WS0003":"ii_fundae_f",
+		 		   },
+		},
+	],
+}

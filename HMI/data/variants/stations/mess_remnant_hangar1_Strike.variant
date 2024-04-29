@@ -1,0 +1,28 @@
+{
+  "displayName": "Strike",
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "mess_remnant_hangar1",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0.5,
+  "variantId": "mess_remnant_hangar1_Strike",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "pulselaser",
+        "WS 005": "pdlaser"
+      }
+    }
+  ],
+  "wings": [
+    "mess_flash_wing",
+    "mess_lux_wing",
+    "mess_spark_wing",
+    "mess_flash_wing"
+  ]
+}

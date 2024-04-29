@@ -1,0 +1,65 @@
+{
+  "variantId": "starliner_lp_x_std",
+  "hullId": "starliner_lp_x",
+  "displayName": "Attack",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 29,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "unstable_injector"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0017": "hammer",
+        "WS0018": "hammer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "lightmortar",
+        "WS0011": "lightmortar",
+        "WS0013": "lightmortar",
+        "WS0015": "lightmortar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "chaingun",
+        "WS0002": "chaingun",
+        "WS0010": "lightmortar",
+        "WS0012": "lightmortar",
+        "WS0014": "lightmortar",
+        "WS0016": "lightmortar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "arbalest",
+        "WS0004": "arbalest",
+        "WS0007": "lightdualac",
+        "WS0008": "lightdualac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "heavymg",
+        "WS0006": "heavymg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

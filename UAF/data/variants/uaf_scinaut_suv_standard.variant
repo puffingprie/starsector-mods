@@ -1,0 +1,33 @@
+{
+  "variantId": "uaf_scinaut_suv_standard",
+  "hullId": "uaf_scinaut_suv",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 11,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "uaf_auroranEngineering",
+    "expanded_cargo_holds"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_pd_reina_ii",
+        "WS0002": "uaf_pd_reina_ii",
+        "WS0003": "uaf_pd_reina",
+        "WS0004": "uaf_pd_reina"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

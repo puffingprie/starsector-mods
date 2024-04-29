@@ -1,0 +1,239 @@
+{
+  "hullName": "Capital Terror",
+  "hullId": "hmi_spookyboi_base",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/mess/hmi_spookyboi_base.png",
+  "style": "LOW_TECH",
+  "height": 364,
+  "width": 270,
+  "center": [133, 182],
+  "collisionRadius": 198.5,
+  "shieldCenter": [-73, 1],
+  "shieldRadius": 305.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "advancedcore",
+    "automated",
+    "fluxbreakers",
+    "magazines",
+    "shared_flux_sink",
+    "hmi_terror_spawner"
+  ],
+  "builtInWeapons": {
+    "WS0001": "tachyonlance",
+    "WS0002": "tachyonlance",
+    "WS0003": "pdburst",
+    "WS0004": "pdburst",
+    "WS0005": "gauss",
+    "WS0006": "gauss",
+    "WS0007": "heavyblaster",
+    "WS0008": "heavyblaster",
+    "WS0009": "typhoon",
+    "WS0010": "typhoon",
+    "WS0011": "heavyneedler",
+    "WS0012": "heavyneedler"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 162,
+      "angle": 46.5,
+      "locations": [33.5, 34]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 162,
+      "angle": -46.5,
+      "locations": [33.5, -34]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 69,
+      "angle": -62,
+      "locations": [118, 43]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 69,
+      "angle": 62,
+      "locations": [118, -43]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [152.5, 70]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [152.5, -70]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 203,
+      "angle": 41,
+      "locations": [117.5, 84]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 203,
+      "angle": -41,
+      "locations": [117.5, -84]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [112.5, 9.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [112.5, -9.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 121,
+      "angle": 58.5,
+      "locations": [58, 105]
+    },
+    {
+      "id": "WS0012",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 121,
+      "angle": -58.5,
+      "locations": [58, -105]
+    },
+    {
+      "id": "LEFTWING",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 162,
+      "angle": 0,
+      "locations": [-150, 168.5]
+    },
+    {
+      "id": "RIGHTWING",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 162,
+      "angle": 0,
+      "locations": [-150.5, -168.5]
+    },
+    {
+      "id": "BACKMINER",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 162,
+      "angle": 0,
+      "locations": [-153, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-180, 56.5],
+      "length": 41,
+      "width": 32,
+      "angle": 180,
+      "contrailSize": 32,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-180, -56.5],
+      "length": 41,
+      "width": 32,
+      "angle": -180,
+      "contrailSize": 32,
+      "style": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    -124, -17.5,
+    -158, -33,
+    -165, -43.5,
+    -180, -45,
+    -180.5, -67,
+    -168, -68.5,
+    -158, -79,
+    -125, -83,
+    -80, -129,
+    -19, -134.5,
+    -14, -98,
+    36, -123,
+    68.5, -119.5,
+    88, -99,
+    121, -99,
+    143.5, -87,
+    179, -84,
+    178.5, -55,
+    143, -53,
+    119.5, -31,
+    75.5, -30,
+    111, -26,
+    131, -9,
+    131, 9,
+    111, 26,
+    75.5, 30,
+    119.5, 31,
+    143, 53,
+    178.5, 55,
+    179, 84,
+    143.5, 87,
+    121, 99,
+    88, 99,
+    68.5, 119.5,
+    36, 123,
+    -10, 98.5,
+    -40, 133.5,
+    -80, 133,
+    -125, 83,
+    -158, 79,
+    -168, 68.5,
+    -180.5, 67,
+    -180, 45,
+    -165, 43.5,
+    -158, 33,
+    -124, 17.5
+  ]
+}

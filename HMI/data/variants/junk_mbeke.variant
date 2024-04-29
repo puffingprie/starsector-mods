@@ -1,0 +1,72 @@
+{
+  "variantId": "junk_mbeke",
+  "hullId": "junk",
+  "displayName": "Mbeke",
+  "goalVariant": false,
+  "fluxCapacitors": 28,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "eccm",
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0014": "pumm_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0018": "hmi_heavy_assault_launcher"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "mbeke_sml",
+        "WS0006": "mbeke_sml",
+        "WS0007": "mbeke_sml",
+        "WS0008": "mbeke_sml",
+        "WS0009": "mbeke_sml",
+        "WS0010": "mbeke_sml",
+        "WS0011": "mbeke_sml",
+        "WS0012": "mbeke_sml",
+        "WS0013": "mbeke_med",
+        "WS0015": "mbeke_sml",
+        "WS0017": "mbeke_med",
+        "WS0019": "mbeke_sml",
+        "WS0020": "mbeke_sml",
+        "WS0021": "locust",
+        "WS0022": "swarmer_junk",
+        "WS0023": "mbeke_sml",
+        "WS0025": "mbeke_med"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "sml_shotgrun",
+        "WS0002": "sml_shotgrun",
+        "WS0003": "hmi_kiddie_mortar",
+        "WS0004": "hmi_kiddie_mortar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0016": "dualflak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

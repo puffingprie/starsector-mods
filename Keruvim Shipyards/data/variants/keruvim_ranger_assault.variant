@@ -1,0 +1,61 @@
+{
+  "variantId": "keruvim_ranger_assault",
+  "hullId": "keruvim_ranger",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 25,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "insulatedengine",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "breachpod",
+        "WS0006": "breach"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "taclaser",
+        "WS0014": "keruvim_cracker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "railgun",
+        "WS0008": "railgun",
+        "WS0010": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "irpulse",
+        "WS0004": "irpulse",
+        "WS0007": "irpulse"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "lightdualmg",
+        "WS0009": "vulcan",
+        "WS0012": "heavyburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

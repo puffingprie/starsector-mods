@@ -1,0 +1,103 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+    "ngcTooltip":"Begin as a graduate of the Imperial Academy at Byzantium. Will your ambitions lead you to glory? Can you secure the safety of the empire? Prove that you are worthy of the gods' favor.",
+    
+    "rebelFleetSuffix":"Malefactors",
+
+    "asteroidMiningFleetName":"Metallicus",
+    "gasMiningFleetName":"Cuniculator",
+    "logisticsFleetName":"Prosecutae",
+    "invasionFleetName":"Exercitus",
+    "responseFleetName":"Praesidium",
+    "invasionSupportFleetName":"Classis",
+    "defenceFleetName":"Custodia",
+    "suppressionFleetName":"Poena",
+    "stationName":"Castrum",
+
+    "startRelationships":{ "hegemony": -0.8 },
+    "maxRelationships":{ "hegemony":-0.4, },
+    "diplomacyPositiveChance":{ "hegemony":0.75, },
+    "diplomacyNegativeChance":{ "hegemony":1.5, },
+    "diplomacyTraits":["helps_allies", "irredentist", "stalwart", "likes_ai", "law_and_order", "neutralist"],
+
+    "specialForcesNamerClass":"data.scripts.campaign.specialforces.II_SpecialForcesNamer",
+
+    "vengeanceLevelNames":["Grudge", "Punishment", "Vengeance"],
+    "vengeanceFleetNames":["Livor", "Vindicta", "Ultio"],
+    "vengeanceFleetNamesSingle":["a Livor fleet", "a Vindicta fleet", "an Ultio fleet"],
+    
+    "alignments":{
+        "corporate":-1,
+        "technocratic":0,
+        "diplomatic":0,
+        "militarist":1,
+        "ideological":1,
+    },
+    
+    "startShipsSolo":[
+        ["ii_decurion_sta"],
+        ["ii_triarius_eli"],
+    ],
+    "startShipsCombatSmall":[
+        ["ii_praetorian_sta", "ii_decurion_ass", "ii_basileus_cs"],
+        ["ii_interrex_sta", "ii_triarius_cs", "ii_basileus_sta"],
+        ["ii_legionary_bal", "ii_maximus_sta"],
+    ],
+    "startShipsCarrierSmall":[
+        ["ii_princeps_sta", "ii_triarius_ass", "ii_basileus_ass"],
+        ["ii_libritor_sta", "ii_princeps_cs"],
+    ],
+    "startShipsTradeSmall":[
+        ["ii_interrex_ass", "ii_carrum_sta", "ii_carrum_fue"],
+    ],
+    "startShipsCombatLarge":[
+        ["ii_sebastos_sta", "ii_praetorian_art", "ii_decurion_cs"],
+        ["ii_dictator_sta", "ii_interrex_cs", "ii_triarius_cs"],
+        ["ii_ixon_str", "ii_legionary_art", "ii_basileus_eli"],
+    ],
+    "startShipsCarrierLarge":[
+        ["ii_ardea_sta", "ii_princeps_ass", "ii_triarius_sta"],
+        ["ii_ardea_str", "ii_libritor_arm", "ii_libritor_sup"],
+    ],
+    "startShipsTradeLarge":[
+        ["ii_barrus_sta", "ii_princeps_cs", "ii_decurion_sta"],
+    ],
+    "startShipsSuper":[
+        ["ii_maximus_bla"],
+        ["ii_lynx_sta"],
+        ["ii_adamas_bal"],
+    ],
+    
+    "startSpecialItems":[
+        [["ii_common_bp_package", ""]],
+        [["modspec", "ii_armor_package"]],
+        [["modspec", "ii_targeting_package"]],
+    ],
+    
+    "defenceStations":[
+        {"ids":["ii_orbitalstation", "ii_battlestation", "ii_starfortress", "ii_stellacastellum"]},
+    ],
+
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.1},
+        {"id":"fuelprod", "mult":0.1},
+        {"id":"ii_interstellarbazaar", "count":1},
+    ],
+    
+    "bonusSeeds":[
+        {"id":"nanoforge_pristine", "count":1},
+        {"id":"aiCore_station", "count":2, "mult":0.2},
+        {"id":"aiCore_military", "mult":0.5},
+        {"id":"aiCore_heavyindustry", "count":1},
+        {"id":"aiCore_any", "mult":2},
+        {"id":"population_upsize", "count":1},
+    ],
+
+    # Fewer and less distant colonies
+    "colonyExpeditionChance":0.5,
+    "maxColonyDistance":10.0,
+    "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
+
+    "invasionPointMult":0.7,
+}

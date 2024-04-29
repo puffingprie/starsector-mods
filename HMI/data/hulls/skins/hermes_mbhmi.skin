@@ -1,0 +1,21 @@
+{
+    "baseHullId":"hermes",
+    "skinHullId":"hermes_mbhmi",
+    "hullName":"Hermes",
+    "descriptionId":"hermes",  # optional
+	"descriptionPrefix":"This Hermes is piloted for suicidal combat rather than civilian usage. It's not expected to be recoverable.",
+	"hints":["HIDE_IN_CODEX"],
+	"removeHints":[CIVILIAN],
+	"addHints":[UNBOARDABLE],
+	"tags":["no_drop","no_sell","no_dealer"],
+    "spriteName":"graphics/ships/hermes/hermes_base.png",
+    "baseValueMult":1.0,
+    "removeWeaponSlots":[], 		# ids
+    "removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+    "removeBuiltInMods":[], 		# hullmod ids
+    "removeBuiltInWeapons":[], 		# weapon slot ids
+	"systemId":"ammofeed",
+    "builtInMods":[],
+    "builtInWeapons":{},
+    "weaponSlotChanges":{},
+}

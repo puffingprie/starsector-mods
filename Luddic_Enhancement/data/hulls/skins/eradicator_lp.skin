@@ -1,0 +1,23 @@
+{
+	"baseHullId":"eradicator",
+	"skinHullId":"eradicator_lp",
+	"hullName":"Eradicator (LP)",
+	"descriptionId":"eradicator",  # optional
+	"descriptionPrefix":"Fanatics of the Luddic Path have made this ship their own, transforming it into a haphazard vehicle of holy war.",
+	"tags":["LP_bp"],
+	"tech":"Luddic Path",
+	"spriteName":"graphics/ships/eradicator/eradicator_lp.png",
+	"baseValueMult":1.2,
+	"removeWeaponSlots":["WS 011", "WS 013", "WS 014"],		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"systemId":"ammofeed",
+	"weaponSlotChanges":{
+	   "WS 007":{
+		  "size": "LARGE",
+	   },
+	},
+	"builtInMods":["safetyoverrides","ill_advised"],
+	"builtInWeapons":{},
+}

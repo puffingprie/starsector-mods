@@ -1,0 +1,66 @@
+{
+  "id": "dick_cannon",
+  "specClass": "projectile",
+  "projectileSpecId": "shredder_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  #"convergeOnPoint":true,
+  "displayArcRadius": 250,
+  "turretSprite": "graphics/weapons/dick_cannon_turret_base.png",
+  "turretGunSprite": "graphics/weapons/dick_cannon_turret_recoil.png",
+  "hardpointSprite": "graphics/weapons/dick_cannon_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/weapons/dick_cannon_hardpoint_recoil.png",
+  "visualRecoil": 3,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    21,
+    10.5,
+    21,
+    -10.5,
+    22,
+    -3.5,
+    22,
+    3.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    26.5,
+    -10.5,
+    26.5,
+    10.5,
+    27.5,
+    -3.5,
+    27.5,
+    3.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 20,
+    "spread": 6,
+    "particleSizeMin": 6,
+    "particleSizeRange": 8,
+    "particleDuration": 0.15,
+    "particleCount": 7,
+    "particleColor": [
+      255,
+      240,
+      165,
+      200
+    ]
+  },
+  "fireSoundTwo": "vulcan_cannon_fire"
+}

@@ -1,0 +1,18 @@
+{
+	"id":"sv_magnetar_shot",
+	"specClass":"projectile",
+	"onHitEffect":"data.scripts.weapons.sv_MagOnHitEffect",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":100.0,
+	"hitGlowRadius":35,
+	"width":18.0,
+	"fadeTime":0.2,
+	"fringeColor":[0,255,0,175],
+	"coreColor":[0,255,0,255],
+	"textureType":"SMOOTH",	
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":8.0,
+	"bulletSprite":"graphics/weapons/proj/sv_timberwolfs_shot.png",
+}

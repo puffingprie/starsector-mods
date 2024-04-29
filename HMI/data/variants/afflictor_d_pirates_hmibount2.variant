@@ -1,0 +1,32 @@
+{
+  "variantId": "afflictor_d_pirates_hmibount2",
+  "hullId": "afflictor_d_pirates",
+  "displayName": "Suppression",
+  "goalVariant": false,
+  "fluxCapacitors": 6,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "lightneedler",
+        "WS 003": "lightneedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 006": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

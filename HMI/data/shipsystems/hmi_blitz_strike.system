@@ -1,0 +1,25 @@
+{
+	"id":"hmi_blitz_strike",
+	"type":"STAT_MOD",
+	"aiType":"DRONE_STRIKE",
+	
+	"statsScript":"data.shipsystems.scripts.HMI_BlitzDroneStrikeStats",
+	
+	"canNotCauseOverload":true,
+	"runScriptWhileIdle":true,  # this means unapply() never gets called
+	
+	"fadeActivationSoundOnChargedown":false,
+	"useSound":"system_termination_sequence",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"threatRange":2000,
+		"threatAmount":3,
+		"threatAngle":0,
+		"threatArc":360,
+	}
+}
+
+
+
+

@@ -1,0 +1,20 @@
+{
+	"id":"gauss_rem_shot",
+	"specClass":"projectile",
+	"onHitEffect":"data.scripts.weapons.RailgunRemHitEffect",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":180.0,
+	"hitGlowRadius":50,
+	"width":9.5,
+	"fadeTime":0.3,
+	"fringeColor":[100,200,255,255],
+	"coreColor":[235,235,255,255],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+	"passThroughFighters":true,
+	"passThroughFightersOnlyWhenDestroyed":true,
+	"bulletSprite":"graphics/missiles/shell_gauss_cannon.png"	
+}

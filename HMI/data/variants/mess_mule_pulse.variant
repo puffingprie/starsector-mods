@@ -1,0 +1,40 @@
+{
+  "variantId": "mess_mule_pulse",
+  "hullId": "mess_mule",
+  "displayName": "Pulser",
+  "goalVariant": true,
+  "fluxCapacitors": 15,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "pulselaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "irpulse",
+        "WS0002": "irpulse"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "irpulse",
+        "WS0004": "irpulse"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,55 @@
+{
+  "variantId": "mess_amalgam_med_mass_he",
+  "hullId": "mess_amalgam_med_mass",
+  "displayName": "High Explosive",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "unstable_injector"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "hellbore"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "lightag",
+        "WS0008": "lightmortar",
+        "WS0009": "lightmortar",
+        "WS0010": "lightmortar",
+        "WS0012": "heavymortar",
+        "WS0013": "heavymauler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "lightmortar",
+        "WS0004": "lightmortar",
+        "WS0007": "lightag",
+        "WS0011": "lightag"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "harpoon_single",
+        "WS0006": "harpoon_single"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

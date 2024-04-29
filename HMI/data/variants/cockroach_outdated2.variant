@@ -1,0 +1,66 @@
+{
+  "variantId": "cockroach_outdated2",
+  "hullId": "cockroach",
+  "displayName": "Outdated",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "blast_doors",
+    "magazines",
+    "missleracks",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "campbelltown_med",
+        "WS0006": "mining_burst_blaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0016": "annihilator",
+        "WS0017": "annihilator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "hmi_nailgun",
+        "WS0002": "shredder",
+        "WS0004": "hmi_nailgun",
+        "WS0007": "shredder"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0010": "hmi_kiddie_mortar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "lightdualmg",
+        "WS0008": "flak",
+        "WS0011": "vulcan",
+        "WS0012": "vulcan",
+        "WS0013": "vulcan",
+        "WS0014": "vulcan",
+        "WS0015": "hmi_slagger_gun"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

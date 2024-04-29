@@ -1,0 +1,234 @@
+{
+  "hullName": "UAF Nebula Bravo",
+  "hullId": "uaf_m_nebula_bravo",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/Nebula_Bravo_Military.png",
+  "style": "UAF_CAPITAL",
+  "height": 394,
+  "width": 174,
+  "center": [87, 197],
+  "collisionRadius": 213,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 198.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering",
+    "uaf_militaryGrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 313,
+      "angle": 0,
+      "locations": [170, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 234,
+      "angle": -70.5,
+      "locations": [122.5, -31.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 234,
+      "angle": 70.5,
+      "locations": [122.5, 31.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -90,
+      "locations": [-37, -33]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 90,
+      "locations": [-37, 33]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 209,
+      "angle": -90,
+      "locations": [-100.5, -71.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 209,
+      "angle": 90,
+      "locations": [-100.5, 71.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 296,
+      "angle": 180,
+      "locations": [-173, -0]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 296,
+      "angle": 0,
+      "locations": [-134, -0]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-1, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-165, -50.5],
+      "length": 54,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-165, 50.5],
+      "length": 54,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-180, -23.5],
+      "length": 82,
+      "width": 27,
+      "angle": -180,
+      "contrailSize": 27,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-165, -58],
+      "length": 54,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-165, 58],
+      "length": 54,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-180, 23.5],
+      "length": 82,
+      "width": 27,
+      "angle": 180,
+      "contrailSize": 27,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [85, -20.5],
+      "length": 43.368847,
+      "width": 10.028578,
+      "angle": -166.5,
+      "contrailSize": 10.028578,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [85, 20.5],
+      "length": 43.368847,
+      "width": 10.028578,
+      "angle": 166.5,
+      "contrailSize": 10.028578,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [87.5, 28],
+      "length": 43.368847,
+      "width": 10.028578,
+      "angle": 166.5,
+      "contrailSize": 10.028578,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [87.5, -28],
+      "length": 43.368847,
+      "width": 10.028578,
+      "angle": -166.5,
+      "contrailSize": 10.028578,
+      "style": "TUNE_ENGINE"
+    }
+  ],
+  "bounds": [
+    -182, 5.5,
+    -164.5, 44.5,
+    -164.5, 64,
+    -120, 68,
+    -106.5, 84,
+    -96.5, 83.5,
+    -89, 78.5,
+    -88.5, 70,
+    -94, 62.5,
+    -73, 61,
+    -63.5, 67,
+    -10.5, 66.5,
+    10.5, 66,
+    65.5, 66,
+    73.5, 60,
+    73.5, 36,
+    82, 30,
+    100, 50.5,
+    128.5, 49.5,
+    189, 11,
+    189, -11,
+    128.5, -49.5,
+    100, -50.5,
+    82, -30,
+    73.5, -36,
+    73.5, -60,
+    65.5, -66,
+    10.5, -66,
+    -10.5, -66.5,
+    -63.5, -67,
+    -73, -61,
+    -94, -62.5,
+    -88.5, -70,
+    -89, -78.5,
+    -96.5, -83.5,
+    -106.5, -84,
+    -120, -68,
+    -164.5, -64,
+    -164.5, -44.5,
+    -182, -5.5
+  ]
+}

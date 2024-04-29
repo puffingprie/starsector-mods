@@ -1,0 +1,220 @@
+{
+  "bounds": [
+    -24.5,
+    24,
+    -28.5,
+    27.5,
+    -28.5,
+    35.5,
+    10.5,
+    37,
+    28,
+    18,
+    28,
+    -18,
+    10.5,
+    -37,
+    -28.5,
+    -35.5,
+    -28.5,
+    -27.5,
+    -24.5,
+    -24,
+    -26,
+    -2,
+    -26,
+    2
+  ],
+  "builtInMods": [
+    "keruvim_pride_bulkheads"
+  ],
+  "builtInWeapons": {
+    "WS0003": "blinker_green",
+    "WS0004": "blinker_red"
+  },
+  "center": [
+    50,
+    38
+  ],
+  "collisionRadius": 57.5,
+  "engineSlots": [
+    {
+      "angle": -180,
+      "contrailSize": 11,
+      "length": 35.5,
+      "location": [
+        -26.5,
+        -15
+      ],
+      "style": "ANVIL",
+      "width": 11
+    },
+    {
+      "angle": 180,
+      "contrailSize": 11,
+      "length": 35.5,
+      "location": [
+        -26.5,
+        15
+      ],
+      "style": "ANVIL",
+      "width": 11
+    },
+    {
+      "angle": -180,
+      "contrailSize": 19,
+      "length": 44,
+      "location": [
+        -28.5,
+        -32
+      ],
+      "style": "ANVIL",
+      "width": 19
+    },
+    {
+      "angle": 180,
+      "contrailSize": 19,
+      "length": 44,
+      "location": [
+        -28.5,
+        32
+      ],
+      "style": "ANVIL",
+      "width": 19
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 59,
+      "location": [
+        -27.5,
+        -0
+      ],
+      "style": "ANVIL",
+      "width": 12
+    }
+  ],
+  "height": 75,
+  "hullId": "keruvim_shotel_lgbt",
+  "hullName": "Shotel (Pride)",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 54,
+  "spriteName": "graphics/ships/keruvim_shotel_lgbt.png",
+  "style": "PRIDE_TECH",
+  "viewOffset": 50,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 208,
+      "id": "WS 004",
+      "locations": [
+        10,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 90,
+      "arc": 200,
+      "id": "WS0001",
+      "locations": [
+        -2,
+        29
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -90,
+      "arc": 200,
+      "id": "WS0002",
+      "locations": [
+        -2,
+        -29
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 90,
+      "arc": 200,
+      "id": "WS0003",
+      "locations": [
+        24.5,
+        27.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -90,
+      "arc": 200,
+      "id": "WS0004",
+      "locations": [
+        24.5,
+        -27.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 169.5,
+      "arc": 44,
+      "id": "WS0005",
+      "locations": [
+        -22.5,
+        -22.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": -169.5,
+      "arc": 44,
+      "id": "WS0006",
+      "locations": [
+        -22.5,
+        22.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": -5,
+      "arc": 44,
+      "id": "WS0007",
+      "locations": [
+        28.5,
+        -11
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 5,
+      "arc": 44,
+      "id": "WS0008",
+      "locations": [
+        28.5,
+        11
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    }
+  ],
+  "width": 100
+}

@@ -1,0 +1,42 @@
+{
+  "displayName": "Beamer",
+  "fluxCapacitors": 11,
+  "fluxVents": 20,
+  "goalVariant": true,
+  "hullId": "mess_enforcer",
+  "hullMods": [
+    "targetingunit",
+    "advancedoptics"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "enforcer_mess_beamer",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "taclaser",
+        "WS0002": "taclaser",
+        "WS0003": "taclaser",
+        "WS0004": "taclaser",
+        "WS0005": "gravitonbeam",
+        "WS0006": "gravitonbeam",
+        "WS0007": "gravitonbeam",
+        "WS0008": "gravitonbeam",
+        "WS0009": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,159 @@
+{
+  "hullName": "Kiteskipper",
+  "hullId": "expsp_kiteskipper",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/expsp_kiteskipper.png",
+  "style": "EXPSP_MVS",
+  "height": 84,
+  "width": 82,
+  "center": [41, 27],
+  "collisionRadius": 66.5,
+  "shieldCenter": [0.5, -0],
+  "shieldRadius": 58.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "militarized_subsystems",
+    "machinatargetingsystems",
+    "ground_support",
+   
+  ],
+  "builtInWings": [
+    "expsp_attackfunnel_PD_single"
+  ],
+  "builtInWeapons": {
+    "WS0004": "expsp_kamikazeshuttle"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [10, 24]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [10, -24]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [6, 0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": 0,
+      "locations": [42, 0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -12.5, 3,
+        -13, -4
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-26, 13],
+      "length": 24,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-26, -13],
+      "length": 24,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-26, 0],
+      "length": 36,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-19.5, -20.5],
+      "length": 15,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-19.5, 20.5],
+      "length": 15,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-19.5, -28],
+      "length": 18,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-19.5, 28],
+      "length": 18,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    }
+  ],
+  "bounds": [
+    -25, -15,
+    -20.5, -16,
+    -13, -39,
+    -5.5, -39,
+    1, -30,
+    9.5, -29.5,
+    13.5, -17.5,
+    50.5, -4.5,
+    50.5, 4.5,
+    13.5, 17.5,
+    9.5, 29.5,
+    1, 30,
+    -5.5, 39,
+    -13, 39,
+    -20.5, 16,
+    -25, 15
+  ]
+}

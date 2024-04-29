@@ -1,0 +1,421 @@
+{
+  "bounds": [
+    82.5,
+    -8.5,
+    73.5,
+    -19,
+    37,
+    -20,
+    32,
+    -25.5,
+    10,
+    -28.5,
+    -9,
+    -50.5,
+    -28.5,
+    -49.5,
+    -39.5,
+    -38,
+    -55,
+    -35,
+    -70.5,
+    -17,
+    -70.5,
+    17,
+    -55,
+    35,
+    -39.5,
+    38,
+    -28.5,
+    49.5,
+    -9,
+    50.5,
+    10,
+    28.5,
+    32,
+    25.5,
+    37,
+    20,
+    73.5,
+    19,
+    82.5,
+    8.5
+  ],
+  "builtInWeapons": {
+    "BLINKER1": "ii_targeting_blinker1",
+    "BLINKER2": "ii_targeting_blinker1",
+    "BLINKER3": "ii_targeting_blinker2",
+    "BLINKER4": "ii_targeting_blinker2",
+    "BLINKER5": "ii_targeting_blinker3",
+    "BLINKER6": "ii_targeting_blinker3",
+    "ELITE": "ii_elite_lights_interrex"
+  },
+  "builtInWings": [],
+  "center": [
+    54,
+    74
+  ],
+  "collisionRadius": 116.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 16,
+      "length": 64,
+      "location": [
+        -60,
+        31
+      ],
+      "style": "IMPERIUM",
+      "width": 16
+    },
+    {
+      "angle": -180,
+      "contrailSize": 16,
+      "length": 64,
+      "location": [
+        -60,
+        -31
+      ],
+      "style": "IMPERIUM",
+      "width": 16
+    },
+    {
+      "angle": 180,
+      "contrailSize": 16,
+      "length": 64,
+      "location": [
+        -72,
+        15
+      ],
+      "style": "IMPERIUM",
+      "width": 16
+    },
+    {
+      "angle": -180,
+      "contrailSize": 16,
+      "length": 64,
+      "location": [
+        -72,
+        -15
+      ],
+      "style": "IMPERIUM",
+      "width": 16
+    },
+    {
+      "angle": 180,
+      "contrailSize": 128,
+      "length": 48,
+      "location": [
+        -71.5,
+        -0
+      ],
+      "style": "IMPERIUM",
+      "width": 24
+    },
+    {
+      "angle": 135,
+      "contrailSize": 128,
+      "length": 40,
+      "location": [
+        -37,
+        42
+      ],
+      "style": "IMPERIUM",
+      "width": 20
+    },
+    {
+      "angle": -135,
+      "contrailSize": 128,
+      "length": 40,
+      "location": [
+        -37,
+        -42
+      ],
+      "style": "IMPERIUM",
+      "width": 20
+    },
+    {
+      "angle": 90,
+      "contrailSize": 128,
+      "length": 32,
+      "location": [
+        -21,
+        50.5
+      ],
+      "style": "IMPERIUM",
+      "width": 16
+    },
+    {
+      "angle": -90,
+      "contrailSize": 128,
+      "length": 32,
+      "location": [
+        -21,
+        -50.5
+      ],
+      "style": "IMPERIUM",
+      "width": 16
+    },
+    {
+      "angle": 90,
+      "contrailSize": 128,
+      "length": 32,
+      "location": [
+        17.5,
+        29.5
+      ],
+      "style": "IMPERIUM",
+      "width": 16
+    },
+    {
+      "angle": -90,
+      "contrailSize": 128,
+      "length": 32,
+      "location": [
+        17.5,
+        -29.5
+      ],
+      "style": "IMPERIUM",
+      "width": 16
+    },
+    {
+      "angle": 45,
+      "contrailSize": 128,
+      "length": 40,
+      "location": [
+        35.5,
+        22
+      ],
+      "style": "IMPERIUM",
+      "width": 20
+    },
+    {
+      "angle": -45,
+      "contrailSize": 128,
+      "length": 40,
+      "location": [
+        35.5,
+        -22
+      ],
+      "style": "IMPERIUM",
+      "width": 20
+    },
+    {
+      "angle": 45,
+      "contrailSize": 128,
+      "length": 32,
+      "location": [
+        78,
+        15
+      ],
+      "style": "IMPERIUM",
+      "width": 16
+    },
+    {
+      "angle": -45,
+      "contrailSize": 128,
+      "length": 32,
+      "location": [
+        78,
+        -15
+      ],
+      "style": "IMPERIUM",
+      "width": 16
+    }
+  ],
+  "height": 165,
+  "hullId": "ii_interrex",
+  "hullName": "Interrex",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    8,
+    -0
+  ],
+  "shieldRadius": 110,
+  "spriteName": "graphics/imperium/ships/interrex/ii_interrex.png",
+  "style": "IMPERIUM",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        78,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 120,
+      "id": "WS0002",
+      "locations": [
+        23,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 45,
+      "arc": 135,
+      "id": "WS0003",
+      "locations": [
+        -22,
+        20
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": -45,
+      "arc": 135,
+      "id": "WS0004",
+      "locations": [
+        -22,
+        -20
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0005",
+      "locations": [
+        -3.5,
+        41
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0006",
+      "locations": [
+        -3.5,
+        -41
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 60,
+      "arc": 165,
+      "id": "WS0007",
+      "locations": [
+        52,
+        11
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -60,
+      "arc": 165,
+      "id": "WS0008",
+      "locations": [
+        52,
+        -11
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "ELITE",
+      "locations": [
+        -39,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "BLINKER1",
+      "locations": [
+        3.5,
+        27.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 360,
+      "id": "BLINKER2",
+      "locations": [
+        3.5,
+        -27.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "BLINKER3",
+      "locations": [
+        -0.5,
+        27.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 360,
+      "id": "BLINKER4",
+      "locations": [
+        -0.5,
+        -27.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "BLINKER5",
+      "locations": [
+        -4.5,
+        27.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 360,
+      "id": "BLINKER6",
+      "locations": [
+        -4.5,
+        -27.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 108
+}

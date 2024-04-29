@@ -1,0 +1,57 @@
+{
+  "variantId": "enforcer_mbhmi_antirem",
+  "hullId": "enforcer",
+  "displayName": "Close Support",
+  "goalVariant": false,
+  "fluxCapacitors": 2,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "fluxbreakers"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 006": "sabot",
+        "WS 009": "sabot"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 007": "reaper",
+        "WS 008": "reaper"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "hveldriver",
+        "WS 004": "hveldriver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "heavymauler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "dualflak",
+        "WS 005": "dualflak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

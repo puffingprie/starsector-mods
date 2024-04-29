@@ -1,0 +1,57 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 13,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "ii_legionary",
+    "hullMods": ["ii_elite_package"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "ii_legionary_eli",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "chaingun"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "ii_javelin",
+                "WS0004": "ii_javelin"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "sabot",
+                "WS0006": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "ii_heavypulselaser"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "ii_arcus",
+                "WS0009": "ii_arcus"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "ii_pulsar"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0010": "ii_custos"}
+        }
+    ]
+}

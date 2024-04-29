@@ -1,0 +1,163 @@
+{
+    # Put any configuration for your mod here. This allows users to make a personal minimod to tweak mod settings.
+    # See https://starsector.fandom.com/wiki/MagicLib#MagicSettings
+    # and https://starsector.fandom.com/wiki/Category:Modding#Mods_inter-compatibility_and_integration
+
+    # Requires restart to load new settings.
+    "MoreMilitaryMissions":{
+        # print debug lines instead of info and up
+        "MmmDebug" : true,
+
+        # Defense Mission settings:
+        #
+        # If true generate enemies from any factions with ships, including hidden factions, like omega and Lion's Guard.
+        # Can spoil content and break immersion if set to true, especially when used in conjunction with faction mods
+        # that introduces hidden ships/factions. If false also skips factions with no markets as well as your own faction.
+        "DmUseHiddenFactions" : true,
+        # How many days you need to defend the station after arriving in system.
+        "DmMaxDefendDays" : 25,
+        # How many credits you get per enemy fleet strength.
+        "DmCreditRewardPerFp" : 650,
+        # Minimum credit you get per mission.
+        "DmMinCreditReward" : 40000,
+        # Changes the effective fleet strength of the station for enemy strength calculation. This smaller this ratio,
+        # the weaker the enemy is initially. The mod computes the minimum enemy fleet strength as:
+        # MIN_ENEMY_FP = YOUR_FP + STATION_FP * DmStationEffectiveFpRatio
+        "DmStationEffectiveFpRatio" : 0.9,
+        # Determines max difficulty, which is this ratio multiplied by the strength of the largest defeated enemy fleets
+        # for this missions. The minimum difficulty is determined by the strength of your fleet plus station, and the
+        # actually difficulty is randomly chosen between min and max difficulty. At 0 the enemy fleet is always at min
+        # difficulty.
+        "DmDifficultyGrowth" : 1.3,
+        # Reduce your mission credit by this ratio of station fleet strength; the smaller this number is, the less the
+        # station FP matters in reward computation and the more credit you get. The actual calculation is:
+        # REWARD = RELATION_MULTIPLIER * DmCreditRewardPerFp * (ENEMY_FP - STATION_FP * DmStationEffectiveFpRatio * DmStationFpRewardReduction)
+        "DmStationFpRewardReduction" : 0.9,
+        # Chance that reinforcements will have only 1 faction; chance that the fleets will have N factions is:
+        # DmSingleFactionProb * (1 - DmSingleFactionProb) ^ (N - 1)
+        "DmSingleFactionProb" : 0.3,
+        # The time granularity for changing invasion decisions. The actual limit is between 85% and 115% of this value.
+        "DmInvasionTimePeriodDays" : 30,
+        # The first time you visit a market, what's the chance that there's an invasion? If you fail the roll, you
+        # need to wait DmInvasionTimePeriodDays for the invasion to arrive.
+        "DmInvasionProb" : 0.5,
+        # If set allied fleets won't chase after the enemy fleets, making it more likely that they will make it to the station.
+        "DmEnemyIgnoredByOtherFleets" : true,
+
+        # Multiplies the effective strength of the fleet for enemy fleet size computations. The larger this number is,
+        # the smaller the enemy fleets will be for the faction. Also used for Force Auto Resolve to determine whether
+        # the button should appear or not (but does not affect actual auto resolve results).
+        "DmFactionStrengthRatio": {
+            "luddic_path" : 1.1,
+            "omega" : 1.5,
+            "remnant" : 1.1,
+            "pirates" : 0.9,
+        },
+
+        # Blacklist the provided faction ID from enemy fleet reinforcement. Note that the mod will not use factions with
+        # no ships or same set of ships as another. Has priority over DmReinforcementFactionWhitelist.
+        "DmReinforcementFactionBlacklist": [
+            # "poor",
+            # "sleeper",
+            # "neutral",
+        ],
+
+        # Treat the provided provided faction ID as non-hidden, allowing it to be used even if DmUseHiddenFactions is
+        # false. Also used by Pick Your Ships.
+        "DmReinforcementFactionWhitelist": [
+            "lions_guard",
+        ],
+
+
+        # Repair Mission settings:
+        #
+        # Repair that can be done on a station, as a ratio of the remaining disruptions days.
+        "RmRepairRatio" : 0.85,
+        # You will be paid this profit margin above the base price.
+        "RmProfitMargin" : 0.15,
+
+
+        # Escort Mission settings:
+        #
+        # If true, add all eligible fleet departures to intel regardless of distance or faction. Makes it
+        # easier to find missions.
+        "EmAddAllIntel" : true,
+        # If you are not seen by the trade fleet for this many days, you fail the mission.
+        "EmMaxDaysLastSeen" : 7,
+        # For each LY between source and destination market, how much extra credit you receive for the mission
+        # as a ratio of the base payments, including effects of EmCreditsPerPlayerFp.
+        # BASE_CREDIT * DISTANCE_LY * EmCreditRatioPerLY
+        "EmCreditRatioPerLY" : 0.05,
+        # Maximum pirate fleet strength as a ratio of the convoy strength.
+        "EmMaxPirateFpRatio" : 3.0,
+        # Chance that each leg of the journey will spawn a pirate, so the chance that no pirates will spawn is:
+        # (1 - EmPirateSpawnChance)^2
+        # Only applicable if the 2 systems are more than EmPirateSpawnLY LY apart; otherwise no pirates will spawn.
+        "EmPirateSpawnChance" : 0.5,
+        #"EmPirateSpawnChance" : 1.0,
+        # Spawns pirate fleets when the convoy is this close to the closest jump point in hyperspace in LY.
+        # If the 2 markets are closer than this then no pirates will spawn.
+        "EmPirateSpawnLY" : 1.2,
+        # Extra credits per player fleet strength on routes longer than EmPirateSpawnLY LY apart, up to base credits.
+        "EmCreditsPerPlayerFp" : 200,
+        # Min/Max amount of your transport capacity that the mission can ask you to use to carry additional
+        # commodities (note that delivery bar events uses 0.5 to 0.75).
+        "EmMinTransportRatio" : 0.5,
+        "EmMaxTransportRatio" : 0.7,
+        # Adjust the effective strength of the convoy for pirate fleet size computation. The smaller this ratio,
+        # the weaker the pirate. Can be larger than 1.
+        "EmConvoyStrengthRatio" : 1.0,
+
+
+        # VIP Mission
+        #
+        # Probability that a derelict ship from distress call will have a VIP onboard. Note that distress call have
+        # a 0.25 probability to be a derelict ship
+        "VipMissionProb" : 0.5,
+        #"VipMissionProb" : 1.0,
+        # If set to greater than 1, increase the frequency of distress calls
+        "VipDistressCallFreq" : 1.0,
+        #"VipDistressCallFreq" : 10.0,
+        # How much credit you get if you pick credit.
+        "VipCreditReward" : 200000,
+        # How much relations you get if you pick relation.
+        "VipRelReward" : 30,
+        # How much person relations you get if you don't pick relation.
+        "VipPersonRelReward" : 20,
+
+
+        # Scavenger Trading
+        #
+        # How many commodities the salvage fleet will sell you; if 0 this is 1/4 of commodities
+        "TradeBuySlots": 0,
+        # How many commodities the salvage fleet will buy from you; if 0 this is 1/4 of commodities
+        "TradeSellSlots": 0,
+        # Credit cost per salvageable custom entity type.
+        "TradeIntelEntitiesCosts": {
+            "derelict_probe" : 500.0,
+            "derelict_survey_ship" : 1500.0,
+            "derelict_mothership" : 10000.0,
+            "orbital_habitat_remnant" : 1500.0,
+            "station_mining_remnant" : 3000.0,
+            "station_research_remnant" : 10000.0,
+            # for derelict ship the cost is this multiplier against salvage XP
+            "wreck" : 1.5,
+        },
+        # Credit cost per planet condition; only ruins are supported.
+        "TradeIntelConditionsCosts": {
+            "ruins_scattered" : 1000.0,
+            "ruins_widespread" : 2000.0,
+            "ruins_extensive" : 4000.0,
+            "ruins_vast" : 8000.0,
+        },
+
+
+        # Force Auto Resolve
+        #
+        # enable or disable Force Auto Resolve
+        "ForceAutoResolveEnabled": true,
+        # If your fleet strength is greater than this ratio of the enemy fleet strength, adds an auto resolve option even if
+        # the enemy fleet does not want to flee.
+        "ForceAutoResolveMinStrengthRatio": 3.5,
+},
+}

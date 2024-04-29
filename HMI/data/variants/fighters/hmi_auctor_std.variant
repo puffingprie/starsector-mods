@@ -1,0 +1,22 @@
+{
+  "variantId": "hmi_auctor_std",
+  "hullId": "hmi_auctor",
+  "displayName": "Suppression Drone",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "messenger_rem_single"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

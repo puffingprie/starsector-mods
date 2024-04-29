@@ -1,0 +1,21 @@
+{
+    "displayName": "Orbital Station",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "hullId": "ii_station1",
+    "hullMods": [],
+    "quality": 0.5,
+    "variantId": "ii_station1_sta",
+    "weaponGroups": [],
+    "modules": [
+        # structural struts
+        {"WS0002": "ii_module_strutshort_sta"},
+        {"WS0004": "ii_module_strutshort_sta"},
+        {"WS0006": "ii_module_strutshort_sta"},
+
+        # primary modules
+        {"WS0001": "ii_module_combat_extended_sta"},
+        {"WS0003": "ii_module_support_extended_sta"},
+        {"WS0005": "ii_module_support_extended_sta"},
+    ],
+}

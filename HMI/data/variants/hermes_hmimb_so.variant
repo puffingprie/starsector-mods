@@ -1,0 +1,26 @@
+{
+  "variantId": "hermes_hmimb_so",
+  "hullId": "hermes_mbhmi",
+  "displayName": "Overriden",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 2,
+  "quality": 1,
+  "permaMods": [],
+  "sMods": ["armoredweapons", "militarized_subsystems"],
+  "hullMods": [
+    "safetyoverrides"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "lightdualmg",
+        "WS 002": "lightdualmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

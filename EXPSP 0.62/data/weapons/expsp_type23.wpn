@@ -1,0 +1,48 @@
+{
+  "id": "expsp_type23",
+  "specClass": "projectile",
+  "projectileSpecId": "expsp_particle_type23_shot",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/expsp_particle_caliver_sml_turret_base.png",
+  "turretGlowSprite": "graphics/weapons/expsp_particle_caliver_sml_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/expsp_particle_caliver_sml_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/weapons/expsp_particle_caliver_sml_hardpoint_glow.png",
+  "glowColor": [
+    250,
+    50,
+    50,
+    255
+  ],
+  "turretOffsets": [
+    11,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    14,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 50,
+    "spread": 25,
+    "particleSizeMin": 8,
+    "particleSizeRange": 3,
+    "particleDuration": 0.12,
+    "particleCount": 12,
+    "particleColor": [
+      230,
+      50,
+      50,
+      255
+    ]
+  },
+  "fireSoundTwo":"ir_pulse_laser_fire",
+}

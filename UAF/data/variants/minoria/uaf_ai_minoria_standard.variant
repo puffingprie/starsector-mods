@@ -1,0 +1,53 @@
+{
+  "variantId": "uaf_ai_minoria_standard",
+  "hullId": "uaf_ai_minoria",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "recovery_shuttles",
+    "reinforcedhull",
+    "ecm",
+    "hardened_subsystems",
+    "blast_doors"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "uaf_catun_ii_erg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_merupaka_epd",
+        "WS0002": "uaf_merupaka_epd"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "uaf_edge_type_i"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "uaf_racun_pod"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_naga"
+  ]
+}

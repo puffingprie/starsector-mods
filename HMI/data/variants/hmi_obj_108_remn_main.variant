@@ -1,0 +1,38 @@
+{
+  "variantId": "hmi_obj_108_remn_main",
+  "hullId": "hmi_obj_108",
+  "displayName": "ERROR",
+  "goalVariant": false,
+  "fluxCapacitors": 30,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "auxiliary_fuel_tanks",
+    "armoredweapons",
+    "hardened_subsystems",
+    "heavyarmor",
+    "hardenedshieldemitter",
+    "unstable_injector"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "cryoblaster",
+        "WS0002": "cryoblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "railgun_rem",
+        "WS0004": "railgun_rem"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

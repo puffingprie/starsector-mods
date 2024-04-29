@@ -1,0 +1,82 @@
+{
+  "variantId": "uaf_ai_rillaru_edgerunner",
+  "hullId": "uaf_ai_rillaru",
+  "displayName": "Edgerunner",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "fluxbreakers",
+    "hardenedshieldemitter",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_edge_type_iii",
+        "WS0002": "uaf_edge_type_iii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0020": "uaf_edge_type_iii",
+        "WS0021": "uaf_edge_type_iii"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0014": "uaf_minibreve_tnt_s",
+        "WS0015": "uaf_minibreve_tnt_s"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0016": "uaf_swaras_m_mlrs",
+        "WS0017": "uaf_swaras_m_mlrs"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_edge_type_ii",
+        "WS0006": "uaf_edge_type_ii",
+        "WS0009": "uaf_edge_type_ii",
+        "WS0012": "uaf_edge_type_ii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "uaf_edge_type_i",
+        "WS0008": "uaf_edge_type_i",
+        "WS0010": "uaf_edge_type_i",
+        "WS0013": "uaf_edge_type_i"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "uaf_merupaka_epd",
+        "WS0005": "uaf_merupaka_epd",
+        "WS0011": "uaf_chorus_m_amm",
+        "WS0018": "uaf_merupaka_epd",
+        "WS0019": "uaf_merupaka_epd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

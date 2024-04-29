@@ -1,0 +1,136 @@
+#-- Note for LunaLib users --#
+# LunaLib settings will override the following settings in this settings.json:
+# "enableAdversaryDynamicDoctrine", "enableAdversaryBlueprintStealing",
+# "adversaryDynamicDoctrineDelay", and "adversaryBlueprintStealingDelay"
+#
+# Instead, use LunaLib's in-game UI configs to modify these.
+
+{
+	# Allows the Adversary faction to change fleet doctrines after a specified number of months have passed
+	# Can be added to and/or removed from an existing game.
+	"enableAdversaryDynamicDoctrine":true,
+
+	# Allows the Adversary to "borrow" blueprints from specific factions every so often
+	# Can be added to and/or removed from an existing game
+	# Note: Removing this from an existing game will not remove already-stolen blueprints from the Adversary's known lists.
+	"enableAdversaryBlueprintStealing":false,
+
+	# Allows the most broken, ridiculous MagicLib bounties to spawn in in-game bounty boards
+	# Definitely not for those who value vanilla restraints!
+	# Requires MagicLib to work; does nothing otherwise
+	"enableAdversarySillyBounties":false,
+
+	# Allows a special, respawning Adversary fleet to spawn on an Adversary planet with the best High Command
+	# WARNING: Only applies to new games! Existing games will remain unaffected!
+	"enableAdversaryPersonalFleet":true,
+
+	#--- Settings for the Adversary's dynamic doctrine ---#
+	# Any changes here do not re-apply to existing saves; #
+	# those saves must remove the old settings first by   #
+	# setting "enableAdversaryDynamicDoctrine" to false.  #
+	#-----------------------------------------------------#
+
+ 	# How often, in months, will the Adversary switch doctrines, up to a minimum of every month
+	"adversaryDynamicDoctrineDelay":6,
+
+	# A list of possible Adversary doctrines; the first doctrine in this list is considered the default starting doctrine
+	# Note: The Adversary won't pick the same doctrine twice in a row, unless they only have one possible doctrine
+	# IDs can be found in the ship_data.csv, wing_data.csv, and weapon_data.csv files, located in the starsector-core/data/hulls or /weapons folder
+	# WARNING: Make sure to correctly spell the ship, weapon, and fighter IDs, and ensure the IDs are in the Adversary's known ships/weapons/fighters list!
+	# The Adversary's known ships/weapons/fighters list can be found in Adversary/data/world/factions/adversary.faction
+	"adversaryPossibleDoctrines":[
+		{ # Default doctrine
+			 # The relative chance for this doctrine to be picked
+			 # A weight of 0 or less means this doctrine will never be picked
+			 # Defaults to 1 if this entry is omitted
+			"weight":12,
+
+			 # [Warships, Carriers, Phase Ships]
+			 # Defaults to [3,2,2] if this entry is omitted
+			"fleetComposition":[3,2,2],
+
+			"aggression":5, # Defaults to 5 if this entry is omitted
+			"priorityShips":[], # Defaults to no priority if this entry is omitted
+			"priorityWeapons":[], # Defaults to no priority if this entry is omitted
+			"priorityFighters":[], # Defaults to no priority if this entry is omitted
+		},
+		{ # High Tech Warships
+			"weight":3,
+			"fleetComposition":[5,1,1],
+			"priorityShips":["paragon","odyssey","fury","aurora","apogee","shrike","medusa","scarab","omen","hyperion"],
+			"priorityWeapons":["tachyonlance","guardian","plasma","ionpulser","heavyblaster","amblaster","irpulse","squall","phasecl","sabotpod","sabot","heavyneedler","lightneedler"],
+			"priorityFighters":[],
+		},
+		{ # Midline Warships
+			"weight":3,
+			"fleetComposition":[5,1,1],
+			"aggression":2,
+			"priorityShips":["pegasus","conquest","gryphon","champion","eagle","falcon","sunder","hammerhead","centurion","monitor","vigilance","brawler"],
+			"priorityWeapons":["tachyonlance","plasma","irautolance","gravitonbeam","lrpdlaser","taclaser","hurricane","locust","gazerpod","gazer","mjolnir","hveldriver","heavymauler","vulcan"],
+			"priorityFighters":[],
+		},
+		{ # Low Tech Warships
+			"weight":3,
+			"fleetComposition":[5,1,1],
+			"priorityShips":["retribution","invictus","onslaught","eradicator","dominator","manticore","enforcer","lasher","vanguard"],
+			"priorityWeapons":["hydra","pilum_large","phasecl","annihilatorpod","gorgonpod","harpoon","mark9","hellbore","devastator","hveldriver","heavymauler","railgun","lightag","vulcan"],
+			"priorityFighters":[],
+		},
+		{ # Warships
+			"weight":3,
+			"fleetComposition":[5,1,1],
+		},
+		{ # High Tech/Midline Carriers
+			"weight":4,
+			"fleetComposition":[1,5,1],
+			"priorityShips":["astral","heron","drover","tempest"],
+			"aggression":2,
+			"priorityWeapons":["ionbeam","gravitonbeam","lrpdlaser","locust","hydra","harpoonpod","harpoon","swarmer","hveldriver","heavymauler","railgun","lightag","vulcan"],
+			"priorityFighters":["xyphos_wing","gladius_wing","thunder_wing","claw_wing","wasp_wing","dagger_wing","trident_wing","cobra_wing","longbow_wing"],
+		},
+		{ # Low Tech Carriers
+			"weight":4,
+			"fleetComposition":[1,5,1],
+			"aggression":3,
+			"priorityShips":["legion","mora","condor","shepherd"],
+			"priorityWeapons":["squall","harpoonpod","harpoon","swarmer","gauss","hellbore","hveldriver","heavymauler","railgun","lightag","vulcan"],
+			"priorityFighters":["broadsword_wing","sarissa_wing","warthog_wing","talon_wing","hoplon_wing","piranha_wing","perdition_wing","mining_drone_wing"],
+		},
+		{ # Carriers
+			"weight":4,
+			"fleetComposition":[1,5,1],
+		},
+		{ # Elite Phase Ships
+			"weight":6,
+			"fleetComposition":[1,1,5],
+			"priorityShips":["doom","revenant","harbinger","phantom","afflictor","shade"],
+			"priorityWeapons":["autopulse","ionpulser","heavyburst","heavyblaster","phasebeam","amblaster","pdburst","phasecl","sabotpod","sabot","lightneedler","lightag"],
+			"priorityFighters":[],
+		},
+		{ # Phase Ships
+			"weight":6,
+			"fleetComposition":[1,1,5],
+		},
+	],
+
+	#--- Settings for the Adversary's blueprint stealing ---#
+	# Any changes here do not re-apply to existing saves;   #
+	# those saves must remove the old settings first by     #
+	# setting "enableAdversaryBlueprintStealing" to false.  #
+	#-------------------------------------------------------#
+
+ 	# How often, in months, to steal/sync blueprints with the target factions, up to a minimum of every month
+	"adversaryBlueprintStealingDelay":12,
+
+	# List of factions from which the Adversary will steal blueprints
+	# Faction ids are found in the .faction files located in the starsector-core/data/world/factions folder
+	"adversaryStealsFromFactions":["player"],
+
+
+	# HA, max fleet counts (if not present: no limit)
+	"adversaryMaxFleets":1,
+
+	# Other
+	"designTypeColors":{"Adversary":[255,203,170,255]},
+	"ruleCommandPackages":["org.tranquility.adversary.rulecmd"],
+}

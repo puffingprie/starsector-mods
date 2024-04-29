@@ -1,0 +1,138 @@
+{
+  "hullName": "Shepherd (Heavy)",
+  "hullId": "shepherd_heavy",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/shepherd_heavy.png",
+  "style": "LOW_TECH",
+  "height": 80,
+  "width": 69,
+  "center": [34.5, 40],
+  "collisionRadius": 70,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 65.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "rugged"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [33, 18.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [33, -19.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 90,
+      "locations": [-2, 18]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 138,
+      "angle": -90,
+      "locations": [-2, -23]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -22, 0.5,
+        -23, -3,
+        -24, 4.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-39.5, 20],
+      "length": 28.5,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-39.5, -20],
+      "length": 28.5,
+      "width": 18,
+      "angle": -180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-29, 31],
+      "length": 11.134073,
+      "width": 10.683149,
+      "angle": 137,
+      "contrailSize": 10.683149,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-29, -31],
+      "length": 11.134073,
+      "width": 10.683149,
+      "angle": -137,
+      "contrailSize": 10.683149,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-21, 32.5],
+      "length": 7.246413,
+      "width": 6.321235,
+      "angle": 132,
+      "contrailSize": 6.321235,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-21, -32.5],
+      "length": 7.246413,
+      "width": 6.321235,
+      "angle": -132,
+      "contrailSize": 6.321235,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -35, -5,
+    -31.5, -6.5,
+    -39, -15.5,
+    -38.5, -25,
+    -28.5, -33,
+    21, -32.5,
+    34, -30.5,
+    35.5, -16,
+    39.5, -10.5,
+    39.5, 10.5,
+    35.5, 16,
+    34, 30.5,
+    21, 32.5,
+    -28.5, 33,
+    -38.5, 25,
+    -39, 15.5,
+    -31.5, 6.5,
+    -35, 5
+  ]
+}

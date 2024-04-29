@@ -1,0 +1,45 @@
+{
+    "displayName": "Imperial Elite",
+    "fluxCapacitors": 5,
+    "fluxVents": 20,
+    "hullId": "ii_lynx",
+    "hullMods": [
+        "ii_elite_package",
+        "magazines",
+        "adaptive_coils"
+    ],
+    "permaMods": ["ii_elite_package"],
+    "sMods": ["ii_elite_package"],
+    "variantId": "ii_lynx_ie",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "typhoon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "ii_fundae_s",
+                "WS0007": "ii_fundae_s"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "ionpulser",
+                "WS0005": "ionpulser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "railgun",
+                "WS0009": "railgun"
+            }
+        }
+    ]
+}

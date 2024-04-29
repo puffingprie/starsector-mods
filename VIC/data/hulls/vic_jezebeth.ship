@@ -1,0 +1,225 @@
+{
+  "hullName": "Jezebeth",
+  "hullId": "vic_jezebeth",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/Jezebeth/vic_jezebeth.png",
+  "style": "VIC",
+  "height": 232,
+  "width": 138,
+  "center": [69, 118],
+  "collisionRadius": 137,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 125.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "vic_aerodynamicdesign",
+    "vic_dynamicshields"
+  ],
+  "builtInWeapons": {
+    "WS0002": "vic_jezebeth_wing_left",
+    "WS0003": "vic_jezebeth_wing_right",
+    "WS0007": "vic_jezebeth_engine_glow_left",
+    "WS0008": "vic_jezebeth_engine_glow_right",
+    "WS0009": "vic_engine_glow_universal_small",
+    "WS0010": "vic_engine_glow_universal_small",
+    "WS0011": "vic_jezebeth_front_left",
+    "WS0012": "vic_jezebeth_front_right"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [3.5, 50]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [3.5, -50]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [1, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [68, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 195,
+      "angle": -135,
+      "locations": [-28, -12]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 195,
+      "angle": 135,
+      "locations": [-28, 12]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -51, -0,
+        -53, 7.5,
+        -53, -7.5
+      ]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-20, 47]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-20, -47]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-31, 31]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-31, -31]
+    },
+    {
+      "id": "WS0011",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 0,
+      "locations": [76.5, 11]
+    },
+    {
+      "id": "WS0012",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": -0,
+      "locations": [76.5, -11]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-31, 31],
+      "length": 68,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "CUSTOM",
+      "styleId": "VOLKOV-LAIDLAW'S"
+    },
+    {
+      "location": [-31, -31],
+      "length": 68,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "CUSTOM",
+      "styleId": "VOLKOV-LAIDLAW'S"
+    },
+    {
+      "location": [-20, 47],
+      "length": 56,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "CUSTOM",
+      "styleId": "VOLKOV-LAIDLAW'S"
+    },
+    {
+      "location": [-20, -47],
+      "length": 56,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "CUSTOM",
+      "styleId": "VOLKOV-LAIDLAW'S"
+    }
+  ],
+  "bounds": [
+    -110, 4,
+    -114.5, 12,
+    -94, 15.5,
+    -101.5, 24.5,
+    -30, 23,
+    -30, 36.5,
+    -18.5, 37,
+    -19, 53,
+    -36, 59,
+    -34.5, 67,
+    5, 57,
+    37.5, 51.5,
+    43.5, 35.5,
+    23, 40.5,
+    34, 20,
+    111.5, 20,
+    111.5, -20,
+    34, -20,
+    23, -40.5,
+    43.5, -35.5,
+    37.5, -51.5,
+    5, -57,
+    -34.5, -67,
+    -36, -59,
+    -19, -53,
+    -18.5, -37,
+    -30, -36.5,
+    -30, -23,
+    -101.5, -24.5,
+    -94, -15.5,
+    -114.5, -12,
+    -110, -4,
+    -67, -4,
+    -67, 4
+  ]
+}

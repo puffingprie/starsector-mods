@@ -1,0 +1,31 @@
+{
+	
+    "hullFrequency":{
+        "hulls":{
+            "missp_albatross":1.5,
+            "missp_staple":1.2,
+			"missp_chrysaor":1.5,
+        },
+    },
+    "shipsWhenImporting":{
+        "hulls":[
+            "missp_albatross",
+            "missp_staple",
+			"missp_chrysaor",
+        ],
+    },
+    "knownShips":{
+        "hulls":[
+            "missp_albatross",
+            "missp_staple",
+			"missp_chrysaor",
+        ],
+    },
+	"knownFighters":{
+		"fighters":[
+			"missp_midline_patrol_craft_wing",
+		],
+	},
+},
+
+

@@ -1,0 +1,108 @@
+{
+  "bounds": [
+    -39.5,
+    -22,
+    13,
+    -28,
+    43,
+    0.5,
+    13,
+    28,
+    -39.5,
+    22
+  ],
+  "builtInMods": [
+    "ill_advised"
+  ],
+  "center": [
+    28,
+    41
+  ],
+  "collisionRadius": 52.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -40,
+        10
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -40,
+        -10
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -40,
+        -0
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    }
+  ],
+  "height": 82,
+  "hullId": "missp_path_hermes",
+  "hullName": "Hermes (Path)",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 47.5,
+  "spriteName": "graphics/ships/hermes/missp_hermes_path.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 180,
+      "arc": 190,
+      "id": "WS0001",
+      "locations": [
+        -20,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        10,
+        18
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0003",
+      "locations": [
+        10,
+        -18
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 56
+}

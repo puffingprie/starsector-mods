@@ -1,0 +1,102 @@
+{
+  "hullName": "Stable Mass",
+  "hullId": "mess_stable_mass",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/mess/stable_mess.png",
+  "style": "HIGH_TECH",
+  "height": 60,
+  "width": 60,
+  "center": [30, 30],
+  "collisionRadius": 42,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 37.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated"
+  ],
+  "builtInWings": [
+    "drone_feeder_heavy_wing"
+  ],
+  "builtInWeapons": {
+    "WS0001": "feeder_gun_med",
+    "WS0002": "feeder_gun_med",
+    "WS0003": "feeder_gun_med",
+    "WS0004": "feeder_gun_med"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 60,
+      "angle": 0,
+      "locations": [25, 3]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 60,
+      "angle": -0,
+      "locations": [25, -3]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 60,
+      "angle": 0,
+      "locations": [23.5, 1.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 60,
+      "angle": -0,
+      "locations": [23.5, -1.5]
+    },
+  ],
+  "engineSlots": [
+    {
+      "location": [-24, 23.5],
+      "length": 13.219027,
+      "width": 15.557292,
+      "angle": 139.5,
+      "contrailSize": 15.557292,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-24, -23.5],
+      "length": 13.219027,
+      "width": 15.557292,
+      "angle": -139.5,
+      "contrailSize": 15.557292,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -22.5, -7.5,
+    -28, -19.5,
+    -19, -25.5,
+    -10.5, -20.5,
+    -1, -24,
+    12.5, -22.5,
+    20.5, -16.5,
+    27, -3.5,
+    24, -1.5,
+    24, 1.5,
+    27, 3.5,
+    20.5, 16.5,
+    12.5, 22.5,
+    -1, 24,
+    -10.5, 20.5,
+    -19, 25.5,
+    -28, 19.5,
+    -22.5, 7.5
+  ]
+}

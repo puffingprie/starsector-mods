@@ -1,0 +1,28 @@
+{
+	"id":"tpc_hmi",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"LARGE",
+	"mountTypeOverride": "HYBRID",
+	"turretSprite":"graphics/weapons/tpc_torn_turret_base.png",
+	"turretGlowSprite":"graphics/weapons/tpc_torn_turret_glow.png",
+	"hardpointSprite":"graphics/weapons/tpc_torn_hardpoint_base.png",
+	"hardpointGlowSprite":"graphics/weapons/tpc_torn_hardpoint_glow.png",
+	"turretOffsets":[25, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[15, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",
+	"glowColor":[70,190,255,255],
+	"muzzleFlashSpec":{"length":20.0,
+					   "spread":5.0,
+					   "particleSizeMin":15.0,
+					   "particleSizeRange":20.0,
+					   "particleDuration":0.12,
+					   "particleCount":10,
+					   "particleColor":[70,190,255,255]},		
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"projectileSpecId":"hmi_tpc_shot",  # projectile that will be fired
+	"fireSoundTwo":"hmi_tpc_blaster",
+}

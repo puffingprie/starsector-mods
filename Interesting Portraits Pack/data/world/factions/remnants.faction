@@ -1,0 +1,14 @@
+{
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/interesting_portrait_ai4b.png",
+			"graphics/portraits/interesting_portrait_ai5b.png",
+			"graphics/portraits/interesting_portrait_ai6b.png",
+		],
+		"standard_female":[
+			"graphics/portraits/interesting_portrait_ai4b.png",
+			"graphics/portraits/interesting_portrait_ai5b.png",
+			"graphics/portraits/interesting_portrait_ai6b.png",
+		],
+	},
+},

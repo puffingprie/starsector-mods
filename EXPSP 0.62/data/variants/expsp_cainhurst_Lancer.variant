@@ -1,0 +1,84 @@
+{
+  "variantId": "expsp_cainhurst_Lancer",
+  "hullId": "expsp_cainhurst",
+  "displayName": "Lancer",
+  "goalVariant": true,
+  "fluxCapacitors": 35,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_gluonlance",
+        "WS0002": "expsp_gluonlance"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "expsp_reiterpallasch_builtin",
+        "WS0015": "expsp_reiterpallasch_builtin"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "expsp_plinker",
+        "WS0004": "expsp_plinker",
+        "WS0005": "expsp_plinker",
+        "WS0006": "expsp_plinker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "expsp_hunterflak",
+        "WS0010": "expsp_coilciws",
+        "WS0011": "expsp_coilciws",
+        "WS0012": "expsp_particle_caliver",
+        "WS0013": "expsp_particle_caliver",
+        "WS0016": "expsp_coilciws",
+        "WS0024": "expsp_coilciws"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "expsp_poke_med",
+        "WS0009": "expsp_poke_med"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "expsp_flarelauncher_crimson",
+        "WS0018": "expsp_flarelauncher_crimson",
+        "WS0019": "expsp_flarelauncher_crimson",
+        "WS0020": "expsp_flarelauncher_crimson",
+        "WS0021": "expsp_flarelauncher_crimson",
+        "WS0022": "expsp_flarelauncher_crimson"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "expsp_kingslayer_wing"
+  ]
+}

@@ -1,0 +1,844 @@
+{
+  "hullName": "VACS-INC Port Royal",
+  "hullId": "sv_portroyal",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/pirate ships/sv_portroyal.png",
+  "style": "VACSINC",
+  "height": 553,
+  "width": 470,
+  "center": [235, 276.5],
+  "collisionRadius": 420.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 400.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "advancedcore",
+    "shielded_holds",
+    "sv_vacsincconstruction",
+    "sv_monkeysinabarrel",
+    "operations_center",
+    "hbi",
+    "shield_shunt"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -45,
+      "locations": [255.5, -124]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 45,
+      "locations": [255.5, 124]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -45,
+      "locations": [233.5, -132]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 45,
+      "locations": [233.5, 132]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -45,
+      "locations": [210.5, -141]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 45,
+      "locations": [210.5, 141]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -45,
+      "locations": [187.5, -150]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 45,
+      "locations": [187.5, 150]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -45,
+      "locations": [164.5, -159]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 45,
+      "locations": [164.5, 159]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -45,
+      "locations": [142.5, -168]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 45,
+      "locations": [142.5, 168]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -130,
+      "locations": [-103.5, -168]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 130,
+      "locations": [-103.5, 168]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -130,
+      "locations": [-125.5, -159]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 130,
+      "locations": [-125.5, 159]
+    },
+    {
+      "id": "WS0017",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -130,
+      "locations": [-148.5, -150]
+    },
+    {
+      "id": "WS0018",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 130,
+      "locations": [-148.5, 150]
+    },
+    {
+      "id": "WS0019",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -130,
+      "locations": [-171.5, -141]
+    },
+    {
+      "id": "WS0020",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 130,
+      "locations": [-171.5, 141]
+    },
+    {
+      "id": "WS0021",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -130,
+      "locations": [-194.5, -132]
+    },
+    {
+      "id": "WS0022",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 130,
+      "locations": [-194.5, 132]
+    },
+    {
+      "id": "WS0023",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -130,
+      "locations": [-216.5, -124]
+    },
+    {
+      "id": "WS0024",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 130,
+      "locations": [-216.5, 124]
+    },
+    {
+      "id": "WS0025",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 95,
+      "angle": -90,
+      "locations": [-79.5, -169]
+    },
+    {
+      "id": "WS0026",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 95,
+      "angle": 90,
+      "locations": [-79.5, 169]
+    },
+    {
+      "id": "WS0027",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -90,
+      "locations": [118.5, -169]
+    },
+    {
+      "id": "WS0028",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 90,
+      "locations": [118.5, 169]
+    },
+    {
+      "id": "WS0029",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -125,
+      "locations": [-19.5, -206]
+    },
+    {
+      "id": "WS0030",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 125,
+      "locations": [-19.5, 206]
+    },
+    {
+      "id": "WS0031",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -55,
+      "locations": [58.5, -206]
+    },
+    {
+      "id": "WS0032",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 55,
+      "locations": [58.5, 206]
+    },
+    {
+      "id": "WS0033",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [19.5, 217]
+    },
+    {
+      "id": "WS0034",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [19.5, -217]
+    },
+    {
+      "id": "WS0035",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": -90,
+      "locations": [19.5, -106]
+    },
+    {
+      "id": "WS0036",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": 90,
+      "locations": [19.5, 106]
+    },
+    {
+      "id": "WS0037",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 0,
+      "locations": [224.5, -32]
+    },
+    {
+      "id": "WS0038",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": -0,
+      "locations": [224.5, 32]
+    },
+    {
+      "id": "WS0039",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 53,
+      "angle": 17.5,
+      "locations": [182, -35]
+    },
+    {
+      "id": "WS0040",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 53,
+      "angle": -17.5,
+      "locations": [182, 35]
+    },
+    {
+      "id": "WS0041",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 320,
+      "angle": 0,
+      "locations": [50.5, -0]
+    },
+    {
+      "id": "WS0042",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-63.5, -0]
+    },
+    {
+      "id": "WS0043",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": 179.5,
+      "locations": [-145.5, -0]
+    },
+    {
+      "id": "WS0044",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [112, -0]
+    },
+    {
+      "id": "WS0045",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": 38,
+      "locations": [85.5, 46]
+    },
+    {
+      "id": "WS0046",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": -38,
+      "locations": [85.5, -46]
+    },
+    {
+      "id": "WS0047",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -0,
+      "locations": [85.5, -16]
+    },
+    {
+      "id": "WS0048",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 0,
+      "locations": [85.5, 16]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -28, -60.5,
+        -57.5, -60
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -28.5, 60.5,
+        -58, 61
+      ]
+    },
+    {
+      "id": "WS0049",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 75,
+      "angle": -77,
+      "locations": [-113.5, -45]
+    },
+    {
+      "id": "WS0050",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 75,
+      "angle": 77,
+      "locations": [-113.5, 45]
+    },
+    {
+      "id": "WS0051",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": -152,
+      "locations": [-180.5, -46]
+    },
+    {
+      "id": "WS0052",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": 152,
+      "locations": [-180.5, 46]
+    },
+    {
+      "id": "WS0053",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 180,
+      "locations": [-180.5, 16]
+    },
+    {
+      "id": "WS0054",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -180,
+      "locations": [-180.5, -16]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-274.5, -0],
+      "length": 53,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-274.5, -6.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-274.5, 6.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-274.5, -22],
+      "length": 44.5,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-274.5, 22],
+      "length": 44.5,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-274.5, -15.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-274.5, 15.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-274.5, -29.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-274.5, 29.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-265.5, -62.5],
+      "length": 60,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-265.5, 62.5],
+      "length": 60,
+      "width": 19,
+      "angle": -180,
+      "contrailSize": 19,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-265.5, -55.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-265.5, 55.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-265.5, -69.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-265.5, 69.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-265.5, -78.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-265.5, 78.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-265.5, -85],
+      "length": 50,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-265.5, 85],
+      "length": 50,
+      "width": 19,
+      "angle": -180,
+      "contrailSize": 19,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-265.5, -91.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-265.5, 91.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-265.5, -101],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-265.5, 101],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-265.5, -108],
+      "length": 42.5,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-265.5, 108],
+      "length": 42.5,
+      "width": 17,
+      "angle": -180,
+      "contrailSize": 17,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-265.5, -114.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-265.5, 114.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-261.5, -126.5],
+      "length": 42,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-261.5, 126.5],
+      "length": 42,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-270.5, 42],
+      "length": 90,
+      "width": 25,
+      "angle": 180,
+      "contrailSize": 25,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-270.5, -42],
+      "length": 90,
+      "width": 25,
+      "angle": -180,
+      "contrailSize": 25,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    }
+  ],
+  "bounds": [
+    -269.5, 50,
+    -260.5, 50,
+    -260.5, 135,
+    -228.5, 135,
+    -228.5, 146,
+    -78.5, 195,
+    -88.5, 221,
+    19.5, 231,
+    127.5, 221,
+    117.5, 196,
+    267.5, 146,
+    273.5, 56,
+    197.5, 56.5,
+    197.5, -56.5,
+    273.5, -56,
+    267.5, -146,
+    117.5, -196,
+    127.5, -221,
+    19.5, -231,
+    -88.5, -221,
+    -78.5, -195,
+    -228.5, -146,
+    -228.5, -135,
+    -260.5, -135,
+    -260.5, -50,
+    -269.5, -50
+  ]
+}

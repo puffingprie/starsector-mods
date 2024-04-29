@@ -1,0 +1,141 @@
+{
+  "hullName": "ASCII Lasher",
+  "hullId": "expsp_asciilasher",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/expsp_asciilasher.png",
+  "style": "OMEGA",
+  "height": 120,
+  "width": 80,
+  "center": [40, 46],
+  "collisionRadius": 94,
+  "shieldCenter": [-1.5, 0],
+  "shieldRadius": 76.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ballistic_rangefinder"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [6, 28]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [6, -28]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [19.5, 18]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [19.5, -18]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 45,
+      "locations": [-14, 14]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -45,
+      "locations": [-14, -14]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 0,
+      "locations": [34, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-38, 13],
+      "length": 24,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "OMEGA"
+    },
+    {
+      "location": [-38, -13],
+      "length": 24,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "OMEGA"
+    },
+    {
+      "location": [-39, 7],
+      "length": 24,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "OMEGA"
+    },
+    {
+      "location": [-39, -7],
+      "length": 24,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "OMEGA"
+    },
+    {
+      "location": [-39, 0],
+      "length": 41,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "OMEGA"
+    }
+  ],
+  "bounds": [
+    -38, -20,
+    -25, -33.5,
+    1, -33,
+    12.5, -21,
+    52.5, -10,
+    52.5, 10,
+    12.5, 21,
+    1, 33,
+    -25, 33.5,
+    -38, 20
+  ]
+}

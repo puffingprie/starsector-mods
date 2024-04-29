@@ -1,0 +1,32 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 10,
+    "fluxVents": 2,
+    "goalVariant": true,
+    "hullId": "ii_basileus",
+    "hullMods": ["ii_elite_package"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "ii_basileus_eli",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ii_solis"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "sabot",
+                "WS0003": "sabot",
+                "WS0004": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "ii_arcus"}
+        }
+    ]
+}

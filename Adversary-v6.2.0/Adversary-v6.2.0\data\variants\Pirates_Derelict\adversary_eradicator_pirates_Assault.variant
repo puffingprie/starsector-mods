@@ -1,0 +1,67 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 6,
+    "fluxVents": 30,
+    "hullId": "eradicator_pirates",
+    "hullMods": [
+        "missleracks",
+        "reinforcedhull",
+        "degraded_life_support",
+        "degraded_shields",
+        "erratic_injector",
+        "increased_maintenance",
+        "fragile_subsystems",
+        "armoredweapons",
+        "converted_hangar",
+        "targetingunit"
+    ],
+    "permaMods": [
+        "missleracks",
+        "reinforcedhull",
+        "degraded_life_support",
+        "degraded_shields",
+        "erratic_injector",
+        "increased_maintenance",
+        "fragile_subsystems"
+    ],
+    "sMods": [
+        "missleracks",
+        "reinforcedhull"
+    ],
+    "variantId": "adversary_eradicator_pirates_Assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 006": "heavymauler"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "harpoon",
+                "WS 001": "harpoon",
+                "WS 002": "harpoon",
+                "WS 003": "harpoon",
+                "WS 004": "harpoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "arbalest",
+                "WS 007": "arbalest"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "railgun",
+                "WS 010": "railgun"
+            }
+        }
+    ],
+    "wings": ["xyphos_wing"]
+}

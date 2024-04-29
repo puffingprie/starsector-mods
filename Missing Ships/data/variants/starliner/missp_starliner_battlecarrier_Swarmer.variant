@@ -1,0 +1,40 @@
+{
+  "variantId": "missp_starliner_battlecarrier_Swarmer",
+  "hullId": "missp_starliner_battlecarrier",
+  "displayName": "Brawler",
+  "goalVariant": false,
+  "fluxCapacitors": 1,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0002": "vulcan",
+        "WS0003": "lightdualmg",
+        "WS0004": "lightdualmg",
+        "WS0005": "swarmer_fighter",
+        "WS0006": "swarmer_fighter",
+        "WS0007": "vulcan",
+        "WS0008": "vulcan",
+        "WS0009": "vulcan",
+        "WS0010": "chaingun",
+        "WS0011": "chaingun",
+        "WS0012": "heavymg",
+        "WS0013": "heavymg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "talon_wing",
+    "talon_wing",
+    "talon_wing"
+  ]
+}

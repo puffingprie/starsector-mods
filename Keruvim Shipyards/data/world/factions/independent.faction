@@ -1,0 +1,16 @@
+{
+	"hullFrequency":{
+		#"tags":{},
+		"hulls":{"keruvim_catapult":3, "keruvim_bastion":5},
+		},
+	"knownShips":{
+		"tags":["keruvim_export_bp",],
+		"hulls":["keruvim_catapult", "keruvim_bastion"],
+	},
+	"knownFighters":{
+		"tags":["keruvim_export_bp",],
+	},
+	"knownWeapons":{
+		"tags":["keruvim_bp", "keruvim_export_bp",],
+	},
+},

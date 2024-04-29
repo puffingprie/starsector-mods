@@ -1,0 +1,64 @@
+{
+  "variantId": "expsp_helena_Expedition",
+  "hullId": "expsp_helena",
+  "displayName": "Expedition",
+  "goalVariant": true,
+  "fluxCapacitors": 17,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "militarized_subsystems",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "expsp_autogun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "BUILTIN_1": "expsp_minelaser2",
+        "BUILTIN_2": "expsp_minelaser2"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hammer",
+        "WS0002": "hammer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "expsp_plinker",
+        "WS0009": "expsp_plinker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "mininglaser",
+        "WS0005": "mininglaser",
+        "WS0006": "expsp_multilaser",
+        "WS0007": "expsp_multilaser",
+        "WS0010": "expsp_coilciws",
+        "WS0011": "expsp_coilciws",
+        "WS0012": "expsp_coilciws",
+        "WS0013": "expsp_coilciws",
+        "WS0014": "expsp_multilaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

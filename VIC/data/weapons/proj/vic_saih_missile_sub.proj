@@ -1,0 +1,18 @@
+{
+	"id":"vic_saih_missile_sub",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FIGHTER",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"glowColor":[255,175,100,90],
+	"glowRadius":12,
+	"length":25.0,
+	"width":2,
+	"hitGlowRadius":35,
+	"fadeTime":0.1,
+	"fringeColor":[255,175,100,125],
+	"coreColor":[255,255,255,255],	
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/vic_saih_missile_sub.png",
+}

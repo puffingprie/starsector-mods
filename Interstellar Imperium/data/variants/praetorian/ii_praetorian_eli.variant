@@ -1,0 +1,44 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 10,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "ii_praetorian",
+    "hullMods": ["ii_elite_package"],
+    "permaMods": [],
+    "variantId": "ii_praetorian_eli",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "chaingun"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "ii_javelinsmall",
+                "WS0004": "ii_javelinsmall"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "ioncannon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "heavymg"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "ii_custos",
+                "WS0006": "ii_custos",
+                "WS0008": "ii_custos"
+            }
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+faction
+data/world/factions/hmi.faction
+data/world/factions/hmi_exec.faction
+data/world/factions/knights_of_eva.faction
+data/world/factions/mess.faction
+data/world/factions/mess_remnant.faction
+data/world/factions/hmi_nightmare.faction
+
+data/world/factions/hmi_obs_hitech.faction
+data/world/factions/hmi_obs_lowtech.faction
+data/world/factions/hmi_obs_midtech.faction
+data/world/factions/hmi_obs_luddtech.faction

@@ -1,0 +1,54 @@
+{
+  "variantId": "expsp_principality_Standard",
+  "hullId": "expsp_principality",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "frontemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_scepter"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "expsp_plinker",
+        "WS0004": "expsp_plinker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "expsp_coilciws",
+        "WS0005": "expsp_coilciws",
+        "WS0010": "expsp_coilciws",
+        "WS0011": "expsp_coilciws"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "expsp_poke",
+        "WS0015": "expsp_poke"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "expsp_kingslayer_wing",
+    "expsp_kingslayer_wing"
+  ]
+}

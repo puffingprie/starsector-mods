@@ -1,0 +1,39 @@
+{
+  "variantId": "uaf_rama_corvette_tactical",
+  "hullId": "uaf_rama_corvette",
+  "displayName": "Tactical",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 4,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "eccm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "uaf_minibreve_tnt_s"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "uaf_triyia_pdx"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_cantata_cn"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

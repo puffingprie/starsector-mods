@@ -1,0 +1,82 @@
+{
+  "variantId": "uaf_rillaru_defense",
+  "hullId": "uaf_rillaru",
+  "displayName": "Defense",
+  "goalVariant": true,
+  "fluxCapacitors": 31,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "ballistic_rangefinder",
+    "targetingunit",
+    "ecm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_cyrexa_triple"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "uaf_weiss_iii_flk"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0015": "uaf_selemene_m_mrm",
+        "WS0016": "uaf_chorus_m_amm",
+        "WS0017": "uaf_vocal_s_srm",
+        "WS0018": "uaf_vocal_s_srm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0012": "uaf_triyia_pdx"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "uaf_hikone_quad",
+        "WS0010": "uaf_triyia_pdx",
+        "WS0011": "uaf_triyia_pdx"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "uaf_claris_cn",
+        "WS0005": "uaf_claris_cn",
+        "WS0006": "uaf_cantata_cn",
+        "WS0007": "uaf_cantata_cn"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "uaf_flair_pod",
+        "WS0009": "uaf_racun_pod",
+        "WS0013": "uaf_pd_reina",
+        "WS0014": "uaf_pd_reina",
+        "WS0019": "uaf_pd_reina"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_mitsurei"
+  ]
+}

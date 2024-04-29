@@ -1,0 +1,48 @@
+{
+  "variantId": "derelict_ramp_mothership_sensor_mast_std",
+  "hullId": "derelict_ramp_mothership_sensor_mast",
+  "displayName": "Crackling",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "sMods": ["armoredweapons", "magazines"],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "miningblaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "miningblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "mininglaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "mininglaser",
+        "WS0005": "mininglaser",
+        "WS0006": "mininglaser",
+        "WS0007": "mininglaser",
+        "WS0008": "mininglaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

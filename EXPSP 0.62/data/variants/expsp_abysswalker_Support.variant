@@ -1,0 +1,80 @@
+{
+  "variantId": "expsp_abysswalker_Support",
+  "hullId": "expsp_abysswalker",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 32,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "frontemitter",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0018": "hil"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "expsp_plinker",
+        "WS0009": "expsp_plinker_sml",
+        "WS0010": "expsp_plinker_sml"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "gravitonbeam",
+        "WS0004": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "expsp_lrm_med",
+        "WS0016": "expsp_lrm_med",
+        "WS0017": "expsp_lrm_med"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "expsp_hunterflak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_particle_caliver",
+        "WS0002": "expsp_particle_caliver",
+        "WS0007": "expsp_multilaser",
+        "WS0008": "expsp_multilaser",
+        "WS0011": "expsp_coilciws",
+        "WS0012": "expsp_coilciws",
+        "WS0013": "expsp_coilciws",
+        "WS0014": "expsp_coilciws"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "expsp_talonmvs_wing",
+    "expsp_stab_wing"
+  ]
+}

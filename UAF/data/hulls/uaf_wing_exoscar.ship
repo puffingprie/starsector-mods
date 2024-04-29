@@ -1,0 +1,69 @@
+{
+  "hullName": "Exoscar",
+  "hullId": "uaf_wing_exoscar",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/exoscar.png",
+  "style": "UAF_FIGHTER_S",
+  "height": 61,
+  "width": 61,
+  "center": [30.5, 27],
+  "collisionRadius": 32.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 32.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_limitedAmmo"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [5, 8]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [5, -8]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-10, -4],
+      "length": 42.5,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "MELODY_ENGINE_D"
+    },
+    {
+      "location": [-10, 4],
+      "length": 42.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "MELODY_ENGINE_D"
+    }
+  ],
+  "bounds": [
+    -17.5, 6,
+    -24, 10,
+    -13.5, 13.5,
+    -16, 19.5,
+    -8, 22,
+    26, 1,
+    26, -1,
+    -8, -22,
+    -16, -19.5,
+    -13.5, -13.5,
+    -24, -10,
+    -17.5, -6
+  ]
+}

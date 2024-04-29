@@ -1,0 +1,41 @@
+{
+  "variantId": "condor_d_mining",
+  "hullId": "condor",
+  "displayName": "Mining",
+  "goalVariant": false,
+  "fluxCapacitors": 1,
+  "fluxVents": 3,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "insulatedengine"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "mining_gen"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "seth_med"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "rock_launcher"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "mining_drone_wing",
+    "support_bombardment_drone_wing"
+  ]
+}

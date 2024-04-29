@@ -1,0 +1,26 @@
+{
+    "displayName": "Battlestation",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "hullId": "ii_station2",
+    "hullMods": [],
+    "quality": 0.5,
+    "variantId": "ii_station2_sta",
+    "weaponGroups": [],
+    "modules": [
+        # structural struts
+        {"WS0002": "ii_module_strut_sta"},
+        {"WS0004": "ii_module_strut_sta"},
+        {"WS0006": "ii_module_strut_sta"},
+
+        # primary modules
+        {"WS0001": "ii_module_combat_sta"},
+        {"WS0003": "ii_module_support_sta"},
+        {"WS0005": "ii_module_support_sta"},
+
+        # bastions
+        {"WS0007": "ii_module_bastion_sta"},
+        {"WS0008": "ii_module_citadel_sta"},
+        {"WS0009": "ii_module_bastion_sta"},
+    ],
+}

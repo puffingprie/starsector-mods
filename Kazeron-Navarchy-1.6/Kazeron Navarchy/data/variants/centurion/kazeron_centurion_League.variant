@@ -1,0 +1,34 @@
+{
+    "displayName": "Escort",
+    "fluxCapacitors": 2,
+    "fluxVents": 10,
+    "goalVariant": true,
+	"quality": 10,
+    "hullId": "kazeron_centurion_league",
+    "hullMods": [
+		"targetingunit",
+		"pointdefenseai",
+		"fluxbreakers",
+		"turretgyros",
+		"fluxdistributor"
+	],
+    "permaMods": [],
+    "variantId": "kazeron_centurion_league",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS 003": "swarmer"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightag",
+                "WS 002": "lightneedler",
+                "WS 004": "lightag",
+                "WS 005": "lightag"
+            }
+        }
+    ]
+}

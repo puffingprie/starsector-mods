@@ -1,0 +1,49 @@
+{
+  "variantId": "vanguard_lp_attack",
+  "hullId": "vanguard_lp",
+  "displayName": "Martyr",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 4,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "auxiliarythrusters",
+    "heavyarmor",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 006": "lightag",
+        "WS 007": "lightag",
+		"WS 005": "lightag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "lightdualmg",
+        "WS 001": "lightdualmg",
+        "WS 002": "lightdualmg",
+        "WS 003": "lightdualmg",
+        "WS 004": "lightdualmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

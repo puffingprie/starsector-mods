@@ -1,0 +1,67 @@
+{
+  "variantId": "mess_radiant_beam",
+  "hullId": "mess_radiant",
+  "displayName": "Beamer",
+  "goalVariant": false,
+  "fluxCapacitors": 20,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "advancedoptics",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 000": "tachyonlance",
+        "WS 001": "tachyonlance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 002": "hil",
+        "WS 004": "hil"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 006": "ionbeam",
+        "WS 007": "ionbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 005": "gravitonbeam",
+        "WS 008": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 003": "guardian",
+        "WS 009": "lrpdlaser",
+        "WS 010": "lrpdlaser",
+        "WS 011": "lrpdlaser",
+        "WS 012": "lrpdlaser",
+        "WS 013": "lrpdlaser",
+        "WS 014": "lrpdlaser",
+        "WS 015": "lrpdlaser",
+        "WS 016": "lrpdlaser",
+        "WS 017": "lrpdlaser",
+        "WS 018": "lrpdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

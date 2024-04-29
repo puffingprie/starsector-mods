@@ -1,0 +1,19 @@
+{
+	"id":"expsp_railcannon_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",	
+	#"spawnType":"BALLISTIC_AS_BEAM",
+	#"collisionClass":"RAY",
+	#"collisionClassByFighter":"RAY_FIGHTER",
+	"length":120.0,
+	"width":7.5,
+	"fadeTime":0.15,
+	"fringeColor":[50,244,244,255],
+	"coreColor":[50,244,244,220],
+	"hitGlowRadius":100,
+	"textureScrollSpeed":32.0,
+	"pixelsPerTexel":10.0,
+	"bulletSprite":"graphics/missiles/expsp_shell_railcannon.png"	
+}

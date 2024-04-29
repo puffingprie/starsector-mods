@@ -1,0 +1,14 @@
+{
+    "id":"ii_turbofeeder",
+    "type":"STAT_MOD",
+    "aiType":"CUSTOM",
+    "aiScript":"data.scripts.shipsystems.ai.II_TurbofeederAI",
+
+    "statsScript":"data.scripts.shipsystems.II_TurbofeederStats",
+    "runScriptWhilePaused":true, # only for the player's ship
+
+    "weaponTypes":[ENERGY, MISSILE, BALLISTIC],
+
+    "useSound":"ii_infernium_turbo_activate",
+    "outOfUsesSound":"gun_out_of_ammo",
+}

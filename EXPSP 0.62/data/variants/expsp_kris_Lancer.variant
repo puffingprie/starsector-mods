@@ -1,0 +1,40 @@
+{
+  "variantId": "expsp_kris_Lancer",
+  "hullId": "expsp_kris",
+  "displayName": "Lancer",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "frontemitter",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "expsp_coilciwsbuiltin",
+        "WS0004": "expsp_coilciwsbuiltin"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_electrolance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "expsp_coilciws"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

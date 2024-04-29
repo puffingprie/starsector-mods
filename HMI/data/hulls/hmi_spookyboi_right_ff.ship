@@ -1,0 +1,100 @@
+{
+  "hullName": "Unknown Contact",
+  "hullId": "hmi_spookyboi_right_ff",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/mess/hmi_spookyboi_right_ff.png",
+  "style": "HIGH_TECH_VANISH",
+  "height": 92,
+  "width": 84,
+  "center": [42, 46],
+  "collisionRadius": 58.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 55,
+  "viewOffset": 0,
+  "builtInMods": [
+    "advancedoptics",
+    "unstable_injector",
+    "targetingunit",
+    "auxiliarythrusters",
+    "hmi_terror_vanish"
+  ],
+  "builtInWeapons": {
+    "WS0001": "ionpulser",
+    "WS0002": "ionbeam",
+    "WS0003": "gravitonbeam"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 148,
+      "angle": -28.5,
+      "locations": [-11, -25]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [16, -12]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 161,
+      "angle": 0,
+      "locations": [25, 5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-36, -23.5],
+      "length": 20.361004,
+      "width": 12.112716,
+      "angle": -142,
+      "contrailSize": 12.112716,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-29.5, 5],
+      "length": 30,
+      "width": 10,
+      "angle": 167.5,
+      "contrailSize": 30,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-19, 20],
+      "length": 30,
+      "width": 10,
+      "angle": 130.5,
+      "contrailSize": 30,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-34, -4.5],
+      "length": 11.517371,
+      "width": 9.715998,
+      "angle": -162.5,
+      "contrailSize": 9.715998,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    40.5, -3,
+    28, -6.5,
+    22.5, -24.5,
+    9.5, -23.5,
+    -8.5, -37.5,
+    -43, -20,
+    -32, 6.5,
+    -15, 31,
+    33, 31
+  ]
+}

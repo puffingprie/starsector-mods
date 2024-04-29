@@ -1,0 +1,24 @@
+{
+    "variantOverrides":{
+        "armaa_garegga_tt_standard":5,
+	"armaa_garegga_tt_assault":2,
+    },
+    "hullFrequency":{
+        "hulls":{
+            "armaa_garegga_tt":0.3,
+        },
+    },
+    "knownShips":{
+        "hulls":[
+            "armaa_garegga_tt",
+	    "armaa_aleste_frig",
+        ],
+    },
+
+	"knownFighters":{
+		#"tags":["armaa_cataphract_bp"],
+		"fighters":
+		[
+		],
+	},
+},

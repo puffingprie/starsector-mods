@@ -1,0 +1,50 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 600,
+  "fireSoundTwo": "needler_fire",
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGunSprite": "graphics/weapons/sml_fragrifle_hardpoint_recoil.png",
+  "hardpointOffsets": [
+    18,
+    0
+  ],
+  "hardpointSprite": "graphics/weapons/sml_fragrifle_hardpoint_base.png",
+  "id": "sml_fragrifle",
+  "muzzleFlashSpec": {
+    "length": 10,
+    "particleColor": [
+      165,
+      225,
+      185,
+      175
+    ],
+    "particleCount": 18,
+    "particleDuration": 0.2,
+    "particleSizeMin": 12,
+    "particleSizeRange": 14,
+    "spread": 28
+  },
+  "projectileSpecId": "lightneedler_shot",
+  "renderHints": [
+    "RENDER_BARREL_BELOW"
+  ],
+  "size": "SMALL",
+  "specClass": "projectile",
+  "specialWeaponGlowHeight": 30,
+  "specialWeaponGlowWidth": 12,
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGunSprite": "graphics/weapons/sml_fragrifle_turret_recoil.png",
+  "turretOffsets": [
+    12,
+    0
+  ],
+  "turretSprite": "graphics/weapons/sml_fragrifle_turret_base.png",
+  "type": "BALLISTIC",
+  "visualRecoil": 7
+}

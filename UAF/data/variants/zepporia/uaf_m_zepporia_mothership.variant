@@ -1,0 +1,107 @@
+{
+  "variantId": "uaf_m_zepporia_mothership",
+  "hullId": "uaf_m_zepporia",
+  "displayName": "Mothership",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 40,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0019": "uaf_herexa"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_swaras_m_mlrs",
+        "WS0002": "uaf_swaras_m_mlrs"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0024": "uaf_swaras_l_mlrs",
+        "WS0025": "uaf_swaras_l_mlrs"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "uaf_hikone_quad",
+        "WS0004": "uaf_hikone_quad",
+        "WS0013": "uaf_ivory",
+        "WS0014": "uaf_ivory"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "uaf_deco_mg",
+        "WS0008": "uaf_deco_mg",
+        "WS0009": "uaf_deco_mg",
+        "WS0010": "uaf_deco_mg",
+        "WS0011": "uaf_deco_mg",
+        "WS0012": "uaf_deco_mg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0021": "uaf_triyia_pdx",
+        "WS0022": "uaf_triyia_pdx"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "uaf_pd_reina",
+        "WS0006": "uaf_pd_reina",
+        "WS0015": "uaf_pd_reina",
+        "WS0016": "uaf_pd_reina",
+        "WS0017": "uaf_hikone_quad",
+        "WS0018": "uaf_hikone_quad"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0020": "uaf_m_zepporia_armor_1_plating"
+    },
+    {
+      "WS0026": "uaf_m_zepporia_armor_1_plating"
+    },
+    {
+      "WS0023": "uaf_m_zepporia_armor_1_plating"
+    },
+    {
+      "WS0031": "uaf_m_zepporia_armor_1_plating"
+    },
+    {
+      "WS0032": "uaf_m_zepporia_left_armor_plating"
+    },
+    {
+      "WS0033": "uaf_m_zepporia_right_armor_plating"
+    }
+  ],
+  "wings": [
+    "uaf_wing_neoscar",
+    "uaf_wing_neoscar",
+    "uaf_wing_pengawas",
+    "uaf_wing_menascar",
+    "uaf_wing_menascar"
+  ]
+}

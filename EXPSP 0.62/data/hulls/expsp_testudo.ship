@@ -1,0 +1,195 @@
+{
+  "hullName": "Testudo",
+  "hullId": "expsp_testudo",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/expsp_testudo.png",
+  "style": "EXPSP_MVS",
+  "height": 110,
+  "width": 100,
+  "center": [50, 55],
+  "collisionRadius": 60.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 56,
+  "viewOffset": 0,
+  "builtInMods": [
+    "fluxshunt",
+    "machinatargetingsystems"
+  ],
+  "builtInWings": [
+    "expsp_attackfunnel_PD_wing"
+  ],
+  "builtInWeapons": {
+    "WS0001": "expsp_hunterflak",
+    "WS0005": "expsp_vernier",
+    "WS0006": "expsp_vernier",
+    "WS0007": "expsp_flarelauncher_crimson",
+    "WS0008": "expsp_flarelauncher_crimson"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [-6, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -90,
+      "locations": [-16, -25]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 90,
+      "locations": [-16, 25]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 180,
+      "locations": [-29, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [23.5, 9]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [23.5, -9]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 45,
+      "locations": [-1, 27]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": -45,
+      "locations": [-1, -27]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -36.5, 1,
+        -37, -3
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-32.5, -19],
+      "length": 30.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-31, 25.5],
+      "length": 30.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-31, -25.5],
+      "length": 30.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-27.5, 31],
+      "length": 30.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-27.5, -31],
+      "length": 30.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-32.5, 19.5],
+      "length": 30.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-32.5, -19.5],
+      "length": 30.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    }
+  ],
+  "bounds": [
+    -32, -4.5,
+    -23.5, -12,
+    -33, -13,
+    -22, -38.5,
+    -6, -39,
+    24.5, -10.5,
+    38.5, -7.5,
+    38.5, 7.5,
+    24.5, 10.5,
+    -6, 39,
+    -22, 38.5,
+    -33, 13,
+    -23.5, 12,
+    -32, 4.5
+  ]
+}

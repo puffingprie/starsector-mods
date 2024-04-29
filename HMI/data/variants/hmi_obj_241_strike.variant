@@ -1,0 +1,61 @@
+{
+  "variantId": "hmi_obj_241_strike",
+  "hullId": "hmi_obj_241",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 3,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "armoredweapons",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "gauss"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "locust"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0010": "harpoonpod",
+        "WS0011": "harpoonpod",
+        "WS0012": "harpoonpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "lightac",
+        "WS0006": "lightac",
+        "WS0007": "lightac",
+        "WS0008": "lightac",
+        "WS0009": "lightac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "flak",
+        "WS0004": "dualflak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

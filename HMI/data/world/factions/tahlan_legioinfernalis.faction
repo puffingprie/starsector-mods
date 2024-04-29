@@ -1,0 +1,40 @@
+{
+
+	"hullFrequency":{
+		"tags":{
+			"hmi_bp":0.5,
+			"hmi_junk_bp":0.5,
+		},
+		"hulls":{
+		"mulligan":10,
+		"junk":0.75,
+		"hmi_locomotive":0.05,		
+		},
+	},
+		"shipsWhenImporting":{
+		"tags":["hmi_bp", "hmi_junk_bp"],
+	},
+	"knownShips":{
+		"tags":["hmi_bp", "hmi_junk_bp"],
+		"hulls":[
+		"mulligan",
+		"junk",
+		"brasher",
+		"hmi_locomotive",		
+		],
+	},
+	
+	"knownFighters":{
+		"tags":["hmi_bp"],
+	},		
+	"knownWeapons":{
+		"tags":["hmi_bp"],
+		"weapons":[
+		"rad_gun",],
+	},	
+	
+},
+
+
+
+

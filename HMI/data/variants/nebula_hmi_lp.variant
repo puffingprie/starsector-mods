@@ -1,0 +1,34 @@
+{
+  "variantId": "nebula_hmi_lp",
+  "hullId": "nebula",
+  "displayName": "Divine",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "converted_hangar",
+    "militarized_subsystems"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "lightmortar",
+        "WS 002": "lightmortar"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 003": "vulcan",
+        "WS 004": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": ["piranha_wing"]
+}

@@ -1,0 +1,58 @@
+{
+  "displayName": "Outdated",
+  "fluxCapacitors": 19,
+  "fluxVents": 30,
+  "goalVariant": false,
+  "hullId": "dominator",
+  "hullMods": [
+    "missleracks",
+    "magazines",
+    "fragile_subsystems"
+  ],
+  "permaMods": [],
+  "quality": 0.25,
+  "variantId": "dominator_hmi_outdated",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 012": "mark_iv",
+        "WS 013": "mark_iv"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 014": "mbeke_med",
+        "WS 015": "mbeke_med",
+        "WS 016": "mbeke_med",
+        "WS 010": "mbeke_med",
+        "WS 011": "mbeke_med"		
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 003": "hmi_kiddie_mortar",
+        "WS 004": "hmi_kiddie_mortar",
+        "WS 005": "hmi_kiddie_mortar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "vulcan",
+        "WS 002": "vulcan",
+        "WS 006": "vulcan",
+        "WS 007": "vulcan",
+        "WS 008": "vulcan",
+        "WS 009": "vulcan"
+      }
+    }
+  ],
+  "wings": []
+}

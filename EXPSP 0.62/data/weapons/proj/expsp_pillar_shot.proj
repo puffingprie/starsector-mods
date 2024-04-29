@@ -1,0 +1,45 @@
+{
+	"id":"expsp_pillar_shot",
+	"specClass":"missile",
+	"missileType":"ROCKET",
+	"sprite":"graphics/missiles/expsp_pillar_msl.png",
+	"size":[12,40],	
+	"center":[6,20],
+	#"size":[10,21],	
+	#"center":[5,10.5],
+	"collisionRadius":12,
+	"collisionClass":"MISSILE_FF",
+	"explosionColor":[212,175,55,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":100, # purely visual
+	"flameoutTime":1, # total time from flameout to full fadeout
+	"noEngineGlowTime":0.5, # time spent without the engine glow being rendered
+	"fadeTime":0.5, # fadeout duration	
+	"onHitEffect":"data.scripts.weapons.expsp_holorifleHit",
+	"engineSpec":{"turnAcc":0,
+				  "turnRate":0,
+				  "acc":300,
+				  "dec":0},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-20, 0],
+				    #"style":"ROCKET_LOW_TECH",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[1,1,1,1],
+						"contrailDuration":.1,
+						"contrailWidthMult":.1,
+						"contrailWidthAddedFractionAtEnd":1,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":1, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.1f,
+						"contrailSpawnDistMult":0f, # how far away from engine it starts
+						"contrailColor":[1,1,1,1],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":1.0,
+				    "length":1.0,
+				    "angle":180.0}],
+					
+}
+
+			

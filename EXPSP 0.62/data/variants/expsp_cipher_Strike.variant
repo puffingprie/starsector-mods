@@ -1,0 +1,59 @@
+{
+  "variantId": "expsp_cipher_Strike",
+  "hullId": "expsp_cipher",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 16,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardened_subsystems",
+    "insulatedengine",
+    "unstable_injector"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_lockdown",
+        "WS0002": "expsp_lockdown"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "expsp_slap2",
+        "WS0004": "expsp_slap2",
+        "WS0005": "expsp_slap",
+        "WS0006": "expsp_slap"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "expsp_particle_caliver",
+        "WS0009": "expsp_particle_caliver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "expsp_flarelauncher_crimson",
+        "WS0010": "expsp_flarelauncher_crimson",
+        "WS0011": "expsp_flarelauncher_crimson"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

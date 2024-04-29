@@ -1,0 +1,50 @@
+{
+  "variantId": "expsp_kriegsmesser_Torpedo",
+  "hullId": "expsp_kriegsmesser",
+  "displayName": "Torpedo",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "missleracks",
+    "frontemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_slap2",
+        "WS0002": "expsp_slap2",
+        "WS0003": "expsp_coilciws",
+        "WS0004": "expsp_coilciws"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "expsp_coilciws",
+        "WS0006": "expsp_coilciws"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "expsp_pokemini",
+        "WS0008": "expsp_pokemini"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,18 @@
+{
+    "id":"ii_lux_shot",
+    "specClass":"projectile",
+    "spawnType":"BALLISTIC",
+    "collisionClass":"PROJECTILE_FF",
+    "collisionClassByFighter":"PROJECTILE_FIGHTER",
+    "length":60.0,
+    "width":3.5,
+    "hitGlowRadius":20,
+    "fadeTime":0.15,
+    "fringeColor":[255,200,70,235],
+    "coreColor":[255,200,200,180],
+    "glowColor":[255,217,64,40],
+    "glowRadius":30,
+    "textureScrollSpeed":64.0,
+    "pixelsPerTexel":5.0,
+    "bulletSprite":"graphics/missiles/flechette_sml.png"
+}

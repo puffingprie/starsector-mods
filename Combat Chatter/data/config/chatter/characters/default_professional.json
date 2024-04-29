@@ -1,0 +1,86 @@
+{
+	"name":"Default (professional)",
+	"personalities":["cautious", "steady"],
+	"gender":["m","f","n"],
+	"chance":0.5,
+	"talkativeness":1,
+	"categoryTags":["default", "original"],
+	
+	"lines":{
+		"start":[
+			{"text":"Operation begins."},
+			{"text":"Everyone to battle stations."},
+			{"text":"Systems all green."},
+			{"text":"Commencing battlefield analysis."}
+		],
+		"start_boss":[
+			{"text":"Stick together and we'll take that thing down."},
+			{"text":"Pincer it and it'll die like the rest."},
+		],
+		"retreat":[
+			{"text":"Retreating."},
+			{"text":"Set the course. We're leaving here."}
+		],
+		"out_of_missiles":[
+			{"text":"Out of missiles."},
+			{"text":"Missiles depleted."}
+		],
+
+		"engaged":[
+			{"text":"Engaging enemy."},
+			{"text":"Enemy confirmed. Ship to combat power."},
+			{"text":"Unit in contact."}
+		],
+
+		"need_help":[
+			{"text":"Requesting assistance."},
+			{"text":"We got trouble here."},
+		],
+
+		"pursuing":[
+			{"text":"Intercept plotted."},
+			{"text":"Moving to engage."},
+			{"text":"Vector locked in."}
+		],
+
+		"running":[
+			{"text":"Breaking engagement."}
+		],
+
+		"hull_90":[
+			{"text":"We've taken hull damage."},
+			{"text":"Hull breached."},
+		],
+
+		"hull_50":[
+			{"text":"Hull integrity at 50%. Damage control teams on the way."},
+			{"text":"Hull down to 50%."}
+		],
+
+		"hull_30":[
+			{"text":"Hull integrity at 30%. Requesting permission to retreat."},
+			{"text":"Hull status critical."},
+			{"text":"Breach in critical areas. All teams, focus on maintaining combat capability."}
+		],
+
+		"overload":[
+			{"text":"Flux overloaded. Requesting coverage until we handle it."},
+			{"text":"Flux exceeded the generator capacity. I need cover."}
+		],
+
+		"death":[
+			{"text":"Commander, I lost the ship... Escaping."},
+			{"text":"Any surviving crew, get in the escape pods!"},
+			{"text":"Reporting reactor explosion. Casualties... unknown."}
+		],
+		"victory":[
+			{"text":"Mission accomplished. Nice job, everyone."},
+			{"text":"It's over."},
+			{"text":"Enemy is retreating."}
+		],
+		"victory_boss":[
+			{"text":"High value target has been elimated."},
+			{"text":"One for the books."},
+		],
+	}
+}

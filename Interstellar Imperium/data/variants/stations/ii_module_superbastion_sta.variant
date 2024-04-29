@@ -1,0 +1,40 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "ii_module_superbastion",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "ii_module_superbastion_sta",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0008": "ii_sagittarius"}
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "ii_armageddon_station",
+                "WS0002": "ii_armageddon_station",
+                "WS0003": "ii_armageddon_station"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "ii_custos",
+                "WS0005": "ii_custos",
+                "WS0006": "ii_custos",
+                "WS0007": "ii_custos"
+            }
+        }
+    ],
+    "wings": [
+        "ii_inferna_wing",
+        "ii_flamen_wing"
+    ]
+}

@@ -1,0 +1,204 @@
+{
+  "hullName": "Brasher",
+  "hullId": "brasher",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/brasher.png",
+  "style": "LOW_TECH",
+  "height": 108,
+  "width": 178,
+  "center": [89, 56.5],
+  "collisionRadius": 109,
+  "shieldCenter": [0, 0.5],
+  "shieldRadius": 106.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "HMI_techminedhull"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [37.5, 28]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [37.5, -28]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [38.5, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [29, 54]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": -0,
+      "locations": [29, -54]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [12.5, 65]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": -0,
+      "locations": [12.5, -65]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 199,
+      "angle": 53,
+      "locations": [15.5, 27]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 199,
+      "angle": -53,
+      "locations": [15.5, -27]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-28, 12.5],
+      "length": 37,
+      "width": 28,
+      "angle": 180,
+      "contrailSize": 28,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-28, -12.5],
+      "length": 37,
+      "width": 28,
+      "angle": -180,
+      "contrailSize": 28,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-25.5, 38],
+      "length": 12,
+      "width": 21,
+      "angle": -163.5,
+      "contrailSize": 21,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-25.5, -38],
+      "length": 12,
+      "width": 21,
+      "angle": 163.5,
+      "contrailSize": 21,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-51.5, 64],
+      "length": 15.568381,
+      "width": 9.513256,
+      "angle": 149.5,
+      "contrailSize": 9.513256,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-51.5, -64],
+      "length": 15.568381,
+      "width": 9.513256,
+      "angle": -149.5,
+      "contrailSize": 9.513256,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-47, 70.5],
+      "length": 15.568381,
+      "width": 9.513256,
+      "angle": 149.5,
+      "contrailSize": 9.513256,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-47, -70.5],
+      "length": 15.568381,
+      "width": 9.513256,
+      "angle": -149.5,
+      "contrailSize": 9.513256,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-44, 77.5],
+      "length": 15.314612,
+      "width": 8.651627,
+      "angle": 149.5,
+      "contrailSize": 8.651627,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-44, -77.5],
+      "length": 15.314612,
+      "width": 8.651627,
+      "angle": -149.5,
+      "contrailSize": 8.651627,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -29, -18,
+    -21.5, -27,
+    -29.5, -41,
+    -55, -59,
+    -41.5, -84,
+    -20.5, -89,
+    32.5, -62,
+    33.5, -49.5,
+    42.5, -42,
+    51, -17.5,
+    51, 17.5,
+    42.5, 42,
+    33.5, 49.5,
+    32.5, 62,
+    -20.5, 89,
+    -41.5, 84,
+    -55, 59,
+    -29.5, 41,
+    -21.5, 27,
+    -29, 18
+  ]
+}

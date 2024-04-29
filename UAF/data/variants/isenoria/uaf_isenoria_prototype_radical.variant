@@ -1,0 +1,83 @@
+{
+  "variantId": "uaf_isenoria_prototype_radical",
+  "hullId": "uaf_isenoria_prototype",
+  "displayName": "Radical",
+  "goalVariant": false,
+  "fluxCapacitors": 8,
+  "fluxVents": 22,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0018": "uaf_kanshee_sxc",
+        "WS0019": "uaf_kanshee_sxc"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0014": "uaf_exoscar_torpedo_med",
+        "WS0015": "uaf_exoscar_torpedo_med"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0016": "uaf_edge_type_ii",
+        "WS0017": "uaf_edge_type_ii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0021": "uaf_rhythm_base_triple",
+        "WS0022": "uaf_rhythm_base_triple"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_edge_type_i",
+        "WS0004": "uaf_edge_type_i",
+        "WS0010": "uaf_cantata_cn",
+        "WS0011": "uaf_cantata_cn"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "uaf_medlav_dual",
+        "WS0008": "uaf_medlav_dual"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_racun_pod",
+        "WS0002": "uaf_racun_pod",
+        "WS0005": "uaf_racun_pod",
+        "WS0006": "uaf_racun_pod",
+        "WS0009": "uaf_triyia_pdx",
+        "WS0012": "uaf_weiss_flk",
+        "WS0013": "uaf_weiss_flk"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_taufan",
+    "uaf_wing_taufan"
+  ]
+}

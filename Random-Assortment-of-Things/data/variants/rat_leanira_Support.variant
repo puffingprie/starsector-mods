@@ -1,0 +1,57 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 25,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "rat_leanira",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "rat_controller",
+        "targetingunit",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "rat_leanira_Support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "gravitonbeam",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "rat_starburst",
+                "WS0002": "rat_starburst",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "taclaser",
+                "WS0004": "taclaser",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "pdlaser",
+                "WS0006": "pdlaser",
+            }
+        },
+    ],
+    "wings": [
+        "rat_dawnblade_wing",
+        "rat_protostar_wing",
+        "rat_nightblade_wing",
+    ],
+    "modules": [
+        {"APHEIDAS_SLOT": "rat_apheidas_Support"},
+    ],
+}

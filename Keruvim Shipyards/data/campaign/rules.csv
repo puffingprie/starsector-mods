@@ -1,0 +1,30 @@
+id,trigger,conditions,script,text,options,notes
+# Reaver fleet greeting lines,,,,,,
+greetingLCFriendly,OpenCommLink,"$faction.id == reaver
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""The blessing of Ludd be upon you.""
+OR
+""Blessings of the stars and pneuma, friend.""
+OR
+""Safe travels, friend, and blessing of Ludd be upon you.""",,
+greetingLCHostileWeaker,OpenCommLink,"$faction.id == reaver
+$entity.isHostile
+$entity.relativeStrength < 0",$entity.ignorePlayerCommRequests = true 1,"""We follow the way of Ludd. Though the righteous suffer the lash, our reward will be everlasting grace.""
+OR
+""Do your unholy work then, servant of Mammon. When it is our time, Ludd will guide our souls to peace.""",cutCommLink:Cut the comm link,
+greetingLCHostileWeakerDefiant,OpenCommLink,"$faction.id == reaver
+$entity.isHostile
+$entity.relativeStrength < 0
+$entity.weakerThanPlayerButHolding",$entity.ignorePlayerCommRequests = true 1,"""We follow the path of Ludd amidst persecution. Yea, the righteous will suffer the lash and our reward will be everlasting grace."" The Luddic $personRank seems to be talking not to you anymore, but perhaps to $hisOrHer god.
+OR
+""Are you so corrupted by the false machine gods? Choose wisely your course; there is still time for redemption.""",cutCommLink:Cut the comm link,
+greetingLCHostileStronger,OpenCommLink,"$faction.id == reaver
+$entity.isHostile
+$entity.relativeStrength >= 0",$entity.ignorePlayerCommRequests = true 1,"""Submit, repent, and your sinful technologies will be smashed; Resist, and only God's holy vacuum will show you mercy.""
+OR
+""Servant of the machine! Submit now, repent, and perhaps even you will find redemption. Otherwise the only mercy you shall find will be in God's holy vacuum.""",cutCommLink:Cut the comm link,
+greetingLCNeutral,OpenCommLink,"$faction.id == reaver
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Contact; Do not interfere in our righteous mission.""
+OR
+""Contact - please maintain distance. Blessing of Ludd, traveler.""",,

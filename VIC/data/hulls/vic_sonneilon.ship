@@ -1,0 +1,95 @@
+{
+  "hullName": "Sonneilon Artillery Fighter",
+  "hullId": "vic_sonneilon",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/Sonneilon.png",
+  "style": "VIC",
+  "height": 68,
+  "width": 46,
+  "center": [23, 32],
+  "collisionRadius": 35.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 35,
+  "viewOffset": 0,
+  "builtInMods": [
+    "vic_fighteralwaysburn",
+    "vic_overloadProtection"
+  ],
+  "builtInWeapons": {
+    "WS0002": "vic_fighterTrail",
+    "WS0003": "vic_fighterTrail",
+    "WS0004": "vic_fighterTrail"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 40,
+      "angle": 0,
+      "locations": [2, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 40,
+      "angle": 180,
+      "locations": [-28, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 40,
+      "angle": 180,
+      "locations": [-23.5, 9.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 40,
+      "angle": -180,
+      "locations": [-23.5, -9.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-25, 9.5],
+      "length": 14,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "VOLKOV-LAIDLAW'S FIGHTER"
+    },
+    {
+      "location": [-25, -9.5],
+      "length": 14,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "VOLKOV-LAIDLAW'S FIGHTER"
+    },
+    {
+      "location": [-29, -0],
+      "length": 18.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "VOLKOV-LAIDLAW'S FIGHTER"
+    }
+  ],
+  "bounds": [
+    -23.5, -16,
+    -23.5, 16,
+    33, -0
+  ]
+}

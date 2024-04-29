@@ -1,0 +1,50 @@
+{
+  "displayName": "Sniper",
+  "fluxCapacitors": 18,
+  "fluxVents": 7,
+  "goalVariant": true,
+  "hullId": "keruvim_zweihander_b",
+  "hullMods": [
+    "targetingunit"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "keruvim_zweihander_b_sniper",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "heatseeker",
+        "WS0004": "heatseeker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "heavymauler",
+        "WS0007": "heavymauler",
+        "WS0009": "gauss"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "taclaser",
+        "WS0002": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "keruvim_needle",
+        "WS0008": "keruvim_needle"
+      }
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,43 @@
+{
+  "variantId": "mess_amalgam_mass_pd",
+  "hullId": "mess_amalgam_mass",
+  "displayName": "Point Defense",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "pointdefenseai",
+    "armoredweapons",
+    "turretgyros"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "swarmer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "dualflak",
+        "WS0002": "vulcan",
+        "WS0004": "lightdualmg",
+        "WS0006": "lightmg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "lrpdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

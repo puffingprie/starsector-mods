@@ -1,0 +1,21 @@
+{
+  "displayName": "Interceptor Drone",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "drone_blitz_borer",
+  "hullMods": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "drone_blitz_borer_Standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mininglaser"
+      }
+    }
+  ],
+  "wings": []
+}

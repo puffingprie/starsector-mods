@@ -1,0 +1,93 @@
+{
+  "variantId": "hmi_locomotive_lp_variant",
+  "hullId": "hmi_locomotive_lp",
+  "displayName": "Exodus",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 17,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "autorepair",
+    "armoredweapons",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "hammerrack",
+        "WS0002": "hammerrack",
+        "WS0017": "hammerrack"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0016": "pumm_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "railgun",
+        "WS0004": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "chaingun",
+        "WS0010": "chaingun",
+        "WS0022": "chaingun",
+        "WS0031": "chaingun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "lightdualmg",
+        "WS0006": "lightdualmg",
+        "WS0007": "flak",
+        "WS0008": "flak",
+        "WS0011": "lightdualmg",
+        "WS0012": "lightdualmg",
+        "WS0013": "flak",
+        "WS0014": "flak",
+        "WS0015": "heavymg",
+        "WS0018": "lightdualmg",
+        "WS0019": "lightdualmg",
+        "WS0020": "lightdualmg",
+        "WS0021": "lightdualmg",
+        "WS0032": "heavymg",
+        "WS0033": "heavymg"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0030": "hmi_locomotive_rear_lp_std"
+    },
+    {
+      "WS0026": "hmi_locomotive_fighter_left_lp_std"
+    },
+    {
+      "WS0027": "hmi_locomotive_fighter_right_lp_std"
+    },
+    {
+      "WS0028": "hmi_locomotive_gun_left_lp_std"
+    },
+    {
+      "WS0029": "hmi_locomotive_gun_right_lp_std"
+    }
+  ],
+  "wings": [
+    "perdition_wing",
+    "perdition_wing"
+  ]
+}

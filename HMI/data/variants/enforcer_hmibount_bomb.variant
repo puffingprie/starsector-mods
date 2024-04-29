@@ -1,0 +1,51 @@
+{
+  "variantId": "enforcer_hmibount_bomb",
+  "hullId": "enforcer",
+  "displayName": "Bombardment",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 13,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 002": "hmi_voracious",
+        "WS 004": "hmi_voracious"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 006": "annihilator_fighter",
+        "WS 007": "annihilator_fighter",
+        "WS 008": "annihilator_fighter",
+        "WS 009": "annihilator_fighter"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 003": "dualflak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "pumm_mg",
+        "WS 005": "pumm_mg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

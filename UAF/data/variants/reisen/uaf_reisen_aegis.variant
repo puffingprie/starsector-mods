@@ -1,0 +1,81 @@
+{
+  "variantId": "uaf_reisen_aegis",
+  "hullId": "uaf_reisen",
+  "displayName": "Aegis",
+  "goalVariant": true,
+  "fluxCapacitors": 12,
+  "fluxVents": 14,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "ballistic_rangefinder",
+    "pointdefenseai"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0013": "uaf_penulisa_acx",
+        "WS0014": "uaf_penulisa_acx"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "uaf_weiss_iii_flk",
+        "WS0012": "uaf_weiss_iii_flk"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_triyia_pdx",
+        "WS0002": "uaf_triyia_pdx"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "uaf_vocal_s_srm",
+        "WS0010": "uaf_vocal_s_srm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "uaf_medlav_dual",
+        "WS0016": "uaf_medlav_dual",
+        "WS0019": "uaf_swaras_m_mlrs",
+        "WS0020": "uaf_swaras_m_mlrs"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_deco_mg",
+        "WS0004": "uaf_deco_mg",
+        "WS0005": "uaf_deco_mg",
+        "WS0006": "uaf_deco_mg",
+        "WS0017": "uaf_pd_reina",
+        "WS0018": "uaf_pd_reina"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "uaf_flair_pod",
+        "WS0008": "uaf_flair_pod"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

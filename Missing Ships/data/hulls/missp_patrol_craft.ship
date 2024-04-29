@@ -1,0 +1,118 @@
+{
+  "hullName": "Patrol Craft",
+  "hullId": "missp_patrol_craft",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/patrol_craft/patrol_craft.png",
+  "style": "LOW_TECH",
+  "height": 75,
+  "width": 42,
+  "center": [21, 37.5],
+  "collisionRadius": 43.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 40,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 0,
+      "locations": [24.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 198,
+      "angle": 90,
+      "locations": [-2.5, 8]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 198,
+      "angle": -90,
+      "locations": [-2.5, -8]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 127,
+      "angle": 180,
+      "locations": [-23.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-33.5, 10],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-33.5, -10],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-35.5, 7],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-35.5, -7],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-36.5, -0],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [2.5, 15.5],
+      "length": 16,
+      "width": 8,
+      "angle": 145,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [2.5, -15.5],
+      "length": 16,
+      "width": 8,
+      "angle": -145,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    1, -18,
+    36.5, -10.5,
+    36.5, 10.5,
+    1, 18,
+    -36, 13,
+    -36, -13
+  ]
+}

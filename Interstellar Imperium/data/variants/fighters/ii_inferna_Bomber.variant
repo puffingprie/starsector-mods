@@ -1,0 +1,19 @@
+{
+    "quality":0.75,
+    "displayName":"Bomber",
+    "hullId":"ii_inferna",
+    "variantId":"ii_inferna_Bomber",
+    "fluxVents":0,
+    "fluxCapacitors":0,
+    "hullMods":[], # array of strings
+
+    # mode is either LINKED or ALTERNATING
+    # slot ids (WS ***) must match what's in the .ship file
+    "weaponGroups":[
+        {"mode":"LINKED",
+         "weapons":{
+                    "WS0001":"ii_pulsarbomb",
+                   },
+        },
+    ],
+}

@@ -1,0 +1,65 @@
+{
+	
+	"combatSmallForSmallFleet":{
+		"rat_merrow_Attack":10,
+		"rat_merrow_Support":6,
+		
+		"rat_makara_Attack":8,
+		"rat_makara_Strike":4,
+		
+		"rat_chuul_Attack":2,
+		"rat_chuul_Strike":2,
+		"rat_chuul_Support":0.5,
+		"rat_chuul_Override":0.25,
+		
+		#Exo
+
+	},
+	
+	"combatSmall":{
+		"rat_merrow_Attack":10,
+		"rat_merrow_Support":6,
+		
+		"rat_makara_Attack":8,
+		"rat_makara_Strike":4,
+		
+		"rat_chuul_Attack":2,
+		"rat_chuul_Strike":2,
+		"rat_chuul_Support":0.5,
+		"rat_chuul_Override":0.25,
+		
+		#Exo
+
+	},
+	"combatMedium":{
+		"rat_chuul_Attack":10,
+		"rat_chuul_Strike":10,
+		"rat_chuul_Support":2,
+		"rat_chuul_Override":0.5,
+		
+		#Exo
+		"rat_tylos_Standard":5,
+		"rat_thestia_Support":5,
+	},
+	"combatLarge":{
+		
+		#Abyss
+		"rat_aboleth_Attack":4,
+		"rat_aboleth_Strike":2,
+		
+		"rat_aboleth_m_Attack":3.5,
+		"rat_aboleth_m_Strike":1.5,
+		"rat_aboleth_m_Overdriven":0.5,
+		"rat_aboleth_m_Support":0.5,
+		
+		#Exo
+		"rat_arkas_Strike":5,
+		"rat_leanira_Support":5,
+		
+	},
+	"combatCapital":{		
+		"rat_morkoth_Attack":5,
+		"rat_morkoth_Anchor":3,
+		"rat_morkoth_Support":1,
+	},
+}

@@ -1,0 +1,75 @@
+{
+  "variantId": "pegasus_hmi_blackmerc",
+  "hullId": "pegasus",
+  "displayName": "Autoforge",
+  "goalVariant": false,
+  "fluxCapacitors": 47,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [
+    "hmi_missile_reload",
+    "fragile_subsystems",
+    "faulty_grid",
+    "comp_structure",
+  ],
+  "hullMods": [
+	"targetingunit",
+    "eccm",
+	"hmi_missile_reload",
+    "fragile_subsystems",
+    "faulty_grid",
+    "comp_structure",
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "dragonpod",
+        "WS 001": "dragonpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 012": "hydra",
+        "WS 013": "hydra"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 008": "hveldriver",
+        "WS 009": "hveldriver",
+        "WS 010": "hveldriver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 002": "gravitonbeam",
+        "WS 003": "gravitonbeam",
+        "WS 006": "gravitonbeam",
+        "WS 007": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 004": "flak",
+        "WS 005": "flak",
+        "WS 011": "dualflak",
+        "WS 014": "pdburst",
+        "WS 015": "pdburst",
+        "WS 016": "pdburst",
+        "WS 017": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

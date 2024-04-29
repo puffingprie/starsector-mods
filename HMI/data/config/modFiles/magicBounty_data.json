@@ -1,0 +1,942 @@
+{
+	"HMI_pirate_stage1":{
+
+        "trigger_marketFaction_any": ["HMI"],
+        "trigger_marketFaction_alliedWith": true,        
+		"trigger_playerRelationship_atMost":{
+            "pirates":-0.50,
+        },
+        "trigger_min_days_elapsed": 60, 
+        
+        #BOUNTY DESCRIPTION
+        
+        "job_name": "Know when to Fold 'Em",
+        "job_description":"There is always back stabbing and under-handed actions in Hazard Mining Incorporated, often over bad deals or cheated opportunities. This one sticks out as being particularly petty -a HMI Executive called ==William Kindle== is asking for the annihilation of a 'Lying, Cheating Fucking Cheeky Cunt $name' and their fleet over a cheated card game. Normally you’d overlook such an offer, if it weren’t for two things. First, the bounty request sticks out for being three pages of non-stop, verbose and creative swearing. Second, the bounty has the lucrative 'fucking this fucker means more fucking work' line.",
+		"job_comm_reply": "\"...This ain't about that card game, isn’t it? Good grief, some folks just don't know how to play the game.\"",
+        "job_intel_success": "On sending the evidence of $name’s demise for confirmation, you receive a joyous message from your employer, ==William Kindle==.\n\"Good fuckin’ work captain!\" he chortles, tapping his helmet in salute, \"I’m sure we’ll get along nice-like in the future!\"",
+		"job_intel_expired": "You are sent a vicious, scathing message that disputes your heritage, your suitability to steal oxygen from the seweage system of Kanta's Den, and your utility in pleasuring a fish. The same message, you find, has been broadcast seemingly everywhere the Company has reach.",
+        "job_forFaction": "HMI",
+        "job_deadline": 90,
+        "job_credit_reward": 50000,
+        "job_reputation_reward":3,
+        "job_type":"assassination",
+        "job_show_type": true,
+        "job_show_captain": true,
+		"job_show_fleet": "flagshipText",
+        "job_show_distance":"exact",
+        "job_memKey": "$HMI_pirate_stage1",
+			
+		"fleet_name": "The 'Lying, Cheating, Cheeky Cunt's Fleet",
+		"fleet_faction": "pirates",
+		"fleet_flagship_variant": "mule_hmi_x_mb_strike",
+		"fleet_flagship_recoverable": true,
+		"fleet_flagship_name": "Lucky Strike",
+		"fleet_preset_ships": {
+			"shepherd_heavy_missile":4,
+			"shepherd_heavy_standard":4,
+			"shepherd_light_std":8,
+			},
+		"fleet_preset_autofit": true,
+		"fleet_min_FP": -1,
+		
+		"fleet_transponder": false,
+		"fleet_behavior": "ROAMING",
+
+      "location_distance": "CORE",
+      "location_themes": [
+        "theme_core_unpopulated",
+        "theme_interesting_minor",	
+        "theme_ruins_secondary",
+        "theme_derelict_probes",
+      ],
+      "location_themes_blacklist": [
+        "theme_hidden",
+        "no_pulsar_blackhole"],
+      "location_prioritizeUnexplored": false,
+      "location_defaultToAnyEntity": false,
+    },
+	
+	"HMI_pirate_stage2":{
+
+        "trigger_marketFaction_any": ["HMI"],
+        "trigger_marketFaction_alliedWith": true,        
+		"trigger_playerRelationship_atMost":{
+            "pirates":-0.50,
+        },
+        "trigger_memKeys_all": {
+		"$HMI_pirate_stage1": true,
+		},
+	
+        #BOUNTY DESCRIPTION
+        
+        "job_name": "Clean up a Grease Spill",
+        "job_description":"A new bounty has been posted by the foul-mouthed ==William Kindle==, via more private channels. \"Y'know, I'm not one to get in the way of a cheeky cunt doin' his business - fuck, I've sunk some shitstains to sell on their crap more times than I can count! But this fucker, this motherFUCKer is sinking MY crap and selling it on. I've tried to pin this slippery greasy piece of shit down and rip his arms off really slow-like, but he either runs the fuck away, or ambushes and up-fucks my boys with his ==fancy-like Tempest==. Maybe you can have a better go at fucking this fucker right? I needed this piece of crap flushed last cycle.\"",
+        "job_intel_success": "The response to your confirmation of $name's demise is immense satisfaction from ==William Kindle==.\n\"Thank fuck!\" he sighs, leaning back in his chair, \"You have no idea how much that cunt's knicked off me. Good work, I'm sure that now I'll be able to start shipping again some fuckwit shithead is gonna crawl outta nowhere and try an' fuck with me. So keep watchin' for me captain, I'll pro'bly need you to go out and fuck them for me right and proper.\"",
+		"job_comm_reply": "\"Attention prey. You have made a really BAD decision to throw in with William Kindle - namely, I am now going to kill you. And when you see him in hell, tell him that $name sent you there!\"",
+		"job_intel_expired": "You are sent a vicious, scathing message that disputes your heritage, your suitability to steal oxygen from the seweage system of Kanta's Den, and your utility in pleasuring a fish. The same message, you find, has been broadcast seemingly everywhere the Company has reach. You artfully deduce that you're not going to be getting any more bounties from ==William Kindle== for a while - or ever.",
+        "job_forFaction": "HMI",
+        "job_deadline": 90,
+        "job_credit_reward": 80000,
+        "job_reputation_reward":3,
+        "job_type":"assassination",
+        "job_show_type": true,
+        "job_show_captain": true,
+		"job_show_fleet": "vanilla",
+        "job_show_distance":"vague",
+        "job_memKey": "$HMI_pirate_stage2",
+			
+		"fleet_name": "The 'Slippery Greasy Piece of Shit's Fleet",
+		"fleet_faction": "pirates",
+		"fleet_flagship_variant": "tempest_HMI_MB",
+		"fleet_flagship_recoverable": true,
+		"fleet_flagship_name": "Catch Me If You Can",
+		"fleet_preset_ships": {
+			"wolf_d_pirates_Attack":4,
+			"wolf_d_pirates_hmibount1":3,
+			"wolf_d_pirates_hmibount2":3,
+			"afflictor_d_pirates_Strike":1,
+			"afflictor_d_pirates_hmibount1":3,
+			"afflictor_d_pirates_hmibount2":2,
+			"kite_pirates_hmibount1":4,
+			"kite_pirates_hmibount2":2,
+			"kite_pirates_hmibount3":4,
+			},
+		"fleet_preset_autofit": false,
+		"fleet_min_FP": -1,
+		
+		"fleet_transponder": false,
+		"fleet_behavior": "ROAMING",
+
+		"location_distance": "CLOSE",
+		"location_themes": [
+			"theme_interesting_minor",
+			"theme_ruins_secondary",
+			"theme_derelict_survey_ship",
+			"theme_derelict_probes",
+			"procgen_no_theme_pulsar_blackhole"
+		],
+		"location_themes_blacklist":[
+			"theme_already_occupied",
+			"theme_already_colonized",
+			"theme_hidden",
+		],
+		"location_prioritizeUnexplored": true,
+		"location_defaultToAnyEntity": true
+    },
+	
+	"HMI_pirate_stage3":{
+
+        "trigger_marketFaction_any": ["HMI"],
+        "trigger_marketFaction_alliedWith": true,        
+		"trigger_playerRelationship_atMost":{
+            "pirates":-0.50,
+        },
+        "trigger_memKeys_all": {
+		"$HMI_pirate_stage2": true,
+		},
+	
+        #BOUNTY DESCRIPTION
+        
+        "job_name": "Digging Deep",
+        "job_description":"From the desk of  ==William Kindle== comes another one of his colourful bounty offerings, via more private channels. \"I toldja someone who try to fuck me when I started back up with my op, and holy fucking shit my asshole is RAW. Some dipshit idiot decided to call in some thug-fuckin’ cock-suckin’ felchin’ enforcers and now I need someone to dig me outta this shit. You should know they  ==don’t call these guys enforcers for nothin’==. Now, get out there, and avenge my ass!\"",
+        "job_intel_success": " ==William Kindle== is most pleased with your destruction of the enforcer fleet.\n\"Holy shit well fuckin’ done!\" he grins, fist pumping, \"I knew you could do it! Holy fuck I wish I had you boys on my crew back when I was fuckin’ up those high-born smugfart-sniffin’ cucks on Eventide. Speakin’ of which, there might be more work for you in the future-like; killin’ $name is prol’ly gonna make waves.\"",
+		"job_comm_reply": "\"Ah, Kindle's pet merc. About time you showed up - we've been meaning to bury you for a while now.\" $name leans back in their chair, looking at you over gloves ringed with spikes, eyes cold, \" I'm going to enjoy REAMING you\"",
+		"job_intel_expired": "You are sent a vicious, scathing message that disputes your heritage, your suitability to steal oxygen from the seweage system of Kanta's Den, and your utility in pleasuring a fish. The same message, you find, has been broadcast seemingly everywhere the Company has reach. You artfully deduce that you're not going to be getting any more bounties from ==William Kindle== for a while - or ever.",
+        "job_forFaction": "HMI",
+        "job_deadline": 120,
+        "job_credit_reward": 180000,
+        "job_reputation_reward":5,
+        "job_type":"neutralisation",
+        "job_show_type": true,
+        "job_show_captain": true,
+		"job_show_fleet": "vanilla",
+        "job_show_distance":"exact",
+        "job_memKey": "$HMI_pirate_stage3",
+			
+		"fleet_name": "The 'Thug-Fuckin’ Cock-Suckin’ Felchin’ Enforcer's' Fleet",
+		"fleet_faction": "pirates",
+		"fleet_flagship_variant": "enforcer_hmibount_needler",
+		"fleet_flagship_recoverable": true,
+		"fleet_flagship_name": "The Undertaker",
+		"fleet_preset_ships": {
+			"enforcer_d_pirates_Strike":2,
+			"enforcer_hmibounty_so":1,
+			"enforcer_hmibounty_so2":2,
+			"enforcer_Balanced":2,
+			"enforcer_hmibount_bomb":1,
+			"enforcer_hmibount_bomb2":1,
+			"enforcer_XIV_Elite":2,
+			"enforcer_hmibount_harpoon":1,
+			
+			"condor_hmibount_fighter1":2,
+			"condor_hmibount_fighter2":3,
+			"condor_hmibount_bomber":3,			
+			},
+		"fleet_preset_autofit": false,
+		"fleet_scaling_multiplier": 1.25,
+		
+		"fleet_transponder": false,
+		"fleet_behavior": "ROAMING",
+
+		"location_distance": "CLOSE",
+		"location_themes": [
+			"theme_interesting_minor",
+			"theme_ruins_secondary",
+			"theme_derelict_survey_ship",
+			"theme_derelict_probes",
+			"procgen_no_theme_pulsar_blackhole"
+		],
+		"location_themes_blacklist":[
+			"theme_already_occupied",
+			"theme_already_colonized",
+			"theme_hidden",
+		],
+		"location_prioritizeUnexplored": true,
+		"location_defaultToAnyEntity": true
+    },	
+	
+	"HMI_pirate_stage4":{
+
+        "trigger_marketFaction_any": ["HMI"],
+        "trigger_marketFaction_alliedWith": true,        
+		"trigger_playerRelationship_atMost":{
+            "pirates":-0.50,
+        },
+        "trigger_memKeys_all": {
+		"$HMI_pirate_stage3": true,
+		},
+	
+        #BOUNTY DESCRIPTION
+        
+        "job_name": "When it Rains",
+        "job_description":"Once again, ==William Kindle== has released a bounty request with his standard, stern vernacular. \"Remember when I said killing that enforcer shitter would make waves? Well, now I’m swimmin’ in a tsunami of shit right now. And let me tell you - tryin’ to swim in shit is damn fuckin’ hard. And it’s even worse when there’s fuckin’ shit cunt sharks with teeth made out of jagged glass tearin’ up your asshole like a broken jar. I’d greatly appreciate you catching one of these sharks and shoving a hammer up ITS ass so it knows what it feels like! Get this loser. Fuck him up. Not that I need to warn a professional like you, but this shitter is a ==Tri-Tachyon lacky with a weird Fury== so keep an eye out for that.\"",
+        "job_intel_success": "On confirmation of $name’s elimination, you watch as ==William Kindle== takes a breath and deflates. \n\"Oh thank fuck that’s dealt with\" he sighs, \"Fuck that cunt was causing me no end of fucking fucked. Fuck. Alright, awesome.\" He leans back in his chair, momentarily sagging in relief, before his eyes lock onto yours and he grins diabolically at you. \"You really are somethin’. Fuck, alright, back to work - but I’ll definitely need to you soon, once I get some intel on the ==other guy== that’s inserting shit via syringe up my dickhole.\"",
+		"job_comm_reply": "\"On behalf of my employers I would like to thank you for providing this opportunity to prove the superiority of our custom-mod designs for space defense.\" $name states casually, with a cheerful smile \"Be sure to deliver your comments and criticisms to the nearest HR department in hell!\"",
+		"job_intel_expired": "You are sent a vicious, scathing message that disputes your heritage, your suitability to steal oxygen from the seweage system of Kanta's Den, and your utility in pleasuring a fish. The same message, you find, has been broadcast seemingly everywhere the Company has reach.",
+		"job_forFaction": "HMI",
+        "job_deadline": 120,
+        "job_credit_reward": 260000,
+        "job_reputation_reward":5,
+        "job_type":"neutralisation",
+        "job_show_type": true,
+        "job_show_captain": true,
+		"job_show_fleet": "vanilla",
+        "job_show_distance":"exact",
+        "job_memKey": "$HMI_pirate_stage4",
+			
+		"fleet_name": "The 'Ass-Eatin' Shit Cunt Shark with Glass Teeth's' Fleet",
+		"fleet_faction": "pirates",
+		"fleet_flagship_variant": "fury_pirates_std",
+		"fleet_flagship_recoverable": true,
+		"fleet_flagship_name": "Torrential Hail",
+		"fleet_preset_ships": {
+			"shrike_pirates_hvb1":2,
+			"shrike_pirates_hvb2":2,
+			"shrike_pirates_hvb3":2,
+			"shrike_pirates_hvb4":2,
+			"shrike_p_Attack":4,
+			"wolf_d_pirates_Attack":8,
+			"wolf_d_pirates_hmibount1":2,
+			"wolf_d_pirates_hmibount2":2,				
+			},
+		"fleet_preset_autofit": false,
+		"fleet_scaling_multiplier": 1.25,
+		
+		"fleet_transponder": false,
+		"fleet_behavior": "ROAMING",
+
+		"location_distance": "CLOSE",
+		"location_themes": [
+			"theme_interesting_minor",
+			"theme_ruins_secondary",
+			"theme_derelict_survey_ship",
+			"theme_derelict_probes",
+			"procgen_no_theme_pulsar_blackhole"
+		],
+		"location_themes_blacklist":[
+			"theme_already_occupied",
+			"theme_already_colonized",
+			"theme_hidden",
+		],
+		"location_prioritizeUnexplored": false,
+		"location_defaultToAnyEntity": true
+    },	
+	
+	"HMI_pirate_stage5":{
+
+        "trigger_marketFaction_any": ["HMI"],
+        "trigger_marketFaction_alliedWith": true,        
+		"trigger_playerRelationship_atMost":{
+            "pirates":-0.50,
+        },
+        "trigger_memKeys_all": {
+		"$HMI_pirate_stage4": true,
+		},
+	
+        #BOUNTY DESCRIPTION
+        
+        "job_name": "Gone to Ground",
+        "job_description":"The ever eloquent ==William Kindle== has released another bounty request for you personally, with a great deal of urgency. \"Okay, remember how I said there was ==another guy==? Finally found the fucker. Or rather, the fucker found me. I'm layin' lower than a Volturnian lobster in a smugglin' Mule's deckspace while fuckin' Macario himself is scannin' ya, and I tell ya - it fucking REAKS here! I would appreciate some fresh oxygen, some water that hasn't been recycled five times from my own shit, and you working your magic to end this cunt. Be warned, he's got ==an angry as fuck Dominator==.\"",
+        "job_intel_success": "==William Kindle== fist pumps from the cramped room he's hiding out in. \n\"And you've done it again!\" he laughs, \"You really are the hot shit, you know that? I think there's just ==one more thing== that needs shittin' on the future, then I might give you a break, you magnificent bastard.\" He grins, before knocking the wall behind him three times. \n\"Ight, see you when I get into a fancier fuckin' spot!\" he says, as the wall falls away and he departs.",
+		"job_comm_reply": "Gazing across the viewscreen, $name looks at you smugly, \"Ah yes, the merc. You do realize that with you gone I don't have to give two shits about old Billycakes?\" he leans in, eyes wide, \"The number of times he's shat up the Bounty Listing with his horseshit is fifty times too many.\"",
+		"job_intel_expired": "You don't hear anything from your erstwile employer. Seems like someone finally managed to finish off William Kindle. RIP to a real one.",
+		"job_forFaction": "HMI",
+        "job_deadline": 120,
+        "job_credit_reward": 400000,
+        "job_reputation_reward":10,
+        "job_type":"neutralisation",
+        "job_show_type": true,
+        "job_show_captain": true,
+		"job_show_fleet": "vanilla",
+        "job_show_distance":"exact",
+        "job_memKey": "$HMI_pirate_stage5",
+			
+		"fleet_name": "'That Cunt's' Fleet",
+		"fleet_faction": "pirates",
+		"fleet_flagship_variant": "dominator_hmi_p_std",
+		"fleet_flagship_recoverable": true,
+		"fleet_flagship_name": "Sledge Hammer",
+		"fleet_preset_ships": {
+			"mora_pirates_cs":2,
+			"mora_pirates_support":2,
+			"mora_pirates_assault":2,
+			"fishkill_cs":1,
+			"roach_king_elite":2,
+			"roach_king_cs":2,
+			},
+		"fleet_preset_autofit": false,
+		"fleet_scaling_multiplier": 1.50,
+		
+		"fleet_transponder": false,
+		"fleet_behavior": "ROAMING",
+
+		"location_distance": "CLOSE",
+		"location_themes": [
+			"theme_interesting_minor",
+			"theme_ruins_secondary",
+			"theme_derelict_survey_ship",
+			"theme_derelict_probes",
+			"procgen_no_theme_pulsar_blackhole"
+		],
+		"location_themes_blacklist":[
+			"theme_already_occupied",
+			"theme_already_colonized",
+			"theme_hidden",
+		],
+		"location_prioritizeUnexplored": false,
+		"location_defaultToAnyEntity": true
+    },	
+	
+	
+	"HMI_pirate_stage6":{
+
+        "trigger_marketFaction_any": ["HMI"],
+        "trigger_marketFaction_alliedWith": true,        
+		"trigger_playerRelationship_atMost":{
+            "pirates":-0.50,
+        },
+        "trigger_memKeys_all": {
+		"$HMI_pirate_stage5": true,
+		},
+	
+        #BOUNTY DESCRIPTION
+        
+        "job_name": "Children of the Revolution",
+        "job_description":"Once again, a bounty from ==William Kindle== has released another request with almost Shakespearean refinement. \n\"One last motherfucker,\" he says, \"One, LAST, shitstain bastard. That's all that stands between me an' smooth sailin', like a Eventide noble fuck slipping into a Tigre Base whore. Now, this hot slawgin' ass-smotheree bastard is hard to wipe out, as he's pretendin' to be some high and mighty Che Guavara wannabe motherfucker. And a lot of fuckwit idiots believe it, and are willin' to cover for this fuck each time he hits me. But turns out, there's one or two bumfucks who see the way the winds are changin' - or at least are gettin' tired of huffing his self-righteous farts. And, these guys have sold out a spot here he'll be on his own doing 'Revolution' bullshit. Go out and crush this guy, and his  ==menstral and piss-stained Herakles==.\"",
+        "job_intel_success": "==William Kindle== leans back in his chair, sighing contentedly. \n\"And there it fuckin' is you crazy cunt!\" he touches his head as if tipping his cap to you, \"Never doubted you! You really have a gift for unfuckin' my shit,\" he sniffles \"Makin' me all choked up, you cunt.\"\n He sucks on an e-cigar, and blows a smoke ring, before chuckling.\n\"I can't believe you fuckin' did it. You've done so well that...I don't think I have anything else for you for the future for-fuckin'-seeable. Until next time, if ever\" he mock salutes, grinning \"==Burn Bright, you Magnificent Bastard!==\"",
+		"job_comm_reply": "$name lounges languidly across his Captain's chair, a bored expression on his face.\n\"Predictable,\" he scoffs, \"Let a couple of 'traitors' seem a touch loose lipped, and the scum comes out of the flux-work.\"\nHe sits back into his chair, settles himself in, and pulls his flashy coat down, his medals rippling.\n\"Let's get this over with, so I can crush that worthless smuggler upstart Kindle, yes?\"",
+		"job_intel_expired": "You don't hear anything from your erstwile employer, except perhaps the distant ghost of a scream in your imagination about \"So fuckin' close\" and \"You Backstabbing fuckwit cunt!\". But at least you think it's in your imagination, and you haven't been cursed from the grave.",
+		"job_forFaction": "HMI",
+        "job_deadline": 180,
+        "job_credit_reward": 800000,
+        "job_reputation_reward":25,
+        "job_type":"neutralisation",
+        "job_show_type": true,
+        "job_show_captain": true,
+        "job_show_fleet": "flagshipText",
+        "job_show_distance":"vague",
+        "job_memKey": "$HMI_pirate_stage6",
+		"job_item_reward": {
+			"ship_bp hmi_herakles_rc":1,
+			"hand_weapons":400,
+			"drone_replicator":1,
+        },
+		
+		"fleet_name": "'This Hot Slawgin' Ass-Smotheree Bastard's' Fleet",
+		"fleet_faction": "pirates",
+		"fleet_flagship_variant": "hmi_herakles_rc_hmi_mb",
+		"fleet_flagship_recoverable": true,
+		"fleet_flagship_name": "The Vanguard",
+		"fleet_preset_ships": {
+			"fishkill_cs":1,
+			"fishkill_combat":1,
+			"hmi_herakles_brawl":1,
+			"hmi_herakles_wither":1,
+			},
+		"fleet_preset_autofit": false,
+		"fleet_scaling_multiplier": 1.85,
+		
+		"fleet_transponder": false,
+		"fleet_behavior": "ROAMING",
+
+		"location_distance": "FAR",
+		"location_themes": [
+			"theme_interesting_minor",
+			"theme_ruins_secondary",
+			"theme_derelict_survey_ship",
+			"theme_derelict_probes"
+		],
+		"location_themes_blacklist":[
+			"theme_already_occupied",
+			"theme_already_colonized",
+			"theme_hidden",
+		],
+		"location_prioritizeUnexplored": false,
+		"location_defaultToAnyEntity": true
+    },		
+
+	"hmi_mysterycargo":{
+        "trigger_marketFaction_any":["independent", "hegemony"],
+        "trigger_min_fleet_size": 80,
+        "job_memKey": "$HMI_mysterycargo",
+		
+        "job_name": "Curiosity and the Cat",
+        "job_description": "Typically the Hegemony doesn't put out bounties onto the Unofficial Bounty Board, instead just having privateers or their own fleets deal with issue. Typically the Hegemony doesn't keep track of scavenger fleets, by simple virtue of struggling to police such a widespread practice. However, one has been observed moving repeatedly around certain systems containing autonomous Tri-Tachyon defense systems, and then travelling repeatedly to Tri-Tachyon space for disproportionate profits. Typically, this would result in a Hegemony fleet coming and investigating the practice, except a 'diplomatic message' from Hazard Mining Incorporated has spooked someone up in the upper echelons on Chicomoztec. \n\n Hence, this atypical mission sent out to atypical bounty hunters willing to travel to the outer regions of the sector and ==completely remove the entire fleet from existence as soon as possible - particularly the Apogee flagship==.",
+        "job_intel_success": "The Hegemony contact in charge of the bounty thanks you profusely for containing what may well ahve been a secondary Mess Nanite outbreak, sending through the bounty payment promptly and politely asking you to 'not pass on any information to the Tri-Tachyon over this abysmal mess'.",
+		"job_intel_expired": "The salvage fleet has disappeared, the Hegemony are incredibly upset, and over the next couple of weeks you see a considerable increase in Hegemony interest in the outer fringes. You also learn through your proxies that the Tri-Tachyon are also reacting to the fleet's disappearance - but their response seems more terrified.",
+		"job_comm_reply": "On contact, $name clearly states that their salvage licenses are in order, that they have the permission of the Tri-Tachyon Corporation to investigate Tri-Tachyon assets, and that their work is covered under the Salvage Charter put forward on New Maxios Cycle 190.\n When you tell them exactly who is ordering their demise, and ask them about the strange readings from their flagship, $name quickly clams up, and turns off the comms.",
+		"job_forFaction": "hegemony",
+        "job_deadline":90,
+        "job_credit_reward":300000,
+		"job_reputation_reward":20,
+        "job_type":"obliteration",
+		"job_show_fleet": "vanilla",
+		"job_show_distance": "vague",
+		"job_item_reward": {
+		  "alpha_core": 1,
+        },
+
+        "fleet_name":"Scavenger Fleet",
+        "fleet_faction":"scavengers",
+        "fleet_flagship_variant":"apogee_mbhmi_cargo",
+        "fleet_flagship_name":"ISS Felix the Cat",
+        "fleet_flagship_recoverable":false,
+        "fleet_preset_ships":{
+                "eradicator_hmimb_antirem":4,
+                "enforcer_mbhmi_antirem":4,
+        },
+		"fleet_min_FP": 150,
+		"fleet_scaling_multiplier": 1.25,
+		"fleet_composition_faction": "scavengers",
+        "fleet_preset_autofit":false,
+        "fleet_composition_quality":1,
+        "fleet_transponder":false,
+		"fleet_behavior": "GUARDED",
+
+        #"location_entitiesID":[],
+		
+      "location_distance": "FAR",
+      "location_themes": [
+        "theme_ruins_main", "theme_derelict_survey_ship",
+      ],
+      "location_themes_blacklist": ["theme_hidden", "no_pulsar_blackhole"],
+      "location_entities": [
+        "wreck",
+        "comm_relay",
+      ],
+      "location_prioritizeUnexplored": true,
+      "location_defaultToAnyEntity": false,
+    },
+
+	"hmi_spiders":{
+        "trigger_marketFaction_any":["independent"],
+        "trigger_min_fleet_size": 90,
+        "job_memKey": "$HMI_spiders",
+		
+        "job_name": "Don't Blink",
+        "job_description": "Sometimes, beyond the eyes of the Hegemony, scavenging fleets will come across rogue Explorarium autonomous fleets. Usually they’ll deal with it quietly, however a scavenging company has run into something in the same system as their claim. They’re eager for the fleet to be removed, and have offered a modest bounty for it. The bounty listing ==seems== normal. However, you get the feeling that there is ==something wrong== with this bounty. Explorarium drones are normally destroyed with ease by the discerning scavenger, and yet this one is causing trouble for an entire company. Further, the listing is sparse on details beyond the location of the system claim. And finally, the best ‘guess’ you can get at what is waiting is the ominous word ==Slenderman==, buried in the contractual minutiae.",
+        "job_intel_success": "You receive the pay-out and a professional thank you from Bayou Extraction. Not one word is made about what you just went through, or the equipment that you recovered from the fleet. You fight the urge to track these guys down and kill them all for subjecting you to that.",
+		"job_intel_expired": "The salvage company expresses disappointment in your inability to take down a simple fleet. You feel as though you’ve dodged a bullet.",
+		"job_comm_reply": "The viewscreen crackles with a wash of ominous noise that shouldn't be showing up over a comms connection. The noise then seems to reorientate, trickling across the screen to combine into the skeletone of letters.  They are there for a brief moment, before the comms link is unexpectedly cut, the taunting wrod's afterimage seemingly burned into the viewscreen:\n\"I SEE YOU. YOU SEE ME?\"",
+        "job_forFaction": "independent",
+		"job_difficultyDescription": "Your first officer can offer no insight as to how dangerous this bounty could be, beyond bafflement at how any Derelict fleet could trouble a well-armed salvage company.",
+        "job_deadline":120,
+        "job_credit_reward":50000,
+        "job_type":"obliteration",
+        "job_show_distance":"exact",
+        "job_show_captain": false,
+        "job_show_fleet": "none",
+		"job_item_reward": {
+		  "corrupted_nanoforge":1,
+          "cryoarithmetic_engine": 1,
+		  "alpha_core": 3,
+        },
+
+		
+        "fleet_name":"Rogue Explorarium Fleet",
+        "fleet_faction":"derelict",
+        "fleet_flagship_variant":"hmi_obj_108_remn_main",
+        "fleet_flagship_name":"DSS SLEN DERM AN",
+        "fleet_flagship_recoverable":false,
+        "fleet_preset_ships":{
+                "hmi_obj_108_rem1":2,
+                "hmi_obj_108_rem2":2,
+                "hmi_obj_108_rem3":2,
+                "hmi_obj_108_rem4":2,
+                "hmi_obj_108_rem5":2,
+                "hmi_obj_108_rem6":2,
+                "hmi_obj_108_rem7":2,
+                "hmi_obj_108_rem8":2,
+                "hmi_obj_108_strike":5,
+				"hmi_obj_108_balanced":5,
+        },
+        "fleet_preset_autofit":false,
+		"fleet_min_FP": -1,
+        "fleet_composition_quality":1,
+        "fleet_transponder":false,
+        "fleet_behavior":"AGGRESSIVE",
+
+        #"location_entitiesID":[],
+		
+      "location_distance": "FAR",
+      "location_themes": [
+        "theme_ruins_main", "theme_derelict_survey_ship",
+      ],
+      "location_themes_blacklist": ["theme_hidden", "no_pulsar_blackhole"],
+      "location_entities": [
+        "wreck",
+        "debris",
+        "comm_relay",
+      ],
+      "location_prioritizeUnexplored": true,
+      "location_defaultToAnyEntity": false,
+    },
+
+	"hmi_mbeke":{
+        "trigger_marketFaction_any":["HMI"],
+        "job_memKey": "$HMI_mbeke",
+		
+        "job_name": "Letting the Bath Simper",
+        "job_description": "As usual, the Mercenary board is spammed with low paying requests to take down this competitor or that boss. This one leaps out for being rather weird: a Company client is requesting the elimination of a Company dealer. The reason? They're simping harder for a Fikenhild adult streamer than they are. You don't quite understand, but one of your bridge crew who happens to be a rabid follower of Westernesse media (un)helpfully explains Sweet_Sugar_Bath is the sexiest Switch streamer on the Westerness Relay, a position of some importance. Submission of credits to this Switch person is matter of life or death amongst Switch Subs, with greater credit sacrifices enabling them to rise to greater tiers of importance in the Sub hierarchy. Killing the target will enable this man to rise to greater levels of interaction with Sweet_Sugar_Bath, enhancing their prestige. Apparently. The money is bad, the return is terrible, and getting involved in this nonesense makes you feel more dirty than normal - but credits are credits.",
+        "job_intel_success": "Your client thanks you for your contribution for eliminating the trolls and fakers (?) from the Switch chat - whatever that is - and shares with you some choice personal images of themselves dresed as Sweet_Sugar_Bath in revealing positions along with the bounty. In disgust you delete the images, and your bridge crew collectively agree to never talk of this again.\n\nApart from that one officer, who might somehow use this information to attain higher respect in this strange Switch Cult of glucose-enhanced cleaning tubs for all you know.",
+		"job_intel_expired": "Your client is pissed beyond reason, as the target has just donated 100 credits and moved up to a better sub rank - whatever that is - which means that their death is now impossible without upsetting this Sweet_Sugar_Bath individual. Whatever this strange, arcane string of words means is that you're not getting paid for their elimination.",
+		"job_comm_reply": "\"You're here to fight me for Sweet_Sugar_Bath aren't you!?\" raves $name, covered in stickers of baths, sugar cubes and bearing a pair of some pointy...ears ont hier head? \"Well you're not going to win, not against me! I'll just outlast you, just like how I'll outlast all those other posers who think that mistress Sugar is anything but a divine goddess!\"\n\nThe comms link goes off, as you turn to your bridge, eyebrow raised specifically at the officer fuming in the corner, mumbling vaguely about \"ungrateful sub\" and \"not even worthy to hear her fart through a telephone\". Your glare dares him to explain this nonesense, but he doesn't, and you're not sure whether to be thankful or annoyed. You order the weapons powered up, feeling this target needs to be eliminated on matter of principle.",
+        "job_forFaction": "HMI",
+		"job_deadline":90,
+        "job_credit_reward":20000,
+        "job_type":"assassination",
+		"job_show_fleet": "vanilla",
+		"job_show_distance": "vanillaDistance",
+		"job_item_reward": {
+		  "luxury_goods":12,
+		  "drugs":5,
+        },
+		"job_reputation_reward":10,
+		
+        "fleet_name":"H.M.I. Salvage Fleet",
+        "fleet_faction":"HMI",
+        "fleet_flagship_variant":"roach_king_mbeke",
+        "fleet_flagship_name":"HMI e621 Bath Queen",
+        "fleet_flagship_recoverable":true,
+        "fleet_preset_ships":{
+                "hmi_snail_mbeke":6,
+                "hmi_greasy_mbeke":6,
+                "cockroach_mbeke":4,
+                "zebu_mbeke":8,
+                "slugworth_mbeke":2,
+                "junk_mbeke":1,
+				"phaeton_Standard":1,
+				"dram_Light":4,
+        },
+        "fleet_preset_autofit":false,
+		"fleet_min_FP": -1,
+        "fleet_composition_quality":2,
+        "fleet_transponder":true,
+        "fleet_behavior":"ROAMING",
+
+        #"location_entitiesID":[],
+		
+      "location_distance": "CLOSE",
+      "location_themes": [
+        "theme_ruins_main", "theme_derelict_survey_ship",
+      ],
+      "location_themes_blacklist": ["theme_hidden", "no_pulsar_blackhole"],
+      "location_entities": [
+        "wreck",
+        "debris",
+      ],
+      "location_prioritizeUnexplored": true,
+      "location_defaultToAnyEntity": false,
+    },
+
+	"hmi_miningdisco":{
+        "trigger_marketFaction_any":["HMI"],
+        "job_memKey": "$HMI_miningdisco",
+		
+        "job_name": "Visceral Ore",
+        "job_description": "As is tradition, Company space is inundated with worthless bounties. This is one of them. Someone who is desperately trying (and failing) to impersonate a Sindrian Charterist is demanding the elimination of $name in the name of ideological purity. A simple, cursory search of comms directories reveals the client works with the target as a part of a mining operation, and the target has nothing to do with any organisation out of Sindria. The bounty is insultingly small, but credits are credits.",
+        "job_intel_success": "Your client drags their feet with submitting the credits, but they do eventually come through.",
+		"job_intel_expired": "The client is glad – apparently the target had annoyed a real Sindrian Diktat agent, and their elimination had been quickly performed, completely free.",
+		"job_comm_reply": "\"Do you know who I am?\" shouts $name, worried sweat dripping down their face \"I’m a secret agent for the Diktat! You’re going to PAY for this!\"",
+		"job_forFaction": "HMI",
+		"job_deadline":90,
+        "job_credit_reward":200,
+        "job_type":"assassination",
+		"job_show_fleet": "vanilla",
+		"job_show_distance": "vanillaDistance",
+		"job_item_reward": {
+			"heavy_machinery":48,
+			"ore":512,
+			"rare_ore":135,
+			"volatiles":52,
+			"fuel":200,
+        },
+		"job_reputation_reward":4,
+		
+        "fleet_name":"H.M.I. Mining Fleet",
+        "fleet_faction":"HMI",
+        "fleet_flagship_variant":"marinas_mb_ml",
+        "fleet_flagship_name":"HMI Disco Inferno",
+        "fleet_flagship_recoverable":true,
+        "fleet_preset_ships":{
+                "cockroach_mb_ml":4,
+                "hmi_streak_mb_ml":8,
+                "hmi_greasy_mb_ml":8,
+				"hmi_greasy_mincer":2,
+				"hmi_snail_mbeke":4,
+				"zebu_mbeke":4,
+				"dram_Light":3,
+        },
+        "fleet_preset_autofit":false,
+		"fleet_min_FP": -1,
+        "fleet_composition_quality":2,
+        "fleet_transponder":true,
+        "fleet_behavior":"ROAMING",
+
+        #"location_entitiesID":[],
+		
+      "location_distance": "CLOSE",
+      "location_themes": [
+        "theme_ruins_main", "theme_derelict_survey_ship",
+      ],
+      "location_themes_blacklist": ["theme_hidden", "no_pulsar_blackhole"],
+      "location_entities": [
+        "wreck",
+        "debris",
+      ],
+      "location_prioritizeUnexplored": true,
+      "location_defaultToAnyEntity": false,
+    },
+
+	"hmi_hullventure":{
+        "trigger_marketFaction_any":["HMI"],
+        "job_memKey": "$HMI_hullventure",
+		
+        "job_name": "Nothing Ventured",
+        "job_description": "A bounty request that is obviously spam has managed to get through your usual blocks against Company trash. You quickly discover that it snuck through by offering a real number of credits, if paltry. The request is to eliminate $name, the client's inferior in the Company. This individual is bringing down the client's profits because they're not working their crews as hard in an effort to reduce casualties. The client cannot fire the target without repercussion, so they want you to do the firing. Should be a simple smash and grab for a quick buck.",
+        "job_intel_success": "Your client gives a curt thank you and pays the bounty - fast and efficient.",
+		"job_intel_expired": "The client is dissappointed in your inability to quickly eliminate the target, who has now been promoted to their superior in the Company and has fired them.",
+		"job_comm_reply": "\"Get ready girls!\" gleefully commands $name, \"We're going to wear these pump-and-dumpers down, and crush their merc necks with our boots!\"",
+        "job_forFaction": "HMI",
+		"job_deadline":90,
+        "job_credit_reward":20000,
+        "job_type":"assassination",
+		"job_show_fleet": "vanilla",
+		"job_show_distance": "vanillaDistance",
+		"job_item_reward": {
+			"heavy_machinery":175,
+			"fuel":400,
+        },
+		"job_reputation_reward":5,
+		
+        "fleet_name":"H.M.I. Salvage Fleet",
+        "fleet_faction":"HMI",
+        "fleet_flagship_variant":"venture_mb_hmi_hullflag",
+        "fleet_flagship_name":"HMI The Bounce",
+        "fleet_flagship_recoverable":true,
+        "fleet_preset_ships":{
+                "venture_hmi_mb_armour":2,
+                "venture_hmi_mb_hull":2,
+                "condor_hmi_mn_trapdoor":4,
+                "condor_hmi_mn_strike":2,
+				"condor_Strike":2,
+				"condor_Attack":3,
+				"phaeton_Standard":4,
+        },
+        "fleet_preset_autofit":false,
+		"fleet_min_FP": -1,
+        "fleet_composition_quality":2,
+        "fleet_transponder":true,
+        "fleet_behavior":"ROAMING",
+
+        #"location_entitiesID":[],
+		
+      "location_distance": "CLOSE",
+      "location_themes": [
+        "theme_ruins_main", "theme_derelict_survey_ship",
+      ],
+      "location_themes_blacklist": ["theme_hidden", "no_pulsar_blackhole"],
+      "location_entities": [
+        "wreck",
+        "debris",
+      ],
+      "location_prioritizeUnexplored": true,
+      "location_defaultToAnyEntity": false,
+    },
+	
+	"hmi_shieldshunt":{
+        "trigger_marketFaction_any":["HMI"],
+        "job_memKey": "$HMI_shieldshunt",
+		
+        "job_name": "Fine, it's 'Chardonnay', you 'Shunt'",
+        "job_description": "Going into the Mercenary Board in HMI space generally involves wading through  alot of terrible bounties. This one is repeated so many times that it's clogging up your feed, so for the sake of your sanity it may be pernitent to take it. It's the usual Company trash; low-level salvor wants higher-up Company manager removed so they can get a promotion. Pay is bad, but if you plan on doing more business using the Board, it'll be better to just do the bounty to remove it.",
+        "job_intel_success": "Your client gives you a link to the bounty account, and that's it - job done.",
+		"job_intel_expired": "The client is dissappointed in your inability to quickly eliminate the target, who has now been promoted to their superior in the Company and has fired them.",
+		"job_comm_reply": "$name scoffs, \"I can't believe someone actually took that bounty. Just like I can't believe someone would udnerestimate a Company Manager!\"",
+        "job_forFaction": "HMI",
+		"job_deadline":90,
+        "job_credit_reward":6000,
+        "job_type":"assassination",
+		"job_show_fleet": "vanilla",
+		"job_show_distance": "vanillaDistance",
+		"job_item_reward": {
+			"hand_weapons":50,
+        },
+		"job_reputation_reward":2,
+		
+        "fleet_name":"H.M.I. Manager Fleet",
+        "fleet_faction":"HMI",
+        "fleet_flagship_variant":"enforcer_hmi_mn_shunt",
+        "fleet_flagship_name":"HMI Shields Overrated",
+        "fleet_flagship_recoverable":true,
+        "fleet_preset_ships":{
+                "vanguard_Outdated":4,
+                "vanguard_Strike":2,
+                "cerberus_Standard":4,
+				"cerberus_d_pirates_Standard":2,
+				"cerberus_miningblaster":2,
+				"cerberus_miner_mining":2,
+				"cerberus_miner_outdated":3,
+				"hound_d_pirates_Overdriven":8,
+				"dram_Light":3,				
+        },
+        "fleet_preset_autofit":false,
+		"fleet_min_FP": -1,
+        "fleet_composition_quality":2,
+        "fleet_transponder":true,
+        "fleet_behavior":"ROAMING",
+
+        #"location_entitiesID":[],
+		
+      "location_distance": "CLOSE",
+      "location_themes": [
+        "theme_ruins_main"
+      ],
+      "location_themes_blacklist": ["theme_hidden", "no_pulsar_blackhole"],
+      "location_entities": [
+        "wreck",
+        "debris",
+      ],
+      "location_prioritizeUnexplored": false,
+      "location_defaultToAnyEntity": false,
+    },
+		
+	"hmi_shuttle":{
+        "trigger_marketFaction_any":["HMI"],
+        "job_memKey": "$HMI_shuttle",
+		
+        "job_name": "Shuttling off this Mortal Coil",
+        "job_description": "In Company space, there a thousands of worthless bounties thrown around for petty reasons - and this is one of them. A Company lower-level manager wants you to kill their subordinate who is a threat to them or something. Apparently they're doing some kind of transport service on the side. It's not a lot of credits, but the bounty looks easy enough.",
+        "job_intel_success": "Your client attempts to weasel out of paying the bounty, but you carefuly and brutally explain to them How Things Work. After a few days the cash is hurriedly given, and a few days after that you hear your client has been arrested for lifting Company profits. You didn't expect anything different.",
+		"job_intel_expired": "Your client is dissappointed, but is happy to let bygones be bygones. You get the sneaking suspicion that they don't actually have the cash for the bounty, pitiful that it is.",
+		"job_comm_reply": "\"Crap.\" says $name, before turning the comms off.",
+        "job_forFaction": "HMI",
+		"job_deadline":90,
+        "job_credit_reward":3000,
+        "job_type":"assassination",
+		"job_show_fleet": "vanilla",
+		"job_show_distance": "vanillaDistance",
+		"job_item_reward": {
+			"drugs":200,
+        },
+		"job_reputation_reward":0,
+		
+        "fleet_name":"H.M.I. Transport Fleet",
+        "fleet_faction":"HMI",
+        "fleet_flagship_variant":"tarsus_mb_armour",
+        "fleet_flagship_name":"HMI Challenger",
+        "fleet_flagship_recoverable":true,
+        "fleet_preset_ships":{
+                "hermes_hmimb_so":8,
+				"mercury_mbhmi_reaper":8,
+				"mudskipper2_mbhmi_CS":8,
+				"dram_Light":3,				
+        },
+        "fleet_preset_autofit":false,
+		"fleet_min_FP": -1,
+        "fleet_composition_quality":1,
+        "fleet_transponder":true,
+        "fleet_behavior":"PASSIVE",
+
+        #"location_entitiesID":[],
+		
+		
+      "location_distance": "CORE",
+		"location_themes": [
+            "theme_core_unpopulated",
+        ],	
+      "location_themes_blacklist": ["theme_hidden", "no_pulsar_blackhole"],
+      "location_prioritizeUnexplored": false,
+      "location_defaultToAnyEntity": false,
+    },	
+	
+	
+	
+	
+	"hmi_onslaught_p":{
+        "trigger_marketFaction_any":["independent", "luddic_church", "hegemony"],
+		"trigger_playerRelationship_atMost":{
+            "pirates":-0.50,
+        },
+        "trigger_min_fleet_size": 90,
+        "job_memKey": "$HMI_onslaught_p",
+		
+        "job_name": "Kidman's Revenge",
+        "job_description": "The Pirate Lord ==Captain Kidman== is one of the most reviled reavers of the Persean Sector, whose name is still feared on Argeus for his daring theft of an Onslaught from the shipbreaker's yard. The ship was retrofitted and turned into his flagship, and with a large fleet behind him he raided the Sector at large, gaining notoriety and infamy.\n\nThat, however, was cycles ago. And since then Kidman has fallen from grace, hounded by Hegemony patrols and rival pirate lords seeking a bounty, accumulated by the survivors of his many atrocities. His fleet, the ==Brawlin' Maries==, is now nothing more than a small handful of ships held together by his prestige, his legend, and his Onslaught mod flagship ==The Blameless==. However, pickings have been getting slimmer and slimmer, and the bounty hunters are closing in. A recent defector has recently released the location of the Brawlin' Maries on the wider Commsec network, and now it's open season on Kidman. His swan song is inevitable - but will you be the one to profit from it?",
+        "job_intel_success": "You receive the humble thanks of the thousand, thousand survivors of atrocity and mayhem, as well as your comfortable bounty.",
+		"job_intel_expired": "You learn that some other bounty hunter has taken down Kidman, depriving you of your bounty.",
+		"job_comm_reply": "\"I don't care how many of you scum-suckin' dipshits come, I'll take you all on!\" smoke fumes from Kidman's mouth as he angrily chews his cigar, \"Bring in your grudgers, your debtors, your snivveling orphans bent on revenge! I'll kill ALL of you backstabbin' bastards, and climb into heaven using a ladder made outta your fuckin' bones!\"",
+		"job_forFaction": "independent",
+        "job_deadline": 120,
+        "job_credit_reward": 200000,
+        "job_reputation_reward":20,
+        "job_type":"assassination",
+        "job_show_type": true,
+        "job_show_captain": true,
+		"job_show_fleet": "vanilla",
+        "job_show_distance":"exact",
+		
+		"job_item_reward": {
+		  "hmi_tech_package":1,
+        },
+			
+		"target_first_name":"Captain",
+        "target_last_name":"Kidman",
+        "target_portrait":"graphics/portraits/hmi_kidman.png",
+        "target_gender":"MALE",
+		"target_rank": "spaceCommander",
+		"target_post": "patrolCommander",
+        "target_personality": "reckless",
+        "target_level": 8,
+        "target_elite_skills":8,
+        "target_skill_preference": "NO_ENERGY_YES_BALLISTIC_YES_MISSILE_YES_DEFENSE",
+		
+		"fleet_name": "Brawlin' Maries",
+		"fleet_faction": "pirates",
+		"fleet_flagship_variant": "hmi_onslaught_p_variant",
+		"fleet_flagship_recoverable": true,
+		"fleet_flagship_autofit": false,
+		"fleet_flagship_name": "The Blameless",
+		"fleet_preset_ships": {
+			"wolf_d_pirates_Attack":1,
+			"sunder_d_Assault":1,
+			"mule_d_pirates_Standard":1,
+			"lasher_Assault":1,
+			"kite_pirates_Raider":1,
+			"hound_d_pirates_Standard":1,
+			"hammerhead_d_CS":1,
+			"enforcer_d_pirates_Strike":1,
+			"cerberus_d_pirates_Shielded":1,
+			"brawler_Assault":1,
+			"colossus3_Pirate":1,
+			"atlas2_Standard":1,
+			},
+		"fleet_preset_autofit": false,
+		"fleet_scaling_multiplier": 1,
+		"fleet_min_FP": 100,
+		"fleet_composition_faction": "pirates",
+		
+		"fleet_transponder": false,
+		"fleet_behavior": "AGGRESSIVE",
+
+		"location_distance": "CLOSE",
+		"location_themes": [
+			"theme_interesting_minor",
+			"theme_ruins_secondary",
+			"theme_derelict_survey_ship",
+			"theme_derelict_probes",
+			"procgen_no_theme_pulsar_blackhole"
+		],
+		"location_themes_blacklist":[
+			"theme_already_occupied",
+			"theme_already_colonized",
+			"theme_hidden",
+		],
+		"location_prioritizeUnexplored": false,
+		"location_defaultToAnyEntity": true
+	},
+		"hmi_locomotive_lp":{
+        "trigger_marketFaction_any":["independent", "luddic_church"],
+		"trigger_playerRelationship_atMost":{
+            "luddic_path":-0.50,
+        },
+        "trigger_min_fleet_size": 250,
+        "job_memKey": "$HMI_locomotive_lp",
+		
+        "job_name": "Gently into Hell",
+        "job_description": "The Gentle Family is a notorious cult that stalks the outer reachs of the rim, cruelly preying on isolated polities and decivilised colonies to sustain them on their Sacred Exodus. This extremist cult is lead by the charismatic ==Daniel Gentle==, and firmly believes that only the devout followers of ==Daniel Gentle== will be spared the coming fires of an omnipotent and omniscient being the Rex Mundi, that only they can see through his lies, that only they have souls to preserve and be sent to heaven by the Lord's Will. To them, everyone else is a Hollowman, a soulless husk that is used by a puppet of the Rex Mundi. Crimes committed against a Hollowman do not count, as they are not real people - something that members of the Family use as an excuse for truly breathtaking atrocities done by themselves and ==Daniel Gentle==. Some, however, are real people blinded by the Rex Mundi, and their souls can be saved through an extensive process involving torture, coercion  and mind-altering drugs. If, after being tested on their faith and loyalty to ==Daniel Gentle== they prove devout, they too join the Cult. If they do not, then they are treated little worse than slaves, often executed by being thrown out the airlock during a sermon aboard the ==Good Ship Gentle==.\nFor the most part the Gentle Family stayed too far away from the core systems to even register on the major polity radar, however recently ==Daniel Gentle== has been moving closer and closer to the Core, with the aim of attacking Gilead. There, he will ascend to heaven along with his followers, and the Sector will be purged for their grevious sins.\n\nThe Luddic Church, not particularly wanting a crazed lunatic at the head of a giant fleet attacking what might be the most sacred site to the Luddic Faith, has posted a bounty for the Family's destruction - a bounty enhanced by survivors of the Gentle Family's cruelties.",
+        "job_intel_success": "The Church blesses you with praise for eliminating this deranged, wayward flock - and a substantial bounty payment.",
+		"job_comm_reply": "\"Well hello there!\" says Daniel Gentle charmingly, \"Come to join the Family? Or are you here to test your faith?\"\nHe leans forward, smile bright and soft, \"I don't mind either way, the Family treats everyone with kindness. And when you've passed on from your own foolishness in testing our faith, we'll be sure to show far more hospitality to the survivors of your pride. Anyone can join the Family, and be welcomed amongst our brothers and sisters - if their soul is true and faith strong. Rejoice, sisters and brothers! Your salvation from the Rex Mundi is come!\"",
+		"job_forFaction": "luddic_church",
+        "job_credit_reward": 750000,
+        "job_reputation_reward":10,
+        "job_type":"assassination",
+        "job_show_type": true,
+        "job_show_captain": true,
+		"job_show_fleet": "vanilla",
+        "job_show_distance":"vague",
+			
+		"target_first_name":"Daniel",
+        "target_last_name":"Gentle",
+        "target_portrait":"graphics/portraits/hmi_gentle.png",
+        "target_gender":"MALE",
+		"target_rank": "spaceAdmiral",
+		"target_post": "patrolCommander",
+        "target_personality": "reckless",
+        "target_level": 12,
+        "target_elite_skills":6,
+        "target_skill_preference": "NO_ENERGY_YES_BALLISTIC_YES_MISSILE_YES_DEFENSE",
+		
+		"fleet_name": "The Gentle Family",
+		"fleet_faction": "luddic_path",
+		"fleet_flagship_variant": "hmi_locomotive_lp_variant",
+		"fleet_flagship_recoverable": true,
+		"fleet_flagship_autofit": false,
+		"fleet_flagship_name": "The Good Ship Gentle",
+		"fleet_scaling_multiplier": 1.5,
+		"fleet_min_FP": 300,
+		"fleet_composition_faction": "luddic_path",
+		
+		"fleet_transponder": false,
+		"fleet_behavior": "AGGRESSIVE",
+
+		"location_distance": "FAR",
+		"location_themes": [
+			"theme_interesting_minor",
+			"theme_ruins_secondary",
+			"theme_derelict_survey_ship",
+			"theme_derelict_probes",
+			"procgen_no_theme_pulsar_blackhole"
+		],
+		"location_themes_blacklist":[
+			"theme_already_occupied",
+			"theme_already_colonized",
+			"theme_hidden",
+		],
+		"location_prioritizeUnexplored": false,
+		"location_defaultToAnyEntity": true
+	},
+	
+	
+	
+}

@@ -1,0 +1,12 @@
+{
+    "id":"ii_celeritydrive",
+    "type":"STAT_MOD",
+    "aiType":"CUSTOM",
+    "aiScript":"data.scripts.shipsystems.ai.II_CelerityDriveAI",
+
+    "statsScript":"data.scripts.shipsystems.II_CelerityDriveStats",
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"ii_celerity_activate_start",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

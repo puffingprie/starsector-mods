@@ -1,0 +1,84 @@
+{
+  "variantId": "keruvim_zweistar_assault",
+  "hullId": "keruvim_zweistar",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 45,
+  "fluxVents": 32,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "insulatedengine",
+    "autorepair"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "breach",
+        "WS0004": "breach",
+        "WS0006": "breach",
+        "WS0008": "breach",
+        "WS0029": "breach",
+        "WS0030": "breach"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "heavyac",
+        "WS0010": "heavyac",
+        "WS0015": "heavyac",
+        "WS0016": "heavyac",
+        "WS0033": "hephag",
+        "WS0034": "hephag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "keruvim_blast_gun",
+        "WS0012": "keruvim_blast_gun",
+        "WS0013": "keruvim_blast_gun",
+        "WS0014": "keruvim_blast_gun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "taclaser",
+        "WS0002": "taclaser",
+        "WS0023": "taclaser",
+        "WS0024": "taclaser",
+        "WS0025": "taclaser",
+        "WS0026": "taclaser",
+        "WS0027": "taclaser",
+        "WS0028": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "lightdualmg",
+        "WS0007": "lightdualmg",
+        "WS0017": "lightdualmg",
+        "WS0018": "lightdualmg",
+        "WS0019": "lightdualmg",
+        "WS0020": "lightdualmg",
+        "WS0021": "lightdualmg",
+        "WS0022": "lightdualmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "thunder_wing",
+    "thunder_wing"
+  ]
+}

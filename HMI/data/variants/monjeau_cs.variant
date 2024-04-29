@@ -1,0 +1,41 @@
+{
+  "variantId": "monjeau_cs",
+  "hullId": "monjeau",
+  "displayName": "Close Support",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 12,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "hardened_subsystems"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "ARM_L": "monjeau_arm_L",
+        "ARM_R": "monjeau_arm_R"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "seth_sml",
+        "WS0002": "seth_sml"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,65 @@
+{
+    "displayName": "Grand",
+    "fluxCapacitors": 0,
+    "fluxVents": 11,
+    "goalVariant": true,
+    "hullId": "ii_matriarch",
+    "hullMods": ["expanded_deck_crew"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "ii_matriarch_gra",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ii_heavyballista",
+                "WS0002": "ii_ballista",
+                "WS0003": "ii_ballista",
+                "WS0006": "ii_ballista",
+                "WS0007": "ii_ballista"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "ii_sledgecannon",
+                "WS0005": "ii_sledgecannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "ii_arcus",
+                "WS0012": "ii_arcus",
+                "WS0013": "ii_arcus",
+                "WS0014": "ii_arcus",
+                "WS0015": "ii_arcus",
+                "WS0016": "ii_arcus"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "ii_custos",
+                "WS0009": "ii_custos",
+                "WS0010": "ii_custos",
+                "WS0017": "ii_custos",
+                "WS0018": "ii_custos",
+                "WS0019": "ii_custos",
+                "WS0020": "ii_custos"
+            }
+        }
+    ],
+    "wings": [
+        "ii_vicarius_wing",
+        "ii_vicarius_wing",
+        "ii_inferna_wing",
+        "ii_inferna_wing",
+        "ii_inferna_wing",
+        "ii_inferna_wing"
+    ]
+}

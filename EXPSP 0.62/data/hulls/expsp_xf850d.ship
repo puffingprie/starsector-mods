@@ -1,0 +1,69 @@
+{
+  "hullName": "XF-850D",
+  "hullId": "expsp_xf850d",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/expsp_XF-850D.png",
+  "style": "EXPSP_MVS",
+  "height": 40,
+  "width": 38,
+  "center": [19, 20],
+  "collisionRadius": 16,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 13.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0.5, 1.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [0.5, -1.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-7, -0],
+      "length": 8,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    },
+    {
+      "location": [-3, 5],
+      "length": 4,
+      "width": 1,
+      "angle": 180,
+      "contrailSize": 1,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    },
+    {
+      "location": [-3, -5],
+      "length": 4,
+      "width": 1,
+      "angle": -180,
+      "contrailSize": 1,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    }
+  ],
+  "bounds": [
+    3, -2,
+    -3, -2,
+    -3, 2,
+    3, 2
+  ]
+}

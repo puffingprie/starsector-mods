@@ -1,0 +1,78 @@
+{
+  "hullName": "Stab",
+  "hullId": "expsp_pokebomber",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/expsp_stab.png",
+  "style": "EXPSP_MVS",
+  "height": 40,
+  "width": 30,
+  "center": [15, 15.5],
+  "collisionRadius": 26.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 22,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [9.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 240,
+      "angle": 90,
+      "locations": [-0.5, 6.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 240,
+      "angle": -90,
+      "locations": [-0.5, -6.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-6, 5],
+      "length": 17,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    },
+    {
+      "location": [-6, -5],
+      "length": 17,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    },
+    {
+      "location": [-4, -0],
+      "length": 25,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    }
+  ],
+  "bounds": [
+    -8.5, -9.5,
+    11, -3.5,
+    11, 3.5,
+    -8.5, 9.5
+  ]
+}

@@ -1,0 +1,26 @@
+{
+    "id":"ii_luxfinis",
+    "type":"STAT_MOD",
+    "aiType":"CUSTOM",
+    "aiScript":"data.scripts.shipsystems.ai.II_LuxFinisAI",
+
+    "statsScript":"data.scripts.shipsystems.II_LuxFinisStats",
+    "runScriptWhilePaused":true, # only for the player's ship
+    "runScriptWhileIdle":true,  # this means unapply() never gets called
+	"canUseWhileRightClickSystemOn":false,
+
+    "engineGlowLengthMult":1.01,
+
+    "flameoutOnImpactChance":0,
+
+    #"useSound":"ii_luxfinis_activate",
+	#"loopSound":"ii_luxfinis_loop",
+	#"deactivateSound":"ii_luxfinis_deactivate",
+    "outOfUsesSound":"engine_disabled",
+
+    "aiHints":{
+        "activeSpeedIncrease":40,
+        "burstMovementPotential":0,
+        "averageSpeedIncrease":20
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "displayName": "Artillery",
+    "fluxCapacitors": 12,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "ii_adamas",
+    "hullMods": [
+        "ii_targeting_package",
+        "fluxbreakers"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "ii_adamas_art",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ii_lightspear",
+                "WS0002": "ii_photonblaster_left",
+                "WS0003": "ii_photonblaster_right"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "ii_smallballista",
+                "WS0009": "ii_smallballista"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "ii_telum",
+                "WS0005": "ii_telum"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "ii_particlecannon",
+                "WS0007": "ii_particlecannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "ii_arcus",
+                "WS0011": "ii_arcus"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "vulcan",
+                "WS0013": "vulcan"
+            }
+        }
+    ]
+}

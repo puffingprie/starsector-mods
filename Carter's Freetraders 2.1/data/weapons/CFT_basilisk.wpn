@@ -1,0 +1,71 @@
+{
+  "id": "CFT_basilisk",
+  "specClass": "projectile",
+  "projectileSpecId": "CFT_basilisk_shot",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "displayArcRadius": 650,
+   "turretSprite": "graphics/CFT/weapons/CFT_basilisk_turret_base.png",
+  "turretGunSprite": "graphics/CFT/weapons/CFT_basilisk_turret_recoil.png",
+  "hardpointSprite": "graphics/CFT/weapons/CFT_basilisk_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/CFT/weapons/CFT_basilisk_hardpoint_recoil.png",
+  "visualRecoil": 10,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    20,
+    -4,
+    20,
+    -2,
+    20,
+    0,
+    20,
+    2,
+    20,
+    4
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    20,
+    -4,
+    20,
+    -2,
+    20,
+    0,
+    20,
+    2,
+    20,
+    4
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 15,
+    "spread": 36,
+    "particleSizeMin": 12,
+    "particleSizeRange": 32,
+    "particleDuration": 0.13,
+    "particleCount": 35,
+    "particleColor": [
+      165,
+      225,
+      185,
+      175
+    ]
+  },
+  "fireSoundTwo": "heavy_machinegun_fire",
+}

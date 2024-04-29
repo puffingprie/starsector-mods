@@ -1,0 +1,32 @@
+{
+  "variantId": "sv_jackketch_standerd",
+  "hullId": "sv_jackketch",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 11,
+  "fluxVents": 12,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "devastator",
+        "WS0003": "devastator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

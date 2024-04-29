@@ -1,0 +1,53 @@
+{
+  "animationType": "GLOW_AND_FLASH",
+  "barrelMode": "ALTERNATING",
+  "fireSoundTwo": "mining_blaster_fire",
+  "glowColor": [
+    255,
+    100,
+    100,
+    255
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGlowSprite": "graphics/weapons/m21/keruvim_m21_hardpoint_glow.png",
+  "hardpointOffsets": [
+    11,
+    0
+  ],
+  "hardpointSprite": "graphics/weapons/m21/keruvim_m21_hardpoint_base.png",
+  "id": "keruvim_m21",
+  "muzzleFlashSpec": {
+    "length": 50,
+    "particleColor": [
+      255,
+      100,
+      100,
+      255
+    ],
+    "particleCount": 12,
+    "particleDuration": 0.12,
+    "particleSizeMin": 20,
+    "particleSizeRange": 10,
+    "spread": 25
+  },
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "projectileSpecId": "miningblaster_shot",
+  "renderAboveAllWeapons": 0,
+  "size": "SMALL",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGlowSprite": "graphics/weapons/m21/keruvim_m21_turret_glow.png",
+  "turretOffsets": [
+    7.5,
+    0
+  ],
+  "turretSprite": "graphics/weapons/m21/keruvim_m21_turret_base.png",
+  "type": "BALLISTIC"
+}

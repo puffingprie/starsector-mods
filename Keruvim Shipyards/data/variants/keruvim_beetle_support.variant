@@ -1,0 +1,22 @@
+{
+  "displayName": "Defender Drone",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "keruvim_beetle",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "keruvim_beetle_support",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "irpulse_fighter"
+      }
+    }
+  ],
+  "wings": []
+}

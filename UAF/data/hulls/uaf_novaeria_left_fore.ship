@@ -1,0 +1,172 @@
+{
+  "hullName": "LEFT HULL",
+  "hullId": "uaf_novaeria_left_fore",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/Novaeria/uaf_novaeria_left_hull.png",
+  "style": "MIDLINE",
+  "height": 380,
+  "width": 185,
+  "center": [108.5, 95.5],
+  "collisionRadius": 300,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 0,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering",
+    "uaf_automataSpec",
+    "uaf_flagship_armouring"
+  ],
+  "builtInWeapons": {
+    "LFOREMBLINKER1": "uaf_blinker_foremost_1",
+    "LFOREMBLINKER2": "uaf_blinker_foremost_2",
+    "LFOREMBLINKER3": "uaf_blinker_foremost_3"
+  },
+  "weaponSlots": [
+    {
+      "id": "LFOREMBLINKER1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [108, -37]
+    },
+    {
+      "id": "LFOREMBLINKER2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [133.5, -37]
+    },
+    {
+      "id": "LFOREMBLINKER3",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [159.5, -37]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [231.5, -15.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [175.5, -15.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [101.5, -15.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 45,
+      "locations": [132.5, 1.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [49.5, -14.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [0, -14.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 40.5,
+      "locations": [-34.5, 23.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 40.5,
+      "locations": [-31, 95]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 45,
+      "locations": [70, 47]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 45,
+      "locations": [90, 44]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 52,
+      "angle": 40,
+      "locations": [-31.5, -57.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 52,
+      "angle": 40,
+      "locations": [-68.5, -57.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    255.5, 27,
+    284.5, -39,
+    -77.5, -66,
+    -73, -43,
+    -55.5, -39,
+    -92.5, 94.5,
+    -14.5, 86,
+    19, 53
+  ]
+}

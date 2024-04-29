@@ -1,0 +1,156 @@
+{
+  "hullName": "Unknown Contact",
+  "hullId": "hmi_spookyboi_back_2",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/mess/hmi_spookyboi_back_2.png",
+  "style": "HIGH_TECH_VANISH",
+  "height": 102,
+  "width": 102,
+  "center": [51, 51],
+  "collisionRadius": 63.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 60,
+  "viewOffset": 0,
+  "builtInMods": [
+    "advancedoptics",
+    "targetingunit",
+    "insulatedengine",
+    "hmi_terror_vanish"
+  ],
+  "builtInWeapons": {
+    "WS0001": "hil",
+    "WS0002": "shockrepeater",
+    "WS0003": "shockrepeater",
+    "WS0004": "shockrepeater",
+    "WS0005": "shockrepeater",
+    "WS0006": "shockrepeater",
+    "WS0007": "shockrepeater",
+    "WS0008": "shockrepeater",
+    "WS0009": "shockrepeater"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [30.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 252,
+      "angle": 90,
+      "locations": [9.5, 38]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 252,
+      "angle": -90,
+      "locations": [9.5, -38]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 252,
+      "angle": 128.5,
+      "locations": [-10.5, 38]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 252,
+      "angle": -128.5,
+      "locations": [-10.5, -38]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 252,
+      "angle": 149,
+      "locations": [-21.5, 10.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 252,
+      "angle": -149,
+      "locations": [-21.5, -10.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 252,
+      "angle": 26.5,
+      "locations": [12.5, 11]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 252,
+      "angle": -26.5,
+      "locations": [12.5, -11]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-34, 9],
+      "length": 21,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-34.5, -7.5],
+      "length": 20.5,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-45, 0.5],
+      "length": 31,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -46, -5,
+    -34.5, -6.5,
+    -30, -22,
+    -13.5, -40,
+    17.5, -43,
+    39.5, -27.5,
+    48, -11.5,
+    48, 11.5,
+    39.5, 27.5,
+    17.5, 43,
+    -13.5, 40,
+    -30, 22,
+    -34.5, 6.5,
+    -46, 5
+  ]
+}

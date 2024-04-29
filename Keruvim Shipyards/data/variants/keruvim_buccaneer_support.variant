@@ -1,0 +1,33 @@
+{
+  "displayName": "Support",
+  "fluxCapacitors": 9,
+  "fluxVents": 5,
+  "goalVariant": true,
+  "hullId": "keruvim_buccaneer",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "keruvim_buccaneer_support",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightac",
+        "WS0002": "lightac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "vulcan"
+      }
+    }
+  ],
+  "wings": [
+    "warthog_wing",
+    "talon_wing"
+  ]
+}

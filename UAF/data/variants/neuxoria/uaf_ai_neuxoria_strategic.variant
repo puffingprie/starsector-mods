@@ -1,0 +1,78 @@
+{
+  "variantId": "uaf_ai_neuxoria_strategic",
+  "hullId": "uaf_ai_neuxoria",
+  "displayName": "Strategic",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 11,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "pointdefenseai"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "uaf_semibreve_base",
+        "WS0010": "uaf_semibreve_base"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "uaf_swaras_m_mlrs",
+        "WS0006": "uaf_swaras_m_mlrs",
+        "WS0007": "uaf_swaras_m_mlrs",
+        "WS0008": "uaf_swaras_m_mlrs"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "uaf_medlav_quad",
+        "WS0018": "uaf_medlav_quad"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_edge_type_i",
+        "WS0002": "uaf_edge_type_i",
+        "WS0003": "uaf_edge_type_i",
+        "WS0004": "uaf_edge_type_i"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "uaf_triyia_pdx",
+        "WS0012": "uaf_triyia_pdx",
+        "WS0015": "uaf_merupaka_epd",
+        "WS0016": "uaf_merupaka_epd"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "uaf_ivory_triple",
+        "WS0014": "uaf_ivory_triple"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_taufan",
+    "uaf_wing_taufan",
+    "uaf_wing_minersky",
+    "uaf_wing_minersky",
+    "uaf_wing_revere",
+    "uaf_wing_revere"
+  ]
+}

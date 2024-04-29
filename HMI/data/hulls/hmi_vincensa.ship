@@ -1,0 +1,45 @@
+{
+  "hullName": "Vincensa",
+  "hullId": "hmi_vincensa",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/hmi_vincensa.png",
+  "style": "HIGH_TECH",
+  "height": 38,
+  "width": 40,
+  "center": [20, 21.5],
+  "collisionRadius": 29.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 27.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [14.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-11, -0],
+      "length": 26,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "CUSTOM",
+      "styleId": "Terminator_purple"
+    }
+  ],
+  "bounds": [
+    5, -18,
+    17, -0,
+    5, 18,
+    -22, -0
+  ]
+}

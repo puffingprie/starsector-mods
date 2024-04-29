@@ -1,0 +1,98 @@
+{
+  "hullName": "Rampant Bow Growth",
+  "hullId": "derelict_ramp_mothership_bow_module",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/derelicts/derelict_ramp_mothership_bow_module.png",
+  "style": "LOW_TECH",
+  "height": 78,
+  "width": 200,
+  "center": [85.5, 35.5],
+  "collisionRadius": 78,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 75,
+  "viewOffset": 0,
+  "builtInMods": [
+    "never_detaches",
+    "reduced_explosion",
+    "supercomputer",
+    "hmi_miningHSA",
+    "missile_reload"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 181,
+      "angle": 25,
+      "locations": [0.5, 36]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 27.5,
+      "locations": [-8, 10.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 113,
+      "angle": -35,
+      "locations": [-2, -14]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 85,
+      "angle": 0,
+      "locations": [8, -31.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [33, 9.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [24.5, 25.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [28.5, -7]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    38, 12.5,
+    24.5, 36.5,
+    13, 49,
+    -14, 57.5,
+    -31, 41.5,
+    -28, -41,
+    -8, -58,
+    16, -46.5,
+    31.5, -22
+  ]
+}

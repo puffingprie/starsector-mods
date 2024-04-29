@@ -1,0 +1,77 @@
+{
+  "variantId": "uaf_ai_lillaru_edgerunner",
+  "hullId": "uaf_ai_lillaru",
+  "displayName": "Edgerunner",
+  "goalVariant": true,
+  "fluxCapacitors": 3,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter",
+    "hardened_subsystems",
+    "targetingunit",
+    "fluxbreakers"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "PD_DECO1": "uaf_amazoch_s_asrm_single",
+        "PD_DECO4": "uaf_amazoch_s_asrm_single",
+        "WS0006": "uaf_amazoch_s_asrm_single",
+        "WS0007": "uaf_amazoch_s_asrm_single"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0018": "uaf_exoscar_torpedo_med",
+        "WS0019": "uaf_exoscar_torpedo_med"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "uaf_edge_type_ii",
+        "WS0004": "uaf_edge_type_ii",
+        "WS0012": "uaf_edge_type_ii",
+        "WS0013": "uaf_edge_type_iii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "uaf_weiss_ii_flk",
+        "WS0011": "uaf_merupaka_epd"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_flair_pod",
+        "WS0002": "uaf_flair_pod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0016": "uaf_chorus_s_amm",
+        "WS0017": "uaf_chorus_s_amm"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

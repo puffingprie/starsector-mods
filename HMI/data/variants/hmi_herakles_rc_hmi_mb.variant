@@ -1,0 +1,76 @@
+{
+  "variantId": "hmi_herakles_rc_hmi_mb",
+  "hullId": "hmi_herakles_rc",
+  "displayName": "Labour",
+  "goalVariant": false,
+  "fluxCapacitors": 45,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "sMods": ["armoredweapons"],
+  "hullMods": [
+    "missleracks",
+    "eccm",
+    "fluxbreakers"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mark9"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "dragonpod",
+        "WS0009": "dragonpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0018": "salamanderpod",
+        "WS0019": "salamanderpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "heavymauler",
+        "WS0003": "heavymauler",
+        "WS0004": "heavymauler",
+        "WS0005": "heavymauler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "lightneedler",
+        "WS0011": "lightneedler",
+        "WS0012": "lightneedler",
+        "WS0013": "lightneedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "dualflak",
+        "WS0007": "dualflak",
+        "WS0014": "vulcan",
+        "WS0015": "vulcan",
+        "WS0016": "lightdualmg",
+        "WS0017": "lightdualmg",
+        "WS0020": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

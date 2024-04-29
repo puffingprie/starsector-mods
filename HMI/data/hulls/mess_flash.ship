@@ -1,0 +1,86 @@
+{
+  "hullName": "Flash (Mess)",
+  "hullId": "mess_flash",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/mess/mess_bomber.png",
+  "style": "HIGH_TECH",
+  "height": 34,
+  "width": 41,
+  "center": [21, 16],
+  "collisionRadius": 26,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 26,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 4,
+      "angle": 0,
+      "locations": [7.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 4,
+      "angle": 0,
+      "locations": [7.5, 6.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 4,
+      "angle": -0,
+      "locations": [7.5, -6.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-12.5, 12],
+      "length": 12,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-10.5, 8],
+      "length": 12,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-12, -12],
+      "length": 12,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-11, -8],
+      "length": 12,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -9.5, 16,
+    16, 10,
+    16, -10.5,
+    -10, -16
+  ]
+}

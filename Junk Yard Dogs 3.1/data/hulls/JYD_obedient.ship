@@ -1,0 +1,129 @@
+{
+  "hullName": "Obedient",
+  "hullId": "JYD_obedient",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/JYD_obedient.png",
+  "style": "LOW_TECH",
+  "height": 191,
+  "width": 114,
+  "center": [57, 95.5],
+  "collisionRadius": 129,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 112.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "shielded_holds"
+  ],
+  "builtInWings": [
+    "JYD_Mosquito_wing",
+    "JYD_tsetse_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -0,
+      "locations": [74.5, -13]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 0,
+      "locations": [74.5, 13]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -130,
+      "locations": [-73, -42]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 130,
+      "locations": [-73, 42]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-16, -40]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -0,
+      "locations": [45.5, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        12.5, 42,
+        18, 39.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -12, 41,
+        0.5, 41
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-91, -24.5],
+      "length": 54.5,
+      "width": 27,
+      "angle": 180,
+      "contrailSize": 27,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-91, 24.5],
+      "length": 54.5,
+      "width": 27,
+      "angle": -180,
+      "contrailSize": 27,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    103.5, -39.5,
+    39.5, -69,
+    -44.5, -56.5,
+    -102, -64,
+    -102, 64,
+    -44.5, 56.5,
+    39.5, 69,
+    103.5, 39.5
+  ]
+}

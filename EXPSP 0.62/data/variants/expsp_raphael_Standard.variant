@@ -1,0 +1,52 @@
+{
+  "variantId": "expsp_raphael_Standard",
+  "hullId": "expsp_raphael",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 4,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "expsp_lrm_med",
+        "WS0008": "expsp_lrm_med"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_type56",
+        "WS0002": "expsp_type56"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "expsp_coilciws",
+        "WS0004": "expsp_multilaser",
+        "WS0005": "expsp_multilaser",
+        "WS0006": "expsp_coilciws"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "expsp_slash_wing",
+    "expsp_raze_wing",
+    "expsp_pierce_wing"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "variantId": "enforcer_hmibount_bomb2",
+  "hullId": "enforcer",
+  "displayName": "Bombardment",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 13,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 002": "hveldriver",
+        "WS 004": "hveldriver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 006": "heatseeker",
+        "WS 007": "heatseeker",
+        "WS 008": "heatseeker",
+        "WS 009": "heatseeker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 003": "dualflak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "pumm_mg",
+        "WS 005": "pumm_mg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,12 @@
+{
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/interesting_portrait_lionsguard01.png",
+			"graphics/portraits/interesting_portrait_lionsguard03.png",
+		],
+		"standard_female":[
+			"graphics/portraits/interesting_portrait_lionsguard02.png",
+			"graphics/portraits/interesting_portrait_lionsguard04.png",
+		],
+	},
+},

@@ -1,0 +1,49 @@
+Version 6.2.0
+
+* MagicBounty changes:
+  - Added a new Silly MagicBounty
+  - Adjusted bounty preview visibility for a few MagicBounties
+  - Adjusted bounty rewards for some MagicBounties
+  - Minor text changes
+* Slight adjustments to Adversary crisis:
+  - Can no longer trigger another attack while an existing Adversary attack is already underway
+  - More emphasis on system market presence when choosing a target system to attack
+  - Reduced Independent reputation gain for defeating the Adversary crisis attack
+* Major code refactors
+
+
+
+Version 6.1.2
+
+* Minor fixes for the new MagicBounty
+* Fixed a crash that could occur if at least one of the Adversary's High Command industries did not have an installed AI core
+
+
+
+Version 6.1.1
+
+* Added a new Silly MagicBounty
+* Fixed Adversary CC point contribution for size 7 or higher colonies (now +10 per size 7 or higher colony, from +1)
+* Made Adversary CC factor able to appear in main Colony Crisis intel in the middle of a game session
+  - Was previously only added-in/checked-for upon loading a save with an existing CC intel, and could be temporarily removed if CC intel disappeared (via losing all colonies) and then reappeared within the same game session
+  - Only applies if Adversary Dynamic Doctrine is enabled; else, the previous behavior still applies
+
+
+
+Version 6.1.0 (Not save-compatible with 6.0.0)
+
+* Added a Colony Crisis for the Adversary faction
+  - Will (normally) appear if you are hostile to the Adversary and either have one size 6 colony, or at least 4 colonies with one being at least size 5
+* Adjusted Adversary configs:
+  - Now uses the new 0.97a character portraits
+  - Now knows the Escort Package hullmod, and no longer knows the Neural Link hullmods
+  - Will no longer send punitive expeditions for any reason except Colony Crisis and territorial claims
+* Adjusted some MagicBounty ship variants and commander skills
+* Major code refactoring
+
+
+
+Version 6.0.0 (Update for Starsector 0.97)
+
+* Updated to Starsector 0.97
+* Added Grendel to Adversary's known ship list

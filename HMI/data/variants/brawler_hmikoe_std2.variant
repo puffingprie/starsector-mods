@@ -1,0 +1,35 @@
+{
+  "variantId": "brawler_hmikoe_std2",
+  "hullId": "brawler_hmikoe",
+  "displayName": "Attack",
+  "goalVariant": false,
+  "fluxCapacitors": 3,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "insulatedengine",
+    "magazines",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "irautolance",
+        "WS 002": "irautolance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "ioncannon",
+        "WS 004": "ioncannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

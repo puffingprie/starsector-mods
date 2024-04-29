@@ -1,0 +1,72 @@
+#-------------------------------------------------------------------------------------#
+# Open referenceStarSystem.json for a reference guide on making a custom star system  #
+# (It also includes some tips and warnings about making your own custom star systems) #
+# Open presetStarSystems.json for some preset custom systems to copy, paste, and edit #
+#-------------------------------------------------------------------------------------#
+
+# This JSON file is reloaded during new game creation.
+# Thus, it can be edited without needing to restart your Starsector application,
+# as any changes here will apply on the next new game creation.
+# Any customStarSystems.json in the data/config folder of other mods will merge together with this one
+
+{
+	# An uninhabited star system with desirable planets
+	"css_default":{
+		"isEnabled":true,
+		"setLocation":0,
+		"hasSystemwideNebula":true,
+		"addCoronalHypershunt":false,
+		"addDomainCryosleeper":false,
+		"teleportUponGeneration":false,
+		"entities":[
+			{
+				"entity":"star",
+				"type":"random_star_giant"
+			},
+			{
+				"entity":"planet",
+				"type":"gas_giant",
+				"orbitRadius":3825,
+				"radius":325,
+				"conditions":["hot","high_gravity","volatiles_abundant"]
+			},
+			{
+				"entity":"planet",
+				"type":"terran",
+				"orbitRadius":4625,
+				"radius":175,
+				"conditions":["habitable","ore_moderate","organics_common","farmland_adequate","ruins_extensive"]
+			},
+			{
+				"entity":"planet",
+				"type":"toxic",
+				"orbitRadius":5850,
+				"radius":150,
+				"conditions":["toxic_atmosphere","ore_rich","rare_ore_moderate","organics_common","volatiles_diffuse"]
+			},
+			{
+				"entity":"planet",
+				"type":"barren",
+				"orbitRadius":6420,
+				"radius":120,
+				"conditions":["no_atmosphere","ore_sparse","rare_ore_sparse"]
+			},
+			{"entity":"jump_point","orbitRadius":3200,"name":"Inner System Jump-point"},
+			{"entity":"inactive_gate","orbitRadius":5250},
+			{"entity":"jump_point","orbitRadius":6840,"name":"Fringe Jump-point"},
+			{"entity":"magnetic_field","orbitRadius":325,"focus":1,"size":200},
+			{"entity":"station_research","orbitRadius":425,"focus":1},
+			{"entity":"stable_location","focus":[1,4]},
+			{"entity":"stable_location","focus":[1,5]},
+			{"entity":"comm_relay","focus":[2,4]}
+		]
+	},
+
+
+	#--------------------------------------#
+	# Can add more star systems below here #
+	#--------------------------------------#
+
+
+
+} # Keep this closing bracket at the end of this JSON file!

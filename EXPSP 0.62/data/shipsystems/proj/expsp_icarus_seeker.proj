@@ -1,0 +1,54 @@
+{
+	"id":"expsp_icarus_seeker",
+	"specClass":"missile",	
+	
+	"missileType":"MISSILE",
+	"onHitEffect":"data.scripts.weapons.expsp_icarusHit",
+	"sprite":"graphics/missiles/bomblet0.png",
+	"size":[4,4],	
+	"center":[2,2],
+	
+	"collisionRadius":7,
+	"collisionClass":"MISSILE_NO_FF",
+	#"collisionClass":"FIGHTER",
+	"explosionColor":[25,75,225,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":75, # purely visual
+	#"maxFlightTime":3,
+	"flameoutTime":1, # total time from flameout to full fadeout
+	"noEngineGlowTime":0.5, # time spent without the engine glow being rendered
+	"fadeTime":0.5, # fadeout duration
+	#"collisionClassAfterFlameout":"MISSILE_NO_FF",
+	
+	"engineSpec":{"turnAcc":900,
+				  "turnRate":600,
+				  #"maxSpeed":250,
+				  "acc":450,
+				  "dec":0},
+	"engineSlots":[
+					{"id":"ES1",
+					"loc":[0, 0],
+				    "style":"CUSTOM",
+				    "styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						#"engineColor":[255,50,50,255],
+						"engineColor":[25,75,225,255],
+						"contrailParticleSizeMult":6,
+						"contrailParticleDuration":2,
+						"contrailParticleFinalSizeMult":0.5,
+						"contrailDuration":2,
+						"contrailWidthMult":1,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.1f,
+						"contrailAngularVelocityMult":0f,
+						"contrailSpawnDistMult":.5, # how far away from engine it starts
+						"contrailColor":[55,55,155,100],
+						
+						"type":"GLOW" # GLOW or SMOKE
+					},
+				    "width":4.0,
+				    "length":0.0,
+				    "angle":180.0},
+				   ]
+	
+}

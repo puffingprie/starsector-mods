@@ -1,0 +1,37 @@
+{
+  "hullName": "Beholder",
+  "hullId": "sv_beholder",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/sv_beholder.png",
+  "style": "HIGH_TECH",
+  "height": 104,
+  "width": 64,
+  "center": [32, 37.5],
+  "collisionRadius": 94.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 86.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sv_longrangesensors",
+    "high_maintenance"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [
+    {
+      "location": [-29.5, -0],
+      "length": 23,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -33, 19.5,
+    12, 27,
+    40, 19.5,
+    40, -19.5,
+    12, -27,
+    -33, -19.5
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "variantId": "kite_pirates_hmibount3",
+  "hullId": "kite_pirates",
+  "displayName": "Support",
+  "goalVariant": false,
+  "fluxCapacitors": 2,
+  "fluxVents": 3,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "militarized_subsystems",
+    "unstable_injector"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "swarmer",
+        "WS 002": "swarmer",
+        "WS 003": "lightac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

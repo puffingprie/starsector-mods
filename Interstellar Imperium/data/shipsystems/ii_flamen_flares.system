@@ -1,0 +1,13 @@
+{
+    "id":"ii_flamen_flares",
+    "type":"WEAPON",
+    "aiType":"FLARE_JAMMER",
+    "weaponDataId":"ii_flamen_flares",
+    "outOfUsesSound":"gun_out_of_ammo",
+
+    "aiHints":{
+        "activeSpeedIncrease":0,
+        "burstMovementPotential":0,
+        "averageSpeedIncrease":0,
+    }
+}

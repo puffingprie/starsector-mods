@@ -1,0 +1,31 @@
+{
+  "variantId": "mess_buffalo_harpoon",
+  "hullId": "mess_buffalo",
+  "displayName": "Harpoon",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 4,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "harpoonpod",
+        "WS0002": "harpoon",
+        "WS0003": "harpoon",
+        "WS0004": "harpoon",
+        "WS0005": "harpoon",
+        "WS0006": "harpoon",
+        "WS0007": "harpoon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

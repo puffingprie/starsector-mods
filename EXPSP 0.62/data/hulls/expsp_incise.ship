@@ -1,0 +1,132 @@
+{
+  "hullName": "Incise",
+  "hullId": "expsp_incise",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/expsp_incise.png",
+  "style": "EXPSP_MVS",
+  "height": 48,
+  "width": 36,
+  "center": [17, 20.5],
+  "collisionRadius": 43,
+  "shieldCenter": [1, -0],
+  "shieldRadius": 33,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux"
+  ],
+  "builtInWeapons": {
+    "WS0006": "expsp_incisewingl",
+    "WS0007": "expsp_incisewingr",
+    "WS0008": "expsp_incisetail"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [18.5, -1]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-4, 15]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-4, -15]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-2.5, 13]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-2.5, -13]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-16, -1]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-2.5, 12]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-2.5, -13]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-8, 5],
+      "length": 18,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    },
+    {
+      "location": [-8, -5],
+      "length": 18,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    }
+  ],
+  "bounds": [
+    -18, -7,
+    -13, -3.5,
+    -6, -4,
+    -5.5, -15.5,
+    -1.5, -16,
+    2.5, -5,
+    22.5, -3,
+    22.5, 3,
+    2.5, 5,
+    -1.5, 16,
+    -5.5, 15.5,
+    -6, 4,
+    -13, 3.5,
+    -18, 7
+  ]
+}

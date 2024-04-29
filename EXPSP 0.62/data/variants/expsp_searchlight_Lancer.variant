@@ -1,0 +1,58 @@
+{
+  "variantId": "expsp_searchlight_Lancer",
+  "hullId": "expsp_searchlight",
+  "displayName": "Lancer",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 23,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "frontemitter",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "expsp_gluonlance"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sabotpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "expsp_beacon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "hveldriver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_coilciws",
+        "WS0002": "expsp_coilciws",
+        "WS0005": "expsp_coilciws",
+        "WS0006": "expsp_coilciws"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "expsp_glance_wing"
+  ]
+}

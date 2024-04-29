@@ -1,0 +1,69 @@
+{
+  "variantId": "expsp_asciislaught_Standard",
+  "hullId": "expsp_asciislaught",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 43,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "heavyarmor",
+    "frontemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 019": "mark9"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "hveldriver",
+        "WS 003": "hveldriver",
+        "WS 012": "hveldriver",
+        "WS 013": "hveldriver"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 016": "expsp_asciitpc",
+        "WS 017": "expsp_asciitpc"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 021": "expsp_blam",
+        "WS 022": "expsp_blam",
+        "WS 023": "expsp_blam",
+        "WS 024": "expsp_blam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "vulcan",
+        "WS 004": "vulcan",
+        "WS 007": "heavymg",
+        "WS 010": "flak",
+        "WS 011": "flak",
+        "WS 014": "heavymg",
+        "WS 015": "heavymg",
+        "WS 018": "devastator",
+        "WS 020": "devastator"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

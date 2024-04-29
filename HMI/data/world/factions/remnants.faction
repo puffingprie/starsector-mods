@@ -1,0 +1,55 @@
+{
+	"knownShips":{
+		"hulls":[
+		"aureole",
+		"revelio",
+		"ecstacy",
+		"hmi_coelum",
+		],
+	},
+
+	"knownFighters":{
+		"fighters":[
+		"puer_chorum_wing",
+		"hmi_auctor_wing",
+		],
+	},
+	
+	"knownWeapons":{
+		"weapons":[
+		"rad_gun",
+		"lightdualac_rem",
+		"railgun_rem",
+		"messenger_rem",
+		"taclaser_rem",
+		"mininglaser_rem",
+		"ioncannon_rem",
+		"irpulse_rem",
+		"pdlaser_rem",
+		"lrpdlaser_rem",
+		"burst_rem",
+
+		"thumper_rem",
+		"heavyac_rem",
+		"messengerpod_rem",
+		"gravitonbeam_rem",
+		"mininglaser_double_rem",
+		"pulselaser_rem",
+		"heavyburst_rem",
+		"heavyblaster_rem",
+		"phasebeam_rem",
+		"phasecl_rem",
+		"krandlpucklegun",
+		
+		"tachyonlance_rem",
+		"mark9_rem",
+		"gauss_rem",
+		"hellbore_rem",
+		"guardian_rem",
+		],
+	},	
+},
+
+
+
+

@@ -1,0 +1,106 @@
+{
+  "hullName": "Scale Support Fighter",
+  "hullId": "hmi_scale",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/scale.png",
+  "style": "LOW_TECH",
+  "height": 56,
+  "width": 38,
+  "center": [19, 26.5],
+  "collisionRadius": 37,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 35.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [17, 8]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": -0,
+      "locations": [17, -8]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 251,
+      "angle": 78.5,
+      "locations": [2, 11.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 251,
+      "angle": -78.5,
+      "locations": [2, -11.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [22.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-25.5, 8],
+      "length": 15,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-25.5, -8],
+      "length": 15,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-5.5, 16],
+      "length": 6,
+      "width": 6,
+      "angle": 146.5,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-5.5, -16],
+      "length": 6,
+      "width": 6,
+      "angle": -146.5,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -26.5, -11,
+    0, -19.5,
+    29, -4,
+    29, 4,
+    0, 19.5,
+    -26.5, 11
+  ]
+}

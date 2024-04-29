@@ -1,0 +1,112 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+
+    "rebelFleetSuffix":"Outcasts",
+    
+    "directoryUseShortName":true,
+
+    "startRelationships":{
+
+	"diableavionics":-0.3, 
+	"al_ars":-0.3,
+		"SCY":-0.3,
+        "independent":0.8,
+        "persean":-0.1,
+        "ORA":0.3,
+	
+	"ae_ixbattlegroup":-0.4, 
+	"tritachyon":-0.3, 
+	"sylphon":-0.3,	
+	"tahlan_legioinfernalis":-0.8 
+	
+ 
+    },
+
+    "morality":"good",
+
+    "diplomacyTraits":["stalwart","neutralist","lowprofile"],
+
+    "alignments":{
+            "hierarchal":0.5,
+            "militarist":0.5,
+	    "corporate":-0.5,
+            "diplomatic":1,
+            "ideological":1
+    },
+
+    "isPirateNeutral":false,
+
+    "vengeanceLevelNames":["Headhunter", "Elimination", "Annihilation"],
+    "vengeanceFleetNames":["Headhunter", "Elimination", "Annihilation"],
+    "vengeanceFleetNamesSingle":["a Headhhunter Group", "an Elimination Fleet", "an Annihilation Task Force"],
+
+ 
+    
+    "startShipsSolo":[
+        ["expsp_stiletto_Standard"],
+	["expsp_kriegsmesser_Standard"],
+        ["expsp_kurierin_Standard"],
+		["expsp_kris_Standard"],
+    ],
+
+    "startShipsCombatSmall":[
+        ["expsp_hetzer_Standard", "expsp_kriegsmesser_Standard", "expsp_stiletto_Closequarters"],
+	["expsp_kriegsmesser_Strike", "expsp_kriegsmesser_Standard", "expsp_stiletto_Closequarters","expsp_puukko_Standard"],
+    ],
+
+    "startShipsCombatLarge":[
+        ["expsp_lauretana_Standard", "expsp_hetzer_Support", "expsp_stiletto_Standard","expsp_kriegsmesser_Standard"],
+	["expsp_815_Standard", "expsp_hetzer_Support", "expsp_kurierin_Standard"],
+	["expsp_anker_Lancer", "expsp_hetzer_Standard", "expsp_kriegsmesser_Standard"],
+	["expsp_kriegsmesser_Strike", "expsp_kriegsmesser_Standard","expsp_kriegsmesser_Standard","expsp_stiletto_Standard", "expsp_stiletto_Closequarters","expsp_puukko_Standard"]
+    ],
+
+    "startShipsTradeSmall":[
+        ["expsp_kurierin_Standard", "expsp_stiletto_Standard"]
+    ],
+	"startShipsTradeLarge":[
+		["expsp_provisioner_Standard","expsp_florian_Combat","expsp_kriegsmesser_Standard","expsp_kriegsmesser_Standard"]
+	],
+	"startShipsCarrierSmall":[
+        ["expsp_virtue_Standard", "expsp_stiletto_Standard","expsp_kriegsmesser_Strike"],
+	["expsp_malakh_Elite",",expsp_stiletto_Standard","expsp_kriegsmesser_Strike"],
+	["expsp_malakh_Elite","expsp_malakh_Elite","expsp_kriegsmesser_Strike"]
+    ],
+
+    "startShipsCarrierLarge":[
+        ["expsp_virtue_Standard", "expsp_virtue_Standard","expsp_hetzer_Standard", "expsp_stiletto_Standard","expsp_kriegsmesser_Strike"],
+	["expsp_principality_Standard", "expsp_hetzer_Standard", "expsp_kriegsmesser_Standard"]
+    ],
+
+    "startShipsSuper":[
+        ["expsp_ascalon_Elite"],
+	["expsp_intervention_Standard"],
+	["expsp_tzaphkiel_Cyclebreaker"]
+    ],
+	"startShipsGrandFleet":[
+		["expsp_cainhurst_Lancer","expsp_815_Standard", "expsp_hetzer_Support", "expsp_kriegsmesser_Standard", "expsp_provisioner_Standard"],
+		["expsp_dragonhunter_Standard","expsp_anker_Lancer", "expsp_hetzer_Support", "expsp_stiletto_Standard", "expsp_provisioner_Standard"],
+		["expsp_abysswalker_Standard","expsp_principality_Outdated", "expsp_hetzer_Support", "expsp_kriegsmesser_Strike", "expsp_provisioner_Standard"],
+		["expsp_dominion_Elite","expsp_principality_Outdated","expsp_hetzer_Standard","expsp_kriegsmesser_Strike", "expsp_provisioner_Standard"],
+    ],	
+	 "startSpecialItems":[
+        [["expsp_mvs_package",""]]
+       
+
+    ],
+ 
+
+
+   
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.1},
+        {"id":"militarybase", "mult":0.2},
+        {"id":"fuelprod", "mult":0.05}
+    ],
+
+    "bonusSeeds":[
+        {"id":"nanoforge_pristine", "count":1}
+      
+    ]
+}

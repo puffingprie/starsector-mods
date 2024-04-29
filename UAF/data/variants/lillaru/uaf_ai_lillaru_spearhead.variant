@@ -1,0 +1,77 @@
+{
+  "variantId": "uaf_ai_lillaru_spearhead",
+  "hullId": "uaf_ai_lillaru",
+  "displayName": "Spearhead",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 17,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "fluxbreakers",
+    "hardenedshieldemitter",
+    "hardened_subsystems",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "uaf_amazoch_s_asrm_single",
+        "WS0007": "uaf_amazoch_s_asrm_single"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0016": "uaf_amazoch_s_asrm_single",
+        "WS0017": "uaf_amazoch_s_asrm_single",
+        "WS0018": "uaf_amazoch_light_asrm_dual",
+        "WS0019": "uaf_amazoch_light_asrm_dual"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "PD_DECO1": "uaf_exoscar_torpedo_base_shield",
+        "PD_DECO4": "uaf_exoscar_torpedo_base_shield"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "uaf_catun_iii_erg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_catun_ii_erg",
+        "WS0004": "uaf_catun_ii_erg",
+        "WS0012": "uaf_ivory_triple"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_weiss_flk",
+        "WS0002": "uaf_weiss_flk"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "uaf_merupaka_epd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

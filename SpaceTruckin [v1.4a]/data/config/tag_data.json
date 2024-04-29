@@ -1,0 +1,8 @@
+{
+  "USL":{
+    "name":"USL",
+    "color":[236,243,10,255],
+    "putFirst": true,
+    "sort":1000
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "variantId": "uaf_shinoria_superiority",
+  "hullId": "uaf_shinoria",
+  "displayName": "Superiority",
+  "goalVariant": true,
+  "fluxCapacitors": 3,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "eccm",
+    "expanded_deck_crew",
+    "recovery_shuttles",
+    "ecm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "uaf_triyia_pdx"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "uaf_ivory",
+        "WS0008": "uaf_ivory"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "uaf_chorus_m_amm",
+        "WS0012": "uaf_chorus_m_amm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "uaf_vocal_s_srm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_claris_cn",
+        "WS0004": "uaf_claris_cn"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_flair_pod",
+        "WS0002": "uaf_flair_pod",
+        "WS0005": "uaf_racun_pod",
+        "WS0006": "uaf_racun_pod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_superaria",
+    "uaf_wing_superaria"
+  ]
+}

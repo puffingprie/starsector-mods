@@ -1,0 +1,47 @@
+{
+  "variantId": "CFT_odam_standard",
+  "hullId": "CFT_odam",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 30,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "fluxdistributor",
+    "turretgyros",
+    "fluxcoil"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "CFT_wavepulse",
+        "WS0002": "CFT_wavepulse"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "CFT_dartgun",
+        "WS0005": "CFT_dartgun",
+        "WS0006": "CFT_dartgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "CFT_infernorockets"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "CFT_mizzen_standard_wing",
+    "CFT_mizzen_standard_wing"
+  ]
+}

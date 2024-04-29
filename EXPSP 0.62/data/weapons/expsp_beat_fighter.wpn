@@ -1,0 +1,50 @@
+{
+  "id": "expsp_beat_fighter",
+  "specClass": "projectile",
+  "projectileSpecId": "expsp_beat_msl",
+  "type": "MISSILE",
+  "size": "SMALL",
+  "displayArcRadius": 500,
+  "turretSprite": "graphics/weapons/expsp_jab_sml_turret_base.png",
+  "hardpointSprite": "graphics/weapons/expsp_jab_sml_hardpoint_base.png",
+  "turretOffsets": [
+    7,
+    2,
+    5,
+    2
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    7,
+    2,
+    5.5,
+    2
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 10,
+    "particleSizeRange": 16,
+    "cloudParticleCount": 3,
+    "cloudDuration": 0.9,
+    "cloudRadius": 8,
+    "blowbackParticleCount": 4,
+    "blowbackDuration": 1.1,
+    "blowbackLength": 20,
+    "blowbackSpread": 10,
+    "particleColor": [
+      170,
+      160,
+      150,
+      130
+    ]
+  },
+  "fireSoundTwo": "swarmer_fire"
+}

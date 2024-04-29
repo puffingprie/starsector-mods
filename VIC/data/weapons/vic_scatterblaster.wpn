@@ -1,0 +1,55 @@
+{
+  "id": "vic_scatterblaster",
+  "specClass": "projectile",
+  "projectileSpecId": "railgun_shot",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/railgun_turret_base.png",
+  "turretGlowSprite": "graphics/weapons/railgun_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/railgun_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/weapons/railgun_hardpoint_glow.png",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+    200,
+    200,
+    255,
+    255
+  ],
+  "turretOffsets": [
+    10,
+    -0.5,
+    10,
+    0.5,
+    9,
+    -1.5,
+    9,
+    1.5
+  ],
+  "turretAngleOffsets": [
+    2,
+    -2,
+    -6,
+    6
+  ],
+  "hardpointOffsets": [
+    15,
+    0.5,
+    15,
+    -0.5,
+    14,
+    1.5,
+    14,
+    -1.5
+  ],
+  "hardpointAngleOffsets": [
+    -2,
+    2,
+    6,
+    -6
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "GLOW",
+  "requiresFullCharge": false,
+  "textureType": ROUGH,
+  "fireSoundTwo": "vic_scaterBlaster_shot"
+}

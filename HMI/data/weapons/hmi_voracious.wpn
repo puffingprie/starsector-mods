@@ -1,0 +1,29 @@
+{
+	"id":"hmi_voracious",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"MEDIUM",
+	"turretSprite":"graphics/weapons/hmi_voracious/hmi_voracious_turret_00.png",
+	"hardpointSprite":"graphics/weapons/hmi_voracious/hmi_voracious_hardpoint_00.png",	
+	"numFrames":3,
+	"frameRate":20,
+	"turretOffsets":[22, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[33, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":6.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":5.0,
+					   "particleSizeMin":3.0,
+					   "particleSizeRange":12.0,
+					   "particleDuration":0.15,
+					   "particleCount":11,
+					   "particleColor":[245,245,245,250]},	
+	"projectileSpecId":"hmi_voracious_shot",  # projectile that will be fired
+	#"noImpactSounds":true,
+	#"noShieldImpactSounds":true,
+	#"noNonShieldImpactSounds":true,
+	#"fireSoundOne":"chaingun_intro",	
+	"fireSoundTwo":"chaingun_fire",	
+}

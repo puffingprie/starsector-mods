@@ -1,0 +1,83 @@
+{
+  "variantId": "uaf_rillaru_suppression",
+  "hullId": "uaf_rillaru",
+  "displayName": "Suppression",
+  "goalVariant": true,
+  "fluxCapacitors": 30,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "ballistic_rangefinder",
+    "targetingunit",
+    "turretgyros",
+    "fluxbreakers"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_tona_iii",
+        "WS0002": "uaf_tona_iii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0010": "uaf_tona_ii",
+        "WS0011": "uaf_tona_ii",
+        "WS0012": "uaf_tona_ii"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0017": "uaf_selemene_s_mrm",
+        "WS0018": "uaf_clemente_base"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0015": "uaf_rhythm_base_triple",
+        "WS0016": "uaf_rhythm_base_triple"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "uaf_ivory",
+        "WS0013": "uaf_ivory"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0008": "uaf_racun_pod",
+        "WS0009": "uaf_racun_pod",
+        "WS0014": "uaf_flair_pod",
+        "WS0019": "uaf_flair_pod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "uaf_deco_mg",
+        "WS0005": "uaf_deco_mg",
+        "WS0006": "uaf_deco_mg",
+        "WS0007": "uaf_deco_mg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_surreal"
+  ]
+}

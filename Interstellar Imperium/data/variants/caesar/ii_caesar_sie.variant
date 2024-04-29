@@ -1,0 +1,74 @@
+{
+    "displayName": "Siege",
+    "fluxCapacitors": 29,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "ii_caesar",
+    "hullMods": [
+        "eccm",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "ii_caesar_sie",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ii_croceamors"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "ii_heavyballista",
+                "WS0013": "ii_heavyballista"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "ii_sledgecannon",
+                "WS0009": "ii_sledgecannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "ionbeam",
+                "WS0007": "ionbeam",
+                "WS0011": "taclaser",
+                "WS0012": "taclaser",
+                "WS0014": "taclaser",
+                "WS0015": "taclaser",
+                "WS0019": "ii_sledgegun",
+                "WS0020": "ii_sledgegun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "ii_telum",
+                "WS0003": "ii_telum"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "dualflak",
+                "WS0005": "dualflak",
+                "WS0016": "vulcan",
+                "WS0017": "vulcan"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0018": "pdburst"}
+        }
+    ]
+}

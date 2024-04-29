@@ -1,0 +1,38 @@
+{
+  "hullName": "SCAV-CO Salvage Drone",
+  "hullId": "sv_scavdrone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sv_scavdrone.png",
+  "style": "SCAVCO",
+  "height": 14,
+  "width": 14,
+  "center": [7, 7],
+  "collisionRadius": 10,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 9.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "advancedoptics"
+  ],
+  "builtInWeapons": {
+    "WS0001": "mininglaser"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, -0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    0, -5,
+    5, -0,
+    0, 5,
+    -5, -0
+  ]
+}

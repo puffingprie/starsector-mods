@@ -1,0 +1,206 @@
+{
+  "hullName": "Stern Rampant Growth",
+  "hullId": "derelict_ramp_mothership_pod_m_left",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/derelicts/derelict_ramp_mothership_pod_m_left.png",
+  "style": "LOW_TECH",
+  "height": 370,
+  "width": 240,
+  "center": [152, 147.5],
+  "collisionRadius": 131.5,
+  "shieldCenter": [0, 1],
+  "shieldRadius": 128.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "never_detaches",
+    "reduced_explosion",
+    "supercomputer",
+    "hmi_miningHSA"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 104,
+      "angle": 126,
+      "locations": [-82, 10]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 106,
+      "angle": 65.5,
+      "locations": [-23, 47]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 115,
+      "angle": 90,
+      "locations": [11.5, 21]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 121,
+      "angle": 0,
+      "locations": [68, 5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 0,
+      "locations": [43.5, 4.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 68,
+      "angle": -3,
+      "locations": [36.5, 18]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 93,
+      "angle": 90,
+      "locations": [26.5, 35.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 53,
+      "angle": 26.5,
+      "locations": [-26.5, 26.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 49,
+      "angle": 99.5,
+      "locations": [-34, 10]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 101,
+      "angle": 90,
+      "locations": [-23.5, -9]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 47,
+      "angle": -149.5,
+      "locations": [-63, 1]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 50,
+      "angle": -29.5,
+      "locations": [-67.5, -13.5]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 117,
+      "angle": 125,
+      "locations": [-69, 30.5]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 120.5,
+      "locations": [-98.5, 36.5]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 90,
+      "locations": [-54.5, 44.5]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 108.5,
+      "locations": [-20, 71]
+    },
+    {
+      "id": "WS0017",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 26.5,
+      "locations": [37.5, 67]
+    },
+    {
+      "id": "WS0018",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [58, 40]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    86, -1.5,
+    54, 22.5,
+    66.5, 33.5,
+    47.5, 58,
+    30.5, 78.5,
+    11.5, 69,
+    -21, 79.5,
+    -41, 48,
+    -56, 53,
+    -80.5, 42,
+    -100, 49.5,
+    -106, 10.5,
+    -115, -14,
+    -89.5, -32.5,
+    -82, -56.5,
+    -27.5, -67,
+    30.5, -55.5,
+    68, -51,
+    100, -15
+  ]
+}

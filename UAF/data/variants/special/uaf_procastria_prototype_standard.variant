@@ -1,0 +1,83 @@
+{
+  "variantId": "uaf_procastria_prototype_standard",
+  "hullId": "uaf_procastria_prototype",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 22,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "fluxbreakers",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "uaf_ivory_shotgun",
+        "WS0018": "uaf_ivory_shotgun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "uaf_swaras_m_mlrs",
+        "WS0014": "uaf_swaras_m_mlrs"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_cyrexa"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "uaf_hikone_quad",
+        "WS0003": "uaf_hikone_quad"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "uaf_shimata_155_cn",
+        "WS0005": "uaf_shimata_155_cn"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "uaf_pd_reina_ii",
+        "WS0007": "uaf_pd_reina_ii",
+        "WS0008": "uaf_cantata_cn",
+        "WS0009": "uaf_claris_cn"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "uaf_chorus_s_amm",
+        "WS0011": "uaf_chorus_s_amm",
+        "WS0012": "uaf_pd_reina"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0015": "uaf_m_zepporia_armor_1_plating"
+    },
+    {
+      "WS0016": "uaf_m_zepporia_armor_1_plating"
+    }
+  ],
+  "wings": []
+}

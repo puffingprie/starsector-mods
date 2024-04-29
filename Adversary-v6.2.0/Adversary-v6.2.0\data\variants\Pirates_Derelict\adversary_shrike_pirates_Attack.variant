@@ -1,0 +1,55 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 20,
+    "fluxVents": 10,
+    "hullId": "shrike_pirates",
+    "hullMods": [
+        "converted_hangar",
+        "reinforcedhull",
+        "comp_armor",
+        "damaged_mounts",
+        "degraded_life_support",
+        "erratic_injector",
+        "increased_maintenance"
+    ],
+    "permaMods": [
+        "converted_hangar",
+        "reinforcedhull",
+        "comp_armor",
+        "damaged_mounts",
+        "degraded_life_support",
+        "erratic_injector",
+        "increased_maintenance"
+    ],
+    "sMods": [
+        "converted_hangar",
+        "reinforcedhull"
+    ],
+    "variantId": "adversary_shrike_pirates_Attack",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "ionpulser"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 005": "phasecl"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "lightneedler"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "mininglaser",
+                "WS 002": "mininglaser"
+            }
+        }
+    ],
+    "wings": ["sarissa_wing"]
+}

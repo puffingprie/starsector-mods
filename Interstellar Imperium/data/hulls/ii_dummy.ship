@@ -1,0 +1,22 @@
+{
+  "hullName": "Titan (Targeting) Door",
+  "hullId": "ii_dummy",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/imperium/ships/titan/ii_titan_targeting_door01.png",
+  "style": "IMPERIUM",
+  "height": 70,
+  "width": 33,
+  "center": [16, 35],
+  "collisionRadius": 37,
+  "shieldCenter": [0, -0.5],
+  "shieldRadius": 37,
+  "viewOffset": 0,
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    33, -15,
+    -33, -15,
+    -33, 13,
+    33, 13
+  ]
+}

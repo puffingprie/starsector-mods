@@ -1,0 +1,77 @@
+{
+  "hullName": "M29M2",
+  "hullId": "expsp_mg29",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/expsp_mg29.png",
+  "style": "EXPSP_MVS",
+  "height": 60,
+  "width": 40,
+  "center": [20, 30],
+  "collisionRadius": 25,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 21.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [10, -1]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-3, 5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-3, -5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-8, 4]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-9.5, -0],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "MVSTrailRED"
+    }
+  ],
+  "bounds": [
+    -14.5, -2,
+    -6.5, -3,
+    -6.5, -10,
+    0.5, -4.5,
+    6, -2,
+    14, -1.5,
+    14, 1.5,
+    6, 2,
+    0.5, 4.5,
+    -6.5, 10,
+    -6.5, 3,
+    -14.5, 2
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "variantId": "vayra_drover_ai_strike",
+  "hullId": "vayra_drover_ai",
+  "displayName": "Strike",
+  "goalVariant": false,
+  "fluxCapacitors": 6,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "expanded_deck_crew"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 003": "reaper",
+        "WS 004": "reaper"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 002": "sabot",
+        "WS 005": "sabot"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 000": "pdlaser",
+        "WS 001": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "flash_wing",
+    "flash_wing"
+  ]
+}

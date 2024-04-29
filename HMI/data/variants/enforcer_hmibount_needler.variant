@@ -1,0 +1,46 @@
+{
+  "variantId": "enforcer_hmibount_needler",
+  "hullId": "enforcer_xiv",
+  "displayName": "Needler",
+  "goalVariant": false,
+  "fluxCapacitors": 17,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": ["HMI_MB_armourmounts"],
+  "hullMods": [
+    "missleracks",
+    "ballistic_rangefinder",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "lightneedler",
+        "WS 003": "lightneedler",
+        "WS 004": "lightneedler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 006": "reaper",
+        "WS 007": "reaper",
+        "WS 008": "reaper",
+        "WS 009": "reaper"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "lightneedler",
+        "WS 005": "lightneedler"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

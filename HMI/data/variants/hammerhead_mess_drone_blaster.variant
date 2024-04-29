@@ -1,0 +1,42 @@
+{
+  "displayName": "Blaster",
+  "fluxCapacitors": 5,
+  "fluxVents": 9,
+  "goalVariant": true,
+  "hullId": "mess_hammerhead_drone",
+  "hullMods": [
+    "safetyoverrides"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "hammerhead_mess_drone_blaster",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "amblaster",
+        "WS0002": "amblaster",
+        "WS0003": "heavyblaster",
+        "WS0004": "heavyblaster",
+        "WS0005": "amblaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "wings": []
+}

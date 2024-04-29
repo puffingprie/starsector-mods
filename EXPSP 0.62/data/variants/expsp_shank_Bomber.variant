@@ -1,0 +1,22 @@
+{
+  "variantId": "expsp_shank_Bomber",
+  "hullId": "expsp_shank",
+  "displayName": "Drone Rocket Bomber",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_jab_singleshot"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

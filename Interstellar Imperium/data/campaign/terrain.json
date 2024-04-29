@@ -1,0 +1,19 @@
+{
+    "ii_atmospherichaze":{
+        "plugin":"data.scripts.campaign.terrain.II_AtmosphericHazeTerrainPlugin",
+        "musicSuppression":0.5,
+        "loopOne":"terrain_nebula"
+    },
+    "ii_chargednebula":{
+        "plugin":"data.scripts.campaign.terrain.II_ChargedNebulaTerrainPlugin",
+        "musicSuppression":1,
+        "loopTwo":"terrain_nebula",
+        "loopFour":"terrain_hyperspace_storm",
+        "custom":{
+            "stormSound":"terrain_hyperspace_lightning"
+        }
+    },
+    "ii_tachyonfield":{
+        "plugin":"data.scripts.campaign.terrain.II_TachyonFieldTerrainPlugin"
+    }
+}

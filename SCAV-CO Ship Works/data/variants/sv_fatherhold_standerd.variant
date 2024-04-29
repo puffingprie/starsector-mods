@@ -1,0 +1,31 @@
+{
+  "variantId": "sv_fatherhold_standerd",
+  "hullId": "sv_fatherhold",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sv_flyswatter",
+        "WS0002": "sv_flyswatter",
+        "WS0003": "sv_flyswatter",
+        "WS0004": "sv_flyswatter",
+        "WS0005": "sv_flyswatter",
+        "WS0006": "sv_flyswatter",
+        "WS0007": "sv_flyswatter",
+        "WS0008": "sv_flyswatter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

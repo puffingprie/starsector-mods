@@ -1,0 +1,103 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+Aerodynamic Design,vic_aerodynamicdesign,1,,Volkov Industries,,,,,TRUE,,0,0,0,0,data.hullmods.vic_aeroDynamicDesign,"Special technical and technological solutions which allow VIC-manufactured spacecraft to operate freely in strong gravitational fields and various types of atmospheres, providing active support to ground forces. Increases the effective strength of planetary raids by %s/%s/%s/%s based on the hull size, up to the total number of marines in the fleet.",Improves effectiveness of raids based on the ship's hull size.,graphics/hullmods/vic_aerodynamics.png
+Laidlaw Tech,vic_dynamicshields,1,,Volkov Industries,,Shields,,,TRUE,,0,0,0,0,data.hullmods.vic_dynamicShields,"Exploiting the Laidlaw Resonance effect, VIC ships are capable of using excess energy of the electromagnetic field of their engines, which increases the output of their shields and energy weaponry. Increased energy fluctuations, however, disturb the ballistic weaponry's targeting systems, reducing their effective range.
+Has following effects on the ship:
+
+Shield's arc grows up to %s degrees, the more the shield is turned to the side of the ship
+Increases shield rotation and unfolding speed by %s
+Ballistic weapons range reduced by %s
+Ballistic weapons rate of fire increased by %s
+Energy weapons base range increased by %s su, doesn't affect beam weapons
+Energy weapons generate %s less flux","The more the shield is turned to the rear of the ship, the bigger its arc grows. Balances the perfomance of energy and ballistic weaponry.",graphics/hullmods/vic_laidlawTech.png
+#Dynamic Shields Front,vic_dynamicshieldsfront,1,,Volkov Industries,,Shields,,,TRUE,,0,0,0,0,data.hullmods.vic_dynamicShieldsFront,Face front - more shield arc. ,Face front - more shield arc. ,graphics/hullmods/extended_shields.png
+"""Hellstorm"" Weapon System (exp.)",vic_hellstorm,1,,Volkov Industries,,Weapons,,,TRUE,TRUE,0,0,0,0,data.hullmods.vic_hellStorm,Extreme modifications to weapon systems which increase ballistic weapons' fire rate by %s and both energy weapons' damage and flux cost by %s.,Faster rate of fire and less flux cost for ballistic weapons. ,graphics/hullmods/vic_hellstorm.png
+"""Hellstorm"" Weapon System ",vic_hellstormV2,1,,Volkov Industries,,Weapons,,,TRUE,,0,0,0,0,data.hullmods.vic_hellStormV2,"Extreme modifications to weapon systems which increase ballistic weapons' fire rate and ammo recharge rate by %s, both energy weapons' damage and flux cost by %s and max missile ammo and ammo recharge rate by %s. However, such significant alterations increase all weapon OP costs by %s.",Better weapon stats for increased OP.,graphics/hullmods/vic_hellstorm.png
+"""Hellfire"" Weapon System ",vic_hellstormV3,1,,Volkov Industries,,Weapons,,,TRUE,,0,0,0,0,data.hullmods.vic_hellStormV3,"Extreme modifications to weapon systems which increase ballistic and energy weapons' damage and flux cost by %s, and max missile ammo and ammo recharge rate by %s. However, such significant alterations increase all weapon OP costs by %s.
+
+Destroying the enemy ships affected by the ship's system provides stacking bonuses for the maximum duration of %s seconds. Maximum %s stacks. Each stack provides %s to energy and ballistic weapons' damage and flux cost, %s to maximum speed and %s to damage taken by the shields.",Better weapon stats for increased OP.,graphics/hullmods/vic_hellstorm.png
+Convoy Drive,vic_convoyDrive,1,,Volkov Industries,,,,,TRUE,,0,0,0,0,data.hullmods.vic_convoyDrive,"Increases the zero-flux speed bonus by %s and the range of ballistic and energy weapons by a factor of %s.
+
+Range bonus reduced by %s if ""Fortress"" Protocol installed.",Bigger zero-flux speed bonus and bigger range for ballistic and energy weapons.,graphics/hullmods/vic_convoyDrive.png
+Big Bays ,vic_bigbays,1,,Volkov Industries,Fighters,,,,TRUE,,0,0,0,0,data.hullmods.vic_bigbays,tba,tba,graphics/hullmods/converted_hangar.png
+Experimental Phase Drive,vic_toneddownweapon,1,,Volkov Industries,,,,,TRUE,,0,0,0,0,data.hullmods.vic_tonedDownWeapon,"Allows the ship to be partially in P-Space on a constant basis, which accelerates the ship's timeflow by %s. Partially phased power grid also decreases weapon flux costs by %s.
+
+However, due to the strong P-Space interference in the ship's systems, weapons' effective range is decreased by %s.",Less weapon range in exchange for stats boosts.,graphics/hullmods/vic_pahseOvercharge2.png
+Viral Bombardment Systems,vic_vBombHmod,,,Volkov Industries,,,,,TRUE,,0,0,0,0,data.hullmods.vic_vBombHmod,"The ship's modernized cargo cooling and containment systems allow it to transport and employ special biological ordnance. With this ship in the fleet it becomes possible to commence Viral Bombardment against the inhabited colonies. 
+
+Having additional ships with V-Bombardment systems in the fleet reduces the cost of such bombardments. The current cost is %s.","""Impact in 3... 2... 1...""",graphics/hullmods/vic_VBombHmod.png
+Adaptive Assault Configuration,vic_adaptiveAssault,4,,Volkov Industries,defensive,,,,TRUE,,0,0,0,0,data.hullmods.vic_adaptiveAssault,"Adaptive Assault system's effect depends on the loadout of the ship, with the bonuses increasing in accordance to the skew towards ballistic- or energy-focused loadout. The more energy weapons there are on the ship - the greater the ballistic bonus. The more ballistic weapons there are on the ship - the greater the energy bonus. Installing missile weapons decreases both bonuses.
+
+With the current loadout of the ship the bonuses provided by the ship system are:
+Ballistic weapons: %s damage increase.
+Energy weapons: %s damage increase.",Ship System explanaition.,graphics/hullmods/vic_adaptiveAssault.png
+Adaptive Warfare,vic_adaptiveWarfare,4,,Volkov Industries,,,,,TRUE,,0,0,0,0,data.hullmods.vic_adaptiveWarfare,"Novel energy distribution system increases the ship's effectiveness in the thick of the battle. The ship receives bonuses to its stats under certain conditions. The bonuses decay quickly if the criteria are not met for a short time. 
+
+
+- Up to %s increase in Shield Efficency when moving. 
+
+- Up to %s increase in Damage dealt based on the amount of hard flux. 
+
+- Up to %s increase in Speed when hit on the hull.",Get brawlin' and get rollin'.,graphics/hullmods/vic_adaptiveWarfare.png
+Power Redistributor,vic_powerRedistributor,4,,Volkov Industries,,,,,TRUE,,0,0,0,0,data.hullmods.vic_powerRedistributor,Novel energy distribution system increases the ship's effectiveness in the thick of the battle. The ship receives bonuses depending on the current target.,power selector,graphics/hullmods/vic_powerRedistributor.png
+Artillery Targeting Subsystems,vic_raumRangeUpgrade,1,,Volkov Industries,,Weapons,,,TRUE,,0,0,0,0,data.hullmods.vic_raumRangeUpgrade,"Being a ship designed for long-range engagements, Räum is fitted with additional hardware and software for spaceborne artillery, which increases the range of its weapons by %s.",Increases Räum's Weapon Range,graphics/hullmods/vic_raumRangeUpgrade.png
+,,,,,,,,,,,,,,,,,,
+VIC shields Changer,vic_shieldsChanger,0,,Volkov Industries,defensive,0,,,TRUE,TRUE,0,0,0,0,data.hullmods.vic_shieldsChanger,,Shield Changer,graphics/hullmods/vic_adaptiveWarfare.png
+,,,,,,,,,,,,,,,,,,
+Gatebreaker Mode Swapper,vic_variable_gatebreaker_mode,,,Volkov Industries,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.vic_gatebreakerModeSwapper,Allows to change weapons on Devotee version of Stolas.,Variable weapon selection. You shouldn't see this in-game.,graphics/hullmods/vic_stolas_bounty_autocannon_hullmod.png
+Rebellion Autocannon,vic_gatebreaker_mode_autocannon,,,Volkov Industries,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.vic_dummyForSwaper,Installs rapid-firing kinetic autocannons as the main armament. Removing this hullmod swaps the weapons to the next.,Kinetic Autocannon.,graphics/hullmods/vic_stolas_bounty_autocannon_hullmod.png
+Gatebreaker Shrapnel Cannon,vic_gatebreaker_mode_shotgun,,,Volkov Industries,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.vic_dummyForSwaper,Installs powerful high explosive shrapnel cannons as the main armament. Removing this hullmod swaps the weapon to the next.,HE Shotgun.,graphics/hullmods/vic_stolas_bounty_shotgun_hullmod.png
+Nemesis Heavy Flamer,vic_gatebreaker_mode_flamer,,,Volkov Industries,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.vic_dummyForSwaper,Installs devastating heavy flamers as the main armament. Removing this hullmod swaps the weapon to the next.,Frag Flamer.,graphics/hullmods/vic_stolas_bounty_flamer_hullmod.png
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+Raum Weapon Swapper,vic_raum_weapon_swapper,,,Volkov Industries,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.vic_raumWeaponSwapper,Allows to change XL weapons on Räum.,Variable weapon selection. You shouldn't see this in-game.,graphics/hullmods/vic_raum_weapon_swapper_hmod_gaganaUltra.png
+XL Weapon - Gagana Ultra,vic_raum_weapon_swapper_gagana_ultra,,,Volkov Industries,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.vic_dummyForRaumSwapper,Installs a powerful high-velocity HE cannon as the main armament. Removing this hullmod swaps the weapon to the next.,,graphics/hullmods/vic_raum_weapon_swapper_hmod_gaganaUltra.png
+XL Weapon - Strzyga,vic_raum_weapon_swapper_strzyga,,,Volkov Industries,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.vic_dummyForRaumSwapper,Installs a rapid-fire fragmentation flak array as the main armament. Removing this hullmod swaps the weapon to the next.,,graphics/hullmods/vic_raum_weapon_swapper_hmod_strzyga.png
+XL Weapon - Alkonost,vic_raum_weapon_swapper_alkonost,,,Volkov Industries,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.vic_dummyForRaumSwapper,Installs a devastating energy cannon as the main armament. Removing this hullmod swaps the weapon to the next.,,graphics/hullmods/vic_raum_weapon_swapper_hmod_alkonost.png
+XL Weapon - Laidlaw Hyperaccel.,vic_raum_weapon_swapper_xl_laidlaw,,,Volkov Industries,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.vic_dummyForRaumSwapper,Installs a precise fragmentation cannon as the main armament. Removing this hullmod swaps the weapon to the next.,,graphics/hullmods/vic_raum_weapon_swapper_hmod_xlLaidlaw.png
+XL Weapon - Rokh Minelayer,vic_raum_weapon_swapper_rokh,,,Volkov Industries,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.vic_dummyForRaumSwapper,Installs a gargantuan mine-layer missile as the main armament. Removing this hullmod swaps the weapon to the next.,,graphics/hullmods/vic_raum_weapon_swapper_hmod_rokhMines.png
+XL Weapon - Rokh Swarmnest,vic_raum_weapon_swapper_rakh,,,Volkov Industries,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.vic_dummyForRaumSwapper,Installs a gargantuan kinetic missile swarm carrier as the main armament. Removing this hullmod swaps the weapon to the next.,,graphics/hullmods/vic_raum_weapon_swapper_hmod_rokhAlternate.png
+XL Weapon - Vodyanoy Ultra,vic_raum_weapon_swapper_vodyanoy_ultra,,,Volkov Industries,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.vic_dummyForRaumSwapper,Installs a rapid-firing rotary plasma cannon as the main armament. Removing this hullmod swaps the weapon to the next.,,graphics/hullmods/vic_raum_weapon_swapper_hmod_vodyanoy_ultra.png
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+Notorious Big Iron Mode Swapper,vic_variable_notorious_big_iron_mode,,,Volkov Industries,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.vic_notoriousBigIronModeSwapper,Allows to change XL weapons on Raumpant.,Variable weapon selection. You shouldn't see this in-game.,graphics/hullmods/vic_raumpant_weapon_swapper_hmod_buckshot.png
+Notorious Big Iron - Buckshot,vic_notorious_big_iron_mode_buckshot,,,Volkov Industries,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.vic_dummyForSwaper,Changes the ammo type to kinetic buckshot. Removing this hullmod swaps the ammunition type to the next.,Kinetic Autocannon.,graphics/hullmods/vic_raumpant_weapon_swapper_hmod_buckshot.png
+Notorious Big Iron - Slug,vic_notorious_big_iron_mode_slug,,,Volkov Industries,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.vic_dummyForSwaper,Changes the ammo type HE slug. Removing this hullmod swaps the ammunition type to the next.,HE Shotgun.,graphics/hullmods/vic_raumpant_weapon_swapper_hmod_slug.png
+Notorious Big Iron - Dragon's Breath,vic_notorious_big_iron_mode_dragon_breath,,,Volkov Industries,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.vic_dummyForSwaper,Changes the ammo type to fragmentation Dragon's Breath. Removing this hullmod swaps the ammunition type to the next.,Frag Flamer.,graphics/hullmods/vic_raumpant_weapon_swapper_hmod_dragonBreath.png
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+#VIC modular,,,,,,,,,,,,,,,,,,
+"B-Series ""Fortress"" Protocol",vic_allRoundShieldUpgrade,3,,Volkov Industries,defensive,Shields,25000,,,,7,14,21,35,data.hullmods.vic_allRoundShieldUpgrade,"The B-series of VIC ships can be easily reconfigured into a more defensive form, increasing their shield efficiency but reducing offensive capabilities.",,graphics/hullmods/vic_shiledPack.png
+"A-Series ""Shturm"" Protocol",vic_ShturmSolution,1,,Volkov Industries,offensive,Weapons,5000,,,,5,10,15,25,data.hullmods.vic_shturmProtocol,"The A-series a.k.a. ""Shturm"" line of VIC ships is designed  with a specific set of technological solutions, giving them an edge in frantic close combat. The installation of this hullmod activates said solutions and severely reconfigures the ship's energy and weapon systems.",,graphics/hullmods/vic_shturmFrame.png
+"""Shturm"" Overhaul Dummy",vic_shturmSolutionDummy,,,Volkov Industries,,,,,TRUE,TRUE,0,0,0,0,com.fs.starfarer.api.combat.BaseHullMod,Nothing,Nothing,graphics/hullmods/vic_shturmFrame.png
+,,,,,,,,,,,,,,,,,,
+#modular,,,,,,,,,,,,,,,,,,
+#Dedicated PD core,vic_DPDCore,2,,Volkov Industries,offensive,Weapons,15000,,,,7,10,13,16,data.hullmods.vic_DPDCore,"Extends the range of Point-defence weapons by %s/%s/%s/%s, depending on hull size.",,graphics/hullmods/vic_assault.png
+Loader Overdrive,vic_loaderOverdrive,1,,Volkov Industries,offensive,Weapons,10000,,,,3,6,9,15,data.hullmods.vic_loaderOverdrive,Increases ballistic and energy weapons Rate of fire by %s but also reduces their range by %s.,,graphics/hullmods/vic_reloaderOvercharge.png
+PD Arc Emitter,vic_PDArcEmitter,2,,Volkov Industries,defensive,Weapons,15000,TRUE,,,5,10,15,25,data.hullmods.vic_PDArcEmitter,"Zaps missiles in %s su range dealing %s damage to it, generates %s flux per zap, after zapping needs to recharge for %s seconds, can hold up to %s charges. All stats are depending on hull size.
+
+Counts as energy weapon for stat modifiers.",,graphics/hullmods/vic_empEmitter.png
+Inertia Redirection Systems,vic_assault,2,,Volkov Industries,engines,Engines,15000,,,,4,8,12,20,data.hullmods.vic_assault,"Allows rapid change of movement direction. For cercling around enemies and juking.
+
+Increase deceleration and acceleration depending on angle difference between direction of movement and direction of acceleration at %s at %s degrees and up to %s at %s degrees of difference. When this bonus is active, ship accumulates a temporary boost to acceleration.",,graphics/hullmods/vic_assault.png
+"""Fervor"" Protocol",vic_deathProtocol,3,,Volkov Industries,offensive,Weapons,25000,,,,5,10,20,30,data.hullmods.vic_deathProtocol,"All damage dealt increased up to %s at close range. Full bonus damage at and below %s range, no bonus damage at and above %s range. Increases all damage taken by %s.
+",,graphics/hullmods/vic_deathProtocol.png
+,,,,,,,,,,,,,,,,,,
+#Commissioned Crews,,,,,,,,,,,,,,,,,,
+Commissioned Crew Bundle,vic_commissionedCrewBundle,,,,,,,,TRUE,,0,0,0,0,data.hullmods.vic_commissionedCrewBundle,,,graphics/hullmods/vic_ambitiousBravado.png
+Ambitious Bravado,vic_ambitiousBravado,,,Volkov Industries,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.vic_ambitiousBravado,"To prove one's worth and become a legend - The Aerospace Corps aim for nothing less, rushing towards radiant victories and eternal glory. 
+
+- Frigates' and Destroyers' damage against larger enemies is increased by %s/%s/%s depending on how big the difference between the class of the ship and the class of the enemy ship is. 
+- Cruisers' damage against capitals is increased by %s. 
+- Capital ships take %s less damage if the combined %s cost of all enemies within range of %s is greater than the %s cost of the ship.
+
+Pride and arrogance clouds the mind, however, and the Corps always sets its gaze high at the heavens above — all ships receive %s more damage from ships of smaller classes.","Genetech rules, don't pass out on stiff turns. ",graphics/hullmods/vic_ambitiousBravado.png
+Brand Engine Upgrades,vic_brandengineupgrades,,,Volkov Industries,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.vic_brandEngineUpgrades,"To safely and quickly transport goods and xenolife test subjects (as well as to live up to their PR image of one of the more robust Megacorporations) VIC have always been investing heavily into research and production of novel aerospace propulsion systems throughout the corporation's long history.
+
+VIC's engineers like no one else know how to make even the worst engines roar mightily. Thanks to extensive modifications, Capitals' burn level is increased by %s, while ships of smaller classes consume %s less fuel. However, these upgrades also increase fleet Sensor Profiles by %s/%s/%s/%s depending on hull size for obvious reasons. ",Speed limits are for pussies.,graphics/hullmods/vic_brandengineupgrades.png
+,,,,,,,,,,,,,,,,,,
+VIC Fighter Engines,vic_fighteralwaysburn,,,Volkov Industries,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.vic_fighteralwaysburn,,,graphics/hullmods/axial_rotation.png
+Overload protection,vic_overloadProtection,,,Volkov Industries,,,,,TRUE,,0,0,0,0,data.hullmods.vic_overloadProtection,,,
+,,,,,,,,,,,,,,,,,,
+Ambrosia Nectar,vic_booze,,,Volkov Industries,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.combat.BaseHullMod,"A single sip of this heavenly-tasting spicy syrup, and one is ready to take on the Tyrant's regime with bare hands. But beware, the fall from grace is a one-way ticket.",,graphics/icons/cargo/vic_booze.png
+,,,,,,,,,,,,,,,,,,

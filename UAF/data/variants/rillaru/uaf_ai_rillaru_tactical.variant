@@ -1,0 +1,83 @@
+{
+  "variantId": "uaf_ai_rillaru_tactical",
+  "hullId": "uaf_ai_rillaru",
+  "displayName": "Tactical",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "fluxbreakers",
+    "targetingunit",
+    "eccm",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_herexa_triple",
+        "WS0002": "uaf_cyrexa"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "uaf_minibreve_tnt_s",
+        "WS0005": "uaf_minibreve_tnt_s",
+        "WS0014": "uaf_minibreve_tnt_s",
+        "WS0015": "uaf_minibreve_tnt_s"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "uaf_vocal_m_srm",
+        "WS0020": "uaf_vocal_l_srm",
+        "WS0021": "uaf_vocal_l_srm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "uaf_medlav_quad",
+        "WS0006": "uaf_medlav_quad",
+        "WS0009": "uaf_ivory_triple",
+        "WS0012": "uaf_hikone_quad"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0016": "uaf_rhythm_base_triple",
+        "WS0017": "uaf_rhythm_base_triple"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "uaf_merupaka_epd",
+        "WS0013": "uaf_merupaka_epd",
+        "WS0018": "uaf_merupaka_epd",
+        "WS0019": "uaf_merupaka_epd"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "uaf_edge_type_i",
+        "WS0008": "uaf_edge_type_i"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

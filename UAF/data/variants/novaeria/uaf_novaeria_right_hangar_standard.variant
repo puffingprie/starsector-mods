@@ -1,0 +1,78 @@
+{
+  "variantId": "uaf_novaeria_right_hangar_standard",
+  "hullId": "uaf_novaeria_right_hangar",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 16,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "uaf_auroranEngineering",
+    "uaf_automataSpec",
+    "uaf_enhanced_pd",
+    "uaf_flagship_armouring"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "uaf_chorus_l_amm",
+        "WS0010": "uaf_chorus_l_amm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "uaf_edge_type_i"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "uaf_merupaka_epd"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "uaf_edge_type_i",
+        "WS0006": "uaf_edge_type_i"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "uaf_clemente_s_mrm_double"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_selemene_m_mrm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_tona_i",
+        "WS0004": "uaf_tona_i"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_pengawas",
+    "uaf_wing_pengawas",
+    "uaf_wing_nekoyan",
+    "uaf_wing_nekoyan",
+    "uaf_wing_taufan"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "variantId": "uaf_wing_hyacinth_hbmb",
+  "hullId": "uaf_wing_hyacinth",
+  "displayName": "Bomber Wing",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "BM0001": "uaf_fw_usb_class_iii",
+        "BM0002": "uaf_fw_usb_class_ii",
+        "BM0003": "uaf_fw_usb_class_ii",
+        "BM0004": "uaf_fw_usb_class_i",
+        "BM0005": "uaf_fw_usb_class_i"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_pd_reina"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "uaf_weiss_flk"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

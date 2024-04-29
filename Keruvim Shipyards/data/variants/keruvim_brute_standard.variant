@@ -1,0 +1,62 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 30,
+  "fluxVents": 12,
+  "goalVariant": true,
+  "hullId": "keruvim_brute",
+  "hullMods": [
+    "targetingunit",
+    "heavyarmor"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "keruvim_brute_standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 016": "harpoonpod",
+        "WS0001": "harpoonpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 006": "heavymauler",
+        "WS 010": "heavymauler",
+        "WS 013": "mark9"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "lightmortar",
+        "WS 011": "arbalest",
+        "WS0003": "lightmortar",
+        "WS0004": "lightmortar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "vulcan",
+        "WS 005": "vulcan",
+        "WS 007": "vulcan",
+        "WS 008": "lightmg",
+        "WS 009": "lightmg",
+        "WS0002": "vulcan"
+      }
+    }
+  ],
+  "wings": []
+}

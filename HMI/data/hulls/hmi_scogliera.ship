@@ -1,0 +1,92 @@
+{
+  "hullName": "Scogliera",
+  "hullId": "hmi_scogliera",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/hmi_scogliera.png",
+  "style": "HIGH_TECH",
+  "height": 50,
+  "width": 48,
+  "center": [24, 20.5],
+  "collisionRadius": 43.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 41,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 44,
+      "angle": 8,
+      "locations": [-2.5, 15]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 44,
+      "angle": -8,
+      "locations": [-2.5, -15]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 17,
+      "angle": 0,
+      "locations": [10, 4]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 17,
+      "angle": -0,
+      "locations": [10, -4]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 44,
+      "angle": 180,
+      "locations": [-5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-6, 6],
+      "length": 5.221166,
+      "width": 5.996476,
+      "angle": 167.5,
+      "contrailSize": 5.996476,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-6, -6],
+      "length": 5.221166,
+      "width": 5.996476,
+      "angle": -167.5,
+      "contrailSize": 5.996476,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-12, -0],
+      "length": 7,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -16, -22.5,
+    27, -0,
+    -16, 22.5
+  ]
+}

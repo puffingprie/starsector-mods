@@ -1,0 +1,64 @@
+{
+  "variantId": "radiant_hmi_std",
+  "hullId": "radiant",
+  "displayName": "Close Support",
+  "goalVariant": false,
+  "fluxCapacitors": 33,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "gauss_rem"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 002": "locust",
+        "WS 004": "locust"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 000": "gauss_rem",
+        "WS 001": "gauss_rem"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 005": "phasecl_rem",
+        "WS 006": "phasecl_rem",
+        "WS 007": "phasecl_rem",
+        "WS 008": "phasecl_rem"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 009": "pdburst",
+        "WS 011": "pdburst",
+        "WS 012": "lrpdlaser_rem",
+        "WS 013": "lrpdlaser_rem",
+        "WS 014": "lrpdlaser_rem",
+        "WS 015": "lrpdlaser_rem",
+        "WS 016": "pdburst",
+        "WS 018": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

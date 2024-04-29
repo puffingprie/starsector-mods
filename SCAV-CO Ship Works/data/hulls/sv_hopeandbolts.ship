@@ -1,0 +1,148 @@
+{
+  "hullName": "SCAV-CO Hope And Bolts",
+  "hullId": "sv_hopeandbolts",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/sv_hopeandbolts.png",
+  "style": "SCAVCO",
+  "height": 170,
+  "width": 152,
+  "center": [76, 85],
+  "collisionRadius": 123,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 117,
+  "viewOffset": 0,
+  "builtInMods": [
+    "surveying_equipment",
+    "repair_gantry",
+    "sv_scavcoConstruction",
+    "sv_scavcosubsytems",
+    "sv_spokeengines"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [17, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 25,
+      "angle": 0,
+      "locations": [22, -32]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 25,
+      "angle": -0,
+      "locations": [22, 32]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 25,
+      "angle": 0,
+      "locations": [21, -52]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 25,
+      "angle": -0,
+      "locations": [21, 52]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -42,
+      "locations": [-11.5, -58.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 42,
+      "locations": [-11.5, 58.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-68, 51.5],
+      "length": 51,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "CUSTOM",
+      "styleId": "SCAV-CO ENGINE"
+    },
+    {
+      "location": [-68, -51.5],
+      "length": 51,
+      "width": 17,
+      "angle": -180,
+      "contrailSize": 17,
+      "style": "CUSTOM",
+      "styleId": "SCAV-CO ENGINE"
+    },
+    {
+      "location": [-85, 10],
+      "length": 51,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "CUSTOM",
+      "styleId": "SCAV-CO ENGINE"
+    },
+    {
+      "location": [-85, -10],
+      "length": 51,
+      "width": 17,
+      "angle": -180,
+      "contrailSize": 17,
+      "style": "CUSTOM",
+      "styleId": "SCAV-CO ENGINE"
+    }
+  ],
+  "bounds": [
+    -84.5, 17,
+    -43.5, 30,
+    -66.5, 43.5,
+    -66.5, 58,
+    -27, 61,
+    -17, 72.5,
+    -7, 72.5,
+    6.5, 60.5,
+    6.5, 23,
+    59, 22.5,
+    73.5, 11,
+    73.5, -11,
+    59, -22.5,
+    6.5, -23,
+    6.5, -60.5,
+    -7, -72.5,
+    -17, -72.5,
+    -27, -61,
+    -66.5, -58,
+    -66.5, -43.5,
+    -43.5, -30,
+    -84.5, -17
+  ]
+}

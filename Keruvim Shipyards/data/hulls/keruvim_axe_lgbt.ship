@@ -1,0 +1,112 @@
+{
+  "hullName": "Axe (Pride)",
+  "hullId": "keruvim_axe_lgbt",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/keruvim_axe_lgbt.png",
+  "style": "PRIDE_TECH",
+  "coversColor": "200,200,200,255",
+  "height": 104,
+  "width": 104,
+  "center": [52, 50],
+  "collisionRadius": 64,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 62,
+  "viewOffset": 0,
+  "builtInMods": [
+    "keruvim_yacht",
+    "keruvim_pride_bulkheads"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 235,
+      "angle": 180,
+      "locations": [-33, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -33.5,
+      "locations": [28.5, -18.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 33.5,
+      "locations": [28.5, 18.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 210,
+      "locations": [-32.5, -26]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -210,
+      "locations": [-32.5, 26]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-34, -22],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "ANVIL"
+    },
+    {
+      "location": [-34, 22],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "ANVIL"
+    },
+    {
+      "location": [-35, -16.5],
+      "length": 43.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "ANVIL"
+    },
+    {
+      "location": [-35, 16.5],
+      "length": 43.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "ANVIL"
+    }
+  ],
+  "bounds": [
+    -38.5, 5,
+    -29, 31.5,
+    -14, 38.5,
+    36, 14,
+    24.5, 5.5,
+    24.5, -5.5,
+    36, -14,
+    -14, -38.5,
+    -29, -31.5,
+    -38.5, -5
+  ]
+}

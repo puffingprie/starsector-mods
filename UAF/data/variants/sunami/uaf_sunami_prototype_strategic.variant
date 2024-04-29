@@ -1,0 +1,60 @@
+{
+  "variantId": "uaf_sunami_prototype_strategic",
+  "hullId": "uaf_sunami_prototype",
+  "displayName": "Strategic",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "eccm",
+    "expanded_deck_crew",
+    "recovery_shuttles"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_clemente_s_mrm_double",
+        "WS0002": "uaf_selemene_m_mrm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_triyia_pdx"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "uaf_cantata_cn"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "uaf_pd_reina",
+        "WS0008": "uaf_pd_reina"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "uaf_flair_pod",
+        "WS0007": "uaf_flair_pod"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_taufan",
+    "uaf_wing_revere"
+  ]
+}

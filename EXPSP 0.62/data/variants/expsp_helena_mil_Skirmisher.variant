@@ -1,0 +1,70 @@
+{
+  "variantId": "expsp_helena_mil_Skirmisher",
+  "hullId": "expsp_helena_mil",
+  "displayName": "Skirmisher",
+  "goalVariant": true,
+  "fluxCapacitors": 38,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "insulatedengine",
+    "frontemitter",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "expsp_iapetus"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "expsp_plinker",
+        "WS0013": "expsp_plinker",
+        "WS0014": "expsp_plinker"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_type56",
+        "WS0002": "expsp_type56",
+        "WS0016": "expsp_type56",
+        "WS0017": "expsp_type56"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "expsp_multilaser",
+        "WS0004": "expsp_multilaser",
+        "WS0005": "expsp_coilciws",
+        "WS0006": "expsp_coilciws",
+        "WS0007": "expsp_coilciws",
+        "WS0008": "expsp_coilciws",
+        "WS0009": "expsp_multilaser",
+        "WS0010": "expsp_multilaser",
+        "WS0011": "expsp_coilciws"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

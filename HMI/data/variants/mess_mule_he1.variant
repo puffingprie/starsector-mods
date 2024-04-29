@@ -1,0 +1,42 @@
+{
+  "variantId": "mess_mule_he1",
+  "hullId": "mess_mule",
+  "displayName": "Mortar",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "reinforcedhull",
+    "unstable_injector"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "heavymortar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "lightmortar",
+        "WS0002": "lightmortar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "lightmortar",
+        "WS0004": "lightmortar"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

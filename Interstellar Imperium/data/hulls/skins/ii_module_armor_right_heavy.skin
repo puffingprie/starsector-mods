@@ -1,0 +1,14 @@
+{
+	"baseHullId":"ii_module_armor_right",
+	"skinHullId":"ii_module_armor_right_heavy",
+	"descriptionPrefix":"Upgraded with more armor.",
+	"restoreToBaseHull":true,
+	"hullDesignation":"Heavy Station Armour",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["heavyarmor"],
+	"builtInWeapons":{
+    },
+}

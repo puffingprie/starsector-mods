@@ -1,0 +1,58 @@
+{
+    "displayName": "Imperial Elite",
+    "fluxCapacitors": 10,
+    "fluxVents": 34,
+    "hullId": "ii_barrus",
+    "hullMods": [
+        "ii_elite_package",
+        "targetingunit"
+    ],
+    "permaMods": ["ii_elite_package"],
+    "sMods": ["ii_elite_package"],
+    "variantId": "ii_barrus_ie",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ii_telum"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "ii_fundae_s",
+                "WS0005": "ii_fundae_s",
+                "WS0006": "ii_fundae_s",
+                "WS0007": "ii_fundae_s"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "ii_solis",
+                "WS0003": "ii_solis"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "ii_particlecannon",
+                "WS0009": "ii_particlecannon",
+                "WS0010": "ii_particlecannon",
+                "WS0011": "ii_particlecannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "vulcan",
+                "WS0013": "vulcan",
+                "WS0014": "vulcan",
+                "WS0015": "vulcan"
+            }
+        }
+    ]
+}

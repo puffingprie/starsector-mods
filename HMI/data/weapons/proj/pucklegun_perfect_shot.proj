@@ -1,0 +1,17 @@
+{
+	"id":"pucklegun_perfect_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"hitGlowRadius":20,
+	"length":75.0,
+	"width":20.0,
+	"fadeTime":0.25,
+	"fringeColor":[37,135,135,200],
+	"coreColor":[0,255,255,250],
+	"textureType":"ROUGH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0,
+	"onFireEffect":"data.scripts.weapons.HMI_puckleeffect",
+}

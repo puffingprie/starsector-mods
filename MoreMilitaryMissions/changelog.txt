@@ -1,0 +1,132 @@
+Version 0.4.3 (2024-04-27)
+- Defense Mission: makes it less likely that the officer does not match ship faction; updated invasion window logic
+- Scavenger Trading: relaxed the criteria for eligible commodities such that lobster is now eligible
+- added LunaLib as a required dependency to avoid confusing players
+
+Version 0.4.2 (2024-02-18)
+- Defense Mission;
+  - reduce effective station FP by 10%
+  - guard against MagicFleetBuilder exceptions
+- Procurement/Cheap Commodity missions: fixed bug where the same mission can be taken consecutively
+- Escort Mission: add pirate strength option in Luna Settings
+- fixed a possible NPE
+
+
+Version 0.4.1 (2024-02-03)
+- updated version to 0.97a-RC6
+- fixed a bug where the modSettings.json values are not being loaded if LunaLib is not enabled
+- Escort/Defense Mission: increased importance of created contact
+- trade missions (Escort/Cheap Commodity/Procurement) now affects the market by 120 days to match vanilla change
+- Scavenger Trading: ignore salvage location if you already have an intel for it
+
+
+Version 0.4.0 (2024-01-27)
+- Defense Mission: added a console command to reset difficulty and clear spawned fleets
+- Escort Mission:
+  - added more description for mission failure reason
+  - trade fleet being completely destroyed no longer reports the wrong failure reason and properly reduces reputation
+  - now works correctly for commodities with cargo size greater than 1
+  - can now grant trade contact to player faction
+- added version checker support
+- added Luna Settings support from LunaLib as an optional dependency
+- made trade contacts more useful by modifying vanilla cheap commodity / procurement missions for contacts:
+  - can now reliable get such missions from contacts
+  - quantity is now determined by market surplus/shortage; doing the mission resolves the surplus/shortage
+- integrated Scavenger Trading, Pick Your Ships, Force Auto Resolve into this mod; please do not enable 0.4.0 or later
+  versions of this mod with the above
+- Scavenger Trading: can now trade credits for salvage locations
+
+
+Version 0.3.3 (2023-11-04)
+- Defense Mission: fixed a bug preventing invasion fleets from being changed due to PRNG seed reuse
+- Escort Mission: now take commodity size (cargo space) into account when computing deliveries
+- VIP Mission: prevent save scum
+
+
+Version 0.3.2 (2023-10-08)
+- Defense Mission:
+  - pirate station king created by the mod now has underworld tag instead of military
+  - some setting tweak
+- Escort Mission:
+  - make mission name match name of trade fleet
+  - small trade fleets are no longer eligible for the mission
+- all
+  - updated version string for MagibLib, but older version should still work
+  - updated SDK to 1.8
+
+
+Version 0.3.1 (2023-07-14)
+- Escort Mission:
+  - take mothballed ships into account so pirate is not much stronger than convoy plus player ships
+  - add options to adjust strength of pirates
+
+
+Version 0.3.0 (2023-07-13)
+- add new VIP mission to distress calls to make it worthwhile; can choose +1 story point as reward
+- Escort Mission: cancel the mission if source/dest factions became hostile, but still allow outstanding deliveries to be completed
+
+
+Version 0.2.2 (2023-06-30)
+- Defense Mission:
+  - made fleet generation more robust
+
+
+Version 0.2.1 (2023-06-24)
+- Defense Mission:
+  - fixed a crash where the enemy fleets runs out of assignments before engaging in battle
+
+
+Version 0.2.0 (2023-06-22)
+- New mission: Escort Mission: escort a mercantile convoy, while fighting off pirate fleets and carry additional commodities for more profits
+  - turn EmAddAllIntel off if you don't want to see more trade fleet departure intel
+- Defense Mission:
+  - add DmEnemyIgnoredByOtherFleets option so allied fleets won't chase after enemy fleets, making it more likely that they will make it to the station
+  - reordered things, *hopefully* fixing the issue where enemy fleets would chase each other. Cannot be sure as I cannot reproduce this issue.
+  - turning DmUseHiddenFactions off now skips your own faction
+
+
+Version 0.1.1 (2023-05-31)
+- fixed issue where enemy fleets from unaccepted missions can take over the local comm relay, etc
+
+
+Version 0.1.0 (2023-05-29)
+- new mission: Repair Mission to reduce the disruption days of station industry; useful when you fail your defense mission
+- Defense Mission:
+  - add settings to scale enemy fleet size by faction and uses it to nerf omega fleets
+  - add option to skip generating enemies from hidden factions (omega, Lion's Guard, etc)
+  - increased reputation penalty for failing missions to match vanilla missions
+  - when you accept a mission in a different system (possible with Stellar Networks), how many days you have to arrive
+    is now determined by your speed and distance instead of being hard coded.
+  - reduces rewards when station is a big part of your fleet and marginally reduced rewards overall
+
+
+Version 0.0.4 (2023-05-26):
+- fixed a crash that can happen on markets without an existing station commander, like on player colonies
+  - more likely with mods that reorders bar events, like More Bar Missions
+
+
+Version 0.0.3 (2023-05-25):
+- fixed a divide by 0 bug when your fleet plus station are too small
+- in mission offer increase fleets to show up to 10.
+
+
+Version 0.0.2 (2023-05-21): - adds a workaround for an issue with Stellar Networks; sometimes the player fleet is empty when you call a contact remotely
+- adds more variety to enemy fleets size
+- adds a blacklist in modSettings.json for players and other mods to blacklist factions from enemy fleets generation
+- increased reward by 25%
+- recompiled for 0.96a-RC10
+
+
+Version 0.0.1 (2023-05-18):
+- enemy difficulty should now be more consistent
+  - fixed a bug in fleet generation making it harder to generate fleets with the correct size
+  -  switched to using effective strength instead of fleet point for reward and difficulty computations
+       -increases credit rewards as a side effect
+- removed faction impact on enemy fleet's real faction (almost always the pirates)
+- add some supplies to enemy fleets since they drop very little sometimes
+
+
+Version 0.0.0 (2023-05-17):
+- initial release
+- not tested with faction mods but I don't see why it wouldn't work
+- different factions have different fleet strength per fleet points (omega is especially bad), so the enemy can be much harder then expected

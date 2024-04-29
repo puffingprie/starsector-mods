@@ -1,0 +1,30 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+Converted Cargo Bay,luddenhance_debuff,,,Luddic Path,,,,,TRUE,,0,0,0,0,data.hullmods.LuddEnhance_CarrierDebuff,"This ship's cargo hold has been converted to house a fighter bay. The improvised manufactory that produces fighter chassis is unreliable, and most components have minor defects. Fighter speed reduced by %s, and damage taken increased by %s.",Single improvised fighter bay.,graphics/hullmods/converted_hangar.png
+Bombardment of Divine Wrath,luddenhance_bombardment,,,Luddic Path,,,,,TRUE,,0,0,0,0,data.hullmods.LuddEnhance_Bombardment,"Designed to annhiliate stations in high orbit, the Divine Wrath of the Light of Ludd can also be turned against planetary populations. The impact of the Light of Ludd can cripple population centres and damage infrastructure, however it lacks the ability to penetrate truly entrenched locations. Increases the effective strength of planetary raids by %s, up to the total number of marines in the fleet.
+
+Firing the Light of Ludd in combat will reduce CR by %s.",Improves effectiveness of raids.,graphics/hullmods/ground_support.png
+Damper Defense System,luddenhance_shieldblock,,,Luddic Church,,,,,TRUE,,0,0,0,0,data.hullmods.LuddEnhance_ShieldBlock,"This ship utilises an archaic Damper Field shield system, which briefly %s. The system can store three charges, and recharges once every five seconds. However, because of the old age of the craft lacking the infrastructure for it, %s.
+
+The vessel, being older in design, has a strong focus on armouring vulnerable sections. Weapon and engine health increased by %s, and repair %s faster.",Shields cannot be installed on this ship.,graphics/hullmods/damper_field.png
+Insulated Fire Control,le_fire_control,,,,,,,,TRUE,,0,0,0,0,data.hullmods.LuddEnhance_FireControl,This ship's weapons and engines possesses exceptional reinforcement and armouring. This reduces damage to weapons by %s and reducing the EMP damage taken by the ship overall by %s.,"Increases weapon durability, reduces EMP damage taken, reduces turret turn rate.",graphics/hullmods/distributed_fire_control2.png
+,,,,,,,,,,,,,,,,,,
+HULLMOD CONFLICT,LE_IncompatibleHullmodWarning,,,,,,,,TRUE,,0,0,0,0,data.hullmods.LE_IncompatibleHullmodWarning,"%s, the hullmod you tried to install conflicts with this hull or another previously installed hullmod.","%s, the hullmod you tried to install conflicts with this hull or another previously installed hullmod.",graphics/icons/intel/investigation.png
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,, 

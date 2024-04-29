@@ -1,0 +1,67 @@
+{
+  "hullName": "The Cookie Cutter",
+  "hullId": "sv_cookiecutter",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/pirate ships/sv_cookiecutter.png",
+  "style": "VACSINC",
+  "height": 86,
+  "width": 64,
+  "center": [32, 43],
+  "collisionRadius": 66.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 61.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sv_vacsincconstruction",
+    "advancedcore",
+    "advancedoptics"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-16, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [28, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [28, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-36, -0],
+      "length": 48.5,
+      "width": 22,
+      "angle": 180,
+      "contrailSize": 22,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    }
+  ],
+  "bounds": [
+    -40.5, 21,
+    5.5, 28.5,
+    38.5, 15,
+    38.5, -15,
+    5.5, -28.5,
+    -40.5, -21
+  ]
+}

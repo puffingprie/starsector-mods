@@ -1,0 +1,36 @@
+{
+  "hullName": "Base Structure",
+  "hullId": "hmi_locomotive_base_lp",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/locomotive_lp/hmi_locomotive_under.png",
+  "style": "LOW_TECH",
+  "height": 455,
+  "width": 478,
+  "center": [239, 227.5],
+  "collisionRadius": 113,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 118,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hmi_linkedhull",
+    "reduced_explosion",
+    "always_detaches",
+    "vastbulk"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    -73.5, -7,
+    -60, -27.5,
+    -24.5, -63.5,
+    17.5, -64,
+    51.5, -41,
+    79, -12.5,
+    79, 12.5,
+    51.5, 41,
+    17.5, 64,
+    -24.5, 63.5,
+    -60, 27.5,
+    -73.5, 7
+  ]
+}

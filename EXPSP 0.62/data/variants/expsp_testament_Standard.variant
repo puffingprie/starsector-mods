@@ -1,0 +1,68 @@
+{
+  "variantId": "expsp_testament_Standard",
+  "hullId": "expsp_testament",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 21,
+  "fluxVents": 48,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "JUDGEMENT": "expsp_judgement"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "LARGE": "expsp_iapetus"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "MEDFront": "expsp_type56_med"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "MEDL": "expsp_plinker",
+        "MEDR": "expsp_plinker",
+        "MEDRCENTER": "expsp_plinker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "MEDREAR": "expsp_hunterflak",
+        "SMLFront": "expsp_coilciws",
+        "SMLIDER2": "expsp_coilciws",
+        "SMLREA": "expsp_multilaser",
+        "SMLSIDEL": "expsp_coilciws",
+        "SMLSIDEL2": "expsp_coilciws",
+        "SMLSIDER": "expsp_coilciws",
+        "SMLSIDER3": "expsp_coilciws"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "expsp_crusaderv_wing"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "variantId": "sv_wrench_standerd",
+  "hullId": "sv_wrench",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "heavymauler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "heatseeker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sv_flyswatter",
+        "WS0002": "sv_flyswatter",
+        "WS0003": "sv_flyswatter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

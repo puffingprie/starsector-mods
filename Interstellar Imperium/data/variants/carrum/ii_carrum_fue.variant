@@ -1,0 +1,28 @@
+{
+    "displayName": "Fuel",
+    "fluxCapacitors": 2,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "ii_carrum",
+    "hullMods": [
+        "ii_targeting_package",
+        "auxiliary_fuel_tanks"
+    ],
+    "permaMods": [],
+    "variantId": "ii_carrum_fue",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "ii_sledgegun",
+                "WS0004": "ii_sledgegun"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "ii_smallballista"}
+        }
+    ]
+}

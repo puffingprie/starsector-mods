@@ -1,0 +1,49 @@
+{
+  "variantId": "mess_fulgent_harpoon",
+  "hullId": "mess_fulgent",
+  "displayName": "Harpoon",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 6,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "lightneedler",
+        "WS 002": "lightneedler",
+        "WS 009": "lightneedler",
+        "WS 010": "lightneedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "harpoonpod",
+        "WS 003": "harpoonpod",
+        "WS 004": "harpoonpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 005": "pdburst",
+        "WS 006": "pdburst",
+        "WS 007": "pdburst",
+        "WS 008": "pdburst"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

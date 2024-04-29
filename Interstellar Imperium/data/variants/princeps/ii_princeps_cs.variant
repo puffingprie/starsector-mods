@@ -1,0 +1,43 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 5,
+    "fluxVents": 15,
+    "goalVariant": true,
+    "hullId": "ii_princeps",
+    "hullMods": ["ii_targeting_package"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "ii_princeps_cs",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ii_telum"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "ii_smallballista",
+                "WS0006": "ii_smallballista"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "ii_sledgegun",
+                "WS0004": "ii_sledgegun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "ii_sagittarius"}
+        }
+    ],
+    "wings": [
+        "ii_inferna_wing",
+        "ii_flamen_wing"
+    ]
+}

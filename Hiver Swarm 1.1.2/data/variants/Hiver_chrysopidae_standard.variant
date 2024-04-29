@@ -1,0 +1,41 @@
+{
+  "variantId": "HIVER_chrysopidae_standard",
+  "hullId": "HIVER_chrysopidae",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "fluxdistributor",
+    "fluxcoil",
+    "fluxbreakers",
+    "extendedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "HIVER_blaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "HIVER_spitter"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "HIVER_twinpd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

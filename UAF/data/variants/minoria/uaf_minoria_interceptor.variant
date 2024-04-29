@@ -1,0 +1,30 @@
+{
+  "variantId": "uaf_minoria_interceptor",
+  "hullId": "uaf_minoria",
+  "displayName": "Interceptor",
+  "goalVariant": false,
+  "fluxCapacitors": 7,
+  "fluxVents": 6,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "recovery_shuttles",
+    "eccm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_pd_reina",
+        "WS0002": "uaf_pd_reina"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_surreal",
+    "uaf_wing_surreal"
+  ]
+}

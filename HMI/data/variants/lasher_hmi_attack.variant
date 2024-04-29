@@ -1,0 +1,40 @@
+{
+  "variantId": "lasher_hmi_attack",
+  "hullId": "lasher_hmi",
+  "displayName": "Attack",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 5,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "blast_doors"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "hmi_drill"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "annihilator",
+        "WS0002": "annihilator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sml_shotgrun",
+        "WS0004": "sml_shotgrun"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

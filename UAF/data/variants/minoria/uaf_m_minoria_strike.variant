@@ -1,0 +1,39 @@
+{
+  "variantId": "uaf_m_minoria_strike",
+  "hullId": "uaf_m_minoria",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "reinforcedhull",
+    "recovery_shuttles",
+    "auxiliary_fuel_tanks",
+    "eccm",
+    "autorepair"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_medlav_quad"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_weiss_flk",
+        "WS0002": "uaf_weiss_flk"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_noversky"
+  ]
+}

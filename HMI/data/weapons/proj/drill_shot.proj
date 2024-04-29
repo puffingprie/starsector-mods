@@ -1,0 +1,18 @@
+{
+	"id":"drill_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":35.0,
+	"hitGlowRadius":15,
+	"width":3.5,
+	"fadeTime":0.15,
+	#"fringeColor":[255,155,125,255],
+	#"coreColor":[255,255,200,150],
+	"fringeColor":[1,1,1,1],
+	"coreColor":[1,1,1,1],	
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/drill_proj.png"
+}

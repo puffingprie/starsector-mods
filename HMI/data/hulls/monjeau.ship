@@ -1,0 +1,156 @@
+{
+  "hullName": "Monjeau",
+  "hullId": "monjeau",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/monjeau/monjeau_base.png",
+  "style": "MIDLINE",
+  "height": 96,
+  "width": 112,
+  "center": [56, 48],
+  "collisionRadius": 82.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 80.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "HMI_techminedhull",
+    "monjeau_armour",
+    "monjeau_jets"
+  ],
+  "builtInWeapons": {
+    "ARM_L": "monjeau_arm_L",
+    "ARM_R": "monjeau_arm_R",
+    "SHOULDER_L": "monjeau_shoulder_L",
+    "SHOULDER_R": "monjeau_shoulder_R",
+    "WS0008": "monjeau_lights"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [22, 20]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [22, -20]
+    },
+    {
+      "id": "ARM_L",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 43,
+      "angle": 4,
+      "locations": [0, 23]
+    },
+    {
+      "id": "ARM_R",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 43,
+      "angle": -4,
+      "locations": [0, -23]
+    },
+    {
+      "id": "SHOULDER_L",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 43,
+      "angle": 3.5,
+      "locations": [0, 23]
+    },
+    {
+      "id": "SHOULDER_R",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 43,
+      "angle": -3.5,
+      "locations": [0, -23]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [-14, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 44,
+      "angle": 0,
+      "locations": [0, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-37, 22.5],
+      "length": 32.5,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-37, -22.5],
+      "length": 32.5,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -29, -5.5,
+    -32.5, -13,
+    -36.5, -14.5,
+    -37.5, -28,
+    -33.5, -31,
+    -46.5, -39,
+    -27.5, -37.5,
+    -32.5, -44,
+    -26, -43,
+    -30, -53,
+    -16.5, -47,
+    -17.5, -54.5,
+    -3.5, -45,
+    14.5, -47.5,
+    11.5, -29,
+    26.5, -28,
+    28.5, -17.5,
+    44.5, -8,
+    44.5, 8,
+    28.5, 17.5,
+    26.5, 28,
+    11.5, 29,
+    14.5, 47.5,
+    -3.5, 45,
+    -17.5, 54.5,
+    -16.5, 47,
+    -30, 53,
+    -26, 43,
+    -32.5, 44,
+    -27.5, 37.5,
+    -46.5, 39,
+    -33.5, 31,
+    -37.5, 28,
+    -36.5, 14.5,
+    -32.5, 13,
+    -29, 5.5
+  ]
+}

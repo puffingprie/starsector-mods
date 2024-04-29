@@ -1,0 +1,40 @@
+{
+  "variantId": "cerberus_miner_mining",
+  "hullId": "cerberus_miner",
+  "displayName": "Mining",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 0,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull",
+    "expanded_cargo_holds"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "jackhammer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "mining_gen"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "rock_launcher",
+        "WS0002": "rock_launcher"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

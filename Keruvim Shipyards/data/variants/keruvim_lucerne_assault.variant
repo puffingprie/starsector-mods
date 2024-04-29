@@ -1,0 +1,79 @@
+{
+  "variantId": "keruvim_lucerne_assault",
+  "hullId": "keruvim_lucerne",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 50,
+  "fluxVents": 21,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "unstable_injector",
+    "insulatedengine"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "atropos",
+        "WS0010": "atropos",
+        "WS0011": "atropos",
+        "WS0012": "atropos"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "gauss",
+        "WS0018": "gauss",
+        "WS0019": "keruvim_terror"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "heavyac",
+        "WS0014": "heavyac",
+        "WS0015": "keruvim_blast_gun",
+        "WS0016": "keruvim_blast_gun",
+        "WS0020": "keruvim_blast_gun",
+        "WS0021": "keruvim_blast_gun",
+        "WS0026": "keruvim_blast_gun",
+        "WS0027": "keruvim_blast_gun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "lightac",
+        "WS0004": "lightac",
+        "WS0005": "lightag",
+        "WS0006": "lightag",
+        "WS0007": "lightag",
+        "WS0008": "lightag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightdualmg",
+        "WS0002": "lightdualmg",
+        "WS0022": "flak",
+        "WS0023": "flak",
+        "WS0024": "lightdualmg",
+        "WS0025": "lightdualmg",
+        "WS0028": "lightac",
+        "WS0029": "lightac",
+        "WS0030": "lightac",
+        "WS0031": "lightac"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

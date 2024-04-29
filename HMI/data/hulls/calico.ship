@@ -1,0 +1,225 @@
+{
+  "hullName": "Calico",
+  "hullId": "calico",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/calico.png",
+  "style": "HIGH_TECH",
+  "height": 138,
+  "width": 230,
+  "center": [115, 63],
+  "collisionRadius": 134,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 128.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "HMI_techminedhull"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 103,
+      "locations": [-16, 95]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -103,
+      "locations": [-16, -95]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [68, 18]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [68, -18]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 126,
+      "angle": 59.5,
+      "locations": [-5, 19.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 126,
+      "angle": -59.5,
+      "locations": [-5, -19.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [56, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 122,
+      "angle": 0,
+      "locations": [7, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-51.5, 100.5],
+      "length": 16,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-51.5, -100.5],
+      "length": 16,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-51, 89],
+      "length": 30,
+      "width": 27,
+      "angle": 180,
+      "contrailSize": 27,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-51, -89],
+      "length": 30,
+      "width": 27,
+      "angle": -180,
+      "contrailSize": 27,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-50, 78.5],
+      "length": 16,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-50, -78.5],
+      "length": 16,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-36.5, 42.5],
+      "length": 9.147752,
+      "width": 19.881514,
+      "angle": 157,
+      "contrailSize": 19.881514,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-36.5, -42.5],
+      "length": 9.147752,
+      "width": 19.881514,
+      "angle": -157,
+      "contrailSize": 19.881514,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-45.5, 28.5],
+      "length": 15,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-45.5, -28.5],
+      "length": 15,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-61, 14],
+      "length": 35,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-61, -14],
+      "length": 35,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -42.5, -8,
+    -60.5, -8,
+    -61.5, -20,
+    -44.5, -20,
+    -44, -32.5,
+    -26, -52,
+    -26, -62.5,
+    -40, -74,
+    -51.5, -74.5,
+    -52.5, -104.5,
+    -28.5, -114,
+    -1.5, -104.5,
+    33, -69.5,
+    57, -64.5,
+    57.5, -32.5,
+    76, -19,
+    69.5, -4.5,
+    69.5, 4.5,
+    76, 19,
+    57.5, 32.5,
+    57, 64.5,
+    33, 69.5,
+    -1.5, 104.5,
+    -28.5, 114,
+    -52.5, 104.5,
+    -51.5, 74.5,
+    -40, 74,
+    -26, 62.5,
+    -26, 52,
+    -44, 32.5,
+    -44.5, 20,
+    -61.5, 20,
+    -60.5, 8,
+    -42.5, 8
+  ]
+}

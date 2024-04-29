@@ -1,0 +1,29 @@
+{
+  "variantId": "mess_kite_blaster",
+  "hullId": "mess_kite",
+  "displayName": "Blaster",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 2,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "amblaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "amblaster"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

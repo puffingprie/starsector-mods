@@ -1,0 +1,37 @@
+{
+	"id":"sv_powercorelauncher",
+	"specClass":"missile",	
+	"missileType":"PHASE_CHARGE",
+	"sprite":"graphics/missiles/sv_powercorelauncher_bomb.png",
+	"glowSprite":"graphics/missiles/sv_powercorelauncher_bomb_glow.png",
+	"glowColor":[0,200,0,255],
+	"size":[18,28],	
+	"center":[9,14],
+	"collisionRadius":18,
+	"collisionClass":"MISSILE_FF",
+	"explosionColor":[0,200,0,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":300, # purely visual
+	"flameoutTime":0.1, # total time from flameout to full fadeout
+	"fadeTime":0.1, # fadeout duration
+	"noEngineGlowTime":0.05, # time spent without the engine glow being rendered	
+	"engineSpec":{"turnAcc":500,
+				  "turnRate":150,
+				  "acc":40,
+				  "dec":40},
+	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+					"range":10,
+					"slowToMaxSpeed":true,
+					"explosionSpec":{"duration":1f,
+									 "radius":200,
+									 "coreRadius":100, # full damage within core radius
+									 "collisionClass":PROJECTILE_FF,
+									 "collisionClassByFighter":PROJECTILE_FIGHTER,
+									 "particleSizeMin":5.0,
+									 "particleSizeRange":5.0,
+									 "particleDuration":5,
+									 "particleCount":40,
+									 "particleColor":[0,200,0,255],
+									 "explosionColor":[0,150,0,255],
+									 "sound":"sv_bomb"},
+					},
+}

@@ -1,0 +1,39 @@
+{
+	"id":"ii_armageddon_elite",
+	"specClass":"missile",
+	"missileType":"HEATSEEKER",
+	"onHitEffect":"data.scripts.weapons.II_ArmageddonEliteOnHitEffect",
+	"sprite":"graphics/imperium/missiles/ii_armaenhanced_elite.png",
+	"size":[9,20],
+	"center":[4.5,10],
+	"collisionRadius":13,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[225,100,255,120],
+	"explosionRadius":150,
+	"flameoutTime":1, # total time from flameout to full fadeout
+	"noEngineGlowTime":0, # time spent without the engine glow being rendered
+	"fadeTime":0.5, # fadeout duration
+	"engineSpec":{"turnAcc":900,
+				  "turnRate":350,
+				  "acc":1200,
+				  "dec":800},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-5, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP",
+						"engineColor":[175,75,255,255],
+						"contrailDuration":4,
+						"contrailWidthMult":1.5,
+						"contrailWidthAddedFractionAtEnd":0,
+						"contrailMinSeg":5,
+						"contrailMaxSpeedMult":0,
+						"contrailAngularVelocityMult":0.5,
+						"contrailSpawnDistMult":0.1,
+						"contrailColor":[175,75,255,140],
+						"type":"GLOW"
+					},
+				    "width":10.0,
+				    "length":50.0,
+				    "angle":180.0}]
+}

@@ -1,0 +1,52 @@
+{
+  "hullName": "Puer Chorum",
+  "hullId": "puer_chorum",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/remnants/puer_chorum.png",
+  "style": "HIGH_TECH",
+  "height": 38,
+  "width": 38,
+  "center": [19, 19],
+  "collisionRadius": 33,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 29,
+  "viewOffset": 0,
+  "builtInMods": [
+    "insulatedengine"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-17, 9.5],
+      "length": 12.602934,
+      "width": 7.852659,
+      "angle": 171.5,
+      "contrailSize": 7.852659,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-17, -9.5],
+      "length": 12.602934,
+      "width": 7.852659,
+      "angle": -171.5,
+      "contrailSize": 7.852659,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -16, -18.5,
+    15.5, -11,
+    15.5, 11,
+    -16, 18.5
+  ]
+}

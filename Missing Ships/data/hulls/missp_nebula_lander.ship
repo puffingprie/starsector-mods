@@ -1,0 +1,139 @@
+{
+  "hullName": "Hedgehog",
+  "hullId": "missp_nebula_lander",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/nebula/missp_nebula_lander.png",
+  "style": "MIDLINE",
+  "height": 200,
+  "width": 120,
+  "center": [60, 100],
+  "collisionRadius": 105.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 110,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ground_support"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 216,
+      "angle": 33.5,
+      "locations": [73, 28]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 216,
+      "angle": -33.5,
+      "locations": [73, -28]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 185,
+      "angle": 90,
+      "locations": [41, 41]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 185,
+      "angle": -90,
+      "locations": [41, -41]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 185,
+      "angle": 90,
+      "locations": [9, 41]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 185,
+      "angle": -90,
+      "locations": [9, -41]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-29, 37]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-29, -37]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": 110.5,
+      "locations": [-59, 37]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": -110.5,
+      "locations": [-59, -37]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-94, 12],
+      "length": 64,
+      "width": 26,
+      "angle": 180,
+      "contrailSize": 26,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-94, -12],
+      "length": 64,
+      "width": 26,
+      "angle": -180,
+      "contrailSize": 26,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -94, -20,
+    -75.5, -30,
+    -69, -51,
+    89.5, -47.5,
+    97, -4,
+    97, 4,
+    89.5, 47.5,
+    -69, 51,
+    -75.5, 30,
+    -94, 20
+  ]
+}

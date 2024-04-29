@@ -1,0 +1,57 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 11,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "keruvim_culverin_lgbt",
+  "hullMods": [
+    "missleracks"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "keruvim_culverin_lgbt_standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "keruvim_star_pod",
+        "WS0005": "keruvim_star_pod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "keruvim_blast_gun",
+        "WS0006": "railgun",
+        "WS0007": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "lightdualmg",
+        "WS0009": "lightdualmg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightmg",
+        "WS0002": "lightmg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "lightdualmg"
+      }
+    }
+  ],
+  "wings": []
+}

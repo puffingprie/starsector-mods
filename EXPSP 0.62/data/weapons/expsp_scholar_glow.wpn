@@ -1,0 +1,28 @@
+{
+	"id":"expsp_scholar_glow",  # this id must match what's in the spreadsheet
+	"specClass":"beam",
+	"type":"DECORATIVE",
+	"size":"SMALL",
+	
+	
+	  "renderAboveAllWeapons": true,
+	
+	"turretSprite": "graphics/weapons/decorative/expsp_scholarglow_00.png",
+	"hardpointSprite":"graphics/weapons/decorative/expsp_scholarglow_00.png",
+	  "showDamageWhenDecorative":false,
+	"everyFrameEffect": "data.scripts.weapons.expsp_ScholarGlowScript",
+	"numFrames":2,
+	"frameRate":0,
+	"alwaysAnimate":"false",
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],	
+	"fringeColor":[255,255,255,255],
+	"coreColor":[255,255,255,255],
+	"glowColor":[255,255,255,255],
+	"width":1.0,
+	"textureType":ROUGH,
+	"textureScrollSpeed":1.0,
+	"pixelsPerTexel":1.0,
+}

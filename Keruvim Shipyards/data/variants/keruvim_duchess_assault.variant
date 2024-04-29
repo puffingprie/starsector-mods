@@ -1,0 +1,69 @@
+{
+  "variantId": "keruvim_duchess_assault",
+  "hullId": "keruvim_duchess",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 40,
+  "fluxVents": 19,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "unstable_injector",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "sabotpod",
+        "WS0002": "sabotpod",
+        "WS0003": "sabotpod",
+        "WS0005": "sabotpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "hephag",
+        "WS0018": "heavyac",
+        "WS0019": "keruvim_blast_gun",
+        "WS0020": "keruvim_blast_gun",
+        "WS0021": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "keruvim_gust",
+        "WS0008": "keruvim_gust",
+        "WS0011": "hveldriver",
+        "WS0012": "hveldriver",
+        "WS0013": "keruvim_gust",
+        "WS0015": "keruvim_gust",
+        "WS0017": "keruvim_gust"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "keruvim_needle",
+        "WS0007": "keruvim_needle",
+        "WS0016": "keruvim_needle"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "keruvim_spider",
+    "keruvim_flea"
+  ]
+}

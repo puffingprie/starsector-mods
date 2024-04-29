@@ -1,0 +1,280 @@
+{
+  "hullName": "Valafar",
+  "hullId": "vic_valafar",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/Valafar/vic_valafar.png",
+  "style": "VIC",
+  "height": 262,
+  "width": 180,
+  "center": [90, 131],
+  "collisionRadius": 158,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 143,
+  "viewOffset": 0,
+  "builtInMods": [
+    "vic_aerodynamicdesign",
+    "vic_dynamicshields",
+    "vic_shturmSolutionDummy"
+  ],
+  "builtInWeapons": {
+    "WS0010": "vic_engine_glow_universal_big",
+    "WS0011": "vic_engine_glow_universal_big",
+    "WS0012": "vic_valafar_engine_glow_left",
+    "WS0013": "vic_valafar_engine_glow_right",
+    "WS0014": "vic_valafar_tail_left",
+    "WS0015": "vic_valafar_tail_right",
+    "WS0016": "vic_valafar_wing_left",
+    "WS0017": "vic_valafar_wing_right",
+    "WS0018": "vic_valafar_front_left",
+    "WS0019": "vic_valafar_front_right"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 102,
+      "angle": -40,
+      "locations": [9, -22]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 102,
+      "angle": 40,
+      "locations": [9, 22]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 45,
+      "locations": [40, 17]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -45,
+      "locations": [40, -17]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [73, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -135,
+      "locations": [-37, -22]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 135,
+      "locations": [-37, 22]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-21, -66]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-21, 66]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 85,
+      "angle": 0,
+      "locations": [-115, -8]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 85,
+      "angle": -0,
+      "locations": [-115, 8]
+    },
+    {
+      "id": "WS0012",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 85,
+      "angle": 0,
+      "locations": [-70, 37]
+    },
+    {
+      "id": "WS0013",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 85,
+      "angle": -0,
+      "locations": [-70, -37]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 85,
+      "angle": 0,
+      "locations": [-79.5, 29]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 85,
+      "angle": -0,
+      "locations": [-79.5, -29]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-24, 63]
+    },
+    {
+      "id": "WS0017",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-24, -63]
+    },
+    {
+      "id": "WS0018",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 0,
+      "locations": [73.5, 21]
+    },
+    {
+      "id": "WS0019",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": -0,
+      "locations": [73.5, -21]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-116, -8],
+      "length": 75.5,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "CUSTOM",
+      "styleId": "VOLKOV-LAIDLAW'S"
+    },
+    {
+      "location": [-116, 8],
+      "length": 75.5,
+      "width": 18,
+      "angle": -180,
+      "contrailSize": 18,
+      "style": "CUSTOM",
+      "styleId": "VOLKOV-LAIDLAW'S"
+    },
+    {
+      "location": [-70, -37],
+      "length": 71,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "CUSTOM",
+      "styleId": "VOLKOV-LAIDLAW'S"
+    },
+    {
+      "location": [-70, 37],
+      "length": 71,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "CUSTOM",
+      "styleId": "VOLKOV-LAIDLAW'S"
+    }
+  ],
+  "bounds": [
+    -114.5, 16,
+    -128, 31,
+    -69.5, 31,
+    -67.5, 42,
+    -29, 41,
+    -44.5, 75.5,
+    -54, 80,
+    -37, 87,
+    -16.5, 55.5,
+    -4.5, 51.5,
+    35, 52,
+    41, 42,
+    7, 42,
+    48, 26,
+    120.5, 24.5,
+    129, 12,
+    117.5, 12,
+    98.5, 5.5,
+    98.5, -5.5,
+    117.5, -12,
+    129, -12,
+    120.5, -24.5,
+    48, -26,
+    7, -42,
+    41, -42,
+    35, -52,
+    -4.5, -51.5,
+    -16.5, -55.5,
+    -37, -87,
+    -54, -80,
+    -44.5, -75.5,
+    -29, -41,
+    -67.5, -42,
+    -69.5, -31,
+    -128, -31,
+    -114.5, -16
+  ]
+}

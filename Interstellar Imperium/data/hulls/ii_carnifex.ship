@@ -1,0 +1,82 @@
+{
+  "hullName": "Carnifex",
+  "hullId": "ii_carnifex",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/imperium/ships/fighter/ii_carnifex.png",
+  "style": "IMPERIUM",
+  "height": 32,
+  "width": 48,
+  "center": [24, 17],
+  "collisionRadius": 32,
+  "shieldCenter": [1, -0],
+  "shieldRadius": 31,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 12,
+      "locations": [2.5, 11]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -12,
+      "locations": [2.5, -11]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-16, -0],
+      "length": 48,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 18,
+      "style": "IMPERIUM"
+    },
+    {
+      "location": [-12, 16],
+      "length": 24,
+      "width": 12,
+      "angle": 135,
+      "contrailSize": 128,
+      "style": "IMPERIUM"
+    },
+    {
+      "location": [-12, -16],
+      "length": 24,
+      "width": 12,
+      "angle": -135,
+      "contrailSize": 128,
+      "style": "IMPERIUM"
+    },
+    {
+      "location": [4, 20],
+      "length": 24,
+      "width": 12,
+      "angle": 45,
+      "contrailSize": 128,
+      "style": "IMPERIUM"
+    },
+    {
+      "location": [4, -20],
+      "length": 24,
+      "width": 12,
+      "angle": -45,
+      "contrailSize": 128,
+      "style": "IMPERIUM"
+    }
+  ],
+  "bounds": [
+    11, -19.5,
+    -13, -14,
+    -13, 14,
+    11, 19.5
+  ]
+}

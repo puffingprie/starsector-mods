@@ -1,0 +1,119 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+Experimental Fighter System,uaf_experimental_fighter,0,0,,,Special,0,,TRUE,,0,0,0,0,data.hullmods.uaf_fighterSystem,"Experimental System developed for the experimental fighter plane, Lynx by Dr. Christine Forstner of the research and development department.",Improved panel controls for Lynx,graphics/hullmods/targeting_core.png
+Auroran Melody Modification,uaf_melodyEngine,0,0,,,Special,0,TRUE,TRUE,,0,0,0,0,data.hullmods.uaf_melodyEngine,"Allows the installation of Special Engine Reactor developed by the research and development department with enhanced fuel-burning. It's said to produce a distinct light purple-ish flame on ships installed with this engine. The engine also harbors ███████ frequency ██████ ████████ ██████ ██ resonance █████ ██████ █████ ████ ████████ ██████████ ████████, in which during █████████ █████████, it ████████ by 65 ██████████, 25 ██████████, 50 ██████ ██████████, 50 ███ ██████, 35 █████ █████",Engine Improvement,graphics/hullmods/uaf_melodyengine.png
+Auroran Engineering,uaf_auroranEngineering,0,0,,,Special,0,TRUE,TRUE,,0,0,0,0,data.hullmods.uaf_auroranEngineering,"Damage control is the most important step to ensure the survivability of both crew and ship. Auroran ship crew and other personnel are typically trained to be able to conduct basic repairs and firefighting, no matter how small the attempts may be, one well-placed tape at the right spot might make a real difference between life and death. Multiple types of equipment are typically readily available across the ship, ready to be used for when the situation demands it.",HP Regeneration,graphics/hullmods/uaf_auroranengineering.png
+Auroran Royal November Grade,uaf_militaryGrade,0,0,,,Special,0,TRUE,TRUE,,0,0,0,0,data.hullmods.uaf_militaryGrade,Her Royal Highness' November Fleet are the prominent defenders of the New Aurora that installs unique sets of upgrade and paints a rather stylish three-tone dazzle navy camouflage pattern on their ships which makes them stand out pretty well. Some may even have more than just internal modification which allows them to survive even longer in battle under pressure. ,Military UAF upgrades,graphics/hullmods/uaf_militarygrade.png
+Auroran Automata Specification,uaf_automataSpec,0,0,,,Special,0,TRUE,TRUE,,0,0,0,0,data.hullmods.uaf_automataSpecification,The Expeditionary Automata Division ships are usually given the best equipment available to the Federation and partially crewed with automated NEUKO androids that could give them an edge in exploration and combat. Such comprehensive modification however come at a cost as they aren't easily mass producible and require more active maintenance cycles to keep them running.,AI UAF upgrades,graphics/hullmods/uaf_automataspec.png
+UAF Modular Freighter,uaf_modularFreighter,0,0,,,Special,0,TRUE,TRUE,TRUE,0,0,0,0,data.hullmods.uaf_modularFreighter,Modular Freighter %s,Military UAF upgrades,graphics/hullmods/uaf_modularfreighter.png
+No Explosion,uaf_noExplosion,,,,,Special,,,TRUE,TRUE,0,0,0,0,data.hullmods.uaf_noExplosion,Reduced explosion radius and damage.,,graphics/hullmods/reduced_explosion.png
+Linked Engine,uaf_linkedEngine,,,,,Special,,,TRUE,,0,0,0,0,data.hullmods.uaf_linkedEngine,"This module houses the main engine of the ship, with dozens of engine exhausts to generate enough thrusts for the whole ship.",,
+Linked Hangar,uaf_linkedHangar,,,,,Special,,,TRUE,,0,0,0,0,data.hullmods.uaf_linkedHangar,The hangar of this module can be controlled by the main ship module through mirroring the main ship command. The main ship has to have wing controls or the fighters would be on defensive mode around the ship.,,
+Decentralized Engines,uaf_parentEngine,,,,,Special,,,TRUE,,0,0,0,0,data.hullmods.uaf_parentEngine,"The main engine of this ship is located on separate ship modules, both contributing to the speed and total maneuverability of this ship. Losing one operational engine exhaust might affect the ship maneuverability greatly.",,graphics/hullmods/uaf_parentengine.png
+Auroran Flagship Modifications,uaf_flagship,,,,,Special,,,TRUE,,0,0,0,0,data.hullmods.uaf_flagship,"The main flagship of UAF Fleet, with improved systems and efficiency, equipped with best of the best materials from UAF Military. Increases Ballistic ROF by %s, Range by %s, Projectile Speed by %s, Accuracy by %s, Turn Maneuverability by %s, Armor Bonus by %s. Also increase capacity by %s and dissipation rate by %s.",,graphics/hullmods/uaf_flagship.png
+#Flagship Electronic Warfare Deflector System,uaf_flagship_eccm,,,,,Special,,,TRUE,,0,0,0,0,data.hullmods.uaf_flagship_eccm,"The ECCM System implanted to the flagship of UAF Fleet, producing a massive counter electronic warfare measure with possibilities to launch the fleet's own electronic warfare capabilities.",,
+Flagship Extended Hangar,uaf_flagship_exthangar,,,,,Special,,,TRUE,,0,0,0,0,data.hullmods.uaf_flagship_exthangar,"The flagship's hangar, manned by the most trained crew, cuts down the replacement rate of airborne fighters by about 30%%, improving its efficiency and capabilities.",,
+Flagship Armour Plating,uaf_flagship_armouring,,,,,Special,,,TRUE,,0,0,0,0,data.hullmods.uaf_flagship_armouring,Improved armour plating of the flagship vulnerable modules. Increases armor by %s.,,
+Increased Explosion,uaf_increased_explosion,,,,,Special,,,TRUE,TRUE,0,0,0,0,data.hullmods.uaf_increasedExplosion,"Fragile cargo ship, may cause bigger explosion than ordinary ones.",Explosive Up,
+,,,,,,,,,,,,,,,,,,
+EYESEAU Exploration Package,uaf_eyeseau_science,3,,Auroran Tech,,"Logistics, Support",12000,,,,0,0,0,25,data.hullmods.uaf_eyeseau_campaign,"The onboard advanced command and control system serves multiple functions that can be switched to two versions. The Exploration version allows the user to survey space objects or extraterrestial bodies easily from orbit at significantly cheaper cost. However, such sophisticated systems and devices are fragile and prone to damages which requires constant maintenance to remain functional.",Survey and Exploration,graphics/hullmods/uaf_eyeseau_comm.png
+EYESEAU Command and Control Package,uaf_eyeseau_command,3,,Auroran Tech,,"Logistics, Support, Defense",12000,,,,0,0,0,25,data.hullmods.uaf_eyeseau_combat,"The onboard advanced command and control system serves multiple functions that can be switched to two versions. The Command version allows the user to relay commands and establish battlefield control more easily while providing passive support to the fleet. However, such sophisticated systems and devices are fragile and prone to damages which requires constant maintenance to remain functional.",Support and Command,graphics/hullmods/uaf_eyeseau_comm.png
+,,,,,,,,,,,,,,,,,,
+Secondary Focus,uaf_secondary_focus,3,,Auroran Tech,,Weapons,5000,,,,5,10,15,25,data.hullmods.uaf_secondaryfocus,"An Auroran arsenal computing systems that modify and adjust the specification of all weapons, providing various effects depending on the installed weapon type and size. Can only be installed on cruiser and capital.",,graphics/hullmods/uaf_sec_focus.png
+,,,,,,,,,,,,,,,,,,
+Melody Syncore,uaf_melody_syncore,0,0,,,Special,,,TRUE,,0,0,0,0,data.hullmods.uaf_melodySyncore,Melody Syncore is a modified version of the existing Melody Drive that synchronizes the onboard weapon systems by tuning into a certain 'rhythm' in the sequence seen in the engineering line chart and actively calibrating them depending on the ship's needs.,Beam Weaponry Up,graphics/hullmods/uaf_melodysyncore.png
+,,,,,,,,,,,,,,,,,,
+Atmospheric Capable,uaf_atmospheric_entry,,,,,Special,,,TRUE,,0,0,0,0,data.hullmods.uaf_atmospheric_entry,This ship is designed to be atmospheric-capable thanks to its aerodynamic design and hybrid propulsion system. It also houses a specially made reverse gravity repulsor drive that grants the ability to stay in the air a bit longer but not necessarily float freely under its own power. This also allowing it to fly into the planet's atmosphere and support local ground forces to a certain extent.,Ground Support Package,graphics/hullmods/uaf_atmocapable.png
+,,,,,,,,,,,,,,,,,,
+Aurorian Enforcer,uaf_aurorian_enforcer,,,,,special,,,TRUE,TRUE,0,0,0,0,data.hullmods.uaf_aurorianEnforcer,Special Blinker Effect,,
+,,,,,,,,,,,,,,,,,,
+The Queen's Resolve,uaf_presence,,,,,Special,,,TRUE,TRUE,0,0,0,0,data.hullmods.uaf_deploymentReduction,The Solvernia is now on board her own super capital ship which grants increased stat performance across the board and lowered deployment cost.  %s,Decrease DP,graphics/hullmods/uaf_flagship.png
+,,,,,,,,,,,,,,,,,,
+Eyeseau Improved Electronic Warfare,uaf_improved_electronic_warfare,,,,,,,,TRUE,,0,0,0,0,data.hullmods.uaf_electronicWarfare,"The improvements made especially for the Eyeseau Ship, improving almost everything regarding the ECCM and ECM Package. Increases ECCM by %s/%s/%s/%s but increases maintenance cost by %s and increase supply usage per month by %s.",,
+Eyeseau Improved Intelligence Equipment,uaf_improved_intelligence_equipment,,,,,,,,TRUE,,0,0,0,0,data.hullmods.uaf_improvedIntelligenceEquipment,"Improvements made especially for the Eyeseau Ship on the Surveying and Intelligence Equipment, also adds the modernized quantum equipments. Reduces survey equipment cost by %s/%s/%s/%s.",,
+Eyeseau Centralized Communication,uaf_centralized_communication,,,,,,,,TRUE,,0,0,0,0,data.hullmods.uaf_centralizedCommunication,"Improvements for the Eyeseau to make it able to act as a centralized communication ships, installing essential and extended communication equipments. Increases Missile Overall Maneuverabilities by 75%%.",,
+,,,,,,,,,,,,,,,,,,
+Auroran AEGIS Package,uaf_enhanced_pd,,,,,Special,0,,TRUE,,0,0,0,0,data.hullmods.uaf_enhanced_pd,"The Auroran AEGIS Combat System is an integrated naval weapons systems designed to identify and intercept incoming threat, its commonly seen on ships that provides anti-air protection bubble that'll ensure the safety of the naval squadron. The radar required to be placed on at a position where it isn't blocked by physical objects to ensure maximum coverage.",Extra PD Range,graphics/hullmods/uaf_enhanced_pd.png
+,,,,,,,,,,,,,,,,,,
+Shield Manipulator,uaf_shield_manipulator,0,0,,,Special,0,,TRUE,TRUE,0,0,0,0,data.hullmods.uaf_shieldForce,,,
+Optimized Ordnance Assembly,uaf_ordnanceAssembly,0,0,,,Special,0,,TRUE,,0,0,0,0,data.hullmods.uaf_ordnanceAssembly,An average Auroran missile ship would have most of their interior space filled with missile storage compartment in a position where it's both secured and optimally placed for better logistics management. Special automated equipment and systems are also in place but that typically tends to increase the production cost much higher than anticipated.,,graphics/hullmods/uaf_ordnanceassembly.png
+,,,,,,,,,,,,,,,,,,
+Fighter Tender,uaf_fighterManager,0,0,,,Special,0,,TRUE,TRUE,0,0,0,0,data.hullmods.uaf_fighterManager,,,
+Limited Ammo,uaf_limitedAmmo,0,0,,,Special,0,,TRUE,TRUE,0,0,0,0,data.hullmods.uaf_limitedAmmo,,,
+,,,,,,,,,,,,,,,,,,
+Close Support Doctrine,uaf_ground_support,,,,,,,,TRUE,,0,0,0,0,data.hullmods.uaf_groundSupport,The Auroran Marines are a derivative of the Auroran Federation Self-Defense Force responsible for conducting expeditionary and various other operations related to the Navy. They proved to be invaluable as they're the first to develop tactics and techniques of amphibious operations especially when considering the odds and challenges that no Aurorans have ever done before; interstellar warfare.,Improves effectiveness of raids.,graphics/hullmods/uaf_groundsupport.png
+Rogue Wave Doctrine,uaf_advanced_ground_support,,,,,,,,TRUE,,0,0,0,0,data.hullmods.uaf_groundSupportAdvanced,"The doctrine was named after a powerful event that occurs in rough seas, it encourages the landing ship to be even more aggressive with their ordnance and overwhelm the enemy with both numbers and firepower. Due to the nature of this tactic, some captains would simply bring the ship along and use themselves as a shield to take incoming fire so that their landing forces land safely.",Improves effectiveness of raids.,graphics/hullmods/uaf_roguewave.png
+,,,,,,,,,,,,,,,,,,
+Auroran Aircraft Modification,CHM_UAF,,,Auroran Top Gun Flight Academy,,,,,TRUE,,0,0,0,0,data.hullmods.uaf_cc_bonus,"Experienced aircrew and their pilots will tend to modify their spacecraft to further meet their expectations, sometimes went as far as overriding safeties and apply custom changes to their systems. Combine that with effective evasive maneuvers allows them to tank incoming damage in non-critical area. Some even argued that if they just ignore all the blinking red lights, it's nothing but a state of mind.",Improves fighter survivability,graphics/hullmods/uaf_aircraftmodificationcc.png
+,,,,,,,,,,,,,,,,,,
+Disposable Armor,uaf_disposable_armor,0,0,Experimental Auroran Tech,,Special,0,,TRUE,TRUE,0,0,0,0,data.hullmods.uaf_detachableArmor,Disposable Armor will detach if under certain HP Treshold,Fusoreina's Unique Armor,graphics/hullmods/uaf_reflectivearmor.png
+Reflecta(EXA) Armor Plating,uaf_reflective_armor,0,0,Experimental Auroran Tech,,Special,0,,TRUE,,0,0,0,0,data.hullmods.uaf_reflectiveArmor,Reflecta (Experimental Armor) consists of multiple layers of different armor types. Each plating would contribute towards a single goal; protecting the ship by forcing the incoming projectile to either bounce away or soak up the damage and distribute equally across all surface. This armor proved to be highly effective but require ridiculous amount of power to function.,Fusoreina's Unique Armor,graphics/hullmods/uaf_reflectivearmor.png
+Reflecta(EXA) II Heavy Armor Plating,uaf_reflective_armor_ii,0,0,Experimental Auroran Tech,,Special,0,,TRUE,,0,0,0,0,data.hullmods.uaf_reflectiveArmorv2,Reflecta (Experimental Armor) consists of multiple layers of different armor types. Each plating would contribute towards a single goal; protecting the ship by forcing the incoming projectile to either bounce away or soak up the damage and distribute equally across all surface. This armor proved to be highly effective but require ridiculous amount of power to function.,Fusoreina's Unique Armor,graphics/hullmods/uaf_reflectivearmor.png
+,,,,,,,,,,,,,,,,,,
+Weapon Calibration,uaf_weaponCalibration,0,0,Auroran Tech,,Special,0,,TRUE,,0,0,0,0,data.hullmods.uaf_weaponCalibration,"Inazuma are typically used in a ship to ship combat thanks to its forward weapon mounts. This encouraged the Akatsuki Shipbuilding Co. to modify the ship systems by simplifying the installation and calibration process. At the same time, such modification made reloading slightly slower as the ammo conveyor belts have to make room for the new additions.",Inazuma Weapon Buff,graphics/hullmods/uaf_enhanced_pd.png
+,,,,,,,,,,,,,,,,,,
+No Landing,uaf_noLanding,,,,,Special,,,TRUE,TRUE,0,0,0,0,data.hullmods.uaf_noLanding,No Landing,,graphics/hullmods/reduced_explosion.png
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+Solvernia Core,uaf_supercap_core_slv,,,Auroran Tech,,Special,,,TRUE,,0,0,0,0,data.hullmods.uaf_solvernia_core,"The main flagship of UAF Fleet, with improved systems and efficiency, equipped with best of the best materials from UAF Military.",,graphics/hullmods/uaf_solvernia_core.png
+Solvernia Module,uaf_supercap_module_slv,,,Auroran Tech,,Special,,,TRUE,,0,0,0,0,data.hullmods.uaf_solvernia_module,"An Auroran precision module specially designed for the Honorary Admiral’s control interface, allowing her to maximise power toward her volleys, at the cost of an increase in the time it takes to calculate firing solutions.",,graphics/hullmods/uaf_solvernia_module.png
+,,,,,,,,,,,,,,,,,,
+Auroran Advanced Engineering,uaf_supercap_engineering,,,Auroran Tech,,Special,,,TRUE,,0,0,0,0,data.hullmods.uaf_supercapEngineering,"Damage control is the most important step to ensure the survivability of both crew and ship. Auroran ship crew and other personnel are typically trained to be able to conduct basic repairs and firefighting, no matter how small the attempts may be, one well-placed tape at the right spot might make a real difference between life and death. Multiple types of equipment are typically readily available across the ship, ready to be used for when the situation demands it.",,graphics/hullmods/uaf_flagship.png
+,,,,,,,,,,,,,,,,,,
+AEGIS Type-Concord,uaf_aegis_concord,,,,,Special,,,TRUE,,0,0,0,0,data.hullmods.uaf_aegis_concord,"A special weapon control unit that improves the range of point defense weapons and reduces the weapon recoil of when firing while increasing the projectile speed. Due to safety protocols, the AEGIS concord inhibits the rate of fire to prevent overheat.",,graphics/hullmods/uaf_aegis_concord.png
+,,,,,,,,,,,,,,,,,,
+Royal Arithmetic Control,uaf_royal_arithmetic_sys,,,,,Special,,,TRUE,,0,0,0,0,data.hullmods.uaf_royal_arithmetic_sys,"The unique Auroran Delta-level AI will provide the most optimal solution and method to ensure that both weapons and LPCs produced by this ship are always in top form. For each ballistic and energy weapon slotted in the universal mount, increase ballistic or energy damage by %s (%s max). If ballistic is installed in the universal mount, +%s weapon range and if energy is installed, +%s weapon range. Furthermore, for each fighter squadron present, increase fighter and interceptor damage dealt by %s (%s max).",,graphics/hullmods/uaf_arithmetic_control.png
+,,,,,,,,,,,,,,,,,,
+#Persephone Natasya,,,,,,,,,,,,,,,,,,
+The Queen's Songstress,uaf_persephone_nat_songstress,,,,,Special,,,TRUE,TRUE,0,0,0,0,data.hullmods.uaf_queens_songstress,Linked hullmod.,,graphics/icons/intel/investigation.png
+,,,,,,,,,,,,,,,,,,
+#Procastria,,,,,,,,,,,,,,,,,,
+Auroran Prototype Engineering,uaf_proto_gh_engineering,,,,,Special,,,TRUE,,0,0,0,0,data.hullmods.uaf_proto_gh_engineering,A one-of-a-kind iteration of the Auroran Engineering that is tied to a special temporal device. It is built solely for the Procastria to test the limits of its time-altering capabilities and potential.,,graphics/hullmods/uaf_auroranengineering.png
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,

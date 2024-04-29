@@ -1,0 +1,73 @@
+{
+    "displayName": "Custom",
+    "fluxCapacitors": 9,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "ii_boss_titanx",
+    "hullMods": [
+        "missleracks",
+        "targetingunit",
+        "autorepair",
+        "heavyarmor",
+        "reinforcedhull",
+        "hardenedshieldemitter",
+        "fluxbreakers"
+    ],
+    "permaMods": [
+        "missleracks",
+        "targetingunit",
+        "autorepair",
+        "heavyarmor",
+        "reinforcedhull"
+    ],
+    "sMods": [
+        "missleracks",
+        "targetingunit",
+        "autorepair",
+        "heavyarmor",
+        "reinforcedhull"
+    ],
+    "variantId": "ii_boss_titanx_cus",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "ii_boss_apocalypse",
+                "WS0003": "ii_boss_apocalypse",
+                "WS0004": "ii_boss_fundae",
+                "WS0005": "ii_boss_fundae"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "sabotpod",
+                "WS0008": "sabotpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "ii_telum",
+                "WS0010": "railgun",
+                "WS0011": "railgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "ii_particlecannon",
+                "WS0013": "ii_particlecannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0009": "ii_sagittarius"}
+        }
+    ]
+}

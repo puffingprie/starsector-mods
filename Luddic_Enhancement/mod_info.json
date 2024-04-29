@@ -1,0 +1,22 @@
+{
+  "id":"luddenhance",
+	"name":"Luddic Enhancement",
+	"author": "King Alfonzo",
+	"version":"1.2.6e",
+	"description":"A small mod to enhance the Luddic Church, with new ship skins and a new star system.",
+    "gameVersion": "0.97a-RC8",
+    "dependencies": [
+        {
+            "id": "lw_lazylib",
+            "name": "LazyLib",
+            #"version": "2.6"
+        },
+        {
+            "id": "MagicLib",
+            "name": "MagicLib",
+            #"version": "2.6"
+        },
+    ],
+	"jars":["jars/Luddic_Enhancement.jar"],
+	   "modPlugin":"data.scripts.luddicenhance_modPlugin",
+}

@@ -1,0 +1,60 @@
+{
+  "variantId": "beldam_broad",
+  "hullId": "beldam",
+  "displayName": "Broadsider",
+  "goalVariant": false,
+  "fluxCapacitors": 20,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "auxiliarythrusters"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0008": "autopulse"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "sabotpod",
+        "WS0005": "sabotpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "hurricane"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "taclaser",
+        "WS0004": "ionpulser",
+        "WS0010": "ioncannon",
+        "WS0013": "gravitonbeam",
+        "WS0015": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "heavyburst",
+        "WS0011": "pdlaser",
+        "WS0012": "heavyburst",
+        "WS0014": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

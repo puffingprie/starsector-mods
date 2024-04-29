@@ -1,0 +1,119 @@
+{
+  "bounds": [
+    11.5,
+    1,
+    2,
+    17,
+    -12.5,
+    12.5,
+    -12.5,
+    -12.5,
+    2,
+    -17,
+    11.5,
+    -1
+  ],
+  "center": [
+    24,
+    21
+  ],
+  "collisionRadius": 25,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 26.5,
+      "location": [
+        -13,
+        -0
+      ],
+      "style": "ANVIL",
+      "width": 10
+    },
+    {
+      "angle": -175.5,
+      "contrailSize": 8,
+      "length": 19.5,
+      "location": [
+        -14.5,
+        -11
+      ],
+      "style": "ANVIL",
+      "width": 8
+    },
+    {
+      "angle": 175.5,
+      "contrailSize": 8,
+      "length": 19.5,
+      "location": [
+        -14.5,
+        11
+      ],
+      "style": "ANVIL",
+      "width": 8
+    }
+  ],
+  "height": 43,
+  "hullId": "keruvim_spider",
+  "hullName": "Spider",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 24.5,
+  "spriteName": "graphics/ships/keruvim_spider.png",
+  "style": "PRIDE_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS0001",
+      "locations": [
+        17,
+        -6.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 15,
+      "id": "WS0002",
+      "locations": [
+        17,
+        6.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS0003",
+      "locations": [
+        7.5,
+        -13.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 15,
+      "id": "WS0005",
+      "locations": [
+        7.5,
+        13.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 48
+}

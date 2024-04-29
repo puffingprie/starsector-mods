@@ -1,0 +1,95 @@
+{
+  "hullName": "Nekoyan",
+  "hullId": "uaf_wing_nekoyan",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/nekoyan_sft.png",
+  "style": "UAF_FIGHTER_S",
+  "height": 60,
+  "width": 51,
+  "center": [25.5, 30],
+  "collisionRadius": 65,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 31.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_limitedAmmo"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": -0,
+      "locations": [-1.5, 3.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": 0,
+      "locations": [-1.5, -3.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [2, 9]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [2, -9]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-13.5, 4.5],
+      "length": 16,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "MELODY_ENGINE_G"
+    },
+    {
+      "location": [-13.5, -4.5],
+      "length": 16,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "MELODY_ENGINE_G"
+    },
+    {
+      "location": [-15, -0],
+      "length": 16,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "MELODY_ENGINE_G"
+    }
+  ],
+  "bounds": [
+    27, -0.5,
+    15.5, -2,
+    -2, -13.5,
+    -12.5, -25.5,
+    -28.5, -13.5,
+    -20.5, -7.5,
+    -20.5, 7.5,
+    -28.5, 13.5,
+    -12.5, 25.5,
+    -2, 13.5,
+    15.5, 2,
+    27, 0.5
+  ]
+}

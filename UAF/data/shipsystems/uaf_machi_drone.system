@@ -1,0 +1,34 @@
+{
+	#-30,-45,-90,-135,-150
+	"id":"uaf_ravenya_troop_carrier",
+	"type":"DRONE_LAUNCHER",
+	"aiType":"DRONE_LAUNCHER_PD",
+	
+	"droneVariant":"uaf_vernya_drone",
+	
+	"allowFreeRoam":false,
+	
+	"launchSpeed":300,
+	"launchDelay":0.5,
+	"maxDrones":2,
+	"droneBehavior":[
+		{"droneIndex":[0,1,2,3],
+		 "defaultFacing":"MATCH_DRONE_HEADING",	# MATCH_DRONE_HEADING, MATCH_SHIP_HEADING, MATCH_SHIP_FACING, AWAY_FROM_SHIP
+		 "faceEnemy":true,
+		 "holdRoamRange":200,
+		 "freeRoamRange":500,
+		 "targetPriority":[SHIP_TARGET,SHIP,FIGHTER,MISSILE],
+		 "initialOrbitAngle":0,
+		 "orbitRadius":-20, 				# plus ship radius
+		 "orbitDir":1, 					# -1 or 1
+		 "orbitSpeed":20, 				# pixels/second
+        }
+	],
+	
+	"useSound":"drone_launch",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+
+	}
+}

@@ -1,0 +1,30 @@
+{
+
+#collapseopen WEAPONS
+
+	# HEAVY BLASTER
+	"hmi_tpc_blaster":
+	[
+		{"file":"sounds/sfx_wpn_energy/hmi_tpc_blaster.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/sfx_wpn_energy/hmi_tpc_blaster.ogg","pitch":0.98,"volume":0.5},
+		{"file":"sounds/sfx_wpn_energy/hmi_tpc_blaster.ogg","pitch":0.95,"volume":0.5},
+	],
+	
+	"hmi_weaver_tpc_sound":
+	[
+		{"file":"sounds/sfx_wpn_energy/weaver_pulse_cannon_fire_01.ogg","pitch":1,"volume":1},
+		{"file":"sounds/sfx_wpn_energy/weaver_pulse_cannon_fire_01.ogg","pitch":1.02,"volume":1},
+		{"file":"sounds/sfx_wpn_energy/weaver_pulse_cannon_fire_01.ogg","pitch":0.98,"volume":1},
+	],	
+	
+	"system_runaway_drive_activate":[ 
+		{"file":"sounds/sfx_systems/runaway_drive_activate.ogg","pitch":1,"volume":0.75},
+	],
+		"system_runaway_drive_loop":[ 
+		{"file":"sounds/sfx_systems/burn_drive_loop.ogg","pitch":1,"volume":0.85},
+	],
+	
+	"system_runaway_drive_deactivate":[ 
+		{"file":"sounds/sfx_systems/burn_drive_deactivate.ogg","pitch":1,"volume":0.85},
+	],
+}

@@ -1,0 +1,105 @@
+{
+  "variantId": "missp_anchor_Miner",
+  "hullId": "missp_anchor",
+  "displayName": "Mining station",
+  "goalVariant": false,
+  "fluxCapacitors": 11,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "targetingunit",
+    "reinforcedhull",
+    "pointdefenseai",
+    "high_scatter_amp",
+    "blast_doors",
+    "ballistic_rangefinder",
+    "armoredweapons",
+    "advancedoptics"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "mininglaser",
+        "WS0014": "mininglaser",
+        "WS0015": "mininglaser",
+        "WS0016": "mininglaser",
+        "WS0017": "mininglaser",
+        "WS0018": "mininglaser",
+        "WS0019": "mininglaser",
+        "WS0020": "mininglaser",
+        "WS0021": "mininglaser",
+        "WS0022": "mininglaser",
+        "WS0023": "mininglaser",
+        "WS0024": "mininglaser",
+        "WS0025": "mininglaser",
+        "WS0026": "mininglaser",
+        "WS0027": "mininglaser",
+        "WS0028": "mininglaser",
+        "WS0029": "mininglaser",
+        "WS0030": "mininglaser",
+        "WS0031": "mininglaser",
+        "WS0032": "mininglaser",
+        "WS0033": "mininglaser",
+        "WS0034": "mininglaser",
+        "WS0035": "mininglaser",
+        "WS0036": "mininglaser",
+        "WS0037": "mininglaser",
+        "WS0038": "mininglaser",
+        "WS0041": "mininglaser",
+        "WS0042": "mininglaser",
+        "WS0043": "mininglaser",
+        "WS0044": "mininglaser",
+        "WS0045": "mininglaser",
+        "WS0046": "mininglaser",
+        "WS0047": "mininglaser",
+        "WS0048": "mininglaser",
+        "WS0049": "mininglaser",
+        "WS0050": "mininglaser",
+        "WS0055": "mininglaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hephag",
+        "WS0002": "hephag",
+        "WS0003": "hephag",
+        "WS0004": "hephag",
+        "WS0005": "hephag",
+        "WS0006": "hephag"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "miningblaster",
+        "WS0008": "miningblaster",
+        "WS0009": "miningblaster",
+        "WS0010": "miningblaster",
+        "WS0011": "miningblaster",
+        "WS0012": "miningblaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0039": "jackhammer",
+        "WS0040": "jackhammer"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "mining_drone_wing",
+    "mining_drone_wing",
+    "mining_drone_wing",
+    "mining_drone_wing"
+  ]
+}

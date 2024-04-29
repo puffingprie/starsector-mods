@@ -1,0 +1,59 @@
+{
+  "variantId": "hmi_convict_cs",
+  "hullId": "hmi_convict",
+  "displayName": "Close Support",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "twotherac",
+        "WS0009": "seth_med"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "mbeke_med"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "seth_sml",
+        "WS0008": "seth_sml"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "vulcan",
+        "WS0005": "vulcan",
+        "WS0007": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "hmi_trapdoor_wing",
+    "hmi_trapdoor_wing"
+  ]
+}

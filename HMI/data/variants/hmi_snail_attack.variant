@@ -1,0 +1,49 @@
+{
+  "variantId": "hmi_snail_attack",
+  "hullId": "hmi_snail",
+  "displayName": "Attack",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "auxiliarythrusters",
+    "insulatedengine"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "mbeke_med"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hmi_kiddie_mortar",
+        "WS0002": "hmi_kiddie_mortar"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "swarmer",
+        "WS0006": "swarmer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "flak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

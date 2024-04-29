@@ -1,0 +1,3 @@
+id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order
+CFT_biolab,Biolab,25,30,,7,,CFT_greyindustry,"structure, industrial",,graphics/CFT/icons/industries/biolab.png,data.campaign.econ.industries.CFT_biolab,"Shielded from orbital scans, this lab produces recreational drugs from biomatter",347
+CFT_greyindustry,Grey Industries,45,45,,15,CFT_biolab,,"industry, industrial",,graphics/CFT/icons/industries/greyindustry.png,data.campaign.econ.industries.CFT_greyindustry,An upgraded workshop added to the biolab that adds heavy weapons to the production line,348

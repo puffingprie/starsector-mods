@@ -1,0 +1,47 @@
+{
+    "displayName": "Star Fortress",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "hullId": "ii_station3",
+    "hullMods": [],
+    "quality": 0.5,
+    "variantId": "ii_station3_sta",
+    "weaponGroups": [],
+    "modules": [
+        # extra drones
+        {"WS0025": "ii_module_drone_sta"},
+
+        # armor
+        {"WS0010": "ii_module_armor_right_sta"},
+        {"WS0011": "ii_module_armor_straight_sta"},
+        {"WS0012": "ii_module_armor_left_sta"},
+        {"WS0013": "ii_module_armor_rightsmall_sta"},
+        {"WS0014": "ii_module_armor_leftsmall_sta"},
+        {"WS0015": "ii_module_armor_right_sta"},
+        {"WS0016": "ii_module_armor_straight_sta"},
+        {"WS0017": "ii_module_armor_left_sta"},
+        {"WS0018": "ii_module_armor_rightsmall_sta"},
+        {"WS0019": "ii_module_armor_leftsmall_sta"},
+        {"WS0020": "ii_module_armor_right_sta"},
+        {"WS0021": "ii_module_armor_straight_sta"},
+        {"WS0022": "ii_module_armor_left_sta"},
+        {"WS0023": "ii_module_armor_rightsmall_sta"},
+        {"WS0024": "ii_module_armor_leftsmall_sta"},
+
+        # structural struts
+        {"WS0002": "ii_module_strut_sta"},
+        {"WS0004": "ii_module_strut_sta"},
+        {"WS0006": "ii_module_strut_sta"},
+
+        # primary modules
+        {"WS0001": "ii_module_combat_sta"},
+        {"WS0003": "ii_module_support_sta"},
+        {"WS0005": "ii_module_support_sta"},
+
+        # bastions
+        {"WS0007": "ii_module_bastion_magnum_sta"},
+        {"WS0008": "ii_module_citadel_shock_sta"},
+        {"WS0009": "ii_module_bastion_magnum_sta"},
+
+    ],
+}

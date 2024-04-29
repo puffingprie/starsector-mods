@@ -1,0 +1,67 @@
+{
+  "variantId": "slugworth_strike",
+  "hullId": "slugworth",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "hammerrack"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "seth_sml",
+        "WS0006": "seth_sml",
+        "WS0018": "seth_sml",
+        "WS0020": "seth_med"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "lightmg",
+        "WS0002": "lightmg",
+        "WS0005": "burst_ml",
+        "WS0007": "burst_ml",
+        "WS0008": "burst_ml",
+        "WS0011": "lightmg",
+        "WS0012": "lightmg",
+        "WS0013": "lightmg",
+        "WS0014": "flak",
+        "WS0016": "flak",
+        "WS0017": "vulcan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0019": "mark_iv"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "support_bombardment_drone_wing",
+    "support_bombardment_drone_wing",
+    "support_bombardment_drone_wing"
+  ]
+}

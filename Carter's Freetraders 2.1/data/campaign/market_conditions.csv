@@ -1,0 +1,2 @@
+name,id,planetary,decivRemove,script,desc,icon,order
+Regional Capital,cft_regional_capital,,TRUE,data.scripts.econ.CFT_regionalcapital,"A major center of administration, security, and logistics. Adds +1 toward the cap of the Industry limit.",graphics/icons/markets/capital.png,500

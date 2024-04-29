@@ -1,0 +1,69 @@
+{
+  "variantId": "uaf_ularaya_prototype_mothership",
+  "hullId": "uaf_ularaya_prototype",
+  "displayName": "Mothership",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "eccm",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "uaf_meitou_chorus_nt"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "uaf_amazoch_s_asrm_single",
+        "WS0006": "uaf_amazoch_s_asrm_single"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "uaf_triyia_pdx"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_vocal_m_srm",
+        "WS0002": "uaf_vocal_m_srm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "uaf_merupaka_epd",
+        "WS0008": "uaf_merupaka_epd"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_puterisaya"
+  ]
+}

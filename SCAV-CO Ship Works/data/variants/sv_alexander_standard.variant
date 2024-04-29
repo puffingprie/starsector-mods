@@ -1,0 +1,58 @@
+{
+  "variantId": "sv_alexander_standard",
+  "hullId": "sv_alexander",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 18,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "advancedoptics",
+    "efficiency_overhaul",
+    "hardenedshieldemitter",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hil",
+        "WS0002": "hil",
+        "WS0004": "hil",
+        "WS0005": "hil"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "salamanderpod",
+        "WS0008": "salamanderpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "guardian",
+        "WS0006": "guardian",
+        "WS0009": "dualflak",
+        "WS0010": "dualflak",
+        "WS0011": "taclaser",
+        "WS0012": "taclaser",
+        "WS0013": "taclaser",
+        "WS0014": "taclaser",
+        "WS0015": "lrpdlaser",
+        "WS0016": "lrpdlaser",
+        "WS0017": "taclaser",
+        "WS0018": "gravitonbeam",
+        "WS0019": "gravitonbeam",
+        "WS0020": "gravitonbeam"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

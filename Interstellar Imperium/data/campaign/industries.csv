@@ -1,0 +1,32 @@
+id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order,disruptDanger
+ii_interstellarbazaar,Interstellar Bazaar,90,90,,5,,,"industry, urban",,graphics/imperium/icons/industry/ii_interstellarbazaar.png,data.scripts.campaign.econ.II_InterstellarBazaar,"A capital of trade, vessels from across the Persean Sector dock here expecting to conduct business and launch joint ventures. The vast Babylon station is fitted with infrastructure to facilitate access, bringing people of common interests together from far and wide.",3000,
+ii_imperialguard,Imperial Guard HQ,90,60,,6,,,"military, unraidable, tactical_bombardment, structure",,graphics/imperium/icons/industry/ii_imperialguard.png,data.scripts.campaign.econ.II_ImperialGuardHQ,"Headquarters of the elite Imperial Guard battlegroup. With peerless discipline and the Imperium's best equipment, the Imperial Guard defends their homeworld from those who would see it destroyed. Imperial Guard postings are prestigious but onerous; few personal freedoms are allowed for those who volunteer for service in the Imperial Guard, and even minor infractions are punished with floggings. The structure itself is shielded from poor weather so that the architecture remains unspoiled.",3001,
+,,,,,,,,,,,,,,
+ii_orbitalstation,Orbital Station - Imperium,50,90,,3,,ii_battlestation,"station, sub_item, unraidable, structure","{
+radius:55,
+variant:ii_station1_sta,
+fleetName:Orbital Station,
+}",graphics/icons/industry/orbital_station.png,data.scripts.campaign.econ.II_OrbitalStation,"An Imperial space station, featuring moderate firepower, heavy missiles, and a fighter complement.
+
+Must be reduced before bombardment can be attempted.",2100,
+ii_battlestation,Battlestation - Imperium,100,120,,4,ii_orbitalstation,ii_starfortress,"station, battlestation, unraidable, structure","{
+radius:65,
+variant:ii_station2_sta,
+fleetName:Battlestation,
+}",graphics/icons/industry/battlestation.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"A space station, augmented with a beam citadel, missile support bastions, and Clypeus-class shield drones.
+
+Must be reduced before bombardment can be attempted.",2110,
+ii_starfortress,Star Fortress - Imperium,200,180,,5,ii_battlestation,,"station, starfortress, unraidable, structure, starter","{
+radius:70,
+variant:ii_station3_sta,
+fleetName:Star Fortress
+}",graphics/icons/industry/battlestation.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"An up-armored battlestation, featuring a Shock Buster, enhanced missile strike capabilities, additional shield drones, and several Tribunal-class beam drones.
+
+Must be reduced before bombardment can be attempted.",2120,
+ii_stellacastellum,Stella Castellum,350,5,,6,ii_starfortress,,"station, starfortress, unraidable, structure","{
+radius:75,
+variant:ii_station4_sta,
+fleetName:Stella Castellum
+}",graphics/icons/industry/battlestation.png,data.scripts.campaign.econ.II_StellaCastellum,"The combat designation of Babylon, a pre-Collapse space station with unmatched defensive capabilities. Even a star fortress is merely a pale imitation of this mighty station.
+
+Must be reduced before bombardment can be attempted.",2130,

@@ -1,0 +1,34 @@
+{
+    "displayName": "Imperial Elite",
+    "fluxCapacitors": 9,
+    "fluxVents": 20,
+    "hullId": "ii_libritor",
+    "hullMods": ["ii_elite_package"],
+    "permaMods": ["ii_elite_package"],
+    "sMods": ["ii_elite_package"],
+    "variantId": "ii_libritor_ie",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ii_magna_fulmen"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "railgun",
+                "WS0005": "railgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "ii_lux",
+                "WS0003": "ii_lux"
+            }
+        }
+    ],
+    "wings": ["ii_scutum_wing"]
+}

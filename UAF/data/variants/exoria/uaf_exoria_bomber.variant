@@ -1,0 +1,55 @@
+{
+  "variantId": "uaf_exoria_bomber",
+  "hullId": "uaf_exoria",
+  "displayName": "Bomber",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "ecm",
+    "pointdefenseai",
+    "recovery_shuttles",
+    "expanded_deck_crew"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_rhythm_base_triple",
+        "WS0004": "uaf_rhythm_base_triple"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "uaf_pd_reina",
+        "WS0006": "uaf_pd_reina"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "uaf_chorus_s_amm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_weiss_flk",
+        "WS0002": "uaf_weiss_flk"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_hibiscus",
+    "uaf_wing_hibiscus",
+    "uaf_wing_fisoyuz"
+  ]
+}

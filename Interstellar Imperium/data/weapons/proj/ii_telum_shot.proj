@@ -1,0 +1,18 @@
+{
+    "id":"ii_telum_shot",
+    "specClass":"projectile",
+    "spawnType":"BALLISTIC",
+    "collisionClass":"PROJECTILE_FF",
+    "collisionClassByFighter":"PROJECTILE_FIGHTER",
+    "length":110.0,
+    "hitGlowRadius":55,
+    "width":7.5,
+    "fadeTime":0.25,
+    "fringeColor":[148,148,224,255],
+    "coreColor":[200,200,255,255],
+    "glowColor":[255,255,255,30],
+    "glowRadius":50,
+    "textureScrollSpeed":64.0,
+    "pixelsPerTexel":5.0,
+    "bulletSprite":"graphics/missiles/shell_large_blue.png"
+}

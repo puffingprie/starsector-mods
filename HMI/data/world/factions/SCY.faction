@@ -1,0 +1,13 @@
+{	
+	"hullFrequency":{
+		"hulls":{
+		"mulligan":0,
+		"hmi_charlie":0,
+		"hmi_wobbie":0,
+		},
+	},
+	"illegalCommodities":[
+		"red_water",
+		"mess_nano",
+	],
+},

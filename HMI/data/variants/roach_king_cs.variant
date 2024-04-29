@@ -1,0 +1,79 @@
+{
+  "variantId": "roach_king_cs",
+  "hullId": "roach_king",
+  "displayName": "Close Support",
+  "goalVariant": true,
+  "fluxCapacitors": 16,
+  "fluxVents": 30,
+  "quality": 0,
+  "permaMods": [
+    "comp_hull",
+    "comp_armor"
+  ],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "insulatedengine",
+    "frontshield",
+    "turretgyros",
+    "stabilizedshieldemitter",
+    "magazines"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "mark_iv"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "seth_med",
+        "WS0005": "seth_med",
+        "WS0006": "seth_sml",
+        "WS0024": "seth_sml",
+        "WS0025": "seth_sml",
+        "WS0026": "seth_sml"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "rock_launcher",
+        "WS0002": "rock_launcher",
+        "WS0003": "launcher_cannon",
+        "WS0007": "launcher_cannon",
+        "WS0008": "launcher_cannon",
+        "WS0009": "launcher_cannon",
+        "WS0018": "launcher_cannon",
+        "WS0027": "rock_launcher",
+        "WS0028": "rock_launcher"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0017": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0010": "flak",
+        "WS0011": "vulcan",
+        "WS0013": "vulcan",
+        "WS0014": "vulcan",
+        "WS0016": "vulcan",
+        "WS0019": "flak",
+        "WS0023": "flak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

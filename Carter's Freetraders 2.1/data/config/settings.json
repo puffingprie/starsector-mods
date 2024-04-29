@@ -1,0 +1,13 @@
+{
+	"designTypeColors":{
+		"CFT":[255,228,196,200],
+    },
+
+    "graphics":{	
+            },
+		"blueprint_packages":{
+            "cft_package":"graphics/CFT/icons/cargo/CFT_blueprint.png",
+            "cftweapon_package":"graphics/CFT/icons/cargo/CFT_blueprint.png",			
+        },
+		
+}

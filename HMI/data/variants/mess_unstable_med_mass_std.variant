@@ -1,0 +1,22 @@
+{
+  "variantId": "mess_unstable_med_mass_std",
+  "hullId": "mess_unstable_med_mass",
+  "displayName": "Highly Hazardous",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "feeder_gun_med"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

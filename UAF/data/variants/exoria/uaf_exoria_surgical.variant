@@ -1,0 +1,54 @@
+{
+  "variantId": "uaf_exoria_surgical",
+  "hullId": "uaf_exoria",
+  "displayName": "Surgical",
+  "goalVariant": true,
+  "fluxCapacitors": 3,
+  "fluxVents": 6,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "eccm",
+    "recovery_shuttles",
+    "expanded_deck_crew"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_selemene_m_mrm",
+        "WS0004": "uaf_selemene_m_mrm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "uaf_deco_mg",
+        "WS0006": "uaf_deco_mg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_pd_reina",
+        "WS0002": "uaf_pd_reina"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "uaf_vocal_s_srm"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_exoscar",
+    "uaf_wing_exoscar",
+    "uaf_wing_surreal"
+  ]
+}

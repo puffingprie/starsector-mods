@@ -1,0 +1,62 @@
+{
+  "variantId": "expsp_anker_Lancer",
+  "hullId": "expsp_anker",
+  "displayName": "Lancer",
+  "goalVariant": true,
+  "fluxCapacitors": 2,
+  "fluxVents": 25,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "stabilizedshieldemitter",
+    "targetingunit",
+    "frontemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_gluonlance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "expsp_dpcannon",
+        "WS0007": "expsp_dpcannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "salamanderpod",
+        "WS0005": "salamanderpod",
+        "WS0014": "expsp_poke",
+        "WS0015": "expsp_poke"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "expsp_hunterflak",
+        "WS0009": "expsp_hunterflak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "expsp_coilciws",
+        "WS0003": "expsp_coilciws",
+        "WS0010": "expsp_coilciws",
+        "WS0011": "expsp_coilciws"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

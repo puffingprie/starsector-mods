@@ -1,0 +1,259 @@
+{
+  "bounds": [
+    126.5,
+    -46.5,
+    144,
+    -0,
+    126.5,
+    46.5,
+    92,
+    60.5,
+    -42,
+    60,
+    -79.5,
+    52,
+    -126.5,
+    54,
+    -136,
+    27.5,
+    -136,
+    -27.5,
+    -126.5,
+    -54,
+    -79.5,
+    -52,
+    -42,
+    -60,
+    92,
+    -60.5
+  ],
+  "builtInMods": [
+    "civgrade",
+    "eccm",
+    "ecm",
+    "nav_relay"
+  ],
+  "center": [
+    63,
+    142
+  ],
+  "collisionRadius": 160.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 20,
+      "length": 59,
+      "location": [
+        -137,
+        18.5
+      ],
+      "style": "LOW_TECH",
+      "width": 20
+    },
+    {
+      "angle": -180,
+      "contrailSize": 20,
+      "length": 59,
+      "location": [
+        -137,
+        -18.5
+      ],
+      "style": "LOW_TECH",
+      "width": 20
+    },
+    {
+      "angle": 180,
+      "contrailSize": 20,
+      "length": 59,
+      "location": [
+        -137,
+        0.5
+      ],
+      "style": "LOW_TECH",
+      "width": 20
+    }
+  ],
+  "height": 284,
+  "hullId": "missp_starlinermkii",
+  "hullName": "Starliner Mk.II",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 151.5,
+  "spriteName": "graphics/ships/starliner/starliner_mkii.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 90,
+      "arc": 180,
+      "id": "WS0002",
+      "locations": [
+        -2,
+        48
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -90,
+      "arc": 180,
+      "id": "WS0003",
+      "locations": [
+        -2,
+        -48
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 90,
+      "arc": 180,
+      "id": "WS0004",
+      "locations": [
+        -32,
+        48
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -90,
+      "arc": 180,
+      "id": "WS0005",
+      "locations": [
+        -32,
+        -48
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 140,
+      "arc": 260,
+      "id": "WS0001",
+      "locations": [
+        -117,
+        40
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -140,
+      "arc": 260,
+      "id": "WS0006",
+      "locations": [
+        -117,
+        -40
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 45,
+      "arc": 202,
+      "id": "WS0007",
+      "locations": [
+        119,
+        29
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -45,
+      "arc": 202,
+      "id": "WS0008",
+      "locations": [
+        119,
+        -29
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 90,
+      "arc": 202,
+      "id": "WS0009",
+      "locations": [
+        77,
+        45
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -90,
+      "arc": 202,
+      "id": "WS0010",
+      "locations": [
+        77,
+        -45
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 90,
+      "arc": 202,
+      "id": "WS0011",
+      "locations": [
+        -87,
+        40
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -90,
+      "arc": 202,
+      "id": "WS0012",
+      "locations": [
+        -87,
+        -40
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        13.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 2",
+      "locations": [
+        23,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    }
+  ],
+  "width": 126
+}

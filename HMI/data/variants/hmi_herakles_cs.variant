@@ -1,0 +1,70 @@
+{
+  "variantId": "hmi_herakles_cs",
+  "hullId": "hmi_herakles",
+  "displayName": "Close Support",
+  "goalVariant": true,
+  "fluxCapacitors": 28,
+  "fluxVents": 50,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "eccm",
+    "hardened_subsystems",
+    "stabilizedshieldemitter",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mark9"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "locust",
+        "WS0009": "locust"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "twotherac",
+        "WS0003": "twotherac",
+        "WS0004": "hmi_voracious",
+        "WS0005": "hmi_voracious",
+        "WS0006": "hmi_voracious",
+        "WS0007": "hmi_voracious"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0014": "vulcan",
+        "WS0015": "vulcan",
+        "WS0016": "vulcan",
+        "WS0017": "vulcan",
+        "WS0020": "vulcan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "seth_sml",
+        "WS0011": "seth_sml",
+        "WS0012": "seth_sml",
+        "WS0013": "seth_sml",
+        "WS0018": "pilum",
+        "WS0019": "pilum"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

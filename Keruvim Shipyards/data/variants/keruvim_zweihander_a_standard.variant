@@ -1,0 +1,51 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 20,
+  "fluxVents": 12,
+  "goalVariant": true,
+  "hullId": "keruvim_zweihander_a",
+  "hullMods": [
+    "insulatedengine"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "keruvim_zweihander_a_standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "keruvim_star",
+        "WS0004": "keruvim_star"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "keruvim_blast_gun",
+        "WS0007": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightdualac",
+        "WS0002": "lightag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "keruvim_needle",
+        "WS0008": "keruvim_needle"
+      }
+    }
+  ],
+  "wings": [
+    "keruvim_spider"
+  ]
+}

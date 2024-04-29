@@ -1,0 +1,18 @@
+{
+    "id":"hmi_rapidrepair",
+    "type":"STAT_MOD",
+	"aiType":"CUSTOM",
+
+    "statsScript":"data.shipsystems.scripts.HMI_RapidRepairStats",
+	"aiScript":"data.shipsystems.scripts.ai.HMI_RapidRepairAI",
+	
+	"weaponGlowColor":[230,255,216,0],
+	"weaponTypes":[ENERGY, BALLISTIC, MISSILE],
+	"engineGlowColor":[230,255,216,0],
+
+	"useSound":"system_damper",
+	"loopSound":"system_damper_loop",
+	"deactivateSound":"system_damper_off",
+	"outOfUsesSound":"gun_out_of_ammo",
+
+}

@@ -1,0 +1,41 @@
+{
+  "displayName": "Mining",
+  "fluxCapacitors": 2,
+  "fluxVents": 5,
+  "goalVariant": false,
+  "hullId": "wayfarer",
+  "hullMods": [
+    "insulatedengine",
+    "unstable_injector"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "wayfarer_p_mining",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "mining_gen",
+        "WS 002": "mining_gen"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 005": "hammer",
+        "WS 006": "hammer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 003": "burst_ml",
+        "WS 004": "burst_ml"
+      }
+    }
+  ],
+  "wings": []
+}

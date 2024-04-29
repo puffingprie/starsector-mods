@@ -1,0 +1,23 @@
+{
+  "variantId": "drone_feeder_free_stripper",
+  "hullId": "drone_feeder",
+  "displayName": "Stripper",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "feeder_gun",
+        "WS0002": "ioncannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

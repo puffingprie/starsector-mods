@@ -1,0 +1,179 @@
+{
+  "hullName": "Cat O Nine Tails",
+  "hullId": "sv_catoninetails",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/pirate ships/sv_catoninetails.png",
+  "style": "VACSINC",
+  "height": 232,
+  "width": 202,
+  "center": [101, 116],
+  "collisionRadius": 189,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 181.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sv_vacsincconstruction",
+    "sv_spokeengines"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-22, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 223,
+      "angle": -46.5,
+      "locations": [48.5, -35]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 223,
+      "angle": 46.5,
+      "locations": [48.5, 35]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [108, -63]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": -0,
+      "locations": [108, 63]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [108, -88]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": -0,
+      "locations": [108, 88]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": -0,
+      "locations": [82, -32]
+    },
+    {
+      "id": "WS0009",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [82, 32]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [18, -87],
+      "length": 55,
+      "width": 22,
+      "angle": 180,
+      "contrailSize": 22,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [18, 87],
+      "length": 55,
+      "width": 22,
+      "angle": -180,
+      "contrailSize": 22,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-98, 51.5],
+      "length": 55,
+      "width": 22,
+      "angle": -180,
+      "contrailSize": 22,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-98, -51.5],
+      "length": 55,
+      "width": 22,
+      "angle": 180,
+      "contrailSize": 22,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-115, 9.5],
+      "length": 55,
+      "width": 22,
+      "angle": -180,
+      "contrailSize": 22,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-115, -9.5],
+      "length": 55,
+      "width": 22,
+      "angle": 180,
+      "contrailSize": 22,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    }
+  ],
+  "bounds": [
+    -113.5, 16,
+    -70.5, 44,
+    -97, 44,
+    -97, 59,
+    37, 59,
+    19, 79.5,
+    19, 95.5,
+    113, 95.5,
+    113, 54,
+    100.5, 17,
+    100.5, -17,
+    113, -54,
+    113, -95.5,
+    19, -95.5,
+    19, -79.5,
+    37, -59,
+    -97, -59,
+    -97, -44,
+    -70.5, -44,
+    -113.5, -16
+  ]
+}

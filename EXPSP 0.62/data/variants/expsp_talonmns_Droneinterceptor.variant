@@ -1,0 +1,29 @@
+{
+  "variantId": "expsp_talonmns_Droneinterceptor",
+  "hullId": "expsp_talonmns",
+  "displayName": "Drone Interceptor",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_coilciwsmini"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "expsp_pokemini_fighter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

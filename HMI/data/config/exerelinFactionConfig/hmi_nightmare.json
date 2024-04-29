@@ -1,0 +1,8 @@
+{
+    "uniqueModClassName":"data.scripts.world.HMI_gen",
+    "playableFaction":false,
+    "corvusCompatible":true,
+    "dropPrisoners":false,
+    "hostileToAll":2,
+ 
+}

@@ -1,0 +1,60 @@
+{
+  "variantId": "hmi_streak_mb_ml",
+  "hullId": "hmi_streak",
+  "displayName": "Mining",
+  "goalVariant": false,
+  "fluxCapacitors": 8,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "frontshield",
+    "hmi_miningHSA",
+    "reinforcedhull",
+    "insulatedengine",
+    "extendedshieldemitter",
+    "advancedshieldemitter",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mbeke_med"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "hmi_mininglaser_array"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "hmi_mininglaser_array"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "mininglaser",
+        "WS0005": "mininglaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "mininglaser",
+        "WS0007": "mininglaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,23 @@
+fieldID,fieldName,fieldType,defaultValue,secondaryValue,fieldDescription,minValue,maxValue,tab
+# Defense Mission Options,,,,,,,,
+mmmDmUseHiddenFactions,Use Hidden Factions,Boolean,true,,"If true generate enemies from any factions with ships, including hidden factions. Can spoil hidden content and break immersion.",,,Defense Mission
+mmmDmEnemyIgnoredByOtherFleets,Enemy Ignored By Other Fleets,Boolean,true,,"If set friendly fleets won't chase after the enemy fleets, making it more likely that they will make it to the station.",,,Defense Mission
+mmmDmCreditRewardPerFp,Credit Reward Per Fleet Point,Int,650,,How many credits you get per enemy fleet strength.,0,2000,Defense Mission
+mmmDmMinCreditReward,Minimum Credit Reward,Int,40000,,Minimum credits you get per mission.,0,100000,Defense Mission
+mmmDmDifficultyGrowth,Difficulty Growth,Double,1.3,,How fast enemy fleet strength can grow above station plus player fleet strength (if you win missions).,"0.0
+",2.0,Defense Mission
+mmmDmStationEffectiveFpRatio,Station Effective FP Ratio,Double,0.9,,"Changes the effective fleet strength of the station for enemy strength calculation. The smaller this ratio, the weaker the enemy.",0.1,2.0,Defense Mission
+,,,,,,,,
+# Escort Mission Options,,,,,,,,
+mmmEmAddAllIntel,Add All Trade Intel,Boolean,true,,"If true, adds all eligible fleet departures to intel regardless of distance or faction. Makes it easier to find escort missions.",,,Escort Mission
+mmmEmPirateSpawnChance,Pirate Spawn Chance,Double,0.5,,Chance that pirate will spawn for each leg of the journey.,0.0,1.0,Escort Mission
+mmmEmConvoyStrengthRatio,Pirate Raider Strength Ratio,Double,1.0,,Changes the effective strength of the convoy for pirate fleet size computation. The smaller this ratio the weaker the pirate.,0.1,2.0,Escort Mission
+,,,,,,,,
+# VIP Mission Options,,,,,,,,
+mmmVipMissionProb,VIP Mission Chance,Double,0.5,,Probability that derelict ships from distress calls will have a VIP onboard. Note that distress calls have a 1/4 probability to be just a derelict ship,0.0,1.0,
+,,,,,,,,
+# Force Auto Resolve Options,,,,,,,,
+mmmForceAutoResolveEnabled,Force Auto Resolve Enabled,Boolean,true,,"If true and your fleet is much bigger, adds an option to auto resolve battles even if enemy is not interested in fleeing.",,,
+mmmForceAutoResolveMinStrengthRatio,Force Auto Resolve Min Strength Ratio,Double,3.5,,"If your fleet strength is greater than this ratio of the enemy fleet strength, adds the auto resolve option.",1.0,10.0,
+,,,,,,,,
+,,,,,,,,

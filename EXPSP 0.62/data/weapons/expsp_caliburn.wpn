@@ -1,0 +1,59 @@
+{
+  "id": "expsp_caliburn",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/null.png",
+  "turretGlowSprite": "graphics/weapons/expsp_caliburn_glow.png",
+  "hardpointSprite": "graphics/weapons/null.png",
+  "hardpointGlowSprite": "graphics/weapons/expsp_caliburn_glow.png",
+  "glowColor": [
+    70,
+    252,
+    255,
+    255
+  ],
+  "hitGlowRadius": 75,
+  "turretOffsets": [
+    0,0
+  ],
+  "turretAngleOffsets": [
+    0,
+    
+  ],
+  "hardpointOffsets": [
+    0,0
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    
+  ],
+  "fringeColor": [
+    70,
+    252,
+    252,
+    255
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+ 	"darkCore":false,
+
+  "width": 20,
+  "textureType": LASER,
+  "textureScrollSpeed": 260,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundTwo": "ion_beam_loop"
+}

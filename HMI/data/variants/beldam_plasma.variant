@@ -1,0 +1,59 @@
+{
+  "variantId": "beldam_plasma",
+  "hullId": "beldam",
+  "displayName": "Plasma",
+  "goalVariant": false,
+  "fluxCapacitors": 5,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "plasma",
+        "WS0008": "plasma"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "heavyblaster",
+        "WS0005": "heavyblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "ioncannon",
+        "WS0004": "ionpulser",
+        "WS0007": "ionpulser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0010": "pdlaser",
+        "WS0011": "pdlaser",
+        "WS0012": "pdburst",
+        "WS0013": "pdburst",
+        "WS0014": "pdlaser",
+        "WS0015": "pdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

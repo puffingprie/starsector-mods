@@ -1,0 +1,49 @@
+{
+  "variantId": "expsp_kiel_Standard",
+  "hullId": "expsp_kiel",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 27,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "stabilizedshieldemitter",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_evelyn",
+        "WS0002": "expsp_coilciws_med"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "expsp_coilciws",
+        "WS0004": "expsp_particle_caliver",
+        "WS0005": "expsp_coilciws_med",
+        "WS0006": "expsp_coilciws_med",
+        "WS0008": "expsp_coilciws"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "expsp_plasmamrm"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

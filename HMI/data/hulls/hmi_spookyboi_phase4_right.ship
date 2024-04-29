@@ -1,0 +1,82 @@
+{
+  "hullName": "Uknown Contact",
+  "hullId": "hmi_spookyboi_phase4_right",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/mess/hmi_spookyboi_phase4_right.png",
+  "style": "HIGH_TECH_VANISH",
+  "height": 94,
+  "width": 48,
+  "center": [24, 47],
+  "collisionRadius": 55.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 53.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "advancedoptics",
+    "advancedshieldemitter",
+    "hmi_terror_vanish"
+  ],
+  "builtInWeapons": {
+    "WS0001": "gravitonbeam",
+    "WS0002`": "shockrepeater"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [20, 2]
+    },
+    {
+      "id": "WS0002`",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": -45,
+      "locations": [17, -9]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-26, -6.5],
+      "length": 6.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-30.5, 9],
+      "length": 6.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-35, 0],
+      "length": 6.5,
+      "width": 5,
+      "angle": -166,
+      "contrailSize": 5,
+      "style": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    26.5, 2.5,
+    39.5, 3,
+    44.5, -14.5,
+    29, -18,
+    18, -14.5,
+    18.5, -22,
+    5, -14,
+    -28.5, -14,
+    -43, 3,
+    -25.5, 15,
+    34.5, 18
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "variantId": "afflictor_lpblack",
+  "hullId": "afflictor",
+  "displayName": "Illuminated",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "unstable_injector",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "hammer",
+        "WS 004": "hammer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "lightag",
+        "WS 003": "lightag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 006": "ioncannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

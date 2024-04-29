@@ -1,0 +1,211 @@
+name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,c/s,c/f,f/s,f/f,crew/s,crew/f,hints,tags,rarity,breakProb,minPieces,maxPieces,travel drive,number
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Remora Drone,drone_remora_scan,,High Tech,,,200,25,150,,100,,,175,250,250,45,90,5,NONE,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,10999.1
+Blitz Borer,drone_blitz_borer,,Junker (HMI),,,90,25,200,,100,,,355,500,400,90,270,5,NONE,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,10999.2
+Reign Borer,drone_blitz_borer_suicide,,Junker (HMI),,,300,100,200,,100,,,235,300,300,90,180,5,NONE,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,10999.2
+Bombardment Pod,support_bombardment_drone,,Junker (HMI),,,350,50,150,,100,0,,195,150,95,60,60,50,NONE,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,0,,,,11000
+Heavy Shepherd Drone,heavy_shepherd_borer,,HMI Modification,,,550,300,350,,75,0,,250,250,250,250,250,50,NONE,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,0,,,,11001
+Shell,hmi_shell,,Junker (HMI),flarelauncher,,500,150,150,,100,0,,85,50,50,40,75,50,NONE,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,0,,,,11024.1
+Taker Mining Drone,hmi_taker_drone,,Junker (HMI),highenergyfocus,,800,150,150,,100,0,,125,75,75,45,90,50,NONE,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,0,,,,108
+Trapdoor,hmi_trapdoor,,HMI Modification,,,200,25,400,,100,0,,245,350,275,180,300,10,NONE,,,,,,,1,1,,,,,,,,,,,,,,,,,,,,,,0,,,,11024.2
+Nail,hmi_nail,,HMI Techmined,,,65,15,300,,100,0,,250,350,300,100,200,20,FRONT,,360,0,0.8,,,1,1,,,,,,,,,,,,,,,,,,,,,,0,,,,11024.2
+Scogliera,hmi_scogliera,,HMI Techmined,flarelauncher_fighter,,550,150,120,,100,0,,235,420,370,140,220,30,FRONT,,160,0,0.6,,,2,2,,,,,,,,,,,,,,,,,,,,,,0,,,,104
+Scale,hmi_scale,,HMI Techmined,,,500,300,150,,75,0,,175,75,75,90,90,50,NONE,,,,,,,2,2,,,,,,,,,,,,,,,,,,,,,,0,,,,11024
+Vincensa,hmi_vincensa,,HMI Techmined,,,300,25,150,,50,0,,150,200,200,70,120,40,OMNI,,160,0,1,,,2,2,,,,,,,,,,,,,,,,,,,,,,0,,,,11200
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+##HMI Mods,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Crook,shepherd_heavy,Heavy Frigate,HMI Modification,hmi_drone_heavy_borer,5,2750,400,1250,,150,35,,75,100,60,60,120,200,NONE,,0,0,0,,,20,40,65,40,1,40,10,12000,8,20,240,0.25,5,5,,,,,,,,"hmi_bp, ind",,0.5,2,2,,222.2222
+Whiskey Priest,shepherd_light,Stripped Drone Tender,HMI Modification,flarelauncher,4,450,200,750,,100,10,3,80,75,85,90,180,200,NONE,,0,0,0,,,50,35,20,10,1,10,10,8000,8,20,180,0.25,3,3,,,,,,,CARRIER,"hmi_bp, ind",0.75,0.5,2,2,,216
+Barber,lasher_hmi,Mining Frigate,HMI Modification,hmi_drill_attack,4,2150,485,1200,,160,35,,125,115,85,55,110,200,NONE,,0,0,0,,,35,50,100,25,1,25,10,8500,8,10,240,0.25,4,4,,,,,,,,"hmi_bp, ind",,0.8,2,2,,11002.22212
+Khorkhoi,cerberus_miner,Mining Frigate,HMI Modification,burndrive,5,2300,315,1300,,160,30,,100,95,70,55,120,300,NONE,,0,0,0,,,20,50,100,40,1,40,10,9500,8,10,240,0.25,4,4,,,,,,,,"hmi_bp, ind",,0.4,2,2,,11006
+Maunderer,maunderer,Mining Freighter,HMI Modification,flarelauncher,6,2250,250,1600,,120,30,2,70,85,60,45,70,300,OMNI,,90,0.5,1.2,,,35,50,100,40,1,40,8,14000,8,10,240,0.25,7,7,,,,,,,"CIVILIAN, CARRIER","hmi_bp, ind",0.75,0.5,2,2,,221
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Remora,remora,Drone Tender,High Tech,flarelauncher_active,3,1000,150,1000,,80,25,1,125,90,80,90,120,125,OMNI,,90,0.4,0.6,,,20,40,100,60,0.5,120,9,11000,8,20,180,0.25,3,3,,,,,,,CARRIER,"hightech_bp, ind",,0.5,2,2,,203.5
+Mulligan,mulligan,Phase Destroyer,Low Tech,ammofeed,12,3350,600,3900,,265,60,,90,80,65,60,80,200,PHASE,phasecloak,,,,0.06,0.06,20,35,35,35,1,35,9,34000,10,20,180,0.25,8,8,,,,,,,,"lowtech_bp, ind",,0.8,2,2,,228.1
+Prognosticator,prognosticator,Experimental Destroyer,High Tech,hmi_timeaccelerator,10,3850,250,5000,,145,30,,85,75,65,30,30,350,OMNI,,120,0.4,0.6,,,50,60,30,30,2,15,9,45000,5,15,240,0.25,11,11,,,,,,,,"hightech_bp, hist1t, merc, tritachyon",0.5,0.5,2,3,,301.1111
+Dromedary,mule_hmi_heavy,Explorer Destroyer,HMI Modification,reservewing,10,5650,625,3750,,150,65,1,35,25,20,20,15,500,FRONT,,90,0.4,1.1,,,40,80,125,150,1.25,120,9,36000,2.5,16,300,0.35,8,8,,,,,,,"CARRIER, COMBAT, NO_AUTO_ESCORT","hmi_bp, ind",,0.5,2,3,,11022
+Donkey,mule_hmi_light,Stripped Miner,HMI Modification,flarelauncher,8,1250,250,3000,,150,30,5,65,55,65,40,30,375,NONE,,0,0,0,,,100,60,35,20,2,10,9,28000,5,10,300,0.25,6,6,,,,,,,CARRIER,"hmi_bp, ind",0.75,0.5,2,3,,310
+Ass,mule_hmi_x,Converted Destroyer,Pirate,burndrive,10,4950,600,4700,,245,80,,70,50,40,40,40,500,FRONT,,165,0.4,0.8,,,35,50,85,40,2,20,9,38000,5,10,240,0.25,8,8,,,,,,,ALWAYS_PANIC,pirate_bp,,0.5,2,3,,11021.2
+Nebulite,nebula_hmi,Converted Miner,HMI Modification,flarelauncher,12,3000,175,1500,,85,40,3,55,45,35,20,12,450,OMNI,,90,0.5,1.2,,,55,100,200,80,2,40,7,28000,4,20,240,0.25,12,12,,,,,,,"CIVILIAN, CARRIER","hmi_bp, ind",0.75,,2,3,,313
+Hippocampus,hippocampus,Explorer Destroyer,High Tech,targetingfeed,16,8500,165,3850,,265,80,2,50,35,15,25,20,400,OMNI,,120,0.4,0.6,,,100,220,185,100,2,50,8,42500,4,8,360,0.25,16,16,,,,,,,CARRIER,"hightech_bp, tritachyon",,0.6,2,3,,305.1111
+Mora (P),mora_pirates,Combat Carrier,Pirate,burndrive,15,10000,1250,4000,,200,105,2,45,20,10,10,10,2000,OMNI,,150,0.4,1,,,175,300,100,60,4,15,8,105000,4,12,420,0.25,18,18,,,,,,,"CARRIER, COMBAT, NO_AUTO_ESCORT",pirate_bp,,0.4,2,3,,410
+Beldam,beldam,Battlecruiser,High Tech,microburn,20,7500,650,16000,,1000,220,,70,50,40,8,12,1500,OMNI,,180,0.4,0.7,,,180,300,100,120,8,15,8,350000,3,12,540,0.25,35,35,,,,,,,,"rare_bp, hist2t, merc",,0.4,2,3,,402
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+##HMI Junkers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Shotglass,hmi_shotglass,Junker Shuttle,Junker (HMI),flarelauncher,2,1000,125,885,1250,175,40,,150,150,100,90,120,200,NONE,,0,0,0,,,2,5,20,20,1,20,11,7000,5,10,240,0.25,2,2,,,,,,,,hmi_junk_bp,,0.8,2,2,,220.111
+Greasy,hmi_greasy,Junker Frigate,Junker (HMI),burndrive,4,7000,265,2200,2188,125,65,,90,80,80,40,80,300,NONE,,0,0,0,,,30,50,40,25,1,25,10,20000,8,10,240,0.25,4,4,,,,,,, ,hmi_junk_bp,,0.5,2,2,,220.11
+Snail,hmi_snail,Junker Frigate,Junker (HMI),fastmissileracks,4,6500,240,2500,2188,155,50,,85,75,75,35,35,250,NONE,,0,0,0,,,15,45,85,20,1,20,10,18000,8,10,240,0.25,4,4,,,,,,,,hmi_junk_bp,,0.6,2,2,,219.01
+Streak,hmi_streak,Junker Frigate,Junker (HMI),ammofeed,4,5500,185,2000,1875,185,70,,120,85,85,65,120,285,NONE,,0,0,0,,,20,30,10,10,1,10,11,13500,8,10,240,0.25,4,4,,,,,,,,hmi_junk_bp,,0.8,2,2,,213.01
+Creep,hmi_creep,Junker Destroyer,Junker (HMI),ammofeed,10,8500,265,4000,4167,245,120,,95,75,75,45,80,375,NONE,,0,0,0,,,65,85,50,40,2,20,9,36000,5,12,360,0.25,8,8,,,,,,,,hmi_junk_bp,,0.8,2,3,,3000.01
+Convict,hmi_convict,Junker Carrier,Junker (HMI),fastmissileracks,10,3500,125,2250,2813,185,85,2,60,30,25,20,20,300,NONE,,0,0,0,,,120,150,85,50,2,25,9,48000,5,15,360,0.25,10,10,,,,,,,CARRIER,hmi_junk_bp,,0.8,2,3,,3181.01
+Cockroach,cockroach,Junker Destroyer,Junker (HMI),burndrive,8,10500,305,4800,3333,175,140,,65,40,40,30,60,500,NONE,,0,0,0,,,60,100,90,90,3,30,9,18900,5,12,360,0.25,8,8,,,,,,,,hmi_junk_bp,,0.7,2,2,,220.1
+Zebu,zebu,Junker Freighter,Junker (HMI),flarelauncher,5,7500,125,1500,1167,100,40,,65,25,20,15,15,400,NONE,,0,0,0,,,50,100,325,100,2,40,9,18000,5,20,240,0.25,3,3,,,,,,,FREIGHTER,hmi_junk_bp,,0.6,2,3,,11020
+Slugworth,slugworth,Heavy Junker Carrier,Junker (HMI),targetingfeed,15,16000,650,4500,4000,185,160,3,35,20,10,8,8,2000,NONE,,0,0,0,,,350,460,125,60,5,12,8,125000,5,12,540,0.25,24,24,,,,,,,"CARRIER, COMBAT, NO_AUTO_ESCORT",hmi_junk_bp,,0.6,2,3,,410.011
+Roach King,roach_king,Heavy Junker Cruiser,Junker (HMI),burndrive,16,18000,690,6850,9000,275,260,,40,15,8,10,10,2150,NONE,,0,0,0,,,200,300,225,350,5,70,8,110000,5,12,540,0.25,24,24,,,,,,,,hmi_junk_bp,,0.6,2,3,,11021
+Junk,junk,Combat Superfreighter,Junker (HMI),hmi_rapidrepair,20,25500,365,18000,5000,420,230,3,25,5,5,5,5,8000,OMNI,,60,0.6,1.2,,,650,1500,3000,800,14,142,7,225000,2,25,720,0.25,25,25,,,,,,, ,rare_bp,,0.6,2,3,,11022.2
+Fishkill,fishkill,Superheavy Carrier,Junker (HMI),hmi_rapidrepair,30,29000,325,16500,15000,365,300,6,30,10,10,7,4,8000,OMNI,,60,0.6,1.4,,,750,950,1250,400,15,27,6,300000,2,25,720,0.25,40,40,,,,,,,CARRIER,rare_bp,,0.7,2,4,,11022.3
+Locomotive,hmi_locomotive,Weaponised Junker Station,Junker (HMI),hmi_runaway,40,40000,800,31000,10000,450,325,2,20,4,3,3,3,2000,NONE,,0,0,0,,,1850,2500,2500,1000,40,25,6,1000000,2,15,720,0.25,85,85,,,,,,,SHIP_WITH_MODULES,rare_bp,,0.4,2,3,,507
+,hmi_locomotive_base,Base Structure,,,1,5000,1000,0,2500,100,0,,0,0,0,10,10,1250,NONE,,0,0,0,,,0,0,0,0,1,0,,75000,,1,720,0.25,0,0,,,,,,,"UNDER_PARENT, UNBOARDABLE, HIDE_IN_CODEX",module_no_status_bar,,1,2,4,,2100
+,hmi_locomotive_rear,Engine Module,,flarelauncher,1,10000,600,10000,7000,350,90,,0,0,0,10,10,2500,NONE,,0,0,0,,,0,0,0,0,1,0,,75000,,1,720,0.25,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,1,2,4,,2100
+,hmi_locomotive_gun_left,Gunnery Module,,ammofeed,1,15000,900,6000,5000,250,70,,0,0,0,10,10,600,NONE,,0,0,0,,,0,0,0,0,1,0,,75000,,1,720,0.25,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,3,,2100
+,hmi_locomotive_gun_right,Gunnery Module,,ammofeed,1,15000,900,6000,5000,250,70,,0,0,0,10,10,600,NONE,,0,0,0,,,0,0,0,0,1,0,,75000,,1,720,0.25,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,3,,2100
+,hmi_locomotive_fighter_left,Hangar Module,,reservewing,1,8000,700,3000,2500,125,70,1,0,0,0,10,10,350,NONE,,0,0,0,,,0,0,0,0,1,0,,75000,,1,720,0.25,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,0.4,2,2,,2100
+,hmi_locomotive_fighter_right,Hangar Module,,reservewing,1,8000,700,3000,2500,125,70,1,0,0,0,10,10,350,NONE,,0,0,0,,,0,0,0,0,1,0,,75000,,1,720,0.25,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,0.4,2,2,,2100
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+##HMI Techmined,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Marlin,marlin,Frigate,HMI Techmined,hmi_highenergyfocus,8,1350,185,2500,2813,225,35,,180,200,175,90,270,200,FRONT,,90,0.2,0.8,,,20,25,15,10,1,10,11,38000,5,20,160,0.25,8,8,,,,,,,,"hmi_techmine_bp, merc",,0.5,2,2,,206.26
+Jakkle,jakkle,Light Destroyer,HMI Techmined,microburn,9,3400,350,3800,5833,250,75,,90,60,40,30,60,400,FRONT,,120,0.4,1,,,40,60,40,60,2,30,10,24000,5,15,300,0.25,8,8,,,,,,,,hmi_techmine_bp,,0.7,2,3,,319.11
+Monjeau,monjeau,Light Destroyer,HMI Techmined,ammofeed,10,3000,350,3850,4167,250,50,,90,70,60,40,90,400,PHASE,hmi_monjaeujets,,,,0,0,20,40,20,10,2,5,9,60000,5,15,240,0.25,10,10,,,,,,,,hmi_techmine_bp,,0.5,2,3,,300
+Vidit,hammerhead_hmi,Combat Freighter,HMI Techmined,ammofeed,12,5000,500,4200,4167,250,95,,90,60,40,35,55,600,FRONT,,300,0.4,0.8,,,75,100,225,50,2,25,9,46000,5,12,360,0.25,12,12,,,,,,,,hmi_techmine_bp,,0.5,2,3,,300.121212
+Category,category,Destroyer,HMI Techmined,ammofeed,8,4850,550,6200,4167,285,85,,85,50,50,25,50,380,FRONT,,220,0.4,0.6,,,40,60,25,30,2,15,10,42000,5,20,240,0.25,10,10,,,,,,,,hmi_techmine_bp,,0.5,2,3,,300.111
+Brasher,brasher,Destroyer,HMI Techmined,hmi_ammodrive,10,4000,500,4500,3333,200,100,,90,60,40,30,60,400,FRONT,,120,0.5,1,,,30,60,25,45,2,30,10,28000,5,12,180,0.25,10,10,,,,,,,,"hmi_techmine_bp, pirates",,0.5,2,3,,300.1
+Marinas,marinas,Destroyer,HMI Techmined,timefocus,12,2850,245,6000,6667,250,60,,100,85,65,45,100,300,FRONT,,160,0.3,0.6,,,50,65,35,20,2,10,9,65000,5,20,240,0.25,12,12,,,,,,,,"hmi_techmine_bp, merc",,0.7,2,3,,309
+Ascendante,ascendate,Heavy Destroyer,HMI Techmined,burndrive,12,6250,780,6000,4167,285,75,,60,30,25,40,25,600,FRONT,,130,0.6,1,,,40,100,40,30,2,15,9,68000,5,12,360,0.25,12,12,,,,,,,,hmi_techmine_bp,,0.5,2,3,,300
+Calico,calico,Heavy Destroyer Carrier,HMI Techmined,highenergyfocus,14,3200,275,6800,5833,500,110,2,85,75,65,35,80,450,OMNI,,180,0.4,0.6,,,20,40,40,60,2,30,10,72000,7,15,300,0.25,14,14,,,,,,,,hmi_techmine_bp,,0.7,2,3,,319
+Suleiman,sulemain,Cruiser,HMI Techmined,plasmajets,24,10500,800,12000,16000,650,155,1,75,45,25,25,25,2000,FRONT,,180,0.5,0.8,,,150,210,85,60,4,15,8,250000,4,20,420,0.25,28,28,,,,,,,,"rare_bp, merc",0.75,0.6,2,3,,405
+Scarecrow,scarecrow,Heavy Cruiser,HMI Techmined,maneuveringjets,32,11500,550,12000,10500,585,230,1,45,35,35,40,40,1600,FRONT,,270,0.4,0.8,,,350,500,200,200,3,66,8,220000,3,16,480,0.25,32,32,,,,,,,,rare_bp,0.75,0.4,2,3,,11019
+Weaver,weaver,Heavy Cruiser,HMI Techmined,burndrive,26,10000,750,13500,12000,600,120,,40,30,30,24,28,3000,FRONT,,120,0.5,0.6,,,265,310,85,50,5,10,8,175000,3,15,480,0.25,26,26,,,,,,,,"rare_bp, merc",0.75,0.5,2,3,,413
+Herakles,hmi_herakles,Battleship,HMI Techmined,ammofeed,35,27000,1000,18500,31250,765,350, ,35,17,12,5,5,3500,OMNI,,270,0.4,1.4,,,400,1000,300,300,10,30,7,500000,4,20,720,0.25,55,55,,,,,,,,rare_bp,0.75,0.6,2,4,,504
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+##HMI Derelict Ships,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sifter Scavenger,sifter_drone,,Explorarium,,,400,100,85,,100,0,,85,75,75,45,90,50,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,,HIDE_IN_CODEX,derelict,,0,,,,108.11
+Sifter Scavenger,sifter_drone2,,Explorarium,,,400,100,85,,100,0,,85,75,75,45,90,50,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,,HIDE_IN_CODEX,derelict,,0,,,,108.11
+Trowel,trowel_drone,,Explorarium,,,400,100,100,,100,0,,95,120,120,90,270,60,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,,HIDE_IN_CODEX,derelict,,0,,,,108.12
+Wedge,wedge_drone,,Explorarium,flarelauncher,,800,200,125,,100,0,,45,75,75,45,90,100,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,,HIDE_IN_CODEX,derelict,,0,,,,108.13
+Embrasure,embrasure,Drone,Explorarium,flarelauncher,6,3500,350,1500,1833,110,30,1,40,30,20,20,10,400,NONE,,0,0,0,,,0,0,40,30,2,15,9,28000,5,8,360,0.25,6,6,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, CARRIER","derelict, auto_rec",0.1,0.5,2,3,,302.11
+Hornworks,barbican,Drone,Explorarium,burndrive,8,5000,750,4000,3333,200,70,,55,40,20,30,20,500,NONE,,0,0,0,,,0,0,90,90,3,30,9,36000,5,12,420,0.25,6,6,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","derelict, auto_rec",,0.4,2,3,,303.11
+Sapper,hmi_sapper,Drone,Explorarium,maneuveringjets,8,4000,350,5000,8333,200,50,,90,80,60,30,30,350,NONE,,0,0,0,,,0,0,80,50,2,25,9,45000,5,15,300,0.25,10,10,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","derelict, auto_rec",0.5,0.5,2,3,,301.1111
+Bracket,bracket,Drone,Explorarium,flarelauncher,8,8500,650,3800,3125,250,80,,40,30,15,15,10,750,NONE,,0,0,0,,,0,0,80,40,2,20,8,70000,5,10,540,0.25,10,10,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","derelict, auto_rec",,0.5,2,3,,315.01
+Outworks,outworks,Drone,Explorarium,burndrive,12,11000,1300,9000,5625,450,130,,45,25,20,20,15,2000,NONE,,0,0,0,,,0,0,100,60,4,15,8,140000,5,12,600,0.25,15,15,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","derelict, auto_rec",,0.5,2,3,,412.01
+Object 361,hmi_obj_361,Military Drone,Explorarium,fastmissileracks,26,9500,1150,8500,9000,385,200,,70,50,35,20,15,1850,NONE,,0,0,0,,,0,0,20,20,5,10,8,180000,5,12,540,0.25,20,20,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","derelict, auto_rec",0.1,0.9,2,3,,404.01
+Object 440,hmi_obj_440,Military Drone,Explorarium,fortressshield,30,8500,600,22000,9000,485,150,,30,20,10,10,10,2250,FRONT,,180,0.6,0.4,,,0,0,20,20,5,10,8,220000,5,12,540,0.25,25,25,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","derelict, auto_rec",0.1,0.9,2,3,,404.02
+Object 108,hmi_obj_108,Military Drone,Explorarium,hmi_creep_drive,30,7800,1400,8000,5625,450,80,,75,65,50,25,35,2100,NONE,,0,0,0,,,0,0,20,20,5,10,8,200000,5,12,120,0.25,20,20,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","derelict, auto_rec",0.1,0.9,2,3,,412.01
+Object 241,hmi_obj_241,Military Drone,Explorarium,fastmissileracks,40,14000,1000,8000,10000,500,160,6,25,20,10,12,12,2000,NONE,,0,0,0,,,0,0,20,20,5,30,8,400000,5,12,540,0.25,25,25,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","derelict, auto_rec",0.1,0.9,2,3,,404.01
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+##HMI Remnant Ships,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Aureole,aureole,Droneship,Remnant,hmi_aureole_emp,6,2250,500,1600,2188,175,30,,100,160,140,90,270,200,OMNI,,120,0.4,0.6,,,0,0,60,40,1,40,11,35000,5,10,360,0.25,6,6,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","remnant, auto_rec",0.1,0.1,2,2,,227.1
+Revelio,revelio,Droneship,Remnant,highenergyfocus,12,5500,350,6000,2500,245,85,,50,45,35,40,55,550,FRONT,,200,0.4,0.8,,,0,0,40,60,2,30,10,60000,5,20,420,0.25,12,12,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","remnant, auto_rec",0.7,0.5,2,3,,317.1
+Ecstacy,ecstacy,Droneship Cruiser,Remnant,plasmajets,20,6500,755,9000,12000,625,160,2,50,40,35,35,25,2000,OMNI,,120,0.5,0.7,,,0,0,100,60,4,15,9,180000,5,15,540,0.25,27,27,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","remnant, auto_rec",0.1,0.1,2,3,,413.1
+Coelum,hmi_coelum,Droneship Cruiser,Remnant,highenergyfocus,28,8500,775,14000,16000,625,170,2,30,20,20,15,20,3000,OMNI,,240,0.4,0.6,,,0,0,50,20,4,5,9,300000,5,15,540,0.25,30,30,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","remnant, auto_rec",0.1,0.1,2,3,,414.1
+Scandunt,scandunt,,Remnant,hmi_scandunt_emp,,400,100,500,,150,0,,100,400,300,135,300,40,FRONT,,360,0.5,0.7,,,0,0,,,,,,,,,,,,,,,,,,,HIDE_IN_CODEX,, ,0,,,,100.545
+Puer Chorum,puer_chorum,,Remnant,,,400,400,500,,150,0,,220,350,350,280,320,30,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,,HIDE_IN_CODEX,,,0,,,,116.545
+Auctor,hmi_auctor,,Remnant,,,300,150,300,,50,0,,185,200,180,80,120,30,OMNI,,160,0,1,,,0,0,,,,,,,,,,,,,,,,,,,HIDE_IN_CODEX,,,0,,,,116.45245
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+##HMI Boss Factions,,,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Brawler (KoE),brawler_hmikoe,Gunship,High Tech,plasmajets,7,2000,450,3000,3125,250,50,,100,180,120,60,120,250,FRONT,,270,0.4,0.8,,,15,30,40,20,1,20,9,12000,8,10,300,0.25,5,5,,,,,,,HIDE_IN_CODEX,hmi_koe_bp,,0.4,2,2,,207
+Wolf (KoE),wolf_hmikoe,Frigate,High Tech,displacer,5,1500,150,2250,1875,150,55,,150,130,100,60,120,200,FRONT,,150,0.4,0.7,,,15,30,50,20,1,20,10,12000,10,20,180,0.25,5,5,,,,,,,HIDE_IN_CODEX,hmi_koe_bp,,0.5,2,2,,200
+Shrike (KoE),shrike_hmikoe,Light Destroyer,High Tech,microburn,9,2800,250,5400,5833,350,75,,100,100,80,35,80,250,FRONT,,150,0.3,0.7,,,20,40,40,60,2,30,10,20000,5,15,300,0.25,8,8,,,,,,,HIDE_IN_CODEX,hmi_koe_bp,,0.7,2,3,,319
+Sunder (KoE),sunder_hmikoe,Destroyer,High Tech,highenergyfocus,10,4000,250,7500,8333,500,80,,90,80,60,30,30,350,FRONT,,300,0.4,1.2,,,50,70,80,50,2,25,9,45000,5,15,300,0.25,11,11,,,,,,,HIDE_IN_CODEX,hmi_koe_bp,,0.5,2,3,,301
+Fury (KoE),fury_hmikoe,Light Cruiser,High Tech,microburn,14,5000,600,9000,12000,600,90,,95,100,80,30,60,650,FRONT,,150,0.3,0.7,,,60,120,60,80,3,27,9,115000,4,12,420,0.25,20,20,,,,,,,HIDE_IN_CODEX,hmi_koe_bp,,0.7,2,3,,415
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feeder Drone,drone_feeder,,Mess Object,,,65,35,400,,100,0,,150,100,150,150,300,10,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,,HIDE_IN_CODEX,,,,,,,
+Heavy Feeder Drone,drone_feeder_heavy,,Mess Object,,,200,35,1000,,150,0,,175,400,300,135,300,40,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,,HIDE_IN_CODEX,, ,0,,,,100
+Stable Mass,mess_stable_mass,Mass Accumulation,Mess Object,,5,1200,400,4000,3333,200,5,,185,120,100,120,120,300,NONE,,0,0,0,,,0,0,90,40,1,30,9,9000,5,12,240,0.25,4,4,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",no_autofit,,0.5,2,3,,300
+Medium Stable Mass,mess_stable_med_mass,Mass Accumulation,Mess Object,,5,6000,900,6000,3333,200,5,,120,100,100,90,90,500,NONE,,0,0,0,,,0,0,90,40,1,30,9,9000,5,12,240,0.25,4,4,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",no_autofit,,0.5,2,3,,300
+Unstable Mass,mess_unstable_mass,Mass Accumulation,Mess Object,,5,800,100,1250,1875,150,5,5,100,100,100,85,85,300,NONE,,0,0,0,,,0,0,90,40,1,40,9,9000,8,12,240,0.25,4,4,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",no_autofit,,0.4,2,2,,204
+Medium Unstable Mass,mess_unstable_med_mass,Mass Accumulation,Mess Object,,5,1900,200,1800,2083,125,5,8,45,35,25,25,15,400,NONE,,0,0,0,,,0,0,180,80,1,80,9,18000,8,12,240,0.25,4,4,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",no_autofit,,0.4,2,2,,204
+Amalgamate Mass,mess_amalgam_mass,Mass Accumulation,Mess Object,,5,1000,125,2000,1875,350,60,,75,50,50,85,85,300,NONE,,0,0,0,,,0,0,90,40,1,40,9,9000,8,12,240,0.25,4,4,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",no_autofit,,0.4,2,2,,204
+Medium Amalgamate Mass,mess_amalgam_med_mass,Mass Accumulation,Mess Object,,5,5000,300,8000,4167,550,100,,90,60,40,30,60,400,NONE,,0,0,0,,,0,0,180,80,1,80,9,18000,8,12,240,0.25,4,4,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",no_autofit,,0.4,2,2,,204
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Kite (Mess),mess_kite,Droneshuttle,Mess Object,maneuveringjets,2,900,150,1400,1000,80,30,,140,150,75,45,85,120,NONE,,0,0,0,,,2,30,30,15,1,15,9,4000,5,20,180,0.25,2,2,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","mess, no_autofit",,0.75,2,2,,217
+Wolf (Mess),mess_wolf,Small Droneship,Mess Object,displacer_degraded,5,1000,125,2250,1875,150,55,,120,130,100,60,120,200,NONE,,0,0,0,,,0,0,50,20,1,20,9,12000,10,20,180,0.25,5,5,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","mess, no_autofit",,0,,,,109
+Lasher (Mess),mess_lasher,Small Droneship,Mess Object,ammofeed,5,1250,250,2100,1750,140,55,,100,110,90,60,90,200,NONE,,0,0,0,,,0,0,40,25,1,25,9,9000,8,10,240,0.25,4,4,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","mess, no_autofit",,0.5,2,2,,200
+Wayfarer (Mess),mess_wayfarer,Small Droneship,Mess Object,flarelauncher,5,2250,250,1600,1500,120,55,,120,105,70,45,90,300,NONE,,0,0,0,,,25,50,150,40,1,40,10,14000,8,10,240,0.25,5,5,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","mess, no_autofit",,0.5,2,2,,221
+Cerberus (Mess),mess_cerberus,Small Droneship,Mess Object,burndrive,5,1500,350,1250,1875,150,45,,90,100,75,60,120,300,NONE,,0,0,0,,,0,0,100,40,1,40,9,9000,8,10,240,0.25,4,4,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","mess, no_autofit",,0.4,2,2,,204
+Tarsus (Mess),mess_tarsus,Medium Droneship,Mess Object,burndrive,6,4250,400,1800,2083,125,80,,45,35,25,25,15,400,NONE,,0,0,0,,,30,80,350,80,3,27,8,18000,5,20,420,0.25,3,3,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","mess, no_autofit",,0.5,2,3,,306
+Mule (Mess),mess_mule,Medium Droneship,Mess Object,burndrive,9,5500,650,3000,2500,150,80,,60,40,20,20,15,500,NONE,,0,0,0,,,40,100,250,80,2,40,9,34000,5,10,420,0.25,7,7,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","mess, no_autofit",,0.5,2,3,,310
+Buffalo (Mess),mess_buffalo,Medium Droneship,Mess Object,flarelauncher_active,5,3000,125,1500,1167,70,60,,50,25,20,15,7,400,NONE,,0,0,0,,,10,20,400,80,2,40,8,20000,5,20,240,0.25,3,3,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","mess, no_autofit",,0.6,2,3,,304
+Hammerhead (Mess),mess_hammerhead,Medium Droneship,Mess Object,burndrive,10,4500,350,4200,4167,250,95,,80,60,40,30,60,400,NONE,,0,0,0,,,0,0,100,60,2,30,9,20000,5,12,360,0.25,8,8,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","mess, no_autofit",,0.3,2,2,,213
+Hammerhead (Mess Drone),mess_hammerhead_drone,Medium Droneship,Mess Object,burndrive,10,4500,350,4200,4167,250,95,2,80,60,40,30,60,400,NONE,,0,0,0,,,0,0,100,60,2,30,9,20000,5,12,360,0.25,8,8,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, CARRIER","mess, no_autofit",,0.5,2,3,,300
+Enforcer (Mess),mess_enforcer,Medium Droneship,Mess Object,burndrive,10,5000,500,4000,3333,200,110,,55,40,20,30,20,500,NONE,,0,0,0,,,0,0,90,90,3,30,9,19000,5,12,420,0.25,9,9,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","mess, no_autofit",,0.5,2,3,,300
+Dominator (Mess),mess_dominator,Heavy Droneship,Mess Object,burndrive,15,11000,1300,10000,9000,450,190,2,30,20,10,12,12,2250,NONE,,0,0,0,,,0,0,150,150,5,30,8,56000,4,12,540,0.25,25,25,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","mess, no_autofit",,0.4,2,3,,303
+Colossus (Mess),mess_colossus,Heavy Droneship,Mess Object,burndrive,7,6000,300,2750,2000,100,140,,40,20,10,10,10,1500,NONE,,0,0,0,,,40,200,900,120,4,30,7,40000,3,20,480,0.25,6,6,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","mess, no_autofit",,0.6,2,3,,411
+Venture (Mess),mess_venture,Cruiser,Mess Object,burndrive,12,10000,1250,7000,6000,300,110,1,40,15,10,12,6,1500,NONE,,0,0,0,,,0,0,350,120,3,40,7,110000,5,10,540,0.25,15,15,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","mess, no_autofit",,0.4,2,3,,402
+Dram (Mess),mess_dram,Central Droneship,Mess Object,reservewing,3,750,200,1500,1250,100,22,3,120,70,50,30,60,200,NONE,,0,0,0,,,0,0,15,300,1,300,9,8000,8,20,180,0.25,2,2,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, CARRIER, COMBAT","mess, no_autofit",,0.4,2,3,,404
+Phaeton (Mess),mess_phaeton,Central Droneship,Mess Object,reservewing,6,2000,350,2000,2500,150,45,6,50,30,20,25,15,400,NONE,,0,0,0,,,0,0,20,600,2,300,9,18000,5,20,300,0.25,3,3,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, CARRIER, COMBAT","mess, no_autofit",,0.7,2,4,,209
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Spark (Mess),mess_spark,,Remnant Mess Object,,,225,20,400,,50,0,,285,400,350,90,270,15,OMNI,,160,0,1,,,0,0,,,,,,,,,,,,,,,,,,,HIDE_IN_CODEX,mess_remnant,,0,,,,114.1
+Lux (Mess),mess_lux,,Remnant Mess Object,,,300,40,500,,50,0,,220,350,350,100,240,30,OMNI,,160,0,1,,,0,0,,,,,,,,,,,,,,,,,,,HIDE_IN_CODEX,mess_remnant,,0,,,,115.1
+Flash (Mess),mess_flash,,Remnant Mess Object,,,300,40,500,,50,0,,170,240,200,40,120,30,OMNI,,160,0,1,,,0,0,,,,,,,,,,,,,,,,,,,HIDE_IN_CODEX,mess_remnant,,0,,,,116.1
+Lumen (Mess),mess_lumen,Small Droneship,Remnant Mess Object,displacer,8,1000,150,2000,2500,200,35,,140,250,200,90,270,150,OMNI,,90,0.8,0.8,,,0,0,40,40,1,40,11,30000,5,10,360,0.25,4,4,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",mess_remnant,,0.5,2,2,,226.1
+Glimmer (Mess),mess_glimmer,Small Droneship,Remnant Mess Object,highenergyfocus,8,1500,200,2500,3125,250,50,1,130,250,200,90,270,200,OMNI,,90,0.8,0.8,,,0,0,60,40,1,40,11,30000,5,10,360,0.25,5,5,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",mess_remnant,,0.5,2,2,,227.1
+Aureole,mess_aureole,Small Droneship,Remnant Mess Object,emp,6,2250,500,2200,2188,175,30,,110,200,180,90,270,200,OMNI,,120,0.4,0.6,,,0,0,60,40,1,40,11,35000,5,10,360,0.25,6,6,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",mess_remnant,,0.5,2,2,,227.1
+Fulgent (Mess),mess_fulgent,Medium Droneship,Remnant Mess Object,highenergyfocus,12,5000,450,5000,3750,300,100,1,85,75,50,30,50,500,OMNI,,90,0.8,0.8,,,0,0,80,60,2,30,10,50000,5,15,420,0.25,11,11,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",mess_remnant,,0.5,2,3,,317.1
+Scintilla (Mess),mess_scintilla,Medium Droneship,Remnant Mess Object,recalldevice,12,5000,350,4000,2500,200,75,4,60,60,25,20,15,500,OMNI,,180,0.8,0.8,,,0,0,40,60,2,30,10,50000,5,20,420,0.25,12,12,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",mess_remnant,,0.5,2,3,,317.1
+Revelio (Mess),mess_revelio,Medium Droneship,Remnant Mess Object,highenergyfocus,12,6500,350,8000,2500,225,75,,60,60,30,20,20,550,OMNI,,120,0.4,0.6,,,0,0,40,60,2,30,10,60000,5,20,420,0.25,12,12,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",mess_remnant,,0.5,2,3,,317.1
+Brilliant (Mess),mess_brilliant,Heavy Droneship,Remnant Mess Object,plasmajets,16,8000,900,10000,12000,600,140,2,60,35,30,20,25,2000,OMNI,,180,0.9,0.8,,,0,0,100,60,4,15,9,140000,5,15,540,0.25,20,20,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",mess_remnant,,0.5,2,3,,413.1
+Ecstacy (Mess),mess_ecstacy,Heavy Droneship,Remnant Mess Object,plasmajets,20,8000,775,12000,12000,625,160,2,70,45,30,35,25,2000,OMNI,,240,0.5,0.6,,,0,0,100,60,4,15,9,180000,5,15,540,0.25,27,27,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",mess_remnant,0.1,0.5,2,3,,413.1
+Coelum (Mess),mess_hmi_coelum,Droneship Cruiser,Remnant Mess Object,highenergyfocus,28,9500,775,14000,16000,565,160,3,30,20,20,15,20,3000,OMNI,,240,0.5,0.6,,,0,0,50,20,4,5,9,300000,5,15,540,0.25,30,30,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",mess_remnant,0.1,0.1,2,3,,414.1
+Scandunt (Mess),scandunt_mess,,Remnant Mess Object,hmi_scandunt_emp,,200,100,400,,150,0,,100,400,300,135,300,40,FRONT,,360,0.5,0.7,,,0,0,,,,,,,,,,,,,,,,,,,HIDE_IN_CODEX,mess_remnant, ,0,,,,100
+Apex (Mess),mess_apex,Heavy Droneship,Remnant Mess Object,highenergyfocus,18,12000,1100,12000,11000,550,150,6,50,35,30,12,20,3000,FRONT,,180,0.4,0.6,,,0,0,120,90,3,30,9,170000,5,15,540,0.25,30,30,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",mess_remnant,,0.5,2,3,,414
+Radiant (Mess),mess_radiant,Drone Battleship,Remnant Mess Object,plasmajets,30,20000,1500,25000,37500,1500,320,3,40,30,20,7,10,3500,OMNI,,270,0.4,0.6,,,0,0,250,400,10,40,8,600000,3,15,720,0.25,40,40,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",mess_remnant,0.05,0.4,2,4,,509
+Nova (Mess),mess_nova,Drone Battlecruiser,Remnant Mess Object,nova_burst,24,12000,1000,18000,25000,1000,280,,80,70,50,12,16,3000,FRONT,,90,0.4,0.6,,,0,0,150,300,10,30,9,350000,3,15,600,0.25,40,40,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",mess_remnant,0.1,0.5,2,4,,514
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Remnant Station,mess_remnant_station2,Remnant Mess Station,Remnant Mess Object,,200,50000,1600,1000,2500,100,0,5,30,200,200,3,3,6000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,75,50,,,,,,,"STATION, UNBOARDABLE, HIDE_IN_CODEX",mess_remnant,,0,,,,413.2
+,mess_remnant_armour1,Remnant Mess Station Armour,,,1,10000,2000,0,2500,100,0,,0,0,0,10,10,300,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,1,2,3,,413.3
+,mess_remnant_armour2,Remnant Mess Station Armour,,,1,5000,800,0,2500,100,0,,0,0,0,10,10,300,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,1,2,3,,413.4
+,mess_remnant_armour3,Remnant Mess Station Armour,,,1,5000,800,0,2500,100,0,,0,0,0,10,10,300,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,1,2,4,,413.5
+,mess_remnant_weapon_platform1,Remnant Mess Weapon Platform,,forgevats_station,1,10000,1500,15000,25000,1000,1000,1,0,0,0,10,10,800,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,2,,413.5
+,mess_remnant_weapon_platform2,Remnant Mess Weapon Platform,,,1,6000,1000,10000,18750,750,1000,,0,0,0,10,10,600,NONE, ,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,2,,413.6
+,mess_remnant_weapon_platform3,Remnant Mess Weapon Platform,,,1,6000,1250,6000,7500,300,1000,,0,0,0,10,10,400,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,2,,413.7
+,mess_remnant_shield1,Remnant Mess Station Citadel,,,1,6000,1250,7000,10000,400,1000,,0,0,0,10,10,500,NONE,,50,0.4,0.8,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,2,,413.8
+,mess_remnant_shield2,Remnant Mess Station Citadel,,,1,5000,500,20000,25000,1000,1000,1,0,0,0,10,10,600,NONE,,90,0.4,0.8,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,2,,413.9
+,mess_remnant_hangar1,Remnant Mess Station Hangar,,reservewing,1,5000,750,5000,7500,300,1000,4,0,0,0,10,10,600,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,2,,413.99
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,derelict_ramp_mothership_pod_s_right,Starboard Rampant Growth,,,1,8000,600,2000,2500,250,35,,0,0,0,10,10,70,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,2,,2101
+,derelict_ramp_mothership_pod_m_right,Stern-Starboard Rampant Growth,,highenergyfocus,1,12000,600,3000,5000,250,60,,0,0,0,10,10,120,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,2,,2102
+,derelict_ramp_mothership_pod_m_left,Stern Rampant Growth,,highenergyfocus,1,9000,600,8000,5000,400,70,,0,0,0,10,10,150,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,2,,2103
+,derelict_ramp_mothership_pod_engine_left,Port-Stern Rampant Growth,,flarelauncher,1,16000,600,3000,5000,250,30,,0,0,0,10,10,220,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,2,,2104
+,derelict_ramp_mothership_bow_module,Rampant Bow Growth,,mine_strike,1,10000,1200,4000,6250,300,50,,0,0,0,10,10,200,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,2,,2105
+,derelict_ramp_mothership_sensor_mast,Rampant Sensor Growth,,emp,1,7000,500,4000,6250,300,40,,0,0,0,10,10,280,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,0.7,2,2,,2106
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Unknown Contact,hmi_spookyboi_base,Capital Terror,Undeterminable,displacer,100,20000,1750,70000,,2000,80,,85,45,45,20,7,3000,FRONT,,360,0.4,0.7,,,0,0,100,400,15,27,7,1000000,5,25,720,0.25,100,100,,,,,,,"SHIP_WITH_MODULES, UNBOARDABLE, HIDE_IN_CODEX,NEVER_DODGE_MISSILES","no_autofit, no_drop, no_bp_drop",,1,4,6,,509.111
+,hmi_spookyboi_left,Capital Terror,Undeterminable,highenergyfocus,1,10000,1000,23000,,1000,60,,85,45,45,20,7,3000,NONE,,0,0,0,,,0,0,100,400,15,27,7,1000000,5,25,720,0.25,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","no_autofit, no_drop, no_bp_drop",,1,4,6,,509.112
+,hmi_spookyboi_right,Capital Terror,Undeterminable,highenergyfocus,1,10000,1000,23000,,1000,60,,85,45,45,20,7,3000,NONE,,0,0,0,,,0,0,100,400,15,27,7,1000000,5,25,720,0.25,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","no_autofit, no_drop, no_bp_drop",,1,2,3,,509.113
+,hmi_spookyboi_back,Capital Terror,Undeterminable,mine_strike,1,10000,500,2000,,500,0,,85,45,45,20,7,3000,NONE,,0,0,0,,,0,0,100,400,15,27,7,1000000,5,25,720,0.25,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","no_autofit, no_drop, no_bp_drop",,1,2,3,,510
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Unknown Contact,hmi_spookyboi_back_2,Capital Terror,Undeterminable,acausaldisruptor,20,8000,1000,6000,,700,0,,85,45,45,30,12,3000,NONE,,0,0,0,,,0,0,100,400,15,27,7,1000000,5,25,720,0.25,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","no_autofit, no_drop, no_bp_drop",,,,,,510.1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Unknown Contact,hmi_spookyboi_left_cl,Capital Terror,Undeterminable,damper,20,15000,1000,10000,,900,0,,30,20,10,12,12,2250,NONE,,0,0,0,,,0,0,150,150,5,30,8,1000000,4,12,540,0.25,25,25,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","no_autofit, no_drop, no_bp_drop",,,,,,510.11
+Unknown Contact,hmi_spookyboi_left_dd,Capital Terror,Undeterminable,hmi_creep_drive,10,4000,400,9000,,300,0,,55,35,20,30,20,500,NONE,,0,0,0,,,0,0,100,85,5,30,8,1000000,4,12,120,0.25,25,25,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","no_autofit, no_drop, no_bp_drop",,,,,,510.21
+Unknown Contact,hmi_spookyboi_left_ff,Capital Terror,Undeterminable,displacer,5,4000,400,1400,,80,0,,160,150,100,45,85,120,NONE,,0,0,0,,,0,0,30,15,1,15,9,1000000,5,20,120,0.25,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","no_autofit, no_drop, no_bp_drop",,,,,,510.31
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Unknown Contact,hmi_spookyboi_right_cl,Capital Terror,Undeterminable,damper,20,15000,1000,10000,,900,0,,30,20,10,12,12,2250,NONE,,0,0,0,,,0,0,150,150,5,30,8,1000000,4,12,540,0.25,25,25,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","no_autofit, no_drop, no_bp_drop",,,,,,510.11
+Unknown Contact,hmi_spookyboi_right_dd,Capital Terror,Undeterminable,hmi_creep_drive,10,4000,400,9000,,300,0,,55,35,20,30,20,500,NONE,,0,0,0,,,0,0,100,85,5,30,8,1000000,4,12,120,0.25,25,25,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","no_autofit, no_drop, no_bp_drop",,,,,,510.21
+Unknown Contact,hmi_spookyboi_right_ff,Capital Terror,Undeterminable,displacer,5,4000,400,1400,,80,0,,160,150,100,45,85,120,NONE,,0,0,0,,,0,0,30,15,1,15,9,1000000,5,20,120,0.25,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","no_autofit, no_drop, no_bp_drop",,,,,,510.31
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Unknown Contact,hmi_spookyboi_phase2,Capital Terror,Undeterminable,displacer,100,40000,1500,35000,,2400,100,,105,90,80,65,75,2400,FRONT,,360,0.2,0.6,,,0,0,100,400,15,27,7,1000000,3,50,1080,0.25,100,100,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","no_autofit, no_drop, no_bp_drop",,,,,,510.31
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Unknown Contact,hmi_spookyboi_phase2_left,Capital Terror,Undeterminable,entropyamplifier,10,7000,850,4000,,400,0,,100,75,50,30,30,400,PHASE,phasecloak,,,,0.05,0.04,25,50,60,100,2,50,9,1000000,5,30,300,0.25,25,25,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","no_autofit, no_drop, no_bp_drop",,,,,,510.31
+Unknown Contact,hmi_spookyboi_phase2_right,Capital Terror,Undeterminable,entropyamplifier,10,7000,850,4000,,400,0,,100,75,50,30,30,400,PHASE,phasecloak,,,,0.05,0.04,25,50,60,100,2,50,9,1000000,5,30,300,0.25,25,25,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","no_autofit, no_drop, no_bp_drop",,,,,,510.31
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Unknown Contact,hmi_spookyboi_phase3,Capital Terror,Undeterminable,mote_control,100,29000,900,36000,,2000,100,,125,100,85,55,75,2000,PHASE,phasecloak,,,,0.02,0.02,0,0,100,400,15,27,7,1000000,3,50,1080,0.25,100,100,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","no_autofit, no_drop, no_bp_drop",,,,,,510.31
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Unknown Contact,hmi_spookyboi_phase4,Capital Terror,Undeterminable,hmi_creep_drive,100,22000,750,24000,,900,100,,110,80,50,30,30,1800,OMNI,,280,0.4,0.6,,,0,0,150,90,3,30,8,1000000,4,20,1080,0.25,100,100,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","no_autofit, no_drop, no_bp_drop",,,,,,405
+Unknown Contact,hmi_spookyboi_phase4_left,Capital Terror,Undeterminable,hmi_timeaccelerator,10,5000,450,6000,,260,0,,90,60,40,30,60,400,FRONT,,360,0.4,0.6,,,0,0,100,60,2,30,9,500000,5,12,360,0.25,10,10,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","no_autofit, no_drop, no_bp_drop",,,,,,300
+Unknown Contact,hmi_spookyboi_phase4_right,Capital Terror,Undeterminable,hmi_timeaccelerator,10,5000,450,6000,,260,0,,90,60,40,30,60,400,FRONT,,360,0.4,0.6,,,0,0,100,60,2,30,9,500000,5,12,360,0.25,10,10,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","no_autofit, no_drop, no_bp_drop",,,,,,300
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Unknown Contact,hmi_spookyboi_phase5,Capital Terror,Undeterminable,phaseteleporter,100,10000,650,10000,6250,600,60,,120,175,150,50,100,200,FRONT,,360,0.6,0.6,,,0,0,10,15,1,15,10,1000000,8,40,120,0.25,15,15,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","no_autofit, no_drop, no_bp_drop",,,,,,202
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+##HMI Unique and Boss Ships,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6,2,4,,504.52
+Herakles (RG),hmi_herakles_rc,Heavy Battleship,Red Guards,ammofeed,40,35000,1250,19500,31250,765,380, ,25,15,10,5,5,3500,OMNI,,270,0.6,1.2,,,400,1000,300,300,10,30,7,850000,4,20,720,0.25,70,70,,,,,,,HIDE_IN_CODEX,"revolutionary, vayra_red_army",0.1,0.4,2,4,,500.222
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Fury (P),fury_pirates,Light Cruiser,Unique Pirate Tech,microburn,14,5000,600,9000,12000,600,130,1,95,100,80,30,60,650,FRONT,,120,0.3,0.6,,,90,130,60,80,3,27,9,140000,4,12,420,0.25,22,22,,,,,,,HIDE_IN_CODEX,,,0.7,2,3,,415
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Dominator (P),dominator_hmi_p,Heavy Cruiser,Unique Pirate Tech,burndrive,15,12000,1200,10000,10000,500,200,,35,20,20,20,20,2150,FRONT,,150,0.4,1,,,200,300,150,150,5,30,8,180000,4,12,540,0.25,28,28,,,,,,,HIDE_IN_CODEX,,,0.4,2,3,,404
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Onslaught (P),hmi_onslaught_p,Mod Battleship,Unique Pirate Tech,hmi_runaway_ons,30,24500,1500,19000,15000,650,320,2,25,10,10,4,4,3500,FRONT,,180,0.4,1,,,750,1500,300,400,15,27,7,350000,3,12,720,0.25,48,48,,,,,,,HIDE_IN_CODEX,,,0.4,2,3,,507
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Locomotive (LP),hmi_locomotive_lp,Sacred Colonial Station,Unique Low Tech,hmi_runaway_exodus,45,46000,1300,29000,10000,450,325,2,20,4,2,2,2,3200,NONE,,0,0,0,,,2000,4500,2600,1600,40,40,6,1500000,2,15,720,0.25,90,90,,,,,,,"HIDE_IN_CODEX, SHIP_WITH_MODULES",,,1,2,4,,2100
+,hmi_locomotive_rear_lp,Engine Module,,flarelauncher,1,10000,600,10000,7000,350,70,,0,0,0,10,10,2500,NONE,,0,0,0,,,0,0,0,0,1,0,,75000,,1,720,0.25,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,3,,2100
+,hmi_locomotive_gun_left_lp,Gunnery Module,,ammofeed,1,18000,900,6000,5000,250,80,,0,0,0,10,10,600,NONE,,0,0,0,,,0,0,0,0,1,0,,75000,,1,720,0.25,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,3,,2100
+,hmi_locomotive_gun_right_lp,Gunnery Module,,ammofeed,1,18000,900,6000,5000,250,80,,0,0,0,10,10,600,NONE,,0,0,0,,,0,0,0,0,1,0,,75000,,1,720,0.25,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,0.4,2,2,,2100
+,hmi_locomotive_fighter_left_lp,Hangar Module,,reservewing,1,10000,540,3000,2500,125,80,2,0,0,0,10,10,350,NONE,,0,0,0,,,0,0,0,0,1,0,,75000,,1,720,0.25,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,0.4,2,2,,2100
+,hmi_locomotive_fighter_right_lp,Hangar Module,,reservewing,1,10000,540,3000,2500,125,80,2,0,0,0,10,10,350,NONE,,0,0,0,,,0,0,0,0,1,0,,75000,,1,720,0.25,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1,2,3,,414.1
+Limina,hmi_limina,Fast Cruiser,Undeterminable,highenergyfocus,32,7500,450,10000,16000,275,185,2,130,110,90,55,65,1800,FRONT,,270,0.8,1.4,,,150,220,50,30,3,10,8,1000000,4,20,360,0.25,32,32,,,,,,,HIDE_IN_CODEX,,0.1,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#For Legacy or Save Game Compatibility Purposes,,,,,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,, ,,,,,,,,,,,,,,,1,2,4,,2100

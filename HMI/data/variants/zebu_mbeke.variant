@@ -1,0 +1,35 @@
+{
+  "variantId": "zebu_mbeke",
+  "hullId": "zebu",
+  "displayName": "Mbeke",
+  "goalVariant": false,
+  "fluxCapacitors": 2,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "eccm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "seth_med"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mbeke_sml",
+        "WS0002": "mbeke_sml",
+        "WS0003": "mbeke_sml",
+        "WS0004": "mbeke_sml"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

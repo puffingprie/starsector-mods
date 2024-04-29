@@ -1,0 +1,38 @@
+{
+  "variantId": "missp_starliner_battlecarrier_Standard",
+  "hullId": "missp_starliner_battlecarrier",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0002": "vulcan",
+        "WS0003": "lightdualmg",
+        "WS0004": "lightdualmg",
+        "WS0005": "swarmer_fighter",
+        "WS0006": "swarmer_fighter",
+        "WS0007": "vulcan",
+        "WS0008": "vulcan",
+        "WS0009": "vulcan",
+        "WS0010": "chaingun",
+        "WS0011": "chaingun",
+        "WS0012": "flak",
+        "WS0013": "flak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "broadsword_wing",
+    "broadsword_wing",
+    "piranha_wing"
+  ]
+}

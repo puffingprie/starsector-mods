@@ -1,0 +1,243 @@
+{
+  "hullName": "Samael",
+  "hullId": "vic_samael",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/Samael/vic_samael.png",
+  "style": "VIC",
+  "height": 160,
+  "width": 216,
+  "center": [108, 81],
+  "collisionRadius": 140.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 128,
+  "viewOffset": 0,
+  "builtInMods": [
+    "vic_aerodynamicdesign",
+    "vic_dynamicshields",
+	"vic_convoyDrive"
+  ],
+  "builtInWeapons": {
+    "WS0010": "vic_engine_glow_universal_big",
+    "WS0011": "vic_samael_engine_glow_2",
+    "WS0012": "vic_samael_engine_glow_3",
+    "WS0013": "vic_samael_engine_glow_1",
+    "WS0014": "vic_samael_engine_glow_4"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [66, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 0,
+      "locations": [21, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 180,
+      "locations": [0, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 110,
+      "angle": 34.5,
+      "locations": [12, 32]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 110,
+      "angle": -34.5,
+      "locations": [12, -32]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 18,
+      "locations": [-12, 50.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -18,
+      "locations": [-12, -50.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 213,
+      "angle": 90,
+      "locations": [-43, 96]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 213,
+      "angle": -90,
+      "locations": [-43, -96]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -22.5, 0,
+        -22.5, 0
+      ]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [-79, -0]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [-54, 28]
+    },
+    {
+      "id": "WS0012",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -0,
+      "locations": [-54, -28]
+    },
+    {
+      "id": "WS0013",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -0,
+      "locations": [-45, 54]
+    },
+    {
+      "id": "WS0014",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [-45, -54]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-80, -0],
+      "length": 64,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "CUSTOM",
+      "styleId": "VOLKOV-LAIDLAW'S"
+    },
+    {
+      "location": [-54, -28],
+      "length": 53,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "VOLKOV-LAIDLAW'S"
+    },
+    {
+      "location": [-54, 28],
+      "length": 53,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "VOLKOV-LAIDLAW'S"
+    },
+    {
+      "location": [-45, -54],
+      "length": 44,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "VOLKOV-LAIDLAW'S"
+    },
+    {
+      "location": [-45, 54],
+      "length": 44,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "VOLKOV-LAIDLAW'S"
+    }
+  ],
+  "bounds": [
+    -79, 7,
+    -72, 7,
+    -68.5, 19,
+    -53, 19,
+    -53, 36,
+    -63.5, 37,
+    -58.5, 43,
+    -44, 43,
+    -44, 61,
+    -34.5, 61,
+    -64, 106.5,
+    -35.5, 106.5,
+    46.5, 12,
+    68.5, 6.5,
+    68.5, -6.5,
+    46.5, -12,
+    -35.5, -106.5,
+    -64, -106.5,
+    -34.5, -61,
+    -44, -61,
+    -44, -43,
+    -58.5, -43,
+    -63.5, -37,
+    -53, -36,
+    -53, -19,
+    -68.5, -19,
+    -72, -7,
+    -79, -7
+  ]
+}

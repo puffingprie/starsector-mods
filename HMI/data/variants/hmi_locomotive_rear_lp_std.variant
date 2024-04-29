@@ -1,0 +1,42 @@
+{
+  "variantId": "hmi_locomotive_rear_lp_std",
+  "hullId": "hmi_locomotive_rear_lp",
+  "displayName": "Holy Bulwark",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 6,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "pointdefenseai"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "railgun",
+        "WS0003": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0014": "vulcan",
+        "WS0015": "vulcan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "dualflak",
+        "WS0005": "dualflak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

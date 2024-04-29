@@ -1,0 +1,159 @@
+{
+  "hullName": "Junyo Delta",
+  "hullId": "uaf_junyo_delta",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/Junyo_Delta.png",
+  "style": "UAF_CAPITAL",
+  "height": 392,
+  "width": 170,
+  "center": [85, 196],
+  "collisionRadius": 219,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 197,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering",
+  ],
+
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 75,
+      "angle": 180,
+      "locations": [-92, -40]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 75,
+      "angle": 180,
+      "locations": [-92, 40]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 259,
+      "angle": -45,
+      "locations": [5, -47]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 259,
+      "angle": 45,
+      "locations": [5, 47]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 45,
+      "locations": [60, 48]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -45,
+      "locations": [60, -48]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 256,
+      "angle": 180,
+      "locations": [-150.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-159.5, 27.5],
+      "length": 47,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-159.5, -27.5],
+      "length": 47,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-136.5, 46],
+      "length": 37,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-136.5, -46],
+      "length": 37,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-128.5, 58.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-128.5, -58.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "TUNE_ENGINE"
+    }
+  ],
+  "bounds": [
+    135, -38.5,
+    110, -69.5,
+    -15.5, -69,
+    -60, -69.5,
+    -61, -65,
+    -76, -66,
+    -87.5, -76,
+    -128.5, -79.5,
+    -149.5, -41.5,
+    -166.5, -33.5,
+    -170.5, -21,
+    -192, -6,
+    -192, 6,
+    -170.5, 21,
+    -166.5, 33.5,
+    -149.5, 41.5,
+    -128.5, 79.5,
+    -87.5, 76,
+    -76, 66,
+    -61, 65,
+    -60, 69.5,
+    -15.5, 69,
+    110, 69.5,
+    135, 38.5
+  ]
+}

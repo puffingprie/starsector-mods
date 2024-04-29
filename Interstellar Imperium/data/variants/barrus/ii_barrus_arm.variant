@@ -1,0 +1,66 @@
+{
+    "displayName": "Armored",
+    "fluxCapacitors": 0,
+    "fluxVents": 13,
+    "goalVariant": true,
+    "hullId": "ii_barrus",
+    "hullMods": [
+        "ii_armor_package",
+        "heavyarmor",
+        "eccm"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "ii_barrus_arm",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "ii_fundae_s",
+                "WS0005": "ii_fundae_s",
+                "WS0006": "ii_fundae_s",
+                "WS0007": "ii_fundae_s"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "annihilatorpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "gravitonbeam",
+                "WS0003": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "taclaser",
+                "WS0011": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "lrpdlaser",
+                "WS0009": "lrpdlaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "lightdualmg",
+                "WS0013": "lightdualmg",
+                "WS0014": "lightdualmg",
+                "WS0015": "lightdualmg"
+            }
+        }
+    ]
+}

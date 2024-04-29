@@ -1,0 +1,37 @@
+{
+    "displayName": "Armored",
+    "fluxCapacitors": 0,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "ii_libritor",
+    "hullMods": [
+        "ii_armor_package",
+        "heavyarmor"
+    ],
+    "permaMods": [],
+    "variantId": "ii_libritor_arm",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ii_magna_fulmen"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "ii_siegemortar",
+                "WS0005": "ii_siegemortar"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "ii_arcus",
+                "WS0003": "ii_arcus"
+            }
+        }
+    ],
+    "wings": ["ii_scutum_wing"]
+}

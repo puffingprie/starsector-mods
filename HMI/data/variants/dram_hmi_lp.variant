@@ -1,0 +1,32 @@
+{
+  "variantId": "dram_hmi_lp",
+  "hullId": "dram",
+  "displayName": "Torch",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "militarized_subsystems",
+    "safetyoverrides"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "lightdualac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "seth_sml"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

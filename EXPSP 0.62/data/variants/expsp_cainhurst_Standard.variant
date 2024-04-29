@@ -1,0 +1,73 @@
+{
+  "variantId": "expsp_cainhurst_Standard",
+  "hullId": "expsp_cainhurst",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 44,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_railcannon",
+        "WS0002": "expsp_railcannon",
+        "WS0016": "expsp_coilciws",
+        "WS0017": "expsp_flarelauncher_crimson",
+        "WS0018": "expsp_flarelauncher_crimson",
+        "WS0019": "expsp_flarelauncher_crimson",
+        "WS0020": "expsp_flarelauncher_crimson",
+        "WS0021": "expsp_flarelauncher_crimson",
+        "WS0022": "expsp_flarelauncher_crimson",
+        "WS0024": "expsp_coilciws"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "expsp_reiterpallasch_builtin",
+        "WS0015": "expsp_reiterpallasch_builtin"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "expsp_dpcannon",
+        "WS0004": "expsp_dpcannon",
+        "WS0005": "hveldriver",
+        "WS0006": "hveldriver"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "annihilatorpod",
+        "WS0009": "annihilatorpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "expsp_coilciws_med",
+        "WS0010": "expsp_coilciws",
+        "WS0011": "expsp_coilciws",
+        "WS0012": "expsp_coilciws",
+        "WS0013": "expsp_coilciws"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "expsp_pierce_wing"
+  ]
+}

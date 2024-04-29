@@ -1,0 +1,60 @@
+{
+  "variantId": "hmi_greasy_veteran",
+  "hullId": "hmi_greasy",
+  "displayName": "Close Support",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 10,
+  "quality": 0,
+  "permaMods": [
+    "degraded_engines",
+    "erratic_injector"
+  ],
+  "hullMods": [
+    "frontshield",
+    "targetingunit",
+    "insulatedengine",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "med_frag_mg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "annihilator_fighter",
+        "WS0006": "annihilator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "hmi_kiddie_mortar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0002": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

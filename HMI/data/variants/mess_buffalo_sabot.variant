@@ -1,0 +1,31 @@
+{
+  "variantId": "mess_buffalo_sabot",
+  "hullId": "mess_buffalo",
+  "displayName": "Sabot",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 4,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "sabotpod",
+        "WS0002": "sabot",
+        "WS0003": "sabot",
+        "WS0004": "sabot",
+        "WS0005": "sabot",
+        "WS0006": "sabot",
+        "WS0007": "sabot"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

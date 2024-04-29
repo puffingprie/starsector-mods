@@ -1,0 +1,89 @@
+{
+  "hullName": "Minersky",
+  "hullId": "uaf_wing_minersky",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/minersky.png",
+  "style": "UAF_FIGHTER_M",
+  "height": 39,
+  "width": 45,
+  "center": [22.5, 18],
+  "collisionRadius": 26.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 23,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": 0,
+      "locations": [12, 9]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": -0,
+      "locations": [12, -9]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": 0,
+      "locations": [15, 3.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-3, -9],
+      "length": 12,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [-3, 9],
+      "length": 12,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [-1.5, -6],
+      "length": 12,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [-1.5, 6],
+      "length": 12,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "MELODY_ENGINE_H"
+    }
+  ],
+  "bounds": [
+    13.5, -3.5,
+    12.5, -11,
+    1, -15.5,
+    -12.5, -15.5,
+    -10, -9,
+    -10, 5,
+    -12.5, 11.5,
+    1, 11.5,
+    12.5, 7,
+    13.5, -0.5
+  ]
+}

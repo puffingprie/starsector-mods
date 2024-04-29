@@ -1,0 +1,17 @@
+{
+    "id":"ii_magna_fulmen_base",
+    "specClass":"projectile",
+    "spawnType":"BALLISTIC",
+    "collisionClass":"NONE",
+    "collisionClassByFighter":"NONE",
+    "length":0.01,
+    "width":0.01,
+    "fadeTime":0.01,
+    "fringeColor":[0,0,0,0],
+    "coreColor":[0,0,0,0],
+    "glowColor":[0,0,0,0],
+    "glowRadius":0.0,
+    "textureScrollSpeed":64.0,
+    "pixelsPerTexel":5.0,
+    "bulletSprite":"graphics/missiles/bomblet0.png",
+}

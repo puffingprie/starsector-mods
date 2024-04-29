@@ -1,0 +1,98 @@
+fieldID,fieldName,fieldType,defaultValue,secondaryValue,fieldDescription,minValue,maxValue,tab
+,,,,,,,,
+#Expansion,,,,,,,,
+rat_expansionsHeader,Expansions,Header,Expansions,,,,,Expansion
+rat_abyssEnabled,"Enable ""The Abyssal Depths""",Boolean,true,,"The Abyssal Depths is a new area focused on [Exploration]. It adds a variety of ships, weapons, and unique loot to find.
+
+The entrance can be found in the bottom left corner of the sector.
+
+If enabled, it generates content for both new and existing saves upon game load.",,,Expansion
+rat_exotechEnabled,"Enable ""Exo-Tech""",Boolean,true,,"Adds a faction called ""Exo-Tech"" to the sector. The faction can not be started with, and instead hides within the fringe-worlds of the sector, where it may have some oppertunities for trade with rare-technologies.
+
+Can be enabled mid-save",,,Expansion
+rat_relicsEnabled,"Enable ""Relics of the Past""",Boolean,true,,"Generates lots of unique loot, stations, interactions and planetary conditions across the sector, with most of it being discoverable in ruined systems.
+
+Enabling ""Relics of the Past"" generates content for both new and existing saves upon game load.",,,Expansion
+rat_frontiersEnabled,"Enable ""Frontiers""",Boolean,true,,"Enables the player to construct a ""Settlement"" on a planet. Settlements are a low maintenance alternative to colonies for mid- to lategame, Providing a base of operation to the player that does not require much oversight. Only one Settlement can be constructed.
+
+Enabling ""Frontiers"" enables it for the current save on load. Disabling it on an existing save has no effect.",,,Expansion
+rat_backgroundsEnabled,"Enable ""Backgrounds""",Boolean,true,,"Adds more unique backgrounds to Nexerelins ""Background"" system.
+
+Requires [Nexerelin v0.11.0x] or newer.",,,Expansion
+,,,,,,,,
+rat_abyssHeader,The Abyssal Depths,Header,The Abyssal Depths,,,,,Expansion
+rat_abyssBrighter,Brighter Abyss,Boolean,false,,"Makes the abyss less dark, recommended if it turns out to be too dark on your screen.",,,Expansion
+rat_abyssDifficulty,Abyss Difficulty,Radio,Normal,"Normal, Hard","Changes the difficulty curve of the Abyss.
+
+Hard mode greatly increases the strength of fleets found within the Abyss. Also adds slight player fleet scaling.",,,Expansion
+,,,,,,,,
+rat_relicsHeader,Relics of the Past,Header,Relics of the Past,,,,,Expansion
+rat_enableRelicsStations,Spawn Stations,Boolean,true,,"Spawn the stations from ""Relics of the Past""",,,Expansion
+rat_enableRelicsConditions,Spawn Planetary Conditions,Boolean,true,,"Spawn the planetary conditions from ""Relics of the Past""",,,Expansion
+,,,,,,,,
+rat_frontiersHeader,Frontiers,Header,Frontiers,,,,,Expansion
+rat_frontiersIncomeMult,Income Multiplier,Double,1,,Multiplies the amount of passive income that settlements provide.,0.5,3.0,Expansion
+rat_frontiersCostMult,Cost Multiplier,Double,1,,"Changes the cost of all settlement related expanses, like establishing one and paying for the construction of facilities.",0.5,3.0,Expansion
+,,,,,,,,
+rat_backgroundsHeader,Backgrounds,Header,Backgrounds,,,,,Expansion
+rat_backgroundSpecialHotkey,Ability Hotkey,Keycode,0,,"Some Backgrounds have special abilities. The hotkey for them can be set here, if the setting is not changed, it will default to [right click] instead. Keys used by other parts of the game will likely not work correctly.",,,Expansion
+,,,,,,,,
+rat_creditsHeader,Credits,Header,Credits,,,,,Expansion
+rat_creditsText,,Text,"[Credits:]
+[Lukas04] - Code & Concepts
+[SnazzyPantsMcGee] - Spritework
+[Haplogynae] - Music & Sounds
+[Anulackk] - Illustrations
+
+[Niatahl] & [Ruddygreat] - Helped with some VFX.
+[Selkie] - Some background art & portraits.
+[Nes] - Skin for a unique ship.
+[Loyse] - Helped with some variants and made the banner 3D model.
+[KingAlfonzo] - Helped writing some Interactions. ",,,,,Expansion
+,,,,,,,,
+#Enhancements,,,,,,,,
+rat_parallelHeader,Parallel Construction,Header,Parallel Construction,,,,,Enhancement
+rat_parallelEnabled,Enable Parallel Construction,Boolean,false,,"Removes the queue system in Colony Construction, allowing everything to be built at the same time.",,,Enhancement
+rat_parallelApplyToNPCs,Apply to NPCs,Boolean,false,,"If set to true and parallel construction is enabled, NPC markets will benefit from the same effect.",,,Enhancement
+,,,,,,,,
+,,,,,,,,
+rat_UIHeader,Mini-map,Header,Mini-map,,,,,Enhancement
+rat_enableMinimap,Enable Mini-map,Boolean,false,,"Replaces the [Campaign Radar] with an interactive mini-map. Requires a [save/reload] to toggle.
+
+The view centers on your fleet's location, and can't be manually moved unless the game is paused.
+
+[Warning]: This can be performance intensive; this is especially pronounced when in hyperspace if you have increased Sector generation size.",,,Enhancement
+rat_minimapShape,Mini-map Shape,Radio,Wide,"Wide, Square","Configures the shape of the mini-map.
+""Wide"" takes up more space, but should be easier to interact with. ""Square"" is the same size as the vanilla radar.
+",,,Enhancement
+rat_minimapStarscape,Starscape Mode,Boolean,false,,"Displays the mini-map in ""Starscape"" mode when in Hyperspace. Looks nicer, but can't display sensor activity, slipstreams or hyperspace clouds.",,,Enhancement
+rat_minimapFuel,Enable Fuel Overlay,Boolean,true,,"Shows the fuel range overlay on the mini-map in hyperspace. 
+",,,Enhancement
+,,,,,,,,
+rat_miscHeader,Miscellaneous,Header,Miscellaneous,,,,,Enhancement
+rat_forceDisableHelp,Force disable help pop-ups,Boolean,false,,"Disables help pop-ups in a save even if they were enabled during save creation. Only refreshes on save reloads or newly created saves, [does not re-enable] help pop-ups if disabled.",,,Enhancement
+,,,,,,,,
+,,,,,,,,
+#Procgen,,,,,,,,
+rat_procgenHeader,Procedual Generation Tweaks,Header,Procedual Generation Config,,,,,Procgen
+rat_procgenText,,Text,"Changes to how Starsector's procedural generation works. 
+This section is a simplified and more idiot-proof version of Adjusted Sector.
+[If Adjusted Sector is installed], this section is [ignored] and Adjusted Sector's configs are used instead.",,,,,Procgen
+rat_systemScaleV2,Change amount of generated star systems,Radio,Vanilla,"Vanilla, 150%, 200%, 250%","Changes the amount of generated star systems. 
+Increasing generated systems incurs a [heavy performance cost].
+
+Vanilla themes will scale with the amount of systems, modded themes may not.",,,Procgen
+rat_hyperspaceCloudsMod,Hyperspace Clouds Spawn Modifier,Double,0.8,,"Adjusts the amount of hyperspace clouds spawned during sector generation. Vanilla uses a value of 0.8. A lower value will spawn fewer, a value of 0 spawns none.",0,1.0,Procgen
+#rat_improvedMisc,Improved Miscellaneous Theme,Boolean,false,,"Improves the ""Miscellaneous"" Theme. Starsector generates this theme as a filler for systems that didn't receive anything special during procgen. In vanilla, those systems rarely give anything of worth, often spawning completely empty systems. Toggling this will prevent those from ever being empty, and gives them a lot more loot.",,,Procgen
+,,,,,,,,
+rat_lootHeader,Loot Tweaks,Header,Loot Tweaks,,,,,Procgen
+rat_hullmodBPLootFrequency,Hullmod BP Loot Frequency,Double,1,,"Multiplies the amount of hullmod blueprints received via salvaging. Useful when playing with mods that add their own hullmods.
+
+Can be changed mid-save.",1.0,3.0,Procgen
+rat_shipBPLootFrequency,Ship BP Loot Frequency,Double,1,,"Multiplies the amount of ship blueprints received via salvaging. Useful when playing with lots of mods that add ships to the loot pool. Since ship blueprints sell for a high price, this option can become quite overpowered if set too high.
+
+Can be changed mid-save.",1.0,3.0,Procgen
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,

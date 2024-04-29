@@ -1,0 +1,46 @@
+{
+  "variantId": "mess_colossus_hag",
+  "hullId": "mess_colossus",
+  "displayName": "Assault Gun",
+  "goalVariant": true,
+  "fluxCapacitors": 15,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "hephag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "lightag",
+        "WS0002": "lightag",
+        "WS0003": "lightag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "hephag",
+        "WS0006": "hephag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "hephag"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

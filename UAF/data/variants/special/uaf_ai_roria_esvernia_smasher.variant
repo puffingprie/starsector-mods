@@ -1,0 +1,87 @@
+{
+  "variantId": "uaf_ai_roria_esvernia_smasher",
+  "hullId": "uaf_ai_roria_esvernia",
+  "displayName": "Smasher",
+  "goalVariant": false,
+  "fluxCapacitors": 4,
+  "fluxVents": 4,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter",
+    "stabilizedshieldemitter",
+    "targetingunit",
+    "autorepair"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_edge_type_iv",
+        "WS0003": "uaf_edge_type_iv",
+        "WS0005": "uaf_edge_type_iv"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "uaf_edge_type_iv",
+        "WS0004": "uaf_edge_type_iv",
+        "WS0006": "uaf_edge_type_iv"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "uaf_swaras_m_mlrs",
+        "WS0008": "uaf_swaras_m_mlrs",
+        "WS0009": "uaf_swaras_m_mlrs",
+        "WS0010": "uaf_swaras_m_mlrs"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "uaf_medlav_quad",
+        "WS0012": "uaf_medlav_quad",
+        "WS0013": "uaf_ivory_triple",
+        "WS0014": "uaf_ivory_triple"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "uaf_cyrexa_ii_sxc",
+        "WS0018": "uaf_cyrexa_ii_sxc"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0019": "uaf_hikone_quad",
+        "WS0020": "uaf_hikone_quad",
+        "WS0021": "uaf_hikone_quad",
+        "WS0022": "uaf_hikone_quad"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "uaf_triyia_pdx",
+        "WS0016": "uaf_triyia_pdx",
+        "WS0023": "uaf_weiss_iii_flk"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_naga"
+  ]
+}

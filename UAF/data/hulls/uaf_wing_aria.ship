@@ -1,0 +1,100 @@
+{
+  "hullName": "Aria Wing",
+  "hullId": "uaf_wing_aria",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Aria.png",
+  "style": "UAF_FIGHTER_S",
+  "height": 54,
+  "width": 51,
+  "center": [25.5, 27],
+  "collisionRadius": 50,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 10,
+  "viewOffset": 40,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 14,
+      "angle": 0,
+      "locations": [7.5, 2.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-4, 9]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-4, -9]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 14,
+      "angle": 0,
+      "locations": [5.5, 2.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-16, -5.5],
+      "length": 16,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [-16, 5.5],
+      "length": 16,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [-17, 9.5],
+      "length": 15,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [-17, -9.5],
+      "length": 15,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "MELODY_ENGINE_H"
+    }
+  ],
+  "bounds": [
+    23.5, -1,
+    8.5, -5,
+    -6, -13,
+    -3.5, -22,
+    -21, -14,
+    -18, -2.5,
+    -18, 2.5,
+    -21, 14,
+    -3.5, 22,
+    -6, 13,
+    8.5, 5,
+    23.5, 1
+  ]
+}

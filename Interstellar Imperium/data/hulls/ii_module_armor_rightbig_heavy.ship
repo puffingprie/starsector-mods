@@ -1,0 +1,48 @@
+{
+  "hullName": "Station Heavy Armour Module",
+  "hullId": "ii_module_armor_rightbig_heavy",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/imperium/ships/station/ii_module_armor_rightbig.png",
+  "style": "IMPERIUM",
+  "height": 163,
+  "width": 115,
+  "center": [57.5, 81.5],
+  "collisionRadius": 100,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 100,
+  "viewOffset": 0,
+  "moduleAnchor": [
+    47.5,
+    0
+  ],
+  "builtInMods": [
+    "reduced_explosion",
+    "always_detaches",
+    "heavyarmor",
+    "ii_no_package"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    47.5, -2.5,
+    -0.5, -31.5,
+    -49.5, -31.5,
+    -55, -36.5,
+    -79.5, -36.5,
+    -80.5, -45.5,
+    -54.5, -48,
+    -49, -52.5,
+    8.5, -56.5,
+    31, -42.5,
+    34, -42.5,
+    58, -25.5,
+    60.5, -25.5,
+    77.5, -14,
+    77.5, 31.5,
+    79.5, 34.5,
+    80, 56.5,
+    44, 56.5,
+    44, 16.5,
+    47, 13.5
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "hullName": "Embrasure",
+  "hullId": "embrasure",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/derelicts/embrasure.png",
+  "style": "LOW_TECH",
+  "height": 135,
+  "width": 120,
+  "center": [60, 67.5],
+  "collisionRadius": 106.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 101.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "repair_gantry",
+    "surveying_equipment",
+    "rugged"
+  ],
+  "builtInWings": [
+    "sifter_drone_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [36.5, 49]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [36.5, -49]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 195,
+      "angle": 90,
+      "locations": [0.5, 50]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 195,
+      "angle": -90,
+      "locations": [0.5, -50]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "LAUNCH_BAY",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 0,
+      "locations": [
+        36, -1.5,
+        31.5, 11,
+        35, -10
+      ]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 41,
+      "angle": 166,
+      "locations": [-22.5, 23]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 41,
+      "angle": -166,
+      "locations": [-22.5, -23]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 44,
+      "angle": 0,
+      "locations": [60, 29.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 44,
+      "angle": -0,
+      "locations": [60, -29.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-58.5, 39],
+      "length": 31.5,
+      "width": 25,
+      "angle": 180,
+      "contrailSize": 25,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-58.5, -39],
+      "length": 31.5,
+      "width": 25,
+      "angle": -180,
+      "contrailSize": 25,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-65.5, 21],
+      "length": 39,
+      "width": 27,
+      "angle": 180,
+      "contrailSize": 27,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-65.5, -21],
+      "length": 39,
+      "width": 27,
+      "angle": -180,
+      "contrailSize": 27,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-65, 1],
+      "length": 45,
+      "width": 34,
+      "angle": 180,
+      "contrailSize": 34,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -66.5, -27.5,
+    -58.5, -33.5,
+    -58.5, -47,
+    -36.5, -58,
+    38.5, -56,
+    45.5, -34.5,
+    66.5, -31,
+    66.5, 31,
+    45.5, 34.5,
+    38.5, 56,
+    -36.5, 58,
+    -58.5, 47,
+    -58.5, 33.5,
+    -66.5, 27.5
+  ]
+}

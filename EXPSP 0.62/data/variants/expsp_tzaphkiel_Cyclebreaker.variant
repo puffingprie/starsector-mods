@@ -1,0 +1,61 @@
+{
+  "variantId": "expsp_tzaphkiel_Cyclebreaker",
+  "hullId": "expsp_tzaphkiel",
+  "displayName": "Cycle Breaker",
+  "goalVariant": true,
+  "fluxCapacitors": 12,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_coilciws_med",
+        "WS0002": "expsp_coilciws_med"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "expsp_electrolance",
+        "WS0005": "expsp_electrolance"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "expsp_type56",
+        "WS0007": "expsp_type56"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "expsp_multilaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "expsp_flarelauncher_crimson",
+        "WS0013": "expsp_flarelauncher_crimson",
+        "WS0014": "expsp_flarelauncher_crimson",
+        "WS0015": "expsp_flarelauncher_crimson",
+        "WS0016": "expsp_flarelauncher_crimson",
+        "WS0017": "expsp_flarelauncher_crimson"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

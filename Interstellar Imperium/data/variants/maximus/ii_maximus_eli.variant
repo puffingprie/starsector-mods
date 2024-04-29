@@ -1,0 +1,27 @@
+{
+    "displayName": "Elite",
+    "goalVariant": true,
+    "fluxCapacitors": 8,
+    "fluxVents": 10,
+    "hullId": "ii_maximus",
+    "hullMods": ["ii_elite_package"],
+    "permaMods": [],
+    "variantId": "ii_maximus_eli",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ii_patella"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "irpulse",
+                "WS0003": "irpulse",
+                "WS0004": "ioncannon",
+                "WS0005": "ioncannon"
+            }
+        }
+    ]
+}

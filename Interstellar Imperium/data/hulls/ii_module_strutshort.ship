@@ -1,0 +1,36 @@
+{
+  "hullName": "Station Structural Spur",
+  "hullId": "ii_module_strutshort",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/imperium/ships/station/ii_module_strutshort.png",
+  "style": "IMPERIUM",
+  "height": 142,
+  "width": 112,
+  "center": [56, 77],
+  "collisionRadius": 79.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 79.5,
+  "viewOffset": 0,
+  "moduleAnchor": [
+    -75,
+    0
+  ],
+  "builtInMods": [
+    "reduced_explosion",
+    "vastbulk",
+    "never_detaches",
+    "do_not_fire_through",
+    "ii_no_package"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    62, -28.5,
+    54, -51,
+    -37, -52.5,
+    -75, 0,
+    -37, 52.5,
+    54, 51,
+    62, 28.5
+  ]
+}

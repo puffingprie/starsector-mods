@@ -1,0 +1,77 @@
+{
+  "variantId": "roach_king_mbeke",
+  "hullId": "roach_king",
+  "displayName": "Mbeke",
+  "goalVariant": false,
+  "fluxCapacitors": 7,
+  "fluxVents": 25,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "reinforcedhull",
+    "dedicated_targeting_core"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0015": "hmi_heavy_assault_launcher"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "rangus_crossbow",
+        "WS0002": "rangus_crossbow",
+        "WS0027": "rangus_crossbow",
+        "WS0028": "rangus_crossbow"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "rad_gun",
+        "WS0009": "launcher_cannon",
+        "WS0017": "rad_gun",
+        "WS0018": "launcher_cannon",
+        "WS0023": "launcher_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "campbelltown_med",
+        "WS0005": "campbelltown_med",
+        "WS0006": "annihilator",
+        "WS0024": "annihilator",
+        "WS0025": "annihilator",
+        "WS0026": "annihilator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "mbeke_med",
+        "WS0008": "mbeke_med",
+        "WS0010": "mbeke_med",
+        "WS0011": "mbeke_sml",
+        "WS0012": "mbeke_sml",
+        "WS0013": "mbeke_sml",
+        "WS0014": "mbeke_sml",
+        "WS0016": "mbeke_sml",
+        "WS0019": "mbeke_med",
+        "WS0020": "mbeke_sml",
+        "WS0021": "mbeke_sml",
+        "WS0022": "mbeke_sml"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

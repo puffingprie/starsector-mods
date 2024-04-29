@@ -1,0 +1,356 @@
+{
+  "bounds": [
+    87.5,
+    -19,
+    69,
+    -38,
+    60.5,
+    -38,
+    54.5,
+    -44,
+    32,
+    -44,
+    27,
+    -31,
+    -3,
+    -31,
+    -15.5,
+    -42,
+    -40,
+    -42,
+    -103,
+    -13,
+    -96,
+    0,
+    -103,
+    13,
+    -40,
+    42,
+    -15.5,
+    42,
+    -3,
+    31,
+    27,
+    31,
+    32,
+    44,
+    54.5,
+    44,
+    60.5,
+    38,
+    69,
+    38,
+    87.5,
+    19,
+    96,
+    -0
+  ],
+  "builtInWeapons": {
+    "BLINKER1": "ii_targeting_blinker1",
+    "BLINKER2": "ii_targeting_blinker1",
+    "BLINKER3": "ii_targeting_blinker2",
+    "BLINKER4": "ii_targeting_blinker2",
+    "BLINKER5": "ii_targeting_blinker3",
+    "BLINKER6": "ii_targeting_blinker3",
+    "ELITE": "ii_elite_lights_princeps"
+  },
+  "builtInWings": [],
+  "center": [
+    46,
+    104
+  ],
+  "collisionRadius": 122,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 64,
+      "location": [
+        -70,
+        29
+      ],
+      "style": "IMPERIUM",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 64,
+      "location": [
+        -70,
+        -29
+      ],
+      "style": "IMPERIUM",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 16,
+      "length": 64,
+      "location": [
+        -104,
+        12
+      ],
+      "style": "IMPERIUM",
+      "width": 16
+    },
+    {
+      "angle": -180,
+      "contrailSize": 16,
+      "length": 64,
+      "location": [
+        -104,
+        -12
+      ],
+      "style": "IMPERIUM",
+      "width": 16
+    }
+  ],
+  "height": 203,
+  "hullId": "ii_princeps",
+  "hullName": "Princeps",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    -4,
+    -0
+  ],
+  "shieldRadius": 117.5,
+  "spriteName": "graphics/imperium/ships/princeps/ii_princeps.png",
+  "style": "IMPERIUM",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 270,
+      "id": "WS0001",
+      "locations": [
+        61,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "COMPOSITE"
+    },
+    {
+      "angle": 180,
+      "arc": 270,
+      "id": "WS0002",
+      "locations": [
+        -66,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 0,
+      "arc": 270,
+      "id": "WS0003",
+      "locations": [
+        7,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 0,
+      "arc": 120,
+      "id": "WS0004",
+      "locations": [
+        31,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 75,
+      "arc": 150,
+      "id": "WS0005",
+      "locations": [
+        43,
+        27
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "COMPOSITE"
+    },
+    {
+      "angle": -75,
+      "arc": 150,
+      "id": "WS0006",
+      "locations": [
+        43,
+        -27
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "COMPOSITE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "ELITE",
+      "locations": [
+        -49,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "BLINKER1",
+      "locations": [
+        -62.5,
+        25.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 360,
+      "id": "BLINKER2",
+      "locations": [
+        -62.5,
+        -25.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "BLINKER3",
+      "locations": [
+        -65.5,
+        25.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 360,
+      "id": "BLINKER4",
+      "locations": [
+        -65.5,
+        -25.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "BLINKER5",
+      "locations": [
+        -68.5,
+        25.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 360,
+      "id": "BLINKER6",
+      "locations": [
+        -68.5,
+        -25.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        19.5,
+        24.5,
+        11,
+        24.5,
+        1,
+        24.5,
+        -7.5,
+        26,
+        -13,
+        31.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 2",
+      "locations": [
+        19.5,
+        -24.5,
+        11,
+        -24.5,
+        1,
+        -24.5,
+        -7.5,
+        -26,
+        -13,
+        -31.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 180,
+      "arc": 0,
+      "id": "WS0007",
+      "locations": [
+        -94,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 45,
+      "arc": 0,
+      "id": "WS0008",
+      "locations": [
+        74.5,
+        31.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": -45,
+      "arc": 0,
+      "id": "WS0009",
+      "locations": [
+        74.5,
+        -31.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    }
+  ],
+  "width": 92
+}

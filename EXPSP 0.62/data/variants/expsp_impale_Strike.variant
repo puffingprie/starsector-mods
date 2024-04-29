@@ -1,0 +1,38 @@
+{
+  "variantId": "expsp_impale_Strike",
+  "hullId": "expsp_impale",
+  "displayName": "Heavy Drone Strike Fighter",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_electrolance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "expsp_coilciwsmini",
+        "WS0003": "expsp_coilciwsmini"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "expsp_icarus",
+        "WS0005": "expsp_icarus"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

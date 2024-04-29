@@ -1,0 +1,52 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 10,
+    "fluxVents": 12,
+    "goalVariant": true,
+    "hullId": "ii_ardea",
+    "hullMods": ["expanded_deck_crew"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "ii_ardea_sta",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "ionbeam"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ii_ballista",
+                "WS0002": "ii_ballista"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "hveldriver"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "ii_sledgegun",
+                "WS0007": "ii_sledgegun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "ii_custos",
+                "WS0008": "ii_custos",
+                "WS0009": "ii_custos"
+            }
+        }
+    ],
+    "wings": [
+        "ii_inferna_wing",
+        "ii_flamen_wing"
+    ]
+}

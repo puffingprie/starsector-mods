@@ -1,0 +1,30 @@
+{
+    "displayName": "Imperial Elite",
+    "fluxCapacitors": 10,
+    "fluxVents": 5,
+    "hullId": "ii_maximus",
+    "hullMods": [
+        "ii_elite_package",
+        "safetyoverrides"
+    ],
+    "permaMods": ["ii_elite_package"],
+    "sMods": ["ii_elite_package"],
+    "variantId": "ii_maximus_ie",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ii_patella"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "irpulse",
+                "WS0003": "irpulse",
+                "WS0004": "irpulse",
+                "WS0005": "irpulse"
+            }
+        }
+    ]
+}

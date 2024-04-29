@@ -1,0 +1,5 @@
+bar event id,tags,freq,prob,min dur,max dur,min timeout,max timeout,min accepted timeout,max accepted timeout,plugin
+# overwrite plugin for vanilla missions,,,,,,,,,,
+cheapCom,,10,1,30,40,15,20,60,90,mmm.missions.MmmCheapCommodityMission
+proCom,,10,1,30,40,15,20,60,90,mmm.missions.MmmProcurementMission
+,,,,,,,,,,

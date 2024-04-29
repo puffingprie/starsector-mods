@@ -1,0 +1,10 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+  "hullId": "hmi_locomotive_base",
+    "hullMods": [],
+    "permaMods": [],
+  "variantId": "hmi_locomotive_base_variant",
+    "weaponGroups": []
+}

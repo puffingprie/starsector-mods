@@ -1,0 +1,44 @@
+{
+  "variantId": "tarsus_mb_armour",
+  "hullId": "tarsus_mbhmi",
+  "displayName": "Razorback",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [
+      "HMI_MB_tarsusboost",
+	  "shielded_holds",
+	  ],
+  "sMods": ["armoredweapons", "militarized_subsystems"],
+  "hullMods": [
+    "heavyarmor",
+    "shield_shunt"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "lightac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "lightag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "mbeke_sml",
+        "WS 002": "mbeke_sml"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

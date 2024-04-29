@@ -1,0 +1,195 @@
+{
+	id:"keruvim",
+	"color":[255, 81, 173,255],
+	"secondaryUIColor":[215,192,132,155],
+    "secondarySegments":3,
+	"baseUIColor":[255, 81, 173,255],
+	"displayName":"Keruvim Shipyards",
+	"displayNameWithArticle":"Keruvim Shipyards",
+	"displayNameLong":"Keruvim Shipyards",
+	"displayNameLongWithArticle":"Keruvim Shipyards",
+	"entityNamePrefix":"Keruvim",
+	"personNamePrefix":"Keruvim",
+	"personNamePrefixAOrAn":"A",
+	"displayNameIsOrAre":"Are",
+	"logo":"graphics/factions/keruvim_keruvim_flag.png",
+	"crest":"graphics/factions/keruvim_keruvim_crest.png",
+	"shipNamePrefix":"KVSS",
+	"shipNameSources":{
+		"GREEK":1,
+		"CELTIC":2,
+		"SPACE":3,
+		"GENERAL":1,
+	},
+	"description":"",
+	"names":{
+		"modern":1,
+		"world":1,
+		"future":1,
+		"myth":1,
+	},
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{"midline_bp":4, "keruvim_bp":10, "keruvim_pride_bp":1},
+		"hulls":{"gremlin":0, "buffalo2":0, "keruvim_brawler_xiv":2, "keruvim_catapult":1},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["base_bp", "keruvim_bp", "midline_bp"],
+		#"hulls":[],
+	},
+	"knownShips":{
+		"tags":["base_bp", "midline_bp", "keruvim_bp", "keruvim_pride_bp"],
+		"hulls":["keruvim_duchess", "keruvim_bastion", "keruvim_brawler_xiv", "keruvim_empress"],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		#"tags":["midline_bp", "keruvim_bp", "keruvim_pride_bp"],
+		#"hulls":["keruvim_brawler_xiv"],
+	},
+	"knownFighters":{
+		"tags":["midline_bp", "keruvim_bp", "keruvim_pride_bp"],
+		#"fighters":[],
+	},
+	"priorityFighters":{
+		"tags":["keruvim_bp"],
+		#"fighters":[],
+	},
+	"knownWeapons":{
+		"tags":["base_bp", "missile_bp", "keruvim_bp", "hightech_bp"],
+		"weapons":["keruvim_tsar"],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		#"weapons":[],
+	},
+	"knownHullMods":{
+		"tags":["base_bp"],
+		"hullMods":[
+			"advancedshieldemitter", # accelerated
+			"turretgyros",
+			"armoredweapons",
+			"augmentedengines",
+			"autorepair",
+			"converted_hangar",
+			"eccm",
+			"ecm",
+			"expanded_deck_crew",
+			"magazines",
+			"missleracks",
+			"extendedshieldemitter",
+			"frontemitter",
+			"frontshield",  # makeshift
+			"hardenedshieldemitter",
+			"heavyarmor",
+			"insulatedengine",
+			"targetingunit",
+			"nav_relay",
+			"adaptiveshields", # omni
+			"operations_center",
+			"recovery_shuttles",
+			"fluxbreakers",
+			"stabilizedshieldemitter",
+			"surveying_equipment",
+			"hiressensors",
+			"efficiency_overhaul",
+			"escort_package",
+			"assault_package",
+		],
+	},
+	"factionDoctrine":{
+		"warships":3,
+		"carriers":3,
+		"phaseShips":1,
+		
+		"officerQuality":1,
+		"shipQuality":3,
+		"numShips":3,
+		
+		"shipSize":3,
+		
+		"aggression":3,
+		
+		"combatFreighterProbability":0.5,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0.5,				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":1,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.25,
+
+		"commanderSkillsShuffleProbability":0,
+		"commanderSkills":[
+			"crew_training",
+			"officer_training",
+			"coordinated_maneuvers",
+			"electronic_warfare",
+			"fighter_uplink",
+			"carrier_group",
+			"flux_regulation",
+		],
+	},
+	"illegalCommodities":[
+		"organs",
+		"hand_weapons",
+		"ai_cores",
+	],
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/portrait_keruvim1.png",
+			"graphics/portraits/portrait_keruvim1m.png",
+			"graphics/portraits/portrait_keruvim2m.png",
+			"graphics/portraits/portrait_keruvim3m.png",
+
+		],
+		"standard_female":[
+			"graphics/portraits/portrait_keruvim1.png",
+			"graphics/portraits/portrait_keruvim1f.png",
+			"graphics/portraits/portrait_keruvim2f.png",
+			"graphics/portraits/portrait_keruvim3f.png",
+		],
+	},
+	"custom":{
+		"allowsTransponderOffTrade":false,
+		"offersCommissions":true,
+		"engagesInHostilities":true,
+		"buysAICores":true,
+		"AICoreValueMult":2,
+		"AICoreRepMult":0.5,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":true,
+		"caresAboutAtrocities":true,
+		"punitiveExpeditionData":{
+			"vsCompetitors":false,
+			"vsFreePort":false,
+			"canBombard":false,
+			"territorial":false,
+		},
+	},
+	"fleetTypeNames":{
+		"trade":"Trader",
+		"tradeLiner":"Logistics Convoy",
+		"tradeSmuggler":"Freelance Courier",
+		"smallTrader":"Delivery Fleet",
+		
+		"patrolSmall":"Scout",
+		"patrolMedium":"Patrol Fleet",
+		"patrolLarge":"System Guardians",
+		
+		"inspectionFleet":"Keruvim Investigators",
+		"taskForce":"Keruvim Elite Task Force",
+		
+		"foodReliefFleet":"Keruvim Charity Fleet",
+	},
+
+
+    "music":{
+        "theme":"keruvim_theme",
+        "market_neutral":"keruvim_theme",
+        "market_hostile":"keruvim_theme",
+        "market_friendly":"keruvim_theme",
+        "encounter_neutral":"keruvim_theme",
+        "encounter_hostile":"keruvim_theme",
+        "encounter_friendly":"keruvim_theme",
+    },
+},	

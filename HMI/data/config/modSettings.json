@@ -1,0 +1,32 @@
+{
+    "nexerelin":{
+		"mining_ship_strengths":{
+			"drone_remora_scan":2,
+			"drone_blitz_borer":2,
+			"sifter_drone":2,
+			"domres_sifter_drone":2,
+			"lasher_hmi": 10,
+			"lasher_hmi_lp": 10,
+			"embrasure":8,
+			"domres_embrasure":10,
+			"hmi_sapper":10,
+			"domres_hmi_sapper":12,
+			"remora":2,		
+			"fishkill": 32,
+		},
+		"mining_weapon_strengths":{
+			"lightthump_sifter":1,
+			"retro_ml": 1.5,
+			"mcg_ml": 2.5,
+			"burst_ml": 1.5,
+			"kane_missile": 2,
+			"mining_gen": 8,
+			"retro_mb": 10,
+			"remora_emp_laser": 2,
+			"mining_burst_blaster": 7,
+			"rock_launcher": 1.5,
+			"launcher_cannon": 10,
+		},
+		"mining_hidden_ships_and_weapons":["drone_remora_scan", "drone_blitz_borer", "sifter_drone", "domres_sifter_drone"],
+    },
+}

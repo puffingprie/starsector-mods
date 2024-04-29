@@ -1,0 +1,12 @@
+{
+    "displayName": "Planetbreaker",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "ii_titan",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "ii_titan_var",
+    "weaponGroups": [
+    ],
+}

@@ -1,0 +1,34 @@
+{
+  "variantId": "hmi_locomotive_fighter_left_cs",
+  "hullId": "hmi_locomotive_fighter_left",
+  "displayName": "Close Support",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "seth_sml",
+        "WS0003": "seth_med",
+        "WS0004": "seth_sml"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "flak",
+        "WS0005": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "hmi_scale_wing"
+  ]
+}

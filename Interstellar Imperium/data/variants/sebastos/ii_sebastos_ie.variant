@@ -1,0 +1,61 @@
+{
+    "displayName": "Imperial Elite",
+    "fluxCapacitors": 15,
+    "fluxVents": 16,
+    "hullId": "ii_sebastos",
+    "hullMods": [
+        "ii_elite_package",
+        "unstable_injector"
+    ],
+    "permaMods": ["ii_elite_package"],
+    "sMods": ["ii_elite_package"],
+    "variantId": "ii_sebastos_ie",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ii_photonbeam"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "typhoon",
+                "WS0003": "typhoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "ii_particlecannon",
+                "WS0009": "ii_particlecannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "ii_lux",
+                "WS0007": "ii_lux"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "railgun",
+                "WS0005": "railgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "lightdualmg",
+                "WS0011": "lightdualmg"
+            }
+        }
+    ],
+    "wings": ["ii_draconarius_wing"]
+}

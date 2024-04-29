@@ -1,0 +1,49 @@
+{
+  "variantId": "keruvim_glaive_lgbt_standard",
+  "hullId": "keruvim_glaive_lgbt",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 25,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "nav_relay"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "pilum",
+        "WS0006": "pilum"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "keruvim_tsar",
+        "WS0002": "gauss"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "flak",
+        "WS0004": "flak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "keruvim_needle",
+        "WS0008": "keruvim_needle"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,104 @@
+{
+  "hullName": "Dram (Mess)",
+  "hullId": "mess_dram",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/mess/mess_small.png",
+  "style": "LOW_TECH",
+  "height": 132,
+  "width": 90,
+  "center": [45, 66],
+  "collisionRadius": 95.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 83.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+	"hmi_mess_visuals",
+    "hmi_mess_spawn"
+  ],
+  "builtInWings": [
+    "drone_feeder_wing",
+    "drone_feeder_wing",
+    "drone_feeder_heavy_wing"
+  ],
+  "builtInWeapons": {
+    "WS0002": "ioncannon"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [
+        12.5, -7.5,
+        18.5, -9.5,
+        5, -14.5
+      ]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 244,
+      "angle": -33.5,
+      "locations": [42.5, -28.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-62.5, 22],
+      "length": 17.5,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-61.5, 7.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-61, -23],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-61.5, -7.5],
+      "length": 40.5,
+      "width": 29,
+      "angle": 180,
+      "contrailSize": 29,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    49.5, -36,
+    50.5, -19,
+    65, -9,
+    62.5, 44,
+    21.5, 35,
+    20.5, 26.5,
+    -15, 28,
+    -20, 37.5,
+    -46.5, 38,
+    -61.5, 25,
+    -61, -32.5,
+    -50, -35.5,
+    -45.5, -40,
+    -13, -41,
+    -13, -28.5,
+    25, -28,
+    33, -35.5
+  ]
+}

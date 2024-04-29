@@ -1,0 +1,39 @@
+{
+  "variantId": "expsp_asdf1_Elite",
+  "hullId": "expsp_asdf1",
+  "displayName": "Elite Aerospace Dominance Fighter",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "expsp_morganbeam",
+        "WS0007": "expsp_flarelauncher_crimson"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_coilciwsbuiltin",
+        
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "expsp_tap",
+        "WS0004": "expsp_tap"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,22 @@
+{
+  "variantId": "hmi_shell_standard",
+  "hullId": "hmi_shell",
+  "displayName": "Converted Combat Drone",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sml_fragrifle"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

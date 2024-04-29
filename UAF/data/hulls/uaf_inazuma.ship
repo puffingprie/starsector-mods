@@ -1,0 +1,207 @@
+{
+  "hullName": "Inazuma",
+  "hullId": "uaf_inazuma",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/Inazuma/Inazuma_Standard.png",
+  "style": "UAF_CRUISER",
+  "height": 240,
+  "width": 144,
+  "center": [72, 118],
+  "collisionRadius": 155,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 132,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering",
+    "uaf_weaponCalibration"
+  ],
+  "builtInWeapons": {
+    "WS0008": "uaf_precisia_dual",
+    "WS0009": "uaf_precisia_dual"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-81, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [31, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 45,
+      "angle": 0,
+      "locations": [67, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 115,
+      "angle": -45,
+      "locations": [5, -40]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 115,
+      "angle": 45,
+      "locations": [5, 40]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -135,
+      "locations": [-86, -35]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 135,
+      "locations": [-86, 35]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 25,
+      "angle": 0,
+      "locations": [49.5, 31]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 25,
+      "angle": 0,
+      "locations": [49.5, -31]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-32, 39.5],
+      "length": 22.5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-32, -39.5],
+      "length": 22.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-27.5, 51],
+      "length": 22.5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-27.5, -51],
+      "length": 22.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-112, 26.5],
+      "length": 52.5,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-112, -26.5],
+      "length": 52.5,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-112, 18],
+      "length": 52.5,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-112, -18],
+      "length": 52.5,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "TUNE_ENGINE"
+    }
+  ],
+  "bounds": [
+    -113.5, 5,
+    -105.5, 38.5,
+    -97, 38.5,
+    -78, 66,
+    -74.5, 67.5,
+    -63, 61,
+    -63, 57.5,
+    -71.5, 41.5,
+    -71.5, 32,
+    -40, 32,
+    -35.5, 26,
+    -27.5, 35.5,
+    -27, 61,
+    -11.5, 68.5,
+    57.5, 39.5,
+    63, 25.5,
+    120, 4.5,
+    120, -4.5,
+    63, -25.5,
+    57.5, -39.5,
+    -11.5, -68.5,
+    -27, -61,
+    -27.5, -35.5,
+    -35.5, -26,
+    -40, -32,
+    -71.5, -32,
+    -71.5, -41.5,
+    -63, -57.5,
+    -63, -61,
+    -74.5, -67.5,
+    -78, -66,
+    -97, -38.5,
+    -105.5, -38.5,
+    -113.5, -5
+  ]
+}

@@ -1,0 +1,71 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+uaf_wing_aria,uaf_wing_aria_fighter,"uaf_fighter_bp, uaf_ship_bp, fighter, fighter3, mid, rapid_reform",1,0.6,15,6,V,3000,400,,4,FIGHTER,Strike Fighter,10,6500,,,,,,,,,,,,,100
+uaf_wing_superaria,uaf_wing_superaria_aft,"uaf_fighter_bp, uaf_standard_rare_bp, uaf_m_ship_bp, fighter, fighter4, mid, rapid_reform",1,0.8,18,12,V,3000,400,,3,INTERCEPTOR,Multi-Role Fighter,15,14000,,,,,,,,,,,,,100
+uaf_wing_hyperaria_custom,uaf_wing_hyperaria_custom_y,"fighter, fighter5, no_drop, no_dealer, high, leader_no_swarm, wingmen_no_swarm, restricted",3,5,50,28,V,4000,400,,4,FIGHTER,Experimental Superiority Fighter,35,45000,,,,,,,,,,,,,100
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_wing_naga,uaf_wing_naga_mfa,"uaf_fighter_bp, uaf_automata_rare_bp, fighter, fighter3, high, rapid_reform, independent_of_carrier, leader_no_swarm, wingmen_no_swarm",3,4,24,20,V,4000,500,50,3,FIGHTER,Advanced Attacker,20,24000,,,,,,,,,,,,,100
+uaf_wing_lumayan,uaf_wing_lumayan_mfa,"uaf_fighter_bp, uaf_automata_rare_bp, fighter, fighter3, high, rapid_reform, independent_of_carrier, leader_no_swarm, wingmen_no_swarm",3,4,24,15,V,4000,500,50,3,FIGHTER,Multirole Attacker,17,20000,,,,,,,,,,,,,100
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_wing_exoscar,uaf_wing_exoscar_bomber,"uaf_fighter_bp, uaf_ship_bp, bomber, bomber4, mid, leader_no_swarm, wingmen_no_swarm",2,0.8,20,15,BOX,3000,1700,200,2,BOMBER,Light Torpedo Bomber,20,7500,,,,,,,,,,,,,100
+uaf_wing_fisoyuz,uaf_wing_fisoyuz_fighter,"uaf_fighter_bp, uaf_ship_bp, fighter, fighter2, mid",2,0.5,10,4,CLAW,3000,500,200,4,BOMBER,Rocket Attacker,10,8000,,,,,,,,,,,,,100
+uaf_wing_minersky,uaf_wing_minersky_interceptor,"uaf_fighter_bp, uaf_standard_rare_bp, fighter, fighter2, mid",1,0.5,18,5,CLAW,3000,500,200,4,BOMBER,Rocket Attacker,10,6500,,,,,,,,,,,,,100
+uaf_wing_mitsurei,uaf_wing_mitsurei_fighter,"uaf_fighter_bp, uaf_ship_bp, interceptor1, interceptor, mid, rapid_reform",1,0.3,8,2,V,3000,100,100,6,INTERCEPTOR,Light Interceptor,7,6500,,,,,,,,,,,,,100
+uaf_wing_sakurai,uaf_wing_sakurai_bomber,"uaf_fighter_bp, uaf_standard_rare_bp, bomber, bomber3, mid, match_leader_facing",2,0.6,15,8,CLAW,5000,2000,500,2,BOMBER,Medium Bomber,15,8000,,,,,,,,,,,,,100
+uaf_wing_hibiscus,uaf_wing_hibiscus_sbmb,"uaf_fighter_bp, uaf_ship_bp, bomber, bomber2, mid, match_leader_facing",2,0.3,12,6,CLAW,5000,2000,600,3,BOMBER,Light Bomber,15,7250,,,,,,,,,,,,,100
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_wing_forlorn,uaf_wing_forlorn_hft,"uaf_fighter_bp, uaf_m_ship_bp, fighter, fighter5, mid, rapid_reform, leader_no_swarm, wingmen_no_swarm",2,0.8,24,18,V,4000,400,,3,FIGHTER,Advanced Superiority Fighter,35,24000,,,,,,,,,,,,,100
+uaf_wing_noversky,uaf_wing_noversky_atk,"uaf_fighter_bp, uaf_m_ship_bp, fighter, fighter5, mid",2,0.8,20,20,CLAW,4000,400,300,2,FIGHTER,Heavy Attacker,35,12000,,,,,,,,,,,,,100
+uaf_wing_hyacinth,uaf_wing_hyacinth_hbmb,"uaf_fighter_bp, uaf_military_rare_bp, bomber, bomber5, rd_no_extra_craft, mid, leader_no_swarm, wingmen_no_swarm",2,0.8,30,20,BOX,7500,2000,500,1,BOMBER,Heavy Bomber,40,30000,,,,,,,,,,,,,100
+uaf_wing_nekoyan,uaf_wing_nekoyan_sft,"uaf_fighter_bp, uaf_ai_ship_bp, fighter, fighter4, mid, leader_no_swarm, wingmen_no_swarm",2,0.8,25,18,V,4000,400,,3,FIGHTER,Advanced Attacker,20,16500,,,,,,,,,,,,,100
+uaf_wing_menascar,uaf_wing_menascar_htpb,"uaf_fighter_bp, uaf_military_rare_bp, bomber, bomber5, rd_no_extra_craft, mid, leader_no_swarm, wingmen_no_swarm",2,0.8,30,23,V,7500,2000,500,1,BOMBER,Hypersonic Torpedo Bomber,40,20000,,,,,,,,,,,,,100
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_wing_pengawas,uaf_wing_pengawas_gsp,"uaf_fighter_bp, uaf_military_rare_bp, interceptor, interceptor5, rd_no_extra_craft, mid, attack_at_an_angle, independent_of_carrier, rd_no_extra_craft, leader_no_swarm",2,0.8,30,20,V,7500,2000,500,1,INTERCEPTOR,Air Defense Gunship,40,20000,,,,,,,,,,,,,100
+uaf_wing_neoscar,uaf_wing_neoscar_asgp,"uaf_fighter_bp, uaf_military_rare_bp, fighter, fighter5, rd_no_extra_craft, mid, attack_at_an_angle, independent_of_carrier, rd_no_extra_craft, leader_no_swarm",2,0.8,30,25,V,7500,1000,600,1,FIGHTER,Anti Ship Gunship,40,35000,,,,,,,,,,,,,100
+uaf_wing_puterisaya,uaf_wing_puterisaya_agshp,"uaf_fighter_bp, uaf_automata_rare_bp, fighter, fighter5, rd_no_extra_craft, mid, independent_of_carrier, rd_no_extra_craft, leader_no_swarm",2,1,30,25,V,7500,400,,1,FIGHTER,Hunter Killer Gunship,45,40000,,,,,,,,,,,,,100
+uaf_wing_puterakamu,uaf_wing_puterakamu_sprhd,"uaf_fighter_bp, uaf_automata_rare_bp, fighter, fighter5, rd_no_extra_craft, mid, independent_of_carrier, rd_no_extra_craft, leader_no_swarm",2,1,30,28,V,7500,2000,500,1,BOMBER,Spearhead Horizon Gunship,45,40000,,,,,,,,,,,,,100
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_ravenya,uaf_ravenya_drone,"fighter, mid, no_sell, no_drop, drone",0,,15,12,BOX,3000,500,,2,SUPPORT,Landing Support Craft,10,10000,,,,,,,,,,,,,100
+uaf_vernya,uaf_vernya_drone,"fighter, mid, no_sell, no_drop, drone",0,,15,12,V,3000,200,1000,1,SUPPORT,Heavy Support Craft,15,10000,,,,,,,,,,,,,100
+uaf_wing_minime,uaf_wing_minime_drone,"interceptor, mid, rapid_reform, no_sell, no_drop, drone",0,0.3,8,2,V,1500,100,100,5,INTERCEPTOR,Defense Drone,6,6500,,,,,,,,,,,,,100
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_wing_revere,uaf_wing_revere_hof,"uaf_fighter_bp, uaf_m_ship_bp, interceptor10, high",1,0.5,12,5,V,3000,2000,,4,INTERCEPTOR,Horizon Interceptor,10,15000,,,,,,,,,,,,,100
+uaf_wing_surreal,uaf_wing_surreal_hhof,"uaf_fighter_bp, uaf_ai_ship_bp, interceptor10, high",1,0.6,12,9,CLAW,3000,2000,,3,INTERCEPTOR,Heavy Horizon Interceptor,20,15000,,,,,,,,,,,,,100
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_wing_taufan,uaf_wing_taufan_nhft,"uaf_fighter_bp, uaf_military_rare_bp, bomber, bomber5, rd_no_extra_craft, high, leader_no_swarm, wingmen_no_swarm",4,0.65,35,32,CLAW,7500,2000,1500,2,BOMBER,Tactical Strike Fighter,55,45000,,,,,,,,,,,,,100
+uaf_wing_rafflesya,uaf_wing_rafflesya_shvb,"bomber, rd_no_extra_craft, mid, leader_no_swarm, wingmen_no_swarm, no_sell, no_drop, independent_of_carrier, restricted",4,5,30,35,BOX,7500,2000,500,1,BOMBER,Strategic Orbital Bomber,9999,30000,,,,,,,,,,,,,100
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,

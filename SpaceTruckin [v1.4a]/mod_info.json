@@ -1,0 +1,17 @@
+{
+  "id":"spacetruckin",
+  "name":"Space Truckin'",
+  "author":"Cpt Dash",
+  "utility":"false",
+  "version":"1.4a",
+  "description":"Move Cargo Make Credits",
+  "gameVersion": "0.96a-RC10",
+  "jars":["SpaceTruckin.jar"],
+  "modPlugin":"Plugins.SpaceTruckin_ModPlugin",
+  "dependencies": [
+    {
+      "id": "lw_lazylib",
+      "name": "LazyLib"
+    }
+  ]
+}

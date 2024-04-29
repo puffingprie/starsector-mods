@@ -1,0 +1,27 @@
+{
+    "quality":0.5,
+    "displayName":"Support Fighter",
+    "hullId":"ii_sectator",
+    "variantId":"ii_sectator_Support",
+    "fluxVents":0,
+    "fluxCapacitors":0,
+	"hullMods":[
+        "advancedoptics",
+        "ii_reinforced_emplacements",
+    ],
+
+    # mode is either LINKED or ALTERNATING
+    # slot ids (WS ***) must match what's in the .ship file
+    "weaponGroups":[
+        {"mode":"LINKED",
+         "weapons":{
+                    "WS0001":"ii_sledgegun_f",
+                   },
+        },
+        {"mode":"LINKED",
+         "weapons":{
+                    "WS0002":"ii_custos_f",
+                   },
+        },
+    ],
+}

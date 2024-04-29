@@ -1,0 +1,2 @@
+name,id,type,tags,activationDays,activationCooldown,durationDays,deactivationDays,deactivationCooldown,unlockedAtStart,defaultForAIFleet,musicSuppression,uiOn,uiOff,uiLoop,worldOn,worldOff,worldLoop,icon,plugin,ai,desc,sortOrder
+Hyperwarp Jump,sun_hd_hyperdrive,DURATION,"stealth-, sensors-,sun_hyperdrive+",,,0.25,0.1,0.75,FALSE,FALSE,0.5,ui_interdict_on,,,,,sun_hd_pulse,sun_hd/graphics/icons/abilities/warp_drive.png,hyperdrive.campaign.abilities.HyperdriveAbility,hyperdrive.campaign.abilities.HyperdriveAbilityAI,Fold spacetime to facilitate nearly instantaneous travel,662

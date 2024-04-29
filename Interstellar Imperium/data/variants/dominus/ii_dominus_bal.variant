@@ -1,0 +1,68 @@
+{
+    "displayName": "Balanced",
+    "fluxCapacitors": 30,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "ii_dominus",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "ii_dominus_bal",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ii_triplepbc"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "ii_fundae_m",
+                "WS0007": "ii_fundae_m"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "typhoon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "ii_arcus",
+                "WS0009": "ii_arcus"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "ii_solis",
+                "WS0010": "ii_siegemortar",
+                "WS0011": "ii_siegemortar"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "ii_telum"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "dualflak",
+                "WS0012": "ii_custos",
+                "WS0013": "ii_custos",
+                "WS0014": "vulcan",
+                "WS0015": "vulcan"
+            }
+        }
+    ],
+    "wings": [
+        "ii_draconarius_wing",
+        "ii_sectator_wing"
+    ]
+}

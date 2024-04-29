@@ -1,0 +1,62 @@
+{
+  "availableCacheBlueprints": {
+    "hullSpecIds": [
+      "ii_adamas",
+      "ii_ardea",
+      "ii_barrus",
+      "ii_basileus",
+      "ii_caesar",
+      "ii_carrum",
+      "ii_decurion",
+      "ii_dictator",
+      "ii_dominus",
+      "ii_interrex",
+      "ii_triarius",
+      "ii_ixon",
+      "ii_legionary",
+      "ii_lynx",
+      "ii_matriarch",
+      "ii_maximus",
+      "ii_olympus",
+      "ii_praetorian",
+      "ii_princeps",
+      "ii_sebastos"
+    ],
+    "weaponSpecIds": [
+      "ii_arcus",
+      "ii_ballista",
+      "ii_custos",
+      "ii_fundae_m",
+      "ii_fundae_s",
+      "ii_heavyballista",
+      "ii_heavypulsar",
+      "ii_heavypulselaser",
+      "ii_javelin",
+      "ii_javelinlarge",
+      "ii_javelinsingle",
+      "ii_javelinsmall",
+      "ii_lux",
+      "ii_onager",
+      "ii_particlegun",
+      "ii_particlecannon",
+      "ii_pulsar",
+      "ii_pulsarrepeater",
+      "ii_sagittarius",
+      "ii_siegemortar",
+      "ii_sledgecannon",
+      "ii_sledgegun",
+      "ii_smallballista",
+      "ii_solis",
+      "ii_telum"
+    ],
+    "fighterWingIds": [
+      "ii_draconarius_wing",
+      "ii_flamen_wing",
+      "ii_inferna_wing",
+      "ii_scutum_wing",
+      "ii_vicarius_wing",
+      "ii_carnifex_wing",
+      "ii_sectator_wing"
+    ]
+  }
+}

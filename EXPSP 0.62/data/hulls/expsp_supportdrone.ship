@@ -1,0 +1,91 @@
+{
+  "hullName": "MK88 Support Drone",
+  "hullId": "expsp_supportdrone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/expsp_supportdrone.png",
+  "style": "EXPSP_MVS",
+  "height": 38,
+  "width": 36,
+  "center": [18, 17],
+  "collisionRadius": 33,
+  "shieldCenter": [-2, -0],
+  "shieldRadius": 23,
+  "viewOffset": 0,
+  "builtInMods": [
+    "terminator_core",
+    "no_weapon_flux",
+    "pointdefenseai"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [3, 8]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": -0,
+      "locations": [3, -8]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-1, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-11, -0],
+      "length": 12,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    },
+    {
+      "location": [-9.5, 7.5],
+      "length": 7.560725,
+      "width": 2.311224,
+      "angle": 160,
+      "contrailSize": 2.311224,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    },
+    {
+      "location": [-9.5, -7.5],
+      "length": 7.560725,
+      "width": 2.311224,
+      "angle": -160,
+      "contrailSize": 2.311224,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    }
+  ],
+  "bounds": [
+    -4, -5,
+    -9.5, -6,
+    -7, -10,
+    5, -10.5,
+    10, -6.5,
+    3, -5.5,
+    3, 5.5,
+    10, 6.5,
+    5, 10.5,
+    -7, 10,
+    -9.5, 6,
+    -4, 5
+  ]
+}

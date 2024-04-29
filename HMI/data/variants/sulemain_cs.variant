@@ -1,0 +1,61 @@
+{
+  "variantId": "sulemain_cs",
+  "hullId": "sulemain",
+  "displayName": "Glorious",
+  "goalVariant": true,
+  "fluxCapacitors": 1,
+  "fluxVents": 14,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "hardened_subsystems"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "tpc_hmi"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "annihilatorpod",
+        "WS0002": "annihilatorpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "seth_sml",
+        "WS0004": "seth_sml"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "rangus_crossbow",
+        "WS0006": "rangus_crossbow",
+        "WS0007": "rad_gun",
+        "WS0008": "rad_gun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "vulcan",
+        "WS0010": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "hmi_nail_wing"
+  ]
+}

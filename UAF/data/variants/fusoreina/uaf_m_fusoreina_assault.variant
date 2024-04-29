@@ -1,0 +1,93 @@
+{
+  "variantId": "uaf_m_fusoreina_assault",
+  "hullId": "uaf_m_fusoreina",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 1,
+  "fluxVents": 2,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "autorepair",
+    "solar_shielding",
+    "targetingunit",
+    "armoredweapons",
+    "heavyarmor",
+    "fluxbreakers"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_herexa_triple",
+        "WS0002": "uaf_herexa_triple"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "HP01": "uaf_ivory_triple",
+        "HP02": "uaf_ivory_triple",
+        "HP03": "uaf_ivory_triple",
+        "HP04": "uaf_ivory_triple"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "uaf_medlav_quad",
+        "WS0004": "uaf_medlav_quad"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "uaf_hikone_quad",
+        "WS0006": "uaf_hikone_quad"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "uaf_swaras_m_mlrs",
+        "WS0018": "uaf_swaras_m_mlrs"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "uaf_pd_reina",
+        "WS0012": "uaf_pd_reina",
+        "WS0013": "uaf_pd_reina",
+        "WS0014": "uaf_pd_reina"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "uaf_weiss_flk",
+        "WS0008": "uaf_weiss_flk",
+        "WS0009": "uaf_pd_reina",
+        "WS0010": "uaf_pd_reina",
+        "WS0015": "uaf_flair_pod",
+        "WS0016": "uaf_flair_pod"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "FUSOREINA_PORT_MODULE": "uaf_m_fusoreina_larmor_standard"
+    },
+    {
+      "FUSOREINA_STARPORT_MODULE": "uaf_m_fusoreina_rarmor_standard"
+    }
+  ],
+  "wings": []
+}

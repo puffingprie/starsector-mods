@@ -1,0 +1,78 @@
+{
+  "variantId": "expsp_dragonhunter_Standard",
+  "hullId": "expsp_dragonhunter",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 22,
+  "fluxVents": 37,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "stabilizedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "expsp_lightningspear"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "expsp_plinker_sml",
+        "WS 006": "expsp_plinker_sml",
+        "WS 011": "expsp_railcannon",
+        "WS 013": "expsp_railcannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 022": "expsp_dpcannon",
+        "WS 023": "expsp_dpcannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 019": "expsp_poke_med",
+        "WS 020": "expsp_poke_med",
+        "WS0001": "expsp_poke_med",
+        "WS0002": "expsp_poke_med",
+        "WS0009": "expsp_poke_med",
+        "WS0010": "expsp_poke_med"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 007": "expsp_coilciws",
+        "WS 008": "expsp_coilciws",
+        "WS 009": "expsp_coilciws",
+        "WS 010": "expsp_coilciws"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "expsp_multilaser",
+        "WS 004": "expsp_multilaser",
+        "WS0004": "expsp_coilciws",
+        "WS0005": "expsp_coilciws",
+        "WS0006": "expsp_coilciws",
+        "WS0007": "expsp_coilciws",
+        "WS0008": "expsp_hunterflak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

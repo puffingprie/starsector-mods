@@ -1,0 +1,11 @@
+name,id,demand class,base price,export value,price variability,utility,origin,tags,stack size,cargo space,icon,sound id,sound id drop,order,economyTier,econUnitOrigUnused,econUnit,baseRaidDanger,eU * base value,iconWidthMult,plugin,desc
+Phoenix Stout,alcoholism_stout_c,alcoholism_stout_c,170,1500,2,1,,expensive,10000,0.5,graphics/items/phoenix_stout.png,ui_cargo_goods,ui_cargo_goods_drop,6,2,200,500,,85000,1,,
+Absynth,alcoholism_absynth_c,alcoholism_absynth_c,180,1500,2,1,,expensive,10000,0.5,graphics/items/absynth.png,ui_cargo_goods,ui_cargo_goods_drop,6,2,200,500,,90000,1,,
+Tears of Ludd,alcoholism_tears_c,alcoholism_tears_c,140,1500,2,1,,expensive,10000,0.5,graphics/items/tears_of_ludd.png,ui_cargo_goods,ui_cargo_goods_drop,6,2,200,500,,70000,1,,
+Prometheus Gift,alcoholism_fuel_c,alcoholism_fuel_c,120,1500,2,1,,expensive,10000,0.5,graphics/items/prometheus_gift.png,ui_cargo_goods,ui_cargo_goods_drop,6,2,200,500,,60000,1,,
+Reapers Blood,alcoholism_blood_c,alcoholism_blood_c,120,1500,2,1,,expensive,10000,0.5,graphics/items/reapers_blood.png,ui_cargo_goods,ui_cargo_goods_drop,6,2,200,500,,60000,1,,
+Askonia Sunshine,alcoholism_sunshine_c,alcoholism_sunshine_c,160,1500,2,1,,expensive,10000,0.5,graphics/items/askonia_sunshine.png,ui_cargo_goods,ui_cargo_goods_drop,6,2,200,500,,80000,1,,
+Kings Favour,alcoholism_king_c,alcoholism_king_c,110,1500,2,1,,expensive,10000,0.5,graphics/items/kings_favour.png,ui_cargo_goods,ui_cargo_goods_drop,6,2,200,500,,71500,1,,
+Sweet Freedom,alcoholism_freedom_c,alcoholism_freedom_c,90,1500,2,1,,expensive,10000,0.5,graphics/items/sweet_freedom.png,ui_cargo_goods,ui_cargo_goods_drop,6,2,200,650,,63000,1,,
+Hangover Cure,alcoholism_water_c,alcoholism_water_c,200,1500,2,1,,expensive,10000,0.5,graphics/items/heroin_water.png,ui_cargo_goods,ui_cargo_goods_drop,6,2,200,700,,100000,1,,
+Phaged Darjeeling,alcoholism_tea_c,alcoholism_tea_c,175,3000,2,1,,expensive,10000,0.5,graphics/items/phaged_tea.png,ui_cargo_goods,ui_cargo_goods_drop,6,2,200,500,,60000,1,,

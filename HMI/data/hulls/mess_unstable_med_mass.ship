@@ -1,0 +1,231 @@
+{
+  "hullName": "Medium unstable Mass",
+  "hullId": "mess_unstable_med_mass",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/mess/unstable_med_mess.png",
+  "style": "LOW_TECH",
+  "height": 132,
+  "width": 136,
+  "center": [68, 66],
+  "collisionRadius": 77,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 73.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated"
+  ],
+  "builtInWings": [
+    "drone_feeder_wing",
+    "drone_feeder_wing",
+    "drone_feeder_wing",
+    "drone_feeder_wing",
+    "drone_feeder_wing",
+    "drone_feeder_heavy_wing",
+    "drone_feeder_heavy_wing",
+    "drone_feeder_heavy_wing"
+  ],
+  "builtInWeapons": {
+    "WS0001": "feeder_gun_med"
+  },
+  "weaponSlots": [
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        28, -15.5,
+        15, -16.5
+      ]
+    },
+    {
+      "id": "LB 5",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        12, -29,
+        -2, -26
+      ]
+    },
+    {
+      "id": "LB 6",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -17.5, -23,
+        -25, -11.5
+      ]
+    },
+    {
+      "id": "LB 8",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -16.5, 34,
+        -4, 37
+      ]
+    },
+    {
+      "id": "LB 9",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        17, 35,
+        30.5, 26
+      ]
+    },
+    {
+      "id": "LB 10",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        36.5, 9.5,
+        30.5, 2.5
+      ]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -22.5, 4,
+        -19.5, 15.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        3, 4,
+        2, 22
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": 0,
+      "locations": [50, 2]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-44.5, 30.5],
+      "length": 23.591915,
+      "width": 11.431813,
+      "angle": 136,
+      "contrailSize": 11.431813,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-46.5, -12.5],
+      "length": 35.947834,
+      "width": 13.964709,
+      "angle": -173,
+      "contrailSize": 13.964709,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-51.5, -2.5],
+      "length": 48.036652,
+      "width": 15.585871,
+      "angle": -175.5,
+      "contrailSize": 15.585871,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-51, 6.5],
+      "length": 19.948732,
+      "width": 8.555263,
+      "angle": 175,
+      "contrailSize": 8.555263,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-39.5, -35.5],
+      "length": 9.802043,
+      "width": 12.069787,
+      "angle": -156,
+      "contrailSize": 12.069787,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-44, -25.5],
+      "length": 11.629134,
+      "width": 10.442841,
+      "angle": -155.5,
+      "contrailSize": 10.442841,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-23, 41],
+      "length": 10.823205,
+      "width": 8.510755,
+      "angle": 106,
+      "contrailSize": 8.510755,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-9, -45],
+      "length": 8.278393,
+      "width": 10.142624,
+      "angle": -102.5,
+      "contrailSize": 10.142624,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-52.5, 17],
+      "length": 6.780311,
+      "width": 5.840338,
+      "angle": 175,
+      "contrailSize": 5.840338,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-52, 21.5],
+      "length": 4.700766,
+      "width": 4.196572,
+      "angle": 175,
+      "contrailSize": 4.196572,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -50.5, -17,
+    -34.5, -45.5,
+    -4, -51.5,
+    34, -49.5,
+    56, -15,
+    54.5, 19.5,
+    37, 51.5,
+    -4, 51.5,
+    -34.5, 45.5,
+    -54, 18.5
+  ]
+}

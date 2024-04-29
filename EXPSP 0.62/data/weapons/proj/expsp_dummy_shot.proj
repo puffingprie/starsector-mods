@@ -1,0 +1,18 @@
+{
+	"id":"expsp_dummy_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":0.0,
+	"hitGlowRadius":0,
+	"width":0.0,
+	"fadeTime":0.2,
+	#"fringeColor":[255,125,125,255],
+	#"coreColor":[255,200,200,150],
+	"fringeColor":[0,0,0,0],
+	"coreColor":[0,0,0,0],	
+	"textureScrollSpeed":32.0,
+	"pixelsPerTexel":10.0,
+	"bulletSprite":"graphics/weapons/null.png"
+}

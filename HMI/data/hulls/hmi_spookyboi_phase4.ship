@@ -1,0 +1,232 @@
+{
+  "hullName": "Uknown Contact",
+  "hullId": "hmi_spookyboi_phase4",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/mess/hmi_spookyboi_phase4.png",
+  "style": "HIGH_TECH",
+  "height": 162,
+  "width": 252,
+  "center": [126, 93.5],
+  "collisionRadius": 129,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 125,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hmi_terror_mindcontrol",
+    "hmi_terror_boost",
+	"hmi_terror_spawner4",
+    "targetingunit",
+    "missile_reload",
+    "advancedshieldemitter",
+    "eccm",
+    "ecm",
+    "insulatedengine"
+  ],
+  "builtInWeapons": {
+    "WS0001": "hmi_spookyboi_head3_deco",
+    "WS0002": "hmi_spooky_p4_plasma",
+    "WS0003": "tachyonlance_spookp4_tach_left",
+    "WS0004": "tachyonlance_spookp4_tach_right",
+    "WS0005": "hmi_spookyboi_squall",
+    "WS0006": "hmi_spookyboi_squall",
+    "WS0007": "cyclone",
+    "WS0008": "cyclone",
+    "WS0009": "shockrepeater",
+    "WS0010": "shockrepeater"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [25, -0],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [24.5, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 83,
+      "angle": 18.5,
+      "locations": [-17, 32.5],
+      "renderOrderMod": 300
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 83,
+      "angle": -18.5,
+      "locations": [-17, -32.5],
+      "renderOrderMod": 300
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 56,
+      "locations": [3, 99]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -56,
+      "locations": [3, -99]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 26,
+      "angle": 0,
+      "locations": [24.5, 38]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 26,
+      "angle": -0,
+      "locations": [24.5, -38]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 359,
+      "angle": 141.5,
+      "locations": [-17, 32]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 359,
+      "angle": -141.5,
+      "locations": [-17, -32]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-63, 14],
+      "length": 42.5,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-63, -14],
+      "length": 42.5,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-62, 27.5],
+      "length": 11,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-62, -27.5],
+      "length": 11,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-53.5, 50.5],
+      "length": 45.132938,
+      "width": 20.930149,
+      "angle": 164,
+      "contrailSize": 20.930149,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-53.5, -50.5],
+      "length": 45.132938,
+      "width": 20.930149,
+      "angle": -164,
+      "contrailSize": 20.930149,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-51, 57.5],
+      "length": 16.020924,
+      "width": 9.915639,
+      "angle": 152.5,
+      "contrailSize": 9.915639,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-51, -57.5],
+      "length": 16.020924,
+      "width": 9.915639,
+      "angle": -152.5,
+      "contrailSize": 9.915639,
+      "style": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    -83.5, -3.5,
+    -74, -8,
+    -65.5, -16.5,
+    -69, -30.5,
+    -55.5, -42.5,
+    -57.5, -64,
+    -37.5, -69,
+    -24.5, -90.5,
+    2.5, -108,
+    12, -104.5,
+    36, -105,
+    38, -85,
+    65, -63,
+    48.5, -42.5,
+    24, -22.5,
+    31.5, -9.5,
+    31.5, 9.5,
+    24, 22.5,
+    48.5, 42.5,
+    65, 63,
+    38, 85,
+    36, 105,
+    12, 104.5,
+    2.5, 108,
+    -24.5, 90.5,
+    -37.5, 69,
+    -57.5, 64,
+    -55.5, 42.5,
+    -69, 30.5,
+    -65.5, 16.5,
+    -74, 8,
+    -83.5, 3.5
+  ]
+}

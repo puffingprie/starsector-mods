@@ -1,0 +1,1053 @@
+Version 2.6.4 (February 3, 2024):
+- Updated for Starsector 0.97a
+- No longer sends punitive expeditions; no Colony Crisis support (yet), so colony harassment outside of Nexerelin will be unlikely
+- Onager MIRV Launcher:
+  * Ammo decreased to 14 from 20
+  * Cooldown increased to 15 from 12 seconds
+- Arcus Autocannon flux/shot increased to 90 from 80
+- Sagittarius Autogun flux/shot decreased to 22 from 25
+
+Version 2.6.3 (January 7, 2024):
+- Tweaked Basileus system AI
+- Additional stats adjustments for Yamato
+- Fixed critical issue with Nexerelin integration
+
+Version 2.6.2e (July 10, 2023):
+- Fixed critical issue with Nexerelin integration
+
+Version 2.6.2d (July 5, 2023):
+- Fixed critical issue with Nexerelin integration
+
+Version 2.6.2c (July 1, 2023):
+- Fixed support for player researching & building Stella Castellum via Ashes of the Domain
+- Fixed crash under certain conditions after Byzantium is captured by another faction in Nexerelin
+
+Version 2.6.2b (June 26, 2023):
+- Fixed critical issue with Nexerelin integration
+
+Version 2.6.2 (June 24, 2023):
+- Matriarch DP (supplies/deployment) increased to 65 from 60
+- Draconarius turn rate marginally improved
+- Ballista base damage reduced to 225 HE from 325 HE (was bugged to actually be 350 HE)
+  * Hits on armor now have a 50% chance to do 350 additional HE damage (calculated separately)
+- Prevent Byzantium from having a bugged military market due to bad cross-mod interaction (significant performance improvement in Nex)
+
+Version 2.6.1b (June 22, 2023):
+- Fixed malformed file causing crash on load
+
+Version 2.6.1 (June 22, 2023):
+- Added support for player researching & building Stella Castellum via Ashes of the Domain (contributed by Kaysaar)
+- Slight performance optimization when Imperium weapons/ships are not present in a battle
+
+Version 2.6.0b (June 9, 2023):
+- Removed Ballistic Rangefinder from Sectator
+- Fixed Imperium fleet/market composition issue
+
+Version 2.6.0 (June 8, 2023):
+- Updated for Starsector 0.96a
+- Campaign:
+  * New/revised miscellaneous dialogue, descriptions, and interactions
+  * Added special interaction for the PK mission
+  * Added a meeting with a goddess...
+  * Imperial Embassy behaves better in Nexerelin
+    - Doesn't grow
+    - Doesn't get invaded unless the Persean League (or other allied) protectors are removed
+    - Automatically decivilizes if the rest of the Imperium is eliminated
+  * Updated doctrine settings for Interstellar Imperium, Imperial Guard, Independents, and Mercenaries
+    - Imperial Guard runs exclusively Standard / Elite variants in equal number
+      * Always with one s-mod: either Imperial Elite Package or Imperial Core Upgrades
+  * Minerva now controls Babylon directly in combat
+  * Hadrian buffed
+  * Byzantium now (randomly) sells a blueprint for the Imperium Orbital Station
+    - It's no longer unlocked automatically by having high reputation, unless you're using Nexerelin Random Sector
+- Imperial Packages:
+  * All packages can now be s-modded
+  * Packages no longer show in the picker screen for non-Imperium ships
+  * Imperial Armor Package:
+    - Now costs 5/10/15/25 (down from 5/10/18/30)
+    - Flat armor bonus is now a flat 150 (from 50/100/150/200)
+    - Now reduces the minimum armor fraction by 50% (similar fix to the Ablative Armor hullmod)
+    - No s-mod bonus or penalty
+  * Imperial Targeting Package:
+    - Now costs 5/10/15/25 (down from 5/10/18/30)
+    - Range bonus changed to 150/200/250/300 (from 100/200/300/400)
+    - PD range bonus changed to 125/150/175/200 (from 100/150/200/250)
+    - Speed penalty is now a flat 15 (from 20/15/10/5)
+    - Zero flux speed bonus is now a flat 30 (from 30/25/20/15)
+    - No longer compatible with PD Assault Conversion (Ship/Weapon Pack)
+    - No s-mod bonus or penalty
+  * Imperial Elite Package:
+    - Now costs 10/20/30/50 (down from 10/20/35/60)
+    - Speed bonus changed to 40/30/20/15 (from 30/25/20/20)
+    - S-mod penalty increases DP (supplies/deploy) by 1/2/3/5
+  * Imperial Core Upgrades:
+    - Costs 0 OP, but doesn't do anything unless s-modded
+    - Incompatible with the other packages
+    - If s-modded, provides the following effects:
+      * Maximum combat readiness +15%
+      * Peak performance time +33%
+      * Shield/phase efficiency +10%
+      * Hull integrity +20%
+      * Top speed +20/15/10/5 (by hull size)
+      * Maneuverability +20%
+- Ships:
+  * Olympus:
+    - Extremely rare Titan-related crash fix
+    - No longer receives CR events if used in simulation
+    - Firing the Titan now reduces CR only after the battle ends
+    - Deployment points reduced by to 30 DP (from 50); supply cost remains the same
+    - Tooltip improved
+  * Barrus no longer has Civilian-grade Hull
+  * Basileus:
+    - OP increased to 55 from 45
+    - Expanded Missile Racks is no longer built-in
+  * Renamed Invictus to Triarius
+    - Increased OP to 62 from 60
+  * Decurion OP increased to 62 from 60
+  * Interrex OP increased to 105 from 100
+  * Princeps OP increased to 95 from 90
+  * Caesar rear Small Hybrid slots changed to Ballistic (can install Ballistic Rangefinder)
+  * Sebastos rear Small Hybrid slots changed to Ballistic (can install Ballistic Rangefinder)
+  * Lynx:
+    - OP increased to 100 from 95
+    - CR %/deploy increased to 30
+  * Maximus:
+    - CR %/deploy increased to 30
+    - Slight AI improvement
+  * Magnum Salvo AI cares about flux level more
+  * Libritor should avoid friendly fire better
+  * Adamas:
+    - CR %/deploy increased to 30
+    - Now has Distributed Fire Control built in
+    - Flux dissipation increased to 600 from 500
+    - Flux capacity increased to 10000 from 8000
+    - Phase cost reduced to 400 flux from 480 flux
+    - Photon Blaster flux cost reduced to 200 from 225
+    - Max speed increased to 90 from 80
+    - Armor increased to 1400 from 1250
+    - Lux Finis is no longer usable while phased
+      * Therefore it no longer stabilizes phase coils; speed is slow as usual while phased at high flux
+    - Lux Finis no longer provides damage reduction normally
+      * Instead the ship gains a 67% damage reduction buff (90% with the Armor Package) while firing the Lightspear
+    - Lux Finis speed/maneuverability bonuses are disabled while firing the Lightspear
+    - Lightspear flux cost increased to 12500 from 8250
+    - Lightspear damage increased to 14025 (2125 hit strength) from 8250 (1250 hit strength)
+    - AI improvements
+  * Slight AI improvement for Legionary
+  * Fixed time scaling issue on Impulse Booster and Modified Booster
+- Weapons:
+  * Fundae bonus fragmentation damage increased to 175 from 140
+  * Javelin ASM Pod OP reduced to 7 from 10, ammo reduced to 9 from 12
+  * Scorpio Javelin Launcher OP reduced to 16 from 20, ammo reduced to 24 from 36
+  * Onager MIRV Launcher ammo increased to 20 from 16
+  * Pulsar weapons will not waste their charges on shields
+  * Heavy Pulse Laser flux cost reduced to 200 from 220
+  * Arcus Autocannon damage increased to 125 from 110, range decreased to 650 from 600
+  * Siege Mortar flux cost reduced to 100 from 115
+  * Lux Repeater OP reduced to 7 from 8
+  * Certain weapons now pass through missiles/fighters
+- Fighters:
+  * Scutum will try to stay in front of the ship
+  * Flamen replacement time decreased to 5 seconds from 6 seconds
+  * Sectator:
+    - OP increased to 5 from 3
+    - Now has Turbofeeder system, Ballistic Rangefinder, and Advanced Optics
+    - Grealy improved maneuverability
+  * Draconarius hull increased to 700 from 400
+  * Vicarius:
+    - Engagement range increased to 4000 from 2000
+    - Shield removed
+    - Weapons generate flux; has 125 dissipation and 1250 capacity
+    - Hull increased to 900 from 600
+    - Armor increased to 200 from 125
+    - Replacement time decreased to 15 seconds from 20 seconds
+
+Version 2.5.2 (January 8, 2022):
+- Sebastos armor increased to 950 from 900
+- Ixon flux dissipation decreased to 325 from 350, speed decreased to 65 from 70
+- Lux Repeater damage increased to 45 from 40
+- Telum Autocannon damage increased to 230 from 225
+- Solis Cannon damage increased to 325 from 300
+- ER Particle Cannon damage increased to 130 from 120
+- Pulsar Cannon flux cost reduced to 22 from 30
+- Pulsar Repeater flux cost reduced to 22 from 30, now a PD_ALSO weapon that fires upon missiles if no other target is in range
+- Heavy Pulsar Cannon flux cost reduced to 60 from 70
+- Moved Corsica (applies to new saves)
+
+Version 2.5.1 (January 5, 2022):
+- Updated for Starsector 0.95.1a RC6
+- Fixed package hullmod display issue for Olympus and Libritor
+- Made Libritor more cautious of friendly fire with its main weapon
+- Magna Fulmen shots fade more quickly after they reach max range
+- Magna Fulmen base range reduced to 1000 from 1200
+- Libritor now has Reinforced Emplacements built in
+- Ixon flux dissipation increased to 350 from 300, speed increased to 70 from 60
+- Arcus Autocannon damage increased to 110 from 100, flux per shot increased to 80 from 75
+- Moved Corsica and Thracia (applies to new saves)
+
+Version 2.5.0 (December 14, 2021):
+- Updated for Starsector 0.95.1a
+- Moved Ex Vis and Corsica closer to the core worlds
+- Fixed the calculation/obscurement of some area-of-effect damage/knockback, especially the Libritor's weapon
+- Armor version of Arbalest Loader costs 33% more flux
+- Updated Nexerelin integration
+- Added fighter weapon descriptions
+- Carrum cargo reduced to 150 from 160
+- Carrum fuel per light year increased to 1.5 from 1
+- Barrus fuel per light year reduced to 6 from 10
+- Carnifex engagement range reduced to 6000 from 8000
+- Standard Pulsar projectiles no longer pass through missiles
+  * Pulsar Bombs and Heavy Pulsars still do
+- Pulsar Cannon OP reduced to 5 from 6
+- Pulsar Repeater OP reduced to 9 from 10
+- Lux Repeater OP reduced to 8 from 9
+- Fundae SRM Pod OP reduced to 7 from 8
+- Fundae MLRS OP reduced to 12 from 14
+- Custos Defender flux per second reduced to 85 from 100
+- Heavy Pulse Laser flux per shot reduced to 220 from 240
+- Adjusted faction relationships
+- Integrated various new campaign features into existing content
+- Draconarius AI behavior tweaked
+- Vicarius AI behavior tweaked
+- Imperium Packages cannot be built-in
+- Maximus hull increased to 2000 from 1500, armor increased to 400 from 350, supplies increased to 9 from 8
+- Lynx hull increased to 4500 from 4000, armor increased to 650 from 600
+- Adamas hull increased to 9000 from 8000, armor increased to 1250 from 1100
+- Adamas speed increased to 80 from 65
+- Lux Finis now auto-stabilizes phase coils (no speed penalty) while active
+- The Adamas' photon blasters now count as large weapons
+- Basileus flux dissipation increased to 150 from 125
+- Dictator hull increased to 11500 from 10000
+- Matriarch armor increased to 1350 from 1250
+- Ballista launchers regenerate ammunition about 25% more slowly
+- Reduced Ballista damage to 325 from 350 (high explosive)
+- Siege Mortar range increased to 800 from 700
+- Arcus Autocannon range increased to 700 from 600
+
+Version 2.4.0 (March 10, 2021):
+- Added Imperium Orbital Station, Battlestation, and Star Fortress
+  * Player can access by having at least Welcoming reputation with the Interstellar Imperium
+  * Imperial Embassy has an Orbital Station
+  * Aleria has a Battlestation
+  * Nova Capitalis has a Star Fortress
+- Added Imperium Stella Castellum
+  * Tier 4 station, unobtainable by the player
+  * Only found at Byzantium
+  * Always defended by a fleet
+- Adjusted Armageddon variant missile flight time and AI behavior to work better on the Imperium Star Fortress (and in general)
+- Added exotic luxury good Byzantine Wine
+- Olympus can be used to obliterate planets
+- Reduced bombardment bonus for the Olympus to 3000 from 5000
+- Mucked about with Javelin weapon tags and "range" to make the AI much more competent at using them
+- Shock Buster targeting fixes relating to stations
+- Generally improved weapon tags for autofitting
+- Added a dozen janky AI-generated portraits for the sake of variety
+- Magna Fulmen flux cost reduced to 1150 from 1250
+- Slightly updated Matriarch sprite
+
+Version 2.3.0 (January 4, 2021):
+- Added Sectator Support Fighter
+  * 3 OP for 1 fighter
+  * 1x Sledge Gun (hardpoint), 1x Custos Defender (omni turret)
+  * Advanced Optics and Reinforced Emplacements built-in
+  * A tanky support fighter that helps you out--on a budget
+- Added Carnifex Strike Bomber
+  * 22 OP for 2 bombers that do a total of 4400 HE damage per wave
+  * 2x Amentum (buffed but shorter-range Javelin ASMs)
+  * Impulse Booster system
+  * 8000 engagement range
+  * Really fast, can juke PD, hits hard, but fragile (defense stats are identical to the Inferna, which gives you 5 bombers for 12 OP...)
+- Minor fix for knockback logic
+- Various small tweaks to weapon tags and AI hints
+- Changed fighter pricing
+- The Vicarius is no longer a rare fighter blueprint, but the Scutum (and Carnifex) are now rare blueprints
+- More Impulse Booster and Command Center AI tweaks
+
+Version 2.2.3 (December 25, 2020):
+- Imperial Guard fleets are marginally scarier
+- Scutums now have built-in hullmod Attraction Matrix, which makes the fighter passively behave like a flare
+  * Only attracts missiles (not PD), has strength in between a standard and a seeker flare, and double the range
+  * Generally, without ECCM and counting the full wing of 4, that's a 59% chance to pull a given missile in a 600 unit radius
+- Scutum shield capacity decreased to 800 from 1000
+- Updated missile AIs to permit Scutum's Attraction Array
+- Scutum replace time increased to 12 from 10 seconds
+- Flamen replace time increased to 6 from 5 seconds
+- Princeps armor increased to 500 from 450
+- Fixed version file HTTPS redirect
+- Imperial package modspecs are more common
+- Tweaked Command Center, Overdrive, Celerity Drive, Lux Finis, and Shock Buster AI
+- Finally added a custom AI for Turbofeeder
+- Certain loop sounds no longer play while paused
+- Onager MIRV flight time increased to 24 from 20 seconds
+- Onager MIRV hit points increased to 1200 from 1000
+- Onager MIRV shoots 36 Fundaes instead of 24
+- Fundae SRM Pod ammo increased to 80 from 64
+- Fundae MLRS ammo increased to 210 from 168
+- Enhanced (no package) Armageddon missile hit points increased to 100 from 75
+- Enhanced (Elite) Armageddon missile hit points decreased to 100 from 125
+- Enhanced (Elite) Armageddon missile flight time decreased to 9 from 12
+- Vicarius top speed and acceleration increased to 200 from 175
+- Matriarch shield efficiency improved to 0.8 from 0.9
+- Matriarch top speed increased to 30 from 25
+- Praetorian shield efficiency improved to 0.9 from 1.0
+- Dictator top speed increased to 45 from 40
+- Dictator armor increased to 1250 from 1200
+- Decurion armor increased to 300 from 250
+- Decurion top speed increased to 135 from 130
+- Invictus shield efficiency improved to 0.9 from 1.0
+- Ardea flux capacity increased to 9000 from 8000
+- Libritor deployment points reduced to 11 from 12
+- Photon Beam Cannon (Sebastos) damage increased to 2300/s (~1000 total) from 2200/s (~950 total)
+- Photon Beam Cannon flux cost decreased to 1250/s (1500 total) from 1350/s (1620 total)
+- Photon Beam Cannon range increased to 1100 from 1000
+- Maximus top speed increased to 160 from 150
+- Maximus maneuverability improved slightly
+- Maximus flux dissipation increased to 300 from 250
+- Maximus phase activation/upkeep costs decreased to 150 from 180
+- Maximus deployment points reduced to 8 from 9
+- Celerity Drive (Maximus) now blocks phasing for the full duration of the system
+  * This is actually a buff, from the AI's perspective...
+- Patella Breaker (Maximus) can now pierce shields if the target has a decent level of hard flux
+- Solis Cannon reaches its maximum recoil inaccuracy slightly faster
+- Shock Buster (Targeting) flux cost decreased to 17.5% of base flux capacity from 25%
+- Shock Buster now twists (forcibly turns) the targets in addition to pushing them, at varying ratios depending on the target's size (more twisting for a larger target)
+  * If the ship is phased, the target is twisted far more (and pushed a lot less)
+- Shock Buster's missile-whacking area is higher for the Lynx (but still not as wide as the Caesar's)
+- Lynx top speed increased to 80 from 75
+- Lynx rotational maneuverability significantly improved
+- Lynx phase activation cost decreased to 160 from 240
+- Lynx phase upkeep cost decreased to 200 from 240
+- Lynx armor increased to 600 from 550
+- Lynx flux dissipation increased to 400 from 350
+- Dominus hull increased to 12000 from 11000
+- Made Doomsday mission easier
+- Added mission: Lost to the Inferno, featuring the Lynx, Libritor, and Maximus against a larger (but front-shielded) Pather fleet
+- Battles in Vortex Infernalis are a little more visually interesting now
+- Tweaked market conditions
+
+Version 2.2.2 (September 28, 2020):
+- Slight rebalance to Doomsday mission
+- Made IBBs scarier
+- Princeps no longer auto-escorts
+- Imperium launches 30% fewer invasions in Nexerelin
+- Targeting Magna Fulmen (enhanced) damage increased to 1400 from 1250
+- Armor Magna Fulmen (enhanced)'s middle shot is now the same as the Armor Magna Fulmen (standard) shot (1000 energy damage, 1000 frag damage to secondary targets)
+- Armor Magna Fulmen (enhanced)'s additional shots reduced to 250 energy and 500 frag to secondaries (250 to the primary target) from 300/600
+- Some configuration for compatibility with various other mods
+- Migrated version file to custom host (sigh)
+
+Version 2.2.1 (July 11, 2020):
+- Targeting Libritor is less likely to use its system against retreating enemy ships
+- Armor Magna Fulmen changes spread based on the target it's shooting at (size and distance)
+- Targeting Magna Fulmen damage decreased to 1250 from 1500 (which is still higher than the base 1000)
+- Some configuration for Vayra's Sector, Starship Legends, and New Beginnings
+
+Version 2.2.0 (July 8, 2020):
+- Added Libritor-class Siege Destroyer
+  * Single flight deck
+  * Four small weapons (universal) that point forwards; no rear defenses
+  * Mediocre hull/armor, strong frontal shield
+  * Powerful spinal weapon: Magna Fulmen
+    - Long range, fast projectile, heavy energy damage, fairly efficient
+    - Armor package adds frag AOE damage
+    - Targeting package adds knockback
+    - Elite package adds EMP arcs
+- Libritor's ship system (Arbalest Loader) instantly reloads Magna Fulmen; 3 charges
+  * Armor package has 2 charges but changes the next round to a shotgun-spread of 5 shots
+  * Targeting package has 2 charges but changes the next round to a big, slow projectile that detonates on impact for heavy AOE knockback (no damage)
+  * Elite package does not fully reload the Magna Fulmen (reduces cooldown by 2 seconds), but boosts the power of the next shot
+    - Can stack up to 4 times for an extremely powerful shot
+- Olympus blueprint won't appear at Prism Freeport (Nexerelin)
+- Olympus costs three times as much to steal (Nexerelin)
+- Added unique names for Imperium special forces fleets (Nexerelin)
+- Vicarius speed reduced to 175 from 200; acceleration reduced too
+- Javelin flight time increased to 16 from 15 seconds
+- The AI is more likely to use Armor Package Shock Buster
+- New Sledge Gun and Sledge Cannon sprites
+- Migrated version file to BitBucket
+
+Version 2.1.2 (December 23, 2019):
+- Minor optimization to Command Center system
+- Nexerelin alignment support
+- Commissioned Crews support
+- Proper portraits for the AI gods
+- New HELMUT portrait
+- Titan detonation no longer has a knockback effect
+- II faction starts in Nexerelin now grant the Armor and Targeting packages
+
+Version 2.1.1 (September 8, 2019):
+- Added Space Battleship Yamato start
+- Lightspear balance adjustment:
+  * Lightspear (Elite) EMP damage is increased by a factor of 4, but no longer inflicts actual damage
+  * Lightspear damage and flux cost is reduced by approximately 20%
+- Titan balance adjustment:
+  * Slight flux boost and overload duration boost (for cruisers and capital ships) to EMP Titan
+  * Titan now requires more CR to launch if the Olympus has D-mods (always costs 300 supplies)
+  * When a Titan appears, the enemy AI will always attempt to order an Eliminate against it
+  * Enemy ships not ordered to Eliminate an explode-type Titan (standard or EMP) will try to avoid it
+- Wave Motion Cannon now does 3x damage to fighters and hulks and 100x damage to asteroids, and won't detonate on hulks
+- Decreased rarity of Ship and Weapon packages
+- Fundae balance adjustment:
+  * Fundae MIRVs now prioritize closer targets more (big impact for Fundae MIRV Titan)
+  * Reduced Fundae AOE fragmentation damage to 140 from 160
+- Reduced Sagittarius Autogun DPS to 720 from 800, reduced hit glow effect
+- Imperial Package balance adjustment:
+  * Elite no longer scales CR penalty by hull size; back to a flat 50%
+  * Elite penalizes range by 20%
+  * Elite's reversing speed penalty is increased to 20/15/10/10 from 15/12.5/10/10
+  * Armor now adds 50% EMP resistance
+  * Targeting now penalizes speed by 20/15/10/5
+  * Targeting now increases zero flux boost by 30/25/20/15
+  * Targeting is no longer compatible with Unstable Injector
+- Massively improved the readability of Imperial Package tool-tips
+- Adjusted Lynx Shock Buster AI to work better with phase ship tactics
+- Tweaked CR/deploy for multiple ships to adjust the cost of full recovery
+  * Most changed are the Legionary and Dominus, which now cost considerably more to recover from low CR
+- Increased Legionary DP to 15 from 14
+- Massively buffed Elite Ixon's Magnum Salvo missiles:
+  * Doubled EMP damage
+  * Arcs have a chance to pierce through shields
+  * Slightly faster and longer-lived, considerably harder to shoot down
+- Increased Armageddon AI range to 1750 from 1500, but fixed a Magnum Salvo AI bug that caused it to fire at a range of 2000
+  * Slightly increased lifespan of base missile to compensate
+- Overdrive and Lux Finis balance adjustment:
+  * Increased gauge recovery time to 28 seconds from 24 seconds
+  * Targeting Package decreases the gauge drain rate by 25%
+  * Fixed issue where CR was not draining quickly enough at redline with the Elite Package (now closer to the default CR drain when redlined)
+
+Version 2.1.0 (July 12, 2019):
+- Revamped and vastly improved the Yamato IBB
+- Added a new bounty featuring HELMUT
+- Interstellar Bazaar support for Nexerelin
+- Interstellar Bazaar no longer sells blueprints you already know
+- Custos Defender range increased to 300 from 250
+- Reduced Shock Buster minimum effectiveness versus smaller targets (except the Armor variant)
+- Reduced Elite Shock Buster range, knockback, and EMP
+- Titan is no longer functional when the Olympus is below 30% CR
+- Combat can no longer end while a Titan blast is active
+
+Version 2.0.1 (June 28, 2019):
+- Missions updated:
+  * Calydonian Hunt is now rated HARD instead of IMPOSSIBLE
+  * Daring Rescue is now rated IMPOSSIBLE instead of HARD
+  * Doomsday now features an enemy station
+- Interstellar Bazaar now sells even more Imperium weapons
+- Visual tweak to Javelin trail
+- Olympus CR now goes down by the usual 30% if you bombard a market
+- Fixed Shock Buster targeting bugs and generally improved the targeting logic (shouldn't misfire)
+- Dampened Mount (Diable Avionics) is now incompatible with Reinforced Emplacements, Imperial Armor Package, and Imperial Targeting Package
+- Efficiency Overhaul is now incompatible with the Olympus
+- Fixed random crash with Titan explosions
+- Dominus peak performance time reduced to 660 seconds from 720 seconds
+- Reduced Titan to 7000 hull and 700 armor from 8000 hull and 800 armor
+- Adjusted Olympus purchasing:
+  * No longer sold at Open Markets or the Starship Bazaar
+  * Rarely (25% as often) sold at Black Markets, and even then it has extra D-mods
+  * Less often (50% as often) sold at Military markets
+  * Other ships are affected to some degree, too
+- Increased Sagittarius Autogun flux/second to 250 from 200
+- Reduced Targeting Package range bonus to 100/150/200/250 from 100/200/300/400 for PD weapons
+- Changed Elite Package CR penalty to 40%/50%/55%/60% from a flat 50%
+- Fundae MLRS is no longer considered a rare weapon (now part of the weapon package)
+- Targeting Package + Command Center changes:
+  * Speed Mode's speed bonus is reduced to 25% from 33%
+  * Speed Mode's maneuverability bonus is increased to 50% from 33%
+  * Targeting Package + Speed Mode now also increases fighter projectile speed by 50%
+- Elite-package Titan (EMP) overload duration malus now scales from 200% to 50% (at the epicenter) depending on hull size
+  * Stations and station modules never get the overload duration malus
+- Titan now attributes damage to the Olympus that fired it
+- Increased Apocalypse missile HP to 100 from 75
+- Updated Titan (Fundae MIRV) description to more accurately display damage
+- Starship Bazaar sometimes sells piecemeal Imperium blueprints (non-rare)
+
+Version 2.0.0 (June 18, 2019):
+- Updated for Starsector 0.9.1a
+- Added Carrum-class Light Freighter
+  * Analogous to the Basileus-F, but beefier and better-armed
+- Added Ixon-class Light Cruiser
+  * Took the Malleus' missiles, but is in reality a sawn-off Falcon refit
+  * Highly flexible slots and improved durability, but lacks maneuverability and has weak flux stats
+  * More expensive (20 DP vs 15 DP)
+- Added Ardea-class Battlecarrier
+  * A combat-oriented Heron refit, with one fewer deck but several extra guns to compensate
+  * Generally improved stats across the board, except speed/maneuverability
+  * More expensive (22 DP vs 20 DP)
+- Removed ships:
+  * Auriga
+  * Malleus
+  * Jupiter
+  * Basileus-F
+  * Sebastos-F
+  * Lynx-S
+  * Wolf (I)
+  * Eagle (I)
+  * Falcon (I)
+  * Hammerhead (I)
+  * Imperial Guard skins
+  * (D) skins
+  * (P) skins
+- Added Custos Defender
+  * Very short-range small energy PD beam weapon
+  * Basically an energy beam counterpart of the Vulcan
+  * High flux cost and high fragmentation DPS, extremely fast traversal
+  * Shreds low-HP missiles and fragile fighters (like Talons and Wasps) that stray too close
+  * Fairly expensive (6 OP) alternative to just slapping Vulcan or Burst PD on everything, goes great on the back slot of many II ships
+- Added Particle Gun
+  * Short-range small energy PD weapon
+  * Basically a crappier Vulcan in an energy slot
+  * Low flux cost and moderate fragmentation DPS, fast projectiles and medium accuracy
+  * Better than similarly-priced weapons at killing missiles, but worse at other roles
+  * Very cheap (2 OP) alternative to just slapping Vulcan on everything; cheap alternative to PD/LRPD Laser on ships that want projectile weapons
+- Added ER Particle Cannon
+  * Long-range small energy weapon
+  * Energy counterpart of the Sledge Gun
+  * Fairly high flux cost and good fragmentation DPS, good at keeping pressure up while having more bite than a Tactical Laser
+  * Expensive (8 OP) alternative to Sledge Gun or Tactical Laser spam
+- Added Arcus Autocannon
+  * Medium-range small ballistic weapon
+  * Low-flux alternative to the light autocannon series of weapons
+  * Flux-efficient and fairly accurate, but low DPS for the OP cost
+  * Great as a non-PD slot filler, or as a means of safely adding shield pressure to an existing loadout
+- Added Siege Mortar
+  * Medium-long-range small ballistic weapon
+  * Top-tier armor penetration for a small weapon
+  * Flux-efficient, but low DPS for the OP cost
+  * Slow projectile with terrible accuracy
+  * Great as a non-PD slot filler, or as an armor-cracker when mounted on smaller ships
+- Removed Hailfire Chaingun
+- Significant rework for every ship
+  * Increased Ordnance Points across the board
+  * Reduced base stats to compensate
+  * Updated Dominus layout, new built-in Triplex Beam Cannon
+  * Updated Decurion layout
+  * Updated Interrex layout
+  * Updated Maximus layout, new built-in Patella Breaker, now a phase ship
+  * Updated Lynx layout, now a phase ship
+  * Updated Adamas layout, now a phase ship
+  * New Matriarch layout
+  * New Basileus layout
+  * New Princeps layout
+  * New Olympus layout
+  * New Barrus layout
+- Significant rework for many weapons
+  * Weapon stat changes across the board
+  * Sagittarius Autogun now doubles as PD
+  * Large-slot Fundae weapon is now the Onager MIRV Launcher
+    - Anti-carrier weapon that doubles as a torpedo and a Fundae deployment device
+- Replaced the trio of Imperium hullmods:
+  * Imperial Armor Package (5/10/18/30 OP)
+  * Imperial Targeting Package (5/10/18/30 OP)
+  * Imperial Elite Package (10/20/35/60 OP)
+    - AI is more aggressive - up to Reckless (if no player-owned officer assigned)
+  * Can only choose one of the three
+  * Provides profound bonuses with meaningful downsides that greatly affect how the ship performs/behaves
+  * Each one also provides a unique improvement to the ship system
+  * Carrum/Basileus: also changes cargo/fuel/crew
+  * Adamas: also buffs Lightspear
+  * Olympus: also changes Titan configuration
+  * Slightly changes the ship's appearance
+- Added Imperial Flares system
+  * Used by the Carrum, Princeps, and Olympus
+  * Shoots 2x6 flares
+  * Armor: 3x6 longer-lasting, more effective flares
+  * Targeting: 1x6 seeker flares
+  * Elite: 1x6 homing energy/EMP missiles
+- Added Micro-Forge system
+  * Used by the Basileus
+  * Replenishes all missile ammo, but takes a long time to charge up and generates a lot of flux
+  * Isn't affected by bonuses to missile ammo (such as EMR)
+  * Armor: damper field effect, lower flux cost
+  * Targeting: 2 charges
+  * Elite: activates quickly and resets flux instead of generating flux
+- Added Turbofeeder system (replaces "Accelerated Ammo Feeder")
+  * Used by the Invictus, Praetorian, and Dictator
+  * Boosts non-beam rate of fire by 50%, reduces non-beam flux use by 50%
+  * Efficient due to overall 25% drop in flux use
+  * Armor: instantly repairs weapons and adds 75% weapon damage reduction
+  * Targeting: double projectile speed
+  * Elite: boosts speed/maneuverability while active
+- Updated Impulse Booster system (previously "Drive Booster")
+  * Used by the Decurion, Interrex, Sebastos, and Barrus
+  * Major visual improvements, numerous refinements to behavior
+  * Properly scales stats (charges, regen, etc) by ship size
+  * Revamped smarter AI
+  * Armor: instantly repairs engines and adds 75% engine damage reduction
+  * Targeting: accelerates time but generates flux
+  * Elite: double charges and faster regen
+- Added Overdrive system (replaces "Infernium Turbo")
+  * Used by the Legionary and Dominus
+  * Toggled system with its own gauge - overload if it runs out
+  * Improves ROF, flux stats, speed, maneuverability, accuracy, recoil
+  * Redlines when gauge gets low, increasing effects
+  * Reduces PPT while active
+  * Armor: reduces PPT/CR penalties, increases recovery speed, removes redlining and overload mechanics
+  * Targeting: doesn't improve speed/maneuverability, but increases ROF even further and boosts other weapon stats
+  * Elite: enhances redlining mechanics
+- Added Magnum Salvo system
+  * Used by the Ixon
+  * Replenishes 1 salvo of Armageddon ammo, resets Armageddon cooldown, generates flux
+  * Enhances the next salvo of Armageddon missiles with better speed/tracking/HP
+  * Armor: enhanced missiles MIRV into Fundaes
+  * Targeting: enhanced missiles are Squall-style kinetic missiles
+  * Elite: enhanced missiles are energy/EMP arcing Salamander-style missiles
+- Updated Command Center system (previously "Wing Command Center")
+  * Used by the Ardea and Matriarch
+  * Updated (generally nerfed) stats, updated AI
+  * Armor: "Refit" mode also reduces fighter damage taken
+  * Targeting: "Speed" mode also increases fighter range
+  * Elite: "Attack" mode also increases fighter ROF and decreases fighter flux use
+- Updated Shock Buster system (previously "Galvanic Armor")
+  * Used by the Lynx and Caesar
+  * Stats tweaked, scales by target size
+  * Also zaps nearby missiles when activated
+  * Armor: hits every nearby target, reduced effectiveness per target, fewer charges
+  * Targeting: increased effectiveness, fewer charges
+  * Elite: unlimited charges and faster operation, reduced effectiveness
+- Added Celerity Drive system
+  * Used by the Maximus
+  * Dramatically slows down time for the ship while charging up (sliding from 0.5x to 0.2x), dramatically speeds up time while active (sliding from 5.5x to 1x)
+  * Risk-reward behavior; you are extremely vulnerable during the charge-up
+  * Time scale is constantly sliding; maximizing this system takes skill and practice
+  * Also zaps nearby missiles/fighters/ships when activated
+  * Armor: damper field effect while charging
+  * Targeting: greatly reduced weapon flux cost
+  * Elite: reduced charge up, reduced duration, reduced cooldown
+- Updated Lux Finis system
+  * Used by the Adamas
+  * Toggled system with its own gauge
+  * Improves flux stats, speed, maneuverability, and damage reduction
+  * Reduces PPT while active
+  * Armor: greater damage reduction
+  * Targeting: doesn't improve speed/maneuverability, but increases flux stats even further and increases ROF
+  * Elite: borrows the redlining mechanics from Overdrive
+- Removed the Colosseum and Invasion missions
+- Remade the remaining missions
+- Added cool trails to certain weapons
+- Various minor stats, supply costs, and prices updated across the board
+- Reworked Yamato and Yamato-related stats
+- Reworked the appearance of many miscellaneous things (projectiles, planet textures, etc.)
+- Campaign overhaul:
+  * Reworked Imperium-specific market conditions and industries
+  * Reworked Imperium lore and reworked many campaign-related descriptions
+  * Removed Siege event
+  * Removed production-related events
+  * Removed Military-Industrial market/condition
+  * Removed Imperium Conversions market
+  * Added Imperial Guard HQ that spawns special hyper-competent Imperial Guard fleets
+
+Version 1.19.0 (April 23, 2018)
+- Added spammy AOE anti-fighter missile weapon
+  * Added Fundae SRM Pod
+  * Added Heavy Fundae Pod
+  * Added Onager Launcher
+- Added a 2x Fundae to the Flamen
+- Increased Flamen OP to 5
+- Decreased Scutum OP to 7
+- Drive Booster is weaker when applied in reverse or forward, stronger for lateral movement
+- Made II hullmods somewhat rarer in general, and 10x less likely to appear in random loot
+
+Version 1.18.2 (December 1, 2017)
+- Gave Draconarius a pair of single-shot Ballista missiles
+- Reduced Scutum refit time to 10 from 15
+- Made Scorpio Javelin Launcher great again
+- Fixed hullmod-related crash bug
+
+Version 1.18.1 (October 3, 2017)
+- AI improvements
+
+Version 1.18.0 (October 1, 2017):
+- Significantly adjusted all ship stats to be more in-between midline and low tech standards
+- Redesigned Imperial hull mods and added a third option:
+  * Imperial EL Armor
+    ~ Was Energized Armor
+    ~ Also boosts armor as with Heavy Armor
+    ~ Costs more OP
+    ~ Incompatible with other Imperial hull mods and range hull mods
+  * Imperial FFCS Core
+    ~ Was Fire Control System
+    ~ No longer reduces weapon turn rate
+    ~ Now boosts weapon accuracy
+    ~ Now reduces ship speed / acceleration
+    ~ Incompatible with other Imperial hull mods and speed hull mods
+  * Imperial HFR Conduits
+    ~ Reduces armor, repair speed, and weapon/engine health
+    ~ Reduces shield strength
+    ~ Multiplies dissipation and weapon rate of fire
+    ~ Increases all speed/maneuverability stats
+    ~ Incompatible with other Imperial hull mods and durability hull mods
+- New Caesar sprite, slightly different turret layout and stats
+- Reworked Caesar main weapon to Crocea Mors, a high-velocity energy-damage railgun
+- Reworked Imperial ship skin stats
+- Ballista is now a two-stage missile with a fast, short-range second stage with poor guidance
+- Ballista damage reduced to 300 from 400
+- Ballista HP reduced to 50 from 75
+- Sledge Gun OP increased to 7 from 6
+- Sledge Cannon OP increased to 13 from 12
+- Sledge Gun proc damage decreased to 30 from 30-to-50
+- Sledge Cannon proc damage decreased to 60 from 60-to-100
+- Sagittarius ADC redesigned to Sagittarius Autogun
+- Inferna pulsar bombs now split into a bunch of small pulses rather than one big pulse
+  * 200x5 damage instead of 750x1
+- Reduced Heavy Pulse Laser OP to 12 from 13
+- Increased Flamen's Particle Gun damage to 60 from 40
+- Buffed Flamen turn rate/accel to make it better at interception
+- Minor fixes
+
+Version 1.17.2 (June 19, 2017):
+- Major save stability fixes
+- Optimized textures to not overlap with Unknown Skies, saving VRAM
+- Invictus shield changed (front-240 to omni-120, efficiency 0.8 to 0.9)
+- Decurion shield changed (omni-120 to front-180, upkeep 0.4 to 0.5)
+- Major adjustment to fleet composition ratios for various factions
+
+Version 1.17.1 (June 10, 2017):
+- Reduced Flamen OP to 0 from 4
+- Adjusted Vicarius Corvette to Vicarius Assault Fighter, now wing of 2 at 20 OP
+- Slightly buffed Draconarius Fighters
+- Adjusted weapon tiers
+- Adjusted weapon prices
+- Some ship price adjustments
+- Pulsar weapons no longer fire multiple projectiles at the same time, but are far more efficient than before
+- Additional DynaSector support
+- Improved a few odds and ends
+
+Version 1.17.0 (June 4, 2017):
+- Updated to support Starsector 0.8.1a
+- Removed Saltus Divinus, Duality Research Station, and Traian markets (but kept certain features at those locations)
+- Adjusted economy, prevented edge cases that could break things
+- Fixed rare TITAN/Apocalypse bug
+- TITAN initial damage respects shield placement
+- Jupiter now has Advanced Targeting Core instead of Targeting Supercomputer
+- Significant rebalance of Siege effects
+- D-modded Olympus is no longer usable
+- Significant changes to Imperium debris/derelicts
+- Made Ballistae slightly more sluggish
+- A TITAN intercepted before it detonates has a chance to detonate early for reduced damage
+- Increased Interstellar Bazaar tariffs
+- Invictus supplies/rec increased to 5 from 4
+- Matriarch now has 7 flight decks again
+- Matriarch OP increased to 280 from 250
+- Changed Matriarch ship system to Wing Command Center
+- Increased Vicarius toughness
+- Decreased Telum damage to 225 from 250
+
+Version 1.16.0 (May 13, 2017):
+- Updated to support Starsector 0.8a
+- Improved fleet spawn scaling
+- Siege fleets now have major CR bonuses during the siege, depending on the status of escort fleets
+- Significantly weakened Javelin tracking
+- Significantly slowed down Javelins, like mini-torpedoes
+- Increased Javelin HP to 300 from 150
+- Scorpio Javelin Launcher now fires Javelins one at a time
+- Adjusted various ship stats to meet new standards
+- Energized Armor no longer offers damage reduction, but does raise maximum damage reduction and minimum armor level
+- Scalprum Drone converted to wing
+- Malleus ship system is now Targeting Feed
+- Jupiter's built in hullmods changed to Targeting Supercomputer
+- Matriarch ship system is now Reserve Deployment
+- Combined all three Vicarius variants into a single variant with a light assault gun and railgun
+- Rebalanced fighters
+- Princeps reworked as a 1-deck battlecarrier with Reserve Deployment
+- Lynx now has built-in ECCM Package
+- Lynx-S now has built-in Surveying Equipment
+- Enhanced campaign terrain in various ways
+
+Version 1.15.0 (March 26, 2017):
+- Changed Caesar shield arc to 60 degree omni from 45 degree front; updated shield stats
+- Slightly improved Caesar maneuverability
+- Changed Matter Accelerator Cannon to Spheric Cannon (kinetic artillery)
+- Removed Active Armor
+- Added Galvanic Armor
+- Reduced the penalties associated with Imperial Guard ships
+- Lux Repeater burst size increased to 14 from 10
+- Lux Repeater damage decreased to 40 from 50
+- Lux Repeater flux cost decreased to 30 from 40
+- Lux Repeater accuracy improved
+- Increased power for Drive Booster
+- Reworked Infernium Turbo
+- Redid Pulsar weapons to be high-burst weapons
+- Improved Pulsar and Solis projectile visuals
+- Reduced Solid Cannon projectile velocity
+- Made the Inferna bomber tougher and more reliable
+- Made the Colosseum mission harder
+- Updated various scripts to remove frame rate dependence on graphical effects
+
+Version 1.14.0 (January 8, 2017):
+- Added the Adamas-class Heavy Cruiser
+- Added Imperial Guard variants of the Decurion, Praetorian, Sebastos, and Dominus
+- Added Photon Blaster and Lightspear built-in weapons for the Adamas-class
+- Improved armor and speed of the TITAN missile
+- Improved survivability and power of the Apocalypse MIRV missile
+- Reworked Scutum Defense Drone (wing of 5, individually weaker)
+- Reworked Sagittarius ADC
+- Made Hailfire Chaingun more accurate
+- Removed damage bonus to beam weapons from Infernium Turbo (was too OP with photon beam cannon)
+- Increased ammo capacity for Pulsar weapons
+- Greatly increased Fusion Pulse Cannon projectile speed
+- Redesigned/rebalanced Energized Armor
+- Various minor bugs fixed
+- Updated ship and weapon prices
+- Added Colosseum mission
+- Added Diamond in the Rough mission
+- Fixed Olympus conversions
+- Removed Battle of Corvus mission
+
+Version 1.13.1 (September 17, 2016):
+- Improved Drive Booster hulk-avoidance
+- Energized Armor bonus increased to 100% from 75%
+- Drive Booster recovers charges more quickly (by about 33%)
+- Rebalanced Hailfire Chaingun (lower DPS, less flux, lower OP)
+- Drastically reduced the flux cost of the Photon Beam Cannon
+- Small tweaks
+
+Version 1.13.0 (May 21, 2016):
+- Added Inferna-class bomber, reworked Vicarius-B
+
+Version 1.12.0 (April 15, 2016):
+- Reworked Turbo Drive, renamed to Infernium Turbo
+- Remade Drive Booster from the ground up
+- Draconarius redesigned around a Lux Repeater instead of Pulsar Cannon
+- Scutum speed increased dramatically
+- Frigate and destroyer speed and acceleration adjusted for higher top speed and more inertia
+- Maximus reworked; updated system, new built-in weapons (Fusion Pulse Cannon)
+- Adjusted economy
+- Buffed Javelin HP
+
+Version 1.11.0 (April 3, 2016):
+- Major sound overhaul for many weapons, effects, and abilities
+- Sprite update to all ships, improving clarity and colors
+- Added Tachyon Field in Ex Vis, which increases fleet speed
+- Improved Javelin 100%
+- Ballista weapons rebalanced
+- Additional bug fixes
+
+Version 1.10.2 (March 1, 2016):
+- Javelin damage increased to 1000 from 900
+- Slot adjustments (Composite/Synergy)
+- Adjustments for 0.7.2a
+
+Version 1.10.1 (February 20, 2016):
+- Centurion renamed to Legionary
+- Made Javelins less likely to ram into allies
+- Gravity Cannon now does energy damage instead of fragmentation damage (all other stats the same)
+- Minor bugfixes
+
+Version 1.10.0 (January 30, 2016):
+- Lynx-S added
+- Sebastos-F added
+- Telum Autocannon added
+- Solis Cannon added
+- Heavy Pulse Laser added
+- Lux Repeater added
+- Javelin ASM (Single) added
+- Added ISA Energized Armor hull mod
+- Added ISA Fire Control System hull mod
+- Added star system Ex Vis (three markets, a new terrain type, some unique mechanics)
+- Added Military Complex submarket for Nova Capitalis
+- Added Imperial Conversions submarket for Nova Capitalis
+- Added Production Boom/Drop event for Nova Capitalis
+- Interstellar Bazaar now has The Great Starship Market, a special market that replaces the military market
+- Improved Thracia and Corsica systems; added content
+- New terrain type for the terrain around Arafa (gas giant)
+- Added Imperial Embassy station to Yma
+- Added encounter and market music
+- Improved/added descriptions to campaign elements (planets, stations, etc.)
+- Sieges no longer crush the economy
+- Sieges can be broken by peace treaties
+- Leviathan renamed to Barrus
+- Lynx and Sebastos sprites touched up
+- Javelin HP reduced to 75 from 125
+
+Version 1.9.2 (December 22, 2015):
+- Siege fleets are less hardcore; sieges are less common
+- Siege events improved overall
+- Javelins redone as anti-cruiser MRMs (hybrid torpedoes)
+- Updated economy
+- The Interstellar Imperium is no longer hostile toward the Sindrian Diktat
+- New background image for Thracia
+
+Version 1.9.1 (December 6, 2015):
+- Updated for 0.7.1a
+- Fixed Olympus crashing
+- Updated economy
+
+Version 1.9.0 (November 27, 2015):
+- Portraits added
+- Lynx added
+- Malleus and Scalprum Drones added
+- Matriarch added
+- Reduced Pulsar Repeater OP to 10 from 11
+- Javelin MRM Rack, Javelin MRM Launcher, and Scorpio Javelin Launcher added
+- Updated many ships for Hybrid slots, new campaign mechanics, etc.
+- Better custom fleet AI behaviors
+- New Caesar sprite and Dictator sprites
+- Updated Falcon (I) and Eagle (I) sprites
+- Pulsar weapons no longer regenerate ammo, but use slightly less flux to fire
+- Another SS+ boss bounty added
+- OP values updated
+
+Version 1.8.3 (September 27, 2015):
+- Dominus hull increased to 12500 from 11000
+- Dominus flux dissipation increased to 800 from 700
+- Nexerelin implementation updated for Corvus Mode
+- TITAN and Apocalypse MIRV now show up on the Olympus in refit
+- Tariff increased to 30%
+- Sagittarius ADC animation improved
+
+Version 1.8.2 (May 17, 2015):
+- Sledge Gun and Sledge Cannon descriptions include RNG damage numbers
+- The Hegemony now tries harder to fight off sieges
+- Light Ballista Rack range decreased to 2000 from 8000; now effectively an MRM
+- Ballista LRM Launcher range decreased to 5000 from 8000
+- Basileus and Basileus-F universal turret changed to energy turret
+- Basileus and Basileus-F shield removed
+- Basileus fleet points increased to 6 from 4
+- Sebastos OP increased to 100 from 95
+- Dictator OP decreased to 155 from 160
+- Dominus OP increased to 190 from 180
+- Centurion medium universal slots changed to ballistic (hardpoint) and energy (turret)
+- Decurion medium universal slots changed to energy slots
+
+Version 1.8.1 (March 28, 2015):
+- Sledge Gun and Sledge Cannon given RNG damage mechanic: on a hull hit, a chance for extra damage
+- Sledge Gun overall DPS increased to 85 from 65
+- Sledge Cannon overall DPS increased to 132 from 100
+- Sieges nerfed
+- Campaign fuel shortages should be less severe
+- TwigLib compatibility improved
+
+Version 1.8 (March 14, 2015):
+- New artwork for Decurion, Dominus, Invictus, Jupiter, Maximus, and Sebastos
+- Hammerhead (I) added
+- Wolf (I) added
+- (D) versions added: Decurion, Dictator, Interrex, Invictus, Praetorian
+- Pirate versions added: Decurion, Interrex
+
+Version 1.7.3 (March 8, 2015):
+- Juptier maneuverability increased
+- Gravity Cannon force increased by 40%
+- Siege fleet size nerfed
+- Light Ballista nerfed again
+- Exerelin compatibility
+
+Version 1.7.2 (February 22, 2015):
+- Ballista damage increased to 400 from 350
+- Turbo Drive ballistic rate of fire, energy damage, and flux dissipation bonuses increased to 50% from 33%
+- Drive Booster flux usage reduced to 150% base dissipation from 200%
+- Decurion flux dissipation increased to 200 from 175
+- Dominus maneuverability increased
+
+Version 1.7.1 (February 18, 2015):
+- Fixed Siege crash
+
+Version 1.7 (February 17, 2015):
+- Updated for Starsector 0.65.2a
+- Market conditions improved slightly
+- Weapon rebalance pass
+- Siege event added
+
+Version 1.6.2 (January 26, 2015):
+- Corsica is now a binary system
+- Light Ballista Rack now shoots one missile at a time
+- Interstellar Bazaar produces fewer luxury goods
+- New Photon Beam Cannon sound
+
+Version 1.6.1 (January 8, 2015):
+- Crash involving TITAN and Apocalypse MIRV resolved
+- Phase Jaunt AI improved
+- Traian and Perinthus moved
+- Jupiter and Dictator sprites updated
+
+Version 1.6 (December 8, 2014):
+- Code review and cleanup
+- Added Corsica star system and markets
+- Added Leviathan-class Combat Freighter
+- Added Bear-Baiting mission
+- Fixed background images for missions and Thracia
+- Art upgrade/improvement pass; most ships are updated for shading and consistency
+
+Version 1.5.1 (November 18, 2014):
+- Babylon and Byzantium are now one connected market called Interstellar Bazaar
+- Minor fixes and balance changes
+
+Version 1.5 (November 14, 2014):
+- Updated for Starsector 0.65a
+- Compatibility adjustments for ShaderLib Beta
+- Falcon (I)-class Cruiser added (alternate Falcon hull)
+- Eagle (I)-class Cruiser added (alternate Eagle hull)
+- Thracia system revamped; given markets and custom fleets
+- Imperial/Hegemony fleets will travel into other systems and harass each other
+- Price updates
+- Prices, fuel usage, and other various stats updated to keep in line with 0.65
+- Updated ship bounding polygons
+- High Maintenance added to Maximus
+- Fighter balance adjustments
+- Apocalypse MIRV has many more missiles
+- Apocalypse MIRV AI update
+- Apocalypse and Ballista LRM stats and appearance adjusted
+- Gravity Cannon and Photon Beam Cannon now charge up before firing; stats updated
+- Praetorian armor increased to 700 from 600
+- Interrex armor increased to 500 from 400
+- Ballistae reduced to 350 damage from 400; hit points reduced to 75 from 100
+- Pulsar flux costs slightly increased
+- Light Ballista Rack ammo reduced to 6 from 10; OP reduced to 5 from 6
+- Basileus OP increased to 38 from 35; built-in Expanded Missile Racks removed; CR stats adjusted; Fast Missile Racks replaced with Flare Launcher
+
+Version 1.4 (August 30, 2014):
+- Surface maps added for all ships and weapons
+- Cargo and burn speeds adjusted to match vanilla levels
+- Version Checker support added
+- Small bugs and AI issues resolved
+
+Version 1.3.1 (August 13, 2014):
+- Maximus stats adjusted
+- Flamen wing reduced to 2 supplies/day from 3 supplies/day; other CR stats adjusted
+- Vicarius wing CR stats adjusted
+- Scutum wing reduced to 2 supplies/day from 3 supplies/day
+- Phase Jaunt system now has 5 regenerating charges
+- Minor polishing improvements
+
+Version 1.3 (July 28, 2014):
+- Added Auriga-class Tug
+- Added Basileus-F-class Freighter
+- Added Maximus-class Advanced Frigate
+- Added Jupiter-class Defense Platform
+- Added Gravity Cannon (built-in)
+- Stability improvements
+- Minor polish and AI improvements
+
+Version 1.2.1 (June 9, 2014):
+- Fixed sound and stats issue with Sagittarius ADC
+
+Version 1.2 (June 9, 2014):
+- Added Scutum-class Defense Fighter
+- Added Sagittarius ADC weapon
+- Updated Sledge Cannon sprite
+- Updated sound for Matter Accelerator Cannon
+- Updated default variants
+
+Version 1.1.1 (June 9, 2014):
+- Updated normal and material maps for ShaderLib Alpha v1.5
+- Fixed Olympus normal/material maps
+
+Version 1.1 (June 7, 2014):
+- Vicarius Support given railguns instead of sledge guns
+- Vicarius Bomber nerfed in DPS
+- Added material maps and normal maps for all ships and weapons
+- Additional fixes
+
+Version 1.0.3 (May 28, 2014):
+- Vicarius, Basileus, Decurion, Praetorian, Interrex, Centurion, and Caesar CR stats adjusted
+- Invictus and Sebastos minimum and maximum crew increased
+
+Version 1.0.2 (May 26, 2014):
+- Decurion, Invictus, and Centurion flux stats adjusted
+- Light Ballista Rack added
+
+Version 1.0.1 (May 25, 2014):
+- Custom sound effect added to Particle Gun and Particle Repeater
+- TITAN and Apocalypse MIRV no longer persist in campaign fleets
+- AI is now more likely to fire the TITAN and Apocalypse MIRV
+
+Version 1.0 (May 22, 2014):
+- Initial release

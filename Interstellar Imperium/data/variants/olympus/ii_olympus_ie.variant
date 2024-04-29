@@ -1,0 +1,60 @@
+{
+    "displayName": "Imperial Elite",
+    "fluxCapacitors": 9,
+    "fluxVents": 9,
+    "hullId": "ii_olympus",
+    "hullMods": [
+        "ii_elite_package",
+        "autorepair",
+        "fluxbreakers",
+        "missleracks",
+        "eccm"
+    ],
+    "permaMods": ["ii_elite_package"],
+    "sMods": ["ii_elite_package"],
+    "variantId": "ii_olympus_ie",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ii_titan_w"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "ii_fundae_s",
+                "WS0007": "ii_fundae_s",
+                "WS0008": "ii_fundae_s",
+                "WS0009": "ii_fundae_s"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "ii_javelin",
+                "WS0005": "ii_javelin"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "typhoon",
+                "WS0003": "typhoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "ii_custos",
+                "WS0011": "ii_custos",
+                "WS0012": "ii_custos",
+                "WS0013": "ii_custos",
+                "WS0014": "ii_custos"
+            }
+        }
+    ]
+}

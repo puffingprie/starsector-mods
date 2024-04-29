@@ -1,0 +1,189 @@
+{
+  "hullName": "Capital Horror",
+  "hullId": "hmi_spookyboi_left",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/mess/hmi_spookyboi_left.png",
+  "style": "LOW_TECH",
+  "height": 282,
+  "width": 179,
+  "center": [89.5, 141],
+  "collisionRadius": 154.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 160.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "reduced_explosion",
+    "advancedcore",
+    "eccm",
+    "magazines",
+    "missleracks",
+    "pointdefenseai",
+    "turretgyros",
+    "always_detaches",
+    "hmi_terror_spawner_left1"
+  ],
+  "builtInWeapons": {
+    "WS0001": "tachyonlance",
+    "WS0002": "pdburst",
+    "WS0003": "sabotpod",
+    "WS0004": "pdburst",
+    "WS0005": "pdburst",
+    "WS0006": "heavyneedler",
+    "WS0007": "taclaser",
+    "WS0008": "taclaser",
+    "WS0009": "taclaser",
+    "WS0010": "ionbeam",
+    "WS0011": "hil",
+    "WS0012": "heavyburst"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 222,
+      "angle": 63.5,
+      "locations": [107, -11.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 134,
+      "angle": 74,
+      "locations": [57, 35.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [48, 52.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 132,
+      "angle": 90,
+      "locations": [21, 65.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 153,
+      "angle": 49.5,
+      "locations": [-9, 58.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 90,
+      "locations": [-36.5, 61.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 131,
+      "angle": 90,
+      "locations": [-25, 33.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 123,
+      "angle": 34.5,
+      "locations": [1, 25.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 119,
+      "angle": 0,
+      "locations": [9, 1.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 127,
+      "angle": 38.5,
+      "locations": [-8.5, -23.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 180,
+      "locations": [-25.5, 7.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 218,
+      "angle": -170,
+      "locations": [-123.5, -35.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-115, 19],
+      "length": 90.5,
+      "width": 50,
+      "angle": 180,
+      "contrailSize": 50,
+      "style": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    143, -5,
+    95.5, 44.5,
+    60, 45.5,
+    31, 76,
+    7, 73,
+    -25.5, 91,
+    -55, 81.5,
+    -60, 70,
+    -98.5, 56,
+    -98, 41.5,
+    -116.5, 32,
+    -117, 7,
+    -105, 0.5,
+    -142, -31,
+    -135.5, -48,
+    -111.5, -65.5,
+    -70, -69,
+    -56.5, -58.5,
+    -23, -66.5,
+    -9, -46.5,
+    -0.5, -66,
+    2.5, -91.5,
+    34.5, -87.5,
+    48, -66,
+    69.5, -52,
+    75, -61.5,
+    103, -40,
+    124.5, -53
+  ]
+}

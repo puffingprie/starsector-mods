@@ -1,0 +1,63 @@
+{
+  "displayName": "Assault",
+  "fluxCapacitors": 20,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "keruvim_brute",
+  "hullMods": [
+    "safetyoverrides"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "keruvim_brute_assault",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 016": "typhoon",
+        "WS0001": "typhoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 006": "heavyac",
+        "WS 011": "chaingun",
+        "WS 013": "devastator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "lightag",
+        "WS 003": "lightac",
+        "WS 010": "heavymortar",
+        "WS0003": "lightac",
+        "WS0004": "lightac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 008": "lightag",
+        "WS 009": "lightag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "vulcan",
+        "WS 005": "vulcan",
+        "WS 007": "vulcan",
+        "WS0002": "vulcan"
+      }
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,195 @@
+{
+  "bounds": [
+    -65.5,
+    -42.5,
+    -24.5,
+    -66,
+    28.5,
+    -62,
+    70,
+    -0,
+    28.5,
+    62,
+    -24.5,
+    66,
+    -65.5,
+    42.5
+  ],
+  "builtInMods": [
+    "ill_advised"
+  ],
+  "center": [
+    68,
+    68
+  ],
+  "collisionRadius": 90.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 14,
+      "length": 46.5,
+      "location": [
+        -67,
+        37
+      ],
+      "style": "LOW_TECH",
+      "width": 14
+    },
+    {
+      "angle": -180,
+      "contrailSize": 14,
+      "length": 46.5,
+      "location": [
+        -67,
+        -37
+      ],
+      "style": "LOW_TECH",
+      "width": 14
+    },
+    {
+      "angle": 180,
+      "contrailSize": 18,
+      "length": 47,
+      "location": [
+        -67,
+        28
+      ],
+      "style": "LOW_TECH",
+      "width": 18
+    },
+    {
+      "angle": -180,
+      "contrailSize": 18,
+      "length": 47,
+      "location": [
+        -67,
+        -28
+      ],
+      "style": "LOW_TECH",
+      "width": 18
+    }
+  ],
+  "height": 136,
+  "hullId": "missp_path_enforcer",
+  "hullName": "Enforcer (Path)",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 83.5,
+  "spriteName": "graphics/ships/enforcer/missp_enforcer_path.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 180,
+      "id": "WS0001",
+      "locations": [
+        18,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 30,
+      "arc": 180,
+      "id": "WS0002",
+      "locations": [
+        11,
+        29
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -30,
+      "arc": 180,
+      "id": "WS0003",
+      "locations": [
+        11,
+        -29
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 60,
+      "arc": 180,
+      "id": "WS0004",
+      "locations": [
+        -16,
+        44
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -60,
+      "arc": 180,
+      "id": "WS0005",
+      "locations": [
+        -16,
+        -44
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0006",
+      "locations": [
+        41,
+        31.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0007",
+      "locations": [
+        41,
+        -31.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0008",
+      "locations": [
+        31,
+        46.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0009",
+      "locations": [
+        31,
+        -46.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 136
+}

@@ -1,0 +1,164 @@
+{
+  "hullName": "Hammerhead (Mess)",
+  "hullId": "mess_hammerhead_drone",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/mess/hammerhead_mess.png",
+  "style": "LOW_TECH",
+  "height": 164,
+  "width": 108,
+  "center": [54, 82],
+  "collisionRadius": 117.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 110,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+	"hmi_mess_visuals",
+    "hmi_mess_spawn"
+  ],
+  "builtInWings": [
+    "drone_feeder_heavy_wing",
+    "drone_feeder_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": 127.5,
+      "locations": [-28, 39]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -35.5,
+      "locations": [45, -16]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [74, 31]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [74, -31]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [76, -10.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "LAUNCH_BAY",
+      "mount": "TURRET",
+      "arc": 66,
+      "angle": 123,
+      "locations": [
+        42.5, 18.5,
+        54.5, 20,
+        41, 28,
+        61, 10.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-81, 39.5],
+      "length": 25,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-81, -39.5],
+      "length": 25,
+      "width": 18,
+      "angle": -180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-80, 28],
+      "length": 26,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-80, -28],
+      "length": 26,
+      "width": 21,
+      "angle": -180,
+      "contrailSize": 21,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-75.5, 12.5],
+      "length": 18.5,
+      "width": 22,
+      "angle": 180,
+      "contrailSize": 22,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -47.5, -4.5,
+    -76.5, -20,
+    -80.5, -42.5,
+    -73, -49,
+    -63.5, -41.5,
+    -52.5, -40.5,
+    -37, -47.5,
+    -35, -52,
+    -20, -52.5,
+    2.5, -24,
+    18, -18,
+    33, -24.5,
+    40, -51.5,
+    60, -51.5,
+    65, -39.5,
+    78, -38,
+    80.5, -8,
+    73, -4,
+    73, 4,
+    80.5, 8,
+    78, 38,
+    65, 39.5,
+    60, 51.5,
+    40, 51.5,
+    31, 20,
+    2.5, 16.5,
+    2.5, 31,
+    -20, 52.5,
+    -35, 52,
+    -37, 47.5,
+    -52.5, 40.5,
+    -63.5, 41.5,
+    -73, 49,
+    -80.5, 42.5,
+    -72, 4.5,
+    -47.5, 4.5
+  ]
+}

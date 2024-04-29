@@ -1,0 +1,120 @@
+{
+  "hullName": "Cerberus (Mess)",
+  "hullId": "mess_cerberus",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/mess/cerberus_mess.png",
+  "style": "LOW_TECH",
+  "height": 100,
+  "width": 80,
+  "center": [40, 46.5],
+  "collisionRadius": 82,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 76,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+	"hmi_mess_visuals",
+    "hmi_mess_spawn"
+  ],
+  "builtInWings": [
+    "drone_feeder_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 227,
+      "angle": -90,
+      "locations": [-17.5, -20]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 53.5,
+      "locations": [34.5, 11]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": -31,
+      "locations": [29.5, -16.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "LAUNCH_BAY",
+      "mount": "TURRET",
+      "arc": 227,
+      "angle": 90,
+      "locations": [
+        9, 16.5,
+        2.5, 12,
+        -18, 25.5,
+        17.5, 0.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-46, 32],
+      "length": 37.5,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-46, -32],
+      "length": 37.5,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-44.5, 25],
+      "length": 24,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-44.5, -25],
+      "length": 24,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    51, -7.5,
+    51, 7.5,
+    40.5, 20.5,
+    39, 35.5,
+    6.5, 35.5,
+    -1.5, 28.5,
+    -7, 38.5,
+    -43.5, 38,
+    -44.5, 10.5,
+    -38, 6.5,
+    -38, -7.5,
+    -44, -14,
+    -44.5, -38,
+    -4.5, -37.5,
+    1, -21.5,
+    8.5, -29,
+    27.5, -34.5,
+    34, -34.5,
+    48.5, -18
+  ]
+}

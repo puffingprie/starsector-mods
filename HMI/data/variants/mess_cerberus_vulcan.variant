@@ -1,0 +1,36 @@
+{
+  "displayName": "Vulcan",
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "mess_cerberus",
+  "hullMods": [
+    "targetingunit",
+    "pointdefenseai"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "mess_cerberus_vulcan",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0002": "vulcan",
+        "WS0003": "shredder"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "wings": []
+}

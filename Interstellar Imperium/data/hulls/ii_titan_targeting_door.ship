@@ -1,0 +1,55 @@
+{
+  "bounds": [
+    33,
+    -14.5,
+    -33,
+    -14.5,
+    -33,
+    13.5,
+    33,
+    13.5
+  ],
+  "builtInMods": [
+    "always_detaches",
+    "automated",
+    "reduced_explosion",
+    "ii_no_package"
+  ],
+  "builtInWeapons": {
+    "WS0001": "ii_titan_targeting_door_lights"
+  },
+  "builtInWings": [],
+  "center": [
+    16.5,
+    35
+  ],
+  "collisionRadius": 37,
+  "engineSlots": [],
+  "height": 70,
+  "hullId": "ii_titan_targeting_door",
+  "hullName": "Titan (Targeting) Door",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 37,
+  "spriteName": "graphics/imperium/ships/titan/ii_titan_targeting_door01.png",
+  "style": "IMPERIUM",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        0,
+        -6.5
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 33
+}

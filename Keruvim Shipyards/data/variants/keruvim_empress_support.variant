@@ -1,0 +1,72 @@
+{
+  "variantId": "keruvim_empress_support",
+  "hullId": "keruvim_empress",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 35,
+  "fluxVents": 26,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "harpoonpod",
+        "WS0010": "harpoonpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hveldriver",
+        "WS0002": "gauss",
+        "WS0005": "ioncannon",
+        "WS0006": "heavymauler",
+        "WS0015": "ioncannon",
+        "WS0024": "heavymauler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "hveldriver",
+        "WS0004": "gauss",
+        "WS0008": "heavymauler",
+        "WS0014": "ioncannon",
+        "WS0016": "ioncannon",
+        "WS0025": "heavymauler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "keruvim_needle",
+        "WS0011": "keruvim_needle",
+        "WS0017": "keruvim_needle",
+        "WS0018": "keruvim_needle",
+        "WS0021": "keruvim_needle",
+        "WS0022": "keruvim_needle",
+        "WS0023": "flak"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "keruvim_antlion",
+    "keruvim_antlion",
+    "keruvim_spider",
+    "keruvim_antlion"
+  ]
+}

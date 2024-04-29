@@ -1,0 +1,85 @@
+{
+  "hullName": "Pengawas",
+  "hullId": "uaf_wing_pengawas",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/pengawas_gshp.png",
+  "style": "UAF_FIGHTER_M",
+  "height": 115,
+  "width": 86,
+  "center": [43, 57.5],
+  "collisionRadius": 44,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 60,
+  "viewOffset": 0,
+  "builtInMods": [
+    "autorepair",
+    "fluxbreakers"
+  ],
+  "builtInWeapons": {
+    "WS0001": "uaf_fw_30mm_class_iii"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-1, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": 180,
+      "locations": [-44.5, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [11.5, 19.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [11.5, -19.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-5.5, 18],
+      "length": 38,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [-5.5, -18],
+      "length": 38,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "MELODY_ENGINE_H"
+    }
+  ],
+  "bounds": [
+    -25, 24,
+    -20.5, 44.5,
+    46.5, -0,
+    -20.5, -44.5,
+    -25, -24,
+    -55.5, -0
+  ]
+}

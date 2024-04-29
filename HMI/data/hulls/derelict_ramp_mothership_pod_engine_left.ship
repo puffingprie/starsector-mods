@@ -1,0 +1,138 @@
+{
+  "hullName": "Stern Rampant Growth",
+  "hullId": "derelict_ramp_mothership_pod_engine_left",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/derelicts/derelict_ramp_mothership_pod_engine_left.png",
+  "style": "LOW_TECH",
+  "height": 200,
+  "width": 224,
+  "center": [123, 105],
+  "collisionRadius": 137.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 131.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "never_detaches",
+    "reduced_explosion",
+    "supercomputer",
+    "hmi_miningHSA"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": 65,
+      "locations": [58, 21.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 79,
+      "angle": 0,
+      "locations": [67.5, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 58,
+      "angle": 96.5,
+      "locations": [-27, 64.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 58,
+      "angle": -178.5,
+      "locations": [-58, 11]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 58,
+      "angle": -135,
+      "locations": [-65, -31]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 58,
+      "angle": 167.5,
+      "locations": [-32, 59]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 58,
+      "angle": 135,
+      "locations": [-29.5, 62]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 58,
+      "angle": 148,
+      "locations": [-58, 14.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 58,
+      "angle": -157,
+      "locations": [-58, 8]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 58,
+      "angle": -157,
+      "locations": [-67, -27.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 58,
+      "angle": 173.5,
+      "locations": [-68, -24]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    86, 9,
+    67.5, 36.5,
+    27, 41.5,
+    -20, 67,
+    -33.5, 55,
+    -20.5, 29.5,
+    -55, 20,
+    -57, -1,
+    -68, -20,
+    -61.5, -42.5,
+    -60, -78,
+    -38.5, -82.5,
+    19, -49,
+    78.5, -31
+  ]
+}

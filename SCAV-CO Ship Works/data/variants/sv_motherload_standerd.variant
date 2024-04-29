@@ -1,0 +1,69 @@
+{
+  "variantId": "sv_motherload_standerd",
+  "hullId": "sv_motherload",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 23,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "sv_grateaxe",
+        "WS0007": "sv_grateaxe"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "typhoon",
+        "WS0002": "typhoon",
+        "WS0003": "sv_powercorelauncher"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "sv_doorknocker",
+        "WS0009": "sv_doorknocker",
+        "WS0017": "sv_doorknocker",
+        "WS0018": "sv_doorknocker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "sv_flyswatter",
+        "WS0005": "sv_flyswatter",
+        "WS0010": "sv_flyswatter",
+        "WS0011": "sv_flyswatter",
+        "WS0012": "sv_flyswatter",
+        "WS0013": "sv_flyswatter",
+        "WS0014": "sv_flyswatter",
+        "WS0015": "sv_flyswatter",
+        "WS0016": "dualflak",
+        "WS0019": "sv_flyswatter",
+        "WS0020": "sv_flyswatter",
+        "WS0021": "sv_flyswatter",
+        "WS0022": "sv_flyswatter",
+        "WS0023": "sv_rustybarrellauncher",
+        "WS0024": "sv_rustybarrellauncher"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "gladius_wing",
+    "gladius_wing"
+  ]
+}

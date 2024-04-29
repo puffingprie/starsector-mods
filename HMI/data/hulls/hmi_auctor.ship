@@ -1,0 +1,51 @@
+{
+  "hullName": "Auctor",
+  "hullId": "hmi_auctor",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/remnants/hmi_auctor.png",
+  "style": "HIGH_TECH",
+  "height": 34,
+  "width": 28,
+  "center": [14, 17],
+  "collisionRadius": 25.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 22,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-0.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 115,
+      "angle": 0,
+      "locations": [-7, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-12.5, -0],
+      "length": 14,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "CUSTOM",
+      "styleId": "GreenFlare"
+    }
+  ],
+  "bounds": [
+    -12.5, -11.5,
+    14, -4,
+    14, 4,
+    -12.5, 11.5
+  ]
+}

@@ -1,0 +1,2 @@
+id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order
+anvil_lab,Harvest Center,100,35,,30,,,,,graphics/icons/industry/anvil_lab.png,data.campaign.econ.industries.anvil_lab,The Harvest Center is the last stop for all criminals within Reaver space.,160.1

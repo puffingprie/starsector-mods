@@ -1,0 +1,29 @@
+{
+  "variantId": "expsp_raze_Heavy",
+  "hullId": "expsp_raze",
+  "displayName": "Heavy Variable Fighter Drone",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "expsp_coilciwsmini",
+        "WS0005": "expsp_pulsarburstl",
+        "WS0006": "expsp_pulsarburstr"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,7 @@
+{
+	"id":"interestingportraitspack", # internal id
+	"name":"Interesting Portraits Pack", # displayed to the player
+	"version":"1.2",
+	"description":"Many many portraits",
+	"gameVersion":"0.9.1a",
+}

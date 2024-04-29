@@ -1,0 +1,54 @@
+{
+  "hullName": "Scandunt",
+  "hullId": "scandunt",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/remnants/scandunt.png",
+  "style": "HIGH_TECH",
+  "height": 30,
+  "width": 28,
+  "center": [14, 15],
+  "collisionRadius": 28.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 22.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [8, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [4, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-7.5, -0],
+      "length": 9,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "GreenFlare"
+    }
+  ],
+  "bounds": [
+    -13, -7,
+    13.5, -11,
+    13.5, 11,
+    -13, 7
+  ]
+}

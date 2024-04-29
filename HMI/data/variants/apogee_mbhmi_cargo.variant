@@ -1,0 +1,57 @@
+{
+  "variantId": "apogee_mbhmi_cargo",
+  "hullId": "apogee",
+  "displayName": "Courier",
+  "goalVariant": false,
+  "fluxCapacitors": 13,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": ["hmi_mb_mysterious"],
+  "sMods": ["stabilizedshieldemitter"],
+  "hullMods": [
+    "targetingunit",
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 008": "hil"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 009": "hurricane"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "sabot"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 006": "gravitonbeam",
+        "WS 007": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "heavyburst",
+        "WS 002": "heavyburst",
+        "WS 003": "pdburst",
+        "WS 004": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

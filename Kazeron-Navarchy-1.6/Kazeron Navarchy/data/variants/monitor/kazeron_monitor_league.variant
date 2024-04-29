@@ -1,0 +1,31 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 2,
+    "fluxVents": 2,
+    "hullId": "kazeron_monitor_league",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "hardened_subsystems"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "kazeron_monitor_league",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "lightneedler",
+                "WS 004": "lightneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "flak",
+                "WS 002": "flak"
+            }
+        }
+    ]
+}

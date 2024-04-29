@@ -1,0 +1,53 @@
+{
+  "variantId": "sv_jackhammer_standerd",
+  "hullId": "sv_jackhammer",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 19,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "sv_atlascannon",
+        "WS0008": "sv_atlascannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sv_powercorelauncher",
+        "WS0002": "sv_powercorelauncher"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "sv_doorknocker",
+        "WS0006": "sv_doorknocker",
+        "WS0009": "sv_flyswatter",
+        "WS0010": "sv_flyswatter",
+        "WS0011": "dualflak",
+        "WS0012": "sv_rustybarrellauncher"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sv_flyswatter",
+        "WS0004": "sv_flyswatter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

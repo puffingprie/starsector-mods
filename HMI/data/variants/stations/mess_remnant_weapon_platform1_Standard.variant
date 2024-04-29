@@ -1,0 +1,38 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "mess_remnant_weapon_platform1",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0.5,
+  "variantId": "mess_remnant_weapon_platform1_Standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 004": "squall"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "hil"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "locust"
+      }
+    }
+  ],
+  "wings": [
+    "drone_feeder_wing"
+  ]
+}

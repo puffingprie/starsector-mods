@@ -1,0 +1,25 @@
+{
+    "baseHullId":"doom",
+    "skinHullId":"vayra_doom_ai",
+    "hullName":"Doom (AI)",
+    "descriptionId":"doom",  # optional
+	"descriptionPrefix":"This ship has been modified far beyond its original capabilities by the Aleph Ascendancy, transforming it into a downright horrifying assault cruiser.",
+	"hints":["HIDE_IN_CODEX", "UNBOARDABLE"],
+	"tags":["science_post_ai","vayra_science_hull", "auto_rec"],
+	"tech":"Research Mandate",
+    "spriteName":"graphics/ships/phase/vayra_doom_ai.png",
+    "baseValueMult":1.2,
+    "removeWeaponSlots":[], 		# ids
+    "removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+    "removeBuiltInMods":[], 		# hullmod ids
+    "removeBuiltInWeapons":[], 		# weapon slot ids
+    "builtInMods":["automated"],
+    "builtInWeapons":{
+    },
+    "weaponSlotChanges":{
+    },
+}
+
+
+
+

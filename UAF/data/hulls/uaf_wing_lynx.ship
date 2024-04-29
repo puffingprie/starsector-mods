@@ -1,0 +1,177 @@
+{
+  "hullName": "Lynx",
+  "hullId": "uaf_wing_lynx",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/lynx_ace.png",
+  "style": "UAF_FIGHTER_M",
+  "height": 85,
+  "width": 67,
+  "center": [33.5, 42.5],
+  "collisionRadius": 100,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 0,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_experimental_fighter",
+    "uaf_limitedAmmo",
+    "uaf_melodyEngine"
+  ],
+  "builtInWeapons": {
+    "ANGEL_SYSTEM": "uaf_missile_barrage",
+    "BLINKER1": "blinker_green",
+    "BLINKER2": "blinker_green",
+    "BLINKER_ASYNC": "blinker_red",
+    "BLINKER_FRONT": "blinker_red"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-12, 24.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-12, -24.5]
+    },
+    {
+      "id": "CYREXA",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 67,
+      "angle": 0,
+      "locations": [-4, -7.5]
+    },
+    {
+      "id": "BLINKER1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-22.5, 30.5]
+    },
+    {
+      "id": "BLINKER2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-22.5, -30.5]
+    },
+    {
+      "id": "BLINKER_FRONT",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -147.5,
+      "locations": [39, -0]
+    },
+    {
+      "id": "BLINKER_ASYNC",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [8, 9]
+    },
+    {
+      "id": "ANGEL_SYSTEM",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 17,
+      "angle": 0,
+      "locations": [-2.5, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [35, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-34, 9.5],
+      "length": 45,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "MELODY_ENGINE_F"
+    },
+    {
+      "location": [-30, 6.5],
+      "length": 0,
+      "width": 50,
+      "angle": -165,
+      "contrailSize": 30,
+      "style": "MELODY_MK3_ENGINE"
+    },
+    {
+      "location": [-30, 12.5],
+      "length": 0,
+      "width": 50,
+      "angle": -195,
+      "contrailSize": 30,
+      "style": "MELODY_MK3_ENGINE"
+    },
+    {
+      "location": [-34, -9.5],
+      "length": 45,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "MELODY_ENGINE_F"
+    },
+    {
+      "location": [-30, -6.5],
+      "length": 0,
+      "width": 50,
+      "angle": 165,
+      "contrailSize": 30,
+      "style": "MELODY_MK3_ENGINE"
+    },
+    {
+      "location": [-30, -12.5],
+      "length": 0,
+      "width": 50,
+      "angle": 195,
+      "contrailSize": 30,
+      "style": "MELODY_MK3_ENGINE"
+    }
+  ],
+  "bounds": [
+    37.5, -1.5,
+    14, -5.5,
+    6, -8,
+    -23, -34,
+    -28, -16,
+    -35, -16.5,
+    -38.5, -4.5,
+    -26, -4,
+    -26, 4,
+    -38.5, 4.5,
+    -35, 16.5,
+    -28, 16,
+    -23, 34,
+    6, 8,
+    14, 5.5,
+    37.5, 1.5
+  ]
+}

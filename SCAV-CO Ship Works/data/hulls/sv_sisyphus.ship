@@ -1,0 +1,88 @@
+{
+  "hullName": "SCAV-CO Sisyphus",
+  "hullId": "sv_sisyphus",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/sv_sisyphus.png",
+  "style": "SCAVCO",
+  "height": 374,
+  "width": 164,
+  "center": [82, 187],
+  "collisionRadius": 233.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 226,
+  "viewOffset": 0,
+  "builtInMods": [
+    "repair_gantry",
+    "surveying_equipment",
+    "sv_scavcoConstruction",
+    "sv_scavcosubsytems",
+    "civgrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 329,
+      "angle": 0,
+      "locations": [143, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 192,
+      "angle": -90,
+      "locations": [-121, -51]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 192,
+      "angle": 90,
+      "locations": [-121, 51]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-182.5, -51],
+      "length": 80.5,
+      "width": 36,
+      "angle": 180,
+      "contrailSize": 36,
+      "style": "CUSTOM",
+      "styleId": "SCAV-CO ENGINE"
+    },
+    {
+      "location": [-182.5, 51],
+      "length": 80.5,
+      "width": 36,
+      "angle": -180,
+      "contrailSize": 36,
+      "style": "CUSTOM",
+      "styleId": "SCAV-CO ENGINE"
+    }
+  ],
+  "bounds": [
+    -185.5, 18.5,
+    -176.5, 27.5,
+    -171.5, 27.5,
+    -171.5, 73.5,
+    -164.5, 80.5,
+    -78.5, 80.5,
+    157.5, 66.5,
+    170.5, 53.5,
+    170.5, -53.5,
+    157.5, -66.5,
+    -78.5, -80.5,
+    -164.5, -80.5,
+    -171.5, -73.5,
+    -171.5, -27.5,
+    -176.5, -27.5,
+    -185.5, -18.5
+  ]
+}

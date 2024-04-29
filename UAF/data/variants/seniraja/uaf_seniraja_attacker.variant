@@ -1,0 +1,73 @@
+{
+  "variantId": "uaf_seniraja_attacker",
+  "hullId": "uaf_seniraja",
+  "displayName": "Attacker",
+  "goalVariant": true,
+  "fluxCapacitors": 1,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "armoredweapons",
+    "autorepair"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_ivory",
+        "WS0002": "uaf_ivory",
+        "WS0003": "uaf_ivory",
+        "WS0004": "uaf_ivory"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "uaf_amazoch_s_asrm_single",
+        "WS0006": "uaf_amazoch_s_asrm_single",
+        "WS0009": "uaf_amazoch_s_asrm_single",
+        "WS0010": "uaf_amazoch_s_asrm_single"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0013": "uaf_cyrexa_triple"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "uaf_pd_reina_ii",
+        "WS0008": "uaf_pd_reina_ii",
+        "WS0011": "uaf_pd_reina",
+        "WS0012": "uaf_pd_reina"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "uaf_vocal_s_srm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

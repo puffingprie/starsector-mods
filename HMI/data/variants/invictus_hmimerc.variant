@@ -1,0 +1,71 @@
+{
+  "variantId": "invictus_hmimerc",
+  "hullId": "invictus",
+  "displayName": "Automated",
+  "goalVariant": false,
+  "fluxCapacitors": 12,
+  "fluxVents": 40,
+  "quality": 1,
+  "permaMods": [
+    "automated",
+    "fragile_subsystems",
+    "faulty_grid",
+    "comp_structure",
+	"damaged_mounts",
+  ],
+  "hullMods": [
+    "automated",
+    "eccm",
+    "turretgyros",
+    "fragile_subsystems",
+    "faulty_grid",
+    "comp_structure",
+	"damaged_mounts"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 004": "hydra",
+        "WS 007": "hydra"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "gauss",
+        "WS 010": "gauss"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "hephag",
+        "WS 009": "hephag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 000": "mjolnir",
+        "WS 026": "mjolnir"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 003": "devastator",
+        "WS 005": "devastator",
+        "WS 006": "devastator",
+        "WS 008": "devastator"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,43 @@
+{
+  "variantId": "mule_hmi_heavy_mining",
+  "hullId": "mule_hmi_heavy",
+  "displayName": "Mining",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 15,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "insulatedengine",
+    "unstable_injector"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 004": "launcher_cannon",
+        "WS 006": "launcher_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "annihilator_fighter",
+        "WS 002": "annihilator_fighter"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 005": "mining_gen"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "hmi_taker_drone_wing"
+  ]
+}

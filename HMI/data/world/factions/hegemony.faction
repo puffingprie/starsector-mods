@@ -1,0 +1,19 @@
+{
+	"portraits":{
+			"standard_male":[
+		"graphics/portraits/portrait_hmi_mochrie.png",		
+		],
+		"standard_female":[
+		"graphics/portraits/portrait_hmi_hegemonyvet_01.png",	
+		],
+	},
+		},
+	"knownShips":{
+		"tags":["hmi_bp"],
+	},
+	"illegalCommodities":[
+		"red_water",
+		"mess_nano",
+		"hmi_crystal",
+	],
+},

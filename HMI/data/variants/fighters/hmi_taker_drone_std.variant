@@ -1,0 +1,22 @@
+{
+  "variantId": "hmi_taker_drone_std",
+  "hullId": "hmi_taker_drone",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hmi_mininglaser_array"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

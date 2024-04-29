@@ -1,0 +1,71 @@
+{
+  "variantId": "slugworth_mbeke",
+  "hullId": "slugworth",
+  "displayName": "Mbeke",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "eccm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0019": "hmi_heavy_assault_launcher"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "taclaser",
+        "WS0007": "taclaser",
+        "WS0008": "taclaser",
+        "WS0015": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "locust"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mbeke_sml",
+        "WS0002": "mbeke_sml",
+        "WS0009": "mbeke_med",
+        "WS0011": "mbeke_sml",
+        "WS0012": "mbeke_sml",
+        "WS0013": "mbeke_sml",
+        "WS0014": "mbeke_med",
+        "WS0016": "mbeke_med",
+        "WS0017": "mbeke_sml"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "seth_sml",
+        "WS0006": "seth_sml",
+        "WS0018": "seth_sml",
+        "WS0020": "mbeke_med"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "hmi_trapdoor_wing",
+    "hmi_trapdoor_wing",
+    "hmi_trapdoor_wing"
+  ]
+}

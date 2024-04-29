@@ -1,0 +1,75 @@
+{
+  "variantId": "junk_mining",
+  "hullId": "junk",
+  "displayName": "Mining",
+  "goalVariant": true,
+  "fluxCapacitors": 27,
+  "fluxVents": 50,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "blast_doors"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0014": "pumm_cannon",
+        "WS0025": "launcher_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0017": "seth_med",
+        "WS0021": "hammerrack",
+        "WS0022": "swarmer_junk"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "mining_gen",
+        "WS0003": "mining_gen",
+        "WS0004": "mining_gen"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "hmi_slagger_gun",
+        "WS0008": "hmi_slagger_gun",
+        "WS0009": "hmi_slagger_gun",
+        "WS0010": "hmi_slagger_gun",
+        "WS0013": "launcher_cannon",
+        "WS0020": "hmi_slagger_gun",
+        "WS0023": "hmi_slagger_gun",
+        "WS0024": "hmi_slagger_gun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "launcher_cannon",
+        "WS0005": "rock_launcher",
+        "WS0006": "rock_launcher",
+        "WS0011": "rock_launcher",
+        "WS0012": "hmi_slagger_gun",
+        "WS0015": "rock_launcher",
+        "WS0016": "launcher_cannon",
+        "WS0018": "hmi_megalauncher_cannon",
+        "WS0019": "rock_launcher"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "mining_drone_wing",
+    "mining_drone_wing"
+  ]
+}

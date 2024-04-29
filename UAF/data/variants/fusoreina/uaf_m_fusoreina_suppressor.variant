@@ -1,0 +1,92 @@
+{
+  "variantId": "uaf_m_fusoreina_suppressor",
+  "hullId": "uaf_m_fusoreina",
+  "displayName": "Suppressor",
+  "goalVariant": true,
+  "fluxCapacitors": 14,
+  "fluxVents": 17,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "ballistic_rangefinder",
+    "fluxbreakers",
+    "armoredweapons",
+    "autorepair"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_tona_iii",
+        "WS0002": "uaf_tona_iii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "HP01": "uaf_tona_ii",
+        "HP02": "uaf_tona_ii",
+        "HP03": "uaf_tona_ii",
+        "HP04": "uaf_tona_ii",
+        "WS0003": "uaf_ivory_triple",
+        "WS0004": "uaf_ivory_triple"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "uaf_ivory_triple",
+        "WS0006": "uaf_ivory_triple"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0017": "uaf_rhythm_base_triple",
+        "WS0018": "uaf_rhythm_base_triple"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "uaf_pd_reina_ii",
+        "WS0016": "uaf_pd_reina_ii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "uaf_pd_reina",
+        "WS0012": "uaf_pd_reina",
+        "WS0013": "uaf_pd_reina",
+        "WS0014": "uaf_pd_reina"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "uaf_weiss_flk",
+        "WS0008": "uaf_weiss_flk",
+        "WS0009": "uaf_pd_reina",
+        "WS0010": "uaf_pd_reina"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "FUSOREINA_PORT_MODULE": "uaf_m_fusoreina_larmor_standard"
+    },
+    {
+      "FUSOREINA_STARPORT_MODULE": "uaf_m_fusoreina_rarmor_standard"
+    }
+  ],
+  "wings": []
+}

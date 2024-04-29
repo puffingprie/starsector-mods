@@ -1,0 +1,64 @@
+{
+  "id": "expsp_hammerrackmns",
+  "specClass": "projectile",
+  "projectileSpecId": "expsp_hammermns_torp",
+  "type": "MISSILE",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/expsp_hammerrackmns_t.png",
+  "turretUnderSprite": "graphics/weapons/expsp_hammerrackmns_t_under.png",
+  "hardpointSprite": "graphics/weapons/expsp_hammerrackmns_h.png",
+  "hardpointUnderSprite": "graphics/weapons/expsp_hammerrackmns_h_under.png",
+  "turretOffsets": [
+    17,
+    9,
+    17,
+    -9.5,
+    11.5,
+    9,
+    11,
+    -9.5
+  ],
+  "turretAngleOffsets": [
+    -2,
+    0,
+    -0.5,
+    0.5
+  ],
+  "hardpointOffsets": [
+    16,
+    -9.5,
+    16,
+    9.5,
+    10,
+    -9,
+    10,
+    9.5
+  ],
+  "hardpointAngleOffsets": [
+    -2,
+    2,
+    -0.5,
+    0.5
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "interruptibleBurst": true,
+  "smokeSpec": {
+    "particleSizeMin": 6,
+    "particleSizeRange": 12,
+    "cloudParticleCount": 3,
+    "cloudDuration": 1.5,
+    "cloudRadius": 5,
+    "blowbackParticleCount": 4,
+    "blowbackDuration": 2,
+    "blowbackLength": 22,
+    "blowbackSpread": 15,
+    "particleColor": [
+      100,
+      100,
+      100,
+      200
+    ]
+  },
+  "fireSoundTwo": "harpoon_fire"
+}

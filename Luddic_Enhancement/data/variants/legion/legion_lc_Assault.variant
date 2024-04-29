@@ -1,0 +1,48 @@
+{
+  "variantId": "legion_lc_Assault",
+  "hullId": "legion_lc",
+  "displayName": "Assault",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 28,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "missleracks",
+    "armoredweapons",
+    "expanded_deck_crew"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 000": "flak",
+        "WS 001": "flak",
+        "WS 002": "jackhammer",
+        "WS 003": "jackhammer",
+        "WS 004": "jackhammer",
+        "WS 005": "jackhammer",
+        "WS 007": "jackhammer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 018": "vulcan",
+        "WS 019": "vulcan",
+        "WS 020": "vulcan",
+        "WS 021": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "perdition_wing",
+    "perdition_wing",
+    "perdition_wing",
+    "perdition_wing"
+  ]
+}

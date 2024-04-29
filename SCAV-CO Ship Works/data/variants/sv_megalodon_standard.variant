@@ -1,0 +1,114 @@
+{
+  "variantId": "sv_megalodon_standard",
+  "hullId": "sv_megalodon",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 34,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull",
+    "sv_modernization_decision",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "hephag",
+        "WS0006": "hephag",
+        "WS0011": "hephag",
+        "WS0012": "hephag",
+        "WS0017": "hephag",
+        "WS0018": "hephag",
+        "WS0025": "hephag",
+        "WS0026": "hephag",
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0033": "dragon",
+        "WS0034": "dragon",
+        "WS0035": "dragon",
+        "WS0036": "dragon",
+        "WS0037": "salamanderpod",
+        "WS0038": "salamanderpod",
+        }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ioncannon",
+        "WS0002": "ioncannon",
+        "WS0003": "lightdualac",
+        "WS0004": "lightdualac",
+        "WS0007": "lightdualac",
+        "WS0008": "lightdualac",
+        "WS0009": "lightdualac",
+        "WS0010": "lightdualac",
+        "WS0013": "lightdualac",
+        "WS0014": "lightdualac",
+        "WS0015": "lightdualac",
+        "WS0016": "lightdualac",
+        "WS0019": "lightdualac",
+        "WS0020": "lightdualac",
+        "WS0021": "lightdualac",
+        "WS0022": "lightdualac",
+        "WS0023": "ioncannon",
+        "WS0024": "ioncannon",
+        "WS0027": "lightdualac",
+        "WS0028": "lightdualac",
+        "WS0029": "taclaser",
+        "WS0030": "taclaser",
+        "WS0031": "taclaser",
+        "WS0032": "taclaser",
+        "WS0039": "taclaser",
+        "WS0040": "taclaser",
+        "WS0041": "taclaser",
+        "WS0042": "taclaser",
+        "WS0043": "irpulse",
+        "WS0044": "irpulse",
+        "WS0045": "irpulse",
+        "WS0046": "irpulse",
+        "WS0047": "irpulse",
+        "WS0048": "irpulse",
+        "WS0049": "irpulse",
+        "WS0050": "irpulse",
+        "WS0051": "irpulse",
+        "WS0052": "irpulse",
+        "WS0053": "ioncannon",
+        "WS0054": "guardian",
+        "WS0055": "gravitonbeam",
+        "WS0056": "guardian",
+        "WS0057": "gravitonbeam",
+        }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

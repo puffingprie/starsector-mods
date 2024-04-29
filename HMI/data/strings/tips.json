@@ -1,0 +1,10 @@
+{
+	tips:[
+"[HMI] Techmined ships can be incredibly powerful, but keep in mind that above their peak time their Combat Readiness will rapidly disappear, and the hulls take more damage from storms and coronas which can be a nasty surprise while travelling.",
+"[HMI] Junker ships tend to be cheap, overloaded with weapon mounts, lack shields and are normally terrible in conventional ship to ship combat. However investment into Industry skills enhances their effectiveness while minimising their faults.",
+"[HMI] Hazard Mining Incorporated adds interesting things for you to discover beyond the Core Worlds. No mission acceptance is necessary, just go out and explore the sector - you're sure to stumble across something special...or maybe something genuinely terrifying.",
+"[HMI] The systems owned by HMI (excluding Hazard) should be approached with caution; there are a seething tide of enemies and dangerous astral phenomena in these systems.",
+"If you are sick and tired of seeing completely ridiculous loading screen tips, then go to Vayra's Sector -> data -> strings, open 'tips.json' with notepad+, and delete the more egregious ones.",
+"If you are traversing hyperspace, and are hit by a storm, never use the slow-down key. It does not grant you better movement, it only causes you to slow down while moving through hyperspace storms. This can and will rapidly deplete your supplies.",
+],
+}

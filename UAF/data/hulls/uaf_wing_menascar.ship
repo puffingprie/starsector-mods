@@ -1,0 +1,99 @@
+{
+  "hullName": "Menascar",
+  "hullId": "uaf_wing_menascar",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/menascar_htpb.png",
+  "style": "UAF_FIGHTER_M",
+  "height": 124,
+  "width": 100,
+  "center": [50, 59],
+  "collisionRadius": 59.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 59.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_limitedAmmo",
+    "eccm"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [4, -21.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [3.5, 21.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [42.5, -0]
+    },
+    {
+      "id": "TORPEDOES",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [16.5, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [-2.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-19, -8],
+      "length": 100,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "MELODY_ENGINE_D"
+    },
+    {
+      "location": [-19, 8],
+      "length": 100,
+      "width": 19,
+      "angle": -180,
+      "contrailSize": 19,
+      "style": "MELODY_ENGINE_D"
+    }
+  ],
+  "bounds": [
+    -41, 7.5,
+    -35, 14,
+    -26.5, 39.5,
+    -11.5, 29.5,
+    -2, 33.5,
+    13, 16.5,
+    56, 1.5,
+    56, -1.5,
+    13, -16.5,
+    -2, -33.5,
+    -11.5, -29.5,
+    -26.5, -39.5,
+    -35, -14,
+    -41, -7.5
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "variantId": "uaf_ai_rillaru_radical",
+  "hullId": "uaf_ai_rillaru",
+  "displayName": "Radical",
+  "goalVariant": false,
+  "fluxCapacitors": 11,
+  "fluxVents": 34,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "fluxbreakers",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0020": "uaf_semibreve_base",
+        "WS0021": "uaf_semibreve_base"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_cyrexa",
+        "WS0002": "uaf_cyrexa"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0016": "uaf_amazoch_light_asrm_dual",
+        "WS0017": "uaf_amazoch_light_asrm_dual"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "uaf_exoscar_torpedo_base",
+        "WS0015": "uaf_exoscar_torpedo_base"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_ivory_triple",
+        "WS0006": "uaf_ivory_triple",
+        "WS0009": "uaf_ivory_triple",
+        "WS0010": "uaf_edge_type_i",
+        "WS0012": "uaf_ivory_triple",
+        "WS0013": "uaf_edge_type_i"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "uaf_racun_pod",
+        "WS0005": "uaf_racun_pod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "uaf_pd_reina_ii",
+        "WS0008": "uaf_pd_reina_ii",
+        "WS0011": "uaf_triyia_pdx",
+        "WS0018": "uaf_merupaka_epd",
+        "WS0019": "uaf_merupaka_epd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

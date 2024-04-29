@@ -1,0 +1,95 @@
+{
+  "hullName": "Wedge",
+  "hullId": "wedge_drone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/derelicts/wedge.png",
+  "style": "LOW_TECH",
+  "height": 34,
+  "width": 40,
+  "center": [20, 17],
+  "collisionRadius": 27,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 26,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 48,
+      "angle": 139,
+      "locations": [-6.5, 14.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 48,
+      "angle": -139,
+      "locations": [-6.5, -14.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [9, 10.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": -0,
+      "locations": [9, -10.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 241,
+      "angle": 0,
+      "locations": [2, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [12, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-16, 6],
+      "length": 8.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-16, -6],
+      "length": 8.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -15, -16.5,
+    7, -17.5,
+    17, -0,
+    7, 17.5,
+    -15, 16.5
+  ]
+}

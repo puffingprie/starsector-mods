@@ -1,0 +1,39 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 8,
+    "fluxVents": 2,
+    "goalVariant": true,
+    "hullId": "kazeron_drover_league",
+    "hullMods": [
+        "missleracks",
+        "eccm",
+        "expanded_deck_crew"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "kazeron_drover_league",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "vulcan",
+                "WS 001": "vulcan"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 002": "harpoon",
+                "WS 003": "harpoon",
+                "WS 004": "harpoon",
+                "WS 005": "harpoon"
+            }
+        }
+    ],
+    "wings": [
+        "thunder_kazeron_wing",
+        "gladius_kazeron_wing"
+    ]
+}

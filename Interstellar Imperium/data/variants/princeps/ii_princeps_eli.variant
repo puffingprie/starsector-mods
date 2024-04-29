@@ -1,0 +1,45 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 5,
+    "fluxVents": 13,
+    "goalVariant": true,
+    "hullId": "ii_princeps",
+    "hullMods": ["ii_elite_package"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "ii_princeps_eli",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "railgun"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "heatseeker",
+                "WS0006": "heatseeker"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ii_sagittarius"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "heavyburst"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "pdburst"}
+        }
+    ],
+    "wings": [
+        "ii_draconarius_wing",
+        "ii_scutum_wing"
+    ]
+}

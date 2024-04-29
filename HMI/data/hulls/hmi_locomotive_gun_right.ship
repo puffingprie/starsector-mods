@@ -1,0 +1,89 @@
+{
+  "hullName": "Gunnery Module",
+  "hullId": "hmi_locomotive_gun_right",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/locomotive/hmi_locomotive_gun_right.png",
+  "style": "LOW_TECH",
+  "height": 208,
+  "width": 113,
+  "center": [56.5, 104],
+  "collisionRadius": 122,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 116,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hmi_linkedhull",
+    "reduced_explosion",
+    "targetingunit",
+    "rapidrepaircheck",
+    "always_detaches"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 187,
+      "angle": -75.5,
+      "locations": [-16, -16.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -71.5,
+      "locations": [21.5, -7]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 119,
+      "angle": -80.5,
+      "locations": [41, -3]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 136,
+      "angle": -61,
+      "locations": [65, 0]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [96.5, 3.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    102, 17.5,
+    101.5, -26.5,
+    89.5, -35,
+    24.5, -35,
+    23.5, -42.5,
+    12.5, -47.5,
+    -8.5, -51.5,
+    -10.5, -56,
+    -75, -50,
+    -88, -26.5,
+    -76.5, -19.5,
+    -76.5, -4.5,
+    -96.5, -2.5,
+    -102, 31.5,
+    -94.5, 47.5,
+    -6.5, 54,
+    10.5, 46.5,
+    25.5, 17
+  ]
+}

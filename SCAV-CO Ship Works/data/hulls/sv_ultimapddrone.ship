@@ -1,0 +1,40 @@
+{
+  "hullName": "Ultima PD drone",
+  "hullId": "sv_ultimapddrone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sv_ultimapd.png",
+  "style": "ULTIMA",
+  "height": 64,
+  "width": 64,
+  "center": [32, 32],
+  "collisionRadius": 47,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 45,
+  "viewOffset": 0,
+  "builtInMods": [
+    "advancedoptics",
+    "pointdefenseai",
+    "magazines"
+  ],
+  "builtInWeapons": {
+    "WS0001": "guardian"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [0, -0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    0, 31.5,
+    32, -0,
+    0, -31.5,
+    -31.5, -0
+  ]
+}

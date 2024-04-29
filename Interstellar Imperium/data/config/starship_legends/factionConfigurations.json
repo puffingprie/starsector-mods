@@ -1,0 +1,84 @@
+{
+	"interstellarimperium":{
+		"derelictFrequency":{
+			"ii_basileus":1.0,
+			"ii_carrum":1.0,
+			"ii_decurion":1.0,
+			"ii_triarius":1.0,
+			"ii_maximus":0.5,
+
+			"ii_interrex":1.0,
+			"ii_legionary":0.75,
+			"ii_libritor":1.0,
+			"ii_lynx":0.5,
+			"ii_praetorian":1.0,
+			"ii_princeps":1.0,
+
+			"ii_adamas":0.5,
+			"ii_ardea":1.0,
+			"ii_dictator":1.0,
+			"ii_ixon":1.0,
+			"ii_sebastos":1.0,
+
+			"ii_barrus":1.0,
+			"ii_caesar":1.0,
+			"ii_dominus":1.0,
+			"ii_matriarch":1.0,
+		},
+
+		"exclusiveDerelictFrequency":{
+			"ii_olympus":0.1,
+		},
+
+		"goodTraitFrequency":{
+			"loyalty":3,
+			"mount_durability":3,
+			"engine_durability":3,
+			"armor_strength":3,
+			"range":3,
+			"missile_guidance":3,
+			"missile_reload":3,
+			"salvage":0,
+			"survey":0,
+			"blockade_runner":0,
+			"drive_stabilizer":1,
+			"command_support":2,
+			"nav_support":1,
+			"ecm_support":2,
+		},
+		
+		"badTraitFrequency":{
+			"loyalty":3,
+			"crew_casualties":3,
+			"engine_durability":2,
+			"hull_integrity":2,
+			"armor_strength":2,
+			"engine_power":2,
+			"maneuverability":2,
+			"damage":0,
+			"range":3,
+			"missile_guidance":3,
+			"missile_reload":3,
+			"survey":0,
+			"drive_stabilizer":0,
+		},
+	},
+	"famous_bounty":{
+		"forcedCommanderPresets":{
+			"Katsu Okita":{
+				"defaultNumberOfTraits":12,
+				"goodTraits":[
+				],
+				"badTraits":[
+				],
+			},
+			"Helmut Pulmenti":{
+				"defaultNumberOfTraits":13,
+				"goodTraits":[
+				],
+				"badTraits":[
+				],
+			},
+		}
+	},
+}

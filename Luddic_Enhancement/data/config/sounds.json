@@ -1,0 +1,28 @@
+{
+
+    # MIGHT LAUNCH
+    "le_might_launch_close":
+    [
+        {"file":"sounds/sfx_wpn_missiles/MIGHTlaunch_close.ogg","pitch":1.0,"volume":1.0},
+    ],
+    "le_might_launch_distant":
+    [
+        {"file":"sounds/sfx_wpn_missiles/MIGHTlaunch_distant.ogg","pitch":1.0,"volume":1.0},
+    ],
+
+
+    # MIGHT EXPLODE
+    "le_might_explode_charge":
+    [
+        {"file":"sounds/sfx_systems/MIGHTnuke_charge_5000ms.ogg","pitch":1.0,"volume":1.0},
+    ],
+    "le_might_explode_close":
+    [
+        {"file":"sounds/sfx_systems/MIGHTexplode_close.ogg","pitch":1.0,"volume":1.0},
+    ],
+    "le_might_explode_distant":
+    [
+        {"file":"sounds/sfx_systems/MIGHTexplode_distant.ogg","pitch":1.0,"volume":1.0},
+    ],
+
+}

@@ -1,0 +1,10 @@
+{
+	"id":"ii_empburst",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.scripts.shipsystems.ai.II_EMPBurstAI",
+
+	"statsScript":"data.scripts.shipsystems.II_EMPBurst",
+
+	"outOfUsesSound":"gun_out_of_ammo",
+}

@@ -1,0 +1,15 @@
+id,rating,detection_range,type,autoXP,xpDiscover,xpSalvage,tags,drop_value,drop_random,defFaction,defQuality,probDefenders,minStr,maxStr,maxSize,probStation,stationRole
+hmi_station_nightmare,1,1000,DISCOVERABLE,2200,1000,3000,,basic:500,"ai_cores2:5,
+omega_weapons_small:6,
+hmi_ctrl_cores:20,
+any_hullmod_high:10,
+blueprints_low:20,
+package_bp:8,
+rare_tech:2",,,,,,,,
+derelict_rampant_mothership,1,3500,DISCOVERABLE,2200,5000,20000,,basic:75000,"ai_cores3:5,
+extended:5x15000,
+rare_tech:1",derelict,1,1,45,60,3,1,derelictRampantMothership
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,, ,,,,,,,,,,,,,,,

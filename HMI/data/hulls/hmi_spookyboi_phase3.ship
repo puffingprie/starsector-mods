@@ -1,0 +1,418 @@
+{
+  "hullName": "Unknown Contact",
+  "hullId": "hmi_spookyboi_phase3",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/mess/hmi_spookyboi_phase3.png",
+  "style": "HIGH_TECH",
+  "height": 226,
+  "width": 262,
+  "center": [131, 113],
+  "collisionRadius": 164,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 157,
+  "viewOffset": 0,
+  "builtInMods": [
+    "advancedoptics",
+    "advancedshieldemitter",
+    "fluxbreakers",
+    "magazines",
+    "automated",
+    "turretgyros",
+    "targetingunit",
+    "ecm",
+    "nav_relay",
+    "hmi_terror_boost",
+    "hmi_terror_spawner3"
+  ],
+  "builtInWeapons": {
+    "WS00003": "hmi_spooky_p3_plasma",
+    "WS0001": "tachyonlance_spook_tach_left",
+    "WS0002": "tachyonlance_spook_tach_right",
+    "WS0003": "riftbeam",
+    "WS0004": "gauss_rem_spook_left",
+    "WS0005": "gauss_rem_spook_right",
+    "WS0006": "hmi_spookyboi_p3_should_left",
+    "WS0007": "hmi_spookyboi_p3_should_right",
+    "WS0008": "hmi_spookyboi_head2_deco",
+    "WS0009": "hmi_spookyboi_p3_elbow_left",
+    "WS0010": "hmi_spookyboi_p3_elbow_right",
+    "WS0011": "riftbeam",
+    "WS0012": "riftbeam",
+    "WS0016": "riftbeam"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [14, 59],
+      "renderOrderMod": 500
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [14, -59],
+      "renderOrderMod": 500
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [49, 105],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [49, -105],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [14, 33],
+      "renderOrderMod": 400
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": -0,
+      "locations": [14, -33],
+      "renderOrderMod": 400
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 49,
+      "angle": 0,
+      "locations": [63.5, 115]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 49,
+      "angle": -0,
+      "locations": [63.5, -115]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [58, -0],
+      "renderOrderMod": 300
+    },
+    {
+      "id": "WS00003",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 37,
+      "angle": 0,
+      "locations": [43.5, 0.5],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 17,
+      "angle": 99.5,
+      "locations": [-19.5, 61]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 17,
+      "angle": -99.5,
+      "locations": [-19.5, -61]
+    },
+    {
+      "id": "WS0015",
+      "size": "MEDIUM",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 99,
+      "angle": 0,
+      "locations": [24.5, 0.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 49,
+      "angle": -6,
+      "locations": [61, 31.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 49,
+      "angle": 6,
+      "locations": [61, -31.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 22,
+      "angle": -8.5,
+      "locations": [66.5, 38.5]
+    },
+    {
+      "id": "WS0016",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 22,
+      "angle": 8.5,
+      "locations": [66.5, -38.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-103.5, 35.5],
+      "length": 57.166111,
+      "width": 25.162317,
+      "angle": 157.5,
+      "contrailSize": 25.162317,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-103.5, -35.5],
+      "length": 57.166111,
+      "width": 25.162317,
+      "angle": -157.5,
+      "contrailSize": 25.162317,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-98, 20],
+      "length": 46.562817,
+      "width": 28.593988,
+      "angle": 165.5,
+      "contrailSize": 28.593988,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-98, -20],
+      "length": 46.562817,
+      "width": 28.593988,
+      "angle": -165.5,
+      "contrailSize": 28.593988,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-94.5, 8],
+      "length": 8.888577,
+      "width": 8.830219,
+      "angle": 172,
+      "contrailSize": 8.830219,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-94.5, -8],
+      "length": 8.888577,
+      "width": 8.830219,
+      "angle": -172,
+      "contrailSize": 8.830219,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-97.5, 56.5],
+      "length": 8.888577,
+      "width": 8.830219,
+      "angle": 168,
+      "contrailSize": 8.830219,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-97.5, -56.5],
+      "length": 8.888577,
+      "width": 8.830219,
+      "angle": -168,
+      "contrailSize": 8.830219,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-89.5, 60.5],
+      "length": 8,
+      "width": 5,
+      "angle": 155.5,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-89.5, -60.5],
+      "length": 8,
+      "width": 5,
+      "angle": -155.5,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-85, 63],
+      "length": 8,
+      "width": 5,
+      "angle": 155.5,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-85, -63],
+      "length": 8,
+      "width": 5,
+      "angle": -155.5,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-100, 44],
+      "length": 5.722385,
+      "width": 5.746064,
+      "angle": 168,
+      "contrailSize": 5.746064,
+      "style": "CUSTOM",
+      "styleId": "Terminator_purple"
+    },
+    {
+      "location": [-100, -44],
+      "length": 5.722385,
+      "width": 5.746064,
+      "angle": -168,
+      "contrailSize": 5.746064,
+      "style": "CUSTOM",
+      "styleId": "Terminator_purple"
+    },
+    {
+      "location": [-61, 76],
+      "length": 25.897905,
+      "width": 16.558802,
+      "angle": 165.5,
+      "contrailSize": 16.558802,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-61, -76],
+      "length": 25.897905,
+      "width": 16.558802,
+      "angle": -165.5,
+      "contrailSize": 16.558802,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-98.5, 20],
+      "length": 25.897905,
+      "width": 16.558802,
+      "angle": 166.5,
+      "contrailSize": 16.558802,
+      "style": "CUSTOM",
+      "styleId": "Terminator_aqua"
+    },
+    {
+      "location": [-98.5, -20],
+      "length": 25.897905,
+      "width": 16.558802,
+      "angle": -166.5,
+      "contrailSize": 16.558802,
+      "style": "CUSTOM",
+      "styleId": "Terminator_aqua"
+    },
+    {
+      "location": [-104, 35.5],
+      "length": 25.897905,
+      "width": 16.558802,
+      "angle": 156,
+      "contrailSize": 16.558802,
+      "style": "CUSTOM",
+      "styleId": "Terminator_aqua"
+    },
+    {
+      "location": [-104, -35.5],
+      "length": 25.897905,
+      "width": 16.558802,
+      "angle": -156,
+      "contrailSize": 16.558802,
+      "style": "CUSTOM",
+      "styleId": "Terminator_aqua"
+    }
+  ],
+  "bounds": [
+    -101.5, -5.5,
+    -95.5, -12,
+    -102.5, -14.5,
+    -97.5, -22.5,
+    -106, -34,
+    -99.5, -56.5,
+    -80, -68,
+    -68.5, -63,
+    -60, -79,
+    -20.5, -76.5,
+    -12.5, -67,
+    -2, -93,
+    55.5, -127.5,
+    74.5, -117,
+    84.5, -103,
+    59.5, -73.5,
+    91.5, -65,
+    96.5, -27,
+    70.5, -21,
+    52.5, -25.5,
+    62.5, -8,
+    62.5, 8,
+    52.5, 25.5,
+    70.5, 21,
+    96.5, 27,
+    91.5, 65,
+    59.5, 73.5,
+    84.5, 103,
+    74.5, 117,
+    55.5, 127.5,
+    -2, 93,
+    -12.5, 67,
+    -20.5, 76.5,
+    -60, 79,
+    -68.5, 63,
+    -80, 68,
+    -99.5, 56.5,
+    -106, 34,
+    -97.5, 22.5,
+    -102.5, 14.5,
+    -95.5, 12,
+    -101.5, 5.5
+  ]
+}

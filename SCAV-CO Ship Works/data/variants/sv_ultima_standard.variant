@@ -1,0 +1,71 @@
+{
+  "variantId": "sv_ultima_standard",
+  "hullId": "sv_ultima",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 4,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "hardenedshieldemitter",
+    "advancedoptics",
+    "turretgyros"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0025": "tachyonlance",
+        "WS0026": "tachyonlance",
+        "WS0027": "tachyonlance",
+        "WS0028": "tachyonlance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0020": "gravitonbeam",
+        "WS0021": "gravitonbeam",
+        "WS0022": "gravitonbeam",
+        "WS0023": "phasebeam",
+        "WS0024": "phasebeam",
+        "WS0029": "phasebeam",
+        "WS0030": "phasebeam",
+        "WS0031": "gravitonbeam",
+        "WS0032": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pdlaser",
+        "WS0002": "pdlaser",
+        "WS0003": "taclaser",
+        "WS0004": "taclaser",
+        "WS0005": "pdlaser",
+        "WS0006": "pdlaser",
+        "WS0007": "pdlaser",
+        "WS0008": "pdlaser",
+        "WS0009": "pdlaser",
+        "WS0010": "pdlaser",
+        "WS0011": "taclaser",
+        "WS0012": "taclaser",
+        "WS0013": "pdlaser",
+        "WS0014": "pdlaser",
+        "WS0015": "pdlaser",
+        "WS0016": "pdlaser",
+        "WS0017": "pdlaser",
+        "WS0018": "pdlaser",
+        "WS0019": "taclaser",
+        "WS0057": "locust"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

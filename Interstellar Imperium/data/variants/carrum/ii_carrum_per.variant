@@ -1,0 +1,30 @@
+{
+    "displayName": "Personnel",
+    "fluxCapacitors": 3,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "ii_carrum",
+    "hullMods": [
+        "ii_armor_package",
+        "heavyarmor",
+        "additional_berthing"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "ii_carrum_per",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "lightmg",
+                "WS0004": "lightmg"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "breach"}
+        }
+    ]
+}

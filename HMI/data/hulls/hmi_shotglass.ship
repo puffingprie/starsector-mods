@@ -1,0 +1,91 @@
+{
+  "hullName": "Shotglass",
+  "hullId": "hmi_shotglass",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/hmi_shotglass.png",
+  "style": "LOW_TECH",
+  "height": 69,
+  "width": 54,
+  "center": [27, 34.5],
+  "collisionRadius": 45.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 44.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "junker",
+    "rapidrepaircheck"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [21, 12]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [28, -9]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 45,
+      "locations": [-3, 9]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 40,
+      "angle": -147.5,
+      "locations": [1, -20]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-32.5, 8.5],
+      "length": 19,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-32.5, -3.5],
+      "length": 31,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-24, -13.5],
+      "length": 18,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    34.5, -9.5,
+    29.5, 22,
+    -2.5, 27.5,
+    -33, 15.5,
+    -33.5, -8,
+    -8, -17.5,
+    6, -27.5
+  ]
+}

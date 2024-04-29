@@ -1,0 +1,76 @@
+{
+  "variantId": "uaf_shinoria_strike",
+  "hullId": "uaf_shinoria",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 12,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "eccm",
+    "expanded_deck_crew",
+    "recovery_shuttles"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "uaf_medlav_dual"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "uaf_swaras_m_mlrs",
+        "WS0012": "uaf_swaras_m_mlrs"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "uaf_typhoon_s_sasm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "uaf_ivory",
+        "WS0008": "uaf_ivory"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_claris_cn",
+        "WS0004": "uaf_claris_cn"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_racun_pod",
+        "WS0002": "uaf_racun_pod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "uaf_deco_mg",
+        "WS0006": "uaf_deco_mg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_minersky",
+    "uaf_wing_nekoyan"
+  ]
+}

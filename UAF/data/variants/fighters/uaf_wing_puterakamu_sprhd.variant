@@ -1,0 +1,63 @@
+{
+  "variantId": "uaf_wing_puterakamu_sprhd",
+  "hullId": "uaf_wing_puterakamu",
+  "displayName": "Gunship Wing",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_fw_edge_type_i",
+        "WS0002": "uaf_fw_edge_type_i",
+        "WS0003": "uaf_fw_edge_type_i",
+        "WS0004": "uaf_fw_edge_type_i"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "uaf_amazoch_light_asrm_dual",
+        "WS0006": "uaf_amazoch_light_asrm_dual"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "uaf_fw_asmr_class_i",
+        "WS0008": "uaf_fw_asmr_class_i",
+        "WS0009": "uaf_fw_asmr_class_i",
+        "WS0010": "uaf_fw_asmr_class_i"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

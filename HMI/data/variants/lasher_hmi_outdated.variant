@@ -1,0 +1,41 @@
+{
+  "variantId": "lasher_hmi_outdated",
+  "hullId": "lasher_hmi",
+  "displayName": "Outdated",
+  "goalVariant": false,
+  "fluxCapacitors": 7,
+  "fluxVents": 1,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "blast_doors",
+    "unstable_injector"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "hmi_drill"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "annihilator",
+        "WS0002": "annihilator_fighter"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "hmi_nailgun",
+        "WS0004": "hmi_nailgun"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

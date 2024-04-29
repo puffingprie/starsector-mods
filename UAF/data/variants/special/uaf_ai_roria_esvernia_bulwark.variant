@@ -1,0 +1,88 @@
+{
+  "variantId": "uaf_ai_roria_esvernia_bulwark",
+  "hullId": "uaf_ai_roria_esvernia",
+  "displayName": "Bulkwark",
+  "goalVariant": false,
+  "fluxCapacitors": 17,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "targetingunit",
+    "autorepair",
+    "fluxbreakers",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_edge_type_iv",
+        "WS0003": "uaf_edge_type_iv",
+        "WS0005": "uaf_edge_type_iv"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "uaf_edge_type_iv",
+        "WS0004": "uaf_edge_type_iv",
+        "WS0006": "uaf_edge_type_iv"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "uaf_vocal_m_srm",
+        "WS0008": "uaf_vocal_m_srm",
+        "WS0009": "uaf_vocal_m_srm",
+        "WS0010": "uaf_vocal_m_srm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "uaf_cyrexa",
+        "WS0018": "uaf_cyrexa"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "uaf_medlav_dual",
+        "WS0014": "uaf_medlav_dual",
+        "WS0021": "uaf_medlav_dual",
+        "WS0022": "uaf_medlav_dual"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0019": "uaf_weiss_ii_flk",
+        "WS0020": "uaf_weiss_ii_flk"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "uaf_weiss_ii_flk",
+        "WS0012": "uaf_weiss_ii_flk",
+        "WS0015": "uaf_weiss_ii_flk",
+        "WS0016": "uaf_weiss_ii_flk",
+        "WS0023": "uaf_chorus_l_amm"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_superaria"
+  ]
+}

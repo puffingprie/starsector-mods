@@ -1,0 +1,51 @@
+{
+  "variantId": "mess_apex_needler",
+  "hullId": "mess_apex",
+  "displayName": "Attack",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "heavyneedler",
+        "WS 005": "heavyneedler",
+        "WS 006": "heavyneedler",
+        "WS 007": "heavyneedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "ionbeam",
+        "WS 003": "ionbeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 010": "atropos",
+        "WS 011": "atropos",
+        "WS 013": "atropos"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 009": "atropos"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

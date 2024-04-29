@@ -1,0 +1,57 @@
+{
+  "bounds": [
+    -9.5,
+    3,
+    9.5,
+    3.5,
+    9.5,
+    -3.5,
+    -9.5,
+    -3
+  ],
+  "center": [
+    12,
+    15
+  ],
+  "collisionRadius": 25,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 7,
+      "length": 19,
+      "location": [
+        -10,
+        -0
+      ],
+      "style": "LOW_TECH",
+      "width": 7
+    }
+  ],
+  "height": 30,
+  "hullId": "keruvim_beetle",
+  "hullName": "Beetle",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 24.5,
+  "spriteName": "graphics/ships/keruvim_beetle.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 305,
+      "id": "WS0003",
+      "locations": [
+        0.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    }
+  ],
+  "width": 22
+}

@@ -1,0 +1,61 @@
+{
+  "variantId": "mess_nova_blaster",
+  "hullId": "mess_nova",
+  "displayName": "Blaster",
+  "goalVariant": true,
+  "fluxCapacitors": 13,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "unstable_injector"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 000": "plasma",
+        "WS 001": "plasma"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 002": "heavyblaster",
+        "WS 003": "heavyblaster",
+        "WS 004": "heavyblaster",
+        "WS 005": "heavyblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 006": "heavymauler",
+        "WS 007": "hveldriver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 008": "heavymauler",
+        "WS 009": "hveldriver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 010": "swarmer",
+        "WS 012": "swarmer",
+        "WS 013": "swarmer"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

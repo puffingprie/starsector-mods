@@ -1,0 +1,149 @@
+{
+  "hullName": "Axe Mk.II",
+  "hullId": "keruvim_axe_b",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/keruvim_axe_b.png",
+  "style": "PRIDE_TECH",
+  "coversColor": "200,200,200,255",
+  "height": 104,
+  "width": 104,
+  "center": [52, 50],
+  "collisionRadius": 64,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 62,
+  "viewOffset": 0,
+  "builtInMods": [
+    "keruvim_pride_bulkheads"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -33.5,
+      "locations": [1, -30]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 33.5,
+      "locations": [1, 30]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 210,
+      "locations": [-34, -26.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -210,
+      "locations": [-34, 26.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 235,
+      "angle": -90,
+      "locations": [-8, -18]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 235,
+      "angle": 90,
+      "locations": [-8, 18]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [34, 16]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [29, -11]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-34, -22],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "ANVIL"
+    },
+    {
+      "location": [-34, 22],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "ANVIL"
+    },
+    {
+      "location": [-35, -16.5],
+      "length": 43.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "ANVIL"
+    },
+    {
+      "location": [-35, 16.5],
+      "length": 43.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "ANVIL"
+    },
+    {
+      "location": [-40, -0],
+      "length": 65,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "ANVIL"
+    }
+  ],
+  "bounds": [
+    -39, 4.5,
+    -31, 4.5,
+    -31.5, 30.5,
+    -16.5, 38,
+    35.5, 16,
+    16, 11,
+    14.5, -3.5,
+    34, -4,
+    33.5, -19.5,
+    -16, -36.5,
+    -31.5, -30.5,
+    -31, -4.5,
+    -39, -4.5
+  ]
+}

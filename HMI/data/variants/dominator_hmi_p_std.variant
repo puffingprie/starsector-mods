@@ -1,0 +1,58 @@
+{
+  "variantId": "dominator_hmi_p_std",
+  "hullId": "dominator_hmi_p",
+  "displayName": "Attack",
+  "goalVariant": true,
+  "fluxCapacitors": 22,
+  "fluxVents": 30,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "auxiliarythrusters",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 012": "mark9",
+        "WS 013": "mark9"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 015": "cyclone"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 010": "heavymauler",
+        "WS 011": "heavymauler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 002": "vulcan",
+        "WS 006": "vulcan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 003": "lightdualmg",
+        "WS 005": "lightdualmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

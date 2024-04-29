@@ -1,0 +1,81 @@
+{
+  "bounds": [
+    -18,
+    47,
+    35,
+    26,
+    35,
+    -26,
+    -18,
+    -47
+  ],
+  "builtInMods": [
+    "supercomputer",
+	"hmi_mess_visuals",
+    "reduced_explosion"
+  ],
+  "builtInWings": [],
+  "center": [
+    48,
+    48
+  ],
+  "collisionRadius": 400,
+  "engineSlots": [],
+  "height": 96,
+  "hullId": "mess_remnant_shield2",
+  "hullName": "Remnant Mess Station Citadel",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    -123,
+    1
+  ],
+  "shieldRadius": 450,
+  "spriteName": "graphics/ships/mess/mess_remnant_station_shield2.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+	"angle": 0,
+      "arc": 130,
+      "id": "WS 001",
+      "locations": [
+        12,
+        27
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "ENERGY"
+    },
+    {
+	"angle": 0,
+      "arc": 130,
+      "id": "WS 002",
+      "locations": [
+        12,
+        -27
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "ENERGY"
+    },
+    {
+	"angle": 0,
+      "arc": 130,
+      "id": "WS0001",
+      "locations": [
+        36,
+        -0.5,
+        29.5,
+        4.5,
+        -5.5,
+        -0.5,
+        30,
+        -4.5
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    }
+  ],
+  "width": 96
+}

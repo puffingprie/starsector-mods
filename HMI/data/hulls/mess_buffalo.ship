@@ -1,0 +1,165 @@
+{
+  "hullName": "Buffalo (Mess)",
+  "hullId": "mess_buffalo",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/mess/buffalo_mess.png",
+  "style": "LOW_TECH",
+  "height": 152,
+  "width": 116,
+  "center": [58, 76],
+  "collisionRadius": 98.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 95,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+	"hmi_mess_visuals",
+    "hmi_mess_spawn"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 22,
+      "angle": -83.5,
+      "locations": [28.5, -48.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 266,
+      "angle": 0,
+      "locations": [56, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 146,
+      "angle": -50.5,
+      "locations": [43.5, -25.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 14,
+      "angle": 76,
+      "locations": [30.5, 50]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 14,
+      "angle": 90,
+      "locations": [16, 45]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 14,
+      "angle": 90,
+      "locations": [4, 42]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 14,
+      "angle": 109,
+      "locations": [-15.5, 45.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 4,
+      "angle": -158.5,
+      "locations": [-50.5, -34.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 4,
+      "angle": 122.5,
+      "locations": [-50.5, 34.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 4,
+      "angle": 97,
+      "locations": [-42, 38]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-73.5, 6.5],
+      "length": 8.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-73.5, -6.5],
+      "length": 8.5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-72, -16],
+      "length": 9.5,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-71, 24.5],
+      "length": 9,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-71, -24.5],
+      "length": 9,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -74, -28,
+    -34.5, -48,
+    28.5, -56,
+    58, -45,
+    74.5, -15,
+    74.5, 15,
+    58, 45,
+    28.5, 56,
+    -34.5, 48,
+    -74, 28
+  ]
+}

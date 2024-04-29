@@ -1,0 +1,40 @@
+{
+  "variantId": "nebula_hmi_std",
+  "hullId": "nebula_hmi",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "augmentedengines"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "miningblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "burst_ml",
+        "WS0004": "burst_ml"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "rock_launcher",
+        "WS0002": "rock_launcher"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

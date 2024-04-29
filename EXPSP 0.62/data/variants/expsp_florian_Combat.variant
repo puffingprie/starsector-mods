@@ -1,0 +1,51 @@
+{
+  "variantId": "expsp_florian_Combat",
+  "hullId": "expsp_florian",
+  "displayName": "Combat",
+  "goalVariant": false,
+  "fluxCapacitors": 16,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_plinker",
+        "WS0002": "expsp_plinker",
+        "WS0011": "expsp_flarelauncher_crimson",
+        "WS0012": "expsp_flarelauncher_crimson"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "expsp_slap2",
+        "WS0004": "expsp_slap2"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "expsp_multilaser",
+        "WS0006": "expsp_multilaser",
+        "WS0007": "expsp_coilciws",
+        "WS0008": "expsp_coilciws",
+        "WS0009": "expsp_coilciws"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

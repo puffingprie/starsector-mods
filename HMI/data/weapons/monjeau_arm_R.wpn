@@ -1,0 +1,49 @@
+{
+  "id": "monjeau_arm_R",
+  "specClass": "projectile",
+  "projectileSpecId": "monjeau_rifle_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "turretSprite": "graphics/ships/monjeau/monjeau_arm_R.png",
+  "turretGlowSprite": "graphics/ships/monjeau/monjeau_arm_R_glow.png",
+  "hardpointSprite": "graphics/ships/monjeau/monjeau_arm_R.png",
+  "hardpointGlowSprite": "graphics/ships/monjeau/monjeau_arm_R_glow.png",
+  "glowColor": [
+    255,
+    210,
+    100,
+    255
+  ],
+  "turretOffsets": [
+    45,
+    -18.5
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    70.5,
+    -18.5
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 100,
+    "spread": 5,
+    "particleSizeMin": 20,
+    "particleSizeRange": 20,
+    "particleDuration": 0.25,
+    "particleCount": 25,
+    "particleColor": [
+      255,
+      210,
+      100,
+      255
+    ]
+  },
+  "fireSoundTwo": "autocannon_fire_mark9"
+}

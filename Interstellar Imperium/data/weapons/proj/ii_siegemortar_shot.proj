@@ -1,0 +1,19 @@
+{
+	"id":"ii_siegemortar_shot",
+	"specClass":"projectile",
+	"onFireEffect":"data.scripts.weapons.II_TrailWeapon",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":35.0,
+	"hitGlowRadius":60,
+	"width":10.0,
+	"fadeTime":0.2,
+	"fringeColor":[255,150,70,255],
+	"coreColor":[255,255,255,200],
+    "glowColor":[255,175,70,30],
+    "glowRadius":30,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_round_lrg.png"
+}

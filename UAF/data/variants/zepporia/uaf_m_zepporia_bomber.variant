@@ -1,0 +1,107 @@
+{
+  "variantId": "uaf_m_zepporia_bomber",
+  "hullId": "uaf_m_zepporia",
+  "displayName": "Bomber",
+  "goalVariant": true,
+  "fluxCapacitors": 23,
+  "fluxVents": 44,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "recovery_shuttles"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0019": "uaf_herexa"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_swaras_m_mlrs",
+        "WS0002": "uaf_swaras_m_mlrs",
+        "WS0024": "uaf_swaras_l_mlrs",
+        "WS0025": "uaf_swaras_l_mlrs"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "uaf_hikone_quad",
+        "WS0004": "uaf_hikone_quad",
+        "WS0013": "uaf_ivory",
+        "WS0014": "uaf_ivory",
+        "WS0017": "uaf_hikone_quad",
+        "WS0018": "uaf_hikone_quad"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "uaf_cantata_cn",
+        "WS0008": "uaf_cantata_cn",
+        "WS0009": "uaf_claris_cn",
+        "WS0010": "uaf_claris_cn",
+        "WS0011": "uaf_weiss_flk",
+        "WS0012": "uaf_weiss_flk"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0021": "uaf_triyia_pdx",
+        "WS0022": "uaf_triyia_pdx"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "uaf_pd_reina",
+        "WS0006": "uaf_pd_reina",
+        "WS0015": "uaf_pd_reina",
+        "WS0016": "uaf_pd_reina"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0020": "uaf_m_zepporia_armor_1_plating"
+    },
+    {
+      "WS0026": "uaf_m_zepporia_armor_1_plating"
+    },
+    {
+      "WS0023": "uaf_m_zepporia_armor_1_plating"
+    },
+    {
+      "WS0031": "uaf_m_zepporia_armor_1_plating"
+    },
+    {
+      "WS0032": "uaf_m_zepporia_left_armor_plating"
+    },
+    {
+      "WS0033": "uaf_m_zepporia_right_armor_plating"
+    }
+  ],
+  "wings": [
+    "uaf_wing_hyacinth",
+    "uaf_wing_hyacinth",
+    "uaf_wing_sakurai",
+    "uaf_wing_sakurai",
+    "uaf_wing_mitsurei"
+  ]
+}

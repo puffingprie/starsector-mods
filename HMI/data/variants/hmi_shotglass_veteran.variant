@@ -1,0 +1,42 @@
+{
+  "variantId": "hmi_shotglass_veteran",
+  "hullId": "hmi_shotglass",
+  "displayName": "Close Support",
+  "goalVariant": true,
+  "fluxCapacitors": 3,
+  "fluxVents": 10,
+  "quality": 0,
+  "permaMods": [
+    "glitched_sensors",
+    "erratic_injector"
+  ],
+  "hullMods": [
+    "frontshield",
+    "stabilizedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "shredder"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "hammer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "med_frag_mg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

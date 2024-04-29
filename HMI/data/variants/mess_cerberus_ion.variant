@@ -1,0 +1,36 @@
+{
+  "displayName": "Ion Pulser",
+  "fluxCapacitors": 6,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "mess_cerberus",
+  "hullMods": [
+    "targetingunit",
+    "pointdefenseai"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "mess_cerberus_ion",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ioncannon",
+        "WS0002": "ioncannon",
+        "WS0003": "ionpulser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "wings": []
+}

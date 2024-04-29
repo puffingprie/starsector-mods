@@ -1,0 +1,52 @@
+{
+  "variantId": "mess_stable_med_mass_std",
+  "hullId": "mess_stable_med_mass",
+  "displayName": "Very hazardous",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0010": "feeder_gun_lrg",
+        "WS0011": "feeder_gun_lrg",
+        "WS0012": "feeder_gun_lrg",
+        "WS0013": "feeder_gun_lrg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "feeder_gun_med",
+        "WS0004": "feeder_gun_med",
+        "WS0005": "feeder_gun_med",
+        "WS0006": "feeder_gun_med"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "feeder_gun",
+        "WS0008": "feeder_gun",
+        "WS0009": "feeder_gun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "feeder_gun",
+        "WS0002": "feeder_gun"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

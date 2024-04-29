@@ -1,0 +1,231 @@
+{
+  "bounds": [
+    -47.5,
+    -4.5,
+    -76.5,
+    -20,
+    -80.5,
+    -42.5,
+    -73,
+    -49,
+    -63.5,
+    -41.5,
+    -52.5,
+    -40.5,
+    -37,
+    -47.5,
+    -35,
+    -52,
+    -20,
+    -52.5,
+    2.5,
+    -24,
+    18,
+    -18,
+    33,
+    -24.5,
+    40,
+    -51.5,
+    60,
+    -51.5,
+    65,
+    -39.5,
+    78,
+    -38,
+    80.5,
+    -8,
+    73,
+    -4,
+    73,
+    4,
+    80.5,
+    8,
+    78,
+    38,
+    65,
+    39.5,
+    60,
+    51.5,
+    40,
+    51.5,
+    31,
+    20,
+    2.5,
+    16.5,
+    2.5,
+    31,
+    -20,
+    52.5,
+    -35,
+    52,
+    -37,
+    47.5,
+    -52.5,
+    40.5,
+    -63.5,
+    41.5,
+    -73,
+    49,
+    -80.5,
+    42.5,
+    -72,
+    4.5,
+    -47.5,
+    4.5
+  ],
+  "builtInMods": [
+    "automated",
+	"hmi_mess_visuals",
+    "hmi_mess_spawn"
+  ],
+  "builtInWings": [],
+  "center": [
+    54,
+    82
+  ],
+  "collisionRadius": 117.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 18,
+      "length": 25,
+      "location": [
+        -81,
+        39.5
+      ],
+      "style": "LOW_TECH",
+      "width": 18
+    },
+    {
+      "angle": -180,
+      "contrailSize": 18,
+      "length": 25,
+      "location": [
+        -81,
+        -39.5
+      ],
+      "style": "LOW_TECH",
+      "width": 18
+    },
+    {
+      "angle": 180,
+      "contrailSize": 21,
+      "length": 26,
+      "location": [
+        -80,
+        28
+      ],
+      "style": "LOW_TECH",
+      "width": 21
+    },
+    {
+      "angle": -180,
+      "contrailSize": 21,
+      "length": 26,
+      "location": [
+        -80,
+        -28
+      ],
+      "style": "LOW_TECH",
+      "width": 21
+    },
+    {
+      "angle": 180,
+      "contrailSize": 22,
+      "length": 18.5,
+      "location": [
+        -75.5,
+        12.5
+      ],
+      "style": "LOW_TECH",
+      "width": 22
+    }
+  ],
+  "height": 164,
+  "hullId": "mess_hammerhead",
+  "hullName": "Hammerhead (Mess)",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 110,
+  "spriteName": "graphics/ships/mess/hammerhead_mess.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 127.5,
+      "arc": 225,
+      "id": "WS0001",
+      "locations": [
+        -28,
+        39
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -35.5,
+      "arc": 210,
+      "id": "WS0002",
+      "locations": [
+        45,
+        -16
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS0003",
+      "locations": [
+        74,
+        31
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -0,
+      "arc": 10,
+      "id": "WS0004",
+      "locations": [
+        74,
+        -31
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -0,
+      "arc": 10,
+      "id": "WS0005",
+      "locations": [
+        76,
+        -10.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 67,
+      "arc": 212,
+      "id": "WS0006",
+      "locations": [
+        47,
+        18
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "UNIVERSAL"
+    }
+  ],
+  "width": 108
+}

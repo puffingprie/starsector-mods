@@ -1,0 +1,54 @@
+{
+  "variantId": "brilliant_hmi_std",
+  "hullId": "brilliant",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 20,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 000": "hellbore_rem"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "sabotpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "heavyac_rem",
+        "WS 006": "heavyac_rem"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "pdburst",
+        "WS 003": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

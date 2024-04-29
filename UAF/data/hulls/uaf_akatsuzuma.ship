@@ -1,0 +1,226 @@
+{
+  "hullName": "Akatsuzuma",
+  "hullId": "uaf_akatsuzuma",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/Akatsuzuma/Akatsuzuma_Standard.png",
+  "style": "UAF_CRUISER",
+  "height": 222,
+  "width": 156,
+  "center": [78, 113],
+  "collisionRadius": 131,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 119,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [0, -35],
+      "renderOrderMod": 7
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [0, 35],
+      "renderOrderMod": 7
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": -0,
+      "locations": [70.5, -24.5],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [70.5, 24.5],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 125,
+      "angle": 33.5,
+      "locations": [29, 24],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 125,
+      "angle": -33.5,
+      "locations": [29, -24],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "WS0010",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [65, -0]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 208,
+      "angle": 90,
+      "locations": [-61.5, 47]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 208,
+      "angle": -90,
+      "locations": [-61.5, -47]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-93, 17],
+      "length": 68.5,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-93, -17],
+      "length": 68.5,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-92, -23],
+      "length": 68.5,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-92, 23],
+      "length": 68.5,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-21.5, 39],
+      "length": 5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-21.5, -39],
+      "length": 5,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-22, 33.5],
+      "length": 5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-22, -33.5],
+      "length": 5,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-18, 43.5],
+      "length": 5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-18, -43.5],
+      "length": 5,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "TUNE_ENGINE"
+    }
+  ],
+  "bounds": [
+    -109, 2.5,
+    -79.5, 39,
+    -74, 39,
+    -69, 57.5,
+    -55, 57.5,
+    -51, 53,
+    -51, 29.5,
+    -25, 29.5,
+    -14.5, 47,
+    -1.5, 47,
+    8.5, 55.5,
+    14.5, 53.5,
+    24, 58.5,
+    47, 49.5,
+    52, 42,
+    106.5, 19.5,
+    94, 9,
+    83, 4.5,
+    83, -4.5,
+    94, -9,
+    106.5, -19.5,
+    52, -42,
+    47, -49.5,
+    24, -58.5,
+    14.5, -53.5,
+    8.5, -55.5,
+    -1.5, -47,
+    -14.5, -47,
+    -25, -29.5,
+    -51, -29.5,
+    -51, -53,
+    -55, -57.5,
+    -69, -57.5,
+    -74, -39,
+    -79.5, -39,
+    -109, -2.5
+  ]
+}

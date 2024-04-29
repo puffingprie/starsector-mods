@@ -1,0 +1,154 @@
+{
+  "hullName": "Nebulite",
+  "hullId": "nebula_hmi",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/nebula_hmi.png",
+  "style": "MIDLINE",
+  "height": 200,
+  "width": 120,
+  "center": [60, 100],
+  "collisionRadius": 110.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 101,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade",
+    "surveying_equipment",
+    "repair_gantry"
+  ],
+  "builtInWings": [
+    "mining_drone_wing",
+    "mining_drone_wing",
+    "mining_drone_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 152,
+      "angle": 108.5,
+      "locations": [-29, 36]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 152,
+      "angle": -108.5,
+      "locations": [-29, -36]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": 45,
+      "locations": [75, 28]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": -45,
+      "locations": [75, -28]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [35.5, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "LAUNCH_BAY",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [
+        12, 26.5,
+        36, 29,
+        45, 29
+      ]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "LAUNCH_BAY",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [
+        12, -26.5,
+        34.5, -29,
+        44.5, -29
+      ]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "LAUNCH_BAY",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [
+        62, -1,
+        61.5, 11,
+        63.5, -12
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-94, 11.5],
+      "length": 49.5,
+      "width": 30,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-94, -11.5],
+      "length": 49.5,
+      "width": 30,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -95, -19,
+    -81.5, -29,
+    -74, -29,
+    -70, -34,
+    -64, -33.5,
+    -56, -40.5,
+    -44, -41,
+    -39, -51,
+    -21, -52,
+    -12, -41.5,
+    41, -46,
+    84, -33,
+    84, 33,
+    41, 46,
+    -12, 41.5,
+    -21, 52,
+    -39, 51,
+    -44, 41,
+    -56, 40.5,
+    -64, 33.5,
+    -70, 34,
+    -74, 29,
+    -81.5, 29,
+    -95, 19
+  ]
+}

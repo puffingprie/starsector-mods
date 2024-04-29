@@ -1,0 +1,33 @@
+{
+  "displayName": "Strike",
+  "fluxCapacitors": 0,
+  "fluxVents": 6,
+  "goalVariant": false,
+  "hullId": "mule_luddic_path",
+  "hullMods": [
+    "armoredweapons",
+    "unstable_injector",
+    "blast_doors"
+  ],
+    "variantId": "mule_luddic_path_strike",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+		"WS 002": "jackhammer",
+        "WS 003": "jackhammer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+	  "WS 001": "heavyac"
+	  }
+    }
+  ],
+  "modules": [],
+  "wings": [
+  ]
+}

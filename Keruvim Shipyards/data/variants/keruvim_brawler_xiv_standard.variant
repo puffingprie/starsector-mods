@@ -1,0 +1,39 @@
+{
+  "variantId": "keruvim_brawler_xiv_standard",
+  "hullId": "keruvim_brawler_xiv",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 7,
+  "fluxVents": 6,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 003": "atropos",
+        "WS 004": "atropos"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "heavymauler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "hveldriver"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

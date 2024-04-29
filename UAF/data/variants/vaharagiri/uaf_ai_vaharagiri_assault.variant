@@ -1,0 +1,51 @@
+{
+  "variantId": "uaf_ai_vaharagiri_assault",
+  "hullId": "uaf_ai_vaharagiri",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "fluxbreakers",
+    "autorepair",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_medlav_quad"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "uaf_ivory_triple",
+        "WS0003": "uaf_ivory_triple"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "uaf_pd_reina",
+        "WS0005": "uaf_pd_reina"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "uaf_vocal_s_srm",
+        "WS0007": "uaf_vocal_s_srm"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

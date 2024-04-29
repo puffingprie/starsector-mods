@@ -1,0 +1,18 @@
+{
+	"id":"expsp_autogun_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":60.0,
+	"hitGlowRadius":40,
+	"width":8.0,
+	"fadeTime":0.2,
+	#"fringeColor":[255,125,125,255],
+	#"coreColor":[255,200,200,150],
+	"fringeColor":[255,100,100,235],
+	"coreColor":[200,250,250,180],	
+	"textureScrollSpeed":32.0,
+	"pixelsPerTexel":10.0,
+	"bulletSprite":"graphics/missiles/shell_large_yellow.png"
+}

@@ -1,0 +1,33 @@
+{
+  "variantId": "missp_venture_heg_Standard",
+  "hullId": "missp_venture_heg",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavymauler",
+        "WS0002": "hveldriver",
+        "WS0003": "hveldriver",
+        "WS0004": "harpoonpod",
+        "WS0005": "harpoonpod",
+        "WS0006": "harpoon",
+        "WS0007": "harpoon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "talon_wing"
+  ]
+}

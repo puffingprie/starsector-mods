@@ -1,0 +1,78 @@
+{
+  "variantId": "expsp_dominion_belka_Custom",
+  "hullId": "expsp_dominion_belka",
+  "displayName": "Custom",
+  "goalVariant": true,
+  "fluxCapacitors": 28,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "frontemitter",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "expsp_gluonlance"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0021": "expsp_caliburn"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "expsp_plinker",
+        "WS0004": "expsp_plinker",
+        "WS0007": "expsp_plinker_sml",
+        "WS0008": "expsp_plinker_sml"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_rtls",
+        "WS0002": "expsp_rtls"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "expsp_hunterflak",
+        "WS0006": "expsp_hunterflak",
+        "WS0009": "expsp_coilciws",
+        "WS0010": "expsp_coilciws",
+        "WS0011": "expsp_coilciws",
+        "WS0012": "expsp_coilciws",
+        "WS0013": "expsp_coilciws",
+        "WS0014": "expsp_coilciws",
+        "WS0016": "expsp_coilciws",
+        "WS0017": "expsp_coilciws"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0018": "expsp_icarus",
+        "WS0019": "expsp_icarus"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "expsp_glance_wing",
+    "expsp_glance_wing"
+  ]
+}

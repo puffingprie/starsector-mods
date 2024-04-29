@@ -1,0 +1,62 @@
+{
+  "id": "expsp_type56_med",
+  "specClass": "projectile",
+  "projectileSpecId": "expsp_type56_missile",
+  "type": "MISSILE",
+  "size": "MEDIUM",
+  "displayArcRadius": 500,
+  "turretSprite": "graphics/weapons/expsp_type56_med_turret_base.png",
+  "hardpointSprite": "graphics/weapons/expsp_type56_med_hardpoint_base.png",
+  "turretOffsets": [
+    13,
+    7,
+    8,
+    7,
+    13,
+    -7,
+    8,
+    -7
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    14.5,
+    7,
+    9.5,
+    7,
+    14.5,
+    -7,
+    9.5,
+    -7
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 10,
+    "particleSizeRange": 16,
+    "cloudParticleCount": 3,
+    "cloudDuration": 0.9,
+    "cloudRadius": 8,
+    "blowbackParticleCount": 4,
+    "blowbackDuration": 1.1,
+    "blowbackLength": 20,
+    "blowbackSpread": 10,
+    "particleColor": [
+      170,
+      160,
+      150,
+      130
+    ]
+  },
+  "fireSoundTwo": "atropos_fire"
+}

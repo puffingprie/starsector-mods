@@ -1,0 +1,46 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 10,
+    "fluxVents": 0,
+    "hullId": "afflictor",
+    "hullMods": [
+        "heavyarmor",
+        "reinforcedhull",
+        "adaptive_coils",
+        "armoredweapons",
+        "hardened_subsystems",
+        "fluxbreakers"
+    ],
+    "permaMods": [
+        "heavyarmor",
+        "reinforcedhull"
+    ],
+    "sMods": [
+        "heavyarmor",
+        "reinforcedhull"
+    ],
+    "variantId": "adversary_afflictor_Strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 006": "amblaster"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "reaper",
+                "WS 004": "reaper"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "lightneedler",
+                "WS 003": "lightneedler"
+            }
+        }
+    ]
+}

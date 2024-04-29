@@ -1,0 +1,63 @@
+{
+  "bounds": [
+    -38.5,
+    -30.5,
+    37,
+    -28.5,
+    37,
+    28.5,
+    -38.5,
+    30.5
+  ],
+  "builtInMods": [
+    "ill_advised"
+  ],
+  "builtInWeapons": {
+    "WS0001": "hammerrack"
+  },
+  "center": [
+    32,
+    42
+  ],
+  "collisionRadius": 62.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 26,
+      "length": 57,
+      "location": [
+        -39,
+        -0
+      ],
+      "style": "LOW_TECH",
+      "width": 26
+    }
+  ],
+  "height": 84,
+  "hullId": "missp_path_mudskipper",
+  "hullName": "Mudskipper (Path)",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 55.5,
+  "spriteName": "graphics/ships/mudskipper/missp_mudskipper2_path.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        12,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 64
+}

@@ -1,0 +1,111 @@
+{
+  "hullName": "Hyper Aria(YM)",
+  "hullId": "uaf_wing_hyperaria_custom",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/hyperaria_custom.png",
+  "style": "UAF_FIGHTER_M",
+  "height": 54,
+  "width": 45,
+  "center": [22.5, 24],
+  "collisionRadius": 32,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 29.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": 0,
+      "locations": [3, 6]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": 0,
+      "locations": [3.5, -9.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": -0,
+      "locations": [3.5, 9.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-2.5, -12.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-2.5, 12.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-0.5, 9.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-0.5, -9.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-17, 6],
+      "length": 26.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [-17, -6],
+      "length": 26.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "MELODY_ENGINE_H"
+    }
+  ],
+  "bounds": [
+    27, -0.5,
+    6, -4.5,
+    -8, -20.5,
+    -13.5, -19.5,
+    -13, -9.5,
+    -21.5, -8,
+    -21.5, 8,
+    -13, 9.5,
+    -13.5, 19.5,
+    -8, 20.5,
+    6, 4.5,
+    27, 0.5
+  ]
+}

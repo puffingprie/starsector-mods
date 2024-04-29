@@ -1,0 +1,189 @@
+{
+  "hullName": "SCAV-CO Scalva",
+  "hullId": "sv_scalva",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/sv_scalva.png",
+  "style": "SCAVCO",
+  "height": 199,
+  "width": 156,
+  "center": [78, 99.5],
+  "collisionRadius": 149.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 143.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "repair_gantry",
+    "sv_scavcoConstruction",
+    "sv_scavcosubsytems",
+    "advancedoptics"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 345,
+      "angle": 90,
+      "locations": [48.5, 47]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 345,
+      "angle": -90,
+      "locations": [48.5, -47]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 137,
+      "angle": 20,
+      "locations": [66.5, 31]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 137,
+      "angle": -20,
+      "locations": [66.5, -31]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 133,
+      "angle": 0,
+      "locations": [70.5, 11]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 133,
+      "angle": -0,
+      "locations": [70.5, -11]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": -90,
+      "locations": [21.5, -70]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": 90,
+      "locations": [21.5, 70]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 272,
+      "angle": 180,
+      "locations": [-83, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-35.5, -61.5],
+      "length": 24.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "SCAV-CO ENGINE"
+    },
+    {
+      "location": [-35.5, 61.5],
+      "length": 24.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "SCAV-CO ENGINE"
+    },
+    {
+      "location": [-35.5, -52],
+      "length": 24.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "SCAV-CO ENGINE"
+    },
+    {
+      "location": [-35.5, 52],
+      "length": 24.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "SCAV-CO ENGINE"
+    },
+    {
+      "location": [-35, -39],
+      "length": 24.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "SCAV-CO ENGINE"
+    },
+    {
+      "location": [-35, 39],
+      "length": 24.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "SCAV-CO ENGINE"
+    },
+    {
+      "location": [-35, -26.5],
+      "length": 24.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "SCAV-CO ENGINE"
+    },
+    {
+      "location": [-35, 26.5],
+      "length": 24.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "SCAV-CO ENGINE"
+    }
+  ],
+  "bounds": [
+    -93, 8,
+    -34.5, 8,
+    -34.5, 71,
+    43, 71,
+    73, 51,
+    73, -51,
+    43, -71,
+    -34.5, -71,
+    -34.5, -8,
+    -93, -8
+  ]
+}

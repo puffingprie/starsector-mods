@@ -1,0 +1,72 @@
+{
+  "displayName": "Outdated",
+  "fluxCapacitors": 45,
+  "fluxVents": 60,
+  "goalVariant": false,
+  "hullId": "onslaught",
+  "hullMods": [
+    "heavyarmor",
+    "armoredweapons",
+    "magazines",
+    "missleracks"
+  ],
+  "permaMods": [],
+  "quality": 0.25,
+  "variantId": "onslaught_hmi_outdated",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 016": "tpc",
+        "WS 017": "tpc"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 021": "mbeke_med",
+        "WS 022": "mbeke_med",
+        "WS 023": "mbeke_med",
+        "WS 024": "mbeke_med"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 008": "lightag",
+        "WS 009": "lightag",
+        "WS 012": "med_frag_mg",
+        "WS 013": "med_frag_mg",
+        "WS 018": "mark_iv",
+        "WS 020": "mark_iv"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "flak",
+        "WS 002": "vulcan",
+        "WS 003": "flak",
+        "WS 004": "vulcan",
+        "WS 005": "vulcan",
+        "WS 006": "vulcan",
+        "WS 007": "flak",
+        "WS 010": "flak",
+        "WS 011": "flak",
+        "WS 014": "pumm_mg",
+        "WS 015": "pumm_mg",
+        "WS 019": "dick_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "wings": []
+}

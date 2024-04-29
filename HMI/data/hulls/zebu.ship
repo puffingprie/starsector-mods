@@ -1,0 +1,175 @@
+{
+  "hullName": "Zebu",
+  "hullId": "zebu",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/zebu.png",
+  "style": "LOW_TECH",
+  "height": 172,
+  "width": 106,
+  "center": [55.5, 83.5],
+  "collisionRadius": 101.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 98,
+  "viewOffset": 0,
+  "builtInMods": [
+    "junker",
+    "rapidrepaircheck"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 213,
+      "angle": -103,
+      "locations": [-30.5, -29.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 116,
+      "angle": 131,
+      "locations": [-34.5, 28.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 187,
+      "angle": 48.5,
+      "locations": [60.5, 25.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 207,
+      "angle": -90,
+      "locations": [-7.5, -13]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 8,
+      "angle": 0,
+      "locations": [79, 0.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 34,
+      "angle": 22.5,
+      "locations": [73.5, 24.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 18,
+      "angle": 104,
+      "locations": [-14, 35]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 97,
+      "angle": 180,
+      "locations": [-55.5, 1]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 91,
+      "angle": -90,
+      "locations": [-1, -38]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-81, 23],
+      "length": 23.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-80, 30],
+      "length": 37,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-77.5, -32.5],
+      "length": 34.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-76.5, -26.5],
+      "length": 43.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-79.5, -20],
+      "length": 27,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-81, 17],
+      "length": 9,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -57, -6.5,
+    -79, -12.5,
+    -80.5, -34.5,
+    -41.5, -38.5,
+    -27, -50.5,
+    -12.5, -51,
+    -6.5, -47,
+    71, -42.5,
+    77.5, -30,
+    77.5, -12.5,
+    87.5, -10.5,
+    87.5, 9.5,
+    77.5, 11.5,
+    77.5, 29,
+    56, 50,
+    -17, 52.5,
+    -26.5, 47.5,
+    -48.5, 45.5,
+    -53.5, 37.5,
+    -80.5, 33.5,
+    -79, 11.5,
+    -57, 5.5
+  ]
+}

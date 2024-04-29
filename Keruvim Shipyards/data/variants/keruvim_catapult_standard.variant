@@ -1,0 +1,60 @@
+{
+  "variantId": "keruvim_catapult_standard",
+  "hullId": "keruvim_catapult",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 16,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull",
+    "solar_shielding"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "hurricane"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "squall"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "keruvim_blast_gun",
+        "WS0017": "keruvim_blast_gun",
+        "WS0022": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "hveldriver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "vulcan",
+        "WS0008": "vulcan",
+        "WS0009": "vulcan",
+        "WS0010": "vulcan",
+        "WS0013": "vulcan",
+        "WS0014": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

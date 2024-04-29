@@ -1,0 +1,31 @@
+{
+    "playableFaction":false,
+    "pirateFaction":true,
+    "corvusCompatible":true,
+    "noHomeworld":true,
+    "showIntelEvenIfDead":true,
+    
+    "spawnPatrols":true,
+    
+    "baseFleetCostMultiplier":1.0,
+    
+    "rebelFleetSuffix":"Splinter Group",
+    
+    "startRelationships":{ "tritachyon":0.1, "templars":-0.1 }, # in Corvus they're also only suspicious with League and Exi but meh
+    "diplomacyTraits":["anarchist"],
+    "morality":"evil",
+    
+    "alignments":{
+        "corporate":0.5,
+        "technocratic":0.5,
+        "hierarchical":-1,
+        "ideological":0.5,
+        "diplomatic":-1,
+    },
+    
+    "freeMarket":true,
+    
+    "vengeanceLevelNames":["Grudge", "Elimination"],
+    "vengeanceFleetNames":["Executors", "Kill-Fleet"],
+    "vengeanceFleetNamesSingle":["Executors", "a Kill-Fleet"],
+}

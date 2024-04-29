@@ -1,0 +1,44 @@
+{
+    "displayName": "Imperial Elite",
+    "fluxCapacitors": 12,
+    "fluxVents": 20,
+    "hullId": "ii_princeps",
+    "hullMods": ["ii_elite_package"],
+    "permaMods": ["ii_elite_package"],
+    "sMods": ["ii_elite_package"],
+    "variantId": "ii_princeps_ie",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "ii_siegemortar",
+                "WS0006": "ii_siegemortar"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "railgun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ii_sagittarius"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "heavyburst"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "pdburst"}
+        }
+    ],
+    "wings": [
+        "ii_draconarius_wing",
+        "ii_scutum_wing"
+    ]
+}

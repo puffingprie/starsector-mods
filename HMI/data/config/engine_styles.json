@@ -1,0 +1,50 @@
+{
+	"Terminator_aqua":{
+		"engineColor":[0,255,255,121],
+		"contrailParticleSizeMult":8,
+		"contrailParticleDuration":2,
+		"contrailParticleFinalSizeMult":1,
+		"contrailMaxSpeedMult":0.5f,
+		"contrailAngularVelocityMult":0f,
+		"contrailColor":[10,45,10,39],
+		"engineGlowGlowMult":2.2,
+		"contrailCampaignColor":[30,234,33,54],	
+		"type":"GLOW"  # GLOW or SMOKE
+	},
+		"Terminator_purple":{
+		"engineColor":[177,85,181,121],
+		"contrailParticleSizeMult":8,
+		"contrailParticleDuration":2,
+		"contrailParticleFinalSizeMult":1,
+		"contrailMaxSpeedMult":0.5f,
+		"contrailAngularVelocityMult":0f,
+		"contrailColor":[40,19,40,39],
+		"engineGlowGlowMult":2.2,
+		"contrailCampaignColor":[177,85,181,54],	
+		"type":"GLOW"  # GLOW or SMOKE
+	},
+		"GreenFlare":{
+		"engineColor":[30,234,33,121],
+		"contrailParticleSizeMult":2.23,
+		"contrailParticleDuration":1.68,
+		"contrailParticleFinalSizeMult":1.75,		
+		"contrailMaxSpeedMult":0.039,
+		"contrailAngularVelocityMult":0.49,
+		"contrailColor":[10,45,10,39],
+		"engineGlowGlowMult":2.2,
+		"contrailCampaignColor":[30,234,33,54],	
+		"type":"GLOW" # GLOW or SMOKE
+	},
+		"YellowFlare":{
+		"engineColor":[255,255,0,121],
+		"contrailParticleSizeMult":2.23,
+		"contrailParticleDuration":1.68,
+		"contrailParticleFinalSizeMult":1.75,		
+		"contrailMaxSpeedMult":0.039,
+		"contrailAngularVelocityMult":0.49,
+		"contrailColor":[10,45,10,39],
+		"engineGlowGlowMult":2.2,
+		"contrailCampaignColor":[255,255,0,54],	
+		"type":"GLOW" # GLOW or SMOKE
+	},
+}	

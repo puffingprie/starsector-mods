@@ -1,0 +1,49 @@
+{
+  "id": "sv_zweihander_large",
+  "specClass": "projectile",
+  "projectileSpecId": "sv_zweihander_rod",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/sv_zweihander_turret_base.png",
+  "turretGlowSprite": "graphics/weapons/sv_zweihander_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/sv_zweihander_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/weapons/sv_zweihander_hardpoint_glow.png",
+  "glowColor": [
+    55,
+    255,
+    255,
+    255
+  ],
+  "visualRecoil": 5,
+  "turretOffsets": [
+    26,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    44,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 200,
+    "spread": 5,
+    "particleSizeMin": 3,
+    "particleSizeRange": 4,
+    "particleDuration": 2,
+    "particleCount": 40,
+    "particleColor": [
+      55,
+      255,
+      255,
+      255
+    ]
+  },
+  "fireSoundTwo": "sv_railgun"
+}

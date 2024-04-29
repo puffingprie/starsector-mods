@@ -1,0 +1,31 @@
+{
+  "variantId": "hmi_obj_108_rem1",
+  "hullId": "hmi_obj_108",
+  "displayName": "ERROR",
+  "goalVariant": false,
+  "fluxCapacitors": 4,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "heavyblaster_rem",
+        "WS0002": "heavyblaster_rem"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "railgun_rem",
+        "WS0004": "railgun_rem"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

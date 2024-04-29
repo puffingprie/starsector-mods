@@ -1,0 +1,140 @@
+{
+  "hullName": "Tarsus (Path)",
+  "hullId": "missp_path_tarsus",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/tarsus/missp_tarsus_path.png",
+  "style": "LOW_TECH",
+  "height": 204,
+  "width": 106,
+  "center": [53, 96],
+  "collisionRadius": 113.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 105.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ill_advised",
+    "converted_hangar"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 203,
+      "angle": 18,
+      "locations": [84, 21]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 203,
+      "angle": -18,
+      "locations": [84, -21]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 90,
+      "locations": [54, 29]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 129,
+      "angle": -90,
+      "locations": [54, -27]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 90,
+      "locations": [27, 34]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -90,
+      "locations": [27, -33]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 267,
+      "angle": -135,
+      "locations": [-58, -37]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 267,
+      "angle": 135,
+      "locations": [-58, 37]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        18, 5,
+        18, -6
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-95, 18.5],
+      "length": 38.5,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-95, -18.5],
+      "length": 37.5,
+      "width": 17,
+      "angle": -180,
+      "contrailSize": 17,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-88, -0],
+      "length": 51.5,
+      "width": 27,
+      "angle": 180,
+      "contrailSize": 27,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -95, -27,
+    -63.5, -51.5,
+    69, -45,
+    97, -28,
+    97, 28,
+    69, 45,
+    -63.5, 51.5,
+    -95, 27
+  ]
+}

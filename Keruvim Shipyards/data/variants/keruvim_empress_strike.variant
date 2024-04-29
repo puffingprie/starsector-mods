@@ -1,0 +1,73 @@
+{
+  "variantId": "keruvim_empress_strike",
+  "hullId": "keruvim_empress",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 35,
+  "fluxVents": 14,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "keruvim_star_pod",
+        "WS0010": "keruvim_star_pod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "hurricane",
+        "WS0004": "hurricane"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hveldriver",
+        "WS0006": "hveldriver",
+        "WS0024": "hveldriver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "hveldriver",
+        "WS0008": "hveldriver",
+        "WS0025": "hveldriver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "pdlaser",
+        "WS0007": "keruvim_needle",
+        "WS0011": "keruvim_needle",
+        "WS0014": "pdlaser",
+        "WS0015": "pdlaser",
+        "WS0016": "pdlaser",
+        "WS0017": "keruvim_needle",
+        "WS0018": "keruvim_needle",
+        "WS0021": "pdlaser",
+        "WS0022": "pdlaser",
+        "WS0023": "flak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "keruvim_silkworm",
+    "keruvim_silkworm",
+    "keruvim_silkworm",
+    "keruvim_spider"
+  ]
+}

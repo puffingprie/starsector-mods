@@ -1,0 +1,75 @@
+{
+  "variantId": "uaf_eyeseau_defense",
+  "hullId": "uaf_eyeseau",
+  "displayName": "Defense",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "pointdefenseai",
+    "dedicated_targeting_core"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_medlav_dual",
+        "WS0002": "uaf_medlav_dual"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "uaf_triyia_pdx"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "uaf_triyia_pdx"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "uaf_pd_reina",
+        "WS0010": "uaf_pd_reina",
+        "WS0011": "uaf_weiss_flk",
+        "WS0012": "uaf_weiss_flk"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "uaf_chorus_m_amm",
+        "WS0006": "uaf_chorus_m_amm",
+        "WS0007": "uaf_vocal_m_srm",
+        "WS0008": "uaf_vocal_m_srm"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "LEFT_TGT": "uaf_eyeseau_left_tgt_pod"
+    },
+    {
+      "RIGHT_TGT": "uaf_eyeseau_right_tgt_pod"
+    },
+    {
+      "FRONT_ECM": "uaf_eyeseau_front_ecm_jammer"
+    },
+    {
+      "REAR_ECM": "uaf_eyeseau_rear_ecm_jammer"
+    }
+  ],
+  "wings": [
+    "uaf_wing_pengawas"
+  ]
+}

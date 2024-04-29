@@ -1,0 +1,15 @@
+{
+	"baseHullId":"ii_module_combat",
+	"skinHullId":"ii_module_combat_super",
+	"descriptionPrefix":"Upgraded with an Overdrive system, Heavy Armor, Reinforced Emplacements, and Advanced Turret Gyros.",
+	"restoreToBaseHull":true,
+	"hullDesignation":"Super Combat Module",
+	"systemId":"ii_overdrive",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["missile_reload", "heavyarmor", "ii_reinforced_emplacements", "turretgyros"],
+	"builtInWeapons":{
+    },
+}

@@ -1,0 +1,340 @@
+{
+  "hullName": "Ardea",
+  "hullId": "ii_ardea",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/imperium/ships/ardea/ii_ardea.png",
+  "style": "IMPERIUM",
+  "height": 251,
+  "width": 138,
+  "center": [69, 109],
+  "collisionRadius": 175.5,
+  "shieldCenter": [14.5, -0],
+  "shieldRadius": 160,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "BLINKER1": "ii_targeting_blinker1",
+    "BLINKER10": "ii_targeting_blinker1",
+    "BLINKER11": "ii_targeting_blinker3",
+    "BLINKER12": "ii_targeting_blinker3",
+    "BLINKER2": "ii_targeting_blinker1",
+    "BLINKER3": "ii_targeting_blinker2",
+    "BLINKER4": "ii_targeting_blinker2",
+    "BLINKER5": "ii_targeting_blinker3",
+    "BLINKER6": "ii_targeting_blinker3",
+    "BLINKER7": "ii_targeting_blinker1",
+    "BLINKER8": "ii_targeting_blinker2",
+    "BLINKER9": "ii_targeting_blinker2",
+    "ELITE": "ii_elite_lights_ardea"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [70, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [24, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [58, 35]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [30, 35]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [115, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 90,
+      "locations": [-31, 58]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -90,
+      "locations": [-31, -58]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": 155,
+      "locations": [-83, 39]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": -155,
+      "locations": [-83, -39]
+    },
+    {
+      "id": "ELITE",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-24, -0]
+    },
+    {
+      "id": "BLINKER1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [1.5, 47.5]
+    },
+    {
+      "id": "BLINKER2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [1.5, -47.5]
+    },
+    {
+      "id": "BLINKER3",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-1.5, 47.5]
+    },
+    {
+      "id": "BLINKER4",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [-1.5, -47.5]
+    },
+    {
+      "id": "BLINKER5",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-4.5, 47.5]
+    },
+    {
+      "id": "BLINKER6",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [-4.5, -47.5]
+    },
+    {
+      "id": "BLINKER7",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-38.5, 41.5]
+    },
+    {
+      "id": "BLINKER8",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [-40.5, -43.5]
+    },
+    {
+      "id": "BLINKER9",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-40.5, 43.5]
+    },
+    {
+      "id": "BLINKER10",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [-38.5, -41.5]
+    },
+    {
+      "id": "BLINKER11",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-42.5, 45.5]
+    },
+    {
+      "id": "BLINKER12",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [-42.5, -45.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        14, -36.5,
+        20, -30,
+        28, -28,
+        27, -34,
+        32.5, -36.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        35, -28,
+        52.5, -31.5,
+        59.5, -36.5,
+        44.5, -28,
+        44.5, -34.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-103, 44],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "IMPERIUM"
+    },
+    {
+      "location": [-103, -44],
+      "length": 80,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "IMPERIUM"
+    },
+    {
+      "location": [-106, 33],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "IMPERIUM"
+    },
+    {
+      "location": [-106, -33],
+      "length": 80,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "IMPERIUM"
+    },
+    {
+      "location": [-109, 22],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "IMPERIUM"
+    },
+    {
+      "location": [-109, -22],
+      "length": 64,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "IMPERIUM"
+    }
+  ],
+  "bounds": [
+    138.5, -5,
+    127, -16.5,
+    110.5, -20,
+    90.5, -31.5,
+    71, -32,
+    63, -40.5,
+    33, -40.5,
+    28.5, -54,
+    -1.5, -54.5,
+    -27, -67.5,
+    -52.5, -68,
+    -70, -54.5,
+    -94, -53,
+    -107, -19,
+    -65, -9,
+    -65, 9,
+    -107, 19,
+    -94, 53,
+    -70, 54.5,
+    -52.5, 68,
+    -27, 67.5,
+    -1.5, 54.5,
+    21.5, 54.5,
+    65, 41.5,
+    68, 34.5,
+    87, 33.5,
+    94.5, 21.5,
+    127, 16.5,
+    138.5, 5
+  ]
+}

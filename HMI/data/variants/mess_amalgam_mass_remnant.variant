@@ -1,0 +1,50 @@
+{
+  "variantId": "mess_amalgam_mass_remnant",
+  "hullId": "mess_amalgam_mass",
+  "displayName": "Irrational",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 6,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "phasebeam_rem"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "messenger_rem"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "ioncannon_rem",
+        "WS0003": "irpulse_rem",
+        "WS0004": "railgun_rem"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "burst_rem"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

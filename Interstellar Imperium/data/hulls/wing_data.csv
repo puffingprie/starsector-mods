@@ -1,0 +1,8 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,number
+ii_flamen_wing,ii_flamen_Interceptor,"interceptor2, interceptor, imperium, ii_common_bp, ii_ftr_bp, ind, merc",0,,4,5,DIAMOND,4000,400,,4,INTERCEPTOR,Interceptor,5,3500,7650
+ii_draconarius_wing,ii_draconarius_Fighter,"fighter3, fighter, attack_at_an_angle, wingmen_no_swarm, imperium, ii_ftr_bp, merc",1,,6,10,CLAW,4000,500,300,3,FIGHTER,Fighter,10,8000,7651
+ii_vicarius_wing,ii_vicarius_Heavy,"fighter5, fighter, attack_at_an_angle, imperium, ii_ftr_bp, merc",2,0.75,8,20,V,4000,600,-400,2,FIGHTER,Assault Fighter,15,14000,7652
+ii_scutum_wing,ii_scutum_Defense,"stay_in_front_of_ship, support3, drone, imperium, ii_rare_bp, rare_bp, auto_fighter, merc",3,0.5,5,8,V,0,400,,4,INTERCEPTOR,Defense Drone,12,12000,7653
+ii_inferna_wing,ii_inferna_Bomber,"bomber3, bomber, imperium, ii_ftr_bp, merc",2,,6,12,CLAW,4000,2000,450,5,BOMBER,Bomber,10,9000,7654
+ii_carnifex_wing,ii_carnifex_Bomber,"bomber5, bomber, imperium, ii_rare_bp, rare_bp, hist1t, merc",3,,7,22,V,6000,2000,600,2,BOMBER,Strike Bomber,22,14000,7655
+ii_sectator_wing,ii_sectator_Support,"support3, fighter, imperium, ii_ftr_bp, merc",1,,4,5,BOX,0,500,,1,SUPPORT,Support,15,6000,7656

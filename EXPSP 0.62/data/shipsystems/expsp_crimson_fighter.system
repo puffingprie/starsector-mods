@@ -1,0 +1,7 @@
+{
+	"id":"expsp_crimson_fighter",
+	"type":"WEAPON",
+	"aiType":"FLARE_JAMMER",
+	"weaponDataId":"expsp_flarelauncher_crimson",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

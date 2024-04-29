@@ -1,0 +1,13 @@
+{
+  "displayName": "Horror Minelayer",
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "hmi_spookyboi_back",
+  "hullMods": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "hmi_spookyboi_back_var",
+  "weaponGroups": [],
+  "wings": []
+}

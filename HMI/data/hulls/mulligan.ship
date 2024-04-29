@@ -1,0 +1,194 @@
+{
+  "hullName": "Mulligan",
+  "hullId": "mulligan",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/mulligan/mulligan.png",
+  "style": "LOW_TECH",
+  "height": 119,
+  "width": 154,
+  "center": [77, 64],
+  "collisionRadius": 110,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 105,
+  "viewOffset": 0,
+  "builtInMods": [
+    "rugged",
+    "distributed_fire_control"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [46.5, 21]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [46.5, -21]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 115,
+      "angle": 14,
+      "locations": [36, 62]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 115,
+      "angle": -14,
+      "locations": [36, -62]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [43.5, 44]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": -0,
+      "locations": [43.5, -44]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-44.5, 58],
+      "length": 16,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-44.5, -58],
+      "length": 16,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-48.5, 46],
+      "length": 18.5,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-48.5, -46],
+      "length": 18.5,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-62.5, 19],
+      "length": 18.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-62.5, -19],
+      "length": 18.5,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-62.5, 10],
+      "length": 23.5,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-62.5, -10],
+      "length": 23.5,
+      "width": 18,
+      "angle": -180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-63, 5.5],
+      "length": 9.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-63, -5.5],
+      "length": 9.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -62, -21,
+    -55.5, -22.5,
+    -49, -30.5,
+    -49.5, -50.5,
+    -42.5, -62,
+    -24.5, -62,
+    -18, -69,
+    4, -68,
+    10.5, -74,
+    18, -74,
+    21, -76,
+    47, -73.5,
+    47, -55.5,
+    35.5, -53.5,
+    35.5, -44,
+    53, -44,
+    54, -23,
+    41.5, -17,
+    41.5, 17,
+    54, 23,
+    53, 44,
+    35.5, 44,
+    35.5, 53.5,
+    47, 55.5,
+    47, 73.5,
+    21, 76,
+    18, 74,
+    10.5, 74,
+    4, 68,
+    -18, 69,
+    -24.5, 62,
+    -42.5, 62,
+    -49.5, 50.5,
+    -49, 30.5,
+    -55.5, 22.5,
+    -62, 21
+  ]
+}

@@ -1,0 +1,50 @@
+{
+    "displayName": "Imperial Elite",
+    "fluxCapacitors": 11,
+    "fluxVents": 20,
+    "hullId": "ii_interrex",
+    "hullMods": [
+        "ii_elite_package",
+        "targetingunit",
+        "fluxdistributor"
+    ],
+    "permaMods": ["ii_elite_package"],
+    "sMods": ["ii_elite_package"],
+    "variantId": "ii_interrex_ie",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ii_heavypulselaser"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "reaper",
+                "WS0006": "reaper"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "ii_heavypulsar"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "railgun",
+                "WS0008": "railgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "ii_particlecannon",
+                "WS0004": "ii_particlecannon"
+            }
+        }
+    ]
+}

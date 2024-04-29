@@ -1,0 +1,16 @@
+{
+  "variantId": "sv_beholder_standerd",
+  "hullId": "sv_beholder",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 6,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "efficiency_overhaul"
+  ],
+  "weaponGroups": [],
+  "modules": [],
+  "wings": []
+}

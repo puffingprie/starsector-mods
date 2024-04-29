@@ -1,0 +1,43 @@
+{
+  "variantId": "mule_hmi_x_pd",
+  "hullId": "mule_hmi_x",
+  "displayName": "Point Defense",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 20,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "swarmer",
+        "WS0002": "swarmer",
+        "WS0003": "swarmer",
+        "WS0004": "swarmer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 003": "annihilatorpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 004": "flak",
+        "WS 005": "vulcan",
+        "WS 006": "flak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

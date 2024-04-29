@@ -1,0 +1,35 @@
+{
+  "variantId": "sv_workerbee_standerd",
+  "hullId": "sv_workerbee",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "hardenedshieldemitter",
+    "blast_doors",
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sv_doorknocker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "heatseeker",
+        "WS0003": "heatseeker"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

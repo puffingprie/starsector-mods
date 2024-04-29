@@ -1,0 +1,23 @@
+{
+  "displayName": "Fighter",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "keruvim_cricket",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "keruvim_cricket_assault",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "keruvim_gust",
+        "WS0004": "keruvim_gust"
+      }
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,93 @@
+{
+  "hullName": "Tribunal",
+  "hullId": "ii_tribunal",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/imperium/ships/station/ii_tribunal.png",
+  "style": "IMPERIUM",
+  "height": 72,
+  "width": 90,
+  "center": [45, 36],
+  "collisionRadius": 60,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 60,
+  "viewOffset": 0,
+  "builtInMods": [
+    "supercomputer",
+    "advancedshieldemitter",
+    "armoredweapons",
+    "autorepair",
+    "ii_no_package"
+  ],
+  "builtInWeapons": {
+    "WS0001": "ii_triplepbc_station"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [3, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-19, 31],
+      "length": 24,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "IMPERIUM"
+    },
+    {
+      "location": [-19, -31],
+      "length": 24,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "IMPERIUM"
+    },
+    {
+      "location": [17, 31],
+      "length": 24,
+      "width": 10,
+      "angle": 67.5,
+      "contrailSize": 10,
+      "style": "IMPERIUM"
+    },
+    {
+      "location": [17, -31],
+      "length": 24,
+      "width": 10,
+      "angle": -67.5,
+      "contrailSize": 10,
+      "style": "IMPERIUM"
+    },
+    {
+      "location": [-36, 15],
+      "length": 28,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "IMPERIUM"
+    },
+    {
+      "location": [-36, -15],
+      "length": 28,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "IMPERIUM"
+    }
+  ],
+  "bounds": [
+    36, -20.5,
+    0, -41.5,
+    -36, -20.5,
+    -36, 20.5,
+    0, 41.5,
+    36, 20.5
+  ]
+}

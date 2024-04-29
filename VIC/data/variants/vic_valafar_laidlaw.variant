@@ -1,0 +1,36 @@
+{
+    "displayName": "Laidlaw",
+    "fluxCapacitors": 25,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "vic_valafar",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vic_valafar_laidlaw",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "vic_heavylaidlawaccelerator"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "vic_lightlaidlawaccelerator",
+                "WS0002": "vic_lightlaidlawaccelerator"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "vic_strigoy",
+                "WS0004": "vic_strigoy",
+                "WS0006": "vic_strigoy",
+                "WS0008": "vic_strigoy"
+            }
+        }
+    ]
+}

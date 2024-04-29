@@ -1,0 +1,64 @@
+{
+  "variantId": "cockroach_cs",
+  "hullId": "cockroach",
+  "displayName": "Close Support",
+  "goalVariant": true,
+  "fluxCapacitors": 17,
+  "fluxVents": 18,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "turretgyros"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "rad_gun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "launcher_cannon",
+        "WS0016": "mbeke_sml",
+        "WS0017": "mbeke_sml"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "launcher_cannon",
+        "WS0007": "launcher_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "rangus_crossbow",
+        "WS0004": "rangus_crossbow",
+        "WS0010": "rock_launcher",
+        "WS0011": "rock_launcher",
+        "WS0014": "rock_launcher"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "vulcan",
+        "WS0008": "dualflak",
+        "WS0012": "vulcan",
+        "WS0013": "vulcan",
+        "WS0015": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

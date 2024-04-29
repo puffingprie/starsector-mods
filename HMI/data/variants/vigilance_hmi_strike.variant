@@ -1,0 +1,30 @@
+{
+  "displayName": "Strike",
+  "fluxCapacitors": 8,
+  "fluxVents": 5,
+  "goalVariant": false,
+  "hullId": "vigilance",
+  "hullMods": [
+    "missleracks"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "vigilance_hmi_strike",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "mbeke_med"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "suowang_pulser"
+      }
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,62 @@
+{
+  "variantId": "hmi_limina_std",
+  "hullId": "hmi_limina",
+  "displayName": "Abbhorent",
+  "goalVariant": true,
+  "fluxCapacitors": 15,
+  "fluxVents": 25,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull",
+    "unstable_injector",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0013": "typhoon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "sabot",
+        "WS0008": "sabot"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "heavyblaster",
+        "WS0010": "heavyblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "gravitonbeam",
+        "WS0006": "gravitonbeam",
+        "WS0011": "heavyac",
+        "WS0012": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "pdburst",
+        "WS0002": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "flash_wing"
+  ]
+}

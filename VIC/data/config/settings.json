@@ -1,0 +1,144 @@
+{
+	"designTypeColors":{
+        "Volkov Industrial Conglomerate":[238,158,0,255],
+		"Volkov Industries":[238,158,0,255],
+    },
+	"plugins":{
+		"vic_combatPlugin":"data.scripts.plugins.vic_combatPlugin",
+		"vic_shipExplosion":"data.scripts.plugins.vic_shipExplosion",
+	},
+	"graphics":{		
+		"blueprint_packages":{
+			"vic_hulls_t1_package":"graphics/icons/cargo/vic_blueprint_ships.png",
+			"vic_weapons_t1_package":"graphics/icons/cargo/vic_blueprint_weapons.png",
+			"vic_hulls_t2_package":"graphics/icons/cargo/vic_blueprint_ships.png",
+			"vic_weapons_t2_package":"graphics/icons/cargo/vic_blueprint_weapons.png",
+			"vic_fighters_package":"graphics/icons/cargo/vic_blueprint_ships.png",
+		},
+		"campaignEntities":{
+			"vic_archangel_beam":"graphics/custom entities/archangel_beam2.png",
+			"vic_archangel_beam_glow2":"graphics/custom entities/archangel_beam_glow2.png",
+			"vic_archangel_beam_core":"graphics/custom entities/archangel_beam_core.png",
+			"vic_archangel_planetary_glow1":"graphics/custom entities/VIC_archangel_planetaryGlow1.png",
+			"vic_archangel_flare":"graphics/custom entities/VIC_flare.png",
+			"vic_archangel_flare2":"graphics/custom entities/VIC_flare2.png",
+		},
+		"hab_glows":{
+			"cocytus":"graphics/planets/vic_cocytus_glow.png",
+		},
+		"systems":{
+			"vic_adaptiveWarfareSystem":"graphics/icons/hullsys/vic_adaptiveWarfareSystem.png",
+			"vic_empEmitter":"graphics/icons/hullsys/vic_empEmitter.png",
+			"vic_zlydzenEffect":"graphics/icons/hullsys/vic_zlydzenEffect.png",
+			"vic_powerRedistributor":"graphics/icons/hullsys/vic_powerRedistributor.png",
+			"vic_powerRedistributorNone":"graphics/icons/hullsys/vic_powerRedistributorNone.png",
+			"vic_powerRedistributorSmall":"graphics/icons/hullsys/vic_powerRedistributorSmall.png",
+			"vic_powerRedistributorLarge":"graphics/icons/hullsys/vic_powerRedistributorLarge.png",
+			"vic_deathProtocolIcon":"graphics/icons/hullsys/vic_deathProtocolIcon.png",
+			"vic_auxThrusters":"graphics/icons/hullsys/vic_auxThrusters.png",
+			"vic_shturmFrameSus":"graphics/icons/hullsys/vic_shturmFrameSus.png",
+			"vic_hunterWeb":"graphics/icons/hullsys/vic_hunterWeb.png",
+		},
+		"fx":{
+			"vic_fluxRaptureSuck":"graphics/fx/vic_fluxRaptureSuckQuarter.png",
+			"vic_fluxRaptureZap":"graphics/fx/vic_fluxRaptureZapQuarter.png",
+			
+			"vic_shieldsInner256":"graphics/fx/shield/vic_shields256.png",
+			"vic_shieldsInner128":"graphics/fx/shield/vic_shields128.png",
+			"vic_shieldsInner64":"graphics/fx/shield/vic_shields64.png",
+			
+			"vic_shieldsHexInner256":"graphics/fx/shield/vic_shieldsHex256.png",
+			"vic_shieldsHexInner128":"graphics/fx/shield/vic_shieldsHex128.png",
+			"vic_shieldsHexInner64":"graphics/fx/shield/vic_shieldsHex64.png",
+			
+			"vic_shieldsRing256":"graphics/fx/shield/vic_shields256ring.png",
+			"vic_shieldsRing128":"graphics/fx/shield/vic_shields128ring.png",
+			"vic_shieldsRing64":"graphics/fx/shield/vic_shields64ring.png",
+			
+			"vic_shieldsInner256_fervor":"graphics/fx/shield/vic_shields256_fervor.png",
+			"vic_shieldsInner128_fervor":"graphics/fx/shield/vic_shields128_fervor.png",
+			"vic_shieldsInner64_fervor":"graphics/fx/shield/vic_shields64_fervor.png",
+			
+			"vic_verlioka_field":"graphics/fx/vic_verlioka_field.png",
+			
+			"vic_tugarin_proj":"graphics/fx/vic_tugarin_proj.png",
+			"vic_tugarin_proj_ring":"graphics/fx/vic_tugarin_proj_ring.png",
+			
+			"vic_nawia_ring1":"graphics/weapons/Nawia effect/VIC_ring_1.png",
+			"vic_nawia_ring2":"graphics/weapons/Nawia effect/VIC_ring_2.png",
+			
+			
+			"trails_trail_clean":"graphics/trails/fx/trails_clean.png",
+			"trails_trail_fuzzy":"graphics/trails/fx/trails_fuzzy.png",
+			"trails_trail_smooth":"graphics/trails/fx/trails_smooth.png",
+			"trails_trail_zappy":"graphics/trails/fx/trails_zappy.png",
+			"trails_trail_contrail":"graphics/trails/fx/trails_contrail.png",
+			"trails_trail_twin":"graphics/trails/fx/trails_twin.png",
+			"trails_trail_foggy":"graphics/trails/fx/trails_foggy.png",
+			"trails_trail_sparks":"graphics/trails/fx/trails_sparks.png",
+			"vic_trailSmoke":"graphics/trails/fx/vic_trailSmoke.png",
+			
+			"SRD_trail_helix":"graphics/trails/fx/SRD_trail_helix.png",
+			
+			"vic_laidlawExplosion":"graphics/fx/vic_laidlawExplosion.png",		
+			"vic_laidlawExplosion2":"graphics/fx/vic_laidlawExplosion2.png",
+			"vic_laidlawExplosion3":"graphics/fx/vic_laidlawExplosion3.png",
+			
+			"vic_stolas_emp_main":"graphics/fx/vic_stolas_emp_main.png",	
+			"vic_stolas_emp_secondary":"graphics/fx/vic_stolas_emp_secondary.png",	
+
+			"vic_devotee_pulse_main":"graphics/fx/vic_devotee_pulse_main.png",	
+			"vic_devotee_pulse_secondary":"graphics/fx/vic_devotee_pulse_secondary.png",	
+			
+			"vic_gatebreaker_autocannon_shell":"graphics/fx/vic_gatebreaker_autocannon_shell.png",	
+			"vic_gatebreaker_shotgun_shockwave":"graphics/fx/vic_gatebreaker_shotgun_shockwave.png",	
+
+			"vic_alkonost_shockwave":"graphics/fx/vic_alkonost_shockwave.png",	
+
+			"vic_xl_laidlaw_shockwave":"graphics/fx/vic_xl_laidlaw_shockwave.png",
+
+			"vic_notorious_big_iron_buckshot_shockwave":"graphics/fx/vic_notorious_big_iron_buckshot_shockwave.png",
+			"vic_notorious_big_iron_slug_shell":"graphics/fx/vic_notorious_big_iron_slug_shell.png",
+			"vic_notorious_big_iron_dragon_breath_shockwave":"graphics/fx/vic_notorious_big_iron_dragon_breath_shockwave.png",
+			"vic_notorious_big_iron_dragon_breath_shell":"graphics/fx/vic_notorious_big_iron_dragon_breath_shell.png",
+
+
+		},		
+		"weapons":{
+			"vic_rock_missile":"graphics/weapons/vic_rokh_missile_covered.png",
+			"vic_rock_holo":"graphics/weapons/vic_rokh_missile_holo.png",
+			"vic_rock_printer":"graphics/weapons/vic_rokh_launcher_printer.png",
+			"vic_rokh_launcher_glow_under":"graphics/weapons/vic_rokh_launcher_glow_under.png",
+			"vic_rokh_cover1":"graphics/weapons/vic_rokh_cover1.png",
+			"vic_rokh_missile_naked":"graphics/weapons/vic_rokh_missile_naked.png",
+		},
+		"illustrations":{
+			"vic_cocytus_illustration":"graphics/illustrations/vic_cocytus_illustration.png",
+			"vic_purgatory_illustration":"graphics/illustrations/vic_purgatory_illustration.png",
+			"vic_phlegethon_illustration":"graphics/illustrations/vic_phlegethon_illustration.png",
+			"vic_megaera_illustration":"graphics/illustrations/vic_megaera_illustration.png",
+			"vic_kalada_illustration":"graphics/illustrations/vic_kalada_illustration.png",
+			
+		},
+	    "nex_vicVbombing":{
+		    "nex_vicVbombingIcon":"graphics/hullmods/vic_VBombHmod.png",
+		},
+		"characters":{
+			"vic_tatiana":"graphics/portraits/characters/vic_tatiana.png",
+			"vic_tatiana_tv":"graphics/portraits/characters/vic_tatiana_tv.png",
+			"vic_jrg_tv":"graphics/portraits/characters/vic_jeremy_tv.png",
+			"vic_volkov_tv":"graphics/portraits/characters/vic_volkov_tv.png",
+			"vic_murkwell_tv":"graphics/portraits/characters/vic_murkwell_tv.png",
+			"vic_ernesto_tv":"graphics/portraits/characters/vic_ernesto_tv.png",
+			"vic_agniezska_tv":"graphics/portraits/characters/vic_agniezska_tv.png",
+			"vic_yuhas":"graphics/portraits/characters/vic_yuhas.png",
+			"vic_yuhasSane":"graphics/portraits/characters/vic_yuhas_notFucked.png",
+			"vic_stolasPilot":"graphics/portraits/vic_acehole4.png",
+			"vic_fitzroy":"graphics/portraits/characters/vic_fitzroy.png",
+		},
+		"icons":{
+			"entity":"graphics/icons/entity.png",
+		}
+	}
+}
+	

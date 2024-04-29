@@ -1,0 +1,18 @@
+{
+    "id":"ii_flares_targeting",
+    "specClass":"projectile",
+    "type":"SYSTEM",
+    "size":"SMALL",
+    "turretSprite":"",
+    "hardpointSprite":"",
+    "hardpointOffsets":[0, 0],
+    "turretOffsets":[0, 0],
+    "hardpointAngleOffsets":[0],
+    "turretAngleOffsets":[0],
+    "barrelMode":"LINKED",
+    "animationType":"NONE",
+    "interruptibleBurst":false,
+    "separateRecoilForLinkedBarrels":true,
+    "projectileSpecId":"ii_flare_targeting",
+    "fireSoundTwo":"system_flare_launcher_active",
+}

@@ -1,0 +1,52 @@
+{
+  "variantId": "mule_lp_x_armour",
+  "hullId": "mule_lp_x",
+  "displayName": "Armoured",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 3,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "shield_shunt"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "hammer",
+        "WS0008": "hammer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "heavymortar",
+        "WS0002": "heavymortar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "lightac",
+        "WS0004": "lightac",
+        "WS0005": "lightac",
+        "WS0006": "lightac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "lightac",
+        "WS0010": "lightac"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

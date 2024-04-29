@@ -1,0 +1,37 @@
+{
+	"id":"ii_phasecloak",
+	"type":"PHASE_CLOAK",
+	"aiType":"PHASE_CLOAK",
+
+	"statsScript":"com.fs.starfarer.api.impl.combat.PhaseCloakStats",
+	"runScriptWhilePaused":true, # only for the player's ship
+	"runScriptWhileIdle":true,  # this means unapply() never gets called
+	"blockActionsWhileChargingDown":false,
+    
+    "canNotCauseOverload":true,
+
+	"phaseHighlight":"_glow1",
+	"phaseDiffuse":"_glow2",
+
+	"effectColor1":[255,175,175,255],
+	"effectColor2":[255,0,0,150],
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":true,
+
+	"engineGlowColor":[0,0,0,0],
+	"engineGlowContrailColor":[0,0,0,0],
+	"engineGlowLengthMult":0,
+	"engineGlowWidthMult":0,
+	"engineGlowGlowMult":0,
+
+	"soundFilterType":"LOWPASS",
+	"soundFilterGain":0.8,
+	"soundFilterGainHF":0.25,
+
+	"shipAlpha":1, # handled in stats script
+
+	"useSound":"ii_phasecloak_activate",
+	"deactivateSound":"ii_phasecloak_deactivate",
+	"outOfUsesSound":"ii_phasecloak_collision",
+}

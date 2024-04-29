@@ -1,0 +1,23 @@
+{
+  "variantId": "expsp_xf850d_Escort",
+  "hullId": "expsp_xf850d",
+  "displayName": "Escort Drone Fighter",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_coilciwsmini",
+        "WS0002": "expsp_coilciwsmini"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,57 @@
+{
+  "hullName": "M21 Blaster Drone",
+  "hullId": "keruvim_m21drone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/keruvim_m21drone.png",
+  "style": "LOW_TECH",
+  "height": 23,
+  "width": 29,
+  "center": [13.5, 11.5],
+  "collisionRadius": 15.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 14,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0.5, 1.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-8, 5],
+      "length": 8,
+      "width": 4,
+      "angle": 172.5,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-8, -5],
+      "length": 13.807414,
+      "width": 5.605468,
+      "angle": -175,
+      "contrailSize": 5.605468,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-9, 1.5],
+      "length": 8,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -6.5, 6.5,
+    6.5, 4.5,
+    4.5, -6.5,
+    -6.5, -5.5
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "variantId": "uaf_isenoria_prototype_standard",
+  "hullId": "uaf_isenoria_prototype",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 23,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "eccm",
+    "ballistic_rangefinder"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0018": "uaf_cyrexa_triple",
+        "WS0019": "uaf_cyrexa_triple"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0014": "uaf_swaras_m_mlrs",
+        "WS0015": "uaf_swaras_m_mlrs",
+        "WS0021": "uaf_selemene_m_mrm",
+        "WS0022": "uaf_clemente_s_mrm_double"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0016": "uaf_shimata_155_cn",
+        "WS0017": "uaf_shimata_155_cn"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "uaf_hikone_quad",
+        "WS0008": "uaf_hikone_quad"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "uaf_shimata_155_cn"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_pd_reina",
+        "WS0002": "uaf_pd_reina",
+        "WS0003": "uaf_chorus_s_amm",
+        "WS0004": "uaf_chorus_s_amm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "uaf_weiss_flk",
+        "WS0006": "uaf_weiss_flk",
+        "WS0010": "uaf_weiss_flk",
+        "WS0011": "uaf_weiss_flk",
+        "WS0012": "uaf_pd_reina_ii",
+        "WS0013": "uaf_pd_reina_ii"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_lumayan",
+    "uaf_wing_fisoyuz"
+  ]
+}

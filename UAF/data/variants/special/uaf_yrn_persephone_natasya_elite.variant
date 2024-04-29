@@ -1,0 +1,95 @@
+{
+  "variantId": "uaf_yrn_persephone_natasya_elite",
+  "hullId": "uaf_yrn_persephone_natasya",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 45,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "eccm",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "uaf_semibreve_guided",
+        "WS0010": "uaf_semibreve_guided"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "uaf_cyrexa",
+        "WS0006": "uaf_herexa_triple"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "uaf_minibreve_tnt_m",
+        "WS0014": "uaf_minibreve_tnt_m"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "uaf_selemene_m_mrm",
+        "WS0012": "uaf_selemene_m_mrm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "uaf_medlav_quad",
+        "WS0018": "uaf_medlav_quad",
+        "WS0019": "uaf_claris_cn",
+        "WS0020": "uaf_cantata_cn",
+        "WS0026": "uaf_ivory_triple"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "uaf_meitou_chorus_nt",
+        "WS0008": "uaf_meitou_chorus_nt",
+        "WS0015": "uaf_triyia_pdx",
+        "WS0016": "uaf_triyia_pdx",
+        "WS0025": "uaf_vocal_m_srm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0021": "uaf_pd_reina_ii",
+        "WS0022": "uaf_pd_reina_ii",
+        "WS0023": "uaf_flair_pod",
+        "WS0024": "uaf_flair_pod"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0001": "uaf_m_zepporia_armor_1_plating"
+    },
+    {
+      "WS0002": "uaf_m_zepporia_armor_1_plating"
+    },
+    {
+      "WS0003": "uaf_m_zepporia_armor_1_plating"
+    },
+    {
+      "WS0004": "uaf_m_zepporia_armor_1_plating"
+    }
+  ],
+  "wings": []
+}

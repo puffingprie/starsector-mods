@@ -1,0 +1,75 @@
+{
+  "variantId": "expsp_verteidiger_Standard",
+  "hullId": "expsp_verteidiger",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 8,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hveldriver",
+        "WS0002": "heavymauler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "expsp_quicksilverblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "expsp_coilciws",
+        "WS0005": "expsp_coilciws"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "expsp_poke",
+        "WS0007": "expsp_poke"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "expsp_hunterflak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "expsp_supportlaser",
+        "WS0010": "expsp_supportlaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "expsp_flarelauncher_crimson",
+        "WS0012": "expsp_flarelauncher_crimson",
+        "WS0013": "expsp_flarelauncher_crimson",
+        "WS0014": "expsp_flarelauncher_crimson",
+        "WS0015": "expsp_flarelauncher_crimson",
+        "WS0016": "expsp_flarelauncher_crimson"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

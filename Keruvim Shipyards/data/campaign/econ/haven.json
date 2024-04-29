@@ -1,0 +1,56 @@
+{
+	"starSystem":"anvil_haven",
+	"markets":[
+		{
+			"entities":["anvil_crucible"],
+			"faction":"pirates",
+			"size":5,
+			"freePort":true,
+			"startingConditions":[
+				"habitable",
+				"population_5",
+				"farmland_poor",
+				"pollution",
+				"low_gravity",
+				"ore_moderate",
+				"volatiles_trace",
+				"organics_trace",
+				"cold",
+			],
+			"industries":[
+				"population",
+				"megaport",
+				["heavyindustry","corrupted_nanoforge"],
+				"heavybatteries",
+				"militarybase",
+				"anvil_lab",
+				"starfortress_mid",
+				"mining",
+			],
+		},
+		{
+			"entities":["anvil_enfer"],
+			"faction":"keruvim",
+			"size":4,
+			"startingConditions":[
+				"population_4",
+				"very_hot",
+				"extreme_tectonic_activity",
+				"ore_abundant",
+				"rare_ore_moderate",
+			],
+			"industries":[
+				"population",
+				"spaceport",
+				"patrolhq",
+				"mining",
+				"grounddefenses",
+				"refining",
+				"orbitalstation_mid",
+			],
+		},	
+	],
+}
+
+
+

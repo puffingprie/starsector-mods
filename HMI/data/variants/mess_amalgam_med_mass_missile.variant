@@ -1,0 +1,62 @@
+{
+  "variantId": "mess_amalgam_med_mass_missile",
+  "hullId": "mess_amalgam_med_mass",
+  "displayName": "Missile",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 8,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "missleracks",
+    "eccm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hammerrack"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "harpoon_single",
+        "WS0004": "swarmer",
+        "WS0006": "breach",
+        "WS0009": "atropos_single",
+        "WS0010": "reaper"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sabot_fighter",
+        "WS0005": "sabot_fighter"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "annihilator",
+        "WS0008": "heatseeker",
+        "WS0011": "heatseeker",
+        "WS0013": "pilum"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "phasecl"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

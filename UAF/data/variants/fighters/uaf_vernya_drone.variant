@@ -1,0 +1,34 @@
+{
+  "variantId": "uaf_vernya_drone",
+  "hullId": "uaf_vernya",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "magazines",
+    "escort_package",
+    "advancedoptics"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "uaf_fw_hvar_class_ii",
+        "WS0003": "uaf_fw_hvar_class_ii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "uaf_fw_57mm_class_iii"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

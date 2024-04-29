@@ -1,0 +1,48 @@
+{
+  "variantId": "mess_colossus_hellbore",
+  "hullId": "mess_colossus",
+  "displayName": "Hellbore",
+  "goalVariant": true,
+  "fluxCapacitors": 25,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "hellbore"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "lightmortar",
+        "WS0002": "lightmortar",
+        "WS0003": "lightmortar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "hellbore",
+        "WS0006": "hellbore"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "hellbore"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

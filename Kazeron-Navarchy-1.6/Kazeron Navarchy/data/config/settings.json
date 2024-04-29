@@ -1,0 +1,11 @@
+{
+	"designTypeColors":{
+		"Kazeron Navarchy":[255,200,60,255],
+	},
+
+	"graphics":{
+		"blueprint_packages":{
+			"kazeron_PL_package":"graphics/kazeron/icons/cargo/kazeron_bp_PL.png",
+		},
+	},	
+}

@@ -1,0 +1,64 @@
+{
+  "variantId": "mess_ecstacy_escort",
+  "hullId": "mess_ecstacy",
+  "displayName": "Escort",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 3,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "eccm",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "hveldriver",
+        "WS0002": "hveldriver"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "locust"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "swarmer_fighter",
+        "WS0006": "swarmer_fighter",
+        "WS0008": "swarmer",
+        "WS0009": "swarmer",
+        "WS0010": "swarmer",
+        "WS0011": "swarmer",
+        "WS0012": "swarmer",
+        "WS0013": "swarmer",
+        "WS0014": "swarmer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "heavyburst",
+        "WS0004": "heavyburst"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "mess_spark_wing",
+    "mess_spark_wing"
+  ]
+}

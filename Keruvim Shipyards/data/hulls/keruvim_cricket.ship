@@ -1,0 +1,95 @@
+{
+  "bounds": [
+    8.5,
+    3.5,
+    -1,
+    7,
+    -11,
+    5,
+    -11,
+    -5,
+    -1,
+    -7,
+    8.5,
+    -3.5
+  ],
+  "center": [
+    15,
+    18
+  ],
+  "collisionRadius": 19,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 16,
+      "location": [
+        -11.5,
+        -0
+      ],
+      "style": "LOW_TECH",
+      "width": 4
+    },
+    {
+      "angle": -171.5,
+      "contrailSize": 4.55816,
+      "length": 8.42946,
+      "location": [
+        -11.5,
+        -6.5
+      ],
+      "style": "LOW_TECH",
+      "width": 4.55816
+    },
+    {
+      "angle": 171.5,
+      "contrailSize": 4.55816,
+      "length": 8.42946,
+      "location": [
+        -11.5,
+        6.5
+      ],
+      "style": "LOW_TECH",
+      "width": 4.55816
+    }
+  ],
+  "height": 35,
+  "hullId": "keruvim_cricket",
+  "hullName": "Cricket",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 17,
+  "spriteName": "graphics/ships/keruvim_cricket.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        8,
+        -4.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        8,
+        4.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    }
+  ],
+  "width": 30
+}

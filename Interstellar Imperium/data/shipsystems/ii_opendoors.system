@@ -1,0 +1,17 @@
+{
+	"id":"ii_opendoors",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.scripts.shipsystems.ai.II_NoAI",
+
+	"statsScript":"data.scripts.shipsystems.II_OpenDoors",
+    "runScriptWhileIdle":true, # this means unapply() never gets called
+
+	"outOfUsesSound":"gun_out_of_ammo",
+
+    "aiHints":{
+        "activeSpeedIncrease":0,
+        "burstMovementPotential":0,
+        "averageSpeedIncrease":0,
+    }
+}

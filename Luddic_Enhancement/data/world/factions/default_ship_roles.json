@@ -1,0 +1,97 @@
+{
+
+	"combatSmallForSmallFleet":{
+
+		"brawler_luddic_standard":10,
+
+		"cerberus_luddic_Shielded":4,
+		"cerberus_luddic_Standard":6,	
+	},
+	"combatSmall":{
+
+		"brawler_luddic_standard":10,
+		
+		"cerberus_luddic_Shielded":4,
+		"cerberus_luddic_Standard":6,
+		
+		"hermes_pather_mg":10,
+		"hermes_pather_mortar":5,
+		
+		"vanguard_lp_std":5,
+		"vanguard_lp_attack":5,		
+		
+	},
+	"combatMedium":{
+		"mule_luddic_path_support":10,
+		
+		"fasces_cs":1,
+		"fasces_attack":3,
+		"fasces_standard":5,
+		"fasces_so":1,
+		
+		"lector_outdated":3,
+		"lector_attack":2,
+		"lector_escort":1,
+		"lector_std":4,
+		
+		"jude_cs":3,
+		"jude_so":2,
+		"jude_std":5,
+		
+		"mule_lp_x_armour":3,
+		"mule_lp_x_assault":3,
+		"mule_lp_x_std":4,	
+			
+		"phaeton_lp_attack":7,
+		"phaeton_lp_cs":2,
+		"phaeton_lp_strike":3,		
+	},
+	"combatLarge":{
+		
+		"christopher_outdated":2,		
+		"christopher_cs":1,		
+		"christopher_attack":1,
+		"christopher_std":6,		
+		
+		"sebastian_cs":1,
+		"sebastian_attack":3,
+		"sebastian_std":4,
+		
+		"starliner_lp_x_assault":3,
+		"starliner_lp_x_armour":3,
+		"starliner_lp_x_std":4,		
+		
+		"eagle_le_lp_std":5,
+		
+		"eradicator_lp_std":10,	
+		
+		"revolt_cs":2,
+		"revolt_defensive":4,
+	},
+		
+		
+	# hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall":{
+		"cerberus_luddic_Shielded":4,
+		"cerberus_luddic_Standard":6,
+	},
+	"combatFreighterMedium":{
+		"mule_luddic_support":10,
+		"mule_luddic_path_support":6,
+		"mule_luddic_path_strike":4,
+	},
+	"combatFreighterLarge":{
+		"venture_luddic_support":10,	
+	},
+	
+	"carrierSmall":{
+			"fidem_cs":2,
+			"fidem_attack":2,
+			"fidem_std":5,	
+			"fidem_strike":1,	
+	},
+			
+	"carrierLarge":{
+		"le_prometheus3_std":10,
+	},
+}

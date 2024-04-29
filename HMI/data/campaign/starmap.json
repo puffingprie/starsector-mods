@@ -1,0 +1,9 @@
+{
+	"starSystemLocations":{
+		"HMI_mercy":[-28000, -23000],
+		"HMI_opuntia":[-31000, -20000],
+		"HMI_obsidian":[-27000, -27000],
+		"HMI_kamikaze":[-21500, -25000],
+		"HMI_hazard":[-20000, -20000],
+	}
+}

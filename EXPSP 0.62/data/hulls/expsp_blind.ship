@@ -1,0 +1,99 @@
+{
+  "hullName": "Blind",
+  "hullId": "expsp_blind",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/expsp_blind.png",
+  "style": "EXPSP_MVS",
+  "height": 24,
+  "width": 30,
+  "center": [15, 12],
+  "collisionRadius": 28,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 26.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [2, 7]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [2.5, -7]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [7.5, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 360,
+      "locations": [-2.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-11, 7],
+      "length": 12,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    },
+    {
+      "location": [-11, -7],
+      "length": 12,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    },
+    {
+      "location": [-10, 3],
+      "length": 8,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    },
+    {
+      "location": [-10, -3],
+      "length": 8,
+      "width": 2,
+      "angle": -180,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    }
+  ],
+  "bounds": [
+    -3, -13.5,
+    9.5, -0,
+    -3, 13.5,
+    -8.5, -0
+  ]
+}

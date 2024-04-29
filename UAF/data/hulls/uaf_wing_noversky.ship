@@ -1,0 +1,98 @@
+{
+  "hullName": "Noversky",
+  "hullId": "uaf_wing_noversky",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/noversky_atk.png",
+  "style": "UAF_FIGHTER_M",
+  "height": 56,
+  "width": 58,
+  "center": [29, 26],
+  "collisionRadius": 41.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 28,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 14,
+      "angle": 0,
+      "locations": [21, 9]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 14,
+      "angle": -0,
+      "locations": [21, -9]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 14,
+      "angle": 0,
+      "locations": [16, 13]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [16, -13]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [10, -20.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [10, 20.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-7, 18],
+      "length": 24.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [-7, -18],
+      "length": 24.5,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "MELODY_ENGINE_H"
+    }
+  ],
+  "bounds": [
+    -24, 3.5,
+    -6, 28,
+    1.5, 28,
+    28.5, 1.5,
+    28.5, -1.5,
+    1.5, -28,
+    -6, -28,
+    -24, -3.5
+  ]
+}

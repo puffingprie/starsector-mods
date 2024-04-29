@@ -1,0 +1,7 @@
+id,name,faction,desc,script,icon,order
+ii_ebay,"Starship
+Bazaar",interstellarimperium,"Trade at the Imperium-sponsored public market.
+
+Civilian and military hardware can be bought and sold as part of a managed resale venue. A better standing with $theFaction results in higher-grade hardware being available for purchase.
+
+Commodities are not available for sale here, and extra fees increase prices beyond standard levels. The more common Imperium blueprints are sometimes sold at a premium.",data.scripts.campaign.submarkets.II_EBaySubmarketPlugin,graphics/imperium/factions/ii_ebay.png,100

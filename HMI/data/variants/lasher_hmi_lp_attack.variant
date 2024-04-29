@@ -1,0 +1,32 @@
+{
+  "displayName": "Attack",
+  "fluxCapacitors": 6,
+  "fluxVents": 10,
+  "goalVariant": false,
+  "hullId": "lasher_hmi_lp",
+  "hullMods": [
+    "blast_doors"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "lasher_hmi_lp_attack",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "hammer",
+        "WS0002": "hammer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "lightdualmg",
+        "WS0004": "lightdualmg"
+      }
+    }
+  ],
+  "wings": []
+}

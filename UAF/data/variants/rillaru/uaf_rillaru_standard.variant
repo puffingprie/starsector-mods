@@ -1,0 +1,83 @@
+{
+  "variantId": "uaf_rillaru_standard",
+  "hullId": "uaf_rillaru",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 23,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "reinforcedhull",
+    "autorepair",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_cyrexa_triple",
+        "WS0002": "uaf_cyrexa_triple"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0015": "uaf_selemene_m_mrm",
+        "WS0016": "uaf_clemente_s_mrm_double"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0017": "uaf_clemente_base",
+        "WS0018": "uaf_selemene_s_mrm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_ivory",
+        "WS0010": "uaf_ivory",
+        "WS0011": "uaf_ivory"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "uaf_triyia_pdx",
+        "WS0013": "uaf_medlav_dual"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "uaf_cantata_cn",
+        "WS0007": "uaf_claris_cn"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "uaf_deco_mg",
+        "WS0005": "uaf_deco_mg",
+        "WS0008": "uaf_weiss_flk",
+        "WS0009": "uaf_racun_pod",
+        "WS0014": "uaf_deco_mg",
+        "WS0019": "uaf_deco_mg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_fisoyuz"
+  ]
+}

@@ -1,0 +1,212 @@
+{
+    "adminSalaryTier3":50000,
+    "plugins":{
+        "uaf_map_field":"data.scripts.plugins.uaf_mapField"
+    },
+    "ruleCommandPackages":[
+        "data.campaign.rulecmd",
+    ],
+    "graphics":{
+        "nex_groundbattle":{
+			"icon_uafBomb":"graphics/icons/intel/uaf_rafflesya_bombardment.png",
+			"icon_uafArtillery":"graphics/icons/intel/uaf_naval_support.png",
+			"icon_uafRogue":"graphics/icons/intel/uaf_sunami_assault.png",
+			"icon_uafPurcy":"graphics/icons/intel/uaf_purcy_strike.png",
+		},
+        "illustrations":{
+            "hyperaria_hangar":"graphics/illustrations/hyper_aria_hangar.png",
+            "favonius_casino":"graphics/illustrations/uaf_casino.png",
+            "favonius_supplies":"graphics/illustrations/hyper_aria_hangar.png",
+            "favonius_fuel":"graphics/illustrations/hyper_aria_hangar.png",
+	    "favonius_supplies_fuel":"graphics/illustrations/hyper_aria_hangar.png",
+	    "favonius_keycard":"graphics/illustrations/hyper_aria_hangar.png",
+            "auroria_city":"graphics/illustrations/newaurora.png",
+            "persephone_cg":"graphics/illustrations/persephone_recruitment.png",
+            "solvernia_cg":"graphics/illustrations/solvernia_recruitment.png",
+        },
+        "shop_graphics":{
+            "exchange1":"graphics/shop_graphics/exchange1.png",
+            "exchange2":"graphics/shop_graphics/exchange2.png",
+            "exchange3":"graphics/shop_graphics/exchange3.png",
+            "exchange4":"graphics/shop_graphics/exchange4.png",
+            "exchange5":"graphics/shop_graphics/exchange5.png",
+            "card1":"graphics/shop_graphics/card1.png",
+            "card2":"graphics/shop_graphics/card2.png",
+            "card3":"graphics/shop_graphics/card3.png",
+            "card4":"graphics/shop_graphics/card4.png",
+            "card5":"graphics/shop_graphics/card5.png",
+            "bp1":"graphics/shop_graphics/bp1.png",
+            "bp2":"graphics/shop_graphics/bp2.png",
+            "bp3":"graphics/shop_graphics/bp3.png",
+            "bp4":"graphics/shop_graphics/bp4.png",
+            "bp5":"graphics/shop_graphics/bp5.png",
+            "bp6":"graphics/shop_graphics/bp6.png",
+            "survey1":"graphics/shop_graphics/survey1.png",
+            "survey2":"graphics/shop_graphics/survey2.png",
+            "survey3":"graphics/shop_graphics/survey3.png",
+            "survey4":"graphics/shop_graphics/survey4.png",
+            "survey5":"graphics/shop_graphics/survey5.png",
+            "zepporia":"graphics/shop_graphics/zepporia.png",
+            "eyeseau":"graphics/shop_graphics/eyeseau.png",
+            "fusoreina":"graphics/shop_graphics/fusoreina.png",
+            "isenoria":"graphics/shop_graphics/isenoria.png",
+            "lillaru_hg":"graphics/shop_graphics/lillaru_hg.png",
+            "lillaru_mary_su":"graphics/shop_graphics/lillaru_mary_su.png",
+            "procastria_gh":"graphics/shop_graphics/procastria_gh.png",
+            "lyora":"graphics/shop_graphics/lyora.png",
+            "maisya":"graphics/shop_graphics/maisya.png",
+            "sentry":"graphics/shop_graphics/sentry.png",
+            "sunami":"graphics/shop_graphics/sunami.png",
+            "super_nakiha":"graphics/shop_graphics/super_nakiha.png",
+            "roria_esvernia":"graphics/shop_graphics/roria_esvernia.png",
+            "ularaya":"graphics/shop_graphics/ularaya.png",
+            "akatsazuka":"graphics/shop_graphics/akatsazuka.png",
+
+            "test_banner":"graphics/shop_graphics/test_banner.png",
+            "banner1":"graphics/shop_graphics/banner1.png",
+            "banner2":"graphics/shop_graphics/banner2.png",
+        },
+        "tooltip":{
+            "uaf_temporal_drive":"graphics/icons/tooltip/uaf_temporal_device.png",
+            "uaf_royalarith_weapon":"graphics/icons/tooltip/uaf_royalarith_weapon.png",
+            "uaf_royalarith_fighter":"graphics/icons/tooltip/uaf_royalarith_fighter.png",
+            "uaf_sec_lg":"graphics/icons/tooltip/uaf_sec_lg.png",
+            "uaf_sec_lg_ballistic":"graphics/icons/tooltip/uaf_sec_lg_ballistic.png",
+            "uaf_sec_lg_energy":"graphics/icons/tooltip/uaf_sec_lg_energy.png",
+            "uaf_sec_lg_hybrid":"graphics/icons/tooltip/uaf_sec_lg_hybrid.png",
+            "uaf_sec_med":"graphics/icons/tooltip/uaf_sec_med.png",
+            "uaf_sec_med_ballistic":"graphics/icons/tooltip/uaf_sec_med_ballistic.png",
+            "uaf_sec_med_energy":"graphics/icons/tooltip/uaf_sec_med_energy.png",
+            "uaf_sec_med_hybrid":"graphics/icons/tooltip/uaf_sec_med_hybrid.png",
+            "uaf_optimized_ordnance_assembly":"graphics/icons/tooltip/uaf_optimized_ordnance_assembly.png",
+            "uaf_hullmod_incompatible":"graphics/icons/tooltip/uaf_hullmod_incompatible.png",
+            "uaf_fighterpilot":"graphics/icons/tooltip/uaf_fighterpilot.png",
+            "vanilla_marine":"graphics/icons/tooltip/vanilla_marine.png"
+        },
+
+        "blueprint_packages":{
+			"uaf_automata_bp":"graphics/icons/cargo/bp_auroran_auto.png",
+			"uaf_automata_rare_bp":"graphics/icons/cargo/bp_auroran_auto.png",
+			"uaf_military_bp":"graphics/icons/cargo/bp_auroran_mil.png",
+			"uaf_military_rare_bp":"graphics/icons/cargo/bp_auroran_mil.png",
+			"uaf_standard_bp":"graphics/icons/cargo/bp_auroran_std.png",
+			"uaf_standard_rare_bp":"graphics/icons/cargo/bp_auroran_std.png",
+			"uaf_prototype_bp":"graphics/icons/cargo/bp_auroran_prt.png",
+			"uaf_elite_bp":"graphics/icons/cargo/bp_auroran_elite.png",
+			"uaf_missile_package":"graphics/icons/cargo/bp_auroran_msl.png",
+			"uaf_ship_bp_item":"graphics/icons/cargo/bp_auroran_std.png",
+			"uaf_fighter_bp_item":"graphics/icons/cargo/bp_auroran_std.png",
+			"uaf_weapon_bp":"graphics/icons/cargo/bp_auroran_wpn.png",
+            "uaf_weapon_package":"graphics/icons/cargo/bp_auroran_msl.png",
+            "uaf_fighter_package":"graphics/icons/cargo/bp_auroran_std.png"
+        },
+        "uaf_overdrive":{
+            "cherry":"graphics/ships/Cherry/uaf_cherry_xxl_core_overdrive.png"
+        },
+        "uaf_normal":{
+            "cherry":"graphics/ships/Cherry/uaf_cherry_xxl_core.png"
+        },
+        "uaf_herexa_flash":{
+            "herexa_flash":"graphics/weapons/Herexa 609mm Dual/uaf_herexa_flash.png"
+        },
+        "uaf_nuke":{
+            "aftermath_1":"graphics/fx/semibreve_gfx/nuke_aftermath_1.png",
+            "aftermath_2":"graphics/fx/semibreve_gfx/nuke_aftermath_2.png",
+            "explosion_1":"graphics/fx/semibreve_gfx/nuke_explosion_1.png",
+            "explosion_2":"graphics/fx/semibreve_gfx/nuke_explosion_2.png",
+            "explosion_2a":"graphics/fx/semibreve_gfx/nuke_explosion_2a.png",
+            "glow_1":"graphics/fx/semibreve_gfx/nuke_glow_1.png",
+            "glow_2":"graphics/fx/semibreve_gfx/nuke_glow_2.png",
+            "glow_3":"graphics/fx/semibreve_gfx/nuke_glow_3.png",
+            "particle_1":"graphics/fx/semibreve_gfx/nuke_particle_1.png",
+            "particle_2":"graphics/fx/semibreve_gfx/nuke_particle_2.png",
+            "shockwave_1":"graphics/fx/semibreve_gfx/nuke_shockwave_1.png",
+            "shockwave_2":"graphics/fx/semibreve_gfx/nuke_shockwave_2.png",
+            "shockwave_3":"graphics/fx/semibreve_gfx/nuke_shockwave_3.png"
+        },
+        "uaf_sakura_missile":{
+            "fx":"graphics/fx/uaf_sakura_gfx_1.png"
+        },
+        "uaf_hyperbright_flare":{
+            "flare_1":"graphics/fx/hyperbright_1.png",
+            "flare_2":"graphics/fx/hyperbright_2.png",
+            "flare_3":"graphics/fx/hyperbright_3.png",
+        },
+        "uaf_person":{
+            "uafnia":"graphics/portraits/uaf_nia.png",
+            "uafnia2":"graphics/portraits/Old/secret/access_denied/uaf_nia.png",
+            "uafroboqueen":"graphics/portraits/uaf_roboqueen.png",
+            "uafqueen":"graphics/portraits/uaf_queen.png",
+            "uafalexandra":"graphics/portraits/uaf_alexandra.png",
+            "uafinari":"graphics/portraits/uaf_inari.png",
+            "uafmaggy":"graphics/portraits/uaf_sup_maggy_128.png",
+            "uafmarty":"graphics/portraits/uaf_sup_marty_128.png",
+            "uafyimie":"graphics/portraits/uaf_yimie.png",
+            "uafmizuki":"graphics/portraits/uaf_mizuki.png",
+            "uafsolvernia_old":"graphics/portraits/uaf_sup_solvernia_128.png",
+            "uafsolvernia":"graphics/portraits/uaf_sup_solvernia.png",
+            "uaf_shady_informant":"graphics/portraits/uaf_td_informant.png",
+            "uaf_leona":"graphics/portraits/uaf_female22_128.png",
+            "uaf_narumi":"graphics/portraits/uaf_narumi_128.png",
+            "uaf_mayu":"graphics/portraits/uaf_sup_mayu_128.png",
+            "uaf_sophia":"graphics/portraits/uaf_sup_sophia_128.png"
+        },
+        "uaf_rafflesya_sprite":{
+            "normal":"graphics/ships/rafflesya_shbmb.png",
+            "docked":"graphics/ships/fx/uaf_rafflesya_prop.png",
+            "_docked":"graphics/weapons/null.png"
+        },
+        "emp":{
+            "uaf_eyeseau_pulse":"graphics/fx/uaf_eyeseau_suv_radar_ring.png",
+            "uaf_secondary_pulse":"graphics/fx/uaf_eyeseau_suv_radar_ring_2.png",
+        },
+        "muzzle":{
+            "uaf_cyrexase_0":"graphics/weapons/Cyrexa Single/muzzles/uaf_cyrexase_00.png",
+            "uaf_cyrexase_1":"graphics/weapons/Cyrexa Single/muzzles/uaf_cyrexase_01.png",
+            "uaf_cyrexase_2":"graphics/weapons/Cyrexa Single/muzzles/uaf_cyrexase_02.png",
+            "uaf_cyrexase_3":"graphics/weapons/Cyrexa Single/muzzles/uaf_cyrexase_03.png",
+            "uaf_cyrexase_4":"graphics/weapons/Cyrexa Single/muzzles/uaf_cyrexase_04.png",
+            "uaf_cyrexase_5":"graphics/weapons/Cyrexa Single/muzzles/uaf_cyrexase_05.png",
+            "uaf_cyrexase_6":"graphics/weapons/Cyrexa Single/muzzles/uaf_cyrexase_06.png",
+            "uaf_cyrexase_7":"graphics/weapons/Cyrexa Single/muzzles/uaf_cyrexase_07.png",
+            "uaf_cyrexase_8":"graphics/weapons/Cyrexa Single/muzzles/uaf_cyrexase_08.png",
+            "uaf_cyrexase_9":"graphics/weapons/Cyrexa Single/muzzles/uaf_cyrexase_09.png",
+            "uaf_cyrexase_10":"graphics/weapons/Cyrexa Single/muzzles/uaf_cyrexase_10.png",
+            "uaf_cyrexase_11":"graphics/weapons/Cyrexa Single/muzzles/uaf_cyrexase_11.png",
+            "triyia_pdx_fire_glow_1":"graphics/weapons/Triyia PDX/animation/triyia_pdx_fire_glow_1.png",
+            "triyia_pdx_fire_glow_2":"graphics/weapons/Triyia PDX/animation/triyia_pdx_fire_glow_2.png",
+            "triyia_pdx_fire_glow_3":"graphics/weapons/Triyia PDX/animation/triyia_pdx_fire_glow_3.png",
+            "triyia_pdx_fire_glow_4":"graphics/weapons/Triyia PDX/animation/triyia_pdx_fire_glow_4.png",
+            "triyia_pdx_fire_glow_5":"graphics/weapons/Triyia PDX/animation/triyia_pdx_fire_glow_5.png",
+        },
+        "flak_puff":{
+            "puff_sprite1":"graphics/fx/flak_explosion.png",
+            "puff_sprite2":"graphics/fx/flak_explosion_2.png"
+        },
+        "trail":{
+            "uaf_melody_trail":"graphics/fx/uaf_melody_trail.png",
+        },
+        "fx":{
+            "uaf_shockwave":"graphics/fx/uaf_shockwave_fx.png",
+            "uaf_eyeseau_scan":"graphics/fx/uaf_eyeseau_search_scanner_fx.png",
+            "uaf_ularaya_lockon":"graphics/fx/uaf_ularaya_target_fx.png",
+        },
+        "glow":{
+            #"reisen_reactor":"graphics/ships/fx/reisen_g_a.png",
+            "triyia_pdx_glow":"graphics/weapons/Triyia PDX/triyia_pdx_glow.png"
+
+        },
+        "abilities":{
+			"eyeseau_omniscan":"graphics/fx/omniscan_texture.png"
+		},
+		 "uaf_status":{
+			"uaf_engineering":"graphics/icons/status/uaf_engineering.png",
+			"uaf_engineering_halted":"graphics/icons/status/uaf_engineering_halted.png",
+		},
+        "hullmod_icons":{
+            "uaf_fighterpilot":"graphics/icons/tooltip/uaf_fighterpilot.png",
+            "uaf_hullmod_incompatible":"graphics/icons/tooltip/uaf_hullmod_incompatible.png",
+            "vanilla_marine":"graphics/icons/tooltip/vanilla_marine.png"
+        }
+    }
+}

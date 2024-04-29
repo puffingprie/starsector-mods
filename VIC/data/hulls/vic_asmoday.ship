@@ -1,0 +1,113 @@
+{
+  "hullName": "Asmoday Shturmfighter",
+  "hullId": "vic_asmoday",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/Asmoday.png",
+  "style": "VIC",
+  "height": 72,
+  "width": 38,
+  "center": [19, 36],
+  "collisionRadius": 40.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 37.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "vic_fighteralwaysburn",
+	"vic_overloadProtection"
+  ],
+  "builtInWeapons": {
+    "WS0006": "vic_fighterTrail",
+    "WS0007": "vic_fighterTrail"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [13, -9.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -0,
+      "locations": [13, 9.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [5, -13.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -0,
+      "locations": [5, 13.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [31, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 180,
+      "locations": [-23, 4.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": -180,
+      "locations": [-23, -4.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-23, 4.5],
+      "length": 34,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "VOLKOV-LAIDLAW'S FIGHTER"
+    },
+    {
+      "location": [-23, -4.5],
+      "length": 34,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "VOLKOV-LAIDLAW'S FIGHTER"
+    }
+  ],
+  "bounds": [
+    -9, 13.5,
+    33.5, -0,
+    -9, -13.5,
+    -25, 0
+  ]
+}

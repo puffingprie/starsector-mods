@@ -1,0 +1,10 @@
+{
+    "startShipsCombatSmall":[
+      ["fasces_standard", "fidem_std", "cerberus_luddic_Standard"]
+    ],
+    "startShipsTradeSmall":[["mule_luddic_support", "cerberus_luddic_Standard", "brawler_luddic_standard"]],
+    "startShipsCombatLarge":[
+      ["sebastian_start", "enforcer_Balanced_luddic", "brawler_luddic_standard"]
+    ],
+    "startShipsExplorerLarge":[["venture_luddic_support", "fidem_cs", "shepherd_Frontier"]],
+}

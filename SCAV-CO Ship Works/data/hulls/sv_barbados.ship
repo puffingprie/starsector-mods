@@ -1,0 +1,246 @@
+{
+  "hullName": "Barbados",
+  "hullId": "sv_barbados",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/pirate ships/sv_barbados.png",
+  "style": "VACSINC",
+  "height": 262,
+  "width": 168,
+  "center": [84, 131],
+  "collisionRadius": 181,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 173,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sv_vacsincconstruction"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-61, -29]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-61, 29]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 193,
+      "angle": -89,
+      "locations": [-39, -70]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 193,
+      "angle": 89,
+      "locations": [-39, 70]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -75,
+      "locations": [23, -53]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 75,
+      "locations": [23, 53]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": -90.5,
+      "locations": [-9, -15]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": 90.5,
+      "locations": [-9, 15]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 25,
+      "angle": 0,
+      "locations": [118, -38]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 25,
+      "angle": -0,
+      "locations": [118, 38]
+    },
+    {
+      "id": "WS0011",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [65, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-125, -47.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-125, -40.5],
+      "length": 44.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-125, 40.5],
+      "length": 44.5,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-125, -33.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-125, 33.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-117, -20.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-117, 20.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-117, -15.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-117, 15.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-117, -11],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-117, 11],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-125, 47.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    }
+  ],
+  "bounds": [
+    -116.5, 31,
+    -123.5, 31,
+    -123.5, 49.5,
+    -101.5, 65,
+    -47.5, 75,
+    -31.5, 75,
+    -31.5, 50.5,
+    112, 50,
+    112, -50,
+    -31.5, -50.5,
+    -31.5, -75,
+    -47.5, -75,
+    -101.5, -65,
+    -123.5, -49.5,
+    -123.5, -31,
+    -116.5, -31
+  ]
+}

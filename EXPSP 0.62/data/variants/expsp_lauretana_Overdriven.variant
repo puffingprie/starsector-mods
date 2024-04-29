@@ -1,0 +1,62 @@
+{
+  "variantId": "expsp_lauretana_Overdriven",
+  "hullId": "expsp_lauretana",
+  "displayName": "Overdriven",
+  "goalVariant": true,
+  "fluxCapacitors": 2,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "insulatedengine",
+    "safetyoverrides"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_melta",
+        "WS0002": "expsp_type56",
+        "WS0003": "expsp_type56"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "expsp_coilciws",
+        "WS0005": "expsp_coilciws",
+        "WS0006": "expsp_coilciws",
+        "WS0007": "expsp_coilciws",
+        "WS0010": "expsp_coilciws",
+        "WS0011": "expsp_coilciws"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "expsp_electrolance",
+        "WS0009": "expsp_electrolance"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

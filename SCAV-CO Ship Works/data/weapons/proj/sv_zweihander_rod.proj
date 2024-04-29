@@ -1,0 +1,16 @@
+{
+	"id":"sv_zweihander_rod",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":900.0,
+	"hitGlowRadius":100,
+	"width":15.0,
+	"fadeTime":0.2,
+	"fringeColor":[0,255,255,255],
+	"coreColor":[0,255,255,255],	
+	"textureScrollSpeed":1,
+	"pixelsPerTexel":1.0,
+	"bulletSprite":"graphics/weapons/proj/sv_zweihander_rod.png"
+}

@@ -1,0 +1,123 @@
+{
+  "hullName": "Unknown Contact",
+  "hullId": "hmi_spookyboi_phase5",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/mess/hmi_spookyboi_phase5.png",
+  "style": "OMEGA",
+  "height": 86,
+  "width": 158,
+  "center": [79, 48.5],
+  "collisionRadius": 96,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 86,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hmi_terror_mindcontrol2",
+    "hmi_terror_boost",
+	"hmi_terror_vanish2",
+    "targetingunit",
+    "missile_reload",
+    "advancedshieldemitter",
+    "eccm",
+    "ecm",
+    "insulatedengine"
+  ],
+  "builtInWeapons": {
+    "WS0001": "tachyonlance_spookp5_tach",
+    "WS0002": "tachyonlance_spookp5_tach",
+    "WS0003": "hmi_gasterblaster",
+    "WS0004": "hmi_gasterblaster",
+    "WS0005": "hmi_spooky_p5_plasma"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 104,
+      "angle": -1.5,
+      "locations": [2, 20]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 104,
+      "angle": 1.5,
+      "locations": [2, -20]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 78,
+      "locations": [0, 46]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -78,
+      "locations": [0, -46]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [7, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-33, 25.5],
+      "length": 40,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-33, -25.5],
+      "length": 40,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-40, -0],
+      "length": 25.5,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    -45, -6,
+    -34.5, -14,
+    -42.5, -26,
+    -28, -63,
+    13, -78.5,
+    20, -48,
+    35, -35,
+    18.5, -11,
+    18.5, 11,
+    35, 35,
+    20, 48,
+    13, 78.5,
+    -28, 63,
+    -42.5, 26,
+    -34.5, 14,
+    -45, 6
+  ]
+}

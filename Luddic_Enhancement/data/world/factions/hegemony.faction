@@ -1,0 +1,15 @@
+{
+
+	"knownShips":{
+		"hulls":[
+			"fasces",				
+			"revolt",
+		],
+	},
+	"hullFrequency":{
+		"hulls":{
+		"fasces":0.25,
+		"revolt":0.25,	
+		},
+	},
+},

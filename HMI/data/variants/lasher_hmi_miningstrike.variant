@@ -1,0 +1,32 @@
+{
+  "displayName": "Miner Strike",
+  "fluxCapacitors": 5,
+  "fluxVents": 5,
+  "goalVariant": true,
+  "hullId": "lasher_hmi",
+  "hullMods": [
+    "insulatedengine"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "lasher_hmi_miningstrike",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "hammer",
+        "WS0002": "hammer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "mining_gen",
+        "WS0004": "mining_gen"
+      }
+    }
+  ],
+  "wings": []
+}

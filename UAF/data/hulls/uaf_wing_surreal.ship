@@ -1,0 +1,103 @@
+{
+  "hullName": "Surreal",
+  "hullId": "uaf_wing_surreal",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/surreal_heavy_int.png",
+  "style": "UAF_FIGHTER_M",
+  "height": 59,
+  "width": 47,
+  "center": [23.5, 29.5],
+  "collisionRadius": 35,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 0,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_limitedAmmo"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [8.5, 7]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [8.5, -7]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [8.5, 11.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [8.5, -11.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-9.5, 4.5],
+      "length": 20.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [-9.5, -4.5],
+      "length": 20.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [-9.5, -0],
+      "length": 33.5,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "MELODY_ENGINE_H"
+    }
+  ],
+  "bounds": [
+    26.5, -1,
+    9.5, -4,
+    9.5, -13,
+    -2.5, -14.5,
+    -11.5, -22.5,
+    -15.5, -20,
+    -12.5, -12,
+    -20, -15,
+    -27, -6.5,
+    -18, -4.5,
+    -18, 4.5,
+    -27, 6.5,
+    -20, 15,
+    -12.5, 12,
+    -15.5, 20,
+    -11.5, 22.5,
+    -2.5, 14.5,
+    9.5, 13,
+    9.5, 4,
+    26.5, 1
+  ]
+}

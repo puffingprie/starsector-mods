@@ -1,0 +1,15 @@
+{
+	"sun_hd_transition_boom":[ 
+		{"file":"sun_hd/sounds/sfx_abilities/transition_boom.ogg","pitch":1.0,"volume":0.6},
+	],
+	"sun_hd_pulse":[ 
+		{"file":"sun_hd/sounds/sfx_abilities/pulse.ogg","pitch":1.0,"volume":0.7},
+	],
+	"sun_hd_charge":[ 
+		{"file":"sun_hd/sounds/sfx_abilities/charge.ogg","pitch":1.0,"volume":1.0},
+	],
+}
+
+
+
+

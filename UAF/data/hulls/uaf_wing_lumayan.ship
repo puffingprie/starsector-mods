@@ -1,0 +1,82 @@
+{
+  "hullName": "Lumayan (mFA)",
+  "hullId": "uaf_wing_lumayan",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/lumayan_mfa.png",
+  "style": "UAF_FIGHTER_M",
+  "height": 78,
+  "width": 55,
+  "center": [27.5, 39],
+  "collisionRadius": 47.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 40,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [5.5, 5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [5.5, -5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-3, 15]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-3, -15]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-17, 7],
+      "length": 43.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "MELODY_ENGINE_F"
+    },
+    {
+      "location": [-17, -7],
+      "length": 43.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "MELODY_ENGINE_F"
+    }
+  ],
+  "bounds": [
+    -24.5, 6,
+    -32.5, 11.5,
+    -18.5, 25.5,
+    5.5, 9.5,
+    38, -0,
+    5.5, -9.5,
+    -18.5, -25.5,
+    -32.5, -11.5,
+    -24.5, -6,
+    -33, -0
+  ]
+}

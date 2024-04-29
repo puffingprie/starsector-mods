@@ -1,0 +1,29 @@
+{
+    
+    "designTypeColors":{
+        "Machina Void Shipyards":[32,142,193,255]
+    },
+    "graphics":{
+	"blueprint_packages":{
+		"expsp_mvs_package":"graphics/icons/cargo/expsp_package_bp.png",		
+      },
+     "fx":{
+			
+			 "base_trail_smooth":"graphics/fx/base_trail_smooth.png",
+            		"base_trail_contrail":"graphics/fx/base_trail_contrail.png",
+           		 "base_trail_mild":"graphics/fx/base_trail_mild.png",
+           		 "base_trail_fuzzy":"graphics/fx/base_trail_fuzzy.png",
+           		 "base_trail_rough":"graphics/fx/base_trail_rough.png",
+            		"base_trail_smoke":"graphics/fx/base_trail_smoke.png",
+           		 "base_trail_heavySmoke":"graphics/fx/base_trail_heavySmoke.png",
+           		 "base_trail_heavyBurn":"graphics/fx/base_trail_heavyBurn.png",
+          		  "base_trail_weave":"graphics/fx/base_trail_weave.png",
+           		 "base_trail_aura":"graphics/fx/base_trail_aura.png",
+            		"base_trail_zap":"graphics/fx/base_trail_zap.png",
+			"base_trail_pixel":"graphics/fx/base_trail_pixel.png",
+            		"base_trail_zapWithCore":"graphics/fx/base_trail_zapWithCore.png",
+					"hit_fx_pixel":"graphics/fx/hit_fx_pixel.png",
+		},
+	}
+   
+}

@@ -1,0 +1,46 @@
+{
+  "variantId": "uaf_novayu_suppressor",
+  "hullId": "uaf_novayu",
+  "displayName": "Suppressor",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "eccm",
+    "auxiliarythrusters"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_tona_i",
+        "WS0002": "uaf_tona_i"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "uaf_selemene_s_mrm",
+        "WS0004": "uaf_selemene_s_mrm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "uaf_weiss_flk"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

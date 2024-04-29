@@ -1,0 +1,52 @@
+{
+  "variantId": "sv_madtiger_standerd",
+  "hullId": "sv_madtiger",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "advancedoptics",
+    "targetingunit",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sv_zweihander_large",
+        "WS0006": "gravitonbeam",
+        "WS0007": "gravitonbeam",
+        "WS0008": "gravitonbeam",
+        "WS0009": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "taclaser",
+        "WS0005": "taclaser",
+        "WS0010": "taclaser",
+        "WS0011": "taclaser",
+        "WS0012": "taclaser",
+        "WS0013": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "pdlaser",
+        "WS0003": "pdlaser",
+        "WS0014": "pdlaser",
+        "WS0015": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

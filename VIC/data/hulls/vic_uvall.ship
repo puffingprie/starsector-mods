@@ -1,0 +1,76 @@
+{
+  "hullName": "Uvall Interceptor",
+  "hullId": "vic_uvall",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/Uvall.png",
+  "style": "VIC",
+  "height": 58,
+  "width": 26,
+  "center": [13, 29],
+  "collisionRadius": 30.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 30,
+  "viewOffset": 0,
+  "builtInMods": [
+    "vic_fighteralwaysburn",
+	"vic_overloadProtection"
+  ],
+  "builtInWeapons": {
+    "WS0004": "vic_fighterTrail"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [10, -10.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -0,
+      "locations": [10, 10.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [12.5, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 180,
+      "locations": [-13, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-14, -0],
+      "length": 22.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "VOLKOV-LAIDLAW'S FIGHTER"
+    }
+  ],
+  "bounds": [
+    1, 12,
+    27.5, -0,
+    1, -12,
+    -18.5, -0.5
+  ]
+}

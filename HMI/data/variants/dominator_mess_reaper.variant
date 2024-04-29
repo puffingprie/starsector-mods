@@ -1,0 +1,44 @@
+{
+  "displayName": "Reaper",
+  "fluxCapacitors": 23,
+  "fluxVents": 30,
+  "goalVariant": true,
+  "hullId": "mess_dominator",
+  "hullMods": [
+    "missleracks",
+    "eccm"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "dominator_mess_reaper",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "cyclone",
+        "WS0002": "cyclone",
+        "WS0003": "typhoon",
+        "WS0004": "typhoon",
+        "WS0005": "typhoon",
+        "WS0006": "reaper",
+        "WS0007": "reaper",
+        "WS0008": "reaper",
+        "WS0009": "typhoon",
+        "WS0010": "reaper",
+        "WS0011": "reaper"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    }
+  ],
+  "wings": []
+}

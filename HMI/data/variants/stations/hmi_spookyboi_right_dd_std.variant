@@ -1,0 +1,39 @@
+{
+  "variantId": "hmi_spookyboi_right_dd_std",
+  "hullId": "hmi_spookyboi_right_dd",
+  "displayName": "Knee",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "tachyonlance_spook_tach_right"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "sabot",
+        "WS0003": "sabot",
+        "WS0006": "sabot"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "sabot",
+        "WS0005": "sabot"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

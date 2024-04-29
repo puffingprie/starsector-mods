@@ -1,0 +1,42 @@
+{
+	"variantOverrides":{
+		"mule_luddic_path_strike":30,
+		"hermes_pather_mortar":30,
+		"eradicator_lp_std":30,
+	},
+    "hullFrequency":{
+        "hulls":{
+            "phaeton_lp":0.5,
+			"starliner_lp_x":0.5,
+			"vanguard_lp":0.1,
+			"hermes_pather":0.1,
+			"mule_lp_x":0.1,
+        },
+	},
+		
+    "shipsWhenImporting":{
+        "hulls":[
+			"le_prometheus3",
+			"eradicator_lp",
+			"vanguard_lp",
+			"hermes_pather",
+			"mule_luddic_path",
+			"phaeton_lp",
+			"mule_lp_x",
+			"starliner_lp_x",
+        ],
+    },
+	
+    "knownShips":{
+        "hulls":[
+			"le_prometheus3",
+			"eradicator_lp",
+			"vanguard_lp",
+			"hermes_pather",
+			"mule_luddic_path",
+			"phaeton_lp",
+			"mule_lp_x",
+			"starliner_lp_x",
+        ],
+    },
+},

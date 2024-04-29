@@ -1,0 +1,86 @@
+{
+  "variantId": "uaf_purcellyra_spearhead",
+  "hullId": "uaf_purcellyra",
+  "displayName": "Spearhead",
+  "goalVariant": true,
+  "fluxCapacitors": 1,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "missleracks",
+    "fluxbreakers",
+    "eccm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0023": "uaf_herexa_triple",
+        "WS0024": "uaf_herexa_triple"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0019": "uaf_minirest_asm_l",
+        "WS0020": "uaf_minirest_asm_l",
+        "WS0021": "uaf_minirest_asm_l",
+        "WS0022": "uaf_minirest_asm_l"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "uaf_typhoon_s_sasm",
+        "WS0010": "uaf_typhoon_s_sasm",
+        "WS0013": "uaf_amazoch_light_asrm_dual",
+        "WS0014": "uaf_amazoch_light_asrm_dual",
+        "WS0017": "uaf_amazoch_light_asrm_dual",
+        "WS0018": "uaf_amazoch_light_asrm_dual"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "uaf_minibreve_tnt_s",
+        "WS0004": "uaf_minibreve_tnt_s"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "uaf_flair_pod",
+        "WS0008": "uaf_flair_pod",
+        "WS0011": "uaf_racun_pod",
+        "WS0012": "uaf_racun_pod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "uaf_pd_reina_ii",
+        "WS0006": "uaf_pd_reina_ii",
+        "WS0015": "uaf_ivory_triple",
+        "WS0016": "uaf_hikone_quad"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_weiss_flk",
+        "WS0002": "uaf_weiss_flk"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

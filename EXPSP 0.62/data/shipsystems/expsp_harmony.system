@@ -1,0 +1,48 @@
+{
+	"id":"expsp_harmony",
+	"type":"STAT_MOD",
+	"aiType":"TARGETING_FEED",
+	#"type":"SHIELD_MOD",
+	#"aiType":"FORTRESS_SHIELD",
+	
+	"statsScript":"data.shipsystems.scripts.HarmonyStats",
+	
+	"engineGlowColor":[155,250,200,255],
+	"engineGlowContrailColor":[155,250,200,25],
+	"engineGlowLengthMult":1,
+	"engineGlowWidthMult":1,
+	"engineGlowGlowMult":1.2,
+		
+	"shieldRingColor":[255,255,255,255],
+	"shieldInnerColor":[155,250,200,75],
+	"shieldThicknessMult":1,
+	"shieldFluctuationMult":0,
+	
+	#"soundFilterType":"LOWPASS",
+	#"soundFilterGain":0.75,
+	#"soundFilterGainHF":0.0,
+	
+	#"useSound":"shield_raise",
+	#"loopSound":"beam_heavy_loop",
+	#"deactivateSound":"shield_lower",
+	#"outOfUsesSound":"gun_out_of_ammo",
+	
+	#"useSound":"shield_raise",
+	#"deactivateSound":"shield_lower",
+	# Stian disabled these two because the timing of activate/deactivate did not work together with the loop sound.
+	# Enable them to test the issue. The deactivateSound plays late, after the loopsound has already stopped,
+	# creating a stuttering effect. 
+	"useSound":"system_targeting_feed",
+	#"loopSound":"system_targeting_feed_loop",
+	"deactivateSound":"gun_out_of_ammo",
+	"outOfUsesSound":"gun_out_of_ammo",
+	"aiHints":{
+		"activeSpeedIncrease":75,
+		"burstMovementPotential":0,
+		"averageSpeedIncrease":37.5,
+	}
+}
+
+
+
+

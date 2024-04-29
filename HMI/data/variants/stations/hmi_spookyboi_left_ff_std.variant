@@ -1,0 +1,36 @@
+{
+  "variantId": "hmi_spookyboi_left_ff_std",
+  "hullId": "hmi_spookyboi_left_ff",
+  "displayName": "Scapula",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ionpulser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "ionbeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "gravitonbeam"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,189 @@
+{
+  "hullName": "Kiel",
+  "hullId": "expsp_kiel",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/expsp_apogee_mvs.png",
+  "style": "EXPSP_MVS",
+  "height": 310,
+  "width": 140,
+  "center": [71.5, 161],
+  "collisionRadius": 203,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 186.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "machinatargetingsystems",
+    "hiressensors",
+   
+  ],
+   "builtInWings": [
+    "expsp_attackfunnel_PD_wing"
+  ],
+  "builtInWeapons": {
+    "WS0007": "expsp_plasmamrm"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [129.5, -7.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [125, 25.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 45,
+      "locations": [80.5, 36.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -45,
+      "locations": [80.5, -34.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 116.5,
+      "locations": [-72, 43.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -91,
+      "locations": [-72, -46.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 45,
+      "locations": [-19.5, 42]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -45,
+      "locations": [-35, -40.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-134.5, 11],
+      "length": 34,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-135, -9.5],
+      "length": 34,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-136, -0],
+      "length": 40,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-127.5, -35],
+      "length": 45,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-127.5, 35],
+      "length": 45,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-123, -45.5],
+      "length": 45,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-123, 45.5],
+      "length": 45,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    }
+  ],
+  "bounds": [
+    -129.5, -52.5,
+    -111.5, -53,
+    -97, -36,
+    -80, -35.5,
+    -80.5, -55.5,
+    -60.5, -54,
+    -49.5, -30.5,
+    -14, -28,
+    48, -28.5,
+    68.5, -45,
+    117, -39,
+    117, 36,
+    68.5, 42,
+    48, 25.5,
+    -14, 25,
+    -64.5, 31,
+    -65, 46.5,
+    -83.5, 56,
+    -93.5, 36,
+    -110, 54,
+    -129.5, 54.5,
+    -146.5, 13.5,
+    -141, -25
+  ]
+}

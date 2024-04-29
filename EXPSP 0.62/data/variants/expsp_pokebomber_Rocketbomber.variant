@@ -1,0 +1,24 @@
+{
+  "variantId": "expsp_pokebomber_Rocketbomber",
+  "hullId": "expsp_pokebomber",
+  "displayName": "Kinetic Bomber",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_type56_fighter",
+        "WS0002": "pdlaser",
+        "WS0003": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

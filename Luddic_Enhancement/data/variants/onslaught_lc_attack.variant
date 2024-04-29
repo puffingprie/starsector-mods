@@ -1,0 +1,73 @@
+{
+  "variantId": "onslaught_lc_attack",
+  "hullId": "onslaught_lc",
+  "displayName": "Attack",
+  "goalVariant": false,
+  "fluxCapacitors": 49,
+  "fluxVents": 60,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "dedicated_targeting_core",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 016": "tpc",
+        "WS 017": "tpc"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 021": "annihilatorpod",
+        "WS 022": "annihilatorpod",
+        "WS 023": "annihilatorpod",
+        "WS 024": "annihilatorpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 019": "mark9"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 018": "hellbore",
+        "WS 020": "hellbore"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "flak",
+        "WS 002": "vulcan",
+        "WS 003": "flak",
+        "WS 004": "vulcan",
+        "WS 005": "vulcan",
+        "WS 006": "vulcan",
+        "WS 007": "flak",
+        "WS 008": "vulcan",
+        "WS 009": "vulcan",
+        "WS 010": "flak",
+        "WS 011": "flak",
+        "WS 012": "flak",
+        "WS 013": "flak",
+        "WS 014": "flak",
+        "WS 015": "flak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

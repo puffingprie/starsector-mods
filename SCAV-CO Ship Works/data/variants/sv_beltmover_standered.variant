@@ -1,0 +1,44 @@
+{
+  "variantId": "sv_beltmover_standered",
+  "hullId": "sv_beltmover",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 12,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "blast_doors"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "sv_doorknocker",
+        "WS0006": "sv_doorknocker",
+        "WS0008": "sv_doorknocker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "sv_daneaxe",
+        "WS0007": "sv_daneaxe",
+        "WS0009": "sv_daneaxe"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sv_flyswatter",
+        "WS0002": "sv_flyswatter",
+        "WS0003": "sv_flyswatter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

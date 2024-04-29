@@ -1,0 +1,58 @@
+{
+  "variantId": "mess_amalgam_med_mass_kinetic",
+  "hullId": "mess_amalgam_med_mass",
+  "displayName": "Kinetic",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "mark9"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "lightdualac",
+        "WS0003": "lightac",
+        "WS0007": "lightac",
+        "WS0012": "heavyac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "sabot_fighter",
+        "WS0005": "sabot_fighter",
+        "WS0006": "sabot_fighter"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0008": "lightneedler",
+        "WS0010": "lightdualac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "lightmg",
+        "WS0011": "lightdualmg",
+        "WS0013": "heavymg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

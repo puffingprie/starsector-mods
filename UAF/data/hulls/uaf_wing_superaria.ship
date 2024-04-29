@@ -1,0 +1,96 @@
+{
+  "hullName": "UAF Superaria",
+  "hullId": "uaf_wing_superaria",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/superaria_aft.png",
+  "style": "UAF_FIGHTER_M",
+  "height": 54,
+  "width": 43,
+  "center": [21.5, 27],
+  "collisionRadius": 29.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 33.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_limitedAmmo"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 16,
+      "angle": 0,
+      "locations": [8.5, 3]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-1, 9.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-1, -9.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-4, 12.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-4, -12.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-19, 6],
+      "length": 11,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [-19, -6],
+      "length": 11,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "MELODY_ENGINE_H"
+    }
+  ],
+  "bounds": [
+    23.5, -2,
+    2, -8,
+    -10, -20,
+    -17, -20,
+    -17, -13,
+    -24, -15,
+    -24, 15,
+    -17, 13,
+    -17, 20,
+    -10, 20,
+    2, 8,
+    23.5, 2
+  ]
+}

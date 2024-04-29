@@ -1,0 +1,114 @@
+{
+  "hullName": "Marlin",
+  "hullId": "marlin",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/marlin.png",
+  "style": "HIGH_TECH",
+  "height": 109,
+  "width": 92,
+  "center": [46, 51],
+  "collisionRadius": 67,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 65,
+  "viewOffset": 0,
+  "builtInMods": [
+    "HMI_techminedhull"
+  ],
+  "builtInWeapons": {
+    "WS0001": "marlinblaster"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [13, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-16, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [15, 19]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [15, -19]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-31.5, 13],
+      "length": 14,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-31.5, -13],
+      "length": 14,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-36, -0],
+      "length": 19,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    -48.5, -7,
+    -38, -22,
+    -29, -21,
+    -24.5, -46.5,
+    -17.5, -24.5,
+    -9, -36,
+    -8, -20,
+    -4.5, -24,
+    18.5, -25,
+    20.5, -14.5,
+    30.5, -16,
+    56.5, -11.5,
+    52.5, -4,
+    30, -3.5,
+    30, 3.5,
+    52.5, 4,
+    56.5, 11.5,
+    30.5, 16,
+    20.5, 14.5,
+    18.5, 25,
+    -4.5, 24,
+    -8, 20,
+    -9, 36,
+    -17.5, 24.5,
+    -24.5, 46.5,
+    -29, 21,
+    -38, 22,
+    -48.5, 7
+  ]
+}

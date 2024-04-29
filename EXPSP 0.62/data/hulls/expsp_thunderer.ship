@@ -1,0 +1,103 @@
+{
+  "hullName": "Thunderer",
+  "hullId": "expsp_thunderer",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/expsp_thunderer.png",
+  "style": "EXPSP_MVS",
+  "height": 60,
+  "width": 45,
+  "center": [23, 23.5],
+  "collisionRadius": 46,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 37.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [26, -2.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [-2.5, 14.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -0,
+      "locations": [-2.5, -14.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [0.5, 11.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -0,
+      "locations": [0.5, -11.5]
+    },
+    {
+      "id": "FLARE",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 180,
+      "locations": [-13.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-17, 7.5],
+      "length": 24,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    },
+    {
+      "location": [-17, -7.5],
+      "length": 24,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    }
+  ],
+  "bounds": [
+    22, -2,
+    -5, -17,
+    -5.5, -10,
+    -13.5, -12,
+    -13.5, 12,
+    -5.5, 10,
+    -5, 17,
+    22, 2
+  ]
+}

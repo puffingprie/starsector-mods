@@ -1,0 +1,12 @@
+{
+    "masterVersionFile":"https://www.sc2mafia.com/Starsector/version/Imperium.version",
+    "modName":"Interstellar Imperium",
+    "modThreadId":8007,
+    "directDownloadURL": "https://bitbucket.org/DarkRevenant/interstellar-imperium/downloads/Interstellar_Imperium_2.6.4.7z",
+    "modVersion":
+    {
+        "major":2,
+        "minor":6,
+        "patch":4
+    },
+}

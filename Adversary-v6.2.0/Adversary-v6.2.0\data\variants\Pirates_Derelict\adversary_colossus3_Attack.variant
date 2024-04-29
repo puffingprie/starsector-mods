@@ -1,0 +1,43 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 19,
+    "fluxVents": 8,
+    "hullId": "colossus3",
+    "hullMods": [
+        "reinforcedhull",
+        "adaptiveshields",
+        "damaged_mounts",
+        "degraded_life_support",
+        "erratic_injector",
+        "glitched_sensors",
+        "increased_maintenance"
+    ],
+    "permaMods": [
+        "reinforcedhull",
+        "adaptiveshields",
+        "damaged_mounts",
+        "degraded_life_support",
+        "erratic_injector",
+        "glitched_sensors",
+        "increased_maintenance"
+    ],
+    "sMods": [
+        "reinforcedhull",
+        "adaptiveshields"
+    ],
+    "variantId": "adversary_colossus3_Attack",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS 013": "vulcan",
+            "WS 014": "vulcan",
+            "WS 015": "vulcan",
+            "WS 016": "vulcan"
+        }
+    }],
+    "wings": [
+        "gladius_wing",
+        "gladius_wing"
+    ]
+}

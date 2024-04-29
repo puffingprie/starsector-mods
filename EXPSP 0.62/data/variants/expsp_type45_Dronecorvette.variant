@@ -1,0 +1,48 @@
+{
+  "variantId": "expsp_type45_Dronecorvette",
+  "hullId": "expsp_type45",
+  "displayName": "Corvette",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_blastcharge",
+        "WS0002": "expsp_blastcharge"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "mininglaser",
+        "WS0004": "mininglaser",
+        "WS0005": "mininglaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "expsp_pokemini_fighter",
+        "WS0007": "expsp_pokemini_fighter"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "expsp_type23",
+        "WS0011": "expsp_type23"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

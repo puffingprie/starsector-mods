@@ -1,0 +1,49 @@
+{
+  "variantId": "expsp_kriegsmesser_Standard",
+  "hullId": "expsp_kriegsmesser",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 6,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "frontemitter",
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_multilaser",
+        "WS0002": "expsp_multilaser",
+        "WS0003": "expsp_coilciws",
+        "WS0004": "expsp_coilciws",
+        "WS0005": "expsp_coilciws",
+        "WS0006": "expsp_coilciws"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "expsp_pokemini",
+        "WS0008": "expsp_pokemini"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

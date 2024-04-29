@@ -1,0 +1,95 @@
+{
+  "bounds": [
+    19,
+    -8,
+    -10,
+    -11,
+    -10,
+    11,
+    19,
+    8,
+    10,
+    0
+  ],
+  "builtInWings": [],
+  "center": [
+    15,
+    13
+  ],
+  "collisionRadius": 29,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 32,
+      "location": [
+        -12,
+        5.5
+      ],
+      "style": "IMPERIUM",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 32,
+      "location": [
+        -12,
+        -5.5
+      ],
+      "style": "IMPERIUM",
+      "width": 12
+    }
+  ],
+  "height": 33,
+  "hullId": "ii_draconarius",
+  "hullName": "Draconarius",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    3,
+    -0
+  ],
+  "shieldRadius": 26,
+  "spriteName": "graphics/imperium/ships/fighter/ii_draconarius.png",
+  "style": "IMPERIUM",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        1.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        0,
+        12
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        0,
+        -12
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 30
+}

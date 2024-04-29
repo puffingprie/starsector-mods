@@ -1,0 +1,55 @@
+{
+  "hullName": "expsp_sheath",
+  "hullId": "expsp_sheath",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/phase/expsp_sheath.png",
+  "style": "EXPSP_MVS",
+  "height": 40,
+  "width": 40,
+  "center": [20, 19],
+  "collisionRadius": 25.5,
+  "shieldCenter": [0.5, -0],
+  "shieldRadius": 23,
+  "viewOffset": 0,
+  "builtInMods": [
+    "terminator_core",
+    
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [9, -0.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY", 
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": 0,
+      "locations": [0, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-6, -0],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    }
+  ],
+  "bounds": [
+    -9.5, -7,
+    10, -4,
+    10, 4,
+    -9.5, 7
+  ]
+}

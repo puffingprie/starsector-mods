@@ -1,0 +1,12 @@
+{
+    "displayName": "Dummy",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "ii_dummy",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "ii_dummy_var",
+    "weaponGroups": [
+    ],
+}

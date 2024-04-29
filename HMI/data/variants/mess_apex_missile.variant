@@ -1,0 +1,54 @@
+{
+  "variantId": "mess_apex_missile",
+  "hullId": "mess_apex",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "eccm",
+    "ecm",
+    "missile_autoloader",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "typhoon",
+        "WS 003": "typhoon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "sabotpod",
+        "WS 005": "sabotpod",
+        "WS 006": "sabotpod",
+        "WS 007": "sabotpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 010": "reaper",
+        "WS 011": "reaper"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 009": "harpoon",
+        "WS 013": "harpoon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

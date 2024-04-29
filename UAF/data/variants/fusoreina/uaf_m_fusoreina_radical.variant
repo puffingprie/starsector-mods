@@ -1,0 +1,91 @@
+{
+  "variantId": "uaf_m_fusoreina_radical",
+  "hullId": "uaf_m_fusoreina",
+  "displayName": "Radical",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 4,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull",
+    "targetingunit",
+    "heavyarmor",
+    "autorepair"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_penulisa_acx",
+        "WS0002": "uaf_penulisa_acx"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "HP01": "uaf_triyia_pdx",
+        "HP02": "uaf_triyia_pdx",
+        "HP03": "uaf_triyia_pdx",
+        "HP04": "uaf_triyia_pdx"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_hikone_quad",
+        "WS0004": "uaf_hikone_quad"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "uaf_hikone_quad",
+        "WS0006": "uaf_hikone_quad"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "uaf_amazoch_light_asrm_dual",
+        "WS0018": "uaf_amazoch_light_asrm_dual"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "uaf_pd_reina_ii",
+        "WS0012": "uaf_pd_reina_ii",
+        "WS0013": "uaf_pd_reina_ii",
+        "WS0014": "uaf_pd_reina_ii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "uaf_weiss_flk",
+        "WS0008": "uaf_weiss_flk",
+        "WS0009": "uaf_pd_reina_ii",
+        "WS0010": "uaf_pd_reina_ii",
+        "WS0015": "uaf_flair_pod",
+        "WS0016": "uaf_flair_pod"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "FUSOREINA_PORT_MODULE": "uaf_m_fusoreina_larmor_standard"
+    },
+    {
+      "FUSOREINA_STARPORT_MODULE": "uaf_m_fusoreina_rarmor_standard"
+    }
+  ],
+  "wings": []
+}

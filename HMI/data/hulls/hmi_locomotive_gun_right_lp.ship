@@ -1,0 +1,117 @@
+{
+  "hullName": "Gunnery Module",
+  "hullId": "hmi_locomotive_gun_right_lp",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/locomotive_lp/hmi_locomotive_gun_right.png",
+  "style": "LOW_TECH",
+  "height": 207,
+  "width": 122,
+  "center": [61, 104],
+  "collisionRadius": 122,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 116,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hmi_linkedhull",
+    "reduced_explosion",
+    "targetingunit",
+    "always_detaches",
+    "rapidrepaircheck",
+    "loco_safetyoverrides"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 187,
+      "angle": -75.5,
+      "locations": [-17, -11.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -71.5,
+      "locations": [19.5, -2]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 119,
+      "angle": -80.5,
+      "locations": [40, 2]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 176,
+      "angle": -73,
+      "locations": [68, 1]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 157,
+      "angle": -52,
+      "locations": [16.5, -41]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -90,
+      "locations": [-21, -45.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -90,
+      "locations": [-65, -40]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    104, 21,
+    102, -23.5,
+    92, -32,
+    28.5, -29.5,
+    32.5, -38,
+    27, -55,
+    11, -56,
+    6, -50.5,
+    -4, -50,
+    -12.5, -61,
+    -27.5, -60.5,
+    -37, -50,
+    -54, -48.5,
+    -56.5, -51.5,
+    -73, -51,
+    -89, -33,
+    -87, -17.5,
+    -77.5, -14.5,
+    -78.5, 1.5,
+    -95, 1,
+    -99, 19,
+    -95, 26,
+    -102.5, 34,
+    -96, 52.5,
+    3, 56.5,
+    25, 20,
+    89.5, 24
+  ]
+}

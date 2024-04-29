@@ -1,0 +1,42 @@
+{
+  "id": "expsp_chainhunter",
+  "specClass": "projectile",
+  "projectileSpecId": "expsp_chainhunter1_shot",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/rotary/expsp_chainhunter_turret_base00.png",
+  "hardpointSprite": "graphics/weapons/rotary/expsp_chainhunter_hardpoint_base00.png",
+  "turretOffsets": [
+    27,
+    -0.5
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    29,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "numFrames": 4,
+  "frameRate": 20,
+  "muzzleFlashSpec": {
+    "length": 35,
+    "spread": 5,
+    "particleSizeMin": 6,
+    "particleSizeRange": 14,
+    "particleDuration": 0.15,
+    "particleCount": 11,
+    "particleColor": [
+      55,
+      240,
+      225,
+      200
+    ]
+  },
+  "fireSoundTwo": "chaingun_fire"
+}

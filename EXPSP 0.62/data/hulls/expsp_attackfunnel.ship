@@ -1,0 +1,64 @@
+{
+  "hullName": "Attack Funnel",
+  "hullId": "expsp_attackfunnel",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/expsp_attackfunnel.png",
+  "style": "EXPSP_MVS",
+  "height": 22,
+  "width": 18,
+  "center": [9, 10],
+  "collisionRadius": 17,
+  "shieldCenter": [1, -0],
+  "shieldRadius": 12,
+  "viewOffset": 0,
+  "builtInMods": [
+    "terminator_core",
+    
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [1, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [1, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-6.5, 2.5],
+      "length": 12,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    },
+    {
+      "location": [-6.5, -2.5],
+      "length": 12,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    }
+  ],
+  "bounds": [
+    -1.5, -4.5,
+    6.5, -2.5,
+    6.5, 2.5,
+    -1.5, 4.5
+  ]
+}

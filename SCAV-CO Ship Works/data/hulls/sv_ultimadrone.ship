@@ -1,0 +1,38 @@
+{
+  "hullName": "Ultima Drone",
+  "hullId": "sv_ultimadrone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sv_ultimafighter.png",
+  "style": "ULTIMA",
+  "height": 20,
+  "width": 20,
+  "center": [10, 10],
+  "collisionRadius": 12,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 11,
+  "viewOffset": 0,
+  "builtInMods": [
+    "advancedoptics"
+  ],
+  "builtInWeapons": {
+    "WS0001": "sv_ultimaspam"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [0, -0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    0, -8.5,
+    8.5, -0,
+    0, 8.5,
+    -8.5, -0
+  ]
+}

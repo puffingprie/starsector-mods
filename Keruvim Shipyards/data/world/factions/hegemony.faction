@@ -1,0 +1,14 @@
+{
+	"hullFrequency":{
+		#"tags":{"midline_bp":3, "keruvim_bp":10, "keruvim_pride_bp":1.5},
+		"hulls":{"keruvim_catapult":1.2},
+	},
+	"knownShips":{
+		#"tags":["base_bp", "midline_bp", "keruvim_bp"],
+		"hulls":["keruvim_catapult","keruvim_keg"],
+	},
+
+	"knownWeapons":{
+		"tags":["keruvim_bp"],
+	},
+},

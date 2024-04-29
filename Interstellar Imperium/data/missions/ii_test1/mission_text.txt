@@ -1,0 +1,12 @@
+Hold down keys when clicking the mission to customize.
+
+Space Bar: Re-roll ships.
+Control: Reset settings.
+
+D Key: Next player station.
+F Key: Next enemy faction.
+A/S Key: Decrease/Increase battle size.
+K/L Key: Decrease/Increase enemy quality.
+B Key: Toggle fleet balancer.
+T Key: Toggle time acceleration.
+` Key: Toggle "crappy autofit".

@@ -1,0 +1,41 @@
+{
+  "variantId": "uaf_m_minoria_standard",
+  "hullId": "uaf_m_minoria",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "recovery_shuttles",
+    "blast_doors",
+    "pointdefenseai",
+    "eccm",
+    "fluxbreakers",
+    "hardened_subsystems",
+    "auxiliarythrusters"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_shimata_155_cn"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_pd_reina_ii",
+        "WS0002": "uaf_pd_reina_ii"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_superaria"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+	"id":"expsp_abyssdash",
+	"type":"ENGINE_MOD",
+	"aiType":"MANEUVERING_JETS",
+	
+	"statsScript":"data.shipsystems.scripts.AbyssDashStatsOld",
+	
+	"engineGlowColor":[50,15,115,255],
+	"engineGlowLengthMult":1,
+	"engineGlowWidthMult":1,
+	"engineGlowGlowMult":3,
+	
+	"flameoutOnImpactChance":0,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":true,
+
+
+	#"useSound":"system_burn_drive_activate",
+	#"loopSound":"system_burn_drive_loop",
+	#"deactivateSound":"system_burn_drive_deactivate",
+	#"outOfUsesSound":"engine_disabled",
+	
+	"useSound":"system_plasma_burn",
+	"loopSound":"system_plasma_burn_loop",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"activeSpeedIncrease":350,
+		"burstMovementPotential":275,
+		"averageSpeedIncrease":350,
+	}
+}

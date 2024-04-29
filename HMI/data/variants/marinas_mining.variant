@@ -1,0 +1,46 @@
+{
+  "variantId": "marinas_mining",
+  "hullId": "marinas",
+  "displayName": "Cursed",
+  "goalVariant": false,
+  "fluxCapacitors": 4,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hmi_miningHSA",
+    "targetingunit",
+    "auxiliarythrusters"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "miningblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mininglaser",
+        "WS0002": "mininglaser",
+        "WS0003": "mininglaser",
+        "WS0004": "mininglaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "burst_ml",
+        "WS0006": "burst_ml",
+        "WS0007": "burst_ml",
+        "WS0008": "burst_ml"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

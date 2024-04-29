@@ -1,0 +1,50 @@
+{
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "barrelMode": "ALTERNATING",
+  "fireSoundTwo": "ir_pulse_laser_fire",
+  "glowColor": [
+    255,
+    0,
+    0,
+    255
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGlowSprite": "graphics/weapons/suowang_pulser_hardpoint_glow.png",
+  "hardpointOffsets": [
+    24,
+    0
+  ],
+  "hardpointSprite": "graphics/weapons/suowang_pulser_hardpoint_base.png",
+  "id": "suowang_pulser",
+  "muzzleFlashSpec": {
+    "length": 30,
+    "particleColor": [
+      255,
+      100,
+      100,
+      255
+    ],
+    "particleCount": 10,
+    "particleDuration": 0.12,
+    "particleSizeMin": 15,
+    "particleSizeRange": 20,
+    "spread": 5
+  },
+  "projectileSpecId": "irpulse_shot",
+  "size": "MEDIUM",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGlowSprite": "graphics/weapons/suowang_pulser_turret_glow.png",
+  "turretOffsets": [
+    19,
+    0
+  ],
+  "turretSprite": "graphics/weapons/suowang_pulser_turret_base.png",
+  "type": "ENERGY"
+}

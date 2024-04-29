@@ -1,0 +1,96 @@
+{
+  "hullName": "Borer (MVS)",
+  "hullId": "expsp_borermvs",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/expsp_borermvs.png",
+  "style": "EXPSP_MVS",
+  "height": 24,
+  "width": 18,
+  "center": [9, 8],
+  "collisionRadius": 19.5,
+  "shieldCenter": [-1, -0],
+  "shieldRadius": 16,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [3.5, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-1, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [4, 3.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-7, -0],
+      "length": 9,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    },
+    {
+      "location": [-5, 5],
+      "length": 7.002253,
+      "width": 1.968204,
+      "angle": 143,
+      "contrailSize": 1.968204,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    },
+    {
+      "location": [-5, -5],
+      "length": 7.002253,
+      "width": 1.968204,
+      "angle": -143,
+      "contrailSize": 1.968204,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    },
+    {
+      "location": [3, 5],
+      "length": 6.717515,
+      "width": 2.12132,
+      "angle": 45,
+      "contrailSize": 2.12132,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    },
+    {
+      "location": [3, -5],
+      "length": 6.717515,
+      "width": 2.12132,
+      "angle": -45,
+      "contrailSize": 2.12132,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    }
+  ],
+  "bounds": [
+    -5.5, -4.5,
+    4, -4.5,
+    4, 4.5,
+    -5.5, 4.5
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "hullName": "Hangar Module",
+  "hullId": "hmi_locomotive_fighter_left_lp",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/locomotive_lp/hmi_locomotive_hangar_left.png",
+  "style": "LOW_TECH",
+  "height": 199,
+  "width": 143,
+  "center": [80, 99.5],
+  "collisionRadius": 118.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 114.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hmi_linkedhull",
+    "reduced_explosion",
+    "rapidrepaircheck",
+    "targetingunit",
+    "always_detaches",
+    "safetyoverrides"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 139,
+      "angle": 0,
+      "locations": [28.5, -35]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [54.5, 27]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [55, 51]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "LAUNCH_BAY",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [
+        2.5, -0.5,
+        11, 11,
+        10.5, -9
+      ]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        48, -55.5,
+        35.5, -16,
+        23.5, -14
+      ]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    68, -14,
+    68, 3.5,
+    78, 11,
+    60.5, 17,
+    60.5, 64.5,
+    38.5, 65.5,
+    27.5, 78.5,
+    13, 80,
+    -2, 68,
+    -18.5, 68.5,
+    -65, 38.5,
+    -87.5, 38,
+    -97, 23.5,
+    -96.5, 4.5,
+    -85.5, -8,
+    -56, -11.5,
+    -47.5, -35,
+    -35.5, -37.5,
+    -24, -59.5,
+    55.5, -57.5,
+    63.5, -43.5,
+    60, -26.5,
+    67.5, -22,
+    99.5, -17
+  ]
+}

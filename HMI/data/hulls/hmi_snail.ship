@@ -1,0 +1,145 @@
+{
+  "hullName": "Snail",
+  "hullId": "hmi_snail",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/snail.png",
+  "style": "LOW_TECH",
+  "height": 89,
+  "width": 83,
+  "center": [41.5, 44.5],
+  "collisionRadius": 62,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 59,
+  "viewOffset": 0,
+  "builtInMods": [
+    "junker",
+    "rapidrepaircheck"
+  ],
+  "builtInWeapons": {
+    "WS0004": "flak"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 126,
+      "angle": 26.5,
+      "locations": [32.5, 24.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 133,
+      "angle": -51.5,
+      "locations": [23.5, -24]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [20, 3.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [3, -16.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 161,
+      "angle": -113.5,
+      "locations": [-18.5, -22.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 137.5,
+      "locations": [-17.5, 23]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-43, 20.5],
+      "length": 11,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-42.5, 16],
+      "length": 10,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-42.5, 8.5],
+      "length": 26.5,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-42.5, -0.5],
+      "length": 9.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-41, -15],
+      "length": 12.5,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-43.5, -23],
+      "length": 10.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    28, -16,
+    26, 12.5,
+    43.5, 16.5,
+    43.5, 36,
+    13.5, 40.5,
+    6.5, 33,
+    -19, 34.5,
+    -25.5, 27.5,
+    -35, 28,
+    -43, 19,
+    -41, -28,
+    -13, -28,
+    10.5, -33.5,
+    21, -41.5,
+    44.5, -26.5,
+    34, -15
+  ]
+}

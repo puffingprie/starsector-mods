@@ -1,0 +1,144 @@
+{
+  "hullName": "Lasher (Miner)",
+  "hullId": "lasher_hmi",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/lasher_hmi.png",
+  "style": "LOW_TECH",
+  "height": 90,
+  "width": 78,
+  "center": [40, 45],
+  "collisionRadius": 62.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 61,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hmi_barber_reinforcement",
+    "rugged"
+  ],
+  "builtInWeapons": {
+    "WS0005": "hmi_drill"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [2.5, 29]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [2.5, -29]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 245,
+      "angle": 60,
+      "locations": [-7.5, 10]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 245,
+      "angle": -60,
+      "locations": [-7.5, -10]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [48, 0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-44, -0],
+      "length": 29.5,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-38, 15],
+      "length": 15.5,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-38, -15],
+      "length": 15.5,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-25, 32],
+      "length": 5.378023,
+      "width": 3.782524,
+      "angle": 161.5,
+      "contrailSize": 3.782524,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-25, -32],
+      "length": 5.378023,
+      "width": 3.782524,
+      "angle": -161.5,
+      "contrailSize": 3.782524,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-28.5, 28],
+      "length": 6.010837,
+      "width": 4.413543,
+      "angle": 161.5,
+      "contrailSize": 4.413543,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-28.5, -28],
+      "length": 6.010837,
+      "width": 4.413543,
+      "angle": -161.5,
+      "contrailSize": 4.413543,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -44, -3.5,
+    -39.5, -5.5,
+    -37, -23.5,
+    -20, -38,
+    8, -36.5,
+    8.5, -22,
+    28.5, -22.5,
+    44, -9.5,
+    44, 9.5,
+    28.5, 22.5,
+    8.5, 22,
+    8, 36.5,
+    -20, 38,
+    -37, 23.5,
+    -39.5, 5.5,
+    -44, 3.5
+  ]
+}

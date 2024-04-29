@@ -1,0 +1,46 @@
+{
+  "displayName": "Attack",
+  "fluxCapacitors": 4,
+  "fluxVents": 20,
+  "goalVariant": false,
+  "hullId": "enforcer_d_pirates",
+  "hullMods": [
+    "missleracks",
+    "fragile_subsystems",
+    "glitched_sensors",
+	"safetyoverrides"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "enforcer_hmi_attack",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "clyde_mg",
+        "WS 003": "clyde_mg",
+        "WS 004": "clyde_mg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 006": "hammer",
+        "WS 007": "hammer",
+        "WS 008": "hammer",
+        "WS 009": "hammer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "flak",
+        "WS 005": "flak"
+      }
+    }
+  ],
+  "wings": []
+}

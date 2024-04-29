@@ -1,0 +1,38 @@
+{
+  "displayName": "Needler",
+  "fluxCapacitors": 9,
+  "fluxVents": 9,
+  "goalVariant": true,
+  "hullId": "mess_wolf",
+  "hullMods": [
+    "targetingunit",
+    "turretgyros"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "wolf_mess_needler",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavyneedler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "lightneedler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "lightneedler"
+      }
+    }
+  ],
+  "wings": []
+}

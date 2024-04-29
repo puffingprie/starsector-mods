@@ -1,0 +1,14 @@
+{
+	"baseHullId":"ii_module_support",
+	"skinHullId":"ii_module_support_super",
+	"descriptionPrefix":"Upgraded with increased fighter engagement range, Heavy Armor, Reinforced Emplacements, and Advanced Turret Gyros.",
+	"restoreToBaseHull":true,
+	"hullDesignation":"Extended Support Module",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["ii_tachyoncommbooster", "heavyarmor", "ii_reinforced_emplacements", "turretgyros"],
+	"builtInWeapons":{
+    },
+}

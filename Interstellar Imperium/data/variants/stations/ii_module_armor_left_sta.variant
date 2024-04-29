@@ -1,0 +1,11 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "hullId": "ii_module_armor_left",
+    "hullMods": [
+    ],
+    "quality": 0.5,
+    "variantId": "ii_module_armor_left_sta",
+    "weaponGroups": []
+}

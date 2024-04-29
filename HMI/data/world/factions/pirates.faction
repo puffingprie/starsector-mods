@@ -1,0 +1,34 @@
+{
+	"shipNameSources":{
+		"HAZARD":1,
+	},
+	"hullFrequency":{
+		"hulls":{
+		"mulligan":0,
+		"mora_pirates":0.25,
+		"fishkill":0.1,
+		"junk":0.05,
+		"hmi_locomotive":0.1,	
+		},
+	},
+	"knownShips":{
+		"hulls":[
+		"mulligan_pirates",
+		"mule_hmi_x",
+		"mora_pirates",
+		"junk",
+		"fishkill",
+		"hmi_locomotive",
+		],
+	},	
+	"knownWeapons":{
+		"weapons":[
+		"rad_gun",
+		],
+	},	
+	
+},
+
+
+
+

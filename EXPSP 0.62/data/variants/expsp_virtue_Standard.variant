@@ -1,0 +1,47 @@
+{
+  "variantId": "expsp_virtue_Standard",
+  "hullId": "expsp_virtue",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 3,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "frontemitter",
+    "extendedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "expsp_plinker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_coilciws",
+        "WS0002": "expsp_coilciws",
+        "WS0003": "expsp_coilciws",
+        "WS0004": "expsp_coilciws"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "expsp_poke",
+        "WS0007": "expsp_poke"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "expsp_glance_wing",
+    "expsp_slash_wing"
+  ]
+}

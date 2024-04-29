@@ -1,0 +1,12 @@
+{
+    "displayName": "Armored",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "ii_titan_armor_door",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "ii_titan_armor_door_var",
+    "weaponGroups": [
+    ],
+}

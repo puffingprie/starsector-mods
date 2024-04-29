@@ -1,0 +1,31 @@
+{
+  "variantId": "expsp_mg29_Escort",
+  "hullId": "expsp_mg29",
+  "displayName": "Escort",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_electroflechette",
+        "WS0004": "expsp_flarelauncher_crimson"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "expsp_multilaser",
+        "WS0003": "expsp_multilaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

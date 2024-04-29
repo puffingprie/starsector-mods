@@ -1,0 +1,77 @@
+{
+  "id": "expsp_diana",
+  "specClass": "projectile",
+  "projectileSpecId": "expsp_diana_msl",
+  "type": "MISSILE",
+  "size": "LARGE",
+  "displayArcRadius": 500,
+  "turretSprite": "graphics/weapons/expsp_diana_turret_base.png",
+  "hardpointSprite": "graphics/weapons/expsp_diana_turret_base.png",
+  "turretOffsets": [
+    2,
+    -9.5,
+    2,
+    9.5,
+    7.5,
+    -14,
+    1,
+    0,
+    7.5,
+    14,
+    7.5,
+    -3.5,
+    7.5,
+    5.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    17,
+    -5,
+    17,
+    0,
+    17,
+    5,
+    11,
+    -5,
+    11,
+    0,
+    11,
+    5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 10,
+    "particleSizeRange": 16,
+    "cloudParticleCount": 3,
+    "cloudDuration": 0.9,
+    "cloudRadius": 8,
+    "blowbackParticleCount": 4,
+    "blowbackDuration": 1.1,
+    "blowbackLength": 20,
+    "blowbackSpread": 10,
+    "particleColor": [
+      170,
+      160,
+      150,
+      130
+    ]
+  },
+  "fireSoundTwo": "squall_fire"
+}

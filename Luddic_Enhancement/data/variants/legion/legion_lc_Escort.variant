@@ -1,0 +1,68 @@
+{
+  "variantId": "legion_lc_Escort",
+  "hullId": "legion_lc",
+  "displayName": "Assault",
+  "goalVariant": false,
+  "fluxCapacitors": 41,
+  "fluxVents": 50,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "armoredweapons",
+    "fluxdistributor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 002": "shredder",
+        "WS 003": "shredder"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "flak",
+        "WS 005": "flak",
+        "WS 007": "flak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "devastator",
+        "WS 001": "devastator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 008": "lightmg",
+        "WS 009": "lightmg",
+        "WS 014": "lightmg",
+        "WS 015": "lightmg",
+        "WS 018": "lightmg",
+        "WS 019": "lightmg",
+        "WS 020": "lightmg",
+        "WS 021": "lightmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "broadsword_wing",
+    "broadsword_wing",
+    "broadsword_wing",
+    "broadsword_wing"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "ii_module_combat",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "ii_module_combat_sta",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "ii_telum",
+                "WS0013": "ii_telum",
+                "WS0014": "ii_solis"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "ii_javelin",
+                "WS0004": "ii_javelin"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ii_heavyballista",
+                "WS0002": "ii_heavyballista"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "ii_heavypulselaser",
+                "WS0011": "ii_heavypulselaser",
+                "WS0017": "ii_heavypulselaser",
+                "WS0018": "ii_heavypulselaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "ii_sledgegun",
+                "WS0006": "ii_sledgegun",
+                "WS0007": "ii_sledgegun",
+                "WS0008": "ii_sledgegun",
+                "WS0009": "ii_sledgegun",
+                "WS0015": "railgun",
+                "WS0016": "railgun"
+            }
+        }
+    ]
+}

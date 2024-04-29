@@ -1,0 +1,188 @@
+{
+  "hullName": "Phaeton (Mess)",
+  "hullId": "mess_phaeton",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/mess/mess_medium.png",
+  "style": "LOW_TECH",
+  "height": 234,
+  "width": 120,
+  "center": [60, 117],
+  "collisionRadius": 151.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 141.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+	"hmi_mess_visuals",
+    "hmi_mess_spawn"
+  ],
+  "builtInWings": [
+    "drone_feeder_wing",
+    "drone_feeder_wing",
+    "drone_feeder_wing",
+    "drone_feeder_wing",
+    "drone_feeder_heavy_wing",
+    "drone_feeder_heavy_wing"
+  ],
+  "builtInWeapons": {
+    "WS0004": "ioncannon"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "LAUNCH_BAY",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [
+        -29.5, 2,
+        -25, 6.5,
+        -34.5, 16.5,
+        -13, 0.5
+      ]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "LAUNCH_BAY",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [
+        18.5, 13,
+        13, 35.5,
+        14, -32.5,
+        9, 6,
+        18, -3
+      ]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "LAUNCH_BAY",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [
+        61, 3,
+        60, 10.5,
+        57.5, -10
+      ]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 242,
+      "angle": 28,
+      "locations": [102, 13.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-113, 43],
+      "length": 18.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-113, -43],
+      "length": 18.5,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-116, 36],
+      "length": 19.5,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-116, -36],
+      "length": 19.5,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-115.5, 24],
+      "length": 15.5,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-115.5, -24],
+      "length": 15.5,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-116, 10],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-116, -10],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-116, -0.5],
+      "length": 57.5,
+      "width": 31,
+      "angle": -180,
+      "contrailSize": 31,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    108, -28.5,
+    104.5, -9,
+    115.5, 7.5,
+    103, 26.5,
+    74.5, 60,
+    64, 40,
+    26.5, 40,
+    19.5, 49,
+    2.5, 49.5,
+    -1.5, 43,
+    -51, 37.5,
+    -63, 61,
+    -81, 61,
+    -92, 51,
+    -107, 51,
+    -116, 41.5,
+    -117, -38,
+    -109.5, -52.5,
+    -94.5, -53,
+    -78, -59,
+    -66, -59,
+    -49.5, -39,
+    -11, -33,
+    7.5, -41,
+    25, -41,
+    31, -34.5,
+    64, -33,
+    66, -44,
+    84, -43.5
+  ]
+}

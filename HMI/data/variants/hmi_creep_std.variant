@@ -1,0 +1,61 @@
+{
+  "variantId": "hmi_creep_std",
+  "hullId": "hmi_creep",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 4,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "frontshield",
+    "blast_doors"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "campbelltown_med"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "annihilator",
+        "WS0002": "annihilator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "heavyac",
+        "WS0006": "heavyac",
+        "WS0009": "lightac",
+        "WS0011": "sml_shotgrun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "hmi_kiddie_mortar",
+        "WS0008": "hmi_kiddie_mortar",
+        "WS0010": "hmi_kiddie_mortar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+	    "WS0003": "med_frag_mg",
+        "WS0012": "vulcan",
+        "WS0013": "burst_ml"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

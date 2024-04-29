@@ -1,0 +1,34 @@
+{
+	"id":"hmi_assaultbomb_proj",
+	"specClass":"missile",
+	"missileType":"BOMB",
+	"sprite":"graphics/missiles/bomblet3.png",
+	"size":[9,11],	
+	"center":[4.5,5.5],
+	"collisionRadius":9,
+	"collisionClass":"MISSILE_FF",
+	"explosionColor":[255,225,90,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":100, # purely visual
+	"explosionSpec":{"duration":0.1f, # not visual
+					 "radius":75,
+					 "coreRadius":25, # full damage within core radius
+					 "collisionClass":MISSILE_FF,
+					 "collisionClassByFighter":MISSILE_FF},
+	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+					"range":50,
+					"explosionSpec":{"duration":0.2f,
+									 "radius":100,
+									 "coreRadius":85, # full damage within core radius
+									 "collisionClass":PROJECTILE_FF,
+									 "collisionClassByFighter":PROJECTILE_FIGHTER,
+									 "particleSizeMin":3.0,
+									 "particleSizeRange":3.0,
+									 "particleDuration":1,
+									 "particleCount":150,
+									 "particleColor":[255,155,125,175],},	
+			},						 
+	"engineSpec":{"turnAcc":100,
+				  "turnRate":10,
+				  "acc":0,
+				  "dec":0}
+}

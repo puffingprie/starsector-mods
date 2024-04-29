@@ -1,0 +1,59 @@
+{
+  "id": "vic_thermalLance",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "beamEffect": "data.scripts.weapons.vic_thermalLance_beam",
+  "everyFrameEffect": "data.scripts.weapons.vic_thermalLance",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "displayArcRadius": 400,
+  "turretSprite": "graphics/weapons/vic_thermalLance_Base_turret_00.png",
+  "turretGlowSprite": "graphics/weapons/vic_thermalLance_Glow_turret.png",
+  "hardpointSprite": "graphics/weapons/vic_thermalLance_Base_hardpoint_00.png",
+  "hardpointGlowSprite": "graphics/weapons/vic_thermalLance_Glow_hardpoint.png",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "hitGlowRadius": 50,
+  "turretOffsets": [
+    12.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    18.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "width": 140,
+  "textureType": [
+    "graphics/fx/vic_thermalLanceBeam.png",
+    "graphics/fx/vic_thermalLanceBeam.png"
+  ],
+  "textureScrollSpeed": 250,
+  "pixelsPerTexel": 4,
+    "numFrames": 2,
+  "frameRate": 30,
+  "pierceSet":["MISSILE_FF", "MISSILE_NO_FF"]
+}

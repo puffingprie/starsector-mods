@@ -1,0 +1,47 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 20,
+  "fluxVents": 13,
+  "goalVariant": true,
+  "hullId": "keruvim_mortar",
+  "hullMods": [
+    "armoredweapons"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "keruvim_mortar_standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "keruvim_star",
+        "WS0004": "keruvim_star"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "mark9"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "keruvim_blast_gun",
+        "WS0002": "keruvim_blast_gun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "keruvim_needle"
+      }
+    }
+  ],
+  "wings": []
+}

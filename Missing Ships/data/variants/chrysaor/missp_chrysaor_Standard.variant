@@ -1,0 +1,59 @@
+{
+  "variantId": "missp_chrysaor_Standard",
+  "hullId": "missp_chrysaor",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 4,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew"
+  ],
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "gorgonpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "heavyburst",
+                "WS0003": "heavyburst",
+                "WS0001": "dualflak",
+                "WS0004": "dualflak",
+                "WS0005": "dualflak",
+                "WS0006": "lrpdlaser",
+                "WS0007": "lrpdlaser",
+                "WS0008": "lrpdlaser",
+                "WS0009": "lrpdlaser",
+                "WS0010": "lrpdlaser",
+                "WS0011": "lrpdlaser",
+                "WS0019": "lrpdlaser",
+                "WS0020": "lrpdlaser",
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+        "dagger_wing",
+        "dagger_wing",
+        "longbow_wing",
+        "longbow_wing",
+        "missp_midline_patrol_craft_wing",
+  ]
+}

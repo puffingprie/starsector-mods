@@ -1,0 +1,61 @@
+{
+  "bounds": [
+    -8,
+    -8.5,
+    8,
+    -8.5,
+    8,
+    8.5,
+    -8,
+    8.5
+  ],
+  "builtInWeapons": {
+    "WS0001": "remora_emp_laser"
+  },
+  "builtInWings": [],
+  "center": [
+    10,
+    10
+  ],
+  "collisionRadius": 16,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 7,
+      "length": 9,
+      "location": [
+        -6.5,
+        -0
+      ],
+      "style": "HIGH_TECH",
+      "width": 7
+    }
+  ],
+  "height": 20,
+  "hullId": "drone_remora_scan",
+  "hullName": "Remora Scanner Drone",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 14.5,
+  "spriteName": "graphics/ships/drone_borer_tt.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0001",
+      "locations": [
+        -1,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 20
+}

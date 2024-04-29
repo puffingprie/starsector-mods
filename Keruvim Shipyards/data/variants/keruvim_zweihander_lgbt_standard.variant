@@ -1,0 +1,49 @@
+{
+  "displayName": "Pride",
+  "fluxCapacitors": 18,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "keruvim_zweihander_lgbt",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "keruvim_zweihander_lgbt_standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "sabot",
+        "WS0004": "sabot"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "keruvim_blast_gun",
+        "WS0007": "keruvim_blast_gun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "railgun",
+        "WS0002": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "pdburst",
+        "WS0008": "pdburst"
+      }
+    }
+  ],
+  "wings": [
+    "keruvim_antlion"
+  ]
+}

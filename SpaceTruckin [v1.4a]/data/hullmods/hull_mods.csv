@@ -1,0 +1,7 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+#USL Cryo-Freeze Cargo Holds,st_cryo,0,,,civ,"Logistics, Requires Dock",8000,TRUE,,,5,10,15,25,Hullmods.ST_Cryo,"Proprietary USL cargo hold conversion allows storing and transport of USL packaged cryo-cargo.
+
+Increases supply and fuel usage by %s/%s/%s/%s.",,graphics/hullmods/st_cryo.png
+USL Parcel-Sorting Cargo Holds,st_parcelsorter,0,,USL,"civ,st_parcelsortermod,req_spaceport","Logistics, Requires Dock",8000,TRUE,,,5,10,15,25,Hullmods.ParcelSorter,"Proprietary USL cargo hold conversion allows interfacing with USL dock facilities for automatic parcel sorting during loading and unloading operations, as well as in-flight repackaging and optimization. The parcel sorter cannot be removed while USL parcels are onboard any of your ships.
+
+Increases supply usage by %s/%s/%s/%s.",,graphics/hullmods/st_parcel.png

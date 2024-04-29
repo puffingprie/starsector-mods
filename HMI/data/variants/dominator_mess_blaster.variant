@@ -1,0 +1,43 @@
+{
+  "displayName": "Blaster",
+  "fluxCapacitors": 12,
+  "fluxVents": 30,
+  "goalVariant": true,
+  "hullId": "mess_dominator",
+  "hullMods": [
+    "advancedoptics"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "dominator_mess_blaster",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "plasma",
+        "WS0002": "plasma",
+        "WS0003": "heavyblaster",
+        "WS0004": "heavyblaster",
+        "WS0005": "heavyblaster",
+        "WS0006": "irpulse",
+        "WS0007": "irpulse",
+        "WS0008": "irpulse",
+        "WS0009": "heavyblaster",
+        "WS0010": "irpulse",
+        "WS0011": "irpulse"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    }
+  ],
+  "wings": []
+}

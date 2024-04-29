@@ -1,0 +1,45 @@
+{
+  "variantId": "sv_catoninetails_standerd",
+  "hullId": "sv_catoninetails",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "hellbore",
+        "WS0009": "hellbore"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "heavyac",
+        "WS0005": "heavyac",
+        "WS0006": "heavyac",
+        "WS0007": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0002": "dualflak",
+        "WS0003": "dualflak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

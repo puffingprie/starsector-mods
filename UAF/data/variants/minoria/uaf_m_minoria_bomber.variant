@@ -1,0 +1,38 @@
+{
+  "variantId": "uaf_m_minoria_bomber",
+  "hullId": "uaf_m_minoria",
+  "displayName": "Bomber",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "recovery_shuttles",
+    "expanded_deck_crew",
+    "pointdefenseai",
+    "reinforcedhull",
+    "auxiliarythrusters"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_hikone_quad"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_weiss_flk",
+        "WS0002": "uaf_weiss_flk"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_hyacinth"
+  ]
+}

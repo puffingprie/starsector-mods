@@ -1,0 +1,25 @@
+{
+    "hullFrequency":{
+		"tags":{
+            "kazeron_PL_bp":0.5,
+		},
+		"hulls":{
+
+        },
+    },
+    "knownShips":{
+        "tags":["kazeron_PL_bp"],
+    },
+    "priorityShips":{
+        "hulls":[
+			"kazeron_conquest_league",
+			"kazeron_pegasus_league",
+        ],
+    },
+	"knownWeapons":{
+		"weapons":[
+			"lightneedler",
+			"harpoonpod"
+		],
+	},
+},

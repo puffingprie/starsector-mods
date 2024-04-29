@@ -1,0 +1,42 @@
+{
+  "variantId": "lector_escort",
+  "hullId": "lector",
+  "displayName": "Escort",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull",
+    "missleracks",
+    "auxiliarythrusters"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "shredder"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "swarmer",
+        "WS0004": "swarmer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "flak",
+        "WS0002": "flak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

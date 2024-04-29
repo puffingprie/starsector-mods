@@ -1,0 +1,80 @@
+{
+  "variantId": "fishkill_mining",
+  "hullId": "fishkill",
+  "displayName": "Mining",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 23,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_cargo_holds",
+    "dedicated_targeting_core",
+    "efficiency_overhaul"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "hammerrack"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "jackhammer",
+        "WS0014": "hmi_megalauncher_cannon",
+        "WS0015": "hammer",
+        "WS0020": "hammer",
+        "WS0021": "hmi_megalauncher_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0008": "mining_gen",
+        "WS0016": "mining_burst_blaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "hmi_slagger_gun",
+        "WS0002": "hmi_slagger_gun",
+        "WS0003": "rock_launcher",
+        "WS0005": "rock_launcher",
+        "WS0006": "rock_launcher",
+        "WS0009": "launcher_cannon",
+        "WS0013": "rock_launcher",
+        "WS0017": "hmi_slagger_gun",
+        "WS0018": "hmi_slagger_gun",
+        "WS0019": "hmi_slagger_gun",
+        "WS0022": "rock_launcher",
+        "WS0023": "hmi_slagger_gun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0010": "seth_med",
+        "WS0011": "seth_med",
+        "WS0012": "seth_med",
+        "WS0030": "seth_med"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "hmi_taker_drone_wing",
+    "hmi_taker_drone_wing",
+    "hmi_taker_drone_wing",
+    "support_bombardment_drone_wing",
+    "support_bombardment_drone_wing",
+    "support_bombardment_drone_wing"
+  ]
+}

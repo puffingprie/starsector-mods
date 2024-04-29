@@ -1,0 +1,79 @@
+{
+	"name":"Default",
+	"personalities":["cautious","steady"],
+	"gender":["m","f","n"],
+	"chance":0.5,
+	"talkativeness":1,
+	"categoryTags":["default", "original"],
+	
+	"lines":{
+		"start":[
+			{"text":"Let's do this."},
+			{"text":"Guns are hot."},
+			{"text":"They won't know what hit them."},
+			{"text":"Glorious victory awaits!"}
+		],
+		"start_boss":[
+			{"text":"Damn, that thing is huge..."},
+			{"text":"Let's be careful, that thing looks scary!"},
+		],		
+		"retreat":[
+			{"text":"Let's get out of here!"},
+			{"text":"Run, damn it!"}
+		],
+		"out_of_missiles":[
+			{"text":"Out of missiles."},
+			{"text":"No missiles left."}
+		],
+		"engaged":[
+			{"text":"In contact, could use some backup."},
+			{"text":"I am engaged, requesting assistance."},
+			{"text":"I am in combat, help wanted."}
+		],
+		"need_help":[
+			{"text":"I could use some help over here!"},
+			{"text":"I'm in trouble here!"},
+		],
+		"pursuing":[
+			{"text":"Pursuing target."},
+			{"text":"Contact, moving to intercept."},
+			{"text":"Vectoring to intercept."}
+		],
+		"running":[
+			{"text":"I'm outta here!"}
+		],
+		"hull_90":[
+			{"text":"I've taken hull damage."},
+			{"text":"Hull breach reported."},
+		],
+		"hull_50":[
+			{"text":"Hull integrity at 50%!"},
+			{"text":"I'm down to half hull strength!"}
+		],
+		"hull_30":[
+			{"text":"My hull's down to 30%!"},
+			{"text":"Hull status critical!"},
+			{"text":"My ship's in critical condition!"}
+			#{"text":"Breach in starboard fusion chamber!"},
+		],
+		"overload":[
+			{"text":"Help! I've overloaded!"},
+			{"text":"Flux systems going haywire!"}
+		],
+		"death":[
+			{"text":"NOOOOOOO!"},
+			{"text":"WRYYYYYYYYY!"},
+			{"text":"AAAAAAAAAAA!"},
+		],
+		"victory":[
+			{"text":"The day is ours!"},
+			{"text":"We have triumphed!"},
+			{"text":"The enemy has been defeated!"},
+			{"text":"We showed them!"},
+		],
+		"victory_boss":[
+			{"text":"A great victory!"},
+			{"text":"We've broken their lines!"},
+		],
+	}
+}

@@ -1,0 +1,42 @@
+{
+  "hullName": "Reign Borer Drone",
+  "hullId": "drone_blitz_borer_suicide",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/drone_blitz_borer_suicide.png",
+  "style": "LOW_TECH",
+  "height": 20,
+  "width": 26,
+  "center": [13, 10],
+  "collisionRadius": 14.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 13.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [0, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-5.5, -0],
+      "length": 21.5,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "CUSTOM",
+      "styleId": "YellowFlare"
+    }
+  ],
+  "bounds": [
+    -7.5, -8,
+    7, -8,
+    7, 8,
+    -7.5, 8
+  ]
+}

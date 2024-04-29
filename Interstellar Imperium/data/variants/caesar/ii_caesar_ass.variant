@@ -1,0 +1,71 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 9,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "ii_caesar",
+    "hullMods": [
+        "ii_armor_package",
+        "heavyarmor",
+        "turretgyros"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "ii_caesar_ass",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ii_croceamors"}
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0010": "ii_onager",
+                "WS0013": "ii_onager"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "ii_sledgecannon",
+                "WS0007": "ii_sledgecannon",
+                "WS0008": "ii_sledgecannon",
+                "WS0009": "ii_sledgecannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "gravitonbeam",
+                "WS0003": "gravitonbeam",
+                "WS0004": "gravitonbeam",
+                "WS0005": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "ii_custos",
+                "WS0012": "ii_custos",
+                "WS0014": "ii_custos",
+                "WS0015": "ii_custos",
+                "WS0018": "ii_custos"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0016": "vulcan",
+                "WS0017": "vulcan",
+                "WS0019": "vulcan",
+                "WS0020": "vulcan"
+            }
+        }
+    ]
+}

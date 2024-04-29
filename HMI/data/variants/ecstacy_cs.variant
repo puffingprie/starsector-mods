@@ -1,0 +1,60 @@
+{
+  "variantId": "ecstacy_cs",
+  "hullId": "ecstacy",
+  "displayName": "Close Support",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "advancedoptics",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "ionbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "salamanderpod",
+        "WS0004": "salamanderpod",
+        "WS0011": "heatseeker",
+        "WS0012": "heatseeker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "ionbeam",
+        "WS0002": "ionbeam",
+        "WS0007": "taclaser",
+        "WS0008": "taclaser",
+        "WS0009": "taclaser",
+        "WS0010": "taclaser",
+        "WS0013": "taclaser",
+        "WS0014": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "pdlaser",
+        "WS0006": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "lux_wing",
+    "lux_wing"
+  ]
+}

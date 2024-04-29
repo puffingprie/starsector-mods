@@ -1,0 +1,172 @@
+{
+  "hullName": "Jakkle",
+  "hullId": "jakkle",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/jakkle.png",
+  "style": "LOW_TECH",
+  "height": 160,
+  "width": 104,
+  "center": [52, 80],
+  "collisionRadius": 107,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 102,
+  "viewOffset": 0,
+  "builtInMods": [
+    "HMI_techminedhull"
+  ],
+  "builtInWeapons": {
+    "WS0001": "khradeh_left",
+    "WS0002": "khradeh_right"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [-6.5, 42]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [-6.5, -42]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [40, 23]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [40, -23]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 124,
+      "angle": 0,
+      "locations": [31, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 199,
+      "angle": 180,
+      "locations": [-40, -0]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [73.5, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 57,
+      "angle": 0,
+      "locations": [8, 18]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 57,
+      "angle": -0,
+      "locations": [8, -18]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-73.5, 25.5],
+      "length": 16,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-73.5, -25.5],
+      "length": 16,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-78, 10.5],
+      "length": 43,
+      "width": 25,
+      "angle": 180,
+      "contrailSize": 25,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-78, -10.5],
+      "length": 43,
+      "width": 25,
+      "angle": -180,
+      "contrailSize": 25,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -69, -5,
+    -79, -6,
+    -79, -15,
+    -74.5, -18.5,
+    -74.5, -28,
+    -59.5, -38.5,
+    -43, -38,
+    -42, -50.5,
+    -1.5, -49,
+    -1.5, -36.5,
+    16.5, -36.5,
+    25, -30.5,
+    44, -30.5,
+    46.5, -20,
+    68.5, -20,
+    79.5, -9.5,
+    79.5, 9.5,
+    68.5, 20,
+    46.5, 20,
+    44, 30.5,
+    25, 30.5,
+    16.5, 36.5,
+    -1.5, 36.5,
+    -1.5, 49,
+    -42, 50.5,
+    -43, 38,
+    -59.5, 38.5,
+    -74.5, 28,
+    -74.5, 18.5,
+    -79, 15,
+    -79, 6,
+    -69, 5
+  ]
+}

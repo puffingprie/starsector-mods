@@ -1,0 +1,30 @@
+{
+  "variantId": "derelict_ramp_mothership_pod_engine_left_std",
+  "hullId": "derelict_ramp_mothership_pod_engine_left",
+  "displayName": "Cancerous",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "sMods": ["armoredweapons", "magazines"],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "miningblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "mininglaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

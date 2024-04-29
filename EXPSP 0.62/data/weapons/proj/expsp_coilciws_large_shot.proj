@@ -1,0 +1,33 @@
+{
+	"id":"expsp_coilciws_large_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":35.0,
+	"hitGlowRadius":15,
+	"width":3.5,
+	"fadeTime":0.3,
+	"fringeColor":[209,220,225,200],
+	"coreColor":[193,239,245,80],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/expsp_shell_coilciws.png",
+    "onHitEffect":"data.scripts.weapons.expsp_coilciwslrgHit",
+	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+					"range":10,
+					"vsMissileRange":45,
+					"explosionSpec":{"duration":0.8f,
+									 "radius":45,
+									 "coreRadius":45, # full damage within core radius - also equal to proximity fuse range
+									 "collisionClass":PROJECTILE_FF,
+									 "collisionClassByFighter":PROJECTILE_FIGHTER,
+									 "particleSizeMin":2.0,
+									 "particleSizeRange":2.0,
+									 "particleDuration":1,
+									 "particleCount":25,
+									 "particleColor":[50,250,250,55],
+									 "sound":"explosion_flak"},
+					}
+
+}

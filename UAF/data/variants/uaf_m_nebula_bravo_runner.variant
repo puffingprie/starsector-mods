@@ -1,0 +1,69 @@
+{
+  "variantId": "uaf_m_nebula_bravo_runner",
+  "hullId": "uaf_m_nebula_bravo",
+  "displayName": "Runner",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "augmentedengines"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_ivory_triple"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "uaf_medlav_quad"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "uaf_pd_reina_ii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_pd_reina_ii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "uaf_pd_reina"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "uaf_racun_pod",
+        "WS0005": "uaf_racun_pod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "uaf_flair_pod",
+        "WS0007": "uaf_flair_pod",
+        "WS0008": "uaf_flair_pod"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

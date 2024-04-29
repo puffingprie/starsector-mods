@@ -1,0 +1,6 @@
+commodity,group,freq
+luxury_goods,tourism_fleet,2
+lobster,tourism_fleet,1
+domestic_goods,tourism_fleet,3
+drugs,tourism_fleet,1
+crew,tourism_fleet,12

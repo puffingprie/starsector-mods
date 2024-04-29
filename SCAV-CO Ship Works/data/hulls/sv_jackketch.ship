@@ -1,0 +1,100 @@
+{
+  "hullName": "Jack Ketch",
+  "hullId": "sv_jackketch",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/pirate ships/sv_jackketch.png",
+  "style": "VACSINC",
+  "height": 172,
+  "width": 132,
+  "center": [66, 86],
+  "collisionRadius": 116.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 109.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sv_vacsincconstruction"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [17, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [26, -43]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [26, 43]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-68, -51],
+      "length": 45,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-68, 51],
+      "length": 45,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-85, -10],
+      "length": 45,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    },
+    {
+      "location": [-85, 10],
+      "length": 45,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "CUSTOM",
+      "styleId": "VACS-INC ENGINE"
+    }
+  ],
+  "bounds": [
+    -83.5, 17,
+    -41, 32.5,
+    -66.5, 44,
+    -66.5, 58.5,
+    43.5, 58.5,
+    43.5, 29.5,
+    78.5, 10,
+    78.5, -10,
+    43.5, -29.5,
+    43.5, -58.5,
+    -66.5, -58.5,
+    -66.5, -44,
+    -41, -32.5,
+    -83.5, -17
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "variantId": "uaf_eyeseau_command",
+  "hullId": "uaf_eyeseau",
+  "displayName": "Command",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 12,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "uaf_eyeseau_command"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "uaf_shimata_155_cn",
+        "WS0004": "uaf_shimata_155_cn"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_medlav_dual",
+        "WS0002": "uaf_medlav_dual"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "uaf_rhythm_base_triple",
+        "WS0006": "uaf_rhythm_base_triple",
+        "WS0007": "uaf_rhythm_base_triple",
+        "WS0008": "uaf_rhythm_base_triple"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "uaf_pd_reina_ii",
+        "WS0012": "uaf_pd_reina_ii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "uaf_weiss_flk",
+        "WS0010": "uaf_weiss_flk"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "LEFT_TGT": "uaf_eyeseau_left_tgt_pod"
+    },
+    {
+      "RIGHT_TGT": "uaf_eyeseau_right_tgt_pod"
+    },
+    {
+      "FRONT_ECM": "uaf_eyeseau_front_ecm_jammer"
+    },
+    {
+      "REAR_ECM": "uaf_eyeseau_rear_ecm_jammer"
+    }
+  ],
+  "wings": [
+    "uaf_wing_pengawas"
+  ]
+}

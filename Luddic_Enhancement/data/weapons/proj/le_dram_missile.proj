@@ -1,0 +1,16 @@
+{
+	"id":"le_dram_missile",
+	"specClass":"missile",
+	"missileType":"MISSILE",
+	"sprite":"graphics/weapons/blank.png",
+	"size":[1,1],
+	"center":[0.5,0.5],
+	"collisionRadius":1,
+	"collisionClass":"NONE",
+	"explosionColor":[255,175,50,255],
+	"explosionRadius":125,
+	"engineSpec":{"turnAcc":5,
+				  "turnRate":5,
+				  "acc":20,
+				  "dec":5},
+}

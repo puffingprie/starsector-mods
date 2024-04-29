@@ -1,0 +1,30 @@
+{
+  "displayName": "Seth Drone",
+  "fluxCapacitors": 6,
+  "fluxVents": 0,
+  "goalVariant": false,
+  "hullId": "vigilance",
+  "hullMods": [
+    "degraded_engines"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "vigilance_sethdrone",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "seth_med"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "suowang_pulser"
+      }
+    }
+  ],
+  "wings": []
+}

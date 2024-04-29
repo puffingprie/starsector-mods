@@ -1,0 +1,40 @@
+{
+  "variantId": "wolf_d_pirates_hmibount1",
+  "hullId": "wolf_d_pirates",
+  "displayName": "Attack",
+  "goalVariant": false,
+  "fluxCapacitors": 4,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "fluxdistributor",
+    "fluxbreakers"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "ioncannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 005": "sabot",
+        "WS 006": "sabot"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 004": "phasebeam"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

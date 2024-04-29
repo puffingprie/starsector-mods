@@ -1,0 +1,12 @@
+{
+    "playableFaction":false,
+    #"startingFaction":true,
+    "corvusCompatible":true,
+    "spawnAsFactionId":"luddic_path",
+    "rebelFleetSuffix":"Rogues",
+    "startRelationships":{ "luddic_path":1 },
+    "noRandomizeRelations":true,
+    "responseFleetName":"Guardian Fleet",
+    
+    "morality":"amoral",
+}

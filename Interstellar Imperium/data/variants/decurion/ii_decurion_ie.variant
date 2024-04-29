@@ -1,0 +1,34 @@
+{
+    "displayName": "Imperial Elite",
+    "fluxCapacitors": 5,
+    "fluxVents": 4,
+    "hullId": "ii_decurion",
+    "hullMods": [
+        "ii_elite_package",
+        "safetyoverrides",
+        "magazines"
+    ],
+    "permaMods": ["ii_elite_package"],
+    "sMods": ["ii_elite_package"],
+    "variantId": "ii_decurion_ie",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ionpulser",
+                "WS0002": "ionpulser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "railgun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "pdburst"}
+        }
+    ]
+}

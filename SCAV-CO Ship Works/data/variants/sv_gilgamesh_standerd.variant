@@ -1,0 +1,95 @@
+{
+  "variantId": "sv_gilgamesh_standerd",
+  "hullId": "sv_gilgamesh",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 13,
+  "fluxVents": 46,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0035": "sv_atlascannon",
+        "WS0036": "sv_atlascannon",
+        "WS0043": "sv_grateaxe",
+        "WS0044": "sv_grateaxe"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0045": "reaper",
+        "WS0046": "reaper"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sv_flyswatter",
+        "WS0002": "sv_flyswatter",
+        "WS0003": "sv_flyswatter",
+        "WS0004": "sv_flyswatter",
+        "WS0005": "sv_flyswatter",
+        "WS0006": "sv_flyswatter",
+        "WS0007": "taclaser",
+        "WS0008": "taclaser",
+        "WS0009": "sv_rustybarrellauncher",
+        "WS0010": "sv_rustybarrellauncher",
+        "WS0011": "sv_flyswatter",
+        "WS0012": "sv_flyswatter",
+        "WS0013": "dualflak",
+        "WS0014": "dualflak",
+        "WS0015": "sv_flyswatter",
+        "WS0016": "sv_flyswatter",
+        "WS0017": "sv_flyswatter",
+        "WS0018": "sv_flyswatter",
+        "WS0019": "taclaser",
+        "WS0020": "taclaser",
+        "WS0021": "sv_daneaxe",
+        "WS0022": "sv_daneaxe",
+        "WS0023": "sv_doorknocker",
+        "WS0024": "sv_doorknocker",
+        "WS0025": "salamanderpod",
+        "WS0026": "salamanderpod",
+        "WS0027": "salamanderpod",
+        "WS0028": "salamanderpod",
+        "WS0029": "sv_rustybarrellauncher",
+        "WS0030": "sv_rustybarrellauncher",
+        "WS0031": "sv_daneaxe",
+        "WS0032": "sv_daneaxe",
+        "WS0033": "sv_doorknocker",
+        "WS0034": "sv_doorknocker",
+        "WS0037": "taclaser",
+        "WS0038": "taclaser",
+        "WS0039": "dualflak",
+        "WS0040": "dualflak",
+        "WS0041": "guardian",
+        "WS0042": "guardian"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "gladius_wing",
+    "gladius_wing"
+  ]
+}

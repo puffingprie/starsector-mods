@@ -1,0 +1,46 @@
+id
+# NOTES
+# Ship IDs entered here will be allowed by the Engineering hub (Reverse Engineering ship hulls)
+# Ships that would break the game (Balance/Technical/Lore) if the player could produce them via blueprint should not be on this list.
+"# Remember that we are all in this to have fun. Reverse Engineering is neither easy nor cheap, and forbidding too much takes away from player experience."
+keruvim_shotel
+keruvim_flamberge
+keruvim_axe_a
+keruvim_axe_b
+keruvim_flail
+keruvim_stallion
+keruvim_bouncer
+
+keruvim_keg
+keruvim_mortar
+keruvim_rapier
+keruvim_carrion
+keruvim_culverin
+keruvim_buccaneer
+keruvim_zweihander_a
+keruvim_zweihander_b
+keruvim_zweihander_p
+
+keruvim_chariot_b_lgbt
+keruvim_chariot_a
+keruvim_chariot_b
+keruvim_glaive
+keruvim_brute
+keruvim_ranger
+keruvim_morgenstern
+keruvim_catapult
+keruvim_catapult_p
+
+keruvim_quarry
+keruvim_paragon_p
+keruvim_duchess
+keruvim_empress
+keruvim_bastion
+
+keruvim_culverin_lgbt
+keruvim_zweihander_lgbt
+keruvim_axe_lgbt
+keruvim_shotel_lgbt
+keruvim_glaive_lgbt
+
+keruvim_cudgel

@@ -1,0 +1,58 @@
+{
+    "displayName": "Planetbreaker",
+    "fluxCapacitors": 25,
+    "fluxVents": 28,
+    "goalVariant": true,
+    "hullId": "ii_olympus",
+    "hullMods": [
+        "targetingunit",
+        "eccm"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "ii_olympus_pb",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ii_titan_w"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "ii_ballista",
+                "WS0005": "ii_ballista",
+                "WS0006": "ii_smallballista",
+                "WS0007": "ii_smallballista",
+                "WS0008": "ii_smallballista",
+                "WS0009": "ii_smallballista"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "taclaser",
+                "WS0011": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "ii_sledgecannon",
+                "WS0003": "ii_sledgecannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "ii_custos",
+                "WS0013": "ii_custos",
+                "WS0014": "ii_custos"
+            }
+        }
+    ]
+}

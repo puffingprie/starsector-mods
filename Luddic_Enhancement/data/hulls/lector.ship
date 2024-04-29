@@ -1,0 +1,117 @@
+{
+  "hullName": "Lector",
+  "hullId": "lector",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/lector.png",
+  "style": "LOW_TECH",
+  "height": 136,
+  "width": 112,
+  "center": [56, 68],
+  "collisionRadius": 78,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 74.5,
+  "viewOffset": 0,
+  "builtInMods": [
+	"rugged",
+    "luddenhance_shieldblock"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 17.5,
+      "locations": [-17, 30]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -17.5,
+      "locations": [-17, -30]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [21.5, 27]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [21.5, -27]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 236,
+      "angle": 0,
+      "locations": [34, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-66, 15],
+      "length": 50,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-66, -15],
+      "length": 50,
+      "width": 17,
+      "angle": -180,
+      "contrailSize": 17,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-65, 7],
+      "length": 17,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-65, -7],
+      "length": 17,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -64.5, -6,
+    -65, -20.5,
+    -29.5, -53,
+    -7, -55,
+    8, -38,
+    33, -39.5,
+    36.5, -21,
+    66, -5,
+    66, 5,
+    36.5, 21,
+    33, 39.5,
+    8, 38,
+    -7, 55,
+    -29.5, 53,
+    -65, 20.5,
+    -64.5, 6
+  ]
+}

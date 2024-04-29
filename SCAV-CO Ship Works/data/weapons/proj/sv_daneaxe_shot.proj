@@ -1,0 +1,16 @@
+{
+	"id":"sv_daneaxe_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":150.0,
+	"hitGlowRadius":75,
+	"width":11.0,
+	"fadeTime":0.2,
+	"fringeColor":[255,200,200,175],
+	"coreColor":[255,55,55,255],	
+	"textureScrollSpeed":64,
+	"pixelsPerTexel":8.0,
+	"bulletSprite":"graphics/weapons/proj/sv_greataxe_shot.png",
+}

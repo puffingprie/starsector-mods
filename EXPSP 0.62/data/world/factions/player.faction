@@ -1,0 +1,30 @@
+{
+"portraits":{
+		"standard_male":[
+			"graphics/portraits/MVSopm1.png",
+			"graphics/portraits/MVSopm2.png",
+			"graphics/portraits/MVSopm3.png",
+			"graphics/portraits/MVSopm4.png",
+			"graphics/portraits/MVSopm5.png",
+			"graphics/portraits/MVSopm6_v2.png",
+			"graphics/portraits/Marinem.png",
+			
+			"graphics/portraits/culter.png",
+			"graphics/portraits/Wedgearmet.png",
+			"graphics/portraits/portrait_mercenary08.png",
+			"graphics/portraits/expsp_aegisarmor.png",
+		],
+		"standard_female":[
+
+			
+			"graphics/portraits/Marinem.png",
+			
+			"graphics/portraits/MVSopf2.png",
+			"graphics/portraits/MVSopf4.png",
+			
+			
+				"graphics/portraits/MVSopf3.png",
+
+		],
+	},
+}

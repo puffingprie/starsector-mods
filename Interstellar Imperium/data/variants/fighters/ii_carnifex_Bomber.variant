@@ -1,0 +1,20 @@
+{
+    "quality":0.5,
+    "displayName":"Strike Bomber",
+    "hullId":"ii_carnifex",
+    "variantId":"ii_carnifex_Bomber",
+    "fluxVents":0,
+    "fluxCapacitors":0,
+    "hullMods":[], # array of strings
+
+    # mode is either LINKED or ALTERNATING
+    # slot ids (WS ***) must match what's in the .ship file
+    "weaponGroups":[
+        {"mode":"LINKED",
+         "weapons":{
+                    "WS0001":"ii_javelin_f",
+                    "WS0002":"ii_javelin_f",
+                   },
+        },
+    ],
+}

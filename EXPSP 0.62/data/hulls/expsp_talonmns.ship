@@ -1,0 +1,60 @@
+{
+  "hullName": "Talon (MNS)",
+  "hullId": "expsp_talonmns",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/expsp_talonmns.png",
+  "style": "EXPSP_MVS",
+  "height": 24,
+  "width": 24,
+  "center": [12, 8.5],
+  "collisionRadius": 21.5,
+  "shieldCenter": [3.5, 0],
+  "shieldRadius": 15.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [3, 2.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [3, -3.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-6.5, 5],
+      "length": 16,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    },
+    {
+      "location": [-7, -5],
+      "length": 16,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    }
+  ],
+  "bounds": [
+    8, -0.5,
+    -3, 10.5,
+    -8.5, -0.5,
+    -4, -10.5
+  ]
+}

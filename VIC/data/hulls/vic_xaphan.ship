@@ -1,0 +1,110 @@
+{
+  "hullName": "Xaphan",
+  "hullId": "vic_xaphan",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Xaphan/vic_xaphan.png",
+  "style": "VIC",
+  "height": 151,
+  "width": 82,
+  "center": [41, 75],
+  "collisionRadius": 94.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 83.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "vic_aerodynamicdesign",
+    "vic_dynamicshields",
+    "vic_hellstormV2",
+    "vic_shturmSolutionDummy"
+  ],
+  "builtInWeapons": {
+    "WS0001": "vic_xaphandecoleft",
+    "WS0002": "vic_xaphandecoright",
+    "WS0006": "vic_xaphandecofront"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-13, -24.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [62, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-13, 24.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [-11, -29]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [-11, 29]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [53, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-73, -0],
+      "length": 40.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "CUSTOM",
+      "styleId": "VOLKOV-LAIDLAW'S"
+    }
+  ],
+  "bounds": [
+    -72, 5,
+    -65, 12,
+    -45.5, 12,
+    -15.5, 35.5,
+    0.5, 26,
+    -0.5, 18.5,
+    67, 10,
+    73, 3,
+    73, -3,
+    67, -10,
+    -0.5, -18.5,
+    0.5, -26,
+    -15.5, -35.5,
+    -45.5, -12,
+    -65, -12,
+    -72, -5
+  ]
+}

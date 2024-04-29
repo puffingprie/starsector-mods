@@ -1,0 +1,56 @@
+{
+  "variantId": "keruvim_quarry_standard",
+  "hullId": "keruvim_quarry",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 45,
+  "fluxVents": 19,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "autorepair",
+    "reinforcedhull",
+    "insulatedengine"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "hammer",
+        "WS0002": "hammer",
+        "WS0018": "hammer",
+        "WS0019": "hammer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "keruvim_cracker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "miningblaster",
+        "WS0006": "miningblaster",
+        "WS0007": "miningblaster",
+        "WS0008": "miningblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "mininglaser",
+        "WS0004": "mininglaser",
+        "WS0009": "mininglaser",
+        "WS0010": "mininglaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

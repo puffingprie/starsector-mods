@@ -1,0 +1,43 @@
+{
+  "variantId": "enforcer_hmibounty_so2",
+  "hullId": "enforcer_d_pirates",
+  "displayName": "Overdriven",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "safetyoverrides",
+    "heavyarmor",
+    "unstable_injector"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 006": "annihilator",
+        "WS 007": "annihilator",
+        "WS 008": "annihilator",
+        "WS 009": "annihilator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 002": "heavymg",
+        "WS 003": "heavymg",
+        "WS 004": "heavymg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,90 @@
+{
+  "variantId": "sv_enkidu_standerd",
+  "hullId": "sv_enkidu",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 1,
+  "fluxVents": 11,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull",
+    "targetingunit",
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "sv_grateaxe",
+        "WS0008": "sv_grateaxe",
+        "WS0025": "sv_atlascannon",
+        "WS0026": "sv_atlascannon",
+        "WS0027": "sv_atlascannon",
+        "WS0028": "sv_atlascannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "reaper",
+        "WS0004": "reaper"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sv_flyswatter",
+        "WS0002": "sv_flyswatter",
+        "WS0005": "sv_flyswatter",
+        "WS0006": "sv_flyswatter",
+        "WS0009": "dualflak",
+        "WS0010": "dualflak",
+        "WS0011": "sv_daneaxe",
+        "WS0012": "sv_daneaxe",
+        "WS0013": "taclaser",
+        "WS0014": "taclaser",
+        "WS0015": "sv_flyswatter",
+        "WS0016": "sv_flyswatter",
+        "WS0017": "sv_flyswatter",
+        "WS0018": "sv_flyswatter",
+        "WS0019": "sv_daneaxe",
+        "WS0020": "sv_daneaxe",
+        "WS0021": "sv_daneaxe",
+        "WS0022": "sv_daneaxe",
+        "WS0023": "sv_daneaxe",
+        "WS0024": "sv_daneaxe",
+        "WS0029": "sv_flyswatter",
+        "WS0030": "sv_flyswatter",
+        "WS0031": "taclaser",
+        "WS0032": "taclaser",
+        "WS0033": "taclaser",
+        "WS0034": "taclaser",
+        "WS0035": "dualflak",
+        "WS0036": "dualflak",
+        "WS0037": "sv_flyswatter",
+        "WS0038": "sv_flyswatter",
+        "WS0039": "dualflak",
+        "WS0040": "sv_flyswatter",
+        "WS0041": "sv_flyswatter"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "mining_drone_wing"
+  ]
+}

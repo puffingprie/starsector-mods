@@ -1,0 +1,56 @@
+name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,hints,tags,rarity,breakProb,minPieces,maxPieces,number
+Beetle,keruvim_beetle,,Anvil Industries,,,350,175,350,,90,0,,180,180,150,100,200,40,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,0,,,110
+M21 Blaster Drone,keruvim_m21drone,,Keruvim Exports,,,200,70,500,,150,,,200,250,250,180,360,5,NONE,,,,,,,,,,,,,,,,,,,,,,,,0,,,0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Spider,keruvim_spider,,Keruvim Shipyards,,,300,70,600,,70,0,,310,300,250,200,180,30,NONE,,0,0,0,,,2,2,,,,,,,,,,,,,,,,0,,,103
+Silkworm,keruvim_silkworm,,Keruvim Shipyards,,,380,55,500,,100,0,,220,225,200,60,120,40,NONE,,0,0,0,,,1,1,,,,,,,,,,,,,,,,0,,,113
+Flea,keruvim_flea,,Keruvim Shipyards,,,250,40,200,,100,,,150,200,200,180,360,5,NONE,,,,,,,0,0,,,,,,,,,,,,,,,,0,,,1.5
+Cicada,keruvim_cicada,,Keruvim Exports,,,750,150,200,,25,0,,140,150,150,30,90,15,NONE,,0,0,0,,,1,1,,,,,,,,,,,,,,,,0,,,117
+Antlion,keruvim_antlion,,Keruvim Shipyards,,,500,100,200,,100,0,,140,75,75,45,90,50,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,0,,,108
+Cricket,keruvim_cricket,,Keruvim Shipyards,,,500,60,200,,50,0,,340,400,300,200,300,30,NONE,,0,0,0,,,1,1,,,,,,,,,,,,,,,,0,,,109
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Shotel,keruvim_shotel,Frigate,Keruvim Shipyards,flarelauncher,5,2000,450,2800,1750,240,45,,135,110,90,45,60,200,OMNI,,70,0.5,0.7,,,30,55,45,25,1,25,10,11000,8,10,240,0.25,5,5,,keruvim_bp,,0.3,2,2,204
+Flamberge,keruvim_flamberge,Assault Frigate,Keruvim Shipyards,maneuveringjets,4,1200,150,1600,1000,110,45,,120,70,60,50,40,120,FRONT,,120,0.5,0.9,,,15,30,10,10,0.5,15,10,20000,5,15,250,0.25,4,4,,keruvim_bp,,0.8,2,2,109
+Axe,keruvim_axe_a,Ultra-Light Carrier,Keruvim Shipyards,flarelauncher,5,1300,360,1500,2500,150,25,1,90,150,100,75,100,250,FRONT,,150,0.5,0.8,,,15,35,10,15,1,15,10,15000,8,10,300,0.25,5,5,CARRIER,keruvim_bp,,0.4,2,2,207
+Axe Mk.II,keruvim_axe_b,Light Gunship,Keruvim Shipyards,flarelauncher,4,1300,360,2500,2500,200,40,,120,180,120,80,120,250,FRONT,,150,0.5,0.8,,,20,35,25,20,1,20,10,10000,8,10,300,0.25,4,4,,keruvim_bp,,0.4,2,2,207
+Flail,keruvim_flail,Frigate,Keruvim Shipyards,keruvim_wing,5,750,250,2500,1750,200,55,,145,80,90,45,50,200,FRONT,,145,0.5,0.8,,,20,35,25,10,1,10,10,9000,8,10,240,0.25,6,6,,keruvim_bp,,0.8,2,4,204
+Stallion,keruvim_stallion,Combat Freighter,Keruvim Shipyards,keruvim_wing,5,1950,280,1400,1500,120,40,1,100,70,50,35,70,300,OMNI,,90,0.5,0.8,,,5,20,120,10,1,10,10,13000,8,10,270,0.25,5,5,"FREIGHTER, COMBAT",keruvim_bp,,0.4,2,3,
+Bouncer,keruvim_bouncer,Heavy Defense Frigate,Pirate Inc.,damper,5,3000,500,1200,1875,150,45,,90,50,30,50,90,350,NONE,,0,0,0,,,25,50,50,20,1,20,10,9500,8,10,290,0.25,5,5,,pirate_bp,,0.2,2,5,100
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Keg,keruvim_keg,Combat Tanker,Keruvim Exports,damper,9,4900,700,2900,2500,150,60,,65,40,20,20,15,500,FRONT,,120,0.5,1,,,45,100,40,450,2,225,9,36000,5,10,420,0.25,7,7,"FREIGHTER, COMBAT",keruvim_export_bp,,0.5,2,3,310
+Mortar,keruvim_mortar,Artillery Destroyer,Keruvim Shipyards,flarelauncher,10,4000,250,5000,8333,300,95,,75,80,60,30,30,350,FRONT,,300,0.4,1.2,,,50,70,80,50,2,25,9,45000,5,15,300,0.25,11,11,,keruvim_bp,,0.5,2,3,301
+Rapier,keruvim_rapier,Frigate Killer,Luddic Path,maneuveringjets,10,4500,500,4600,1000,260,85,,85,65,45,55,40,450,FRONT,,270,0.4,0.8,,,45,90,75,60,2,30,8,45000,5,10,420,0.25,12,12,,path_bp,,0.5,2,5,300
+Carrion,keruvim_carrion,Combat Rig,Keruvim Exports,damper,6,4200,430,2700,2083,125,40,3,45,35,25,25,15,400,FRONT,,120,0.6,1,,,50,110,100,100,2,50,8,32000,5,20,420,0.25,6,6,"FREIGHTER, COMBAT",keruvim_export_bp,,0.5,2,3,306
+Culverin,keruvim_culverin,Missile Destroyer,Keruvim Shipyards,fastmissileracks,10,4600,480,3700,4167,250,100,,75,60,40,30,60,400,OMNI,,130,0.4,0.9,,,40,70,65,60,2,30,9,43000,5,12,360,0.25,11,11,,keruvim_bp,,0.5,2,3,300
+Buccaneer,keruvim_buccaneer,Light Carrier,Pirate Inc.,burndrive,10,3700,580,1700,1833,75,40,3,85,45,20,10,5,400,OMNI,,80,0.5,1.5,,,60,130,70,30,2,15,9,26000,5,10,360,0.25,10,10,CARRIER,pirate_bp,,0.5,2,3,302
+Zweihander,keruvim_zweihander_a,Destroyer,Keruvim Shipyards,keruvim_wing,12,5500,500,4200,4167,350,100,1,65,25,20,20,20,400,FRONT,,250,0.4,0.9,,,60,125,45,30,2,15,9,45000,5,12,380,0.25,12,12,,keruvim_bp,,0.5,2,3,300
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Zweihander Mk.II,keruvim_zweihander_b,Destroyer,Keruvim Shipyards,keruvim_wing,12,5500,500,5500,4167,350,110,,65,25,20,20,20,400,FRONT,,250,0.4,0.9,,,60,125,45,30,2,15,9,45000,5,12,380,0.25,12,12,,keruvim_bp,,0.5,2,3,300
+Zweihander Mk.II (P),keruvim_zweihander_p,Destroyer,Pirate Inc.,burndrive,12,5500,500,5500,4167,350,110,,80,25,20,20,20,400,FRONT,,250,0.4,0.9,,,60,125,45,30,2,15,9,45000,5,12,380,0.25,12,12,,pirate_bp,,0.5,2,3,300
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Cudgel,keruvim_cudgel,Heavy Assault Cruiser,Pirate Inc.,burndrive,25,12000,950,9700,9000,650,170,,60,15,10,8,8,2250,OMNI,,150,0.7,1.1,,,260,500,90,350,5,70,9,105000,4,12,500,0.25,25,25,,pirate_bp,,0.6,2,3,404
+Chariot,keruvim_chariot_a,Heavy Carrier,Keruvim Shipyards,keruvim_wing,25,9500,800,4500,4000,200,95,4,55,20,40,10,20,1200,FRONT,,240,0.6,0.9,,,110,250,150,50,4,12,8,140000,4,12,480,0.25,22,22,CARRIER,keruvim_bp,,0.5,2,3,408
+Chariot MK.II,keruvim_chariot_b,Assault Cruiser,Keruvim Shipyards,keruvim_wing,25,9500,800,9800,4000,600,160,1,55,20,40,10,20,1200,FRONT,,240,0.6,0.9,,,110,250,150,50,4,12,8,140000,4,12,480,0.25,22,22,,keruvim_bp,,0.5,2,3,408
+Glaive,keruvim_glaive,Line Cruiser,Keruvim Shipyards,damper,16,8000,1000,9500,10500,550,155,1,50,30,20,10,20,1200,FRONT,,230,0.5,0.7,,,170,350,150,100,4,40,8,130000,3,12,480,0.25,23,23,,keruvim_bp,,0.5,2,3,401
+Brute,keruvim_brute,Pirate Rig,Pirate Inc.,damper,20,7400,1400,9500,9000,400,175,,35,20,10,12,12,2250,FRONT,,150,0.8,1.3,,,300,450,250,100,5,20,7,95000,4,12,450,0.25,20,20,,pirate_bp,,0.7,2,3,404
+Ranger,keruvim_ranger,Mining Hub,Keruvim Exports,keruvim_m21drone,18,12000,1350,10000,4000,500,130,2,45,20,10,10,10,2000,OMNI,,90,0.6,1,,,230,350,250,100,4,40,8,129000,4,12,420,0.25,22,22,,keruvim_export_bp,,0.4,2,3,410
+Morgenstern,keruvim_morgenstern,Light Cruiser,Keruvim Shipyards,keruvim_wing,13,5500,450,8000,7000,350,115,,70,40,25,20,25,650,OMNI,,140,0.5,0.8,,,120,170,50,30,3,10,9,95000,4,12,460,0.25,14,14,,keruvim_bp,,0.4,2,4,545
+Catapult,keruvim_catapult,Heavy Missile Cruiser,Keruvim Shipyards,burndrive,20,13000,1300,7500,9000,350,165,,40,30,10,12,12,2850,PHASE,canister_flak,0,0,0,,,260,500,250,150,5,30,8,110000,4,12,540,0.25,27,27,,keruvim_bp,,0.1,2,5,534
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Zwei-Star,keruvim_zweistar,BattleStar,Pirate Inc.,maneuveringjets,45,12000,950,15500,10000,750,370,2,35,25,20,35,30,1800,OMNI,,360,0.4,0.9,,,240,300,150,120,8,18,8,220000,5,18,500,0.40,45,45,,,,0.8,3,6,300
+Quarry,keruvim_quarry,Mining Rig,Keruvim Exports,keruvim_m21drone,26,12000,1300,14000,5000,650,180,4,40,10,10,10,10,4000,OMNI,,140,0.5,0.9,,,340,700,500,450,10,45,7,200000,2,20,720,0.25,26,26,,keruvim_export_bp,,0.1,2,4,502
+Paragon (P),keruvim_paragon_p,Battleship,Pirate Inc.,fortressshield,45,16000,1650,21000,31250,1000,310,,25,15,10,5,5,3500,FRONT,,300,0.6,0.9,,,340,650,350,400,10,40,7,380000,4,20,660,0.25,55,55,,rare_bp,,0.6,3,5,344
+Lucerne,keruvim_lucerne,Battleship,Anvil Industries,keruvim_fury,65,23000,2150,23500,15000,1100,345,2,60,25,10,6,6,4400,NONE,,,,,,,110,250,550,500,15,33,7,320000,5,10,720,0.25,65,65,,,,0.1,2,2,500
+Duchess,keruvim_duchess,Battlecruiser,Keruvim Shipyards,keruvim_wing,50,11500,900,18000,29000,1000,300,2,65,40,10,10,5,2700,FRONT,,190,0.5,0.9,,,370,500,450,300,10,30,7,330000,3,15,850,0.25,45,45,,rare_bp,,0.2,2,4,503
+Empress,keruvim_empress,Battlecarrier,Keruvim Shipyards,reservewing,45,15500,1100,18000,30000,900,340,4,50,20,15,12,20,3500,OMNI,,90,0.4,1,,,500,800,350,280,12,23,7,360000,3,20,600,0.25,45,45,,rare_bp,,0.5,2,4,503
+Bastion,keruvim_bastion,Command Rig,Keruvim Exports,damper,40,15500,900,16000,30000,800,230,3,40,20,15,8,10,3500,OMNI,,90,0.5,1.1,,,350,550,600,500,10,50,6,280000,3,20,600,0.25,40,40,,keruvim_export_bp,,0.6,2,4,503
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Culverin (Pride),keruvim_culverin_lgbt,Missile Destroyer,Keruvim Shipyards,fastmissileracks,10,4600,480,3700,4167,250,100,,75,60,40,30,60,400,OMNI,,130,0.4,0.9,,,40,70,65,60,2,30,9,43000,5,12,360,0.25,11,11,HIDE_IN_CODEX,keruvim_pride_bp,,0.5,2,3,300
+Zweihander (Pride),keruvim_zweihander_lgbt,Destroyer,Keruvim Shipyards,keruvim_wing,12,5500,500,4200,4167,350,100,1,65,25,20,20,20,400,FRONT,,250,0.4,0.9,,,60,125,45,30,2,15,8,45000,5,12,380,0.25,12,12,HIDE_IN_CODEX,keruvim_pride_bp,,0.5,2,3,300
+Axe (Pride),keruvim_axe_lgbt,Ultra-Light Carrier,Keruvim Shipyards,flarelauncher,5,1300,360,1500,2500,150,25,1,90,150,100,75,100,250,FRONT,,150,0.5,0.8,,,15,35,10,15,1,15,9,15000,8,10,300,0.25,5,5,"CARRIER, HIDE_IN_CODEX",keruvim_pride_bp,,0.4,2,2,207
+Shotel (Pride),keruvim_shotel_lgbt,Frigate,Keruvim Shipyards,flarelauncher,5,2000,450,2800,1750,240,45,,135,110,90,45,60,200,OMNI,,70,0.5,0.7,,,30,55,45,25,1,25,10,11000,8,10,240,0.25,5,5,HIDE_IN_CODEX,keruvim_pride_bp,,0.3,2,2,204
+Glaive (Pride),keruvim_glaive_lgbt,Line Cruiser,Keruvim Shipyards,damper,16,8000,1000,9500,10500,550,155,1,50,30,20,10,20,1200,FRONT,,230,0.5,0.7,,,170,350,150,100,4,40,8,130000,3,12,480,0.25,23,23,HIDE_IN_CODEX,keruvim_pride_bp,,0.5,2,3,401
+Chariot MK.II (Pride),keruvim_chariot_b_lgbt,Assault Cruiser,Keruvim Shipyards,keruvim_wing,25,9500,800,9800,4000,600,160,1,45,20,40,10,20,1200,FRONT,,240,0.6,0.9,,,110,250,50,50,4,12,8,125000,4,12,480,0.25,25,25,HIDE_IN_CODEX,keruvim_pride_bp,,0.5,2,3,408
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

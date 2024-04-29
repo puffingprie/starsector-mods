@@ -1,0 +1,173 @@
+{
+  "hullName": "Shrike (KoE)",
+  "hullId": "shrike_hmikoe",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/shrike/shrike_knightsofeva.png",
+  "style": "HIGH_TECH",
+  "height": 170,
+  "width": 110,
+  "center": [55, 79],
+  "collisionRadius": 120,
+  "shieldCenter": [6, 0],
+  "shieldRadius": 116,
+  "viewOffset": 0,
+  "builtInMods": [
+    "safetyoverrides",
+    "high_scatter_amp"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 000",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": 80,
+      "locations": [14, 36]
+    },
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 0,
+      "locations": [31, 0],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -70,
+      "locations": [14, -36]
+    },
+    {
+      "id": "WS 003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 25,
+      "locations": [43, 22]
+    },
+    {
+      "id": "WS 005",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [60, -16]
+    },
+    {
+      "id": "WS 006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": 130,
+      "locations": [-34, 34]
+    },
+    {
+      "id": "WS 007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": 230,
+      "locations": [-34, -34]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-76, 14],
+      "length": 48,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-76, -14],
+      "length": 48,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-66, 34],
+      "length": 24,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-69, 28],
+      "length": 24,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-71, 23],
+      "length": 24,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-71, -23],
+      "length": 24,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-69, -28],
+      "length": 24,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-66, -34],
+      "length": 24,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    0, 48,
+    69, 29,
+    75, 20,
+    66, 13,
+    70, 3,
+    41, 1,
+    67, -2,
+    69, -28,
+    -1, -50,
+    -9, -36,
+    -21, -47,
+    -32, -46,
+    -65, -33,
+    -74, -9,
+    -56, -6,
+    -56, 7,
+    -74, 10,
+    -65, 32,
+    -30, 48,
+    -21, 46,
+    -6, 35
+  ]
+}

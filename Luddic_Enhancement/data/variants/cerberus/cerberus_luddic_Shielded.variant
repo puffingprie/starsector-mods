@@ -1,0 +1,35 @@
+{
+    "displayName": "Shielded",
+    "fluxCapacitors": 9,
+    "fluxVents": 10,
+    "goalVariant": false,
+    "hullId": "cerberus_luddic",
+    "hullMods": [
+        "frontshield",
+        "fluxdistributor",
+		"insulatedengine",
+		"magazines"
+    ],
+    "permaMods": [],
+    "variantId": "cerberus_luddic_Shielded",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "shredder"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "lightdualmg"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightmortar",
+                "WS 002": "lightmortar"
+            }
+        }
+    ]
+}

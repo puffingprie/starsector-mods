@@ -1,0 +1,44 @@
+{
+	"variantOverrides":{
+	
+		"fasces_cs":2,
+		"fasces_attack":3,
+		"fasces_standard":5,
+		
+		"jude_cs":3,
+		"jude_std":7,
+		
+	},
+    "hullFrequency":{
+        "hulls":{
+            "cerberus":0,
+            "brawler":0,
+			"mule":0,			
+			"venture":0,
+			
+			"brawler_luddic":0.25,
+            "lector":0.25,
+            "jude":0.25,
+			"christopher":0.25,			
+			"sebastian":0.1,			
+        },
+    },
+    "knownShips":{
+        "hulls":[
+            "brawler_luddic",
+			"cerberus_luddic",
+			"mule_luddic",
+			"lector",
+			"christopher",			
+			"fidem",
+			"jude",
+			"sebastian",
+			"venture_luddic",
+        ],
+    },
+	"shipRoles":{
+		"combatFreighterMedium":{
+			"mule_luddic_support":10,
+		},
+	},
+},

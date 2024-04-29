@@ -1,0 +1,36 @@
+{
+  "displayName": "Anniliator",
+  "fluxCapacitors": 4,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "mess_cerberus",
+  "hullMods": [
+    "eccm",
+    "missleracks"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "mess_cerberus_annhiliator",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "annihilator",
+        "WS0002": "annihilator",
+        "WS0003": "mbeke_med"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "wings": []
+}

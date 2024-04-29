@@ -1,0 +1,19 @@
+{
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/interesting_portrait_sleeper01.png",
+			"graphics/portraits/interesting_portrait_sleeper02.png",
+			"graphics/portraits/interesting_portrait_sleeper10.png",
+			"graphics/portraits/interesting_portrait_sleeper11.png",
+		],
+		"standard_female":[
+			"graphics/portraits/interesting_portrait_sleeper03.png",
+			"graphics/portraits/interesting_portrait_sleeper04.png",
+			"graphics/portraits/interesting_portrait_sleeper05.png",
+			"graphics/portraits/interesting_portrait_sleeper06.png",
+			"graphics/portraits/interesting_portrait_sleeper07.png",
+			"graphics/portraits/interesting_portrait_sleeper08.png",
+			"graphics/portraits/interesting_portrait_sleeper09.png",
+		],
+	},
+},

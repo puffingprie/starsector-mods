@@ -1,0 +1,102 @@
+{
+  "hullName": "Maunderer",
+  "hullId": "maunderer",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/maunderer.png",
+  "style": "MIDLINE",
+  "height": 108,
+  "width": 86,
+  "center": [43, 54],
+  "collisionRadius": 74,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 71.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade",
+    "surveying_equipment",
+    "repair_gantry"
+  ],
+  "builtInWings": [
+    "borer_wing",
+    "borer_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [44, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-21, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "LAUNCH_BAY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 90,
+      "locations": [
+        11.5, 25.5,
+        1, 21,
+        -11, 22.5
+      ]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "LAUNCH_BAY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -90,
+      "locations": [
+        5.5, -24,
+        -7, -22
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-51.5, 11],
+      "length": 30,
+      "width": 23,
+      "angle": 180,
+      "contrailSize": 23,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-51.5, -11],
+      "length": 30,
+      "width": 23,
+      "angle": -180,
+      "contrailSize": 23,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -51, -28.5,
+    -38.5, -38.5,
+    -13, -38,
+    -11.5, -33.5,
+    8, -34.5,
+    11, -38,
+    32.5, -36.5,
+    52.5, -19,
+    47, -10,
+    47, 10,
+    52.5, 19,
+    32.5, 36.5,
+    -38.5, 38.5,
+    -51, 28.5
+  ]
+}

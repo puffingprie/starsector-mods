@@ -1,0 +1,33 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 20,
+    "fluxVents": 17,
+    "goalVariant": false,
+    "hullId": "vayra_harbinger_ai",
+    "hullMods": [
+        "unstable_injector",
+        "fluxbreakers"
+    ],
+    "permaMods": [],
+    "quality": 1,
+    "variantId": "vayra_harbinger_ai_Strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "heavyblaster",
+                "WS 002": "ionpulser",
+                "WS 003": "ionpulser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "pdlaser",
+                "WS 005": "pdlaser"
+            }
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+  "variantId": "expsp_abysswalker_Lancer",
+  "hullId": "expsp_abysswalker",
+  "displayName": "Lancer",
+  "goalVariant": true,
+  "fluxCapacitors": 46,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "frontemitter",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0018": "expsp_gluonlance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "expsp_plinker",
+        "WS0004": "expsp_plinker",
+        "WS0005": "expsp_plinker",
+        "WS0006": "expsp_plinker"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0016": "expsp_lrm_med",
+        "WS0017": "expsp_lrm_med"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "expsp_hunterflak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_particle_caliver",
+        "WS0002": "expsp_particle_caliver",
+        "WS0007": "expsp_particle_caliver",
+        "WS0008": "expsp_particle_caliver",
+        "WS0009": "expsp_coilciws",
+        "WS0010": "expsp_coilciws",
+        "WS0011": "expsp_coilciws",
+        "WS0012": "expsp_coilciws",
+        "WS0013": "expsp_coilciws",
+        "WS0014": "expsp_coilciws"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "expsp_talonmvs_wing",
+    "expsp_talonmvs_wing"
+  ]
+}

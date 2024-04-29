@@ -1,0 +1,18 @@
+{
+    "id":"ii_flares_armor",
+    "specClass":"projectile",
+    "type":"SYSTEM",
+    "size":"SMALL",
+    "turretSprite":"",
+    "hardpointSprite":"",
+    "hardpointOffsets":[0, 0],
+    "turretOffsets":[0, 0],
+    "hardpointAngleOffsets":[0],
+    "turretAngleOffsets":[0],
+    "barrelMode":"LINKED",
+    "animationType":"NONE",
+    "interruptibleBurst":false,
+    "separateRecoilForLinkedBarrels":true,
+    "projectileSpecId":"ii_flare_armor",
+    "fireSoundTwo":"launch_flare_1",
+}

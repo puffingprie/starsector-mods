@@ -1,0 +1,29 @@
+{
+  "variantId": "missp_midline_patrol_craft_Standard",
+  "hullId": "missp_midline_patrol_craft",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavymg",
+        "WS0002": "vulcan",
+        "WS0003": "swarmer_fighter",
+        "WS0004": "swarmer_fighter",
+        "WS0005": "swarmer_fighter",
+        "WS0006": "swarmer_fighter",
+        "WS0007": "swarmer_fighter",
+        "WS0008": "swarmer_fighter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

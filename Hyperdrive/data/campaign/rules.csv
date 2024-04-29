@@ -1,0 +1,14 @@
+id,trigger,conditions,script,text,options,notes
+sun_hd_nex_remFragments_stationOpenSalvage,OpenInteractionDialog,"$nex_remFragments_mothership score:1000
+$nex_remFragments_seenFirstDialog
+$nex_remFragments_canSalvage
+!$nex_remFragments_seenPostBattleDialog
+!$player.ability:sun_hd_hyperdrive","ShowDefaultVisual
+$entity.nex_remFragments_seenPostBattleDialog = true
+Call $global.nex_remFragments_ref prepEngineer
+Call $global.nex_remFragments_ref updateData
+AddAbility sun_hd_hyperdrive","Now that the danger has passed, you can feast on the technological marvel before you at your leisure.
+
+The salvors have time to do their work properly now, and get to examining every nook and cranny of the ship again. Of particular note is a drive configuration specification found deep within the databanks. Ostensibly, it could facilitate the compound folding of hyperspace, allowing any fleet to instantly travel vast distances.
+
+Unfortunately, your delightful perusal of the loot estimates is interrupted by an urgent message on your command console.",nex_remFragments_salvage1:Continue,

@@ -1,0 +1,44 @@
+{
+    "displayName": "Artillery",
+    "fluxCapacitors": 15,
+    "fluxVents": 17,
+    "goalVariant": true,
+    "hullId": "ii_lynx",
+    "hullMods": [
+        "ii_targeting_package",
+        "targetingunit",
+        "magazines"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "ii_lynx_art",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "salamanderpod",
+                "WS0006": "heatseeker",
+                "WS0007": "heatseeker"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "ii_heavypulsar"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "ionpulser"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "lightdualmg",
+                "WS0009": "lightdualmg"
+            }
+        }
+    ]
+}

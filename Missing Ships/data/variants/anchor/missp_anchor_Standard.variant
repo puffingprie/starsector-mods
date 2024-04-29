@@ -1,0 +1,100 @@
+{
+  "variantId": "missp_anchor_Standard",
+  "hullId": "missp_anchor",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 3,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "targetingunit",
+    "reinforcedhull",
+    "pointdefenseai"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "pdlaser",
+        "WS0014": "pdlaser",
+        "WS0015": "vulcan",
+        "WS0016": "vulcan",
+        "WS0017": "pdlaser",
+        "WS0018": "pdlaser",
+        "WS0019": "pdlaser",
+        "WS0020": "pdlaser",
+        "WS0021": "pdlaser",
+        "WS0022": "pdlaser",
+        "WS0023": "vulcan",
+        "WS0024": "vulcan",
+        "WS0025": "pdlaser",
+        "WS0026": "pdlaser",
+        "WS0027": "pdlaser",
+        "WS0028": "pdlaser",
+        "WS0029": "pdlaser",
+        "WS0030": "pdlaser",
+        "WS0031": "vulcan",
+        "WS0032": "vulcan",
+        "WS0033": "vulcan",
+        "WS0034": "vulcan",
+        "WS0035": "pdlaser",
+        "WS0036": "pdlaser",
+        "WS0037": "vulcan",
+        "WS0038": "vulcan",
+        "WS0041": "pdlaser",
+        "WS0042": "pdlaser",
+        "WS0043": "vulcan",
+        "WS0044": "vulcan",
+        "WS0045": "vulcan",
+        "WS0046": "vulcan",
+        "WS0047": "vulcan",
+        "WS0048": "vulcan",
+        "WS0049": "pdlaser",
+        "WS0050": "pdlaser",
+        "WS0055": "pdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hephag",
+        "WS0002": "hephag",
+        "WS0003": "hephag",
+        "WS0004": "hephag",
+        "WS0005": "hephag",
+        "WS0006": "hephag"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "ionbeam",
+        "WS0008": "ionbeam",
+        "WS0009": "ionbeam",
+        "WS0010": "ionbeam",
+        "WS0011": "ionbeam",
+        "WS0012": "ionbeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0039": "gorgonpod",
+        "WS0040": "gorgonpod"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "broadsword_wing",
+    "broadsword_wing",
+    "broadsword_wing",
+    "broadsword_wing"
+  ]
+}

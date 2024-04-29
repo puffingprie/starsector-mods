@@ -1,0 +1,55 @@
+{
+  "variantId": "armaa_aleste_as_f",
+  "hullId": "armaa_aleste_frig",
+  "displayName": "Anti-Ship",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+	{
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "TRUE_GUN": "chaingun",
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "C_ARML": "armaa_aleste_blade_LeftArm",
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "E_HEAD": "armaa_alesteHead"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS001": "sabot",
+        "WS002": "sabot"
+      }
+    }
+  ],
+  #"modules": [
+  #  {
+      #"WS0001": "armaa_brawler_std"
+  #  }
+  #],
+  "wings": []
+}

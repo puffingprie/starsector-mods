@@ -1,0 +1,16 @@
+{
+	"id":"sv_doorknocker_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":100.0,
+	"hitGlowRadius":35,
+	"width":6.0,
+	"fadeTime":0.3,
+	"fringeColor":[0,255,255,255],
+	"coreColor":[0,255,255,255],	
+	"textureScrollSpeed":64,
+	"pixelsPerTexel":8.0,
+	"bulletSprite":"graphics/weapons/proj/sv_zweihander_rod.png"
+}

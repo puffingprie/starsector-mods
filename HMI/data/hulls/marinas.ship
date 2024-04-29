@@ -1,0 +1,202 @@
+{
+  "hullName": "Marinas",
+  "hullId": "marinas",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/marinas.png",
+  "style": "HIGH_TECH",
+  "height": 151,
+  "width": 194,
+  "center": [97, 57],
+  "collisionRadius": 115.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 113.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "HMI_techminedhull"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 76,
+      "angle": 0,
+      "locations": [61.5, 12]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 76,
+      "angle": -0,
+      "locations": [61.5, -12]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 124,
+      "angle": 36,
+      "locations": [51, 27]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 124,
+      "angle": -36,
+      "locations": [51, -27]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 144,
+      "angle": 52.5,
+      "locations": [14, 65]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 144,
+      "angle": -52.5,
+      "locations": [14, -65]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 195,
+      "angle": 58,
+      "locations": [30, 28]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 195,
+      "angle": -58,
+      "locations": [30, -28]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [34, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [1.5, 40],
+      "length": 8.304101,
+      "width": 9.442862,
+      "angle": 162.5,
+      "contrailSize": 9.442862,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [1.5, -40],
+      "length": 8.304101,
+      "width": 9.442862,
+      "angle": -162.5,
+      "contrailSize": 9.442862,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [0.5, 32],
+      "length": 14.091424,
+      "width": 11.735718,
+      "angle": 171,
+      "contrailSize": 11.735718,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [0.5, -32],
+      "length": 14.091424,
+      "width": 11.735718,
+      "angle": -171,
+      "contrailSize": 11.735718,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-0.5, 23.5],
+      "length": 25,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-0.5, -23.5],
+      "length": 25,
+      "width": 17,
+      "angle": -180,
+      "contrailSize": 17,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-42.5, 5.5],
+      "length": 16,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-42.5, -5.5],
+      "length": 16,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -42.5, -8.5,
+    -37.5, -14,
+    -17, -14,
+    -1, -19.5,
+    -23.5, -36,
+    -49, -53.5,
+    -36, -54.5,
+    -15.5, -50,
+    1.5, -44.5,
+    -55.5, -94.5,
+    -32, -94.5,
+    -9.5, -83.5,
+    23.5, -71.5,
+    30, -61,
+    63.5, -33,
+    64, -24.5,
+    93, -5,
+    93, 5,
+    64, 24.5,
+    63.5, 33,
+    30, 61,
+    23.5, 71.5,
+    -9.5, 83.5,
+    -32, 94.5,
+    -55.5, 94.5,
+    1.5, 44.5,
+    -15.5, 50,
+    -36, 54.5,
+    -49, 53.5,
+    -23.5, 36,
+    -1, 19.5,
+    -17, 14,
+    -37.5, 14,
+    -42.5, 8.5
+  ]
+}

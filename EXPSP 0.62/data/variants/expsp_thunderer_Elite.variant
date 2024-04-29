@@ -1,0 +1,39 @@
+{
+  "variantId": "expsp_thunderer_Elite",
+  "hullId": "expsp_thunderer",
+  "displayName": "Elite Gunship",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "FLARE": "expsp_flarelauncher_crimson",
+        "WS0001": "expsp_thunderheadac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "expsp_jab_fighter",
+        "WS0005": "expsp_jab_fighter"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "expsp_pokemini_fighter",
+        "WS0003": "expsp_pokemini_fighter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

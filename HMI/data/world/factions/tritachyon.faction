@@ -1,0 +1,22 @@
+{	
+	"hullFrequency":{
+
+		"hulls":{			
+			"remora":5,
+			"shepherd":0.25,
+			"hippocampus":5,
+			"venture":0.25,
+		},
+	},
+		"knownShips":{
+		"hulls":[
+			"remora",
+			"vigilance_tt",
+			"prognosticator",
+			"hippocampus",			
+			"beldam",			
+			],
+    },		
+},
+
+

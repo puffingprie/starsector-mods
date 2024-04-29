@@ -1,0 +1,21 @@
+{
+  "displayName": "Scanner Drone",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "drone_remora_scan",
+  "hullMods": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "drone_remora_scan_var",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "remora_emp_laser"
+      }
+    }
+  ],
+  "wings": []
+}

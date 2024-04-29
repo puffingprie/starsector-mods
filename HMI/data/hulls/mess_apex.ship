@@ -1,0 +1,187 @@
+{
+  "hullName": "Apex (Mess)",
+  "hullId": "mess_apex",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/mess/remnant_apex_mess.png",
+  "style": "HIGH_TECH",
+  "height": 160,
+  "width": 278,
+  "center": [139, 71],
+  "collisionRadius": 170,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 160,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "coherer",
+	"hmi_mess_visuals",
+    "hmi_mess_spawn_medium"
+  ],
+  "builtInWings": [
+    "drone_feeder_heavy_wing",
+    "drone_feeder_heavy_wing",
+    "drone_feeder_heavy_wing",
+    "drone_feeder_heavy_wing",
+    "drone_feeder_free_wing",
+    "drone_feeder_free_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 000",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 25,
+      "locations": [17, 79]
+    },
+    {
+      "id": "WS 003",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -25,
+      "locations": [17, -79]
+    },
+    {
+      "id": "WS 004",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [62, 34]
+    },
+    {
+      "id": "WS 005",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [66, 12]
+    },
+    {
+      "id": "WS 006",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [66, -12]
+    },
+    {
+      "id": "WS 007",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [62, -34]
+    },
+    {
+      "id": "WS 009",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 225,
+      "locations": [-27, -73]
+    },
+    {
+      "id": "WS 010",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 40,
+      "locations": [23, 106]
+    },
+    {
+      "id": "WS 011",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 30,
+      "locations": [45, 65]
+    },
+    {
+      "id": "WS 013",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -40,
+      "locations": [23, -106]
+    },
+    {
+      "id": "WS 014",
+      "size": "SMALL",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 180,
+      "locations": [
+        -18, 37,
+        -18, -37
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-71, 55],
+      "length": 42.5,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-71, 37],
+      "length": 21,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-71, -54],
+      "length": 50.5,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-70, -71],
+      "length": 35,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    34, 119,
+    63, 60,
+    47, 49,
+    66, 43,
+    67, -41,
+    46, -48,
+    59, -64,
+    33, -118,
+    5, -124,
+    -1, -107,
+    -22, -124,
+    -57, -100,
+    -63, -33,
+    -36, 0,
+    -63, 34,
+    -57, 97,
+    -22, 125,
+    0, 104,
+    3, 123
+  ]
+}

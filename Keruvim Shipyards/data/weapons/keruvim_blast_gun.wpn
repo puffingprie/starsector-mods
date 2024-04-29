@@ -1,0 +1,57 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 650,
+  "fireSoundTwo": "light_assault_gun_fire",
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointGunSprite": "graphics/weapons/blast gun/keruvim_blast_gun_hardpoint_recoil.png",
+  "hardpointOffsets": [
+    17.5,
+    -5.5,
+    17.5,
+    5.5
+  ],
+  "hardpointSprite": "graphics/weapons/blast gun/keruvim_blast_gun_hardpoint_base.png",
+  "id": "keruvim_blast_gun",
+  "muzzleFlashSpec": {
+    "length": 30,
+    "particleColor": [
+255,155,105,185
+    ],
+		   "spread":16.0,
+		   "particleSizeMin":8.0,
+		   "particleSizeRange":10.0,
+		    "particleDuration":0.35,
+		   "particleCount":12,
+  },
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "projectileSpecId": "chaingun_shot",
+  "renderAboveAllWeapons": 0,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "size": "MEDIUM",
+  "specClass": "projectile",
+  "specialWeaponGlowHeight": 40,
+  "specialWeaponGlowWidth": 15,
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "turretGunSprite": "graphics/weapons/blast gun/keruvim_blast_gun_turret_recoil.png",
+  "turretOffsets": [
+    15.5,
+    -7.5,
+    15.5,
+    7.5
+  ],
+  "turretSprite": "graphics/weapons/blast gun/keruvim_blast_gun_turret_base.png",
+  "type": "BALLISTIC",
+  "visualRecoil": 10
+}

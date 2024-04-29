@@ -1,0 +1,50 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 14,
+    "goalVariant": true,
+    "hullId": "ii_sebastos",
+    "hullMods": [
+        "ii_armor_package",
+        "heavyarmor"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "ii_sebastos_cs",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ii_photonbeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "ii_ballista",
+                "WS0003": "ii_ballista"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "ii_sledgegun",
+                "WS0005": "ii_sledgegun",
+                "WS0006": "ii_sledgegun",
+                "WS0007": "ii_sledgegun",
+                "WS0008": "ii_particlecannon",
+                "WS0009": "ii_particlecannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "vulcan",
+                "WS0011": "vulcan"
+            }
+        }
+    ],
+    "wings": ["ii_sectator_wing"]
+}

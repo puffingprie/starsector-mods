@@ -1,0 +1,184 @@
+{
+  "hullName": "Rampant Sensor Growth",
+  "hullId": "derelict_ramp_mothership_sensor_mast",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/derelicts/derelict_ramp_mothership_sensor_mast.png",
+  "style": "LOW_TECH",
+  "height": 300,
+  "width": 300,
+  "center": [126, 115.5],
+  "collisionRadius": 167,
+  "shieldCenter": [0, -0.5],
+  "shieldRadius": 164,
+  "viewOffset": 0,
+  "builtInMods": [
+    "never_detaches",
+    "reduced_explosion",
+    "supercomputer",
+    "hmi_miningHSA"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -26,
+      "locations": [-8.5, -39]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 117,
+      "angle": 50,
+      "locations": [14.5, 9.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -92.5,
+      "locations": [-43.5, -60]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 61,
+      "angle": -45,
+      "locations": [-5, 14]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 64,
+      "angle": 38.5,
+      "locations": [2.5, 29.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 94,
+      "angle": 68.5,
+      "locations": [26, 32.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 77,
+      "angle": -3,
+      "locations": [32.5, 19]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 82,
+      "angle": 45,
+      "locations": [57.5, 26]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -47.5,
+      "locations": [-1.5, -84.5]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -2.5,
+      "locations": [30.5, -60.5]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -47.5,
+      "locations": [54, -74.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 26,
+      "locations": [136, 67.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 85,
+      "locations": [72, 67.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 49,
+      "locations": [62, 56]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 28,
+      "locations": [113, 52]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 10.5,
+      "locations": [92, 83.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    57.5, -76,
+    31.5, -39,
+    53, -16,
+    48.5, 2,
+    137.5, 69,
+    67.5, 45.5,
+    91.5, 84.5,
+    41.5, 71,
+    29.5, 48.5,
+    -19.5, 33.5,
+    -67, -6,
+    -76, -76,
+    -25, -71.5,
+    1.5, -82,
+    3.5, -57
+  ]
+}

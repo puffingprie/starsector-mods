@@ -1,0 +1,39 @@
+{
+  "hullName": "Station Armour Module",
+  "hullId": "ii_module_armor_left",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/imperium/ships/station/ii_module_armor_left.png",
+  "style": "IMPERIUM",
+  "height": 91,
+  "width": 114,
+  "center": [57, 45.5],
+  "collisionRadius": 78,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 78,
+  "viewOffset": 0,
+  "moduleAnchor": [
+    6.5,
+    0
+  ],
+  "builtInMods": [
+    "reduced_explosion",
+    "always_detaches",
+    "ii_no_package"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    6.5, 5,
+    -35, 29.5,
+    -45, 48.5,
+    -40.5, 57,
+    -18, 44.5,
+    -12, 44,
+    35.5, 17,
+    35.5, -23,
+    43.5, -31,
+    43.5, -56,
+    27, -55,
+    6, -44
+  ]
+}

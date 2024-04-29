@@ -1,0 +1,46 @@
+{
+  "displayName": "Salamander",
+  "fluxCapacitors": 24,
+  "fluxVents": 30,
+  "goalVariant": true,
+  "hullId": "mess_dominator",
+  "hullMods": [
+    "eccm",
+    "missleracks"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "dominator_mess_salamander",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "locust",
+        "WS0002": "locust",
+        "WS0009": "salamanderpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "salamanderpod",
+        "WS0004": "salamanderpod",
+        "WS0005": "salamanderpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "heatseeker",
+        "WS0007": "heatseeker",
+        "WS0008": "heatseeker",
+        "WS0010": "heatseeker",
+        "WS0011": "heatseeker"
+      }
+    }
+  ],
+  "wings": []
+}

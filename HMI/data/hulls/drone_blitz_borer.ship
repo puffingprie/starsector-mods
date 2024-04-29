@@ -1,0 +1,72 @@
+{
+  "bounds": [
+    -7.5,
+    -7,
+    5,
+    -8.5,
+    5,
+    8.5,
+    -7.5,
+    7
+  ],
+  "builtInMods": [
+    "no_weapon_flux"
+  ],
+  "builtInWings": [],
+  "center": [
+    9,
+    8
+  ],
+  "collisionRadius": 16,
+  "engineSlots": [
+    {
+      "angle": 168.5,
+      "contrailSize": 6,
+      "length": 7,
+      "location": [
+        -7,
+        5
+      ],
+      "style": "LOW_TECH_FIGHTER",
+      "width": 6
+    },
+    {
+      "angle": -168.5,
+      "contrailSize": 6,
+      "length": 7,
+      "location": [
+        -7,
+        -5
+      ],
+      "style": "LOW_TECH_FIGHTER",
+      "width": 6
+    }
+  ],
+  "height": 16,
+  "hullId": "drone_blitz_borer",
+  "hullName": "Blitz Borer Drone",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 14.5,
+  "spriteName": "graphics/ships/drone_blitz_borer.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS0001",
+      "locations": [
+        2,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 18
+}

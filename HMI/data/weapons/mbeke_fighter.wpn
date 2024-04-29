@@ -1,0 +1,44 @@
+{
+  "animationType": "SMOKE",
+  "barrelMode": "ALTERNATING",
+  "fireSoundTwo": "annihilator_fire",
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    10.5,
+    -0.5
+  ],
+  "hardpointSprite": "graphics/weapons/mbeke_sml_hardpoint_base.png",
+  "id": "mbeke_fighter",
+  "projectileSpecId": "annihilator_rocket2",
+  "size": "SMALL",
+  "smokeSpec": {
+    "blowbackDuration": 0.45,
+    "blowbackLength": 20,
+    "blowbackParticleCount": 3,
+    "blowbackSpread": 6,
+    "cloudDuration": 1.5,
+    "cloudParticleCount": 3,
+    "cloudRadius": 12,
+    "particleColor": [
+      190,
+      180,
+      160,
+      95
+    ],
+    "particleSizeMin": 10,
+    "particleSizeRange": 14
+  },
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretOffsets": [
+    5.5,
+    -0.5
+  ],
+  "turretSprite": "graphics/weapons/mbeke_sml_turret_base.png",
+  "type": "MISSILE"
+}

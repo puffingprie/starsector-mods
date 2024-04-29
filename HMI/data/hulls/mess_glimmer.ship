@@ -1,0 +1,132 @@
+{
+  "hullName": "Glimmer (Mess)",
+  "hullId": "mess_glimmer",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/mess/mess_glimmer.png",
+  "style": "HIGH_TECH",
+  "height": 81,
+  "width": 79,
+  "center": [39.5, 32],
+  "collisionRadius": 70,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 68,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+	"hmi_mess_visuals",
+    "hmi_mess_spawn"
+  ],
+  "builtInWings": [
+    "drone_feeder_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 0,
+      "locations": [33, -0.5]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -50,
+      "locations": [2, -23.5]
+    },
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [27.5, -19.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        2, 20,
+        -0.5, 24.5,
+        9.5, 21
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-26.5, 11.5],
+      "length": 17,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-26.5, -11.5],
+      "length": 21,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-28, 6],
+      "length": 21,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-28, -6],
+      "length": 21,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-22, -21.5],
+      "length": 20,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-18.5, -28.5],
+      "length": 20.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-22.5, 24.5],
+      "length": 6.237978,
+      "width": 5.417614,
+      "angle": 149.5,
+      "contrailSize": 5.417614,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -5, 37.5,
+    21, 26.5,
+    45, 0.5,
+    19.5, -30,
+    -4, -37.5,
+    -18, -30.5,
+    -28, 0.5,
+    -17, 32.5
+  ]
+}

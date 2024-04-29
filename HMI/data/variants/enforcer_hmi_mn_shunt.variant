@@ -1,0 +1,49 @@
+{
+  "variantId": "enforcer_hmi_mn_shunt",
+  "hullId": "enforcer",
+  "displayName": "Shunted",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 12,
+  "quality": 1,
+  "permaMods": [],
+   "sMods": [
+    "armoredweapons",
+    "magazines"
+	],
+  "hullMods": [
+    "heavyarmor",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "hmi_voracious",
+        "WS 003": "hmi_voracious",
+        "WS 005": "hmi_voracious"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 006": "sabot",
+        "WS 007": "sabot",
+        "WS 008": "sabot",
+        "WS 009": "sabot"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 002": "pumm_mg",
+        "WS 004": "pumm_mg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,43 @@
+{
+  "variantId": "mule_hmi_heavy_outdated2",
+  "hullId": "mule_hmi_heavy",
+  "displayName": "Outdated",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 6,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull",
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "med_frag_mg",
+        "WS 006": "med_frag_mg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "mbeke_sml",
+        "WS 002": "mbeke_sml"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "talon_wing"
+  ]
+}

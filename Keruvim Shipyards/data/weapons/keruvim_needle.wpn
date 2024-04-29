@@ -1,0 +1,60 @@
+{
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "coreColor": [
+    139,
+    219,
+    0,
+    255
+  ],
+  "fireSoundOne": "laser_intro",
+  "fireSoundTwo": "lr_pd_laser_loop",
+  "fringeColor": [
+    200,
+    100,
+    0,
+    255
+  ],
+  "glowColor": [
+    139,
+    219,
+    0,
+    255
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGlowSprite": "graphics/weapons/needle/keruvim_needle_hardpoint_glow.png",
+  "hardpointOffsets": [
+    8,
+    0
+  ],
+  "hardpointSprite": "graphics/weapons/needle/keruvim_needle_hardpoint_base.png",
+  "hitGlowRadius": 0,
+  "id": "keruvim_needle",
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER
+  ],
+  "pixelsPerTexel": 5,
+  "renderAboveAllWeapons": 0,
+  "size": "SMALL",
+  "specClass": "beam",
+  "textureScrollSpeed": 60,
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGlowSprite": "graphics/weapons/needle/keruvim_needle_turret_glow.png",
+  "turretOffsets": [
+    3.5,
+    0
+  ],
+  "turretSprite": "graphics/weapons/needle/keruvim_needle_turret_base.png",
+  "type": "ENERGY",
+  "width": 15
+}

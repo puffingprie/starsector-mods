@@ -1,0 +1,20 @@
+{
+	"variantOverrides":{
+		"cerberus_miner_lc":10,
+	},
+	"portraits":{
+		"standard_female":[
+		"graphics/portraits/portrait_hmi_luddic_woman01.png",	
+		],
+	},
+	"knownShips":{
+		"hulls":[
+		"cerberus_miner",
+		],
+	},
+	"illegalCommodities":[
+		"red_water",
+		"mess_nano",
+		"hmi_crystal",
+	],
+},

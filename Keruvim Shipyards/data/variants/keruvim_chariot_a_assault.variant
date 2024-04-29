@@ -1,0 +1,36 @@
+{
+  "variantId": "keruvim_chariot_a_assault",
+  "hullId": "keruvim_chariot_a",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 15,
+  "fluxVents": 2,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "vulcan",
+        "WS0004": "vulcan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "flak",
+        "WS0002": "flak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "keruvim_spider",
+    "keruvim_spider",
+    "keruvim_silkworm",
+    "keruvim_spider"
+  ]
+}

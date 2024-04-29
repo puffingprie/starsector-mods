@@ -1,0 +1,77 @@
+{
+    "displayName": "Storm",
+    "fluxCapacitors": 32,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "ii_caesar",
+    "hullMods": [
+        "ii_targeting_package",
+        "targetingunit",
+        "magazines"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "ii_caesar_sto",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ii_croceamors"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "squall",
+                "WS0013": "squall"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "ii_telum",
+                "WS0009": "ii_telum"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "ii_heavypulsar",
+                "WS0007": "ii_heavypulsar"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "ii_pulsar",
+                "WS0012": "ii_pulsar",
+                "WS0014": "ii_pulsar",
+                "WS0015": "ii_pulsar"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "ii_pulsarrepeater",
+                "WS0005": "ii_pulsarrepeater",
+                "WS0018": "pdburst"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "heavymg",
+                "WS0003": "heavymg",
+                "WS0016": "lightdualmg",
+                "WS0017": "lightdualmg",
+                "WS0019": "lightdualmg",
+                "WS0020": "lightdualmg"
+            }
+        }
+    ]
+}

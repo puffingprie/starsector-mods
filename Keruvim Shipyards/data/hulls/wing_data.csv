@@ -1,0 +1,9 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+keruvim_antlion,keruvim_antlion_assault,"fighter4, drone, low, keruvim_bp",2,,5,12,BOX,4000,500,,4,FIGHTER,Heavy Drone,12,9500,,,,,,,,,,,,,17
+keruvim_flea,keruvim_flea_support,"interceptor3, interceptor, low, keruvim_bp",0,,3,4,BOX,2000,500,,4,INTERCEPTOR,PD Drone,3,1500,,,,,,,,,,,,,18
+keruvim_cicada,keruvim_cicada_assault,"bomber3, bomber, low, keruvim_export_bp",1,,5,20,V,4000,1500,600,2,BOMBER,Heavy Bomber,15,12000,,,,,,,,,,,,,10
+keruvim_silkworm,keruvim_silkworm_bomber,"bomber3, bomber, low, keruvim_bp",1,,5,18,V,4000,1000,750,3,BOMBER,Support Bomber,16,8000,,,,,,,,,,,,,10
+keruvim_spider,keruvim_spider_assault,"interceptor3, interceptor, high, keruvim_bp",2,,5,12,CLAW,4000,300,400,4,INTERCEPTOR,Interceptor,10,9000,,,,,,,,,,,,,7
+keruvim_cricket,keruvim_cricket_assault,"fighter4, fighter, mid, keruvim_bp",0,,5,7,V,4000,450,300,3,FIGHTER,Fighter,9,7500,,,,,,,,,,,,,3
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+keruvim_beetle,keruvim_beetle_support,"no_drop, no_sell, low",0,,5,0,BOX,2000,200,400,6,FIGHTER,Fighter Drone,10,2000,,,,,,,,,,,,,6

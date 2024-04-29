@@ -1,0 +1,46 @@
+{
+  "displayName": "Swarmer",
+  "fluxCapacitors": 19,
+  "fluxVents": 20,
+  "goalVariant": true,
+  "hullId": "mess_hammerhead_drone",
+  "hullMods": [
+    "targetingunit",
+    "missleracks"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "hammerhead_mess_drone_swarmer",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "dualflak",
+        "WS0004": "dualflak"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "swarmer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "swarmer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "swarmer"
+      }
+    }
+  ],
+  "wings": []
+}

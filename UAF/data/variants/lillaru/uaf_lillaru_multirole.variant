@@ -1,0 +1,74 @@
+{
+  "variantId": "uaf_lillaru_multirole",
+  "hullId": "uaf_lillaru",
+  "displayName": "Multirole",
+  "goalVariant": true,
+  "fluxCapacitors": 12,
+  "fluxVents": 20,
+  "quality": 2,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "ballistic_rangefinder",
+    "pointdefenseai",
+    "eccm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "uaf_penulisa_acx"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0014": "uaf_amazoch_light_asrm_dual",
+        "WS0015": "uaf_amazoch_light_asrm_dual"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "uaf_typhoon_s_sasm",
+        "WS0008": "uaf_typhoon_s_sasm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "uaf_hikone_quad",
+        "WS0004": "uaf_hikone_quad",
+        "WS0012": "uaf_medlav_dual"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "uaf_yokata_155_cn",
+        "WS0010": "uaf_yokata_155_cn"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_flair_pod",
+        "WS0002": "uaf_flair_pod",
+        "WS0011": "uaf_racun_pod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

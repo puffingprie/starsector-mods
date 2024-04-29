@@ -1,0 +1,115 @@
+{
+    "uniqueModClassName":"data.scripts.HMI_modPlugin",
+    "playableFaction":true,
+    "corvusCompatible":true,
+
+    "crewExpereinceLevelIncreaseChance":0.0,
+    "baseFleetCostMultiplier":1.0,
+
+    "customRebelFaction":"",
+    "customRebelFleetId":"",
+    "rebelFleetSuffix":"Freedom Fighters",
+
+	"invasionSupportFleetName":"Fleet Sweeper Group",
+    "responseFleetName":"Executive Guard Fleet",
+    "defenceFleetName":"Emergency Conscription Force",
+	
+    "positiveDiplomacyExtra":0,
+    "negativeDiplomacyExtra":0,
+    "factionsLiked":[
+		"tritachyon",
+		"SCY",
+		"diable",
+		"persean"],
+    "factionsDisliked":[
+	"hegemony",
+	"luddic_church", 
+	"shadow_industry", 
+	"ora"],
+	
+	
+	"startRelationships":{
+    		"luddic_path": -0.9, #We can, and will, legally remove you from the premises!
+    		"luddic_church": -0.7, #Quit whining and start digging.
+			"shadow_industry": -0.4, #You're not even out here! Why are you bitching about us!?
+    		"tritachyon": 0.3, #Always could use some highly illegal commodities, always willing to pay the dosh
+    		"ORA": -1.0, #You stand for everything we hate - Truth, justice, Honour! You must DIE!
+			"apex_design ":-0.8},
+    "maxRelationships":{
+    		"luddic_path": -0.6, #We will never give you Company Soil, scum!
+    		"luddic_church": -0.4, #Just treat it like Purgatory!
+			"shadow_industry": -0.2, #It's just Luddic Lies! All Luddic Lies! We never went near that bombed out world that originally had a thriving utopia!
+    		"tritachyon": 0.8, #*Proceeds to roll in a bath full of credits*
+    		"ORA": -0.4}, #This is not the end!
+    "diplomacyPositiveChance":{
+    		"luddic_path": 0.1, #We will find a way to make you part of Soil!
+    		"luddic_church": 0.6, #It's only a minor atrocity!
+			"shadow_industry": 0.8, #Yes, good, goooood....
+    		"tritachyon": 1.2, #So, why haven't you made another Sector consuming nanite mass yet?
+    		"ORA": 0.4}, #This ceasefire is only temporary you beamy bastards
+    "diplomacyNegativeChance":{
+	    	"luddic_path": 1.8, #You will live in a zoo! A Zoo for Luddites!
+    		"luddic_church": 1.6, #If I could, I would burn you all to DEATH
+			"shadow_industry": 1.2, #No Bad, baaaad....
+    		"tritachyon": 0.8, #No worries, this will be fixed by a little generosity by our patrons...
+    		"ORA": 1.4}, #Meats back on the menu boys!
+	
+    "morality":"amoral", #There is no good or evil, just buckets and buckets of credits to spend on blackjack and hookers.
+	
+    "alignments":{
+            "corporate":1,
+            "technocratic":-0.5,
+            "militarist":1,
+            "diplomatic":-0.5,
+            "ideological":-0.5,
+    },
+	
+	"diplomacyTraits":["envious", "stalwart", "monopolist"],
+	
+	"factionIdForHqResponse":"hmi_exec",
+		
+	"miningVariantsOrWings":["buffalo2_hmi_mining", "cerberus_miner_attack", "cerberus_miner_attack2", "cerberus_miner_mining", "cerberus_miner_outdated", "cockroach_mining", "condor_d_mining", "hammerhead_hmi_mining", "junk_mining", "lasher_hmi_attack", "lasher_hmi_mining", "lasher_hmi_miningstrike", "lasher_hmi_outdated", "shepherd_heavy_mining", "zebu_miner", "zebu_miner_urchin", "remora_standard", "sunder_d_hmi_mining", "fishkill_mining", "jakkle_miner", "shepherd_light_std", "mule_hmi_light_std", "maunderer_std", "nebula_hmi_std"],
+	
+	
+    "startShipsSolo":[["hmi_greasy_mincer"]],
+    "startShipsCombatSmall":[["cockroach_suicide", "hmi_greasy_veteran", "hmi_shotglass_rookie"]],
+    "startShipsTradeSmall":
+	[
+	["hammerhead_hmi_outdated", "hmi_greasy_veteran", "zebu_miner"],
+	["mule_hmi_heavy_brawler", "zebu_standard", "hmi_snail_cs"],
+	],
+    "startShipsCombatLarge":
+	[
+	["roach_king_elite", "cockroach_cs", "hmi_greasy_veteran", "hmi_shotglass_veteran"],
+	["hmi_convict_cs", "hmi_creep_attack", "brasher_cs", "hmi_streak_attack", "hmi_streak_attack"],
+	],
+    "startShipsTradeLarge":[["junk_hellbore", "hmi_convict_std", "hmi_greasy_veteran"]],
+    "startShipsSuper":[["marinas_attack"]],
+		
+    "startSpecialItems":[
+        [["hmi_junk_package", ""]],
+        [["hmi_package", ""]],
+		[["hmi_tech_package", ""]],
+    ],
+	
+	"colonyExpeditionChance":1.5,	# Must Acquire Additional Sources of Revenue!
+    "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
+    
+	    "defenceStations":[
+        {"ids":["orbitalstation", "battlestation", "starfortress"]},
+        {"ids":["orbitalstation_mid", "battlestation_mid", "starfortress_mid"], "weight":0.2},
+    ],
+    
+    "industrySeeds":[
+        {"id":"heavyindustry", "mult":0.1},
+        {"id":"fuelprod", "mult":0.1},
+        {"id":"lightindustry", "mult":0.1},
+    ],
+    
+    "bonusSeeds":[
+        {"id":"population_upsize", "count":1},
+        {"id":"nanoforge_corrupted", "count":1},
+		{"id":"synchrotron", "count":1},
+    ],
+	
+}

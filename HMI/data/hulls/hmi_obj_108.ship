@@ -1,0 +1,111 @@
+{
+  "hullName": "Object 108",
+  "hullId": "hmi_obj_108",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/derelicts/object_108.png",
+  "style": "LOW_TECH",
+  "height": 146,
+  "width": 164,
+  "center": [82, 69],
+  "collisionRadius": 109,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 106.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "hmi_objectboost"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [68, 37]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [68, -37]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 113,
+      "angle": 0,
+      "locations": [44.5, 18]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 113,
+      "angle": -0,
+      "locations": [44.5, -18]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-61.5, 22.5],
+      "length": 31.5,
+      "width": 23,
+      "angle": 180,
+      "contrailSize": 23,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-61.5, -22.5],
+      "length": 31.5,
+      "width": 23,
+      "angle": -180,
+      "contrailSize": 23,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-47.5, -0],
+      "length": 40,
+      "width": 26,
+      "angle": 180,
+      "contrailSize": 26,
+      "style": "CUSTOM",
+      "styleId": "GreenFlare"
+    }
+  ],
+  "bounds": [
+    -48.5, -11.5,
+    -63.5, -16,
+    -63, -30,
+    -44.5, -31.5,
+    -27.5, -49,
+    -59, -65,
+    -66.5, -79.5,
+    -49, -79.5,
+    -25, -66.5,
+    17, -58,
+    73.5, -55.5,
+    75, -20.5,
+    56.5, -7.5,
+    56.5, 7.5,
+    75, 20.5,
+    73.5, 55.5,
+    17, 58,
+    -25, 66.5,
+    -49, 79.5,
+    -66.5, 79.5,
+    -59, 65,
+    -27.5, 49,
+    -44.5, 31.5,
+    -63, 30,
+    -63.5, 16,
+    -48.5, 11.5
+  ]
+}

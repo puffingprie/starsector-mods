@@ -1,0 +1,165 @@
+name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
+"ASRAAM-172 ""Poke"" (Single Use)",expsp_poke_fighter,1,,600,800,,100,,15,50,5,4,,,HIGH_EXPLOSIVE,0,,0,5,4,0.2,,,,,,350,100,10,150,,,"DO_NOT_AIM, DO_NOT_CONSERVE","no_drop,no_sell,no_drop_salvage,restricted",,Machina Void Shipyards,,Pressure,Fast,Excellent,,,,,,,,
+"ASRAAM-172 ""Poke"" Pod",expsp_poke,1,,600,1500,,80,,15,50,5,20,0.2,4,HIGH_EXPLOSIVE,0,,0,8,4,0.2,,,,,,350,100,10,250,,,"DO_NOT_AIM, DO_NOT_CONSERVE","merc,independent,mvs,missile2,utility8,expsp_mvs_bp,expsp_mvs_package",,Machina Void Shipyards,,Pressure,Fast,Excellent,,,,,,,,
+#Swarmer SRM Launcher,swarmer,1,,250,1000,,100,,15,50,3,60,,,HIGH_EXPLOSIVE,0,,0,5,4,0.2,0,0,0,0,,350,100,5,500,,,"ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","utility8, missile0, missile_bp, merc",,,,Anti Small Craft,Fast,Excellent,,,,,,,,
+"Light ASRAAM-172 ""Poke"" Pod",expsp_pokemini,1,,300,1500,25,80,,15,50,3,12,0.1,2,HIGH_EXPLOSIVE,0,,0,5,2,0.2,,,,,,350,100,10,250,,,"DO_NOT_AIM, DO_NOT_CONSERVE","merc,independent,mvs,missile2,utility8,expsp_mvs_bp,expsp_mvs_package",,Machina Void Shipyards,,Pressure,Fast,Excellent,,,,,,,,
+"Heavy ASRAAM-172 ""Poke"" Pod",expsp_poke_med,2,,1200,2000,100,80,,15,50,10,40,0.4,4,HIGH_EXPLOSIVE,0,,0,4,4,0.2,,,,,,350,100,10,200,,,"DO_NOT_AIM, DO_NOT_CONSERVE","merc,independent,mvs,missile5,utility16,expsp_mvs_bp,expsp_mvs_package",,Machina Void Shipyards,,Pressure,Fast,Excellent,,,,,,,,
+MK. 30 Heavy Unguided Torpedo Pod,expsp_hammerrackmns,2,,1500,1200,125,1250,400,30,10,25,20,0.1,4,HIGH_EXPLOSIVE,0,,0,5,4,0.15,2,7,2,0.5,,500,40,4,400,,,STRIKE,"independent,high, merc,mvs,strike18, rocket15,expsp_mvs_bp,expsp_mvs_package",,Machina Void Shipyards,,Torpedo,Fast,None,,,,,,,,16.4
+Light ASRAAM-172K Pod,expsp_flickmini,1,,300,1500,25,50,,30,35,3,20,0.16,2,KINETIC,0,,0,5,2,0.2,,,,,,300,100,10,200,,,"DO_NOT_AIM, DO_NOT_CONSERVE","merc,independent,mvs,missile2,utility8,expsp_mvs_bp,expsp_mvs_package",,Machina Void Shipyards,,Pressure,Fast,Terrible,,,,,,,,
+Heavy Railcannon,expsp_railcannon,2,,4500,1100,,400,75,40,10,22,,,,KINETIC,450,,0.5,1.05,,,0,5,0,10,,1200,,,100,,,,"mvs,kinetic20, rare_bp",,Machina Void Shipyards,,Anti Shield,,,,,,,,,,7.25
+Coil CIWS,expsp_coilciws,0,,200,450,,30,,2,80,5,,,,KINETIC,5,,0,0.18,,,0,3,1,15,,1000,,,10,,,PD,"mvs,independent,high,merc,pd8, kinetic5,expsp_mvs_bp,expsp_mvs_package",,Machina Void Shipyards,,Point Defense,,,,,Deals an additional 5 fragmentation damage on hit.,5|fragmentation,,,,0.5
+Gepard CIWS Battery,expsp_coilciws_med,1,,1000,500,,30,,2,60,12,,,,KINETIC,12,,0,0.11,,,0,3,1,15,,1250,,,10,,,PD,"mvs,independent,high,merc,pd12, kinetic10,expsp_mvs_bp,expsp_mvs_package",,Machina Void Shipyards,,Point Defense,,,,,Deals an additional 5 fragmentation damage on hit.,5|fragmentation,,,,0.5
+Saturation Coil CIWS Battery,expsp_coilciws_lrg,1,,2500,600,,20,20,2,45,22,,,,KINETIC,12,,0.01,0.04,,,0,2,1,15,,1400,,,10,,,PD,"mvs,pd22, kinetic10,expsp_mvs_bp,expsp_mvs_package",,Machina Void Shipyards,,Point Defense,,,,,Deals an additional 45 kinetic damage to fighters and missiles.,45|kinetic,,,,0.5
+Silence Hybrid Blaster,expsp_lockdown,1,,2000,500,,500,400,0,14,14,,,,ENERGY,800,,0.25,1.5,,,,,,,,1000,,,,,,,"energy16, mvs,expsp_mvs_bp,expsp_mvs_package",,Machina Void Shipyards,,General,,,,,"Hits on hull or armor have a %s chance to arc to weapons and engines, dealing extra damage equal to the original hit.",25%,,,,22.125
+Gluon Lance,expsp_gluonlance,3,,8000,1000,3000,,,0,7,25,3,0.15,,ENERGY,,2550,0.5,1.1,0.4,3,,,,,10000,,,,,,,FIRE_WHEN_INEFFICIENT,"energy20, beam15, LR, rare_bp, hist1t,mvs",,Machina Void Shipyards,,Suppression,,,,,,,,,,27
+Poleaxe Dual Purpose Cannon,expsp_dpcannon,1,,1500,900,,125,,10,25,14,,,,KINETIC,150,,0,0.85,,,0,0,0,0,,1000,,,30,,,"PD,PD_ALSO","kinetic15, mvs,expsp_mvs_bp,expsp_mvs_package, independent",,Machina Void Shipyards,,General,,,,,Deals an additional 50 HE damage on hit.,50|HE,,,,5
+"UGR-70 ""Jab"" Rocket Launcher",expsp_jab,1,,400,1500,,135,,5,30,5,24,0.35,4,HIGH_EXPLOSIVE,0,,0,4,4,0.2,0,0,0,0,,400,200,3.75,100,,,CONSERVE_1,"rocket8, strike2,mvs, independent,expsp_mvs_bp,expsp_mvs_package,expsp_mvs_package",,Machina Void Shipyards,,Anti Armor,Very Fast,None,,,,,,,,11
+Electrolance,expsp_electrolance,1,,1000,500,600,,400,0,7,7,,,,ENERGY,,600,0.5,1,0.75,4,,,,,10000,,,,,,,FIRE_WHEN_INEFFICIENT,"energy6, beam5,mvs,expsp_mvs_bp,expsp_mvs_package",,Machina Void Shipyards,,Strike,,,,,,,,,,28
+Particle Scatterblaster,expsp_particle_scatterblaster,0,,300,200,,50,15,5,80,5,,,,ENERGY,15,,0.25,1,3,0.01,0,18,1,3,,1000,,,,,,PD,"mvs,independent,high,merc,pd4, energy5,expsp_mvs_bp,expsp_mvs_package",,Machina Void Shipyards,,Point Defense,,,,,,,,,,23
+Particle Scatterblaster (Fighter),expsp_particle_scatterblaster_fighter,0,,300,200,,40,4,5,80,0,,,,ENERGY,15,,0,2,3,0.01,6,18,2,3,,1000,,,,,,"PD,SYSTEM","no_drop,no_sell,no_drop_salvage,restricted",,Machina Void Shipyards,,Point Defense,,,,,,,,,,23
+Particle Caliver,expsp_particle_caliver,0,,300,400,,28,30,5,80,5,,,,ENERGY,10,,0.15,0.010,,,5,10,2,3,,1000,,,,,,PD,"mvs,independent,high,merc,pd4, energy5,expsp_mvs_bp,expsp_mvs_package",,Machina Void Shipyards,,Point Defense,,,,,,,,,,24
+Twin-linked Particle Caliver,expsp_particle_caliver_med,0,,600,600,,40,40,5,80,12,,,,ENERGY,25,,0.05,0.075,,,5,10,2,3,,1000,,,,,,"PD,PD_ALSO","mvs,independent,high,merc,pd8, energy10,expsp_mvs_bp,expsp_mvs_package",,Machina Void Shipyards,,Point Defense,,,,,,,,,,24
+Light ASRAAM-172 Pod (Fighter),expsp_pokemini_fighter,1,,300,2000,25,50,,15,50,0,4,0.20,2,HIGH_EXPLOSIVE,0,,0,5,2,0.2,,,,,,350,100,10,200,,,"DO_NOT_AIM, DO_NOT_CONSERVE","no_drop,no_sell,no_drop_salvage,restricted",,Machina Void Shipyards,,Pressure,Fast,Excellent,,,,,,,,
+Armorhunter Light Autocannon,expsp_armorhunter,1,,350,700,,80,,6,40,6,,,,HIGH_EXPLOSIVE,75,,0,0.66,1,,0,5,1,5,,900,,,30,,,,"he7, mvs,independent, merc,expsp_mvs_bp,expsp_mvs_package",,Machina Void Shipyards,,Anti Armor,,,,,,,,,,3
+"AGR-70 ""Jab"" Guided Rocket Launcher",expsp_jab_fighter,1,,500,1500,,140,,5,30,6,12,0.075,2,HIGH_EXPLOSIVE,0,,0,4,2,0.2,0,0,0,0,,400,200,3.75,150,,,"SYSTEM,STRIKE",,,Machina Void Shipyards,,Anti Armor,Very Fast,Terrible,,,,,,,,11
+Armorhunter Light Autocannon (Fighter),expsp_armorhunter_fighter,1,,350,700,,70,,6,40,6,,,,HIGH_EXPLOSIVE,75,,0.1,1,1,,0,5,1,5,,900,,,30,,,SYSTEM,"no_drop,no_sell,no_drop_salvage,restricted",,Machina Void Shipyards,,Anti Armor,,,,,,,,,,3
+MK. VII Support Cannon,expsp_supportcannon,0,,200,1000,,150,,10,5,,,,,KINETIC,70,,0,1.5,,,0,3,1,15,,700,,,,,,SYSTEM,"no_drop,no_sell,no_drop_salvage,restricted",,Machina Void Shipyards,,Anti Shield,,,,,,,,,,0.5
+Particle Caliver (Fighter),expsp_particle_caliver_fighter,0,,300,400,,25,25,5,80,0,,,,ENERGY,25,,0.2,0.2,,,1,5,1,3,,1000,,,,,,PD,"no_drop,no_sell,no_drop_salvage,restricted",,Machina Void Shipyards,,Point Defense,,,,,,,,,,24
+Compact Coil CIWS,expsp_coilciwsmini,0,,200,450,,25,,2,50,0,,,,KINETIC,5,,0.02,0.2,,,0,3,1,15,,700,,,10,,,PD,"no_drop,no_sell,no_drop_salvage,restricted",,Machina Void Shipyards,,Point Defense,,,,,Deals an additional 5 fragmentation damage on hit.,5|fragmentation,,,,0.5
+Light Lance Pulser,expsp_microlance,1,,750,400,150,,,0,75,5,,,,HIGH_EXPLOSIVE,,100,0.25,0.5,3,2,,,,,10000,,,,,,,PD,"mvs,pd6, he6,expsp_mvs_bp,expsp_mvs_package",,Machina Void Shipyards,,Point Defense,,,,,,,,,,
+"AGM-295 ""Punch"" Cruise Missile (Single)",expsp_slap,1,,500,1500,,1000,400,50,20,3,1,0.015,,HIGH_EXPLOSIVE,0,,0,5,1,0.2,0,0,0,0,,500,50,6,650,,,GUIDED_POOR,"strike5, rocket1,mvs",,Machina Void Shipyards,,Strike,Very Fast,Average,,,,,,,,
+"AGM-295 ""Punch"" Cruise Missile ",expsp_slap2,1,,500,1500,,1000,400,50,20,6,2,0.02,,HIGH_EXPLOSIVE,0,,0,5,1,0.2,0,0,0,0,,500,50,6,650,,,GUIDED_POOR,"strike5, rocket1,mvs",,Machina Void Shipyards,,Strike,Very Fast,Average,,,,,,,,
+"AGM-295 ""Punch"" Cruise Missile Pod",expsp_slap_med,1,,500,1500,,1000,400,50,20,10,8,0.03,,HIGH_EXPLOSIVE,0,,0,9.8,2,0.2,0,0,0,0,,500,50,6,650,,,GUIDED_POOR,"strike5, rocket1,mvs",,Machina Void Shipyards,,Strike,Very Fast,Average,,,,,,,,
+Type 56 Light Kinetic Torpedo,expsp_type56,1,,500,1500,,800,400,100,20,5,2,0.03,,KINETIC,0,,0,5,1,0.2,0,0,0,0,,500,50,6,650,,,,"strike5,kinetic3,rocket1,mvs",,Machina Void Shipyards,,Strike,Very Fast,Average,,,,,,,,
+Type 56 Light Kinetic Torpedo Pod,expsp_type56_med,1,,500,1500,,800,400,100,20,10,12,0.04,,KINETIC,0,,0,9.8,2,0.2,0,0,0,0,,500,50,6,650,,,,"strike5,kinetic3,rocket1,mvs",,Machina Void Shipyards,,Strike,Very Fast,Average,,,,,,,,
+MKV Light Support Laser,expsp_supportlaser,1,,200,1000,40,,,0,20,4,,,,ENERGY,,30,0.1,0.1,,,,,,,2400,,,,,,,,"no_drop,no_sell,no_drop_salvage,restricted",,Machina Void Shipyards,,General,,,,,,,,,,18
+"AGM-295 ""Punch"" Cruise Missile (Single) (Fighter)",expsp_slap_fighter,0,,500,1500,,1250,1000,50,20,3,1,,,HIGH_EXPLOSIVE,0,,0,5,1,0.2,0,0,0,0,,600,50,5,525,,,"STRIKE,SYSTEM,CONSERVE_1","no_drop,no_sell,no_drop_salvage,restricted",,Machina Void Shipyards,,Strike,Very Fast,Average,,,,,,,,
+Type 56 Light Kinetic Torpedo (Single)(Fighter),expsp_type56_fighter,0,,500,750,,800,400,50,20,3,1,,,KINETIC,0,,0,5,1,0.2,0,0,0,0,,600,50,5,525,,,"STRIKE,SYSTEM,CONSERVE_1","no_drop,no_sell,no_drop_salvage,restricted",,Machina Void Shipyards,,Strike,Very Fast,Average,,,,,,,,
+MKXII Breacher Cannon,expsp_breachercannon,0,,3000,500,,400,,200,5,16,,,,HIGH_EXPLOSIVE,200,,0,4,1,,0,10,5,10,,500,,,400,,,SYSTEM,"no_drop,no_sell,no_drop_salvage,restricted",,Machina Void Shipyards,,Anti Armor,,,,,,,,,,8
+Tap Swarm Missile Launcher ,expsp_tap,2,,600,1500,,160,80,,60,7,30,0.2,6,FRAGMENTATION,0,0,0,7.5,6,0.1,1,5,1,2,,400,300,5,100,,,"ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","mvs,missile6,utility8, rare_bp, hist1t",,Machina Void Shipyards,,Anti Small Craft,Fast,Excellent,,,,,,,,100
+Trip Interdictor Missile Launcher ,expsp_trip,2,,600,1500,,40,250,,60,7,18,0.25,6,FRAGMENTATION,0,0,0,10,6,0.1,1,5,1,2,,400,50,15,150,,,"ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","mvs,missile6,utility8, rare_bp, hist1t",,Machina Void Shipyards,,Anti-Engine,Fast,Excellent,,,,,,,,100
+Morgan Tactical Lance,expsp_morganbeam,3,,1500,600,325,,200,0,20,12,,,,ENERGY,,300,0.25,0.5,3,4,,,,,3200,,,,,,,,"energy16, beam11, rare_bp, mvs",,Machina Void Shipyards,,General,,,,,,,,,,20
+Light Fusion Mine Layer,expsp_lightmine,0,,100,500,,200,,10,0,1,60,0.5,6,ENERGY,0,,0,8,6,0.4,30,30,0,0,,50,20,30,150,,,"DO_NOT_AIM, ANTI_FTR, PD, SYSTEM",he0,,Machina Void Shipyards,,Anti Fighter,,,,,,,,,TRUE,3.2
+MK50 Area Denial System,expsp_hunterflak,1,,1200,700,,25,25,10,60,14,,,,HIGH_EXPLOSIVE,15,,0.05,0.05,,,0,5,2,10,,800,,,30,,,"PD,IGNORES_FLARES","pd14,mvs,expsp_mvs_bp,expsp_mvs_package",,Machina Void Shipyards,,Point Defense (Area),,,,,Deals an additional 20 energy damage against fighters and missiles on hit.,20|energy,,,,
+Cuff MRM (Fighter),expsp_cuff_fighter,0,,100,750,,500,,15,30,1,1,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,,,450,100,12.5,250,,,DO_NOT_AIM,"no_drop,no_sell,no_drop_salvage,restricted",,Machina Void Shipyards,,Finisher,Medium,Medium,,,,,,,TRUE,11.6125
+Chatter Automatic Grenade Launcher,expsp_chattergl,0,,200,450,,32,8,2,50,5,,,,FRAGMENTATION,5,,0.05,0.6,5,0.1,10,45,3,4,,500,,,10,,,"SYSTEM,PD,PD_ALSO",,,Machina Void Shipyards,,Point Defense,,,,,,,,,,
+"AIM-99X ""Beat"" Anti-Fighter Missile (Fighter)",expsp_beat_fighter,1,,300,2000,25,125,100,15,50,0,8,0.2,2,HIGH_EXPLOSIVE,0,,0,6,2,0.2,,,,,,550,100,10,200,,,"DO_NOT_AIM, ANTI_FTR, PD, SYSTEM","no_drop,no_sell,no_drop_salvage,restricted",,Machina Void Shipyards,,Pressure,Fast,Excellent,,,,,,,,
+MK. XV Dual Purpose Chaingun,expsp_chainhunter,0,,900,600,,120,30,5,25,9,,,,FRAGMENTATION,24,,0,.8,6,0.05,0,8,1,20,,1000,,,30,,,"PD,PD_ALSO","kinetic8, mvs, pd4",,Machina Void Shipyards,,General,,,,,,,,,,3.8
+Type 63 Revolver Cannon,expsp_plinker,0,,750,1000,,50,,10,30,9,6,2.5,1,KINETIC,45,,0,0.2,,,0,5,1,10,,1000,,,30,,,,"kinetic10, mvs,expsp_mvs_bp,expsp_mvs_package, independent",,Machina Void Shipyards,,Anti Shield,,,,,,,,,,5
+Type 63L Light Revolver Cannon,expsp_plinker_sml,0,,750,900,,40,,10,30,8,,,,KINETIC,40,,0,0.4,,,0,10,2,5,,900,,,30,,,,"kinetic8, mvs,expsp_mvs_bp,expsp_mvs_package, independent",,Machina Void Shipyards,,Anti Shield,,,,,,,,,,5
+Las-Repeater,expsp_multilaser,2,,600,550,300,,,0,100,7,5,1.75,1,ENERGY,,175,0.1,0.1,0.15,0.15,,,,,10000,,,,,,,"PD,ANTI_FTR","pd9, beam6, rare_bp,mvs",,Machina Void Shipyards,,Point Defense,,,,,,,,,,19.6
+Mark XV Anti-Armor Autogun,expsp_autogun,2,,2000,1000,,100,,10,20,11,,,,HIGH_EXPLOSIVE,95,,0.1,.55,,,0,4,2,2,,1000,,,30,,,,"he16, LR, mvs, rare_bp",,Machina Void Shipyards,,Anti Armor,,,,,,,,,,4.75
+Type 15 Fusion LRM,expsp_lrm_med,2,,1200,3500,,225,100,15,50,10,24,0.20,4,ENERGY,0,,0,13.5,4,0.5,,,,,,400,100,20,250,,,"DO_NOT_AIM, CONSERVE_1","utility13, missile7,mvs,expsp_mvs_bp,expsp_mvs_package",,Machina Void Shipyards,,Pressure,Fast,Medium,,,,,,,,
+Light Scalpel Flak Driver,expsp_scalpel,1,,300,500,,80,,2,80,6,,,,FRAGMENTATION,40,,0,0.5,,,0,0,0,15,,1200,,,10,,,PD,"mvs,independent,pd8,expsp_mvs_bp,expsp_mvs_package",,Machina Void Shipyards,,Point Defense,,,,,,5|fragmentation,,,,0.5
+Iapetus Spike Driver,expsp_iapetus,2,,2000,1000,,250,,20,12,24,,,,HIGH_EXPLOSIVE,300,,1,1.9,4,0.2,0,2,2,4,,1000,,,30,,,,"he20, LR, mvs, rare_bp",,Machina Void Shipyards,,Anti Armor,,,,,Deals an additional 25 kinetic damage on hit.,25|kinetic,,,,4.75
+Furioso Fusion Emitter ,expsp_melta,2,,800,500,250,,100,0,30,11,,,,HIGH_EXPLOSIVE,,250,0.15,0.1,,,,,,,2400,,,,,,,,"he10,mvs,expsp_mvs_bp,expsp_mvs_package",,Machina Void Shipyards,,Anti Armor,,,,,,,,,,
+Razorwind Light Autocannon,expsp_razorwind,0,,200,600,,30,,2,40,6,,,,KINETIC,24,,0.05,0.2,,,0,3,1,15,,1000,,,10,,,,"mvs,kinetic6,expsp_mvs_bp,expsp_mvs_package",,Machina Void Shipyards,,Anti Shield,,,,,,,,,,0.5
+Arc Fusil,expsp_arcfusil,3,,2500,800,,400,600,0,50,13,,,,ENERGY,600,,3.5,0.5,1,,,,,,,2000,,,,,25,,"energy16, mvs,rare_bp",,Machina Void Shipyards,,Suppression,,,,Perfect,"Fires an EMP arc at the nearest target close to the weapon's current facing. The arc always hits. On hit, emits 1-3 shield-piercing sub-arcs that deal 1/5 damage. Cannot hit missiles.",,,,,19.25
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Beacon Suppression Beam,expsp_beacon,3,0.5,2500,1000,300,,,0,50,12,,,,ENERGY,,200,0.1,0.1,,,,,,,2400,,,,,,,"PD,PD_ALSO,SYSTEM","no_drop,no_sell,no_drop_salvage,restricted",,Machina Void Shipyards,,Suppression,,,,,,,,,,22.85
+Lightning Spear Superheavy Railgun,expsp_lightningspear,0,,2,1275,,1500,800,60,10,50,,,,KINETIC,2250,,2,1.5,,,0,0,1,15,,1500,,,,,,SYSTEM,"no_drop,no_sell,no_drop_salvage,restricted",,Machina Void Shipyards,,Anti Shield,,,,,"Hits on hull or armor have a %s chance to arc to weapons and engines, dealing extra damage equal to the original hit.",25%,,,,
+Executor Stake Driver,expsp_executor,0,,2,1000,,1000,,60,10,50,3,0.1,1,ENERGY,500,,0.13,0.2,,,0,0,1,15,,1500,,,,,,"SYSTEM,CONSERVE_1","no_drop,no_sell,no_drop_salvage,restricted",,Machina Void Shipyards,,Strike,,,,,Each shot deals an additional %s damage to armor. This damage is not reduced by armor.,200,,,,
+Eisenfaust Superheavy Railgun,expsp_eisenfaust,0,,2,1400,,1200,,60,10,50,,,,KINETIC,2000,,2,1.5,,,0,0,1,15,,1500,,,,,,SYSTEM,"no_drop,no_sell,no_drop_salvage,restricted",,Machina Void Shipyards,,General,,,,,Deals an additional 500 energy damage on hit.,500|energy,,,,
+Reiterpallasch Particle Repeater,expsp_reiterpallasch_builtin,0,,100000,1000,,125,100,0,10,,30,2,,ENERGY,60,,0.03,0.12,1,,0,6,1,10,,1000,,,,,,"SYSTEM,SHOW_IN_CODEX","no_drop,no_sell,no_drop_salvage",TPC_only,Machina Void Shipyards,,General,,,,,,,,,,40
+Scepter Siege Cannon,expsp_scepter,0,,2,1050,,200,,15,10,,,,,KINETIC,200,,0.3,0.27,,,0,0,1,15,,1000,,,,,,SYSTEM,"no_drop,no_sell,no_drop_salvage,restricted",TPC_only,Machina Void Shipyards,,Anti Shield,,,,,,,,,,
+Quicksilver Blaster,expsp_quicksilverblaster,1,,2000,1000,,750,,0,14,14,,,,FRAGMENTATION,200,,0,1.5,,,,,,,,1000,,,,,,SYSTEM,"no_drop,no_sell,no_drop_salvage,restricted",,Machina Void Shipyards,,General,,,,,,,,,,22.125
+Type 15 Mining Charge Launcher,expsp_blastcharge,0,,100,500,,100,50,10,0,0,2,0.05,,FRAGMENTATION,0,,0,5,1,,0,0,0,0,,100,50,8,255,,,"DO_NOT_AIM, ANTI_FTR, PD_ONLY, SYSTEM",he0,,,,Anti Fighter,,,,,,,,,TRUE,3.2
+Integrated Coil CIWS,expsp_coilciwsbuiltin,0,,200,600,,35,,2,50,,,,,KINETIC,8,,0,0.18,,,0,3,1,15,,700,,,10,,,PD,"no_drop,no_sell,no_drop_salvage,restricted",,Machina Void Shipyards,,Point Defense,,,,,Deals an additional 5 fragmentation damage on hit.,5|fragmentation,,,,0.5
+Barrage Autocannon,expsp_barrageac,1,,200,450,,10,,1,75,0,,,,HIGH_EXPLOSIVE,4,,0,0.6,6,0.03,5,10,2,10,,1200,,,360,,,"PD,SYSTEM",,,,,Point Defense,,,,,,,,,,1
+Justitia Particle Accelerator Rifle,expsp_accel,0,,9999,800,,250,,200,5,777,2,0.5,,ENERGY,250,,0.15,0.05,,,0,0,0,0,,2500,,,,,,SYSTEM,,,Machina Void Shipyards,,General,,,,,,,,,,
+Kamikaze Shuttle Launcher,expsp_kamikazeshuttle,0,,500,1500,,750,,500,20,3,1,0.1,,KINETIC,0,,0,5,1,0.2,0,0,0,0,,500,50,12.5,750,,,SYSTEM,,,Machina Void Shipyards,,Anti Shield,Very Fast,None,,,,,,,,
+Type 23 Micro Mining Blaster,expsp_type23,0,,300,400,,30,,5,80,0,,,,ENERGY,25,,0.15,0.85,,,1,5,1,3,,1000,,,,,,"PD,SYSTEM",,,Machina Void Shipyards,,Point Defense,,,,,,,,,,24
+Type 7 Compact Mining Laser,expsp_minelasermini,0,,100,400,24,,,0,80,2,,,,FRAGMENTATION,,5,0.25,0.25,,,,,,,2400,,,,,,,"PD,SYSTEM",,,,,Point Defense,,,,,,,,,,16.5
+Type 93 High Power Mining Laser,expsp_minelaser2,3,0.5,2500,1000,150,,50,0,15,12,,,,ENERGY,,30,0.1,0.1,,,,,,,2400,,,,,,,"PD,PD_ALSO,SYSTEM","no_drop,no_sell,no_drop_salvage,restricted",,Machina Void Shipyards,,Suppression,,,,,,,,,,22.85
+Thunderstrike Assault Chaingun,expsp_thunderheadac,1,,200,450,,30,10,1,75,0,,,,ENERGY,15,,0,0.1,,,5,10,2,10,,1200,,,360,,,SYSTEM,,,,,Point Defense,,,,,,,,,,1
+Frostbite Defense Laser,expsp_frostbite,0,,100,400,88,,22,0,80,2,,,,ENERGY,,5,0.25,0.25,,,,,,,2400,,,,,,,"PD,SYSTEM",,,,,Point Defense,,,,,,,,,,16.5
+Tap Swarm Missile Launcher (Fighter),expsp_tap_fighter,2,,600,1500,,160,80,,60,7,4,0.2,2,FRAGMENTATION,0,0,0,5.5,2,0.1,1,5,1,2,,400,300,5,100,,,"SYSTEM,ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","missile6,utility8",,Machina Void Shipyards,,Anti Small Craft,Fast,Excellent,,,,,,,,100
+Caliburn LR Chemical Laser System,expsp_caliburn,3,0.5,2500,1500,1000,,,0,60,12,,,,ENERGY,,800,0.5,1.1,5,3,,,,,4000,,,,,,,"PD,PD_ALSO,SYSTEM","no_drop,no_sell,no_drop_salvage,restricted",,Machina Void Shipyards,,Suppression,,,,,,,,,,22.85
+Heavy Tactical Laser System,expsp_rtls,3,0.5,2500,1000,400,,,0,90,12,,,,ENERGY,,200,0.1,0.1,,,,,,,10000,,,,,,,"PD,SYSTEM","no_drop,no_sell,no_drop_salvage,restricted",,Machina Void Shipyards,,Suppression,,,,,,,,,,22.85
+"UGR-70 ""Jab"" Rocket Launcher (Single Use)",expsp_jab_singleshot,1,,400,1500,,150,,5,30,5,4,,,HIGH_EXPLOSIVE,,,0,4,4,0.2,3,6,1,0,,400,200,3.75,175,,,SYSTEM,"rocket13, strike8",,Machina Void Shipyards,,Anti Armor,Very Fast,None,,,,,,,,11
+Electro-Flechette Launcher,expsp_electroflechette,0,,200,450,,30,60,2,50,0,,,,KINETIC,5,,0.05,0.2,,,0,6,1,15,,1000,,,10,,,"PD,SYSTEM","no_drop,no_sell,no_drop_salvage,restricted",,Machina Void Shipyards,,Point Defense,,,,,,,,,,
+Artemis' Bane,expsp_diana,0,,200,2000,,300,100,100,10,0,56,0.5, 7,KINETIC,25,,0,8.8,7,0.2,0,0,0,10,,500,200,20,300,,,"SYSTEM, CONSERVE_1","utility13, missile7
+",,Machina Void Shipyards,,Anti-Shield,Very Fast,Average,,,Unstable fusion warhead deals an additional %s to %s energy damage on hit.,15|37.5,,,,
+"MK 26 ""Judgement"" Beam Array",expsp_judgement,3,0.5,2500,1000,1200,,,0,50,12,12,0.5,,ENERGY,,720,0.2,0.1,0.2,,,,,,10000,,,,,,,SYSTEM,"no_drop,no_sell,no_drop_salvage,restricted",,Machina Void Shipyards,,Suppression,,,,,,,,,,22.85
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Type 27 Heavy Plasma MRM Pod,expsp_plasmamrm,2,,2500,2000,,300,200,100,10,25,36,0.4,3,ENERGY,150,,0.5,6,6,0.2,10,15,1,0.5,,400,100,10,350,,,DO_NOT_AIM,,,Machina Void Shipyards,,General,Fast,Average,,,,,,,,16.4
+Evelyn Particle Bolter,expsp_evelyn,2,,5500,600,,200,100,0,20,23,20,2,,ENERGY,150,,0.20,0.20,2,0.1,0,15,2,5,,1100,,,,,,,"energy19, mvs,expsp_mvs_bp,expsp_mvs_package",,Machina Void Shipyards,,General,,,,,Unstable particle bolts deal an additional %s to %s energy damage on hit.,30|75,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Bloodtinge Missile Defense System,expsp_flarelauncher_crimson,,,,600,,40,100,,,,,0,,KINETIC,0,0,0,4.0,3,0.2,30,30,0,0,,300,150,10,500,,,"PD,DO_NOT_AIM,SYSTEM",,,Machina Void Shipyards,,Anti Missile,,,,,,,,,,37
+Bloodtinge Missile Defense System (Fighter),expsp_flarelauncher_crimson_1,,,,600,,40,100,,,,,0,,KINETIC,0,0,0,4.0,1,0.2,30,30,0,0,,300,150,10,500,,,"PD,DO_NOT_AIM,SYSTEM",,,Machina Void Shipyards,,Anti Missile,,,,,,,,,,37
+Icarus Seeker Array,expsp_icarus,,,,800,,80,50,,,,,0,,FRAGMENTATION,20,0,0,7.1,3,0.2,10,10,0,0,,600,150,10,500,,,"ANTI_FTR,DO_NOT_AIM, SYSTEM",,,Machina Void Shipyards,,Anti Fighter,,,,,Deals an additional 80 fragmentation damage on hit against fighters.,80|fragmentation,,,,37
+Nano-Pillar Projector,expsp_pillar,,,2,1000,,1250,,5000,10,50,,,,KINETIC,750,,0.3,6.7,,,0,0,1,15,,2500,1000,20,1000,,,"SYSTEM,CONSERVE_1","no_drop,no_sell,no_drop_salvage,restricted",,Machina Void Shipyards,,Strike,,,,,,,,,,
+Unstable Fuel Canister Teleporter,expsp_fuelminelayer,0,,200000,1000,,750,250,25,30,12,30,,,ENERGY,0,,0,3,1,,0,0,0,0,,50,50,20,750,,,SYSTEM,,,,,,,,,,,,,,,38.7
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Graviton Slicer,expsp_energizedram,4,,,400,400,,,0,0,,,,,KINETIC,0,200,0,,,,,,,10000,,400,,,,,,SYSTEM ,,Melee,Machina Void Shipyards,,,,,,,,,,,,
+Ascalon Hardpoint Cover,expsp_ascalon_cover,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM ,"no_drop,no_sell,no_drop_salvage,restricted",,,,,,,,,,,,,,
+Courier Hardpoint Cover,expsp_courier_cover,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"no_drop,no_sell,no_drop_salvage,restricted",,,,,,,,,,,,,,
+Type 31 Cover,expsp_type31_cover,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+Odilia AWACS Dish,expsp_dish,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop,no_sell,no_drop_salvage,restricted",,,,,,,,,,,,,,
+Incise Right Wing Cover,expsp_incisewingr,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop,no_sell,no_drop_salvage,restricted",,,,,,,,,,,,,,
+Incise Left Wing Cover,expsp_incisewingl,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop,no_sell,no_drop_salvage,restricted",,,,,,,,,,,,,,
+Incise Tail Cover,expsp_incisetail,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop,no_sell,no_drop_salvage,restricted",,,,,,,,,,,,,,
+M-220 Tail Cover,expsp_miragetail,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop,no_sell,no_drop_salvage,restricted",,,,,,,,,,,,,,
+M-220 Tail Cover(AA),expsp_miragetail_aa,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop,no_sell,no_drop_salvage,restricted",,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Pummel Right Wing Cover,expsp_pummelwingr,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop,no_sell,no_drop_salvage,restricted",,,,,,,,,,,,,,
+Pummel Left Wing COver,expsp_pummelwingl,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop,no_sell,no_drop_salvage,restricted",,,,,,,,,,,,,,
+Tzaphkiel Right Wing Cover,expsp_tzaphkiel_wing_r,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop,no_sell,no_drop_salvage,restricted",,,,,,,,,,,,,,
+Tzaphkiel Left Wing Cover,expsp_tzaphkiel_wing_l,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop,no_sell,no_drop_salvage,restricted",,,,,,,,,,,,,,
+Odilia Right Wing Cover,expsp_hetzercoverr,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop,no_sell,no_drop_salvage,restricted",,,,,,,,,,,,,,
+Odilia Left Wing COver,expsp_hetzercoverl,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop,no_sell,no_drop_salvage,restricted",,,,,,,,,,,,,,
+Backstab Tail Cover,expsp_backstabtail,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+Abysswalker Hardpoint Cover,expsp_abysswalker_cover,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop,no_sell,no_drop_salvage,restricted",,,,,,,,,,,,,,
+St. Florian Turret Cover,expsp_florian_cover,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop,no_sell,no_drop_salvage,restricted",,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Abysswalker Blinker,expsp_abysswalker_blinker,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop,no_sell,no_drop_salvage,restricted",,,,,,,,,,,,,,
+MVS Blue Blinker,expsp_blinker_blue,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop,no_sell,no_drop_salvage,restricted",,,,,,,,,,,,,,
+MVS Green Blinker,expsp_blinker_green,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop,no_sell,no_drop_salvage,restricted",,,,,,,,,,,,,,
+EW System Glow,expsp_ew_glow,,,,800,,10,100,,,,,,,ENERGY,0,0,0,0.1,10,0.1,360,360,0,0,,500,300,3,1,,,SYSTEM,"no_drop,no_sell,no_drop_salvage,restricted",,,,,,,,,,,,,,36
+Cainhurst System Glow,expsp_cainhurst_glow,,,,800,,10,100,,,,,,,ENERGY,0,0,0,0.1,10,0.1,360,360,0,0,,500,300,3,1,,,SYSTEM,"no_drop,no_sell,no_drop_salvage,restricted",,,,,,,,,,,,,,36
+Cainhurst Lights,expsp_cainhurst_lights,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop,no_sell,no_drop_salvage,restricted",,,,,,,,,,,,,,36
+Cainhurst Hardpoint Cover,expsp_cainhurst_cover,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop,no_sell,no_drop_salvage,restricted",,,,,,,,,,,,,,
+Lazarus Lights,expsp_anker_lights,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop,no_sell,no_drop_salvage,restricted",,,,,,,,,,,,,,36
+Principality Lights,expsp_principality_lights,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop,no_sell,no_drop_salvage,restricted",,,,,,,,,,,,,,36
+Tzaphkiel Lights,expsp_tzaphkiel_lights,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop,no_sell,no_drop_salvage,restricted",,,,,,,,,,,,,,36
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Dominion Lights,expsp_dominion_lights,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop,no_sell,no_drop_salvage,restricted",,,,,,,,,,,,,,36
+Excalibur II Lights,expsp_dominion_belka_lights,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop,no_sell,no_drop_salvage,restricted",,,,,,,,,,,,,,36
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Aquinas System Glow,expsp_scholar_glow,,,,800,,10,100,,,,,,,ENERGY,0,0,0,0.1,10,0.1,360,360,0,0,,500,300,3,1,,,SYSTEM,"no_drop,no_sell,no_drop_salvage,restricted",,,,,,,,,,,,,,36
+Aquinas Lights,expsp_scholarmvs_lights,,,,800,,10,100,,,,,,,ENERGY,0,0,0,0.1,10,0.1,360,360,0,0,,500,300,3,1,,,SYSTEM,"no_drop,no_sell,no_drop_salvage,restricted",,,,,,,,,,,,,,36
+Vernier Thruster,expsp_vernier,,,,100,50,,,,,,,,,ENERGY,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Pulsar Burst Laser (Right),expsp_pulsarburstr,2,,600,450,400,,,0,100,7,6,0.75,3,ENERGY,,200,0.1,0.3,0.25,0.5,,,,,10000,,,,,,,"PD,PD_ALSO,IGNORES_FLARES","no_drop,no_sell,no_drop_salvage,restricted",,,,General,,,,,,,,,,19.6
+Pulsar Burst Laser (Left),expsp_pulsarburstl,2,,600,450,400,,,0,100,7,6,0.75,3,ENERGY,,200,0.1,0.3,0.25,0.5,,,,,10000,,,,,,,"PD,PD_ALSO,IGNORES_FLARES","no_drop,no_sell,no_drop_salvage,restricted",,,,General,,,,,,,,,,19.6
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Raze Right Wing,expsp_razewingr,0,,,,,,,,100,,,,,,,,,,,,,,,,,,,,,,,,"no_drop,no_sell,no_drop_salvage,restricted",,,,,,,,,,,,,,
+Raze Left Wing,expsp_razewingl,0,,,,,,,,100,,,,,,,,,,,,,,,,,,,,,,,,"no_drop,no_sell,no_drop_salvage,restricted",,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Tap Swarm Missile Launcher (System),expsp_tap_system,,,,1500,,160,80,,,,,0,,FRAGMENTATION,0,0,0,0.1,6,0.1,0,0,0,0,,375,300,5,100,,,SYSTEM,,,,,,,,,,,,,,,100
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEW BLASTER,expsp_asciitpc,0,,10,1000,,200,50,0,0,,30,1.2,,ENERGY,90,,0,0.18,1,,0,6,1,10,,1000,,,,,,"SYSTEM,SHOW_IN_CODEX","no_drop,no_sell,no_drop_salvage",TPC_only,Machina Void Shipyards,,General,,,,,,,,,,40
+BLAM ROCKET LAUNCHER,expsp_blam,0,,1200,1500,,150,,5,30,10,,,,HIGH_EXPLOSIVE,0,,0,0.5,1,,0,0,0,0,,600,200,5,250,,,,"utility8, rocket13, strike7,restricted",,Unknown,,Pressure,Fast,None,,,,,,,,12.3
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,29
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

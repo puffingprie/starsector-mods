@@ -1,0 +1,24 @@
+{
+  "variantId": "mess_aureole_needler",
+  "hullId": "mess_aureole",
+  "displayName": "Attack",
+  "goalVariant": true,
+  "fluxCapacitors": 3,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "lightneedler",
+        "WS0002": "lightneedler",
+        "WS0004": "lightneedler"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

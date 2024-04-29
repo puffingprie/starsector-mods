@@ -1,0 +1,43 @@
+{
+  "displayName": "Railgun",
+  "fluxCapacitors": 18,
+  "fluxVents": 20,
+  "goalVariant": true,
+  "hullId": "mess_dominator",
+  "hullMods": [
+    "targetingunit"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "dominator_mess_railgun",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "gauss",
+        "WS0002": "gauss",
+        "WS0003": "hveldriver",
+        "WS0004": "hveldriver",
+        "WS0005": "hveldriver",
+        "WS0006": "railgun",
+        "WS0007": "railgun",
+        "WS0008": "railgun",
+        "WS0009": "hveldriver",
+        "WS0010": "railgun",
+        "WS0011": "railgun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,38 @@
+{
+  "variantId": "brasher_attack",
+  "hullId": "brasher",
+  "displayName": "Attack",
+  "goalVariant": true,
+  "fluxCapacitors": 12,
+  "fluxVents": 20,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "auxiliarythrusters"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "hellbore",
+        "WS0004": "rangus_crossbow",
+        "WS0005": "rangus_crossbow",
+        "WS0006": "hammer",
+        "WS0007": "hammer",
+        "WS0008": "hmi_slagger_gun",
+        "WS0009": "hmi_slagger_gun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "clyde_mg",
+        "WS0002": "clyde_mg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

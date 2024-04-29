@@ -1,0 +1,22 @@
+{
+  "variantId": "support_bombardment_drone_Standard",
+  "hullId": "support_bombardment_drone",
+  "displayName": "Converted Bombardment Drone",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "bombardment_drone_suicide_drive"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

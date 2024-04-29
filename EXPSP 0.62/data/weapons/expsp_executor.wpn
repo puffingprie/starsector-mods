@@ -1,0 +1,46 @@
+{
+  "id": "expsp_executor",
+  "specClass": "projectile",
+  "projectileSpecId": "expsp_executor_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "displayArcRadius": 1000,
+  "turretSprite": "graphics/weapons/null.png",
+  "turretGlowSprite": "graphics/weapons/expsp_executor_glow.png",
+  "hardpointSprite": "graphics/weapons/null.png",
+  "hardpointGlowSprite": "graphics/weapons/expsp_executor_glow.png",
+  "glowColor": [
+    0,255,58,
+    255
+  ],
+  "turretOffsets": [
+    24,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    24,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 100,
+    "spread": 5,
+    "particleSizeMin": 20,
+    "particleSizeRange": 20,
+    "particleDuration": 0.25,
+    "particleCount": 25,
+    "particleColor": [
+      0,255,58,
+      255
+    ]
+  },
+  "fireSoundTwo": "gauss_cannon_fire"
+}

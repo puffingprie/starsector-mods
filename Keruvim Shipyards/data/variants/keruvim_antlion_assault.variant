@@ -1,0 +1,29 @@
+{
+  "variantId": "keruvim_antlion_assault",
+  "hullId": "keruvim_antlion",
+  "displayName": "Heavy Drone",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "keruvim_needle",
+        "WS0002": "keruvim_needle",
+        "WS0003": "ioncannon_fighter"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

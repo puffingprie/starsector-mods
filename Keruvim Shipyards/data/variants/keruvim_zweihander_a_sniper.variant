@@ -1,0 +1,49 @@
+{
+  "displayName": "Sniper",
+  "fluxCapacitors": 20,
+  "fluxVents": 5,
+  "goalVariant": true,
+  "hullId": "keruvim_zweihander_a",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "keruvim_zweihander_a_sniper",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "atropos",
+        "WS0004": "atropos"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "hveldriver",
+        "WS0007": "heavymauler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "railgun",
+        "WS0002": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "keruvim_needle",
+        "WS0008": "keruvim_needle"
+      }
+    }
+  ],
+  "wings": [
+    "keruvim_silkworm"
+  ]
+}

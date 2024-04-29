@@ -1,0 +1,11 @@
+id,trigger,conditions,script,text,options,notes
+#ST_TruckerLoungeOption,PopulateOptions,"$hasMarket
+$menuState == main
+!$faction.isNeutralFaction",,,8:GoToTruckerLounge:Visit the Space Trucker Lounge,
+#ST_GoToTruckerLounge,DialogOptionSelected,$option == GoToTruckerLounge,SpaceTruckin_CommandPlugin GoToTruckerLounge,,,
+,,,,,,
+,,,,,,
+ST_CommDirStart,PickGreeting,$tag:ST_TruckerConcierge score:10000,"SpaceTruckin_CommandPlugin StartDialog
+ShowPersonVisual",,,
+ST_ReturnFromCommDir,ST_Return,,"ShowDefaultVisual
+EndConversation",You return to your dock.,,

@@ -1,0 +1,73 @@
+{
+  "variantId": "sv_scrapslaught_standerd",
+  "hullId": "sv_scrapslaught",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 12,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "autopulse",
+        "WS0002": "autopulse",
+        "WS0025": "sv_magnetar",
+        "WS0026": "sv_magnetar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sv_daneaxe",
+        "WS0004": "sv_daneaxe",
+        "WS0009": "sv_doorknocker",
+        "WS0010": "sv_doorknocker",
+        "WS0011": "sv_doorknocker",
+        "WS0012": "sv_doorknocker",
+        "WS0021": "sv_daneaxe",
+        "WS0022": "sv_daneaxe",
+        "WS0030": "sv_daneaxe"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "sv_flyswatter",
+        "WS0006": "sv_flyswatter",
+        "WS0007": "sv_flyswatter",
+        "WS0008": "sv_flyswatter",
+        "WS0013": "sv_flyswatter",
+        "WS0014": "sv_flyswatter",
+        "WS0015": "sv_flyswatter",
+        "WS0016": "sv_flyswatter",
+        "WS0017": "sv_rustybarrellauncher",
+        "WS0018": "sv_rustybarrellauncher",
+        "WS0019": "sv_flyswatter",
+        "WS0020": "sv_flyswatter",
+        "WS0023": "sv_flyswatter",
+        "WS0024": "sv_flyswatter",
+        "WS0027": "sv_rustybarrellauncher",
+        "WS0028": "sv_flyswatter",
+        "WS0029": "sv_rustybarrellauncher",
+        "WS0031": "sv_rustybarrellauncher",
+        "WS0032": "sv_rustybarrellauncher"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

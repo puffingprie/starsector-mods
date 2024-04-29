@@ -1,0 +1,154 @@
+{
+  "bounds": [
+    -94,
+    -22,
+    -30.5,
+    -52.5,
+    27,
+    -55,
+    91.5,
+    -46.5,
+    91.5,
+    46.5,
+    27,
+    55,
+    -30.5,
+    52.5,
+    -94,
+    22
+  ],
+  "builtInMods": [
+    "ill_advised"
+  ],
+  "builtInWeapons": {
+    "WS0001": "hammerrack"
+  },
+  "center": [
+    60,
+    100
+  ],
+  "collisionRadius": 120.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 25,
+      "length": 53,
+      "location": [
+        -94,
+        12
+      ],
+      "style": "LOW_TECH",
+      "width": 25
+    },
+    {
+      "angle": -180,
+      "contrailSize": 25,
+      "length": 53,
+      "location": [
+        -94,
+        -12
+      ],
+      "style": "LOW_TECH",
+      "width": 25
+    }
+  ],
+  "height": 200,
+  "hullId": "missp_path_nebula",
+  "hullName": "Nebula (Path)",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 111,
+  "spriteName": "graphics/ships/nebula/missp_nebula_path.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        78,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 90,
+      "arc": 180,
+      "id": "WS0002",
+      "locations": [
+        25,
+        42
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -90,
+      "arc": 180,
+      "id": "WS0003",
+      "locations": [
+        25,
+        -42
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 113.5,
+      "arc": 200,
+      "id": "WS0004",
+      "locations": [
+        -29,
+        38
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -113.5,
+      "arc": 200,
+      "id": "WS0005",
+      "locations": [
+        -29,
+        -38
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 45,
+      "arc": 206,
+      "id": "WS0006",
+      "locations": [
+        73.5,
+        28.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -45,
+      "arc": 206,
+      "id": "WS0007",
+      "locations": [
+        73.5,
+        -28.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    }
+  ],
+  "width": 120
+}

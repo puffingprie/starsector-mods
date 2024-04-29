@@ -1,0 +1,19 @@
+{
+    "id":"nexerelin",
+    "name":"Nexerelin",
+    "author":"Histidine (original by Zaphide)",
+    "version":{
+        "major":0, 
+        "minor":11, 
+        "patch":"1b"
+    },
+    "description":"Join a faction and conquer the Sector!",
+    "gameVersion":"0.97a-RC8",
+    "totalConversion":false,
+    "jars":["jars/ExerelinCore.jar"],
+    "dependencies": [
+        {"id": "lw_lazylib", "name": "LazyLib"},
+        {"id": "MagicLib", "name": "MagicLib"},
+    ],
+    "modPlugin":"exerelin.plugins.ExerelinModPlugin",
+}

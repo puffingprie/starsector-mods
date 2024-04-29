@@ -1,0 +1,64 @@
+{
+  "variantId": "mess_radiant_needler",
+  "hullId": "mess_radiant",
+  "displayName": "Needler",
+  "goalVariant": false,
+  "fluxCapacitors": 32,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 000": "hellbore",
+        "WS 001": "hellbore"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 002": "multineedler",
+        "WS 003": "multineedler",
+        "WS 004": "multineedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 005": "heavyneedler",
+        "WS 006": "heavyneedler",
+        "WS 007": "heavyneedler",
+        "WS 008": "heavyneedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 012": "lightneedler",
+        "WS 013": "lightneedler",
+        "WS 014": "lightneedler",
+        "WS 015": "lightneedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 009": "lightdualmg",
+        "WS 010": "lightdualmg",
+        "WS 011": "lightdualmg",
+        "WS 016": "lightdualmg",
+        "WS 017": "lightdualmg",
+        "WS 018": "lightdualmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

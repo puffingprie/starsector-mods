@@ -1,0 +1,12 @@
+{
+	"id":"ii_photonblaster_shot",
+	"specClass":"projectile",
+	"spawnType":"PLASMA",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"width":35.0,
+	"fadeTime":0.1,
+	"fringeColor":[255,175,125,100],
+	"coreColor":[255,200,25,255],
+    "passThroughMissiles":true,
+}

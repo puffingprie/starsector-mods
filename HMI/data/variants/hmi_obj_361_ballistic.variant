@@ -1,0 +1,66 @@
+{
+  "variantId": "hmi_obj_361_ballistic",
+  "hullId": "hmi_obj_361",
+  "displayName": "Ballistic",
+  "goalVariant": true,
+  "fluxCapacitors": 12,
+  "fluxVents": 0,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "swarmer",
+        "WS0010": "swarmer",
+        "WS0011": "swarmer",
+        "WS0012": "swarmer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "salamanderpod",
+        "WS0008": "salamanderpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "railgun",
+        "WS0002": "railgun",
+        "WS0003": "railgun",
+        "WS0004": "railgun",
+        "WS0005": "heavyac",
+        "WS0006": "heavyac",
+        "WS0013": "heavymauler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0015": "gauss",
+        "WS0018": "hellbore"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0014": "flak",
+        "WS0016": "vulcan",
+        "WS0017": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

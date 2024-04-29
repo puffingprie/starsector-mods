@@ -1,0 +1,50 @@
+{
+  "variantId": "hmi_convict_mbeke",
+  "hullId": "hmi_convict",
+  "displayName": "Mbeke",
+  "goalVariant": false,
+  "fluxCapacitors": 1,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "eccm",
+    "insulatedengine",
+    "expanded_deck_crew",
+    "unstable_injector"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "seth_med",
+        "WS0009": "seth_med"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "seth_sml",
+        "WS0008": "seth_sml"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "mbeke_sml",
+        "WS0004": "mbeke_sml",
+        "WS0005": "mbeke_sml",
+        "WS0006": "mbeke_med",
+        "WS0007": "mbeke_sml"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "hmi_trapdoor_wing",
+    "hmi_trapdoor_wing"
+  ]
+}

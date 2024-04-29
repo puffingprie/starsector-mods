@@ -1,0 +1,73 @@
+{
+    "displayName": "Armored",
+    "fluxCapacitors": 0,
+    "fluxVents": 2,
+    "hullId": "legion_xiv",
+    "hullMods": [
+        "defensive_targeting_array",
+        "reinforcedhull",
+        "shield_shunt",
+        "armoredweapons",
+        "autorepair",
+        "blast_doors",
+        "heavyarmor",
+        "insulatedengine",
+        "targetingunit"
+    ],
+    "permaMods": [
+        "defensive_targeting_array",
+        "reinforcedhull",
+        "shield_shunt"
+    ],
+    "sMods": [
+        "defensive_targeting_array",
+        "reinforcedhull",
+        "shield_shunt"
+    ],
+    "variantId": "adversary_legion_xiv_Armored",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "heavymauler",
+                "WS 003": "heavymauler",
+                "WS 004": "heavymauler",
+                "WS 005": "heavymauler",
+                "WS 007": "heavymauler"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 000": "locust",
+                "WS 001": "locust"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 018": "lightdualac",
+                "WS 019": "lightdualac",
+                "WS 020": "lightdualac",
+                "WS 021": "lightdualac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "vulcan",
+                "WS 009": "vulcan"
+            }
+        }
+    ],
+    "wings": [
+        "sarissa_wing",
+        "sarissa_wing",
+        "sarissa_wing",
+        "xyphos_wing"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+  "variantId": "expsp_hetzer_Support",
+  "hullId": "expsp_hetzer",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 17,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "stabilizedshieldemitter",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_arcfusil",
+        "WS0005": "expsp_arcfusil"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "expsp_plinker_sml"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "expsp_poke",
+        "WS0008": "expsp_poke"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "expsp_coilciws",
+        "WS0006": "expsp_coilciws"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "expsp_particle_caliver",
+        "WS0009": "expsp_particle_caliver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "expsp_supportlaser",
+        "WS0011": "expsp_supportlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,205 @@
+{
+  "hullName": "HANGAR 01",
+  "hullId": "uaf_novaeria_right_hangar",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/Novaeria/uaf_novaeria_right_hangar.png",
+  "style": "MIDLINE",
+  "height": 354,
+  "width": 234,
+  "center": [80.5, 236],
+  "collisionRadius": 275,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 0,
+  "viewOffset": 0,
+  "builtInMods": [
+    "never_detaches",
+    "uaf_linkedHangar",
+    "uaf_noExplosion",
+    "uaf_flagship_exthangar",
+    "uaf_automataSpec"
+  ],
+  "builtInWeapons": {
+    "RFOREBLINKER1": "uaf_blinker_right_forward_1",
+    "RFOREBLINKER2": "uaf_blinker_right_forward_2",
+    "RFOREBLINKER3": "uaf_blinker_right_forward_3",
+    "RFOREBLINKER4": "uaf_blinker_right_forward_4",
+    "RFOREBLINKER5": "uaf_blinker_right_forward_5"
+  },
+  "weaponSlots": [
+    {
+      "id": "RFOREBLINKER1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-17, 57.5]
+    },
+    {
+      "id": "RFOREBLINKER2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-2, 57.5]
+    },
+    {
+      "id": "RFOREBLINKER3",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [5, 57.5]
+    },
+    {
+      "id": "RFOREBLINKER4",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [12, 57.5]
+    },
+    {
+      "id": "RFOREBLINKER5",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [19, 57.5]
+    },
+    {
+      "id": "RLAUNCHBAY2",
+      "size": "SMALL",
+      "type": "LAUNCH_BAY",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-8, -3]
+    },
+    {
+      "id": "RLAUNCHBAY3",
+      "size": "SMALL",
+      "type": "LAUNCH_BAY",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [16.5, -3]
+    },
+    {
+      "id": "RLAUNCHBAY1",
+      "size": "SMALL",
+      "type": "LAUNCH_BAY",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-37, -2.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 109,
+      "angle": -45,
+      "locations": [58.5, -76]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 246,
+      "angle": -45,
+      "locations": [27, -80.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 239,
+      "angle": -45,
+      "locations": [-21, -84.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 109,
+      "angle": -45,
+      "locations": [-54.5, -88]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-47.5, -63]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-27.5, -60]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [28.5, -54]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [48.5, -51]
+    },
+    {
+      "id": "WS0009",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 109,
+      "angle": -45,
+      "locations": [-202, -65]
+    },
+    {
+      "id": "WS0010",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 109,
+      "angle": -45,
+      "locations": [-168.5, -65.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -136, -122,
+    77, -90,
+    118, 41,
+    60, 80,
+    -29, 67,
+    -72, 45,
+    -110, -41,
+    -223, -45,
+    -226, -85,
+    -176, -88
+  ]
+}

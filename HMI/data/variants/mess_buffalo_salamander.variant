@@ -1,0 +1,31 @@
+{
+  "variantId": "mess_buffalo_salamander",
+  "hullId": "mess_buffalo",
+  "displayName": "Salamander",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 2,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull",
+    "eccm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "salamanderpod",
+        "WS0002": "heatseeker",
+        "WS0003": "heatseeker",
+        "WS0004": "heatseeker",
+        "WS0005": "heatseeker",
+        "WS0006": "heatseeker",
+        "WS0007": "heatseeker"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

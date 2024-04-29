@@ -1,0 +1,43 @@
+{
+  "variantId": "missp_lasher_heg_standard",
+  "hullId": "missp_lasher_heg",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "blast_doors"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "lightdualmg",
+        "WS 003": "lightdualmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "sabot",
+        "WS 004": "sabot"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "lightmortar",
+        "WS 006": "lightmortar",
+        "WS 007": "lightmortar"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

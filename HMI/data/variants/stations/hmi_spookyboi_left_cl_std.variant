@@ -1,0 +1,53 @@
+{
+  "variantId": "hmi_spookyboi_left_cl_std",
+  "hullId": "hmi_spookyboi_left_cl",
+  "displayName": "Thigh",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "hil"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0008": "gazerpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "heavyneedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "ionbeam",
+        "WS0003": "taclaser_rem",
+        "WS0004": "taclaser_rem",
+        "WS0005": "taclaser_rem"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "heavyburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

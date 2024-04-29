@@ -1,0 +1,82 @@
+{
+  "id": "tachyonlance_spook_tach_right",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "beamEffect": "data.scripts.weapons.RemLanceEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/ships/mess/hmi_spookyboi_tach_right.png",
+  "turretGlowSprite": "graphics/ships/mess/hmi_spookyboi_tach_right_glow.png",
+  "hardpointSprite": "graphics/ships/mess/hmi_spookyboi_tach_right.png",
+  "hardpointGlowSprite": "graphics/ships/mess/hmi_spookyboi_tach_right_glow.png",
+  "glowColor": [
+    165,
+    100,
+    255,
+    235
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    4.5,
+    0,
+    4.5,
+    -0,
+    4.5,
+    0,
+    4.5,
+    -0,
+    4.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0,
+    -1,
+    1,
+    -2,
+    2
+  ],
+	"hardpointOffsets":[
+    4.5,
+    0,
+    4.5,
+    -0,
+    4.5,
+    0,
+    4.5,
+    -0,
+    4.5,
+    0
+  ],
+	"hardpointAngleOffsets":[
+    0,
+    -1,
+    1,
+    -2,
+    2
+  ],
+  "fringeColor": [
+    85,
+    25,
+    215,
+    255
+  ],
+  "coreColor": [
+    240,
+    191,
+    255,
+    255
+  ],
+  "width": 25,
+  "textureType": ROUGH,
+  "textureScrollSpeed": 292,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundTwo": "tachyon_lance_fire"
+}

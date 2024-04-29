@@ -1,0 +1,58 @@
+id,trigger,conditions,script,text,options,notes
+#RULESET_NAME Machina Void Shipyards,,,,,,
+,,,,,,
+# MVS Fleet greeting line,,,,,,
+greetingMVSFriendly,OpenCommLink,"$faction.id == MVS
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Fleet signature positively identified. Blessings be upon you, $playerName. Walk in the light, Starfarer.""",,
+greetingMVSHostileWeaker,OpenCommLink,"$faction.id == MVS
+$faction.hostileToPlayer
+$relativeStrength < 0",$ignorePlayerCommRequests = true 1,"""Hostile contact located. Requesting immediate support.""",cutCommLink:Cut the comm link,
+greetingMVSHostileWeakerDefiant,OpenCommLink,"$faction.id == MVS
+$faction.hostileToPlayer
+$relativeStrength < 0
+$weakerThanPlayerButHolding",$ignorePlayerCommRequests = true 1,"""I suppose this is as good a place to die as any. Show me what passes for fury amongst your misbegotten kind.""",cutCommLink:Cut the comm link,
+greetingMVSHostileStronger,OpenCommLink,"$faction.id == MVS
+$faction.hostileToPlayer
+$relativeStrength >= 0",$ignorePlayerCommRequests = true 1,"""It appears peace is no longer an option. Power down your systems immediately, or prepare to defend yourself.""",cutCommLink:Cut the comm link,
+greetingMVSNeutral,OpenCommLink,"$faction.id == MVS
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""You are speaking to $PersonRank $personName of $theFaction Navy. State your business.""",,
+#END MVS Fleet greeting line,,,,,,
+,,,,,,
+# relationship level descriptions,,,,,,
+relLevelNeutralMVS,RelationshipLevelDesc,"$faction.rel == NEUTRAL
+$faction.id == MVS",,"You are a non-factor to $faction operations, and if you are on MVS databases at all, it is only as just another spacer, someone who is neither a blessing nor a curse to have in MVS space. ",,
+relLevelFavorableMVS,RelationshipLevelDesc,"$faction.rel == FAVORABLE
+$faction.id == MVS",,Your contributions to $faction have not gone unnoticed. You have earned access to low-grade equipment and surplus military supplies.,,
+relLevelWelcomingMVS,RelationshipLevelDesc,"$faction.rel == WELCOMING
+$faction.id == MVS",,"You have built a reputation of helpfulness to $theFaction. Patrols will be more lenient to minor infractions you commit, and you may gain access to higher-quality equipment at military markets.",,
+relLevelFriendlyMVS,RelationshipLevelDesc,"$faction.rel == FRIENDLY
+$faction.id == MVS",,"You are seen as a trustworthy ally by $theFaction, opening up the opportunity for even better equipment assuming you have a $faction commission. ",,
+relLevelCooperativeMVS,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
+$faction.id == MVS",,"Thanks to your tireless work in fighting the enemies of order, $faction operatives, from ship crew members to high-ranking officers, see you as one of their own. Assuming you have a commission with $theFaction, you have access to top-of-the-line equipment to aid your fight against those who would threaten the dream of restoring the Sector to stability.",,
+relLevelSuspiciousMVS,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
+$faction.id == MVS",,"Though nothing has been proven, $faction officials tend to view you with suspicion. Link access to the port authority is granted only grudgingly.",,
+relLevelInhospitableMVS,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
+$faction.id == MVS",,"Suspicions have risen to an actionable level. There's no shoot-on-sight authorization quite yet, but $faction ports will refuse to let you access their markets. ",,
+relLevelHostileMVS,RelationshipLevelDesc,"$faction.rel == HOSTILE
+$faction.id == MVS",,You are known to officials as an agent of chaos. $Faction commanders have authorization to engage your fleet on sight. ,,
+relLevelVengefulMVS,RelationshipLevelDesc,"$faction.rel == VENGEFUL
+$faction.id == MVS",,"You are considered a high-value target only surpassed in heinousness by the most infamous of pirate warlords. Your last confirmed fleet composition is readily available on $faction databases, making it certain that even with your transponder off, you will be recognized. In fact, dedicated $faction fleets are being formed to hunt you down. ",,
+#END relationship level descriptions,,,,,,
+,,,,,,
+# Trade panel flavor text,,,,,,
+flavorTextMarketMischmetal,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == MVS
+$market.id == mischmetal","AddText ""A heavily industrialized world, its infrastructure dedicated to producing ships and armaments for the battle against piracy. Armored freighters unload crates of commodities under the watchful gaze of armed patrols and automated defenses."" textGrayColor",,,
+flavorTextMarketMVS,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == MVS","AddText ""The marketplace is buzzing with activity, numerous traders purchasing and selling goods. Meanwhile, guards clad in power-armor patrol the area, keeping watch for suspicious behaviour. Swarms of security drone buzz overhead, keeping a ceaseless vigil over the market's commerce section."" textGrayColor",,,
+#END Trade panel flavor text,,,,,,
+,,,,,,
+# portside bar flavor text,,,,,,
+bar_descMVS,BarPrintDesc,$faction.id == MVS,ShowImageVisual space_bar,"You walk past notices encouraging temperance and restraint as you enter the bar. A soft hymn wafts from speakers mounted in the building's ceiling. Humming security drones and a handful of armed guards keep watch over the patrons, ready to respond to any possible threats. Many of the patrons at tables or booths seem to be off-worlders huddling in the closest analog to a den of sin that can be found.",,
+#END portside bar flavor text,,,,,,
+aiCores_turnInOptionSellMVS,DialogOptionSelected,"$option == aiCores_startTurnIn
+$faction.id == MVS",FireAll PopulateCoresTurnInOptions,"""Most fascinating. Such an item could do much harm if it were to find itself in the hands of unsavory groups, including underworld elements or the perfidious Corporation. If you were to instead deliver these cores to us, we would ensure that this event would not come to pass.""",,
+aiCores_turnInResponseMVS,AICoresTurnedIn,$faction.id == MVS,FireAll PopulateOptions,"""Thank you, my friend. This contribution will help keep such dangerous objects out of the wrong hands for the sake of order. ""$PersonRank $personLastName whispers a quick prayer and the conversation moves on to other matters.",,
+,,,,,,

@@ -1,0 +1,10 @@
+{
+	"id":"ii_explode",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.scripts.shipsystems.ai.II_NoAI",
+
+	"statsScript":"data.scripts.shipsystems.II_Explode",
+
+	"outOfUsesSound":"gun_out_of_ammo",
+}

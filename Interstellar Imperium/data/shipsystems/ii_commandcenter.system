@@ -1,0 +1,14 @@
+{
+    "id":"ii_commandcenter",
+    "type":"STAT_MOD",
+    "aiType":"CUSTOM",
+    "aiScript":"data.scripts.shipsystems.ai.II_CommandCenterAI",
+
+    "statsScript":"data.scripts.shipsystems.II_CommandCenterStats",
+	"runScriptWhileIdle":true,
+
+    "outOfUsesSound":"gun_out_of_ammo",
+
+    "aiHints":{
+    }
+}

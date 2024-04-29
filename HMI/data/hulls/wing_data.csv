@@ -1,0 +1,37 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+drone_blitz_borer_wing,drone_blitz_borer_Standard,"no_drop, no_sell, low, auto_fighter",0,,4,0,CLAW,1200,200,,4,INTERCEPTOR,Interceptor Drone,5,5000,,,,,,,,,,,,,2.1
+drone_blitz_borer_suicide_wing,drone_blitz_borer_suicide_Bomb,"no_drop, no_sell, low, auto_fighter",0,,4,0,CLAW,1200,1000,800,1,BOMBER,Bomber Drone,15,5000,,,,,,,,,,,,,
+drone_remora_scan_wing,drone_remora_scan_var,"no_drop, no_sell, high, auto_fighter",0,,4,0,BOX,1400,200,200,4,INTERCEPTOR,Salvage Drone,10,5000,,,,,,,,,,,,,2.1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+support_bombardment_drone_wing,support_bombardment_drone_Standard,"bomber3, bomber, low, hmi_junk_bp, auto_fighter",0,,5,14,CLAW,3000,800,600,2,BOMBER,Bomber Drone,20,1650,,,,,,,,,,,,,1.1
+hmi_shell_wing,hmi_shell_standard,"stay_in_front_of_ship, support1, drone, low, hmi_junk_bp, auto_fighter",0,,5,2,BOX,0,500, ,4,SUPPORT,Support Drone,8,1500,,,,,,,,,,,,,4.1
+hmi_taker_drone_wing,hmi_taker_drone_std,"stay_in_front_of_ship, support2, drone, low, hmi_junk_bp, auto_fighter",0,,5,4,BOX,0,500,,2,SUPPORT,Heavy Support Drone,15,5000,,,,,,,,,,,,,17
+hmi_trapdoor_wing,hmi_trapdoor_standard,"bomber3, bomber, low, hmi_junk_bp",0,,4,3,CLAW,3000,700,200,4,BOMBER,Bomber,8,2000,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+hmi_nail_wing,hmi_nail_standard,"fighter2, interceptor, high, hmi_techmine_bp, merc",1,0.75,5,6,CLAW,4000,300,500,3,INTERCEPTOR,Fighter,8,6500,,,,,,,,,,,,,5.1
+hmi_scogliera_wing,hmi_scogliera_std,"fighter3, fighter, high, hmi_techmine_bp, merc",2,0.75,6,14,V,4000,500,,3,FIGHTER,Heavy Fighter,15,8000,,,,,,,,,,,,,1
+hmi_vincensa_wing,hmi_vincensa_std,"bomber3, bomber, high, hmi_techmine_bp, merc",2,0.75,6,18,V,4000,1000,600,2,BOMBER,Bomber,20,12000,,,,,,,,,,,,,10
+hmi_scale_wing,hmi_scale_variant,"support2, fighter, high, hmi_techmine_bp, merc",2,0.75,4,16,V,1000,500,,2,SUPPORT,Support Fighter,20,11000,,,,,,,,,,,,,3.1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+sifter_drone_wing,sifter_drone_std,"no_drop, no_sell, support0, drone, low, auto_fighter",2,,5,0,BOX,0,500,,6,FIGHTER,Drone,60,850,,,,,,,,,,,,,17
+sifter_drone2_wing,sifter_drone_std2,"no_drop, no_sell, support0, drone, low, auto_fighter",2,,5,0,BOX,1000,500,,6,FIGHTER,Drone,5,850,,,,,,,,,,,,,17
+trowel_drone_wing,trowel_drone_std,"no_drop, no_sell, support0, drone, low, auto_fighter",2,,5,0,BOX,2000,300,500,3,FIGHTER,Drone,10,2500,,,,,,,,,,,,,
+wedge_drone_wing,wedge_drone_std,"no_drop, no_sell, support0, drone, low, auto_fighter",2,,5,0,BOX,0,500, ,3,SUPPORT,Drone,20,1500,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+scandunt_wing,scandunt_Fighter,"no_drop, no_sell,  support0,  drone, high, auto_fighter",3,,6,10,V,0,500,,2,SUPPORT,Support Drone,25,10000,,,,,,,,,,,,,9.1
+scandunt_mess_wing,scandunt_mess_Fighter,"no_drop, no_sell,  support0,  drone, high, auto_fighter",3,,6,10,V,0,500,,2,SUPPORT,Support Drone,25,10000,,,,,,,,,,,,,9.2
+puer_chorum_wing,puer_chorum_std,"no_sell, fighter, remnant, fighter5, auto_fighter",3,,6,10,V,2000,500,,3,FIGHTER,Assault Drone,10,8000,,,,,,,,,,,,,23
+hmi_auctor_wing,hmi_auctor_std,"no_sell, bomber, remnant, bomber3, auto_fighter",3,,6,8,CLAW,4000,1500,800,5,BOMBER,Suppression Drone,5,6000,,,,,,,,,,,,,21
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+drone_feeder_wing,drone_feeder_stripper,"no_drop, no_sell, interceptor1, interceptor, low, auto_fighter",3,,3,5,V,4000,2000,,2,FIGHTER,Attack Drone,5,10000,,,,,,,,,,,,,8.1
+drone_feeder_heavy_wing,drone_feeder_heavy_Fighter,"no_drop, no_sell, bomber1, bomber, mid, auto_fighter",3,,6,10,V,4000,500,300,1,BOMBER,Heavy Drone,15,10000,,,,,,,,,,,,,9.1
+drone_feeder_free_wing,drone_feeder_free_stripper,"auto_fighter, no_drop, no_sell, rapid_reform, leader_no_swarm, wingmen_no_swarm, match_leader_facing, attack_at_an_angle, independent_of_carrier, restricted",3,,3,5,V,2000,2000,,3,FIGHTER,Attack Drone,5,10000,,,,,,,,,,,,,8.1
+drone_feeder_heavy_free_wing,drone_feeder_free_heavy_Fighter,"auto_fighter, no_drop, no_sell, rapid_reform, leader_no_swarm, wingmen_no_swarm, match_leader_facing, attack_at_an_angle, independent_of_carrier, restricted",3,,6,10,V,2000,500,300,2,BOMBER,Heavy Drone,15,10000,,,,,,,,,,,,,9.1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+mess_flash_wing,mess_flash_standard,"no_sell, no_drop, bomber, mess_remnant, bomber5, auto_fighter",3,,5,16,V,4000,2500,300,3,BOMBER,Strike Drone,18,10000,,,,,,,,,,,,,21.1
+mess_spark_wing,mess_spark_standard,"no_sell, no_drop, interceptor, mess_remnant, interceptor5, auto_fighter",3,,4,10,CLAW,4000,200,750,4,INTERCEPTOR,Interceptor Drone,10,70000,,,,,,,,,,,,,22.1
+mess_lux_wing,mess_lux_standard,"no_sell, no_drop, fighter, mess_remnant, fighter5, auto_fighter",3,,6,14,V,4000,500,,3,FIGHTER,Fighter Drone,12,80000,,,,,,,,,,,,,23.1

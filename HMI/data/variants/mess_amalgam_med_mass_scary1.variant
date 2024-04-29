@@ -1,0 +1,37 @@
+{
+  "variantId": "mess_amalgam_med_mass_scary1",
+  "hullId": "mess_amalgam_med_mass",
+  "displayName": "Reaper",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "cyclone"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "reaper",
+        "WS0003": "reaper",
+        "WS0007": "reaper",
+        "WS0008": "reaper",
+        "WS0009": "reaper",
+        "WS0012": "typhoon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

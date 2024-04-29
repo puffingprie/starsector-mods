@@ -1,0 +1,73 @@
+{
+    "displayName": "Artillery",
+    "fluxCapacitors": 30,
+    "fluxVents": 26,
+    "goalVariant": true,
+    "hullId": "ii_dominus",
+    "hullMods": [
+        "ii_targeting_package",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "ii_dominus_art",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ii_triplepbc"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "ii_ballista",
+                "WS0007": "ii_ballista"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "ii_arcus",
+                "WS0009": "ii_arcus",
+                "WS0010": "ii_arcus",
+                "WS0011": "ii_arcus"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "ii_sledgecannon",
+                "WS0004": "ii_sledgecannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "ii_sledgegun",
+                "WS0013": "ii_sledgegun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "flak",
+                "WS0014": "lightdualmg",
+                "WS0015": "lightdualmg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "ii_sagittarius"}
+        }
+    ],
+    "wings": [
+        "ii_inferna_wing",
+        "ii_flamen_wing"
+    ]
+}

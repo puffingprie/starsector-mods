@@ -1,0 +1,41 @@
+{
+  "variantId": "mule_hmilp",
+  "hullId": "mule",
+  "displayName": "Divine",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 6,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "safetyoverrides"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 003": "mbeke_med"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "annihilator",
+        "WS 002": "annihilator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "lightmg",
+        "WS 006": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

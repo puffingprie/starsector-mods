@@ -1,0 +1,65 @@
+{
+  "variantId": "ecstacy_lancer",
+  "hullId": "ecstacy",
+  "displayName": "Lancer",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "advancedoptics",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "phasebeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "sabotpod",
+        "WS0004": "sabotpod",
+        "WS0011": "atropos",
+        "WS0012": "atropos",
+        "WS0013": "atropos",
+        "WS0014": "atropos"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "phasebeam",
+        "WS0002": "phasebeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "pdburst",
+        "WS0006": "pdburst",
+        "WS0007": "lrpdlaser",
+        "WS0008": "lrpdlaser",
+        "WS0009": "lrpdlaser",
+        "WS0010": "lrpdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "lux_wing",
+    "lux_wing"
+  ]
+}

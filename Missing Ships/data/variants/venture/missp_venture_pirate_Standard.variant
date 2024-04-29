@@ -1,0 +1,47 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 2,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "missp_venture_pirate",
+  "hullMods": [
+    "heavyarmor",
+    "reinforcedhull"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "missp_venture_pirate_Standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "arbalest",
+        "WS0004": "arbalest",
+        "WS0005": "arbalest"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "harpoonpod",
+        "WS0007": "harpoonpod",
+        "WS0008": "harpoon",
+        "WS0009": "harpoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "vulcan",
+        "WS0003": "vulcan"
+      }
+    }
+  ],
+  "wings": [
+    "talon_wing"
+  ]
+}

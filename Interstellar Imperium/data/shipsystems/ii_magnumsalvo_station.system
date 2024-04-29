@@ -1,0 +1,18 @@
+{
+	"id":"ii_magnumsalvo_station",
+    "type":"STAT_MOD",
+    "aiType":"CUSTOM",
+    "aiScript":"data.scripts.shipsystems.ai.II_MagnumSalvoAI",
+
+    "statsScript":"data.scripts.shipsystems.II_MagnumSalvoStats",
+    "runScriptWhilePaused":true, # only for the player's ship
+    "runScriptWhileIdle":true,  # this means unapply() never gets called
+
+	"outOfUsesSound":"gun_out_of_ammo",
+
+    "aiHints":{
+        "activeSpeedIncrease":0,
+        "burstMovementPotential":0,
+        "averageSpeedIncrease":0,
+    }
+}

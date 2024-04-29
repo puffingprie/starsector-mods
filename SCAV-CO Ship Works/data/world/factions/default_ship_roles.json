@@ -1,0 +1,155 @@
+{     
+	"combatSmallForSmallFleet":{
+		"sv_hopeandtape_standerd" : 6,
+		"sv_madcat_standerd" : 6,
+		"sv_roughrider_standerd" : 6,
+		"sv_workerbee_standerd" : 6,
+		"sv_wrench_standerd" : 6,
+		"sv_cookiecutter_standerd" : 6,
+		"sv_grommet_standerd" : 6,
+		"sv_lionfish_standerd" : 6,
+	},
+	"combatSmall":{
+		"sv_cookiecutter_standerd" : 4,
+		"sv_grommet_standerd" : 6,
+		"sv_lionfish_standerd" : 6,
+		"sv_hopeandtape_standerd" : 6,
+		"sv_madcat_standerd" : 6,
+		"sv_roughrider_standerd" : 6,
+		"sv_workerbee_standerd" : 6,
+		"sv_wrench_standerd" : 6,
+	},
+	"combatMedium":{
+		"sv_jackketch_standerd" : 6,
+		"sv_powerdermonkeymk1_standerd" : 6,
+		"sv_barracuda_standerd" : 6,
+		"sv_barbados_standerd" : 6,
+		"sv_hopeandbolts_standerd" : 6,
+		"sv_maddog_standerd" : 6,
+		"sv_scalva_standerd" : 6,
+	},
+	"combatLarge":{
+		"sv_thresher_standerd" : 6,
+		"sv_thresher_beam" : 6,
+		"sv_powdermonkeymk2_standerd" : 6,
+		"sv_catoninetails_standerd" : 6,
+		"sv_barrel_standerd": 6,
+        "sv_hopeandluck_standerd" : 6,
+		"sv_madtiger_standerd" : 6,
+		"sv_mallet_standerd" : 6,
+		"sv_tortuga_standerd" : 6,
+},
+	"combatCapital":{
+		"sv_powerdermonkey_standerd" : 6,
+		"sv_jackhammer_standerd" : 6,
+		"sv_scrapslaught_standerd" : 6,
+		"sv_enkidu_standerd" : 3,
+		"sv_gilgamesh_standerd" : 3,
+		"sv_megalodon_standard" : 3,
+		"sv_portroyal_standard" : 2,
+		"sv_ultima_standard" : 2,
+		"sv_alexander_standard" : 2,
+
+	},
+	
+	# hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall":{
+	},
+	"combatFreighterMedium":{
+		"sv_powerdermonkeymk1_standerd" : 6,
+		"sv_barbados_standerd" : 6,
+		"sv_beltmover_standered" : 6,
+		"sv_fatherhold_standerd" : 6,
+		"sv_mole_standerd" : 6,
+		"sv_scalva_standerd" : 6,
+	},
+	"combatFreighterLarge":{
+		"sv_powerdermonkey_standerd" : 6,
+		"sv_powdermonkeymk2_standerd" : 6,
+		"sv_gasgiant_standerd" : 6,
+		"sv_motherload_standerd" : 6,
+		"sv_scrapslaught_standerd" : 6,
+		"sv_enkidu_standerd" : 3,
+		"sv_gilgamesh_standerd" : 3,
+		"sv_tortuga_standerd" : 6,
+		"sv_ultima_standard" : 3,
+	},
+	
+	"civilianRandom":{
+		"sv_beltmover_standered" : 6,
+		"sv_fatherhold_standerd" : 6,
+		"sv_mole_standerd" : 6,
+		"sv_fuelskipper_standerd" : 4,
+		"sv_fuelrunner_standerd" : 4,
+		"sv_workerbee_standerd" : 6,
+		"sv_beholder_standerd" : 6,
+		"sv_ultima_standard" : 3,
+	},
+
+	# carriers
+	"carrierSmall":{},
+	"carrierMedium":{
+		"sv_mole_standerd" : 6,
+		"sv_barbados_standerd" : 6,
+	},
+	"carrierLarge":{
+		"sv_fatherhold_standerd" : 6,
+		"sv_motherload_standerd" : 4,
+		"sv_tortuga_standerd" : 6,
+	},
+
+	# phase ships
+	"phaseSmall":{},
+	"phaseMedium":{},
+	"phaseLarge":{},
+	"phaseCapital":{},
+
+	# freighters and such
+	"freighterSmall":{
+		"sv_mole_standerd" : 6,
+	},
+	"freighterMedium":{
+		"sv_beltmover_standered" : 6,
+	
+	},
+	"freighterLarge":{
+		"sv_fatherhold_standerd" : 2,
+		"sv_motherload_standerd" : 2,
+		"sv_sisyphus_standard" : 10,
+		"sv_ultima_standard" : 3,
+	},
+	
+	"tankerSmall":{
+		"sv_fuelskipper_standerd" : 4,
+	},
+	"tankerMedium":{
+		"sv_fuelrunner_standerd" : 4,
+	},
+	"tankerLarge":{
+		"sv_gasgiant_standerd" : 4,
+	},
+	
+	"personnelSmall":{},
+	"personnelMedium":{},
+	"personnelLarge":{},
+	
+	"linerSmall":{},
+	"linerMedium":{},
+	"linerLarge":{
+		"sv_ultima_standard" : 3,
+	},
+	
+	# utility ships
+	"tug":{
+		"sv_taitou1_standerd" : 10,
+		"sv_motherload_standerd" : 6,
+	},
+	"crig":{
+	"sv_workerbee_standerd" : 6,
+	},
+	"utility":{
+		"sv_taitou1_standerd" : 6,
+		"sv_workerbee_standerd" : 6,
+		"sv_beholder_standerd" : 6,
+	},
+}

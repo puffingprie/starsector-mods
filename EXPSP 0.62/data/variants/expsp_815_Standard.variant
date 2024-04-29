@@ -1,0 +1,67 @@
+{
+  "variantId": "expsp_815_Standard",
+  "hullId": "expsp_815",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 23,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "expsp_autogun",
+        "WS0006": "expsp_autogun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "expsp_plinker",
+        "WS0012": "expsp_plinker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "expsp_poke",
+        "WS0004": "expsp_poke"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_multilaser",
+        "WS0002": "expsp_multilaser",
+        "WS0009": "expsp_multilaser",
+        "WS0010": "expsp_multilaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "expsp_coilciws",
+        "WS0008": "expsp_coilciws",
+        "WS0013": "expsp_coilciws_med"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "expsp_glance_wing"
+  ]
+}

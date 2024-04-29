@@ -1,0 +1,90 @@
+{
+  "hullName": "Hermes (Luddic Path)",
+  "hullId": "hermes_pather",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/hermes_ludd.png",
+  "style": "MIDLINE",
+  "height": 82,
+  "width": 56,
+  "center": [28, 39],
+  "collisionRadius": 60,
+  "shieldCenter": [2, 0],
+  "shieldRadius": 57,
+  "viewOffset": 0,
+  "builtInMods": [
+    "safetyoverrides",
+    "ill_advised"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": 180,
+      "locations": [-40, 0]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [13, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-39, 10],
+      "length": 24,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-39, 0],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-39, -10],
+      "length": 24,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-19, 23],
+      "length": 12,
+      "width": 6,
+      "angle": 150,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-19, -23],
+      "length": 12,
+      "width": 6,
+      "angle": 210,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    21, 10,
+    14, 24,
+    -22, 17,
+    -37, 16,
+    -37, -15,
+    -21, -18,
+    14, -25,
+    21, -10
+  ]
+}

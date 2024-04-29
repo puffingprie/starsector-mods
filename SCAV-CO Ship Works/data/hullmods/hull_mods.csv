@@ -1,0 +1,212 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+SCAV-CO Ship Works,sv_scavcoConstruction,,,SCAV-CO,,,,,TRUE,,0,0,0,0,data.hullmods.sv_scavcoConstruction,"SCAV-CO floods markets with cheap ship parts that are simple but reliable. While these parts don't precisely outperform more common ship parts, they have a nifty knack for working at nearly full capacity while damaged, resulting in most negative effects of d-mods reduced by %s. 
+
+
+As a result of this logistical doctrine, If disabled or destroyed in combat, the ship has a %s chance to avoid new d-mods due to the cheapness mentioned above and the subpar performance of SCAV-CO parts and has a slightly higher chance of being recoverable after the battle if disabled or destroyed because of the ability to replace the parts instead of repairing them. This of course, Reduces supply use for maintenance, fuel use, and minimum crew required by %s.
+
+
+
+Lasty, due to the availability of SCAV-CO parts, combat readiness recovery and repair rates are increased by %s because one can just kick the damaged part and get it working again or replace it with ease, Instead of spending hours repairing it. The per-day supply consumption for CR recovery is increased to account for the increased recovery rate, but the total supply cost remains the same.",,graphics/hullmods/sv_hullmod.png
+SCAV-CO Substyems,sv_scavcosubsytems,,,SCAV-CO,,,,,TRUE,,0,0,0,0,data.hullmods.sv_scavcosubsytems,"Targeting algorithms designed to detect and destroy fast-moving asteroids or debris to allow for peaceful salvaging or repairing operations gives all PD and non-PD weapons a %s damage bonus to missiles, fighters, and frigates. Additanly the range of all PD weapons is increased by %s.
+SCAV-CO built-in subsystems offer a %s increase in peak performance time. Additionally causes, combat readiness after peak performance time is up to degrade %s slower.
+
+Instead of drawing power from the ship's reactor to run these systems, energy is diverted from the shields reducing their efficiency by %s.
+
+Unlike most persean sector standard hull modifications that prevent the installation of similar hull mods working in tandem with each other, SCAV-CO Substyems have built-in compatibility with ""Hardened Subsystems"" and ""Integrated Point Defense AI"" to allow their installation without complications. The only downside is the increased power draw from the shields to support these modifications, resulting in a %s decrease in shield efficiency for each of these hull mods installed.",,graphics/hullmods/sv_hullmod_substyems.png
+Spoke Engines,sv_spokeengines,,,VAVS-INC,,,,,TRUE,,0,0,0,0,data.hullmods.sv_spokeengines,"The Engines on this vessel are mounted on spokes/support trusses, reducing engine durability by %s, and due to the lack of easy access to the engines in combat, the only way to repair them is by an emergency E.V.A . which increases engine repair times by %s. However, due to the lost weight, top speed is increased by %s.
+
+Furthermore, zero percent flux speed boost is disabled, and installing ""Unstable Injector"" or ""Safety Overrides"" will reduce peak performance time by %s.",,graphics/hullmods/sv_hullmod_spokeengine.png
+Long Range Sensors,sv_longrangesensors,,,SCAV-CO,,,,,TRUE,,0,0,0,0,data.hullmods.sv_longrangesensors,"This ship has built-in long range sensors, increaseing sensor range by %s.",,graphics/hullmods/sv_hullmod_longrangesensors.png
+High Volume Fire Specialization,sv_highvolumefirespecialization,,,VACS-INC,,,,,TRUE,,0,0,0,0,data.hullmods.sv_highvolumefirespecialization,"This ship is expected to flood space with laser fire or projectiles at an unholy rate. 
+
+To accommodate the ordnance and flux cost of fitting and operation, the ship has been redesigned to allow this feat, resulting in a %s reduction in OP costs of small weapons and a %s reduction of weapon flux generation and damage.",,graphics/hullmods/sv_hullmod_highvolume.png
+VACS-INC Construction,sv_vacsincconstruction,,,VACS-INC,,,,,TRUE,,0,0,0,0,data.hullmods.sv_vacsincconstruction,"VACS-INC Builds its ships to obliterate the opposition. Ships are overclocked down to the smallest level, resulting in all types of weapons receiving a %s boost to R.O.F. and a %s increase to zero flux speed, vent rate, and acceleration.
+
+However, because VACS-INC pulls its ship components from whatever local pirates bring in, the scrap needs to be melted down into an alloy to normalize the stress put on the ship caused by the overclocking. This reduces armor's effectiveness, engine, and weapon health by %s.
+
+Additionally, the installation of Safety Overrides reduces top speed by %s due to the ship already being overclocked.",,graphics/hullmods/sv_hullmod_vacsincconstruction.png
+Vast Open Deck,sv_monkeysinabarrel,,,VACS-INC,,,,,TRUE,,0,0,0,0,data.hullmods.sv_monkeysinabarrel,"This ship is made up of primarily one massive deck, held together with intergity fields and a little hope, crew can sprawl about freely to load guns, maintain engines, cook some lobster or just play cards. 
+ 
+This results in a %s reduction in ROF. To offset this downgrade, a massive integrity field generator is placed in the center of the main deck providing the following.
+
+1: Hull is increased by %s
+2: Crew lost to hull damage is decreased by %s
+3: Hull/EMP damage is decreased by %s.
+4: Weapon and engine repair times are reduced by %s
+5: Weapon and engine health is increased by %s.",,graphics/hullmods/sv_hullmod_monkeysinabarrel.png
+General Modernization,sv_modernization_decision,0,,Decisions,"defensive, shields, offensive, engines, special, merc, req_spaceport","Shields, Defenses, Special, Weapons, Engines, Logistics, Requires Dock",4000,TRUE,,,5,10,15,20,data.hullmods.sv_modernization_decision,"You choose to modernize this ship, this extensive rework results in the following charcteristics improved by %s/%s/%s/%s depending on hull size.
+
+Deceleration/Acceleration
+Max speed/Turn rate
+Hull/Armor
+Weapon/Engine health
+Autofire accuracy/recoil
+Flux capacity/Dissipation
+Energy/Ballistic weapon range/Turn rate
+Shield damage taken/Shield arc
+Shield unfold/upkeep/Turn Rate
+Fuel efficiency
+
+With all this modern equipment being more expensive to maintain, maintenance costs are increased by %s/%s/%s/%s depending on hull size.
+
+Peak CR duration is also decreased by %s to keep operation running costs somewhat manageable.",,graphics/hullmods/sv_hullmod_modernization_decision.png
+General Analog Conversion,sv_analogconversion,0,,Decisions,"defensive, shields, offensive, engines, special, merc, req_spaceport","Shields, Defenses, Special, Weapons, Engines, Logistics, Requires Dock",4000,TRUE,,,5,10,15,20,data.hullmods.sv_analogconversion,"You choose down grade this ship with anolog equipment, this extensive rework results in the following charcteristics worened by %s/%s/%s/%s/ depending on hull size.
+
+Deceleration/Acceleration
+Max speed/Turn rate
+Weapon/Engine health
+Autofire accuracy/recoil
+Flux capacity/Dissipation
+Energy/Ballistic weapon range/Turn rate
+Shield damage taken/Shield arc
+Shield unfold/upkeep/Turn Rate
+
+Maintenance is reduced while fuel use and peak CR duration is increased by %s/%s/%s/%s depending on hull size thanks to anolog equipment being much more simple to maintain.
+
+Additionaly, EMP damage is reduced by %s.",,graphics/hullmods/sv_hullmod_analogconversion.png
+VACS-INC Bastion Shield,sv_bastion,,,VAVS-INC,,,,,TRUE,,0,0,0,0,data.hullmods.sv_bastion,"This shield core has made to be as light waight as possible while still being tough, as a result the shield generates no flux while active and takes equal damage from all damage types.
+
+Additionally sheild unfold rate is increased by %s ",,graphics/hullmods/sv_hullmod_bastion.png
+Treasure Hold,sv_megahold,,,VAVS-INC,,,,,TRUE,,0,0,0,0,data.hullmods.sv_megahold,"This ship has one massive cargohold made to carry an entire star system worth of plundered space stations and colonies, giving a cargo space of %s units that can not be upgraded.",,graphics/hullmods/sv_hullmod_megahold.png
+Ballistic Modernization,sv_ballisticspecialization,0,,Decisions,"offensive, merc, req_spaceport","Weapons, Requires Dock",4000,TRUE,,,5,10,15,20,data.hullmods.sv_ballisticspecialization,"You choose to modernization this ships ballistic weapon capabilities, improving the following ballistic weapon charcteristics by %s/%s/%s/%s depending on hull size.
+
+Range/Projectile speed
+Damage/Rate of fire
+Flux cost/Ammo capacity/Ammo regen
+
+Maintenance is increased by %s/%s/%s/%s depending on hull size and Peak CR duration is decreased by %s.",,graphics/hullmods/sv_hullmod_ballspec.png
+Energy Modernization,sv_energyspecialization,0,,Decisions,"offensive, merc, req_spaceport","Weapons, Requires Dock",4000,TRUE,,,5,10,15,20,data.hullmods.sv_energyspecialization,"You choose to modernization this ships energy weapon capabilities, improving the following energy weapon charcteristics by %s/%s/%s/%s depending on hull size.
+
+Range/Projectile speed
+Damage/Rate of fire
+Flux cost/Ammo capacity/Ammo regen
+
+Maintenance is increased by %s/%s/%s/%s depending on hull size and Peak CR duration is decreased by %s.",,graphics/hullmods/sv_hullmod_energyspec.png
+Missile Modernization,sv_missilespecialization,0,,Decisions,"offensive, merc, req_spaceport","Weapons, Requires Dock",4000,TRUE,,,5,10,15,20,data.hullmods.sv_missilespecialization,"You choose to modernization this ships missile capabilities, improving the following missile systems charcteristics by %s/%s/%s/%s depending on hull size.
+
+Range/Damage
+Acceleration/Turn rate/Guidance
+Max speed/Rate of fire
+Flux cost/Missle health
+Ammo capacity/Ammo regen
+
+Maintenance is increased by %s/%s/%s/%s depending on hull size and Peak CR duration is decreased by %s.",,graphics/hullmods/sv_hullmod_missilespec.png
+Marauding Engines,sv_maraudingengines,,,VAVS-INC,,,,,TRUE,,0,0,0,0,data.hullmods.sv_maraudingengines,"This ships engines have been overlcocked, over engineered and just generally built by mad scientists. Zero flux speed boost is always active and acceleration/deceleration is increased by %s, however the super structure buckles under the enormous power these engines output, resulting in %s more hull damage taken.
+
+DRIVE ME CLOSER, SO THAT I MAY HIT THEM WITH MY SWORD!!!",,graphics/hullmods/sv_hullmod_maraudingengines.png
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,

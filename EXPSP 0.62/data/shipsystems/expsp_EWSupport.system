@@ -1,0 +1,28 @@
+{
+	"id":"expsp_ewsupport",
+	"type":"STAT_MOD",
+	#"aiType":"TARGETING_FEED",
+	#"type":"SHIELD_MOD",
+	#"aiType":"FORTRESS_SHIELD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.EWSupportAi",
+	
+	"statsScript":"data.shipsystems.scripts.EWSupportStats",
+	#"weaponDataId":"expsp_ewglow",
+		
+		"useSound":"system_targeting_feed",
+	#"loopSound":"system_targeting_feed_loop",
+	"deactivateSound":"gun_out_of_ammo",
+	"outOfUsesSound":"gun_out_of_ammo",
+	#"weaponGlowColor":[55,200,255,255],
+ 	#"weaponTypes":[DECORATIVE],
+	"aiHints":{
+	}
+}
+
+
+
+
+
+
+

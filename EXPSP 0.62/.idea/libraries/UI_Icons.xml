@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="UI_Icons">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/graphics/UI_Icons.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

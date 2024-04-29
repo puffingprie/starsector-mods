@@ -1,0 +1,37 @@
+{
+    "id":"ii_flare_elite",
+    "specClass":"missile",
+    "missileType":"MISSILE",
+    "sprite":"graphics/imperium/missiles/ii_fundae_missile.png",
+    "size":[1,1],	
+    "center":[0.5,0.5],
+    "collisionRadius":12,
+    "collisionClass":"MISSILE_NO_FF",
+    "explosionColor":[160,65,255,255],
+    "explosionRadius":100,
+    "flameoutTime":1,
+    "noEngineGlowTime":0.25,
+    "fadeTime":0.5,
+    "engineSpec":{"turnAcc":1000,
+                  "turnRate":400,
+                  "acc":800,
+                  "dec":400},
+    "engineSlots":[
+                    {"id":"ES1",
+                    "loc":[0, 0],
+                    "style":"CUSTOM",
+                    "styleSpec":{
+                        "mode":"PARTICLES",
+                        "engineColor":[160,65,255,255],
+                        "contrailParticleSizeMult":13,
+                        "contrailParticleDuration":2,
+                        "contrailMaxSpeedMult":-0.1,
+                        "contrailAngularVelocityMult":0f,
+                        "contrailColor":[135,15,255,35],
+                        "type":"GLOW"
+                    },
+                    "width":12.0,
+                    "length":20.0,
+                    "angle":180.0},
+                   ]
+}

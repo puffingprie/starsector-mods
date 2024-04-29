@@ -1,0 +1,49 @@
+{
+  "variantId": "expsp_puukko_Overdriven",
+  "hullId": "expsp_puukko",
+  "displayName": "Overdriven",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 4,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "safetyoverrides"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "chaingun",
+        "WS0005": "sabot_single"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "sabot_single"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "expsp_coilciws",
+        "WS0007": "expsp_particle_caliver",
+        "WS0008": "expsp_particle_caliver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "expsp_pokemini",
+        "WS0003": "expsp_pokemini"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

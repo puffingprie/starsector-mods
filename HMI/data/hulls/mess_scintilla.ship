@@ -1,0 +1,231 @@
+{
+  "hullName": "Scintilla (Mess)",
+  "hullId": "mess_scintilla",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/mess/mess_scintilla.png",
+  "style": "HIGH_TECH",
+  "height": 125,
+  "width": 188,
+  "center": [95, 52],
+  "collisionRadius": 125,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 120,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+	"hmi_mess_visuals",
+    "hmi_mess_spawn"
+  ],
+  "builtInWings": [
+    "drone_feeder_wing",
+    "drone_feeder_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 000",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 20,
+      "locations": [34, 47]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 130,
+      "locations": [-32, 68.5]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 230,
+      "locations": [-31.5, -66]
+    },
+    {
+      "id": "WS 004",
+      "size": "MEDIUM",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": 40,
+      "locations": [
+        18, 67,
+        11, 61,
+        46, 26,
+        36, 26
+      ]
+    },
+    {
+      "id": "WS 005",
+      "size": "MEDIUM",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": -40,
+      "locations": [
+        47, -26,
+        36, -26,
+        19, -68,
+        12, -60,
+        19, -42.5,
+        36.5, -43.5
+      ]
+    },
+    {
+      "id": "WS 007",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": 0,
+      "locations": [61, 16]
+    },
+    {
+      "id": "WS 008",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": 0,
+      "locations": [61.5, -14]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "LAUNCH_BAY",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": 0,
+      "locations": [
+        25, 2.5,
+        32, 7,
+        34, -2.5
+      ]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "LAUNCH_BAY",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": 177,
+      "locations": [
+        -16.5, 3.5,
+        -20, 14.5,
+        -21, -6.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-43, 27],
+      "length": 54,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 60,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-43, -27],
+      "length": 54,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 60,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-44, 36],
+      "length": 40,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 34,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-44, -35],
+      "length": 40,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 34,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-49, 53],
+      "length": 20,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-47, 49],
+      "length": 20,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-45, 45],
+      "length": 20,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-45, -45],
+      "length": 20,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-47, -49],
+      "length": 20,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-49, -53],
+      "length": 20,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    46, 63,
+    65, 33,
+    58, 12,
+    33, 8,
+    38, -5.5,
+    58, -11,
+    65, -29,
+    49, -59,
+    23, -83,
+    2, -66,
+    3, -92,
+    -15, -67,
+    -36, -82,
+    -48, -73,
+    -37, 0,
+    -48, 73,
+    -36, 84,
+    -15, 68,
+    3, 93,
+    1, 66,
+    23, 83
+  ]
+}

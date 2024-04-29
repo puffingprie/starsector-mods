@@ -1,0 +1,73 @@
+{
+  "variantId": "junk_autocannon",
+  "hullId": "junk",
+  "displayName": "Autocannon",
+  "goalVariant": true,
+  "fluxCapacitors": 30,
+  "fluxVents": 45,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0014": "pumm_cannon",
+        "WS0018": "mark9"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0021": "hurricane"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0017": "pilum",
+        "WS0022": "swarmer_junk"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "irpulse",
+        "WS0006": "lightac",
+        "WS0007": "launcher_cannon",
+        "WS0008": "rock_launcher",
+        "WS0012": "vulcan",
+        "WS0013": "flak",
+        "WS0015": "rock_launcher",
+        "WS0016": "launcher_cannon",
+        "WS0019": "rock_launcher",
+        "WS0020": "rock_launcher",
+        "WS0023": "vulcan",
+        "WS0024": "lightmg",
+        "WS0025": "twotherac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "twotherac",
+        "WS0002": "lightac",
+        "WS0003": "burst_ml",
+        "WS0005": "lightmg",
+        "WS0009": "vulcan",
+        "WS0010": "lightdualmg",
+        "WS0011": "hmi_slagger_gun"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "hmi_trapdoor_wing",
+    "hmi_trapdoor_wing"
+  ]
+}

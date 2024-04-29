@@ -1,0 +1,65 @@
+{
+  "animationType": "GLOW_AND_FLASH",
+  "barrelMode": "LINKED",
+  "separateRecoilForLinkedBarrels": true,
+  "fireSoundTwo": "heavy_mauler_fire",
+  "glowColor": [
+    255,
+    225,
+    0,
+    255
+  ],
+  "hardpointAngleOffsets": [
+    0,
+	0,
+	0
+  ],
+  "hardpointGlowSprite": "graphics/weapons/bomblauncher_hardpoint_glow.png",
+  "hardpointOffsets": [
+    10.5,
+    0,
+	10.5,
+    0,
+	10.5,
+    0
+  ],
+  "hardpointSprite": "graphics/weapons/bomblauncher_hardpoint.png",
+  "id": "launcher_cannon",
+  "muzzleFlashSpec": {
+    "length": 23,
+    "particleColor": [
+      255,
+      100,
+      100,
+      255
+    ],
+    "particleCount": 12,
+    "particleDuration": 0.12,
+    "particleSizeMin": 10,
+    "particleSizeRange": 12,
+    "spread": 5
+  },
+  "projectileSpecId": "launcher_cannon_shot",
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "size": "MEDIUM",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0,
+	0,
+	0
+  ],
+  "turretGlowSprite": "graphics/weapons/bomblauncher_base_glow.png",
+  "turretOffsets": [
+    4.5,
+    0,
+	4.5,
+    0,
+	4.5,
+    0
+  ],
+  "turretSprite": "graphics/weapons/bomblauncher_base.png",
+  "type": "BALLISTIC"
+}

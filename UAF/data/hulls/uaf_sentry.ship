@@ -1,0 +1,140 @@
+{
+  "hullName": "Sentry",
+  "hullId": "uaf_sentry",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/Sentry_arty_standard.png",
+  "style": "UAF_CRUISER",
+  "height": 293,
+  "width": 120,
+  "center": [60, 146.5],
+  "collisionRadius": 265,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 160,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering",
+    "uaf_atmospheric_entry"
+  ],
+  "builtInWeapons": {
+    "WS0006": "uaf_tona_iv",
+    "WS0007": "uaf_clemente_s_mrm_double",
+    "WS0008": "uaf_clemente_s_mrm_double"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 263,
+      "angle": 45,
+      "locations": [-94, 41.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 263,
+      "angle": -45,
+      "locations": [-94, -41.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": -45,
+      "locations": [-9, -20.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": 45,
+      "locations": [-9, 20.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [131, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-29, -23]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-29, 23]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-132.5, -41.5],
+      "length": 60.5,
+      "width": 25,
+      "angle": 180,
+      "contrailSize": 25,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-132.5, 41.5],
+      "length": 60.5,
+      "width": 25,
+      "angle": -180,
+      "contrailSize": 25,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-134.5, -9.5],
+      "length": 60.5,
+      "width": 25,
+      "angle": 180,
+      "contrailSize": 25,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-134.5, 9.5],
+      "length": 60.5,
+      "width": 25,
+      "angle": -180,
+      "contrailSize": 25,
+      "style": "TUNE_ENGINE"
+    }
+  ],
+  "bounds": [
+    144, -10.5,
+    83.5, -11.5,
+    54.5, -21.5,
+    -13, -32.5,
+    -46.5, -33.5,
+    -70, -53.5,
+    -134.5, -55.5,
+    -143, -21,
+    -143, 21,
+    -134.5, 55.5,
+    -70, 53.5,
+    -46.5, 33.5,
+    -13, 32.5,
+    54.5, 21.5,
+    83.5, 11.5,
+    144, 10.5
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "hullName": "Heavy Feeder Drone",
+  "hullId": "drone_feeder_heavy",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/mess/mess_heavy_drone.png",
+  "style": "HIGH_TECH",
+  "height": 32,
+  "width": 32,
+  "center": [16, 16],
+  "collisionRadius": 24,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 22.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [11, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-3, 3],
+      "length": 10.119037,
+      "width": 7.643322,
+      "angle": 167,
+      "contrailSize": 7.643322,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-3, -3],
+      "length": 10.119037,
+      "width": 7.643322,
+      "angle": -167,
+      "contrailSize": 7.643322,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -12.5, -4,
+    3.5, -11.5,
+    12, -5.5,
+    12, 5.5,
+    3.5, 11.5,
+    -12.5, 4
+  ]
+}

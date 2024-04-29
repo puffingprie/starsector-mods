@@ -1,0 +1,70 @@
+{
+  "variantId": "keruvim_duchess_sniper",
+  "hullId": "keruvim_duchess",
+  "displayName": "Sniper",
+  "goalVariant": true,
+  "fluxCapacitors": 12,
+  "fluxVents": 30,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "ecm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "keruvim_star_pod",
+        "WS0005": "keruvim_star_pod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "harpoonpod",
+        "WS0002": "harpoonpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "gauss",
+        "WS0018": "heavymauler",
+        "WS0019": "hveldriver",
+        "WS0020": "hveldriver",
+        "WS0021": "heavymauler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "railgun",
+        "WS0007": "railgun",
+        "WS0017": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "lightdualmg",
+        "WS0008": "lightdualmg",
+        "WS0011": "dualflak",
+        "WS0012": "dualflak",
+        "WS0013": "lightmg",
+        "WS0015": "lightmg",
+        "WS0016": "lightdualmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "keruvim_antlion",
+    "keruvim_antlion"
+  ]
+}

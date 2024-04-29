@@ -1,0 +1,35 @@
+{
+  "variantId": "expsp_ascalon_Elite",
+  "hullId": "expsp_ascalon",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "frontemitter",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "expsp_morganbeam",
+        "WS0005": "expsp_morganbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_coilciws",
+        "WS0002": "expsp_coilciws",
+        "WS0003": "expsp_coilciws"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

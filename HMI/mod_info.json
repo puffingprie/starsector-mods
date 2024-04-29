@@ -1,0 +1,22 @@
+{
+  "id":"HMI",
+	"name":"Hazard Mining Incorporated",
+	"author": "King Alfonzo",
+	"version":"0.3.7b",
+	"description":"A company created by an enterprising miner, this cut-throat organisation is out to exploit as much of the outer limits of the Sector as possible.",
+    "gameVersion": "0.97a-RC8",
+    "dependencies": [
+        {
+            "id": "lw_lazylib",
+            "name": "LazyLib",
+            #"version": "2.6"
+        },
+        {
+            "id": "MagicLib",
+            "name": "MagicLib",
+            #"version": "2.6"
+        },
+    ],
+	"jars":["jars/HMI.jar"],
+	"modPlugin":"data.scripts.HMI_modPlugin",
+}

@@ -1,0 +1,66 @@
+{
+  "variantId": "sebastian_start",
+  "hullId": "sebastian",
+  "displayName": "Balanced",
+  "goalVariant": true,
+  "fluxCapacitors": 17,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "auxiliarythrusters"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0013": "jackhammer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0014": "hammer",
+        "WS0015": "hammer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "arbalest",
+        "WS0012": "arbalest"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "heavymortar",
+        "WS0010": "heavymortar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "lightmg",
+        "WS0002": "lightmg",
+        "WS0003": "flak",
+        "WS0004": "flak",
+        "WS0007": "vulcan",
+        "WS0008": "vulcan",
+        "WS0016": "lightmg",
+        "WS0017": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "perdition_wing",
+    "perdition_wing"
+  ]
+}

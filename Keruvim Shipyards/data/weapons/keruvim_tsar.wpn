@@ -1,0 +1,58 @@
+{
+  "animationType": "GLOW_AND_FLASH",
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 450,
+  "fireSoundTwo": "mjolnir_fire",
+  "glowColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGunSprite": "graphics/weapons/tsar/keruvim_tsar_hardpoint_recoil.png",
+  "hardpointOffsets": [
+    41,
+    0
+  ],
+  "hardpointSprite": "graphics/weapons/tsar/keruvim_tsar_hardpoint_base.png",
+  "id": "keruvim_tsar",
+  "muzzleFlashSpec": {
+    "length": 54,
+    "particleColor": [
+      255,
+      185,
+      115,
+      215
+    ],
+    "particleCount": 32,
+    "particleDuration": 0.12,
+    "particleSizeMin": 18,
+    "particleSizeRange": 24,
+    "spread": 20
+  },
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "projectileSpecId": "keruvim_tsar_shot",
+  "renderAboveAllWeapons": 0,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "size": "LARGE",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGunSprite": "graphics/weapons/tsar/keruvim_tsar_turret_recoil.png",
+  "turretOffsets": [
+    21,
+    0
+  ],
+  "turretSprite": "graphics/weapons/tsar/keruvim_tsar_turret_base.png",
+  "type": "BALLISTIC",
+  "visualRecoil": 10
+}

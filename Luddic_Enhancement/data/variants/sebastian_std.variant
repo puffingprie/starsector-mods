@@ -1,0 +1,68 @@
+{
+  "variantId": "sebastian_std",
+  "hullId": "sebastian",
+  "displayName": "Fighter",
+  "goalVariant": true,
+  "fluxCapacitors": 18,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "reinforcedhull",
+    "blast_doors",
+    "dedicated_targeting_core"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0014": "annihilator",
+        "WS0015": "annihilator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0013": "pilum"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "arbalest",
+        "WS0012": "arbalest"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "heavymortar",
+        "WS0010": "heavymortar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "lightdualmg",
+        "WS0002": "lightdualmg",
+        "WS0003": "flak",
+        "WS0004": "flak",
+        "WS0007": "vulcan",
+        "WS0008": "vulcan",
+        "WS0016": "lightdualmg",
+        "WS0017": "lightdualmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "broadsword_wing",
+    "broadsword_wing"
+  ]
+}

@@ -1,0 +1,28 @@
+Version 1.2.1
+
+- Added 1 New portrait to Pirate. (Vanilla + 3 additional Portraits now)
+- Revisited and replaced 3 portraits. Which are:
+	* portrait_pirate15.png
+	* portrait_pirate16.png
+	* portrait_pirate20.png
+
+Version 1.1.1
+
+- Updated to work with Starsector 0.97a-RC11.
+- Added all new Vanilla Portraits introduced with Starsector 0.97a. Which are:
+	* 1 New "Corporate" Portrait.
+	* 7 New "Pirate" Portraits.
+	* 4 New "Characters" Portraits
+
+Version 1.1.0
+
+- Added 4 New portraits to Corporate. (Vanilla + 6 additional Portraits now)
+- Added 4 New portraits to Diktat. (Vanilla + 4 additional Portraits now)
+
+Version 1.0.1
+
+- Cleaned up portrait backgrounds. They all have solid '#000000' black backgrounds now.
+
+Version 1.0 
+ 
+- Initial release.

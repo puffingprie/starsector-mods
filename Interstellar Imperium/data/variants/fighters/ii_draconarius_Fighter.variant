@@ -1,0 +1,25 @@
+{
+	"quality":0.5,
+	"displayName":"Fighter",
+	"hullId":"ii_draconarius",
+	"variantId":"ii_draconarius_Fighter",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"hullMods":[], # array of strings
+	
+	# mode is either LINKED or ALTERNATING
+	# slot ids (WS ***) must match what's in the .ship file
+	"weaponGroups":[
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS0001":"ii_lux_fighter",
+		 		   },
+		},
+		{"mode":"ALTERNATING",
+		 "weapons":{
+		 			"WS0002":"ii_ballista_f",
+		 			"WS0003":"ii_ballista_f",
+		 		   },
+		},
+	],
+}

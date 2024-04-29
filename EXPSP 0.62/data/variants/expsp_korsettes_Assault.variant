@@ -1,0 +1,40 @@
+{
+  "variantId": "expsp_korsettes_Assault",
+  "hullId": "expsp_korsettes",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "insulatedengine",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_energizedram",
+        "WS0003": "expsp_coilciws"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "expsp_flarelauncher_crimson",
+        "WS0004": "expsp_flarelauncher_crimson"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

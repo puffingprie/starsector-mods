@@ -1,0 +1,50 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 450,
+	"fireSoundTwo":"hypervel_driver_fire",	
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGunSprite": "graphics/weapons/pummerer_cannon_recoil.png",
+  "hardpointOffsets": [
+    68,
+    -0.5
+  ],
+  "hardpointSprite": "graphics/weapons/pummerer_cannon_top.png",
+  "hardpointUnderSprite": "graphics/weapons/pummerer_cannon_base.png",
+  "id": "pumm_cannon",
+  "muzzleFlashSpec": {
+    "length": 120,
+    "particleColor": [
+      255,
+      220,
+      100,
+      200
+    ],
+    "particleCount": 33,
+    "particleDuration": 0.15,
+    "particleSizeMin": 12,
+    "particleSizeRange": 16,
+    "spread": 2
+  },
+  "projectileSpecId":"med_frag_mg_shot",
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "size": "LARGE",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGunSprite": "graphics/weapons/pummerer_cannon_recoil.png",
+  "turretOffsets": [
+    43,
+    -0.5
+  ],
+  "turretSprite": "graphics/weapons/pummerer_cannon_top.png",
+  "turretUnderSprite": "graphics/weapons/pummerer_cannon_base.png",
+  "type": "BALLISTIC",
+  "visualRecoil": 15
+}

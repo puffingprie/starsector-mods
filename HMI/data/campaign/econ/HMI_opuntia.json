@@ -1,0 +1,24 @@
+{
+    "starSystem":"HMI_opuntia",
+    "markets":[
+        {
+            "entities":["mess_station2"],
+            "faction":"HMI",
+            "size":5,
+            "startingConditions":[
+				"hardpolity",
+				"ruins_vast",
+				"population_5",
+            ],
+			"industries":[
+				"population",
+				"HMI_messmaker",
+				["heavyindustry","corrupted_nanoforge","beta_core"],
+				"megaport",
+				"heavybatteries",
+				"militarybase",
+				"starfortress",
+			],
+        },			
+    ],
+}

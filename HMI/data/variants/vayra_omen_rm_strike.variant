@@ -1,0 +1,38 @@
+{
+  "variantId": "vayra_omen_rm_strike",
+  "hullId": "vayra_omen_rm",
+  "displayName": "Strike",
+  "goalVariant": false,
+  "fluxCapacitors": 9,
+  "fluxVents": 3,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "amblaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "swarmer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

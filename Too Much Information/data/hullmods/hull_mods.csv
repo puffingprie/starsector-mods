@@ -1,0 +1,6 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+TMI - Ships,TMI_ships,6,0,TMI,"no_build_in, no_drop",,,,,,0,0,0,0,data.hullmods.TMI_Ships,,.,graphics/hullmods/timid_tmiship.png
+TMI - Projectiles,TMI_weapons,6,0,TMI,"no_build_in, no_drop",,,,,,0,0,0,0,data.hullmods.TMI_Weapons,,.,graphics/hullmods/timid_tmiweapons.png
+TMI - Beams,TMI_beams,6,0,TMI,"no_build_in, no_drop",,,,,,0,0,0,0,data.hullmods.TMI_Beams,,.,graphics/hullmods/timid_tmibeams.png
+TMI - Missiles,TMI_missiles,6,0,TMI,"no_build_in, no_drop",,,,,,0,0,0,0,data.hullmods.TMI_Missiles,May not correctly detect damage of MIRV and other scripted missiles! Only detects initial stats of the missile right now in this current version. Sorry for the inconvenience!,.,graphics/hullmods/timid_tmimissiles.png
+TMI - Wings,TMI_wings,6,0,TMI,"no_build_in, no_drop",,,,,,0,0,0,0,data.hullmods.TMI_Wings,Some fighter stat changes will not be detected due to how fighters work in refit screens.,.,graphics/hullmods/timid_tmifighters.png

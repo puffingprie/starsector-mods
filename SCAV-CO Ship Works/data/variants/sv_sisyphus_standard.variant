@@ -1,0 +1,33 @@
+{
+  "variantId": "sv_sisyphus_standard",
+  "hullId": "sv_sisyphus",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 12,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "efficiency_overhaul",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "arbalest"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "guardian",
+        "WS0003": "guardian"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,19 @@
+{
+	"id":"ii_arcus_shot",
+	"specClass":"projectile",
+	"onFireEffect":"data.scripts.weapons.II_TrailWeapon",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":60.0,
+	"hitGlowRadius":40,
+	"width":7.0,
+	"fadeTime":0.15,
+	"fringeColor":[215,235,255,255],
+	"coreColor":[200,225,255,225],
+    "glowColor":[170,220,255,20],
+    "glowRadius":25,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_large_blue.png"
+}

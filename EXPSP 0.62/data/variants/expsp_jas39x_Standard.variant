@@ -1,0 +1,30 @@
+{
+  "variantId": "expsp_jas39x_Standard",
+  "hullId": "expsp_jas39x",
+  "displayName": "Standard Light Drone Fighter",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_coilciws"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "expsp_chattergl",
+        "WS0003": "expsp_chattergl"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

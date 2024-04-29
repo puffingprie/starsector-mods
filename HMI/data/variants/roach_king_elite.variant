@@ -1,0 +1,80 @@
+{
+  "variantId": "roach_king_elite",
+  "hullId": "roach_king",
+  "displayName": "Elite",
+  "goalVariant": false,
+  "fluxCapacitors": 25,
+  "fluxVents": 15,
+  "quality": 0,
+  "permaMods": [
+    "degraded_engines",
+    "faulty_grid",
+    "comp_hull"
+  ],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "hmi_heavy_assault_launcher",
+        "WS0027": "rock_launcher",
+        "WS0028": "rock_launcher"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "harpoonpod",
+        "WS0005": "harpoonpod",
+        "WS0006": "harpoon",
+        "WS0024": "harpoon",
+        "WS0025": "harpoon",
+        "WS0026": "harpoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "rad_gun",
+        "WS0010": "launcher_cannon",
+        "WS0017": "rad_gun",
+        "WS0023": "launcher_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "hmi_nailgun",
+        "WS0002": "hmi_nailgun",
+        "WS0007": "sml_shotgrun",
+        "WS0008": "sml_shotgrun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "dualflak",
+        "WS0011": "vulcan",
+        "WS0012": "vulcan",
+        "WS0013": "vulcan",
+        "WS0014": "vulcan",
+        "WS0016": "vulcan",
+        "WS0018": "dualflak",
+        "WS0019": "flak",
+        "WS0020": "vulcan",
+        "WS0021": "vulcan",
+        "WS0022": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

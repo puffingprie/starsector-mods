@@ -1,0 +1,51 @@
+{
+  "variantId": "mess_hmi_coelum_missile",
+  "hullId": "mess_hmi_coelum",
+  "displayName": "Missile",
+  "goalVariant": false,
+  "fluxCapacitors": 21,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "unstable_injector"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "tachyonlance"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "typhoon",
+        "WS0006": "typhoon",
+        "WS0007": "reaper",
+        "WS0008": "reaper"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "sabotpod",
+        "WS0012": "sabotpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "heavyac",
+        "WS0010": "heavyac"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

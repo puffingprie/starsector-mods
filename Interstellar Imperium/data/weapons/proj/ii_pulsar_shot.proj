@@ -1,0 +1,13 @@
+{
+	"id":"ii_pulsar_shot",
+	"specClass":"projectile",
+	"onFireEffect":"data.scripts.weapons.II_TrailWeapon",
+	"onHitEffect":"data.scripts.weapons.II_PulsarOnHitEffect",
+	"spawnType":"PLASMA",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"width":17.5,
+	"fadeTime":0.15,
+	"fringeColor":[255,50,50,150],
+	"coreColor":[255,150,0,200]
+}

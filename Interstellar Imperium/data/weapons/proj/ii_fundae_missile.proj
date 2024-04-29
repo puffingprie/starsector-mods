@@ -1,0 +1,37 @@
+{
+    "id":"ii_fundae_missile",
+    "specClass":"missile",
+    "missileType":"MISSILE",
+	"onHitEffect":"data.scripts.weapons.II_FundaeOnHitEffect",
+    "sprite":"graphics/imperium/missiles/ii_fundae_missile.png",
+    "size":[6,16],
+    "center":[3,7],
+    "collisionRadius":9,
+    "collisionClass":"MISSILE_NO_FF",
+	"flameoutTime":1, # total time from flameout to full fadeout
+	"noEngineGlowTime":0, # time spent without the engine glow being rendered
+	"fadeTime":0.5, # fadeout duration	
+    "engineSpec":{"turnAcc":800,
+                  "turnRate":175,
+                  "acc":1200,
+                  "dec":800},
+    "engineSlots":[{"id":"ES1",
+                    "loc":[-6, 0],
+                    "style":"CUSTOM",
+                    "styleSpec":{
+                        "mode":"QUAD_STRIP",
+                        "engineColor":[255,200,100,200],
+                        "contrailDuration":2,
+                        "contrailWidthMult":1,
+                        "contrailWidthAddedFractionAtEnd":1.25,
+                        "contrailMinSeg":15,
+                        "contrailMaxSpeedMult":0.4,
+                        "contrailAngularVelocityMult":0.4,
+                        "contrailSpawnDistMult":0.05,
+                        "contrailColor":[255,220,125,50],
+                        "type":"SMOKE"
+                    },
+                    "width":6.0,
+                    "length":32.0,
+                    "angle":180.0}]
+}

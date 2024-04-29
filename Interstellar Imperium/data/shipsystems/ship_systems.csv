@@ -1,0 +1,29 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
+Impulse Booster,ii_impulsebooster,,,,,,,,2,0.1,0.3,0.3,1,1,,,,TRUE,,,,,,,,,graphics/icons/hullsys/infernium_injector.png
+Celerity Drive,ii_celeritydrive,,,,,,0.25,,,,1,,10,15,,,,TRUE,,,,,TRUE,,,,graphics/icons/hullsys/temporal_shell.png
+Shock Buster,ii_shockbuster,,,,,,0.1,,,,0.5,0.1,0.4,1,,,,TRUE,,,,,,,,,graphics/icons/hullsys/quantum_disruptor.png
+Shock Buster (Station),ii_shockbuster_station,,,,,,0.05,,,,0.5,0.1,0.4,1,,,,,,,,,,,,,graphics/icons/hullsys/quantum_disruptor.png
+Lux Finis,ii_luxfinis,,,,,,,,,,1,,1,0.25,TRUE,,,,,,,,,,,,graphics/icons/hullsys/high_energy_focus.png
+Command Center,ii_commandcenter,,,,,,0.05,,,,0,0.1,0.4,0,,,,,,,,,,,,,graphics/icons/hullsys/reserve_deployment.png
+Micro-Forge,ii_microforge,,0.5,,,,0.75,,1,,7,0,1,20,,,,,TRUE,,,,,TRUE,,,graphics/icons/hullsys/missile_autoforge.png
+Imperial Flares,ii_flares,,,,,,,,5,,,,,5,,,,,,,,,,,,,graphics/icons/hullsys/flare_launcher.png
+Turbofeeder,ii_turbofeeder,,,,,,,,,,1,5,1,10,,,,,,,,,,,,,graphics/icons/hullsys/ammo_feeder.png
+Overdrive,ii_overdrive,,,,,,,,,,0.25,,0.5,0.25,TRUE,,,,,,,,,,,,graphics/icons/hullsys/maneuvering_jets.png
+Magnum Salvo,ii_magnumsalvo,,,,,,0.2,,,,0,0,1,15,,,,TRUE,TRUE,,,,,TRUE,,,graphics/icons/hullsys/missile_racks.png
+Magnum Salvo (Station),ii_magnumsalvo_station,,,,,,0.2,,,,0,0,1,15,,,,,TRUE,,,,,TRUE,,,graphics/icons/hullsys/missile_racks.png
+Arbalest Loader,ii_arbalestloader,,,,,,0.1,,3,0.1,0,0,1,0,,,,TRUE,TRUE,,,,,TRUE,,,graphics/icons/hullsys/emp_emitter.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Phase Cloak,ii_phasecloak,,,,,,,,,,0.25,,0.25,2.5,TRUE,,TRUE,TRUE,TRUE,,,,TRUE,,TRUE,,graphics/icons/hullsys/phase_cloak.png
+Tribunal Drones,ii_drone_station,,,,,,,,3,,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+Tribunal Drones (Heavy),ii_drone_station_super,,,,,,,,6,,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+Clypeus Drones,ii_drone_station2,,,,,,,,12,,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+Clypeus Drones (Light),ii_drone_station2_half,,,,,,,,6,,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+Clypeus Drones (Heavy),ii_drone_station2_super,,,,,,,,18,,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Decoy Flare Launcher (Single),ii_flamen_flares,,,,,,,,1,0.025,,,,5,,,,,,,,,,,,,graphics/icons/hullsys/flare_launcher.png
+Decoy Flare Launcher (Burst),ii_burst_flares,,,,,,,,1,0.033,,,,5,,,,,,,,,,,,,graphics/icons/hullsys/flare_launcher.png
+Open Doors,ii_opendoors,,,,,,,,1,,1,0,0,0,,,,,,,,,,,,restricted,graphics/icons/hullsys/ammo_feeder.png
+Explode,ii_explode,,,,,,,,1,,5,1,0,0,,,,,,,,,,,,restricted,graphics/icons/hullsys/high_energy_focus.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Modified Booster,ii_boss_modifiedbooster,,,,,,,,3,0.125,0.3,0.3,1,1,,,,TRUE,,,,,,,,restricted,graphics/icons/hullsys/infernium_injector.png
+EMP Burst,ii_empburst,,,0.05,,,,,,,3,1,1,45,,,,,TRUE,,,,TRUE,TRUE,,restricted,graphics/icons/hullsys/high_energy_focus.png

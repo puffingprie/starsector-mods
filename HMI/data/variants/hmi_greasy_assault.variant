@@ -1,0 +1,49 @@
+{
+  "variantId": "hmi_greasy_assault",
+  "hullId": "hmi_greasy",
+  "displayName": "Assault",
+  "goalVariant": false,
+  "fluxCapacitors": 1,
+  "fluxVents": 10,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "frontshield",
+    "safetyoverrides"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "med_frag_mg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "annihilator",
+        "WS0006": "annihilator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "sml_shotgrun",
+        "WS0004": "sml_shotgrun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "lightmg",
+        "WS0002": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

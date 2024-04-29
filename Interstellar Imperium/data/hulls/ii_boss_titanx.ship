@@ -1,0 +1,321 @@
+{
+  "bounds": [
+    205.5,
+    -14.5,
+    176,
+    -40,
+    125.5,
+    -53.5,
+    -19,
+    -54,
+    -9,
+    -90,
+    -31,
+    -95,
+    -120.5,
+    -91,
+    -142.5,
+    -72.5,
+    -148.5,
+    -54,
+    -134.5,
+    -44,
+    -188,
+    -39,
+    -188.5,
+    -15.5,
+    -193,
+    -0,
+    -188.5,
+    15.5,
+    -188,
+    39,
+    -134.5,
+    44,
+    -148.5,
+    54,
+    -142.5,
+    72.5,
+    -120.5,
+    91,
+    -31,
+    95,
+    -9,
+    90,
+    -19,
+    54,
+    125.5,
+    53.5,
+    176,
+    40,
+    205.5,
+    14.5
+  ],
+  "builtInMods": [
+    "insulatedengine",
+    "armoredweapons",
+    "ii_no_package"
+  ],
+  "builtInWeapons": {
+    "WS0001": "ii_boss_titanx_glow",
+    "WS0002": "ii_boss_apocalypse",
+    "WS0003": "ii_boss_apocalypse",
+    "WS0004": "ii_boss_fundae",
+    "WS0005": "ii_boss_fundae"
+  },
+  "center": [
+    96,
+    194
+  ],
+  "collisionRadius": 238.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 20,
+      "length": 64,
+      "location": [
+        -151,
+        60
+      ],
+      "style": "IMPERIUM",
+      "width": 20
+    },
+    {
+      "angle": -180,
+      "contrailSize": 20,
+      "length": 64,
+      "location": [
+        -151,
+        -60
+      ],
+      "style": "IMPERIUM",
+      "width": 20
+    },
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 90,
+      "location": [
+        -190,
+        27
+      ],
+      "style": "IMPERIUM",
+      "width": 30
+    },
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 90,
+      "location": [
+        -190,
+        -27
+      ],
+      "style": "IMPERIUM",
+      "width": 30
+    },
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 90,
+      "location": [
+        -194,
+        -0
+      ],
+      "style": "IMPERIUM",
+      "width": 30
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 48,
+      "location": [
+        -147,
+        72
+      ],
+      "style": "IMPERIUM",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 48,
+      "location": [
+        -147,
+        -72
+      ],
+      "style": "IMPERIUM",
+      "width": 10
+    }
+  ],
+  "height": 404,
+  "hullId": "ii_boss_titanx",
+  "hullName": "Titan-X",
+  "hullSize": "CAPITAL_SHIP",
+  "shieldCenter": [
+    7,
+    -0
+  ],
+  "shieldRadius": 231,
+  "spriteName": "graphics/imperium/ships/boss/ii_boss_titanx.png",
+  "style": "IMPERIUM",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        8,
+        0
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 90,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        61,
+        28.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -90,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        61,
+        -28.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 90,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        61,
+        44
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -90,
+      "arc": 0,
+      "id": "WS0005",
+      "locations": [
+        61,
+        -44
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 235,
+      "id": "WS0006",
+      "locations": [
+        -28,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 90,
+      "arc": 210,
+      "id": "WS0007",
+      "locations": [
+        -65,
+        27
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -90,
+      "arc": 210,
+      "id": "WS0008",
+      "locations": [
+        -65,
+        -27
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 180,
+      "arc": 235,
+      "id": "WS0009",
+      "locations": [
+        -108,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 70,
+      "arc": 155,
+      "id": "WS0010",
+      "locations": [
+        -31,
+        76
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -70,
+      "arc": 155,
+      "id": "WS0011",
+      "locations": [
+        -31,
+        -76
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 90,
+      "arc": 150,
+      "id": "WS0012",
+      "locations": [
+        -104,
+        71
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -90,
+      "arc": 150,
+      "id": "WS0013",
+      "locations": [
+        -104,
+        -71
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    }
+  ],
+  "width": 192
+}

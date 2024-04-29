@@ -1,0 +1,60 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 8,
+    "fluxVents": 0,
+    "hullId": "doom",
+    "hullMods": [
+        "heavyarmor",
+        "reinforcedhull",
+        "armoredweapons",
+        "targetingunit",
+        "fluxbreakers"
+    ],
+    "permaMods": [
+        "heavyarmor",
+        "reinforcedhull"
+    ],
+    "sMods": [
+        "heavyarmor",
+        "reinforcedhull"
+    ],
+    "variantId": "adversary_doom_Attack",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "lightneedler",
+                "WS 004": "lightneedler",
+                "WS 005": "lightneedler",
+                "WS 006": "lightneedler"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "phasecl",
+                "WS 002": "phasecl"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "ionbeam",
+                "WS 008": "ionbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "pdburst",
+                "WS 010": "pdburst",
+                "WS 011": "pdburst",
+                "WS 012": "pdburst"
+            }
+        }
+    ]
+}

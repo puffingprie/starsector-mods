@@ -1,0 +1,398 @@
+{
+	id:"MVS",
+	"color":[32,142,193,255],
+	"secondaryUIColor":[70,70,70,255],
+    "secondarySegments":3,
+	"baseUIColor": [32,142,193,255],
+    "darkUIColor": [16,100,150,255],
+    "gridUIColor": [26, 104, 191, 75],	
+	"displayName":"MVS",
+	"displayNameWithArticle":"Machina Void Shipyards",
+	"displayNameLong":"Machina Void Shipyards",
+	"displayNameLongWithArticle":"Machina Void Shipyards",
+	"entityNamePrefix":"",
+	"personNamePrefix":"Machina",
+	"personNamePrefixAOrAn":"a",
+	"displayNameIsOrAre":"is",
+	"logo":"graphics/factions/expsp_machinaflag.png",
+	"crest":"graphics/factions/expsp_machinacrest.png",
+	"shipNamePrefix":"MVS",
+	"shipNameSources":{
+		"KNIGHTS":4,
+		"MVS":8,
+		"ABRAHAMIC":3,
+		"CELTIC":2,
+		"SPACE":1,
+	},
+	"description":"No description yet.",
+	"names":{
+		"old english":1,
+		"world":1,
+		"future":1,
+		"myth":1,
+	},
+	
+	"music":{
+		"theme":"mvs_theme_neutral",
+		"market_neutral":"mvs_theme_neutral",
+		"market_hostile":"mvs_theme_neutral",
+		"market_friendly":"mvs_theme_friendly",
+		"encounter_neutral":"mvs_theme_neutral",
+		"encounter_hostile":"mvs_theme_neutral",
+		"encounter_friendly":"mvs_theme_friendly",
+	},
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+			"expsp_intervention":0.5,
+			"expsp_korsettes":0.4,
+			"expsp_scharfrichter":0.6,
+			"expsp_searchlight":0.5,
+			"expsp_falcon_mvs_ew":0.4,
+			"expsp_tzaphkiel":0.3,
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["mvs"],  
+		"hulls":[
+		"expsp_hetzer",
+		"expsp_stiletto",
+		
+		
+		"expsp_virtue",
+		"expsp_kurierin",
+	
+		"expsp_kris",
+		],
+	},
+	"knownShips":{
+		"tags":["mvs"],
+		"hulls":[
+			
+	
+			"expsp_cainhurst",
+		
+			
+			"expsp_provisioner",
+			"expsp_virtue",
+			"expsp_principality",
+			"expsp_kurierin",
+			"expsp_dragonhunter",
+			"expsp_anker",
+			"expsp_intervention",
+			
+			"expsp_cipher",
+			"expsp_searchlight",
+			"expsp_verteidiger",
+			"expsp_malakh",
+			"expsp_kris",
+			"expsp_shashka",
+			
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":["mvs"],
+		"hulls":[
+		"expsp_hetzer",
+		"expsp_stiletto",
+		 
+		"expsp_kurierin",
+	
+		 
+
+		"expsp_dragonhunter",
+	
+		"expsp_provisioner",
+		"expsp_cainhurst",
+		"expsp_principality",
+		"expsp_virtue",
+		"expsp_anker",
+		"expsp_shashka",
+		"expsp_kriegsmesser",
+		"expsp_searchlight",
+		"expsp_kris",
+		"expsp_intervention",
+		"expsp_malakh",
+		"expsp_cipher",
+		"expsp_verteidiger",
+	
+		],
+	},
+	"knownFighters":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "independent","mvs"],
+		"fighters":[
+			"xyphos_wing",
+			"thunder_wing",
+			"claw_wing",
+			"hoplon_wing",
+			"trident_wing",
+			"longbow_wing",
+			"expsp_stab_wing",
+			"expsp_glance_wing",
+			"expsp_eviscerate_wing",
+			"expsp_talonmvs_wing",
+			"expsp_pierce_wing",
+		],
+	},
+	"priorityFighters":{
+		"tags":["mvs"],
+		"fighters":[
+		"expsp_glance_wing",
+		"expsp_stab_wing",
+		"expsp_eviscerate_wing",
+		"expsp_blind_wing",
+		"expsp_pierce_wing",
+		"expsp_talonmvs_wing",
+		"expsp_slash_wing",
+		],
+	},
+	"knownWeapons":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "missile_bp", "hightech_bp", "independent","mvs"],
+		"weapons":[
+			"railgun",
+			"dualflak",
+			"heavymauler",
+			"hveldriver",
+			"gauss",
+			"mjolnir",
+			"breachpod",
+			"sabotpod",
+			"phasecl",
+			"cyclone",
+			"hurricane",
+			"squall",
+			"locust",
+			"pdburst",
+			"amblaster",
+			"phasebeam",
+			"heavyblaster",
+			"heavyburst",
+			"tachyonlance",
+			"ionpulser",
+			"ionbeam",
+			"plasma",
+			"guardian",
+			"expsp_gluonlance",
+			"expsp_coilciws_med",
+			"expsp_lockdown",
+			"expsp_coilciws",
+			"expsp_railcannon",
+			"expsp_dpcannon",
+		],
+	},
+	"priorityWeapons":{
+		"tags":["mvs"],
+		"weapons":[
+		"hveldriver",
+		"expsp_lockdown",
+		"expsp_coilciws",
+		"expsp_coilciws_med",
+		"expsp_dpcannon",
+		"expsp_railcannon",
+
+		"expsp_gluonlance",
+		
+		],
+	},
+	"knownHullMods":{
+		"tags":["base_bp", "independent","mvs"],
+		"hullMods":[
+			"advancedshieldemitter", # accelerated
+			"turretgyros",
+			"armoredweapons",
+			"augmentedengines",
+			"autorepair",
+			"converted_hangar",
+			"eccm",
+			"ecm",
+			"expanded_deck_crew",
+			"magazines",
+			"missleracks",
+			"extendedshieldemitter",
+			"frontemitter",
+			"frontshield",  # makeshift
+			"hardenedshieldemitter",
+			"heavyarmor",
+			"insulatedengine",
+			"targetingunit",
+			"nav_relay",
+			"adaptiveshields", # omni
+			"operations_center",
+			"recovery_shuttles",
+			"fluxbreakers",
+			"stabilizedshieldemitter",
+			"surveying_equipment",
+			"hiressensors",
+			"efficiency_overhaul",
+			"escort_package",
+			"assault_package",
+			"converted_fighterbay",
+		],
+	},
+	"factionDoctrine":{
+		"warships":4,
+		"carriers":2,
+		"phaseShips":1,
+		
+		"officerQuality":3,
+		"shipQuality":5,
+		"numShips":4,
+		
+		"shipSize":4,
+		
+		"aggression":2,
+		
+		"combatFreighterProbability":0.9,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0.3,				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0.3,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.2,
+
+		"commanderSkillsShuffleProbability":1,
+		"commanderSkills":[
+			"crew_training",
+			"officer_training",
+			"coordinated_maneuvers",
+			"electronic_warfare",
+			"fighter_uplink",
+			"carrier_group",
+			"flux_regulation",
+		],
+	},
+	"illegalCommodities":[
+		"drugs",
+		"organs",
+	],
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/MVSopm1.png",
+			"graphics/portraits/MVSopm2.png",
+			"graphics/portraits/MVSopm3.png",
+			"graphics/portraits/MVSopm4.png",
+			"graphics/portraits/MVSopm5.png",
+			"graphics/portraits/MVSopm6_v2.png",
+			
+			"graphics/portraits/Marinem.png",
+			"graphics/portraits/MVSopf4.png",
+			"graphics/portraits/culter.png",
+			"graphics/portraits/Wedgearmet.png",
+			"graphics/portraits/expsp_aegisarmor.png",
+
+			"graphics/portraits/portrait_mercenary08.png",
+			
+			
+#			"graphics/portraits/characters/old_spacer02.png",
+		],
+		"standard_female":[
+
+			"graphics/portraits/portrait_hegemony06.png",
+			"graphics/portraits/portrait_diktat05.png",
+			
+			"graphics/portraits/portrait34.png",
+			"graphics/portraits/Marinem.png",
+			
+			"graphics/portraits/MVSopf2.png",
+			"graphics/portraits/MVSopf4.png",
+			"graphics/portraits/culter.png",
+			"graphics/portraits/MVSopm4.png",
+			
+				"graphics/portraits/MVSopf3.png",
+#			"graphics/portraits/characters/old_spacer01.png",
+		],
+	},
+	"ranks":{
+		"ranks":{
+			"factionLeader":{"name":"Arbitrator Superior"},
+			
+			"citizen":{"name":"Arbitrator"},
+			"agent":{"name":"Agent"},
+			"specialAgent":{"name":"Special Agent"},
+			"spaceEnsign":{"name":"Knight"},
+			"spaceLieutenant":{"name":"Knight-Lieutenant"},
+			"spaceCommander":{"name":"Knight-Major"},
+			"spaceCaptain":{"name":"Knight-Captain"},
+			"spaceAdmiral":{"name":"Marshal"},
+			"spaceMarshal":{"name":"High Marshal"},
+		
+			"groundPrivate":{"name":"Sergeant"},
+			"groundSergeant":{"name":"Sergeant Major"},
+			"groundLieutenant":{"name":"Knight-Lieutenant"},
+			"groundCaptain":{"name":"Knight-Captain"},
+			"groundMajor":{"name":"Knight-Major"},
+			"groundColonel":{"name":"Prior"},
+			"groundGeneral":{"name":"Grand Marshal"},
+		},
+		"posts":{
+			"factionLeader":{"name":"Arbitrator Superior"},
+			"patrolCommander":{"name":"Knight-Lieutenant"},
+			"fleetCommander":{"name":"Knight-Major"},
+			"baseCommander":{"name":"Prior"},
+			"stationCommander":{"name":"Commandant"},
+			"outpostCommander":{"name":"Commandant"},
+			"portmaster":{"name":"Portmaster"},
+		
+			"supplyOfficer":{"name":"Logistics Officer"},
+			"supplyManager":{"name":"Supply Manager"},
+			"medicalSupplier":{"name":"Medical Supplier"},
+			"administrator":{"name":"Arbitrator"},
+		},
+	},
+	"voices":{
+		"LOW":{
+			"soldier":10,
+			"faithful":5,		
+			"spacer":10,
+		},
+		"MEDIUM":{
+			"soldier":10,
+			"business":10,
+			"official":5,
+		},
+		"HIGH":{
+			"soldier":10,
+			"faithful":5,
+			"official":10,
+		},
+	},
+	"custom":{
+		"allowsTransponderOffTrade":true,
+		"offersCommissions":True,
+		"engagesInHostilities":false,
+		"buysAICores":true,
+		"AICoreValueMult":2,
+		"AICoreRepMult":2,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":true,
+		"caresAboutAtrocities":true,
+		"punitiveExpeditionData":{
+			"vsCompetitors":false,
+			"vsFreePort":false,
+			"canBombard":false,
+			"territorial":false,
+		},
+	},
+	"fleetTypeNames":{
+		"trade":"Mercantile Convoy",
+		"tradeLiner":"Liner Convoy",
+		"tradeSmuggler":"Smuggler",
+		"smallTrader":"Trader",
+		
+		"patrolSmall":"Vanguard",
+		"patrolMedium":"Outrider Fleet",
+		"patrolLarge":"Aegis Fleet",
+		
+		"foodReliefFleet":"Relief Convoy",
+		
+		"mercScout":"Hunter-Seeker",
+		"mercBountyHunter":"Hunter Fleet",
+		"mercPrivateer":"Privateer",
+		"mercPatrol":"Patrol",
+		"mercArmada":"Subcompany",
+	},
+},	

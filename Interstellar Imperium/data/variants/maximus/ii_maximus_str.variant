@@ -1,0 +1,38 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 6,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "ii_maximus",
+    "hullMods": [
+        "ii_armor_package",
+        "heavyarmor",
+        "adaptive_coils"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "ii_maximus_str",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ii_patella"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "ii_javelinsmall",
+                "WS0005": "ii_javelinsmall"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "ii_pulsar",
+                "WS0003": "ii_pulsar"
+            }
+        }
+    ]
+}

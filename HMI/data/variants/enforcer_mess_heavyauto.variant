@@ -1,0 +1,41 @@
+{
+  "displayName": "Heavy Autogun",
+  "fluxCapacitors": 12,
+  "fluxVents": 20,
+  "goalVariant": true,
+  "hullId": "mess_enforcer",
+  "hullMods": [
+    "targetingunit"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "enforcer_mess_heavyauto",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightdualac",
+        "WS0002": "lightdualac",
+        "WS0003": "lightdualac",
+        "WS0004": "lightdualac",
+        "WS0005": "heavyac",
+        "WS0006": "heavyac",
+        "WS0007": "heavyac",
+        "WS0008": "heavyac",
+        "WS0009": "heavyac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    }
+  ],
+  "wings": []
+}

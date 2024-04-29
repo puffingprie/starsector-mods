@@ -1,0 +1,50 @@
+{
+  "displayName": "Burst",
+  "fluxCapacitors": 6,
+  "fluxVents": 5,
+  "goalVariant": true,
+  "hullId": "mess_hammerhead",
+  "hullMods": [
+    "magazines",
+    "targetingunit",
+    "advancedoptics"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "hammerhead_mess_burst",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "pdburst",
+        "WS0002": "pdburst",
+        "WS0003": "heavyburst",
+        "WS0004": "heavyburst",
+        "WS0005": "pdburst",
+        "WS0006": "guardian"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "wings": []
+}

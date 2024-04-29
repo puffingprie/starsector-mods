@@ -1,0 +1,113 @@
+{
+  "hullName": "Battlestation",
+  "hullId": "ii_station2",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/imperium/ships/station/ii_station.png",
+  "style": "IMPERIUM",
+  "height": 354,
+  "width": 354,
+  "center": [177, 177],
+  "collisionRadius": 194.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 194.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "vastbulk",
+    "axialrotation",
+    "supercomputer",
+    "shared_flux_sink",
+    "ii_no_package"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [161, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 60,
+      "locations": [55.5, 96]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -60,
+      "locations": [55.5, -96]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 120,
+      "locations": [-80.5, 139.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -120,
+      "locations": [-80.5, -139.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-111, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 60,
+      "locations": [133.5, 231]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -60,
+      "locations": [133.5, -231]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-267, -0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    150, -85.5,
+    -0.5, -172,
+    -148.5, -86.5,
+    -148.5, 86.5,
+    -0.5, 172,
+    150, 85.5
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "displayName": "Strike",
+  "fluxCapacitors": 3,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "keruvim_axe_a",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "keruvim_axe_a_strike",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "vulcan"
+      }
+    }
+  ],
+  "wings": [
+    "keruvim_silkworm"
+  ]
+}

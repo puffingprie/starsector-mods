@@ -1,0 +1,32 @@
+{
+  "variantId": "mess_lumen_harpoon",
+  "hullId": "mess_lumen",
+  "displayName": "Harpoon",
+  "goalVariant": false,
+  "fluxCapacitors": 8,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "auxiliarythrusters"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 008": "harpoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 006": "taclaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,11 @@
+mission id,person id,tagsAll,tagsAny,tagsNotAny,tags,freq,min timeout,max timeout,min rep,max rep,importance,reqMissionAny,reqMissionAll,reqMissionNone,icon,plugin
+mmm_dm,,,"military, underworld",,,0,0,0,INHOSPITABLE,,,,,,graphics/icons/missions/ga_intro.png,mmm.missions.DefenseMission
+mmm_rm,,,"military, underworld",,,0,0,0,INHOSPITABLE,,,,,,graphics/icons/missions/ga_intro.png,mmm.missions.RepairMission
+mmm_em,,,"trade, underworld",,,0,0,0,INHOSPITABLE,,,,,,,mmm.missions.EscortMission
+mmm_vip,,,,,,,,,,,,,,,,mmm.missions.VipMission
+,,,,,,,,,,,,,,,,
+# overwrite plugin for vanilla missions; also change timeout and frequency,,,,,,,,,,,,,,,,
+cheapCom,,,"trade, underworld",,,0,0,0,INHOSPITABLE,,,,,,graphics/icons/missions/cheap_commodity.png,mmm.missions.MmmCheapCommodityMission
+proCom,,,"trade, underworld",,,0,0,0,INHOSPITABLE,,,,,,graphics/icons/missions/procurement.png,mmm.missions.MmmProcurementMission
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,

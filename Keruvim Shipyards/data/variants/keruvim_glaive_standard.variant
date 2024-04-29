@@ -1,0 +1,52 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 24,
+  "fluxVents": 5,
+  "goalVariant": true,
+  "hullId": "keruvim_glaive",
+  "hullMods": [
+    "targetingunit",
+    "unstable_injector"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "keruvim_glaive_standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "keruvim_star_pod",
+        "WS0006": "keruvim_star_pod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hephag",
+        "WS0002": "mark9"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "lightag",
+        "WS0008": "lightdualac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "flak",
+        "WS0004": "flak"
+      }
+    }
+  ],
+  "wings": [
+    "keruvim_antlion"
+  ]
+}

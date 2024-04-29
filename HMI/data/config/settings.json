@@ -1,0 +1,42 @@
+{
+
+    "graphics":{
+			"blueprint_packages":{
+			"hmi_package":"graphics/icons/cargo/hmi_pack.png",
+			"hmi_junk_package":"graphics/icons/cargo/hmi_junk_pack.png",
+			"hmi_tech_package":"graphics/icons/cargo/hmi_tech_pack.png",
+			},
+
+		
+        "characters":{
+                "hmi_kidman":"graphics/portraits/hmi_kidman.png",
+				"hmi_gentle":"graphics/portraits/hmi_gentle.png",
+				"hmi_kurita":"graphics/portraits/characters/portrait_bob_kurita.png",
+				
+				"hmi_lucia":"graphics/portraits/characters/portrait_hmi_francis.png",
+				"hmi_blackmerc":"graphics/portraits/characters/portrait_blackmerc.png",
+				"hmi_nightmare":"graphics/portraits/characters/portrait_static_spook.png",
+				
+				
+        },
+        "illustrations":{
+            "hmi_samiel":"graphics/illustrations/haunted.jpg",
+			"luddic_church":"graphics/illustrations/luddic_church.jpg",
+			"crystalline":"graphics/illustrations/crystal.jpg",
+			"facility_explosion":"graphics/illustrations/facility_explosion.jpg",
+		},
+		"fx":{
+			"trails_nia_trail_fuzzy":"graphics/trails/fx/nia_trails_zappy.png",
+		},
+		
+	},
+    	"designTypeColors":{
+		"Junker (HMI)":[196,62,0,255],
+		"HMI Modification":[55,80,0,255],
+		"HMI Techmined":[183,132,69,255],
+		"Unique Pirate Tech":[200,0,0,255],
+		"Mess Object":[173,165,183,255],
+		"Remnant Mess Object":[173,165,183,255],
+		"Undeterminable":[0,255,199,255],
+	},
+}

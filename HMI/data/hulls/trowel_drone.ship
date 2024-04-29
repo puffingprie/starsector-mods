@@ -1,0 +1,66 @@
+{
+  "hullName": "Trowel",
+  "hullId": "trowel_drone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/derelicts/trowel.png",
+  "style": "LOW_TECH",
+  "height": 30,
+  "width": 34,
+  "center": [17, 15],
+  "collisionRadius": 28,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 25.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [7, 9]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [10.5, -5.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-12.5, 7],
+      "length": 4.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-12.5, -9],
+      "length": 4,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-12, -1],
+      "length": 6.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -12, -12.5,
+    11, -14,
+    11, 14,
+    -12, 12.5
+  ]
+}

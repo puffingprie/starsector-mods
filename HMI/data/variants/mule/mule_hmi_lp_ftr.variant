@@ -1,0 +1,41 @@
+{
+  "variantId": "mule_hmi_lp_ftr",
+  "hullId": "mule",
+  "displayName": "Enlightened",
+  "goalVariant": false,
+  "fluxCapacitors": 1,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "converted_hangar"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "med_frag_mg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "hammer",
+        "WS 002": "hammer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 004": "rock_launcher",
+        "WS 005": "rock_launcher",
+        "WS 006": "rock_launcher"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": ["broadsword_wing"]
+}

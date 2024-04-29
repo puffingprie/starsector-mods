@@ -1,0 +1,283 @@
+{
+	"id":"knights_of_eva",
+	"color":[145,165,124,255],
+	"secondaryUIColor":[204,46,46,255],
+	"secondarySegments":2,
+	"baseUIColor":[150,200,0,255],
+	"darkUIColor":[52,85,0,175],
+	"gridUIColor":[180,255,0,75],
+	
+	"displayName":"Knights of Eva",
+	"displayNameWithArticle":"the Knights of Eva",
+	"showInIntelTab":true,
+	"logo":"graphics/factions/hmi_koe.png",
+	"crest":"graphics/factions/crest_hmi_koe.png",
+	"shipNamePrefix":"",
+	"shipNameSources":{
+		"ABRAHAMIC":1,
+	},
+	"names":{
+		"luddic":2,
+	},
+	"variantOverrides":{
+		"sunder_Overdriven":30,
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+			"LP_bp":1,
+			"hmi_koe_bp":4,
+		},
+		"hulls":{
+			"gremlin":0,
+			"hound":0,
+			"cerberus":0,
+			"venture":0,
+			"mulligan":0,
+			"brawler_pather":0,
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["base_bp", "LP_bp", "luddic_path", "hmi_koe_bp"],
+		"hulls":[
+			"afflictor",
+			"shade",
+			"manticore_luddic_path",
+			"prometheus2",
+		],
+	},
+	"knownShips":{
+		"tags":["base_bp", "LP_bp", "luddic_path", "hmi_koe_bp"],
+		"hulls":[
+			"afflictor",
+			"shade",
+			"manticore_luddic_path",
+			"prometheus2",
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+		],
+	},
+	"knownFighters":{
+		"tags":["base_bp", "LP_bp", "luddic_path"],
+		"fighters":[
+			"broadsword_wing",
+			"warthog_wing",
+			"claw_wing",
+			"longbow_wing",
+			"hoplon_wing",
+			"piranha_wing",
+			"perdition_wing",
+			"talon_wing",
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+			"broadsword_wing",
+			"warthog_wing",
+			"claw_wing",
+			"longbow_wing",
+			"hoplon_wing",
+			"piranha_wing",
+			"perdition_wing",
+			"talon_wing",
+		],
+	},
+	"knownWeapons":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "missile_bp", "hightech_bp", "LP_bp", "luddic_path"],
+		"weapons":[
+			"jackhammer",
+			"hurricane",
+			"squall",
+			"locust",
+			
+			"pdlaser",
+			"taclaser",
+			"ioncannon",
+			"irpulse",
+			"lrpdlaser",
+			
+			"pulselaser",
+			"irautolance",
+			
+			"hil",
+			"autopulse",
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+		],
+	},
+	"knownHullMods":{
+		"tags":["base_bp", "luddic_path"],
+		"hullMods":[
+			"advancedshieldemitter", # accelerated
+			"advancedoptics",
+			"turretgyros",
+			"augmentedengines",
+			"eccm",
+			"ecm",
+			"expanded_deck_crew",
+			"magazines",
+			"missleracks",
+			"extendedshieldemitter",
+			"frontemitter",
+			"frontshield",  # makeshift
+			"hardenedshieldemitter",
+			"insulatedengine",
+			"pointdefenseai",
+			"targetingunit",
+			"nav_relay",
+			"adaptiveshields", # omni
+			"operations_center",
+			"fluxbreakers",
+			"stabilizedshieldemitter",
+			"hiressensors",
+			"efficiency_overhaul",
+		],
+	},
+	
+	"weaponSellFrequency":{
+		"jackhammer":5,
+		"irautolance":10,
+		"taclaser":5,
+		"mininglaser":10,
+		"lrpdlaser":5,
+		"pdlaser":5,
+	},
+	
+	"factionDoctrine":{
+		"warships":5,
+		"carriers":1,
+		"phaseShips":1,
+		
+		"officerQuality":2,
+		"shipQuality":1,
+		"numShips":4,
+		
+		"shipSize":3,
+		
+		"aggression":5,
+		
+		"combatFreighterProbability":1,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0.75,			# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":1,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.5,
+
+		"commanderSkillsShuffleProbability":0,
+		"commanderSkills":[
+			"carrier_group",
+			"crew_training",
+		],
+	},
+	"fleetTypeNames":{
+		"trade":"Faithful Convoy",
+		"smallTrader":"Faithful Trader",
+		"tradeLiner":"Pilgrimage",
+		"tradeSmuggler":"Smuggler",
+		
+		"patrolSmall":"Watchers",
+		"patrolMedium":"Righteous Flotilla",
+		"patrolLarge":"Holy Armada",
+		
+		"inspectionFleet":"Blessed Arbiter",
+		
+		#"mercScout":"Seeker",
+		#"mercBountyHunter":"Judgment-bringer",
+		#"mercPrivateer":"Abjudicator",
+		#"mercPatrol":"Crusading Fleet",
+		#"mercArmada":"Crusading Armada",
+		
+		"taskForce":"Crusade",
+	},
+	
+	"illegalCommodities":[
+		"drugs",
+		"organs",
+		"luxury_goods",
+		"ai_cores",
+		"red_water",
+		"mess_nano",
+		"hmi_crystal",
+	],
+	"voices":{
+		"LOW":{
+			"soldier":10,
+			"faithful":10,
+			"pather":10,
+		},
+		"MEDIUM":{
+			"soldier":10,
+			"faithful":10,
+		},
+		"HIGH":{
+			"soldier":10,
+			"faithful":10,
+		},
+	},
+	
+	"music":{
+		"theme":"music_luddite_market_neutral",
+		"market_neutral":"music_luddite_market_neutral",
+		"market_hostile":"music_luddite_market_hostile",
+		"market_friendly":"music_luddite_market_friendly",
+		"encounter_neutral":"music_luddite_encounter_neutral",
+		"encounter_hostile":"music_luddite_encounter_hostile",
+		"encounter_friendly":"music_luddite_encounter_friendly",
+	},
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/portrait_knightofeva02.png",
+			"graphics/portraits/portrait_knightofeva04.png",
+			"graphics/portraits/portrait_knightofeva05.png",
+		],
+		"standard_female":[
+			"graphics/portraits/portrait_knightofeva03.png",
+			"graphics/portraits/portrait_knightofeva06.png",
+			"graphics/portraits/portrait_knightofeva01.png",
+		],
+	},
+	"ranks":{
+		"ranks":{
+			"spaceCommander":{"name":"Blessed Walker"},
+		},
+		"posts":{
+			"patrolCommander":{"name":"Supplicant"},
+			"fleetCommander":{"name":"Hammer"},
+			"baseCommander":{"name":"Shepherd-militant"},
+			"administrator":{"name":"Shepherd-metropolitan"},
+		},
+	},
+	"custom":{
+		"gaVIPMission":false,
+		"engageWhenEvenStrength":true,
+		"allowsTransponderOffTrade":true,
+		"postsNoBounties":true,
+		"buysAICores":true,
+		"AICoreValueMult":0.1,
+		"AICoreRepMult":1,
+		"ignoreTradeWithEnemiesForReputation":true,
+		"patrolsHaveNoPatrolMemoryKey":true,
+		"pirateBehavior":true,
+		"fightToTheLast":true, # order a full assault instead of retreating, in most cases
+		"punitiveExpeditionData":{
+			"vsCompetitors":false,
+			"vsFreePort":false,
+			"canBombard":true,
+			"territorial":true,
+			"canSendWithoutMilitaryBase":true,
+		},
+	},
+},
+
+
+
+
+
+

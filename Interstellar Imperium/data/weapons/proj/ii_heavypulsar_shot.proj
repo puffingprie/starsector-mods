@@ -1,0 +1,13 @@
+{
+	"id":"ii_heavypulsar_shot",
+	"specClass":"projectile",
+	"onHitEffect":"data.scripts.weapons.II_HeavyPulsarOnHitEffect",
+	"spawnType":"PLASMA",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"width":25.0,
+	"fadeTime":0.15,
+	"fringeColor":[255,50,100,150],
+	"coreColor":[255,100,0,255],
+    "passThroughMissiles":true,
+}

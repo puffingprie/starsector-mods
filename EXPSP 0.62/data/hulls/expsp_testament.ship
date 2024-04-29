@@ -1,0 +1,335 @@
+{
+  "hullName": "Testament",
+  "hullId": "expsp_testament",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/expsp_testament.png",
+  "style": "EXPSP_MVS",
+  "height": 515,
+  "width": 260,
+  "center": [129, 256],
+  "collisionRadius": 267,
+  "shieldCenter": [-14, -0],
+  "shieldRadius": 246,
+  "viewOffset": 0,
+  "builtInMods": [
+    "machinatargetingsystems"
+  ],
+  "builtInWings": [
+    "expsp_mg29_wing"
+  ],
+  "builtInWeapons": {
+    "JUDGEMENT": "expsp_judgement"
+  },
+  "weaponSlots": [
+    {
+      "id": "SMLFront",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [176, -0]
+    },
+    {
+      "id": "SMLSIDEL",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": 90,
+      "locations": [73, 26]
+    },
+    {
+      "id": "SMLSIDER",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": -90,
+      "locations": [73, -25]
+    },
+    {
+      "id": "MEDFront",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 0,
+      "locations": [27, -0]
+    },
+    {
+      "id": "MEDR",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -41,
+      "locations": [29, -46]
+    },
+    {
+      "id": "LARGE",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -41,
+      "locations": [-27, -46]
+    },
+    {
+      "id": "MEDL",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 29.5,
+      "locations": [-89, 50]
+    },
+    {
+      "id": "MEDRCENTER",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -29.5,
+      "locations": [-89, -50]
+    },
+    {
+      "id": "MEDREAR",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 180,
+      "locations": [-135, -0]
+    },
+    {
+      "id": "SMLSIDEL2",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 88,
+      "locations": [-109, 100]
+    },
+    {
+      "id": "SMLSIDER3",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -88,
+      "locations": [-109, -100]
+    },
+    {
+      "id": "SMLIDER2",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": -73.5,
+      "locations": [-52, -77]
+    },
+    {
+      "id": "SMLREA",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 180,
+      "locations": [-213, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -153.5, 21.5,
+        -150, 30.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -154.5, -22,
+        -149, -29.5
+      ]
+    },
+    {
+      "id": "JUDGEMENT",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-15.5, 42]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-155.5, 52.5],
+      "length": 34,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-155.5, -52.5],
+      "length": 34,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-226.5, 14.5],
+      "length": 30,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-226.5, -14.5],
+      "length": 30,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-225.5, 20],
+      "length": 22,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-225.5, -20],
+      "length": 22,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-150, 77.5],
+      "length": 34,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-150, -77.5],
+      "length": 34,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-152, 67.5],
+      "length": 34,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-152, -67.5],
+      "length": 34,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-154, 59.5],
+      "length": 34,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-154, -59.5],
+      "length": 34,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    }
+  ],
+  "bounds": [
+    50, -31.5,
+    83.5, -29,
+    124.5, -28.5,
+    127.5, -40,
+    150, -25.5,
+    216, -6,
+    216, 6,
+    150, 25.5,
+    127.5, 40,
+    124.5, 28.5,
+    83.5, 29,
+    50, 31.5,
+    26, 32,
+    10.5, 55.5,
+    -55.5, 75.5,
+    -90.5, 95.5,
+    -98.5, 107,
+    -115.5, 108,
+    -120, 117.5,
+    -142.5, 120.5,
+    -145.5, 115,
+    -173, 110,
+    -174, 102.5,
+    -148, 94.5,
+    -167, 49.5,
+    -188, 46,
+    -185.5, 33,
+    -190, 28,
+    -230, 25,
+    -232.5, 10,
+    -250, 7,
+    -250, -6.5,
+    -232, -12,
+    -229.5, -24,
+    -191.5, -27.5,
+    -187, -44.5,
+    -170.5, -46.5,
+    -163, -89.5,
+    -152, -95,
+    -177.5, -103,
+    -155, -112.5,
+    -118.5, -110.5,
+    -96, -96,
+    -67, -83.5,
+    -44, -82.5,
+    -44, -70.5,
+    1.5, -61,
+    37.5, -59
+  ]
+}

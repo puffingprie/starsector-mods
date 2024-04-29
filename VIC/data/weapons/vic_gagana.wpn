@@ -1,0 +1,55 @@
+{
+  "id": "vic_gagana",
+  "specClass": "projectile",
+  "projectileSpecId": "vic_gagana_shot",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "displayArcRadius": 450,
+  "turretSprite": "graphics/weapons/vic_gagana_base_turret.png",
+  "turretGlowSprite": "graphics/weapons/vic_gagana_glow_turret.png",
+  "turretGunSprite": "graphics/weapons/vic_gagana_barrel_turret.png",
+  "hardpointSprite": "graphics/weapons/vic_gagana_base_hardpoint.png",
+  "hardpointGlowSprite": "graphics/weapons/vic_gagana_glow_hardpoint.png",
+  "hardpointGunSprite": "graphics/weapons/vic_gagana_barrel_hardpoint.png",
+  "glowColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "visualRecoil": 5,
+  "turretOffsets": [
+    25,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    25,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 25,
+    "spread": 10,
+    "particleSizeMin": 20,
+    "particleSizeRange": 2,
+    "particleDuration": 0.5,
+    "particleCount": 20,
+    "particleColor": [
+      255,
+      66,
+      0,
+      255
+    ]
+  },
+  "autocharge": true,
+  "fireSoundOne": "vic_gagana_charge",
+  "fireSoundTwo": "vic_gagana_shot",
+  "everyFrameEffect": "data.scripts.weapons.vic_gaganaScript",
+}

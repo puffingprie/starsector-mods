@@ -1,0 +1,22 @@
+{
+  "variantId": "sifter_drone_std2",
+  "hullId": "sifter_drone",
+  "displayName": "Auxiliary",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightthump_sifter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,46 @@
+{
+  "variantId": "mess_colossus_auto",
+  "hullId": "mess_colossus",
+  "displayName": "Autocannon",
+  "goalVariant": true,
+  "fluxCapacitors": 23,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "mark9"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "lightdualac",
+        "WS0002": "lightdualac",
+        "WS0003": "lightdualac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "mark9",
+        "WS0006": "mark9"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "mark9"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,11 @@
+{
+	"id":"le_dummy_shot",
+	"specClass":"projectile",
+	"spawnType":"PLASMA",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"width":17.5,
+	"fadeTime":0.15,
+	"fringeColor":[255,50,50,150],
+	"coreColor":[255,150,0,200]
+}

@@ -1,0 +1,6 @@
+name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Divine Light of Ludd,le_dram_w,4,,60000,5000,,50000,,20,0,100,1,,,HIGH_EXPLOSIVE,500,,1,50,1,,0,0,0,0,,110,0,50,5000,,,"SYSTEM, SHOW_IN_CODEX, DO_NOT_AIM, DO_NOT_CONSERVE",,,Luddic Path,,Station Killer,Very Slow,Very Poor,,,Reduces CR by at least %s when used.,30%,"Can't be used more than %s, even with Expanded Missile Racks.",once,TRUE,76570
+Divine Light of Ludd Decorative,le_dram_deco,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,76930
+Divine Lights of Ludd,le_dram_lights,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,76930
+Divine Lights of Ludd,dram_lp_ied_lights,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,76931

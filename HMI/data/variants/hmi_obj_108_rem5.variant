@@ -1,0 +1,33 @@
+{
+  "variantId": "hmi_obj_108_rem5",
+  "hullId": "hmi_obj_108",
+  "displayName": "ERROR",
+  "goalVariant": false,
+  "fluxCapacitors": 11,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "magazines"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "thumper_rem",
+        "WS0002": "thumper_rem"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "railgun",
+        "WS0004": "railgun"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

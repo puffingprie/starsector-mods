@@ -1,0 +1,36 @@
+{
+    "displayName": "Fortress",
+    "fluxCapacitors": 8,
+    "fluxVents": 18,
+    "goalVariant": true,
+    "hullId": "vic_samael_alt",
+    "hullMods": ["vic_allRoundShieldUpgrade"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vic_samael_assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "vic_psotnikmed",
+                "WS0007": "vic_psotnikmed"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "phasecl"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "vic_strigoy",
+                "WS0005": "vic_strigoy",
+                "WS0008": "vic_strigoy",
+                "WS0009": "vic_strigoy"
+            }
+        }
+    ]
+}

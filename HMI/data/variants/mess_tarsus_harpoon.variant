@@ -1,0 +1,34 @@
+{
+  "variantId": "mess_tarsus_harpoon",
+  "hullId": "mess_tarsus",
+  "displayName": "Harpoon",
+  "goalVariant": false,
+  "fluxCapacitors": 11,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "hurricane"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "harpoon",
+        "WS0002": "harpoon",
+        "WS0003": "harpoon",
+        "WS0004": "harpoon",
+        "WS0005": "harpoon",
+        "WS0006": "harpoon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

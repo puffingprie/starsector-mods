@@ -1,0 +1,57 @@
+{
+    "displayName": "Imperial Elite",
+    "fluxCapacitors": 0,
+    "fluxVents": 15,
+    "hullId": "ii_ixon",
+    "hullMods": [
+        "ii_elite_package",
+        "unstable_injector",
+        "missile_autoloader",
+        "targetingunit"
+    ],
+    "permaMods": ["ii_elite_package"],
+    "sMods": ["ii_elite_package"],
+    "variantId": "ii_ixon_ie",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "ii_armageddon",
+                "WS0002": "ii_armageddon"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "reaper",
+                "WS0008": "reaper"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "railgun",
+                "WS0006": "railgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "ionbeam",
+                "WS0004": "ionbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "vulcan",
+                "WS0010": "vulcan"
+            }
+        }
+    ]
+}

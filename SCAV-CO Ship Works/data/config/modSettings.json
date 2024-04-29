@@ -1,0 +1,30 @@
+{
+    "nexerelin":{
+		"mining_ship_strengths":{
+			"sv_barrel": 5,
+			"sv_beltmover": 10,
+			"sv_enkidu": 200,
+			"sv_fatherhold": 100,
+			"sv_gasgiant": 25,
+			"sv_jackhammer": 10,
+			"sv_gilgamesh": 25,
+			"sv_mallet": 15,
+			"sv_mole": 50,
+			"sv_motherload": 100,
+			"sv_pounder": 10,
+			"sv_scalva": 25,
+			"sv_workerbee": 5,
+			"sv_wrench": 5,
+		},
+		"mining_weapon_strengths":{
+			"sv_grateaxe": 50,
+			"sv_flyswatter": 2.5,
+			"sv_powercorelauncher": 250,
+			"sv_atlascannon": 20,
+			"sv_daneaxe": 25,
+			"sv_rustybarrellauncher": 25,
+			"sv_magnetar": 25,
+			"sv_timberwolf": 5,
+		},
+	},
+}

@@ -1,0 +1,125 @@
+{
+  "hullName": "Nybbas",
+  "hullId": "vic_nybbas",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Nybbas/vic_nybbas.png",
+  "style": "VIC",
+  "height": 165,
+  "width": 74,
+  "center": [37, 78],
+  "collisionRadius": 106,
+  "shieldCenter": [0.5, -0],
+  "shieldRadius": 95,
+  "viewOffset": 0,
+  "builtInMods": [
+    "vic_toneddownweapon",
+    "delicate",
+    "phase_anchor",
+    "adaptive_coils"
+  ],
+  "builtInWeapons": {
+    "WS0001": "vic_nybbas_front_left",
+    "WS0002": "vic_nybbas_engine_glow_left",
+    "WS0003": "vic_nybbas_front_right",
+    "WS0004": "vic_nybbas_engine_glow_right"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0002t",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [29.5, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [34.5, 17]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [34.5, -17]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-60, 19]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-60, -19]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-61, -19],
+      "length": 48.5,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "CUSTOM",
+      "styleId": "VOLKOV-LAIDLAW'S"
+    },
+    {
+      "location": [-59, 19],
+      "length": 53,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "CUSTOM",
+      "styleId": "VOLKOV-LAIDLAW'S"
+    }
+  ],
+  "bounds": [
+    -58, 2.5,
+    -76, 3,
+    -72.5, 8.5,
+    -52, 9,
+    -51.5, 12,
+    -61, 12.5,
+    -61, 24.5,
+    -20, 24.5,
+    -13, 35.5,
+    15, 20,
+    51, 20,
+    56.5, 16,
+    86, 16,
+    72.5, 4.5,
+    28, 3,
+    28, -3,
+    72.5, -4.5,
+    86, -16,
+    56.5, -16,
+    51, -20,
+    15, -20,
+    -13, -35.5,
+    -20, -24.5,
+    -61, -24.5,
+    -61, -12,
+    -51.5, -12,
+    -52, -9,
+    -72.5, -8.5,
+    -76, -3,
+    -58, -2.5
+  ]
+}

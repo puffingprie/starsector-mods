@@ -1,0 +1,15 @@
+{
+	"id":"expsp_missileboost",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	
+	"statsScript":"data.shipsystems.scripts.expsp_missileboost",
+	
+	"weaponGlowColor":[200,250,250,155],
+	"weaponTypes":[MISSILE],
+	
+	"useSound":"system_high_energy_focus_activate",
+	"deactivateSound":"system_high_energy_focus_deactivate",
+	"outOfUsesSound":"gun_out_of_ammo",
+	"loopSound":"system_high_energy_focus_loop",	
+}

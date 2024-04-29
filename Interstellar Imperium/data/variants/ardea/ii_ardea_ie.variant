@@ -1,0 +1,51 @@
+{
+    "displayName": "Imperial Elite",
+    "fluxCapacitors": 12,
+    "fluxVents": 30,
+    "hullId": "ii_ardea",
+    "hullMods": ["ii_elite_package"],
+    "permaMods": ["ii_elite_package"],
+    "sMods": ["ii_elite_package"],
+    "variantId": "ii_ardea_ie",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "ii_heavypulselaser",
+                "WS0004": "ii_heavypulselaser"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "sabotpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ii_heavypulsar"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "railgun",
+                "WS0007": "railgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "ii_particlegun",
+                "WS0008": "ii_particlegun",
+                "WS0009": "ii_particlegun"
+            }
+        }
+    ],
+    "wings": [
+        "ii_carnifex_wing",
+        "ii_flamen_wing"
+    ]
+}

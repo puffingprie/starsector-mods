@@ -1,0 +1,86 @@
+{
+  "hullName": "UAF Taufan",
+  "hullId": "uaf_wing_taufan",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/taufan_nhft.png",
+  "style": "UAF_FIGHTER_M",
+  "height": 74,
+  "width": 61,
+  "center": [30.5, 37],
+  "collisionRadius": 40.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 39,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-10, 19]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-10, -19]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 14,
+      "angle": -0,
+      "locations": [10, 3]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 14,
+      "angle": 0,
+      "locations": [10, -3]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-20, 6],
+      "length": 47,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [-20, -6],
+      "length": 47,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "MELODY_ENGINE_H"
+    }
+  ],
+  "bounds": [
+    35.5, -1,
+    8.5, -5,
+    8.5, -9,
+    -14.5, -27,
+    -23, -27,
+    -25, -13.5,
+    -33.5, -13,
+    -33.5, 13,
+    -25, 13.5,
+    -23, 27,
+    -14.5, 27,
+    8.5, 9,
+    8.5, 5,
+    35.5, 1
+  ]
+}

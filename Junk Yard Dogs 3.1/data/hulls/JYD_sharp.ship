@@ -1,0 +1,178 @@
+{
+  "hullName": "Sharp",
+  "hullId": "JYD_sharp",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/JYD_sharp.png",
+  "style": "MIDLINE",
+  "height": 243,
+  "width": 140,
+  "center": [70, 124],
+  "collisionRadius": 170,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 157,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hiressensors",
+    "solar_shielding",
+    "surveying_equipment"
+  ],
+  "builtInWings": [
+    "JYD_Mosquito_wing",
+    "JYD_Mosquito_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [-34, 16.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [-34, -16.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 90,
+      "angle": -40,
+      "locations": [45, -60]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 90,
+      "angle": 40,
+      "locations": [45.5, 61]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [106.5, 25]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [106.5, -25.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [104.5, 0.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [32, 16]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [32, -16]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -54, 4.5,
+        -73.5, 4.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -54, -1.5,
+        -73, -2.5
+      ]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-53, -38]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-53, 38]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-120, -51],
+      "length": 63,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-120, 51],
+      "length": 63,
+      "width": 21,
+      "angle": -180,
+      "contrailSize": 21,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -137.5, -82.5,
+    -122, -3.5,
+    -145.5, 75.5,
+    -13.5, 83.5,
+    42.5, 78.5,
+    69.5, 74.5,
+    134, 62,
+    136.5, -50.5,
+    62, -89.5,
+    12.5, -86
+  ]
+}

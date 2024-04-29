@@ -1,0 +1,22 @@
+{
+  "variantId": "scandunt_mess_Fighter",
+  "hullId": "scandunt_mess",
+  "displayName": "Support",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hmi_ioncannon_lr"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

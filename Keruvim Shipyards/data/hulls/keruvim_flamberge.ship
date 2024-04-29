@@ -1,0 +1,268 @@
+{
+  "bounds": [
+    55,
+    4.5,
+    41,
+    9,
+    40.5,
+    21.5,
+    21.5,
+    30.5,
+    13.5,
+    28.5,
+    12,
+    21.5,
+    -26,
+    21.5,
+    -30.5,
+    29.5,
+    -38.5,
+    27.5,
+    -47,
+    18,
+    -47,
+    -18,
+    -38.5,
+    -27.5,
+    -30.5,
+    -29.5,
+    -26,
+    -21.5,
+    12,
+    -21.5,
+    13.5,
+    -28.5,
+    21.5,
+    -30.5,
+    40.5,
+    -21.5,
+    41,
+    -9,
+    55,
+    -4.5
+  ],
+  "builtInMods": [
+    "keruvim_pride_bulkheads"
+  ],
+  "builtInWeapons": {
+    "WS0006": "blinker_red",
+    "WS0007": "blinker_green"
+  },
+  "center": [
+    34,
+    60
+  ],
+  "collisionRadius": 75,
+  "coversColor": "255,255,255,255",
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 13,
+      "length": 38.5,
+      "location": [
+        -48,
+        13
+      ],
+      "style": "ANVIL",
+      "width": 13
+    },
+    {
+      "angle": -180,
+      "contrailSize": 13,
+      "length": 38.5,
+      "location": [
+        -48,
+        -13
+      ],
+      "style": "ANVIL",
+      "width": 13
+    },
+    {
+      "angle": 164,
+      "contrailSize": 7.187386,
+      "length": 23.416561,
+      "location": [
+        -38.5,
+        27.5
+      ],
+      "style": "ANVIL",
+      "width": 7.187386
+    },
+    {
+      "angle": -164,
+      "contrailSize": 7.187386,
+      "length": 23.416561,
+      "location": [
+        -38.5,
+        -27.5
+      ],
+      "style": "ANVIL",
+      "width": 7.187386
+    },
+    {
+      "angle": 164,
+      "contrailSize": 7.187386,
+      "length": 23.416561,
+      "location": [
+        13.5,
+        28.5
+      ],
+      "style": "ANVIL",
+      "width": 7.187386
+    },
+    {
+      "angle": -164,
+      "contrailSize": 7.187386,
+      "length": 23.416561,
+      "location": [
+        13.5,
+        -28.5
+      ],
+      "style": "ANVIL",
+      "width": 7.187386
+    },
+    {
+      "angle": 146.5,
+      "contrailSize": 5.244048,
+      "length": 12.772039,
+      "location": [
+        21.5,
+        30.5
+      ],
+      "style": "ANVIL",
+      "width": 5.244048
+    },
+    {
+      "angle": -146.5,
+      "contrailSize": 5.244048,
+      "length": 12.772039,
+      "location": [
+        21.5,
+        -30.5
+      ],
+      "style": "ANVIL",
+      "width": 5.244048
+    },
+    {
+      "angle": 146.5,
+      "contrailSize": 5.244048,
+      "length": 12.772039,
+      "location": [
+        -30.5,
+        29.5
+      ],
+      "style": "ANVIL",
+      "width": 5.244048
+    },
+    {
+      "angle": -146.5,
+      "contrailSize": 5.244048,
+      "length": 12.772039,
+      "location": [
+        -30.5,
+        -29.5
+      ],
+      "style": "ANVIL",
+      "width": 5.244048
+    }
+  ],
+  "height": 125,
+  "hullId": "keruvim_flamberge",
+  "hullName": "Flamberge",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 71.5,
+  "spriteName": "graphics/ships/keruvim_flamberge.png",
+  "style": "PRIDE_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0004",
+      "locations": [
+        49,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "COMPOSITE"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        36,
+        18
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        36,
+        -18
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 190,
+      "id": "WS0003",
+      "locations": [
+        23,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 180,
+      "arc": 140,
+      "id": "WS0005",
+      "locations": [
+        -22,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 90,
+      "arc": 140,
+      "id": "WS0006",
+      "locations": [
+        -11.5,
+        26.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -90,
+      "arc": 140,
+      "id": "WS0007",
+      "locations": [
+        -11.5,
+        -26.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 69
+}

@@ -1,0 +1,177 @@
+{
+  "bounds": [
+    -41,
+    -20,
+    1.5,
+    -28,
+    29.5,
+    -27,
+    40.5,
+    -8,
+    40.5,
+    8,
+    29.5,
+    27,
+    1.5,
+    28,
+    -41,
+    20
+  ],
+  "builtInMods": [
+    "repair_gantry",
+    "surveying_equipment",
+    "civgrade"
+  ],
+  "builtInWings": [
+    "drone_remora_scan_wing"
+  ],
+  "center": [
+    29,
+    42
+  ],
+  "collisionRadius": 53,
+  "engineSlots": [
+    {
+      "angle": 145,
+      "contrailSize": 9.745699,
+      "length": 11.347041,
+      "location": [
+        -38,
+        18.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 9.745699
+    },
+    {
+      "angle": -145,
+      "contrailSize": 9.745699,
+      "length": 11.347041,
+      "location": [
+        -38,
+        -18.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 9.745699
+    },
+    {
+      "angle": 180,
+      "contrailSize": 14,
+      "length": 18.5,
+      "location": [
+        -40.5,
+        10.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 14
+    },
+    {
+      "angle": -180,
+      "contrailSize": 14,
+      "length": 18.5,
+      "location": [
+        -40.5,
+        -10.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 14
+    },
+    {
+      "angle": 180,
+      "contrailSize": 19,
+      "length": 22.5,
+      "location": [
+        -40.5,
+        0.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 19
+    }
+  ],
+  "height": 84,
+  "hullId": "remora",
+  "hullName": "Remora",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 51,
+  "spriteName": "graphics/ships/remora/remora.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 41,
+      "arc": 145,
+      "id": "WS0001",
+      "locations": [
+        25,
+        20
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -41,
+      "arc": 145,
+      "id": "WS0002",
+      "locations": [
+        25,
+        -20
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 180,
+      "arc": 225,
+      "id": "WS0003",
+      "locations": [
+        -21,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        29.5,
+        0.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 123,
+      "arc": 31,
+      "id": "WS0004",
+      "locations": [
+        -18,
+        24
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": -123,
+      "arc": 31,
+      "id": "WS0005",
+      "locations": [
+        -18,
+        -24
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    }
+  ],
+  "width": 58
+}

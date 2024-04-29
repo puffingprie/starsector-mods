@@ -1,0 +1,39 @@
+{
+  "id": "mining_burst_blaster",
+  "specClass": "projectile",
+  "projectileSpecId": "f_type_shot",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/ftype/ftype_turret_base00.png",
+  "hardpointSprite": "graphics/weapons/ftype/ftype_hardpoint_base00.png",
+  "turretOffsets": [
+    23,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    31.5,
+    0.5
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "numFrames": 4,
+  "frameRate": 20,
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 60,
+    "spread": 4,
+    "particleSizeMin": 16,
+    "particleSizeRange": 24,
+    "particleDuration": 0.12,
+    "particleCount": 18,
+    "particleColor": [255,100,100,255]
+  },
+  "fireSoundTwo": "shock_repeater_fire",
+  "mountTypeOverride": "HYBRID"
+}

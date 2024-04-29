@@ -1,0 +1,92 @@
+{
+  "variantId": "hmi_locomotive_armoured",
+  "hullId": "hmi_locomotive",
+  "displayName": "Cowcatcher",
+  "goalVariant": true,
+  "fluxCapacitors": 17,
+  "fluxVents": 16,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "frontshield"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "pumm_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "hammerrack",
+        "WS0002": "hammerrack"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "hveldriver",
+        "WS0008": "hveldriver",
+        "WS0015": "hveldriver",
+        "WS0016": "mark9"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0018": "swarmer",
+        "WS0022": "swarmer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "vulcan",
+        "WS0004": "vulcan",
+        "WS0005": "vulcan",
+        "WS0006": "vulcan",
+        "WS0009": "flak",
+        "WS0010": "flak",
+        "WS0011": "vulcan",
+        "WS0012": "vulcan",
+        "WS0013": "devastator",
+        "WS0014": "devastator",
+        "WS0019": "pumm_mg",
+        "WS0020": "pumm_mg",
+        "WS0021": "pumm_mg"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0026": "hmi_locomotive_fighter_left_armoured"
+    },
+    {
+      "WS0027": "hmi_locomotive_fighter_right_armoured"
+    },
+    {
+      "WS0028": "hmi_locomotive_gun_left_armoured"
+    },
+    {
+      "WS0029": "hmi_locomotive_gun_right_armoured"
+    },
+    {
+      "WS0030": "hmi_locomotive_rear_armoured"
+    },
+    {
+      "WS0025": "hmi_locomotive_base_variant"
+    }
+  ],
+  "wings": [
+    "piranha_wing",
+    "piranha_wing"
+  ]
+}

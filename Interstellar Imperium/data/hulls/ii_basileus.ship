@@ -1,0 +1,188 @@
+{
+  "hullName": "Basileus",
+  "hullId": "ii_basileus",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/imperium/ships/basileus/ii_basileus.png",
+  "style": "IMPERIUM",
+  "height": 124,
+  "width": 81,
+  "center": [40, 56],
+  "collisionRadius": 78.5,
+  "shieldCenter": [4, 4],
+  "shieldRadius": 72,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "BLINKER1": "ii_targeting_blinker1",
+    "BLINKER2": "ii_targeting_blinker2",
+    "BLINKER3": "ii_targeting_blinker3",
+    "BLINKER4": "ii_targeting_blinker4",
+    "DECO1": "ii_basilius_mask_upper",
+    "DECO2": "ii_basilius_mask_middle",
+    "DECO3": "ii_basilius_mask_lower",
+    "DECO4": "ii_basilius_mask_medium",
+    "ELITE": "ii_elite_lights_basileus"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [7, 24]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -45,
+      "locations": [35, -17]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -90,
+      "locations": [6, -28]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -135,
+      "locations": [-25, -17]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-4, 4],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "DECO1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [35.5, -17.5]
+    },
+    {
+      "id": "DECO2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [6, -26.5]
+    },
+    {
+      "id": "DECO3",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-26.5, -20]
+    },
+    {
+      "id": "DECO4",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, 20.5]
+    },
+    {
+      "id": "ELITE",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-24.5, 6.5]
+    },
+    {
+      "id": "BLINKER1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [20.5, 12.5]
+    },
+    {
+      "id": "BLINKER2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [16.5, 12.5]
+    },
+    {
+      "id": "BLINKER3",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [12.5, 12.5]
+    },
+    {
+      "id": "BLINKER4",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [8.5, 12.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-55, 19],
+      "length": 64,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "IMPERIUM"
+    },
+    {
+      "location": [-56, -6],
+      "length": 64,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "IMPERIUM"
+    }
+  ],
+  "bounds": [
+    -49, 1.5,
+    -53.5, 19,
+    -23, 39,
+    11.5, 30.5,
+    16, 16.5,
+    44.5, 14,
+    55.5, -3,
+    52.5, -18,
+    45, -18,
+    29, -37,
+    -17, -37.5,
+    -43, -14,
+    -54.5, -11,
+    -54.5, -0.5
+  ]
+}

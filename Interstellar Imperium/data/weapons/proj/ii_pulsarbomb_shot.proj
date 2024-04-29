@@ -1,0 +1,13 @@
+{
+	"id":"ii_pulsarbomb_shot",
+	"specClass":"projectile",
+	"onHitEffect":"data.scripts.weapons.II_PulsarBombOnHitEffect",
+	"spawnType":"PLASMA",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"width":35.0,
+	"fadeTime":0.3,
+	"fringeColor":[255,50,150,255],
+	"coreColor":[255,50,0,255],
+    "passThroughMissiles":true,
+}

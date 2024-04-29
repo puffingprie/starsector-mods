@@ -1,0 +1,54 @@
+{
+  "variantId": "HIVER_burrower_standard",
+  "hullId": "HIVER_burrower",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 30,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "HIVER_blaster",
+        "WS0005": "HIVER_blaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "HIVER_twinpd",
+        "WS0004": "HIVER_twinpd"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "HIVER_twinpd"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "Hiver_eyeball",
+        "WS0009": "Hiver_eyeball"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "HIVER_fragsm",
+        "WS0007": "HIVER_fragsm"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

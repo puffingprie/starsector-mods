@@ -1,0 +1,100 @@
+{
+  "hullName": "ASDF-03 ",
+  "hullId": "expsp_asdf1",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/expsp_morgansacs.png",
+  "style": "EXPSP_MVS",
+  "height": 60,
+  "width": 46,
+  "center": [23, 23.5],
+  "collisionRadius": 44.5,
+  "shieldCenter": [-1, -0],
+  "shieldRadius": 41,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [19, -1.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-5.5, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 135,
+      "locations": [-4, 11]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -135,
+      "locations": [-4, -11]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-12, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-20, 6.5],
+      "length": 18,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-20, -6.5],
+      "length": 18,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    }
+  ],
+  "bounds": [
+    -11.5, -6,
+    -16.5, -6,
+    -16.5, -10.5,
+    -7.5, -11.5,
+    4.5, -18,
+    1, -7.5,
+    27, -2.5,
+    27, 2.5,
+    1, 7.5,
+    4.5, 18,
+    -7.5, 11.5,
+    -16.5, 10.5,
+    -16.5, 6,
+    -11.5, 6
+  ]
+}

@@ -1,0 +1,11 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "hullId": "ii_module_drone_super",
+    "hullMods": [
+    ],
+    "quality": 0.5,
+    "variantId": "ii_module_drone_super_sta",
+    "weaponGroups": []
+}

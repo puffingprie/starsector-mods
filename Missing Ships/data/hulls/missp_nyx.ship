@@ -1,0 +1,162 @@
+{
+  "bounds": [
+    -93,
+    -32.5,
+    -56.5,
+    -49.5,
+    75.5,
+    -47.5,
+    94.5,
+    -28.5,
+    94.5,
+    28.5,
+    75.5,
+    47.5,
+    -56.5,
+    49.5,
+    -93,
+    32.5
+  ],
+  "builtInMods": [
+    "civgrade"
+  ],
+  "center": [
+    52.5,
+    95
+  ],
+  "collisionRadius": 116.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 18,
+      "length": 50.5,
+      "location": [
+        -94,
+        18
+      ],
+      "style": "LOW_TECH",
+      "width": 18
+    },
+    {
+      "angle": -180,
+      "contrailSize": 18,
+      "length": 50.5,
+      "location": [
+        -94,
+        -18
+      ],
+      "style": "LOW_TECH",
+      "width": 18
+    },
+    {
+      "angle": -180,
+      "contrailSize": 18,
+      "length": 47,
+      "location": [
+        -87,
+        -0.5
+      ],
+      "style": "LOW_TECH",
+      "width": 18
+    }
+  ],
+  "height": 204,
+  "hullId": "missp_nyx",
+  "hullName": "Nyx",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 109,
+  "spriteName": "graphics/ships/nyx/nyx.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 30,
+      "arc": 180,
+      "id": "WS0001",
+      "locations": [
+        85,
+        20.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -30,
+      "arc": 180,
+      "id": "WS0002",
+      "locations": [
+        85,
+        -20.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 110,
+      "arc": 220,
+      "id": "WS0003",
+      "locations": [
+        -56,
+        40.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -110,
+      "arc": 220,
+      "id": "WS0004",
+      "locations": [
+        -56,
+        -40.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -0,
+      "arc": 300,
+      "id": "WS0005",
+      "locations": [
+        29,
+        0.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 300,
+      "id": "WS0006",
+      "locations": [
+        71,
+        0.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 180,
+      "arc": 300,
+      "id": "WS0007",
+      "locations": [
+        -60,
+        0.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    }
+  ],
+  "width": 106
+}

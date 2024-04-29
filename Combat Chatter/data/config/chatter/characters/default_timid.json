@@ -1,0 +1,69 @@
+{
+	"name":"Default (timid)",
+	"personalities":["timid"],
+	"gender":["m","f","n"],
+	"chance":1,
+	"talkativeness":1,
+	"categoryTags":["default", "original"],
+	
+	"lines":{
+		"start":[
+			{"text":"I'm scared..."},
+			{"text":"Umm... is this gonna be alright?"},
+			{"text":"Can't we talk this over?"}
+		],
+		"start_boss":[
+			{"text":"This is a really bad idea!"},
+			{"text":"Maybe we should run while we can!"},
+		],
+		"retreat":[
+			{"text":"Run for your lives!"},
+			{"text":"Protect me!"}
+		],
+		"out_of_missiles":[
+			{"text":"I'm out of missiles!"},
+			{"text":"Oh no, missiles depleted!"},
+		],
+		"engaged":[
+			{"text":"Go away! You meanie!"},
+			{"text":"I-I'm not gonna run from you!"}
+		],
+		"need_help":[
+			{"text":"In combat! Someone help!"},
+			{"text":"They got me pinned! I need assistance!"}
+		],
+		"pursuing":[
+		],
+		"running":[
+			{"text":"Running for cover!"}
+		],
+		"hull_90":[
+			{"text":"Aaaah! They've gotten through my armor!"},
+			{"text":"I've taken hull damage! Someone help!"}
+		],
+		"hull_50":[
+			{"text":"My hull's at 50%! Help me or I'm screwed!"},
+			{"text":"Down to half hull! Need help, damn it!"}
+		],
+		"hull_30":[
+			{"text":"NOOOO! I don't want to die!"},
+			{"text":"MEDIIIC!"}
+		],
+		"overload":[
+			{"text":"Help! I've overloaded!"},
+			{"text":"Aaaah! My capacitors are sparking!"}
+		],
+		"death":[
+			{"text":"NOOOOOOO!"},
+			{"text":"WRYYYYYYYYY!"},
+			{"text":"AAAAAAAAAAA!"},
+		],
+		"victory":[
+			{"text":"Phew... I was worried for a bit there."},
+			{"text":"Is... is it over?"}
+		],
+		"victory_boss":[
+			{"text":"..get us out of here!"},
+		],
+	}
+}

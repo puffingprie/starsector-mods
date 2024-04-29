@@ -1,0 +1,7 @@
+V: 0.6.1:
+
+general:
+fixed keruvim ships not spawning in independent fleets (forgot a "}")
+fixed all axe's not having keruvim bulkheads
+moved the keg to the keruvim_export_bp from the base_bp
+

@@ -1,0 +1,112 @@
+{
+  "hullName": "Buffalo Mk.II",
+  "hullId": "missp_buffalomkiii",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/buffalomkiii/buffalo_mkiii.png",
+  "style": "LOW_TECH",
+  "height": 150,
+  "width": 100,
+  "center": [50, 75],
+  "collisionRadius": 88.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 83,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [57, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 90,
+      "locations": [
+        26, 37.5,
+        26, 45.5
+      ]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -90,
+      "locations": [
+        26, -37.5,
+        26, -43.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-71, 24.5],
+      "length": 44.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-71, -24.5],
+      "length": 44.5,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-72, 15.5],
+      "length": 44.5,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-72, -15.5],
+      "length": 44.5,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-73, 6.5],
+      "length": 45,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-73, -6.5],
+      "length": 45,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    47, -51,
+    70, -22,
+    70, 22,
+    47, 51,
+    -50, 50.5,
+    -70, 28,
+    -70, -28,
+    -50, -50.5
+  ]
+}

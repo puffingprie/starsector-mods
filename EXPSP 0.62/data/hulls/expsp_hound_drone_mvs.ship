@@ -1,0 +1,85 @@
+{
+  "hullName": "Auto-Hound",
+  "hullId": "expsp_hound_drone_mvs",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/expsp_hounddrone_mvs.png",
+  "style": "EXPSP_MVS",
+  "height": 72,
+  "width": 62,
+  "center": [31, 26.5],
+  "collisionRadius": 65,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 59.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [28.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-3.5, 4]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-25, 20],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-25, -20],
+      "length": 80,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 64,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-25.5, -0.5],
+      "length": 120,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    }
+  ],
+  "bounds": [
+    -22.5, -8.5,
+    -8.5, -9,
+    -7, -15.5,
+    -22.5, -15.5,
+    -22.5, -25,
+    15, -23.5,
+    17, -17,
+    11, -15,
+    10.5, -10,
+    22, -9,
+    22, 9,
+    10.5, 10,
+    11, 15,
+    17, 17,
+    15, 23.5,
+    -22.5, 25,
+    -22.5, 15.5,
+    -7, 15.5,
+    -8.5, 9,
+    -22.5, 8.5
+  ]
+}

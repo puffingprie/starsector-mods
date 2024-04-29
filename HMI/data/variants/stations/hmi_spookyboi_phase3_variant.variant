@@ -1,0 +1,54 @@
+{
+  "variantId": "hmi_spookyboi_phase3_variant",
+  "hullId": "hmi_spookyboi_phase3",
+  "displayName": "Unbound",
+  "goalVariant": true,
+  "fluxCapacitors": 50,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS00003": "hmi_spooky_p3_plasma"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "tachyonlance_spook_tach_left",
+        "WS0002": "tachyonlance_spook_tach_right"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "gauss_rem_spook_left",
+        "WS0005": "gauss_rem_spook_right"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "riftbeam",
+        "WS0011": "riftbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "riftbeam",
+        "WS0016": "riftbeam"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

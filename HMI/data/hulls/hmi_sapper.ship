@@ -1,0 +1,118 @@
+{
+  "hullName": "Sapper",
+  "hullId": "hmi_sapper",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/derelicts/sapper.png",
+  "style": "LOW_TECH",
+  "height": 107,
+  "width": 126,
+  "center": [63, 53.5],
+  "collisionRadius": 90.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 87.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "surveying_equipment",
+    "rugged"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [45.5, 24]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [45.5, -24]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [42, 45]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [42, -45]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [31, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-44.5, 10.5],
+      "length": 52,
+      "width": 26,
+      "angle": 180,
+      "contrailSize": 26,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-44.5, -10.5],
+      "length": 52,
+      "width": 26,
+      "angle": -180,
+      "contrailSize": 26,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -42.5, -3,
+    -46, -6,
+    -46.5, -16,
+    -36, -22,
+    -36, -26,
+    -51, -26,
+    -51, -36,
+    -17, -63,
+    -0.5, -64,
+    21.5, -50.5,
+    46, -52.5,
+    48.5, -34,
+    53, -32,
+    53, -16,
+    33, -15,
+    38.5, -9,
+    38.5, 9,
+    33, 15,
+    53, 16,
+    53, 32,
+    48.5, 34,
+    46, 52.5,
+    21.5, 50.5,
+    -0.5, 64,
+    -17, 63,
+    -51, 36,
+    -51, 26,
+    -36, 26,
+    -36, 22,
+    -46.5, 16,
+    -46, 6,
+    -42.5, 3
+  ]
+}

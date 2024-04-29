@@ -1,0 +1,40 @@
+id
+# NOTES
+# Ship IDs entered here will be allowed by the Engineering hub (Reverse Engineering ship hulls)
+# Ships that would break the game (Balance/Technical/Lore) if the player could produce them via blueprint should not be on this list.
+shepherd_heavy
+lasher_hmi
+cerberus_miner
+hmi_charlie
+remora
+finch
+mulligan
+prognosticator
+mule_hmi_heavy
+mule_hmi_x
+hippocampus
+hmi_shotglass
+hmi_greasy
+hmi_snail
+hmi_streak
+hmi_creep
+hmi_convict
+cockroach
+zebu
+slugworth
+roach_king
+junk
+fishkill
+hmi_locomotive
+marlin
+category
+jakkle
+hammerhead_hmi
+brasher
+marinas
+ascendate
+calico
+sulemain
+scarecrow
+weaver
+hmi_herakles

@@ -1,0 +1,315 @@
+{
+  "hullName": "Tzaphkiel",
+  "hullId": "expsp_tzaphkiel",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/expsp_tzaphkiel.png",
+  "style": "EXPSP_MVS_GOLD",
+  "height": 200,
+  "width": 140,
+  "center": [70, 74],
+  "collisionRadius": 118,
+  "shieldCenter": [4.5, -0],
+  "shieldRadius": 103.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "machinatargetingsystems"
+  ],
+  "builtInWeapons": {
+    "WS0008": "expsp_tzaphkiel_wing_l",
+    "WS0009": "expsp_tzaphkiel_wing_r",
+    "WS0010": "expsp_pillar",
+    "WS0012": "expsp_flarelauncher_crimson",
+    "WS0013": "expsp_flarelauncher_crimson",
+    "WS0014": "expsp_flarelauncher_crimson",
+    "WS0015": "expsp_flarelauncher_crimson",
+    "WS0016": "expsp_flarelauncher_crimson",
+    "WS0017": "expsp_flarelauncher_crimson",
+    "WS0018": "expsp_tzaphkiel_lights"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 90,
+      "locations": [1, 43],
+      "renderOrderMod": 75
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -90,
+      "locations": [1, -43],
+      "renderOrderMod": 75
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 300,
+      "angle": 180,
+      "locations": [-43, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [30, 40],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [30, -40],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [20, 54],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [20, -54],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 45,
+      "locations": [47.5, 26.5]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -45,
+      "locations": [47.5, -26.5]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 45,
+      "locations": [42.5, 27.5]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -45,
+      "locations": [42.5, -27.5]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 150.5,
+      "locations": [-38.5, 10.5]
+    },
+    {
+      "id": "WS0017",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -150.5,
+      "locations": [-38.5, -10.5]
+    },
+    {
+      "id": "WS0018",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-23.5, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [-1.5, 42],
+      "renderOrderMod": 55
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-1, -49],
+      "renderOrderMod": 55
+    },
+    {
+      "id": "WS0010",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 2,
+      "angle": 0,
+      "locations": [42, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-25.5, 26.5],
+      "length": 32,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_GOLD"
+    },
+    {
+      "location": [-25.5, -26.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_GOLD"
+    },
+    {
+      "location": [-22.5, -33],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_GOLD"
+    },
+    {
+      "location": [-20, -39],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_GOLD"
+    },
+    {
+      "location": [-18.5, -44],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_GOLD"
+    },
+    {
+      "location": [-18, -50],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_GOLD"
+    },
+    {
+      "location": [-55.5, -0],
+      "length": 50,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_GOLD"
+    },
+    {
+      "location": [-22, 32.5],
+      "length": 32,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_GOLD"
+    },
+    {
+      "location": [-20, 38.5],
+      "length": 32,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_GOLD"
+    },
+    {
+      "location": [-18.5, 44.5],
+      "length": 32,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_GOLD"
+    },
+    {
+      "location": [-17.5, 50.5],
+      "length": 32,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_GOLD"
+    }
+  ],
+  "bounds": [
+    -52, -8.5,
+    -34, -12.5,
+    -32.5, -25.5,
+    -23.5, -55,
+    10, -60,
+    35.5, -28.5,
+    97.5, -22,
+    96.5, -14.5,
+    90.5, -6.5,
+    77.5, -5.5,
+    77.5, 5.5,
+    90.5, 6.5,
+    96.5, 14.5,
+    97.5, 22,
+    35.5, 28.5,
+    10, 60,
+    -23.5, 55,
+    -32.5, 25.5,
+    -34, 12.5,
+    -52, 8.5
+  ]
+}

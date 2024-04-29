@@ -1,0 +1,848 @@
+{
+    "music":{
+        "ii_music_imperium_encounter_neutral":[
+            {"file":"ii_interaction_neutral.ogg","source":"sounds/imperium/music","volume":0.55,"randomStart":true}
+        ],
+        "ii_music_imperium_market_friendly":[
+            {"file":"ii_market_friendly.ogg","source":"sounds/imperium/music","volume":0.5,"randomStart":true}
+        ],
+        "ii_music_imperium_market_neutral":[
+            {"file":"ii_market_neutral.ogg","source":"sounds/imperium/music","volume":0.5,"randomStart":true}
+        ],
+        "ii_music_imperium_market_hostile":[
+            {"file":"ii_market_hostile.ogg","source":"sounds/imperium/music","volume":0.5,"randomStart":true}
+        ],
+    },
+
+    # SLEDGE CANNON
+    "ii_sledgecannon_fire":
+    [
+        {"file":"sounds/imperium/sfx_wpn_guns/sledgecannon_fire1.ogg","pitch":1.00,"volume":0.75},
+        {"file":"sounds/imperium/sfx_wpn_guns/sledgecannon_fire2.ogg","pitch":1.00,"volume":0.75},
+        {"file":"sounds/imperium/sfx_wpn_guns/sledgecannon_fire3.ogg","pitch":1.00,"volume":0.75},
+    ],
+    "ii_sledgecannon_crit":
+    [
+        {"file":"sounds/imperium/sfx_impacts/sledgecrit_1.ogg","pitch":0.89,"volume":0.69},
+        {"file":"sounds/imperium/sfx_impacts/sledgecrit_1.ogg","pitch":0.9,"volume":0.7},
+        {"file":"sounds/imperium/sfx_impacts/sledgecrit_1.ogg","pitch":0.91,"volume":0.71},
+        {"file":"sounds/imperium/sfx_impacts/sledgecrit_2.ogg","pitch":0.89,"volume":0.69},
+        {"file":"sounds/imperium/sfx_impacts/sledgecrit_2.ogg","pitch":0.9,"volume":0.7},
+        {"file":"sounds/imperium/sfx_impacts/sledgecrit_2.ogg","pitch":0.91,"volume":0.71},
+        {"file":"sounds/imperium/sfx_impacts/sledgecrit_3.ogg","pitch":0.89,"volume":0.69},
+        {"file":"sounds/imperium/sfx_impacts/sledgecrit_3.ogg","pitch":0.9,"volume":0.7},
+        {"file":"sounds/imperium/sfx_impacts/sledgecrit_3.ogg","pitch":0.91,"volume":0.71},
+    ],
+
+    # SLEDGE GUN
+    "ii_sledgegun_fire":
+    [
+        {"file":"sounds/imperium/sfx_wpn_guns/sledgegun_fire1.ogg","pitch":1.00,"volume":1},
+        {"file":"sounds/imperium/sfx_wpn_guns/sledgegun_fire2.ogg","pitch":1.00,"volume":1},
+        {"file":"sounds/imperium/sfx_wpn_guns/sledgegun_fire3.ogg","pitch":1.00,"volume":1},
+    ],
+    "ii_sledgegun_crit":
+    [
+        {"file":"sounds/imperium/sfx_impacts/sledgecrit_1.ogg","pitch":0.99,"volume":0.49},
+        {"file":"sounds/imperium/sfx_impacts/sledgecrit_1.ogg","pitch":1.00,"volume":0.5},
+        {"file":"sounds/imperium/sfx_impacts/sledgecrit_1.ogg","pitch":1.01,"volume":0.51},
+        {"file":"sounds/imperium/sfx_impacts/sledgecrit_2.ogg","pitch":0.99,"volume":0.49},
+        {"file":"sounds/imperium/sfx_impacts/sledgecrit_2.ogg","pitch":1.00,"volume":0.5},
+        {"file":"sounds/imperium/sfx_impacts/sledgecrit_2.ogg","pitch":1.01,"volume":0.51},
+        {"file":"sounds/imperium/sfx_impacts/sledgecrit_3.ogg","pitch":0.99,"volume":0.49},
+        {"file":"sounds/imperium/sfx_impacts/sledgecrit_3.ogg","pitch":1.00,"volume":0.5},
+        {"file":"sounds/imperium/sfx_impacts/sledgecrit_3.ogg","pitch":1.01,"volume":0.51},
+    ],
+
+    # BALLISTA LRM
+    "ii_ballista_fire":
+    [
+        {"file":"sounds/imperium/sfx_wpn_missiles/ballista_launch1.ogg","pitch":0.97,"volume":1},
+        {"file":"sounds/imperium/sfx_wpn_missiles/ballista_launch1.ogg","pitch":1.00,"volume":1},
+        {"file":"sounds/imperium/sfx_wpn_missiles/ballista_launch1.ogg","pitch":1.03,"volume":1},
+        {"file":"sounds/imperium/sfx_wpn_missiles/ballista_launch2.ogg","pitch":0.97,"volume":1},
+        {"file":"sounds/imperium/sfx_wpn_missiles/ballista_launch2.ogg","pitch":1.00,"volume":1},
+        {"file":"sounds/imperium/sfx_wpn_missiles/ballista_launch2.ogg","pitch":1.03,"volume":1},
+    ],
+    "ii_ballista_boost":
+    [
+        {"file":"sounds/imperium/sfx_wpn_missiles/ballista booster.ogg","pitch":0.90,"volume":0.63},
+        {"file":"sounds/imperium/sfx_wpn_missiles/ballista booster.ogg","pitch":0.95,"volume":0.64},
+        {"file":"sounds/imperium/sfx_wpn_missiles/ballista booster.ogg","pitch":1.00,"volume":0.65},
+        {"file":"sounds/imperium/sfx_wpn_missiles/ballista booster.ogg","pitch":1.05,"volume":0.66},
+        {"file":"sounds/imperium/sfx_wpn_missiles/ballista booster.ogg","pitch":1.10,"volume":0.67},
+    ],
+    "ii_ballista_crit":
+    [
+        {"file":"sounds/imperium/sfx_impacts/tiandong_concussion_missile_explosion_nostartsilence_1.ogg","pitch":0.97,"volume":0.84},
+        {"file":"sounds/imperium/sfx_impacts/tiandong_concussion_missile_explosion_nostartsilence_1.ogg","pitch":1.00,"volume":0.85},
+        {"file":"sounds/imperium/sfx_impacts/tiandong_concussion_missile_explosion_nostartsilence_1.ogg","pitch":1.03,"volume":0.86},
+        {"file":"sounds/imperium/sfx_impacts/tiandong_concussion_missile_explosion_nostartsilence_2.ogg","pitch":0.97,"volume":0.84},
+        {"file":"sounds/imperium/sfx_impacts/tiandong_concussion_missile_explosion_nostartsilence_2.ogg","pitch":1.00,"volume":0.85},
+        {"file":"sounds/imperium/sfx_impacts/tiandong_concussion_missile_explosion_nostartsilence_2.ogg","pitch":1.03,"volume":0.86},
+    ],
+
+    # JAVELIN MRM
+    "ii_javelin_fire":
+    [
+        {"file":"sounds/imperium/sfx_wpn_missiles/javelin_launch1.ogg","pitch":0.82,"volume":0.98},
+        {"file":"sounds/imperium/sfx_wpn_missiles/javelin_launch1.ogg","pitch":0.85,"volume":0.99},
+        {"file":"sounds/imperium/sfx_wpn_missiles/javelin_launch1.ogg","pitch":0.88,"volume":1.00},
+        {"file":"sounds/imperium/sfx_wpn_missiles/javelin_launch2.ogg","pitch":0.82,"volume":0.98},
+        {"file":"sounds/imperium/sfx_wpn_missiles/javelin_launch2.ogg","pitch":0.85,"volume":0.99},
+        {"file":"sounds/imperium/sfx_wpn_missiles/javelin_launch2.ogg","pitch":0.88,"volume":1.00},
+        {"file":"sounds/imperium/sfx_wpn_missiles/javelin_launch3.ogg","pitch":0.82,"volume":0.98},
+        {"file":"sounds/imperium/sfx_wpn_missiles/javelin_launch3.ogg","pitch":0.85,"volume":0.99},
+        {"file":"sounds/imperium/sfx_wpn_missiles/javelin_launch3.ogg","pitch":0.88,"volume":1.00},
+    ],
+
+    # PULSAR
+    "ii_pulsar_fire":
+    [
+        {"file":"sounds/imperium/sfx_wpn_energy/smallpulsar1.ogg","pitch":1.00,"volume":0.65},
+        {"file":"sounds/imperium/sfx_wpn_energy/smallpulsar2.ogg","pitch":1.00,"volume":0.65},
+        {"file":"sounds/imperium/sfx_wpn_energy/smallpulsar3.ogg","pitch":1.00,"volume":0.65},
+    ],
+
+    # HEAVY PULSAR
+    "ii_heavypulsar_fire":
+    [
+        {"file":"sounds/imperium/sfx_wpn_energy/bigpulsar1.ogg","pitch":1.00,"volume":0.8},
+        {"file":"sounds/imperium/sfx_wpn_energy/bigpulsar2.ogg","pitch":1.00,"volume":0.8},
+    ],
+
+    # PHOTON BLASTER
+    "ii_photonblaster_fire":
+    [
+        {"file":"sounds/imperium/sfx_wpn_energy/photonblstr.ogg","pitch":0.99,"volume":0.84},
+        {"file":"sounds/imperium/sfx_wpn_energy/photonblstr.ogg","pitch":1.00,"volume":0.85},
+        {"file":"sounds/imperium/sfx_wpn_energy/photonblstr.ogg","pitch":1.01,"volume":0.86},
+    ],
+
+    # PHOTON BEAM CANNON
+    "ii_photonbeam_charge":
+    [
+        {"file":"sounds/imperium/sfx_wpn_energy/photonbeam_charge.ogg","pitch":0.97,"volume":1.0},
+        {"file":"sounds/imperium/sfx_wpn_energy/photonbeam_charge.ogg","pitch":1.00,"volume":1.0},
+        {"file":"sounds/imperium/sfx_wpn_energy/photonbeam_charge.ogg","pitch":1.03,"volume":1.0},
+    ],
+    "ii_photonbeam_fire":
+    [
+        {"file":"sounds/imperium/sfx_wpn_energy/photonbeam_fire1.ogg","pitch":0.75,"volume":0.8},
+        {"file":"sounds/imperium/sfx_wpn_energy/photonbeam_fire2.ogg","pitch":0.75,"volume":0.8},
+    ],
+    "ii_photonbeam_eject":
+    [
+        {"file":"sounds/imperium/sfx_wpn_energy/photonbeam_eject.ogg","pitch":1.0,"volume":0.9},
+    ],
+
+    # PULSAR BOMB
+    "ii_pulsarbomb_launch":
+    [
+        {"file":"sounds/imperium/sfx_wpn_energy/photonbeam_eject.ogg","pitch":1.27,"volume":0.39},
+        {"file":"sounds/imperium/sfx_wpn_energy/photonbeam_eject.ogg","pitch":1.3,"volume":0.4},
+        {"file":"sounds/imperium/sfx_wpn_energy/photonbeam_eject.ogg","pitch":1.33,"volume":0.41},
+    ],
+    "ii_pulsarbomb_mirv":
+    [
+        {"file":"sounds/imperium/sfx_wpn_energy/bigpulsar1.ogg","pitch":0.78,"volume":1.24},
+        {"file":"sounds/imperium/sfx_wpn_energy/bigpulsar2.ogg","pitch":0.78,"volume":1.24},
+        {"file":"sounds/imperium/sfx_wpn_energy/bigpulsar1.ogg","pitch":0.8,"volume":1.25},
+        {"file":"sounds/imperium/sfx_wpn_energy/bigpulsar2.ogg","pitch":0.8,"volume":1.25},
+        {"file":"sounds/imperium/sfx_wpn_energy/bigpulsar1.ogg","pitch":0.82,"volume":1.26},
+        {"file":"sounds/imperium/sfx_wpn_energy/bigpulsar2.ogg","pitch":0.82,"volume":1.26},
+    ],
+
+    # PARTICLE GUN
+    "ii_particlegun_fire":
+    [
+        {"file":"sounds/imperium/sfx_wpn_energy/particlegun_1.ogg","pitch":0.97,"volume":0.59},
+        {"file":"sounds/imperium/sfx_wpn_energy/particlegun_1.ogg","pitch":1.00,"volume":0.60},
+        {"file":"sounds/imperium/sfx_wpn_energy/particlegun_1.ogg","pitch":1.03,"volume":0.61},
+        {"file":"sounds/imperium/sfx_wpn_energy/particlegun_2.ogg","pitch":0.97,"volume":0.59},
+        {"file":"sounds/imperium/sfx_wpn_energy/particlegun_2.ogg","pitch":1.00,"volume":0.60},
+        {"file":"sounds/imperium/sfx_wpn_energy/particlegun_2.ogg","pitch":1.03,"volume":0.61},
+    ],
+
+    # PARTICLE CANNON
+    "ii_particlecannon_fire":
+    [
+        {"file":"sounds/imperium/sfx_wpn_energy/particle_cannon_fire1.ogg","pitch":1.0,"volume":0.85},
+        {"file":"sounds/imperium/sfx_wpn_energy/particle_cannon_fire2.ogg","pitch":1.0,"volume":0.85},
+    ],
+
+    # CROCEA MORS
+    "ii_croceamors_chargeup":
+    [
+        {"file":"sounds/imperium/sfx_wpn_guns/big_ass_railgun_charge.ogg","pitch":0.95,"volume":0.99},
+        {"file":"sounds/imperium/sfx_wpn_guns/big_ass_railgun_charge.ogg","pitch":1.00,"volume":1.00},
+        {"file":"sounds/imperium/sfx_wpn_guns/big_ass_railgun_charge.ogg","pitch":1.05,"volume":1.01},
+    ],
+    "ii_croceamors_fire":
+    [
+        {"file":"sounds/imperium/sfx_wpn_guns/big_ass_railgun_fire.ogg","pitch":0.97,"volume":0.99},
+        {"file":"sounds/imperium/sfx_wpn_guns/big_ass_railgun_fire.ogg","pitch":1.00,"volume":1.00},
+        {"file":"sounds/imperium/sfx_wpn_guns/big_ass_railgun_fire.ogg","pitch":1.03,"volume":1.01},
+    ],
+
+    # MAGNA FULMEN
+    "ii_magnafulmen_charge":
+    [
+        {"file":"sounds/imperium/sfx_wpn_guns/solis_charge_shrt.ogg","pitch":0.97,"volume":0.99},
+        {"file":"sounds/imperium/sfx_wpn_guns/solis_charge_shrt.ogg","pitch":1.00,"volume":1.00},
+        {"file":"sounds/imperium/sfx_wpn_guns/solis_charge_shrt.ogg","pitch":1.03,"volume":1.01},
+    ],
+    "ii_magnafulmen_fire":
+    [
+        {"file":"sounds/imperium/sfx_wpn_energy/magna_fulmen_fire2.ogg","pitch":0.97,"volume":0.99},
+        {"file":"sounds/imperium/sfx_wpn_energy/magna_fulmen_fire2.ogg","pitch":1.00,"volume":1.00},
+        {"file":"sounds/imperium/sfx_wpn_energy/magna_fulmen_fire2.ogg","pitch":1.03,"volume":1.01},
+    ],
+    "ii_magnafulmen_bigfire":
+    [
+        {"file":"sounds/imperium/sfx_wpn_energy/magna_fulmen_fire1.wav","pitch":0.97,"volume":0.99},
+        {"file":"sounds/imperium/sfx_wpn_energy/magna_fulmen_fire1.wav","pitch":1.00,"volume":1.00},
+        {"file":"sounds/imperium/sfx_wpn_energy/magna_fulmen_fire1.wav","pitch":1.03,"volume":1.01},
+    ],
+    "ii_magnafulmen_impact":
+    [
+        {"file":"sounds/imperium/sfx_impacts/lib_impact_1.ogg","pitch":0.97,"volume":0.99},
+        {"file":"sounds/imperium/sfx_impacts/lib_impact_1.ogg","pitch":1.00,"volume":1.00},
+        {"file":"sounds/imperium/sfx_impacts/lib_impact_1.ogg","pitch":1.03,"volume":1.01},
+        {"file":"sounds/imperium/sfx_impacts/lib_impact_2.ogg","pitch":0.97,"volume":0.99},
+        {"file":"sounds/imperium/sfx_impacts/lib_impact_2.ogg","pitch":1.00,"volume":1.00},
+        {"file":"sounds/imperium/sfx_impacts/lib_impact_2.ogg","pitch":1.03,"volume":1.01},
+    ],
+    "ii_magnafulmen_armor_pop":
+    [
+        {"file":"sounds/imperium/sfx_impacts/tiandong_concussion_missile_explosion1.ogg","pitch":0.97,"volume":0.99},
+        {"file":"sounds/imperium/sfx_impacts/tiandong_concussion_missile_explosion1.ogg","pitch":1.00,"volume":1.00},
+        {"file":"sounds/imperium/sfx_impacts/tiandong_concussion_missile_explosion1.ogg","pitch":1.03,"volume":1.01},
+        {"file":"sounds/imperium/sfx_impacts/tiandong_concussion_missile_explosion2.ogg","pitch":0.97,"volume":0.99},
+        {"file":"sounds/imperium/sfx_impacts/tiandong_concussion_missile_explosion2.ogg","pitch":1.00,"volume":1.00},
+        {"file":"sounds/imperium/sfx_impacts/tiandong_concussion_missile_explosion2.ogg","pitch":1.03,"volume":1.01},
+    ],
+    "ii_magnafulmen_targeting_knockback":
+    [
+        {"file":"sounds/imperium/sfx_impacts/knockback.ogg","pitch":0.94,"volume":0.98},
+        {"file":"sounds/imperium/sfx_impacts/knockback.ogg","pitch":0.97,"volume":0.99},
+        {"file":"sounds/imperium/sfx_impacts/knockback.ogg","pitch":1.00,"volume":1.00},
+        {"file":"sounds/imperium/sfx_impacts/knockback.ogg","pitch":1.03,"volume":1.01},
+        {"file":"sounds/imperium/sfx_impacts/knockback.ogg","pitch":1.06,"volume":1.02},
+    ],
+    "ii_magnafulmen_targeting_blast":
+    [
+        {"file":"sounds/imperium/sfx_impacts/gravitybomb_1.ogg","pitch":0.97,"volume":0.99},
+        {"file":"sounds/imperium/sfx_impacts/gravitybomb_1.ogg","pitch":1.00,"volume":1.00},
+        {"file":"sounds/imperium/sfx_impacts/gravitybomb_1.ogg","pitch":1.03,"volume":1.01},
+        {"file":"sounds/imperium/sfx_impacts/gravitybomb_2.ogg","pitch":0.97,"volume":0.74},
+        {"file":"sounds/imperium/sfx_impacts/gravitybomb_2.ogg","pitch":1.00,"volume":0.75},
+        {"file":"sounds/imperium/sfx_impacts/gravitybomb_2.ogg","pitch":1.03,"volume":0.76},
+    ],
+    "ii_magnafulmen_elite_zap":
+    [
+        {"file":"sounds/imperium/sfx_impacts/zaphit0.ogg","pitch":1.00,"volume":1.00},
+        {"file":"sounds/imperium/sfx_impacts/zaphit1.ogg","pitch":1.00,"volume":1.00},
+        {"file":"sounds/imperium/sfx_impacts/zaphit2.ogg","pitch":1.00,"volume":1.00},
+        {"file":"sounds/imperium/sfx_impacts/zaphit3.ogg","pitch":1.00,"volume":1.00},
+        {"file":"sounds/imperium/sfx_impacts/zaphit4.ogg","pitch":1.00,"volume":1.00},
+        {"file":"sounds/imperium/sfx_impacts/zaphit5.ogg","pitch":1.00,"volume":1.00},
+    ],
+
+    # SAGITTARIUS ADC
+    "ii_sagittarius_spinup":
+    [
+        {"file":"sounds/imperium/sfx_wpn_guns/saggitariusspinup.ogg","pitch":1.0,"volume":1.0},
+    ],
+    "ii_sagittarius_fire":
+    [
+        {"file":"sounds/imperium/sfx_wpn_guns/saggitariusburst.ogg","pitch":1.0,"volume":1.0},
+    ],
+    "ii_sagittarius_fire_new":
+    [
+        {"file":"sounds/imperium/sfx_wpn_guns/tiandong_super_machinegun2 ALT.ogg","pitch":0.90,"volume":0.58},
+        {"file":"sounds/imperium/sfx_wpn_guns/tiandong_super_machinegun2 ALT.ogg","pitch":0.92,"volume":0.59},
+        {"file":"sounds/imperium/sfx_wpn_guns/tiandong_super_machinegun2 ALT.ogg","pitch":0.94,"volume":0.60},
+        {"file":"sounds/imperium/sfx_wpn_guns/tiandong_super_machinegun2 ALT.ogg","pitch":0.96,"volume":0.61},
+        {"file":"sounds/imperium/sfx_wpn_guns/tiandong_super_machinegun2 ALT.ogg","pitch":0.98,"volume":0.62},
+    ],
+    "ii_sagittarius_fire_newer":
+    [
+        {"file":"sounds/imperium/sfx_wpn_guns/sag_adc.ogg","pitch":0.90,"volume":0.70},
+    ],
+    "ii_sagittarius_loop":
+    [
+        {"file":"sounds/imperium/sfx_wpn_guns/sagittarius_loop.ogg","pitch":1.0,"volume":1.0},
+    ],
+
+    # HEAVY PULSE LASER
+    "ii_heavy_pulse_laser_chargeup":
+    [
+        {"file":"sounds/imperium/sfx_wpn_energy/hvy_pulse_laser_chargeup.ogg","pitch":0.97,"volume":0.89},
+        {"file":"sounds/imperium/sfx_wpn_energy/hvy_pulse_laser_chargeup.ogg","pitch":1.0,"volume":0.9},
+        {"file":"sounds/imperium/sfx_wpn_energy/hvy_pulse_laser_chargeup.ogg","pitch":1.03,"volume":0.91},
+    ],
+    "ii_heavy_pulse_laser_fire":
+    [
+        {"file":"sounds/imperium/sfx_wpn_energy/hvy_pulse_laser_fire01.ogg","pitch":0.97,"volume":0.84},
+        {"file":"sounds/imperium/sfx_wpn_energy/hvy_pulse_laser_fire01.ogg","pitch":1.0,"volume":0.85},
+        {"file":"sounds/imperium/sfx_wpn_energy/hvy_pulse_laser_fire01.ogg","pitch":1.03,"volume":0.86},
+    ],
+
+    # SOLIS CANNON
+    "ii_solis_chargeup":
+    [
+        {"file":"sounds/imperium/sfx_wpn_guns/solis_charge_shrt.ogg","pitch":0.97,"volume":1.0},
+        {"file":"sounds/imperium/sfx_wpn_guns/solis_charge_shrt.ogg","pitch":1.0,"volume":1.0},
+        {"file":"sounds/imperium/sfx_wpn_guns/solis_charge_shrt.ogg","pitch":1.03,"volume":1.0},
+    ],
+    "ii_solis_fire":
+    [
+        {"file":"sounds/imperium/sfx_wpn_guns/solis_fire1.ogg","pitch":0.97,"volume":1.0},
+        {"file":"sounds/imperium/sfx_wpn_guns/solis_fire1.ogg","pitch":1.0,"volume":1.0},
+        {"file":"sounds/imperium/sfx_wpn_guns/solis_fire1.ogg","pitch":1.03,"volume":1.0},
+    ],
+
+    # LUX REPEATER
+    "ii_lux_fire":
+    [
+        {"file":"sounds/imperium/sfx_wpn_guns/lux_fire_1.ogg","pitch":0.95,"volume":1.0},
+        {"file":"sounds/imperium/sfx_wpn_guns/lux_fire_1.ogg","pitch":1.0,"volume":1.0},
+        {"file":"sounds/imperium/sfx_wpn_guns/lux_fire_1.ogg","pitch":1.05,"volume":1.0},
+        {"file":"sounds/imperium/sfx_wpn_guns/lux_fire_2.ogg","pitch":0.95,"volume":1.0},
+        {"file":"sounds/imperium/sfx_wpn_guns/lux_fire_2.ogg","pitch":1.0,"volume":1.0},
+        {"file":"sounds/imperium/sfx_wpn_guns/lux_fire_2.ogg","pitch":1.05,"volume":1.0},
+    ],
+
+    # TELUM AUTOCANNON
+    "ii_telum_fire":
+    [
+        {"file":"sounds/imperium/sfx_wpn_guns/telum_fire1.ogg","pitch":1.0,"volume":1.0},
+        {"file":"sounds/imperium/sfx_wpn_guns/telum_fire2.ogg","pitch":1.0,"volume":1.0},
+        {"file":"sounds/imperium/sfx_wpn_guns/telum_fire3.ogg","pitch":1.0,"volume":1.0},
+        {"file":"sounds/imperium/sfx_wpn_guns/telum_fire1.ogg","pitch":1.0,"volume":0.98},
+        {"file":"sounds/imperium/sfx_wpn_guns/telum_fire2.ogg","pitch":1.0,"volume":0.98},
+        {"file":"sounds/imperium/sfx_wpn_guns/telum_fire3.ogg","pitch":1.0,"volume":0.98},
+        {"file":"sounds/imperium/sfx_wpn_guns/telum_fire1.ogg","pitch":1.0,"volume":0.96},
+        {"file":"sounds/imperium/sfx_wpn_guns/telum_fire2.ogg","pitch":1.0,"volume":0.96},
+        {"file":"sounds/imperium/sfx_wpn_guns/telum_fire3.ogg","pitch":1.0,"volume":0.96},
+    ],
+
+	# FUNDAE SRM
+	"ii_fundae_fire":
+	[
+		{"file":"sounds/imperium/sfx_wpn_missiles/II_spam_SRM.ogg","pitch":1.33,"volume":0.89},
+		{"file":"sounds/imperium/sfx_wpn_missiles/II_spam_SRM.ogg","pitch":1.35,"volume":0.9},
+		{"file":"sounds/imperium/sfx_wpn_missiles/II_spam_SRM.ogg","pitch":1.37,"volume":0.91},
+	],
+	"ii_fundae_explosion":{
+		"sounds":[
+			{"file":"sounds/sfx_wpn_guns/devastator_shell_exp_01.ogg","pitch":1.15,"volume":0.99},
+			{"file":"sounds/sfx_wpn_guns/devastator_shell_exp_01.ogg","pitch":1.2,"volume":1},
+			{"file":"sounds/sfx_wpn_guns/devastator_shell_exp_01.ogg","pitch":1.25,"volume":1.01},
+			{"file":"sounds/sfx_wpn_guns/devastator_shell_exp_02.ogg","pitch":1.15,"volume":0.99},
+			{"file":"sounds/sfx_wpn_guns/devastator_shell_exp_02.ogg","pitch":1.2,"volume":1},
+			{"file":"sounds/sfx_wpn_guns/devastator_shell_exp_02.ogg","pitch":1.25,"volume":1.01},
+			{"file":"sounds/sfx_wpn_guns/devastator_shell_exp_03.ogg","pitch":1.15,"volume":0.99},
+			{"file":"sounds/sfx_wpn_guns/devastator_shell_exp_03.ogg","pitch":1.2,"volume":1},
+			{"file":"sounds/sfx_wpn_guns/devastator_shell_exp_03.ogg","pitch":1.25,"volume":1.01},
+			{"file":"sounds/sfx_wpn_guns/devastator_shell_exp_04.ogg","pitch":1.15,"volume":0.99},
+			{"file":"sounds/sfx_wpn_guns/devastator_shell_exp_04.ogg","pitch":1.2,"volume":1},
+			{"file":"sounds/sfx_wpn_guns/devastator_shell_exp_04.ogg","pitch":1.25,"volume":1.01},
+		],
+	},
+
+	# ONAGER MIRV
+	"ii_onager_fire":
+	[
+		{"file":"sounds/sfx_wpn_missiles/reaper_fire_01.ogg","pitch":1.0,"volume":1.0},
+	],
+
+	# CUSTOS DEFENDER
+	"ii_custos_intro":
+	[
+		{"file":"sounds/imperium/sfx_wpn_energy/custos_defender_start.ogg","pitch":1.0,"volume":0.6},
+	],
+	"ii_custos_loop":
+	[
+		{"file":"sounds/imperium/sfx_wpn_energy/custos_defender_loop2.ogg","pitch":1.0,"volume":0.6},
+	],
+
+	# ARCUS AUTOCANNON
+	"ii_arcus_fire":
+	[
+		{"file":"sounds/imperium/sfx_wpn_guns/arcus_fire.ogg","pitch":0.97,"volume":1.19},
+		{"file":"sounds/imperium/sfx_wpn_guns/arcus_fire.ogg","pitch":1.00,"volume":1.20},
+		{"file":"sounds/imperium/sfx_wpn_guns/arcus_fire.ogg","pitch":1.03,"volume":1.21},
+	],
+
+	# SIEGE MORTAR
+	"ii_siegemortar_fire":
+	[
+		{"file":"sounds/imperium/sfx_wpn_guns/siege_mortar_fire1.ogg","pitch":1.0,"volume":0.7},
+		{"file":"sounds/imperium/sfx_wpn_guns/siege_mortar_fire2.ogg","pitch":1.0,"volume":0.7},
+		{"file":"sounds/imperium/sfx_wpn_guns/siege_mortar_fire3.ogg","pitch":1.0,"volume":0.7},
+	],
+
+    # ARMAGEDDON MISSILE
+    "ii_armageddon_fire":
+    [
+        {"file":"sounds/imperium/sfx_wpn_missiles/apocalypse_fire1.ogg","pitch":1.03,"volume":0.61},
+        {"file":"sounds/imperium/sfx_wpn_missiles/apocalypse_fire2.ogg","pitch":1.03,"volume":0.61},
+        {"file":"sounds/imperium/sfx_wpn_missiles/apocalypse_fire1.ogg","pitch":1.00,"volume":0.60},
+        {"file":"sounds/imperium/sfx_wpn_missiles/apocalypse_fire2.ogg","pitch":1.00,"volume":0.60},
+        {"file":"sounds/imperium/sfx_wpn_missiles/apocalypse_fire1.ogg","pitch":0.97,"volume":0.59},
+        {"file":"sounds/imperium/sfx_wpn_missiles/apocalypse_fire2.ogg","pitch":0.97,"volume":0.59},
+    ],
+	"ii_armageddon_armor_split":{
+		"sounds":[
+			{"file":"sounds/sfx_impacts/explosion_missile_01.ogg","pitch":0.86,"volume":1.04},
+			{"file":"sounds/sfx_impacts/explosion_missile_01.ogg","pitch":0.87,"volume":1.03},
+			{"file":"sounds/sfx_impacts/explosion_missile_01.ogg","pitch":0.88,"volume":1.02},
+			{"file":"sounds/sfx_impacts/explosion_missile_01.ogg","pitch":0.89,"volume":1.01},
+			{"file":"sounds/sfx_impacts/explosion_missile_01.ogg","pitch":0.90,"volume":1.00},
+			{"file":"sounds/sfx_impacts/explosion_missile_02.ogg","pitch":0.86,"volume":1.04},
+			{"file":"sounds/sfx_impacts/explosion_missile_02.ogg","pitch":0.87,"volume":1.03},
+			{"file":"sounds/sfx_impacts/explosion_missile_02.ogg","pitch":0.88,"volume":1.02},
+			{"file":"sounds/sfx_impacts/explosion_missile_02.ogg","pitch":0.89,"volume":1.01},
+			{"file":"sounds/sfx_impacts/explosion_missile_02.ogg","pitch":0.90,"volume":1.00},
+		],
+	},
+
+    # APOCALYPSE MISSILE
+    "ii_apocalyse_missile_fire":
+    [
+        {"file":"sounds/imperium/sfx_wpn_missiles/apocalypse_fire1.ogg","pitch":1.06,"volume":1.02},
+        {"file":"sounds/imperium/sfx_wpn_missiles/apocalypse_fire2.ogg","pitch":1.06,"volume":1.02},
+        {"file":"sounds/imperium/sfx_wpn_missiles/apocalypse_fire1.ogg","pitch":1.03,"volume":1.01},
+        {"file":"sounds/imperium/sfx_wpn_missiles/apocalypse_fire2.ogg","pitch":1.03,"volume":1.01},
+        {"file":"sounds/imperium/sfx_wpn_missiles/apocalypse_fire1.ogg","pitch":1.00,"volume":1.00},
+        {"file":"sounds/imperium/sfx_wpn_missiles/apocalypse_fire2.ogg","pitch":1.00,"volume":1.00},
+        {"file":"sounds/imperium/sfx_wpn_missiles/apocalypse_fire1.ogg","pitch":0.97,"volume":0.99},
+        {"file":"sounds/imperium/sfx_wpn_missiles/apocalypse_fire2.ogg","pitch":0.97,"volume":0.99},
+        {"file":"sounds/imperium/sfx_wpn_missiles/apocalypse_fire1.ogg","pitch":0.94,"volume":0.98},
+        {"file":"sounds/imperium/sfx_wpn_missiles/apocalypse_fire2.ogg","pitch":0.94,"volume":0.98},
+    ],
+
+    # GRAVITY CANNON
+    "ii_gravitycannon_charge":
+    [
+        {"file":"sounds/imperium/sfx_wpn_energy/jupiter_grav_charge.ogg","pitch":1.07,"volume":1.0},
+        {"file":"sounds/imperium/sfx_wpn_energy/jupiter_grav_charge.ogg","pitch":1.1,"volume":1.0},
+        {"file":"sounds/imperium/sfx_wpn_energy/jupiter_grav_charge.ogg","pitch":1.13,"volume":1.0},
+    ],
+    "ii_gravitycannon_intro":
+    [
+        {"file":"sounds/imperium/sfx_wpn_energy/jupiter_grav_start.ogg","pitch":0.97,"volume":1.0},
+        {"file":"sounds/imperium/sfx_wpn_energy/jupiter_grav_start.ogg","pitch":1.0,"volume":1.0},
+        {"file":"sounds/imperium/sfx_wpn_energy/jupiter_grav_start.ogg","pitch":1.03,"volume":1.0},
+    ],
+    "ii_gravitycannon_loop":
+    [
+        {"file":"sounds/imperium/sfx_wpn_energy/jupiter_grav_loop.ogg","pitch":1.0,"volume":1.0},
+    ],
+
+    # LIGHTSPEAR
+    "ii_lightspear_charge":
+    [
+        {"file":"sounds/imperium/sfx_wpn_energy/lightspear_charge.ogg","pitch":0.98,"volume":0.99},
+        {"file":"sounds/imperium/sfx_wpn_energy/lightspear_charge.ogg","pitch":1.00,"volume":1.00},
+        {"file":"sounds/imperium/sfx_wpn_energy/lightspear_charge.ogg","pitch":1.02,"volume":1.01},
+    ],
+    "ii_lightspear_fire":
+    [
+        {"file":"sounds/imperium/sfx_wpn_energy/lightspear_fire.ogg","pitch":0.98,"volume":0.99},
+        {"file":"sounds/imperium/sfx_wpn_energy/lightspear_fire.ogg","pitch":1.00,"volume":1.00},
+        {"file":"sounds/imperium/sfx_wpn_energy/lightspear_fire.ogg","pitch":1.02,"volume":1.01},
+    ],
+    "ii_lightspear_loop":
+    [
+        {"file":"sounds/imperium/sfx_wpn_energy/lightspear_loop.ogg","pitch":1.0,"volume":1.0},
+    ],
+    "ii_lightspear_deactivate":
+    [
+        {"file":"sounds/imperium/sfx_wpn_energy/lightspear_end.ogg","pitch":0.98,"volume":1.09},
+        {"file":"sounds/imperium/sfx_wpn_energy/lightspear_end.ogg","pitch":1.00,"volume":1.10},
+        {"file":"sounds/imperium/sfx_wpn_energy/lightspear_end.ogg","pitch":1.02,"volume":1.11},
+    ],
+
+    # TRIPLEX
+    "ii_triplex_fire":
+    [
+        {"file":"sounds/imperium/sfx_wpn_energy/triplex_fire.ogg","pitch":0.96,"volume":0.98},
+        {"file":"sounds/imperium/sfx_wpn_energy/triplex_fire.ogg","pitch":0.98,"volume":0.99},
+        {"file":"sounds/imperium/sfx_wpn_energy/triplex_fire.ogg","pitch":1.00,"volume":1.00},
+        {"file":"sounds/imperium/sfx_wpn_energy/triplex_fire.ogg","pitch":1.02,"volume":1.01},
+        {"file":"sounds/imperium/sfx_wpn_energy/triplex_fire.ogg","pitch":1.04,"volume":1.02},
+    ],
+
+    # PATELLA BREAKER
+    "ii_patella_fire":
+    [
+		{"file":"sounds/imperium/sfx_wpn_energy/patella_fire.ogg","pitch":0.94,"volume":0.97},
+		{"file":"sounds/imperium/sfx_wpn_energy/patella_fire.ogg","pitch":0.96,"volume":0.98},
+		{"file":"sounds/imperium/sfx_wpn_energy/patella_fire.ogg","pitch":0.98,"volume":0.99},
+		{"file":"sounds/imperium/sfx_wpn_energy/patella_fire.ogg","pitch":1.00,"volume":1.00},
+		{"file":"sounds/imperium/sfx_wpn_energy/patella_fire.ogg","pitch":1.02,"volume":1.01},
+		{"file":"sounds/imperium/sfx_wpn_energy/patella_fire.ogg","pitch":1.04,"volume":1.02},
+		{"file":"sounds/imperium/sfx_wpn_energy/patella_fire.ogg","pitch":1.06,"volume":1.03},
+    ],
+
+    # WAVE MOTION CANNON
+    "ii_boss_wavemotion_charge":
+    [
+        {"file":"sounds/imperium/sfx_wpn_energy/wmg_charge.ogg","pitch":1.0,"volume":1.0},
+    ],
+    "ii_boss_wavemotion_fire":
+    [
+        {"file":"sounds/imperium/sfx_wpn_energy/wmg_fire.ogg","pitch":0.97,"volume":0.99},
+        {"file":"sounds/imperium/sfx_wpn_energy/wmg_fire.ogg","pitch":1.00,"volume":1.00},
+        {"file":"sounds/imperium/sfx_wpn_energy/wmg_fire.ogg","pitch":1.03,"volume":1.01},
+        {"file":"sounds/imperium/sfx_wpn_energy/wmg_fire2.ogg","pitch":0.97,"volume":0.99},
+        {"file":"sounds/imperium/sfx_wpn_energy/wmg_fire2.ogg","pitch":1.00,"volume":1.00},
+        {"file":"sounds/imperium/sfx_wpn_energy/wmg_fire2.ogg","pitch":1.03,"volume":1.01},
+    ],
+    "ii_boss_wavemotion_loop":
+    [
+        {"file":"sounds/imperium/sfx_wpn_energy/wmg_loop.ogg","pitch":1.0,"volume":0.80},
+    ],
+    "ii_boss_wavemotion_end":
+    [
+        {"file":"sounds/imperium/sfx_wpn_energy/wmg_end.ogg","pitch":0.97,"volume":0.69},
+        {"file":"sounds/imperium/sfx_wpn_energy/wmg_end.ogg","pitch":1.00,"volume":0.70},
+        {"file":"sounds/imperium/sfx_wpn_energy/wmg_end.ogg","pitch":1.03,"volume":0.71},
+    ],
+    "ii_boss_wavemotion_impact":
+    [
+        {"file":"sounds/imperium/sfx_wpn_energy/wmg_impact.ogg","pitch":0.97,"volume":1.09},
+        {"file":"sounds/imperium/sfx_wpn_energy/wmg_impact.ogg","pitch":1.00,"volume":1.10},
+        {"file":"sounds/imperium/sfx_wpn_energy/wmg_impact.ogg","pitch":1.03,"volume":1.11},
+    ],
+
+    # MICRO-FORGE
+    "ii_micro_forge_charge":
+    [
+        {"file":"sounds/imperium/sfx_systems/activearmor_loop.ogg","pitch":1.0,"volume":1.0},
+    ],
+    "ii_micro_forge_fire":
+    [
+		{"file":"sounds/sfx_systems/fast_missile_racks_oneshot.ogg","pitch":1.2,"volume":1.0},
+    ],
+    "ii_micro_forge_armor_loop":
+    [
+		{"file":"sounds/sfx_systems/damper_field_loop.ogg","pitch":1,"volume":0.5},
+    ],
+    "ii_micro_forge_elite_startup":
+    [
+		{"file":"sounds/sfx_systems/quantum_disruptor_oneshot.ogg","pitch":1.2,"volume":0.7},
+    ],
+    "ii_micro_forge_elite_fire":
+    [
+		{"file":"sounds/sfx_systems/emp_emitter_impact_01.ogg","pitch":1.0,"volume":1.0},
+		{"file":"sounds/sfx_systems/emp_emitter_impact_02.ogg","pitch":1.0,"volume":1.0},
+		{"file":"sounds/sfx_systems/emp_emitter_impact_03.ogg","pitch":1.0,"volume":1.0},
+    ],
+
+    # ACTIVE ARMOR
+    "ii_active_armor_loop":
+    [
+        {"file":"sounds/imperium/sfx_systems/activearmor_loop.ogg","pitch":1.0,"volume":1.0},
+    ],
+    "ii_active_armor_spark":
+    [
+        {"file":"sounds/imperium/sfx_systems/activearmor_spark_1.ogg","pitch":1.0,"volume":1.0},
+        {"file":"sounds/imperium/sfx_systems/activearmor_spark_2.ogg","pitch":1.0,"volume":1.0},
+        {"file":"sounds/imperium/sfx_systems/activearmor_spark_3.ogg","pitch":1.0,"volume":1.0},
+        {"file":"sounds/imperium/sfx_systems/activearmor_spark_4.ogg","pitch":1.0,"volume":1.0},
+        {"file":"sounds/imperium/sfx_systems/activearmor_spark_5.ogg","pitch":1.0,"volume":1.0},
+    ],
+
+    # SHOCK BUSTER
+    "ii_shock_buster_impact":
+    [
+        {"file":"sounds/imperium/sfx_systems/galvanic_armor_discharge_1.ogg","pitch":0.98,"volume":0.99},
+        {"file":"sounds/imperium/sfx_systems/galvanic_armor_discharge_2.ogg","pitch":0.98,"volume":0.99},
+        {"file":"sounds/imperium/sfx_systems/galvanic_armor_discharge_1.ogg","pitch":1.0,"volume":1.00},
+        {"file":"sounds/imperium/sfx_systems/galvanic_armor_discharge_2.ogg","pitch":1.0,"volume":1.00},
+        {"file":"sounds/imperium/sfx_systems/galvanic_armor_discharge_1.ogg","pitch":1.02,"volume":1.01},
+        {"file":"sounds/imperium/sfx_systems/galvanic_armor_discharge_2.ogg","pitch":1.02,"volume":1.01},
+    ],
+
+    # IMPULSE BOOSTER
+    "ii_impulse_booster_activate":
+    [
+        {"file":"sounds/imperium/sfx_systems/drivebooster_init.ogg","pitch":1.0,"volume":0.70},
+        {"file":"sounds/imperium/sfx_systems/drivebooster_init.ogg","pitch":0.97,"volume":0.71},
+        {"file":"sounds/imperium/sfx_systems/drivebooster_init.ogg","pitch":1.03,"volume":0.69}
+    ],
+    "ii_impulse_booster_boom":
+    [
+        {"file":"sounds/imperium/sfx_systems/drivebooster_boost.ogg","pitch":1.0,"volume":0.95},
+        {"file":"sounds/imperium/sfx_systems/drivebooster_boost.ogg","pitch":1.03,"volume":0.95},
+        {"file":"sounds/imperium/sfx_systems/drivebooster_boost.ogg","pitch":0.97,"volume":0.95}
+    ],
+
+    # INFERNIUM TURBO
+    "ii_infernium_turbo_activate":
+    [
+        {"file":"sounds/imperium/sfx_systems/turbodrive_start.ogg","pitch":1.0,"volume":0.85},
+    ],
+    "ii_infernium_turbo_loop":
+    [
+        {"file":"sounds/imperium/sfx_systems/turbodrive_loop.ogg","pitch":1.0,"volume":0.85},
+    ],
+    "ii_infernium_turbo_off":
+    [
+        {"file":"sounds/imperium/sfx_systems/turbodrive_end.ogg","pitch":1.0,"volume":0.75},
+    ],
+    
+    # CELERITY DRIVE
+	"ii_celerity_activate_start":[
+		{"file":"sounds/sfx_systems/emp_emitter_activate.ogg","pitch":1,"volume":1.0},
+	],
+	"ii_celerity_activate_loop":[
+		{"file":"sounds/sfx_wpn_energy/high_intens_laser_loop.ogg","pitch":1.0,"volume":1.0},
+	],
+	"ii_celerity_start":[
+        {"file":"sounds/imperium/sfx_systems/celeritydrive_activate.ogg","pitch":1.0,"volume":1.0},
+	],
+	"ii_celerity_start_long":[
+        {"file":"sounds/imperium/sfx_systems/celeritydrive_activate_long.ogg","pitch":1.0,"volume":0.7},
+	],
+	"ii_celerity_loop":[
+        {"file":"sounds/imperium/sfx_systems/celeritydrive_loop.ogg","pitch":1.0,"volume":1.0},
+	],
+    "ii_celerity_armor_loop":
+    [
+		{"file":"sounds/sfx_systems/damper_field_loop.ogg","pitch":1,"volume":0.5},
+    ],
+
+    # LUX FINIS
+    "ii_luxfinis_activate":
+    [
+        {"file":"sounds/imperium/sfx_systems/luxfinis_start.ogg","pitch":1.0,"volume":1.00},
+    ],
+    "ii_luxfinis_loop":
+    [
+        {"file":"sounds/imperium/sfx_systems/luxfinis_loop.ogg","pitch":1.0,"volume":1.0},
+    ],
+    "ii_luxfinis_deactivate":
+    [
+        {"file":"sounds/imperium/sfx_systems/luxfinis_end.ogg","pitch":1.0,"volume":0.95},
+    ],
+
+    # OVERDRIVE
+    "ii_overdrive_activate":
+    [
+        {"file":"sounds/imperium/sfx_systems/overdrive_activate.ogg","pitch":1.0,"volume":0.75},
+    ],
+    "ii_overdrive_loop":
+    [
+        {"file":"sounds/imperium/sfx_systems/overdrive_loop.ogg","pitch":1.0,"volume":1.0},
+    ],
+    "ii_overdrive_deactivate":
+    [
+        {"file":"sounds/imperium/sfx_systems/overdrive_deactivate.ogg","pitch":1.0,"volume":0.75},
+    ],
+    "ii_overdrive_failure":
+    [
+        {"file":"sounds/imperium/sfx_systems/overdrive_failure.ogg","pitch":1.0,"volume":1.0},
+    ],
+
+    # MAGNUM SALVO
+    "ii_magnum_salvo":
+    [
+        {"file":"sounds/imperium/sfx_systems/magnum_salvo.ogg","pitch":1.0,"volume":1.35},
+    ],
+
+    # ARBALEST LOADER
+    "ii_arbalest_loader":
+    [
+        {"file":"sounds/imperium/sfx_systems/lib_system.ogg","pitch":1.0,"volume":1.0},
+    ],
+
+    # COMMAND CENTER
+    "ii_commandcenter_ui":
+    [
+        {"file":"sounds/sfx_cargo/cargo_chip_fighter_lpc_pickup.ogg","pitch":1,"volume":0.3},
+    ],
+    "ii_commandcenter_other":
+    [
+        {"file":"sounds/imperium/sfx_systems/commandcenter.ogg","pitch":1,"volume":0.3},
+    ],
+
+    # APOCAYLPSE DOORS
+    "ii_apocalypse_doors":[
+        {"file":"sounds/imperium/sfx_systems/apocalypse_doors.ogg","pitch":1.0,"volume":1.0},
+    ],
+
+    # TITAN LAUNCH
+    "ii_titan_launch_close":
+    [
+        {"file":"sounds/imperium/sfx_wpn_missiles/TITANlaunch_close.ogg","pitch":1.0,"volume":1.0},
+    ],
+    "ii_titan_launch_distant":
+    [
+        {"file":"sounds/imperium/sfx_wpn_missiles/TITANlaunch_distant.ogg","pitch":1.0,"volume":1.0},
+    ],
+
+    # APOCALYPSE LAUNCH
+    "ii_apocalypse_launch_close":
+    [
+        {"file":"sounds/imperium/sfx_wpn_missiles/armageddon_close.ogg","pitch":1.0,"volume":1.0},
+    ],
+    "ii_apocalypse_launch_distant":
+    [
+        {"file":"sounds/imperium/sfx_wpn_missiles/armageddon_distant.ogg","pitch":1.0,"volume":1.0},
+    ],
+
+    # TITAN EXPLODE
+    "ii_titan_explode_charge":
+    [
+        {"file":"sounds/imperium/sfx_systems/TITANnuke_charge_5000ms.ogg","pitch":1.0,"volume":1.0},
+    ],
+    "ii_titan_explode_close":
+    [
+        {"file":"sounds/imperium/sfx_systems/TITANexplode_close.ogg","pitch":1.0,"volume":1.0},
+    ],
+    "ii_titan_explode_distant":
+    [
+        {"file":"sounds/imperium/sfx_systems/TITANexplode_distant.ogg","pitch":1.0,"volume":1.0},
+    ],
+    "ii_titan_elite_emp":
+    [
+        {"file":"sounds/imperium/sfx_systems/activearmor_spark_1.ogg","pitch":1.0,"volume":1.0},
+        {"file":"sounds/imperium/sfx_systems/activearmor_spark_2.ogg","pitch":1.0,"volume":1.0},
+        {"file":"sounds/imperium/sfx_systems/activearmor_spark_3.ogg","pitch":1.0,"volume":1.0},
+        {"file":"sounds/imperium/sfx_systems/activearmor_spark_4.ogg","pitch":1.0,"volume":1.0},
+        {"file":"sounds/imperium/sfx_systems/activearmor_spark_5.ogg","pitch":1.0,"volume":1.0},
+    ],
+
+    # TITAN-X BURST
+    "ii_titanx_burst_charge":
+    [
+        {"file":"sounds/imperium/sfx_systems/TITANnuke_charge_5000ms.ogg","pitch":1.67,"volume":0.75},
+    ],
+    
+    # PHASE CLOAK
+	"ii_phasecloak_activate":[ 
+		{"file":"sounds/sfx_systems/phase_cloak_activate.ogg","pitch":1.2,"volume":1.0},
+	],
+	"ii_phasecloak_deactivate":[ 
+		{"file":"sounds/sfx_systems/phase_cloak_deactivate.ogg","pitch":1.2,"volume":1.0},
+	],
+	"ii_phasecloak_collision":[ 
+		{"file":"sounds/sfx_systems/phase_cloak_collision.ogg","pitch":1.2,"volume":1.0},
+	],
+
+    "ii_engine_loop":{
+        "sounds":[
+            {"file":"sounds/imperium/sfx_engines/ii_engine_fighter.ogg","pitch":1,"volume":1},   # index: 0
+            {"file":"sounds/imperium/sfx_engines/ii_engine_frigate.ogg","pitch":1,"volume":1},   # index: 1
+            {"file":"sounds/imperium/sfx_engines/ii_engine_destroyer.ogg","pitch":1,"volume":1}, # index: 2
+            {"file":"sounds/imperium/sfx_engines/ii_engine_cruiser.ogg","pitch":1,"volume":1},   # index: 3
+            {"file":"sounds/imperium/sfx_engines/ii_engine_capital.ogg","pitch":1,"volume":1},   # index: 4
+            ],
+        "IMPERIUM":{"sounds":[0,1,2,3,4], "pitch":1.0, "volume":0.8},
+        "FIGHTER":{"sounds":[0], "pitch":0.7, "volume":0.3},
+        "FRIGATE":{"sounds":[1], "pitch":1.0, "volume":0.6},
+        "DESTROYER":{"sounds":[2], "pitch":0.75, "volume":0.6},
+        "CRUISER":{"sounds":[3], "pitch":0.85, "volume":0.6},
+        "CAPITAL_SHIP":{"sounds":[4], "pitch":0.9, "volume":0.6},
+    },
+    "ii_engine_accelerate":{
+        "sounds":[
+            {"file":"sounds/sfx_engines/engine_boost_01.ogg","pitch":1.0,"volume":0.4},
+        ],
+        "IMPERIUM":{"sounds":[0], "pitch":0.85, "volume":1},
+        "FIGHTER":{"sounds":[0], "pitch":1, "volume":0.4},
+        "FRIGATE":{"sounds":[0], "pitch":1, "volume":0.6},
+        "DESTROYER":{"sounds":[0], "pitch":1, "volume":0.7},
+        "CRUISER":{"sounds":[0], "pitch":1, "volume":0.8},
+        "CAPITAL_SHIP":{"sounds":[0], "pitch":1, "volume":1},
+    },
+    "ii_emp_loop":{
+        "sounds":[
+            {"file":"sounds/imperium/sfx_shields/ii_overload_loop.ogg","pitch":1,"volume":1.2},
+        ],
+        "IMPERIUM":{"sounds":[0], "pitch":1, "volume":1},
+        "FIGHTER":{"sounds":[0], "pitch":1, "volume":0.4},
+        "FRIGATE":{"sounds":[0], "pitch":1, "volume":0.7},
+        "DESTROYER":{"sounds":[0], "pitch":1, "volume":0.8},
+        "CRUISER":{"sounds":[0], "pitch":1, "volume":0.9},
+        "CAPITAL_SHIP":{"sounds":[0], "pitch":1, "volume":1},
+    },
+    "ii_flux_loop":{
+        "sounds":[
+            {"file":"sounds/sfx_flux/flux_flush_loop.ogg","pitch":1,"volume":0.8},
+        ],
+        "IMPERIUM":{"sounds":[0], "pitch":0.8, "volume":1},
+        "FIGHTER":{"sounds":[0], "pitch":1, "volume":0.4},
+        "FRIGATE":{"sounds":[0], "pitch":1, "volume":0.7},
+        "DESTROYER":{"sounds":[0], "pitch":1, "volume":0.8},
+        "CRUISER":{"sounds":[0], "pitch":1, "volume":0.9},
+        "CAPITAL_SHIP":{"sounds":[0], "pitch":1, "volume":1},
+    },
+    "ii_vent_flux":{
+        "sounds":[
+            {"file":"sounds/sfx_flux/flux_vent.ogg","pitch":1,"volume":0.5},
+        ],
+        "IMPERIUM":{"sounds":[0], "pitch":0.8, "volume":1},
+        "FIGHTER":{"sounds":[0], "pitch":1, "volume":0.4},
+        "FRIGATE":{"sounds":[0], "pitch":1, "volume":0.7},
+        "DESTROYER":{"sounds":[0], "pitch":1, "volume":0.8},
+        "CRUISER":{"sounds":[0], "pitch":1, "volume":0.9},
+        "CAPITAL_SHIP":{"sounds":[0], "pitch":1, "volume":1},
+    },
+    "ii_shield_burnout":{
+        "sounds":[
+            {"file":"sounds/imperium/sfx_shields/ii_overload.ogg","pitch":1,"volume":1.2},
+        ],
+        "IMPERIUM":{"sounds":[0], "pitch":1, "volume":1},
+        "FIGHTER":{"sounds":[0], "pitch":1, "volume":0.4},
+        "FRIGATE":{"sounds":[0], "pitch":1, "volume":0.7},
+        "DESTROYER":{"sounds":[0], "pitch":1, "volume":0.8},
+        "CRUISER":{"sounds":[0], "pitch":1, "volume":0.9},
+        "CAPITAL_SHIP":{"sounds":[0], "pitch":1, "volume":1},
+    },
+    "ii_shield_lower":{
+        "sounds":[
+            {"file":"sounds/sfx_shields/shields_down_large.ogg","pitch":1,"volume":0.4},
+            {"file":"sounds/sfx_shields/shields_down_medium.ogg","pitch":1,"volume":0.4},
+            {"file":"sounds/sfx_shields/shields_down_small.ogg","pitch":1,"volume":0.4},
+        ],
+        "IMPERIUM":{"sounds":[0,1,2], "pitch":1, "volume":1},
+        "FIGHTER":{"sounds":[2], "pitch":1, "volume":0.6},
+        "FRIGATE":{"sounds":[1], "pitch":1, "volume":0.7},
+        "DESTROYER":{"sounds":[1], "pitch":1, "volume":0.8},
+        "CRUISER":{"sounds":[1], "pitch":1, "volume":0.8},
+        "CAPITAL_SHIP":{"sounds":[0], "pitch":1, "volume":1},
+    },
+    "ii_shield_raise":{
+        "sounds":[
+            {"file":"sounds/sfx_shields/shields_up_large.ogg","pitch":1,"volume":1},
+            {"file":"sounds/sfx_shields/shields_up_medium.ogg","pitch":1,"volume":1},
+            {"file":"sounds/sfx_shields/shields_up_small.ogg","pitch":1,"volume":1},
+        ],
+        "IMPERIUM":{"sounds":[0,1,2], "pitch":1, "volume":1},
+        "FIGHTER":{"sounds":[2], "pitch":1, "volume":0.5},
+        "FRIGATE":{"sounds":[2], "pitch":1, "volume":0.6},
+        "DESTROYER":{"sounds":[1], "pitch":1, "volume":0.7},
+        "CRUISER":{"sounds":[1], "pitch":1, "volume":0.8},
+        "CAPITAL_SHIP":{"sounds":[0], "pitch":1, "volume":1},
+    },
+    "ii_explosion_ship":{
+        "sounds":[
+            {"file":"sounds/imperium/sfx_impacts/ii_explode_1.ogg","pitch":1,"volume":1.0},
+            {"file":"sounds/imperium/sfx_impacts/ii_explode_2.ogg","pitch":1,"volume":1.0},
+            {"file":"sounds/sfx_impacts/explosion_03_fighter.ogg","pitch":1,"volume":1.0},
+            {"file":"sounds/imperium/sfx_impacts/ii_explode_3.ogg","pitch":1,"volume":1.0},
+            ],
+        "IMPERIUM":{"sounds":[0,1,2,3], "pitch":1.0, "volume":1.0},
+        "FIGHTER":{"sounds":[2], "pitch":1.0, "volume":1.0},
+        "FRIGATE":{"sounds":[0,1,3], "pitch":1.1, "volume":0.9},
+        "DESTROYER":{"sounds":[0,1,3], "pitch":1.0, "volume":0.95},
+        "CRUISER":{"sounds":[0,1,3], "pitch":0.9, "volume":1.0},
+        "CAPITAL_SHIP":{"sounds":[0,1,3], "pitch":0.8, "volume":1.0},
+    },
+}

@@ -1,0 +1,146 @@
+{
+  "hullName": "SCAV-CO Madcat",
+  "hullId": "sv_madcat",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/sv_madcat.png",
+  "style": "SCAVCO",
+  "height": 154,
+  "width": 112,
+  "center": [56, 77],
+  "collisionRadius": 134,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 126,
+  "viewOffset": 0,
+  "builtInMods": [
+    "repair_gantry",
+    "sv_scavcosubsytems",
+    "sv_scavcoConstruction"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": 0,
+      "locations": [7, -32]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": -0,
+      "locations": [7, 32]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-10, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 25,
+      "angle": 0,
+      "locations": [55, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-62, -0],
+      "length": 72.5,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "CUSTOM",
+      "styleId": "SCAV-CO ENGINE"
+    },
+    {
+      "location": [-68, -20.5],
+      "length": 61,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "CUSTOM",
+      "styleId": "SCAV-CO ENGINE"
+    },
+    {
+      "location": [-68, 20.5],
+      "length": 61,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 20,
+      "style": "CUSTOM",
+      "styleId": "SCAV-CO ENGINE"
+    },
+    {
+      "location": [-77, -40.5],
+      "length": 25.5,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "SCAV-CO ENGINE"
+    },
+    {
+      "location": [-77, 40.5],
+      "length": 25.5,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "SCAV-CO ENGINE"
+    },
+    {
+      "location": [-77, -35.5],
+      "length": 25.5,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "SCAV-CO ENGINE"
+    },
+    {
+      "location": [-77, 35.5],
+      "length": 25.5,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "SCAV-CO ENGINE"
+    }
+  ],
+  "bounds": [
+    -62.5, 15.5,
+    -75.5, 32.5,
+    -75.5, 43.5,
+    -66.5, 43.5,
+    -57.5, 52.5,
+    -45, 52.5,
+    -45, 44.5,
+    -9.5, 44.5,
+    -4.5, 40,
+    -4.5, 17.5,
+    70, 17.5,
+    70, -17.5,
+    -4.5, -17.5,
+    -4.5, -40,
+    -9.5, -44.5,
+    -45, -44.5,
+    -45, -52.5,
+    -57.5, -52.5,
+    -66.5, -43.5,
+    -75.5, -43.5,
+    -75.5, -32.5,
+    -62.5, -15.5
+  ]
+}

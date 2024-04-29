@@ -1,0 +1,63 @@
+{
+  "variantId": "mess_nova_strike",
+  "hullId": "mess_nova",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 17,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "eccm",
+    "advancedoptics",
+    "turretgyros"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "locust",
+        "WS 001": "locust"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "sabotpod",
+        "WS 003": "sabotpod",
+        "WS 004": "sabotpod",
+        "WS 005": "sabotpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 006": "phasebeam_rem",
+        "WS 007": "phasebeam_rem"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 008": "phasebeam_rem",
+        "WS 009": "phasebeam_rem"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 010": "vulcan",
+        "WS 012": "vulcan",
+        "WS 013": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

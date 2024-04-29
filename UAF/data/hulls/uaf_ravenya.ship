@@ -1,0 +1,78 @@
+{
+  "hullName": "Ravenya",
+  "hullId": "uaf_ravenya",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/ravenya_apac.png",
+  "style": "MIDLINE",
+  "height": 45,
+  "width": 39,
+  "center": [19.5, 22.5],
+  "collisionRadius": 45,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 0,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [9.5, 9]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [9.5, -9]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 82,
+      "angle": 90,
+      "locations": [4, 3.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 82,
+      "angle": -90,
+      "locations": [4, -3.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-6, 4.5],
+      "length": 5.5,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-6, -4.5],
+      "length": 5.5,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "TUNE_ENGINE"
+    }
+  ],
+  "bounds": [
+    18, -3,
+    13.5, -11.5,
+    -17, -6.5,
+    -17, 6.5,
+    13.5, 11.5,
+    18, 3
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "hullName": "Stallion",
+  "hullId": "keruvim_stallion",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/keruvim_stallion.png",
+  "style": "PRIDE_TECH",
+  "height": 130,
+  "width": 82,
+  "center": [41, 58],
+  "collisionRadius": 79.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 72.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "keruvim_pride_bulkheads",
+    "keruvim_yacht"
+  ],
+  "builtInWings": [
+    "keruvim_flea"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [48, -0]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        12, 31,
+        12, -31,
+        36, -20,
+        36, 20
+      ]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -45,
+      "locations": [-1, -19]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 45,
+      "locations": [-1, 19]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-48.5, -0],
+      "length": 45,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "ANVIL"
+    },
+    {
+      "location": [-44, -13],
+      "length": 64.5,
+      "width": 17,
+      "angle": -180,
+      "contrailSize": 17,
+      "style": "ANVIL"
+    },
+    {
+      "location": [-44, 13],
+      "length": 64.5,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "ANVIL"
+    }
+  ],
+  "bounds": [
+    -47, -2.5,
+    -40, -24.5,
+    12, -31,
+    31, -25.5,
+    49.5, -6.5,
+    49.5, 6.5,
+    31, 25.5,
+    12, 31,
+    -40, 24.5,
+    -47, 2.5
+  ]
+}

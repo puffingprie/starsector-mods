@@ -1,0 +1,38 @@
+{
+	"id":"ii_armageddon_targeting",
+	"specClass":"missile",
+	"missileType":"MISSILE_TWO_STAGE_SECOND_UNGUIDED",
+	"sprite":"graphics/imperium/missiles/ii_armaenhanced_targeting.png",
+	"size":[9,20],
+	"center":[4.5,10],
+	"collisionRadius":13,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[175,225,255,80],
+	"explosionRadius":75,
+	"flameoutTime":1, # total time from flameout to full fadeout
+	"noEngineGlowTime":0, # time spent without the engine glow being rendered
+	"fadeTime":0.5, # fadeout duration
+	"engineSpec":{"turnAcc":400,
+				  "turnRate":250,
+				  "acc":600,
+				  "dec":0},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-5, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP",
+						"engineColor":[150,200,255,255],
+						"contrailDuration":3,
+						"contrailWidthMult":2,
+						"contrailWidthAddedFractionAtEnd":-0.5,
+						"contrailMinSeg":5,
+						"contrailMaxSpeedMult":0,
+						"contrailAngularVelocityMult":0.5,
+						"contrailSpawnDistMult":0,
+						"contrailColor":[150,200,255,100],
+						"type":"GLOW"
+					},
+				    "width":6.0,
+				    "length":60.0,
+				    "angle":180.0}]
+}

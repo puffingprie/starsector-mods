@@ -1,0 +1,128 @@
+{
+  "hullName": "Carrion",
+  "hullId": "keruvim_carrion",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/keruvim_carrion.png",
+  "style": "LOW_TECH",
+  "height": 236,
+  "width": 142,
+  "center": [67, 116.5],
+  "collisionRadius": 133,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 130,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade",
+    "repair_gantry"
+  ],
+  "builtInWings": [
+    "borer_wing",
+    "borer_wing",
+    "borer_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": 90,
+      "locations": [-63.5, 37]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": -90,
+      "locations": [-63.5, -37]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [95.5, 2]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -45,
+      "locations": [61.5, -18]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-100, 21.5],
+      "length": 90.5,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-101, 32.5],
+      "length": 56.5,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-100, -22.5],
+      "length": 90.5,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-101, -33.5],
+      "length": 56.5,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -68.5, 50.5,
+    -76.5, 41.5,
+    -99, 40,
+    -100, 14.5,
+    -92, 2.5,
+    -92, -2.5,
+    -100, -14.5,
+    -99, -40.5,
+    -77, -42.5,
+    -68.5, -50.5,
+    -35, -49.5,
+    -31, -58.5,
+    -18.5, -61.5,
+    -6, -58.5,
+    -0.5, -49.5,
+    17, -48.5,
+    18, -37.5,
+    57.5, -34.5,
+    73, -17.5,
+    102, -4.5,
+    102, 9.5,
+    81, 11.5,
+    83, 26.5,
+    59, 26.5,
+    53, 31.5,
+    26, 32,
+    21, 38.5,
+    -9, 38.5,
+    -14.5, 43,
+    -44.5, 42.5,
+    -55.5, 50.5
+  ]
+}

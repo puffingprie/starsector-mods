@@ -1,0 +1,85 @@
+{
+  "variantId": "uaf_m_shinoria_strike",
+  "hullId": "uaf_m_shinoria",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 16,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "recovery_shuttles",
+    "ecm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "uaf_edge_type_ii",
+        "WS0008": "uaf_edge_type_ii",
+        "WS0009": "uaf_edge_type_ii"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0021": "uaf_amazoch_light_asrm_dual",
+        "WS0022": "uaf_amazoch_light_asrm_dual"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_minibreve_tnt_s",
+        "WS0002": "uaf_minibreve_tnt_s"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0010": "uaf_weiss_ii_flk",
+        "WS0011": "uaf_rhythm_base_triple",
+        "WS0012": "uaf_rhythm_base_triple"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_merupaka_epd",
+        "WS0004": "uaf_merupaka_epd"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "uaf_pd_reina",
+        "WS0006": "uaf_pd_reina"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "uaf_racun_pod",
+        "WS0018": "uaf_racun_pod"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0019": "uaf_m_inazuma_left_armor_plating"
+    },
+    {
+      "WS0020": "uaf_m_inazuma_right_armor_plating"
+    }
+  ],
+  "wings": [
+    "uaf_wing_menascar"
+  ]
+}

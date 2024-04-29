@@ -1,0 +1,12 @@
+{
+    "displayName": "Fleetbreaker",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "ii_titan_elite",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "ii_titan_elite_var",
+    "weaponGroups": [
+    ],
+}

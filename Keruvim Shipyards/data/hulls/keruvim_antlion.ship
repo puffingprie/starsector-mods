@@ -1,0 +1,105 @@
+{
+  "bounds": [
+    -4.5,
+    14.5,
+    11.5,
+    5.5,
+    11.5,
+    -5.5,
+    -4.5,
+    -14.5,
+    -13,
+    -0
+  ],
+  "center": [
+    20,
+    18.5
+  ],
+  "collisionRadius": 23,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 21,
+      "location": [
+        -14.5,
+        -0
+      ],
+      "style": "ANVIL",
+      "width": 10
+    },
+    {
+      "angle": -169,
+      "contrailSize": 4.855238,
+      "length": 13.715198,
+      "location": [
+        -11,
+        -10.5
+      ],
+      "style": "ANVIL",
+      "width": 4.855238
+    },
+    {
+      "angle": 169,
+      "contrailSize": 4.855238,
+      "length": 13.715198,
+      "location": [
+        -11,
+        10.5
+      ],
+      "style": "ANVIL",
+      "width": 4.855238
+    }
+  ],
+  "height": 37,
+  "hullId": "keruvim_antlion",
+  "hullName": "Antlion",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 20.5,
+  "spriteName": "graphics/ships/keruvim_antlion.png",
+  "style": "PRIDE_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 90,
+      "arc": 220,
+      "id": "WS0001",
+      "locations": [
+        -3,
+        10.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -90,
+      "arc": 220,
+      "id": "WS0002",
+      "locations": [
+        -3,
+        -10.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 113,
+      "id": "WS0003",
+      "locations": [
+        14,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 40
+}

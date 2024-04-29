@@ -1,0 +1,44 @@
+{
+  "variantId": "mule_hmi_heavy_pd",
+  "hullId": "mule_hmi_heavy",
+  "displayName": "Point Defense",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 14,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "turretgyros",
+    "armoredweapons",
+    "magazines"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "swarmer",
+        "WS 002": "swarmer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 005": "vulcan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "med_frag_mg",
+        "WS 006": "med_frag_mg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "hmi_shell_wing"
+  ]
+}

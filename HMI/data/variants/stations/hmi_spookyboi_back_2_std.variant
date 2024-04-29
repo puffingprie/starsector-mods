@@ -1,0 +1,48 @@
+{
+  "variantId": "hmi_spookyboi_back_2_std",
+  "hullId": "hmi_spookyboi_back_2",
+  "displayName": "Beholden",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "hil"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "shockrepeater",
+        "WS0003": "shockrepeater",
+        "WS0004": "shockrepeater",
+        "WS0005": "shockrepeater"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "shockrepeater",
+        "WS0007": "shockrepeater"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0008": "shockrepeater",
+        "WS0009": "shockrepeater"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

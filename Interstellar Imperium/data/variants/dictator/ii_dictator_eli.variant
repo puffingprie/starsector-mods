@@ -1,0 +1,70 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 0,
+    "fluxVents": 24,
+    "goalVariant": true,
+    "hullId": "ii_dictator",
+    "hullMods": ["ii_elite_package"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "ii_dictator_eli",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "ii_heavypulselaser"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "salamanderpod",
+                "WS0004": "salamanderpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ii_solis",
+                "WS0002": "ii_telum"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "ii_siegemortar",
+                "WS0010": "ii_siegemortar"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "ii_arcus",
+                "WS0011": "ii_arcus"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "ii_particlecannon",
+                "WS0013": "ii_particlecannon",
+                "WS0014": "ii_particlecannon",
+                "WS0015": "ii_particlecannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "lrpdlaser",
+                "WS0007": "lrpdlaser",
+                "WS0016": "lrpdlaser",
+                "WS0017": "lrpdlaser"
+            }
+        }
+    ]
+}

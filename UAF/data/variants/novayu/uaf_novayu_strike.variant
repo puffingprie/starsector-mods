@@ -1,0 +1,47 @@
+{
+  "variantId": "uaf_novayu_strike",
+  "hullId": "uaf_novayu",
+  "displayName": "Strike",
+  "goalVariant": false,
+  "fluxCapacitors": 3,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "eccm",
+    "auxiliarythrusters"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_minibreve_tnt_s",
+        "WS0002": "uaf_minibreve_tnt_s"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "uaf_weiss_flk"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "uaf_pd_reina_ii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_racun_pod"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

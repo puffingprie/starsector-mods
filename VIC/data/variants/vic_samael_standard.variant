@@ -1,0 +1,40 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 6,
+    "fluxVents": 16,
+    "goalVariant": true,
+    "hullId": "vic_samael",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vic_samael_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "gravitonbeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "heavymauler"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "hveldriver"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "vic_strigoy",
+                "WS0003": "vic_strigoy",
+                "WS0004": "vic_strigoy",
+                "WS0005": "vic_strigoy",
+                "WS0008": "vic_strigoy",
+                "WS0009": "vic_strigoy"
+            }
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+	"id":"hikone_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"hitGlowRadius":20,
+	#"hitGlowRadius":40,
+	"length":60.0,
+	"width":6,
+	"fadeTime":0.4,
+	"fringeColor":[100,165,255,180],
+	"coreColor":[255,255,175,120],
+	"glowColor":[255,165,30,25],
+	"glowRadius":20,		
+}

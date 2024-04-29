@@ -1,0 +1,23 @@
+{
+  "variantId": "expsp_glance_Interceptor",
+  "hullId": "expsp_glance",
+  "displayName": "Interceptor Drone",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "expsp_coilciws",
+        "WS0002": "expsp_flarelauncher_crimson_1"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

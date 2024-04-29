@@ -1,0 +1,166 @@
+{
+  "hullName": "Puterisaya",
+  "hullId": "uaf_wing_puterisaya",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/puterisaya_agshp.png",
+  "style": "UAF_FIGHTER_M",
+  "height": 105,
+  "width": 80,
+  "center": [40, 47],
+  "collisionRadius": 79.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 66,
+  "viewOffset": 0,
+  "builtInMods": [
+    "eccm",
+    "pointdefenseai"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 25,
+      "angle": 0,
+      "locations": [13, 13]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 25,
+      "angle": -0,
+      "locations": [13, -13]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 25,
+      "angle": 0,
+      "locations": [9, 16.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 25,
+      "angle": -0,
+      "locations": [9, -16.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 25,
+      "angle": 0,
+      "locations": [4, 13]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 25,
+      "angle": -0,
+      "locations": [4, -13]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [12, 23.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [12, -23.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-6, 28.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-6, -28.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-20, 13.5],
+      "length": 43,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "MELODY_ENGINE_F"
+    },
+    {
+      "location": [-20, -13.5],
+      "length": 43,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "MELODY_ENGINE_F"
+    },
+    {
+      "location": [-17, -17],
+      "length": 43,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [-17, 17],
+      "length": 43,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "MELODY_ENGINE_H"
+    }
+  ],
+  "bounds": [
+    -37.5, 2,
+    -34, 7.5,
+    -27.5, 11,
+    -27.5, 19.5,
+    -38, 19.5,
+    -34, 38.5,
+    -21.5, 38.5,
+    -14.5, 31.5,
+    19.5, 14.5,
+    55.5, 1.5,
+    55.5, -1.5,
+    19.5, -14.5,
+    -14.5, -31.5,
+    -21.5, -38.5,
+    -34, -38.5,
+    -38, -19.5,
+    -27.5, -19.5,
+    -27.5, -11,
+    -34, -7.5,
+    -37.5, -2
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "hullName": "Puukko",
+  "hullId": "expsp_puukko",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/expsp_puukko.png",
+  "style": "EXPSP_MVS",
+  "height": 95,
+  "width": 58,
+  "center": [29, 47.5],
+  "collisionRadius": 68.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 64,
+  "viewOffset": 0,
+  "builtInMods": [
+    "machinatargetingsystems",
+    
+  ],
+  "builtInWings": [
+    "expsp_attackfunnel_PD_single"
+  ],
+  "builtInWeapons": {
+    "WS0002": "expsp_pokemini",
+    "WS0003": "expsp_pokemini"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [39.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [30, 10.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -0,
+      "locations": [30, -10.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 0,
+      "locations": [3.5, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 100,
+      "locations": [-19.5, 11]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -100,
+      "locations": [-19.5, -11]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [7.5, 19]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [7.5, -19]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-39, 8],
+      "length": 20,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-39, -8],
+      "length": 20,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-38, -0],
+      "length": 30,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    }
+  ],
+  "bounds": [
+    -43.5, -12,
+    -30, -14,
+    -21.5, -19.5,
+    3, -24,
+    5.5, -12,
+    32, -7,
+    32, 7,
+    5.5, 12,
+    3, 24,
+    -21.5, 19.5,
+    -30, 14,
+    -43.5, 12
+  ]
+}

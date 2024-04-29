@@ -1,0 +1,202 @@
+{
+  "hullName": "Colossus MK.II (MVS)",
+  "hullId": "expsp_colossus2mvs",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/expsp_colossus2_mvs.png",
+  "style": "EXPSP_MVS",
+  "height": 224,
+  "width": 184,
+  "center": [92, 115],
+  "collisionRadius": 178,
+  "shieldCenter": [-3, 0],
+  "shieldRadius": 160,
+  "viewOffset": 0,
+  "builtInMods": [
+    "militarized_subsystems",
+    "unstable_injector",
+    "machinatargetingsystems"
+  ],
+  "builtInWings": [
+    "expsp_attackfunnel_PD_wing"
+  ],
+  "builtInWeapons": {
+    "WS0009": "expsp_hammerrackmns"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 78,
+      "locations": [69, 40]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -78,
+      "locations": [69, -40]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 18,
+      "locations": [96.5, 28]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -18,
+      "locations": [96.5, -28]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 84.5,
+      "locations": [55, 59]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -84.5,
+      "locations": [55, -59]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [7, 61]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [7, -61]
+    },
+    {
+      "id": "WS0009",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [91, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -14, 2,
+        -14, -2
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-110.5, 61.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-110.5, -61.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-110.5, 54.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-110.5, -54.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-110.5, 46.5],
+      "length": 40,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    },
+    {
+      "location": [-110.5, -46.5],
+      "length": 40,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail"
+    }
+  ],
+  "bounds": [
+    -101, -46.5,
+    -100, -62.5,
+    -91.5, -76,
+    -50, -79,
+    -23.5, -64,
+    -21.5, -37.5,
+    1, -33,
+    2.5, -56.5,
+    99, -54.5,
+    100.5, 59,
+    67, 59,
+    2, 60,
+    2, 43.5,
+    -21, 40.5,
+    -23, 64.5,
+    -37.5, 65.5,
+    -49.5, 78,
+    -92.5, 79.5,
+    -104, 68.5,
+    -103.5, 47.5,
+    -45, 41.5,
+    -69, 25,
+    -69, -25,
+    -45, -47
+  ]
+}

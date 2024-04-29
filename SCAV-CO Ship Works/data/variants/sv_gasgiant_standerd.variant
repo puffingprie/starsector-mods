@@ -1,0 +1,60 @@
+{
+  "variantId": "sv_gasgiant_standerd",
+  "hullId": "sv_gasgiant",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 3,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "autorepair",
+    "blast_doors"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0021": "sv_grateaxe",
+        "WS0022": "sv_grateaxe"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "sv_doorknocker",
+        "WS0008": "sv_doorknocker",
+        "WS0015": "sv_rustybarrellauncher",
+        "WS0016": "sv_rustybarrellauncher",
+        "WS0017": "sv_doorknocker",
+        "WS0018": "sv_doorknocker",
+        "WS0019": "sv_flyswatter",
+        "WS0020": "sv_flyswatter",
+        "WS0023": "sv_daneaxe"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sv_flyswatter",
+        "WS0002": "sv_flyswatter",
+        "WS0003": "sv_rustybarrellauncher",
+        "WS0004": "sv_rustybarrellauncher",
+        "WS0005": "sv_flyswatter",
+        "WS0006": "sv_flyswatter",
+        "WS0009": "sv_flyswatter",
+        "WS0010": "sv_flyswatter",
+        "WS0011": "sv_flyswatter",
+        "WS0012": "sv_flyswatter",
+        "WS0013": "sv_flyswatter",
+        "WS0014": "sv_flyswatter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

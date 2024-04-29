@@ -1,0 +1,58 @@
+{
+  "variantId": "mess_amalgam_med_mass_omega",
+  "hullId": "mess_amalgam_med_mass",
+  "displayName": "Omega",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "rifttorpedo"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "minipulser",
+        "WS0003": "minipulser",
+        "WS0009": "minipulser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "shockrepeater",
+        "WS0005": "shockrepeater",
+        "WS0006": "shockrepeater",
+        "WS0007": "shockrepeater",
+        "WS0008": "shockrepeater",
+        "WS0011": "shockrepeater"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0010": "riftlance",
+        "WS0012": "riftbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0013": "resonatormrm"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

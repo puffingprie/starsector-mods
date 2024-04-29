@@ -1,0 +1,87 @@
+{
+  "hullName": "Raze",
+  "hullId": "expsp_raze",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/expsp_raze.png",
+  "style": "EXPSP_MVS",
+  "height": 30,
+  "width": 28,
+  "center": [14, 15],
+  "collisionRadius": 28.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 27.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 20,
+      "angle": 0,
+      "locations": [-2, 6]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 20,
+      "angle": -0,
+      "locations": [-2, -6]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": -0,
+      "locations": [6, -3]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-12, 3],
+      "length": 9.953463,
+      "width": 2.952008,
+      "angle": 170,
+      "contrailSize": 2.952008,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    },
+    {
+      "location": [-12, -3],
+      "length": 9.953463,
+      "width": 2.952008,
+      "angle": -170,
+      "contrailSize": 2.952008,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    },
+    {
+      "location": [-13, -0],
+      "length": 15,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "MVSTrail_NOCONTRAIL"
+    }
+  ],
+  "bounds": [
+    -11, -4,
+    -8.5, -13,
+    7, -11,
+    6.5, -5,
+    13, -4,
+    13, 4,
+    6.5, 5,
+    7, 11,
+    -8.5, 13,
+    -11, 4
+  ]
+}

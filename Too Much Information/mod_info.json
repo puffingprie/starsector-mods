@@ -1,0 +1,11 @@
+{
+    "id": "timid_tmi",
+    "name": "Too Much Information",
+    "author": "Timid",
+    "utility": "false",
+    "version": "0.98a",
+    "description": "Let you see stats usually hidden but useful to know!",
+    "gameVersion": "0.97a-RC10",
+	"jars":["jars/TooMuchInformation.jar"],
+	"modPlugin":"data.hullmods.TMI_modPlugin",
+}

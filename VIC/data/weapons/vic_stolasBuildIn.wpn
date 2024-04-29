@@ -1,0 +1,29 @@
+{
+	"id":"vic_stolasBuildIn",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"LARGE",
+	"turretSprite":"graphics/ships/Stolas/vic_stolas_astronomicon_refit.png",	
+	"turretGlowSprite":"",
+	"hardpointSprite":"",
+	"hardpointGlowSprite":"graphics/ships/Stolas/vic_stolas_main_weapon_glow.png",	
+	"everyFrameEffect":"data.scripts.weapons.vic_stolasBuildIn",
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	#"animationType":"GLOW",
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":150.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":15.0,
+					   "particleSizeMin":20,
+					   "particleSizeRange":5.0,
+					   "particleDuration":0.7,
+					   "particleCount":120,
+					   "particleColor":[0,255,255,255]},		
+	"glowColor":[255,255,255,225],
+	"autocharge":true,
+	#"interruptibleBurst":true,
+	"projectileSpecId":"vic_astronomiconShot",  # projectile that will be fired
+}

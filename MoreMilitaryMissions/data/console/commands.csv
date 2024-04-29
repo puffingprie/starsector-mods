@@ -1,0 +1,2 @@
+command,class,tags,syntax,help
+mmm_Reset,mmm.console.Reset,"core,cheat,campaign",mmm_Reset,Resets the difficulty and remove saved invasion fleets of Defense Missions from More Military Missions.

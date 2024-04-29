@@ -1,0 +1,17 @@
+{
+	"baseHullId":"ii_tribunal",
+	"skinHullId":"ii_tribunal_shock",
+	"descriptionPrefix":"Upgraded with a Shock Buster system.",
+	"hullName":"Tribunal (Shock)",
+    "tags":["no_dealer"],
+	"restoreToBaseHull":true,
+	"ordnancePoints":20,
+	"systemId":"ii_shockbuster",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["fluxcoil", "fluxdistributor"],
+	"builtInWeapons":{
+    },
+}

@@ -1,0 +1,15 @@
+{
+	"baseHullId":"ii_module_bastion",
+	"skinHullId":"ii_module_bastion_magnum",
+	"descriptionPrefix":"Equipped with the Magnum Salvo system.",
+	"restoreToBaseHull":true,
+	"hullDesignation":"Magnum Missile Bastion",
+	"systemId":"ii_magnumsalvo_station",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":[],
+	"builtInWeapons":{
+    },
+}

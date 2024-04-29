@@ -1,0 +1,51 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "ii_module_support_extended",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "ii_module_support_extended_sta",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "ii_sledgecannon",
+                "WS0004": "ii_sledgecannon",
+                "WS0005": "ii_sledgecannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "ii_fundae_m",
+                "WS0008": "ii_fundae_m"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "ii_arcus",
+                "WS0009": "ii_arcus",
+                "WS0010": "ii_arcus",
+                "WS0011": "ii_arcus"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ii_heavypulsar",
+                "WS0002": "ii_heavypulsar"
+            }
+        }
+    ],
+    "wings": [
+        "ii_carnifex_wing",
+        "ii_vicarius_wing"
+    ]
+}
