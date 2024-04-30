@@ -1,0 +1,60 @@
+ 1.2b (May 05, 2023)
+=====================
+Updated to be compatible with Starsector 0.96a
+
+ 1.2 (July 12, 2022)
+=====================
+Updated to be compatible with Starsector 0.95.1a
+Added the following to saves/common/config/lw_autosave_settings.json.data:
+ - "forceSaveAfterMapChange", forces a save after every hyperspace jump
+ - "saveAsCopy", if enabled, every autosave creates a new save
+Removed autosave_settings.json.default as it was confusing new players
+Updated config loading logic to autopopulate any missing entries
+Updated autosave to use API's cmdSave() instead of simulating keypresses
+
+ 1.1c (March 26, 2021)
+=======================
+Updated to be compatible with Starsector 0.95a
+Renamed generated settings file to saves/common/lw_autosave_settings.json.data
+(Old settings file will be removed if present)
+
+ 1.1b (August 28, 2020)
+========================
+Moved version file hosting to GitHub
+
+ 1.1 (November 16, 2018)
+=========================
+Updated to be compatible with Starsector 0.9a
+This mod now requires LazyLib 2.4b or later
+Settings are now stored in saves/common/autosave_settings.json.data
+ - This file will only exist after launching the mod at least once
+
+ 1.0f (April 21, 2017)
+=======================
+Updated to be compatible with Starsector 0.8a
+
+ 1.0e (March 16, 2017)
+=======================
+Switched version file hosting to Bitbucket
+
+ 1.0d (November 19, 2015)
+==========================
+Fixed issue where simulated quicksave key presses weren't always registering
+
+ 1.0c (November 19, 2015)
+==========================
+Updated to be compatible with Starsector 0.7a
+
+ 1.0b (December 08, 2014)
+==========================
+Added "minutesBetweenSubsequentWarnings" setting to autosave_settings.json
+Fixed bug where the mod started spamming sector messages after a failed autosave
+
+ 1.0 (December 08, 2014)
+=========================
+Initial release:
+ - By default, warns when you haven't saved in a while, and tells you how many
+   battles and market transactions have occurred since the last save
+ - Player can enable autosaves in autosave_settings.json, can autosave if enough
+   time has passed since the last save, or set it to force a save after every
+   battle or market transaction

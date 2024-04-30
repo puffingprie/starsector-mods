@@ -259,9 +259,9 @@
 	"upkeepReductionFromInFactionImports":0.5,
 	"storageFreeFraction":0.01, # fraction of base value, per moth
 	
-	"maxIndustries":[1,1,1,2,3,4,4,4,4,4,5,5,5,5],
+	"maxIndustries":[1,1,1,2,3,4,4,4,4,4,5,5,5,5,5,6,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10],
 	"overMaxIndustriesPenalty":5, # stability penalty
-	"maxColonySize":8, # maximum size to which a player colony can grow
+	"maxColonySize":18, # maximum size to which a player colony can grow
 	
 	"rangeForMaxExoticDemand":10,
 	"exoticUtilityMultAtMaxRange":2,
@@ -336,7 +336,7 @@
 	
 	
 	# start economy fleet spawning configuration
-	"maxEconFleets":60,
+	"maxEconFleets":120,
 	"minEconSpawnIntervalPerMarket":10, # no less than this many days between trade fleets from same market
 	# end economy fleet spawning configuration
 	
@@ -396,12 +396,12 @@
 	"maxHostileActivityFleetsPerSystem":11,
 	
 	# HA, max fleet counts (if not present: no limit)
-	"luddicPathMaxFleets":4,
-	"perseanLeagueMaxFleets":3,
-	"triTachyonMaxFleets":2,
-	"diktatMaxFleets":2,
-	"luddicChurchMaxFleets":1,
-	"hegemonyMaxFleets":2,
+	"luddicPathMaxFleets":6,
+	"perseanLeagueMaxFleets":5,
+	"triTachyonMaxFleets":4,
+	"diktatMaxFleets":4,
+	"luddicChurchMaxFleets":3,
+	"hegemonyMaxFleets":4,
 	
 	"pirateProtectionPaymentFraction":0.1,
 	"pirateProtectionMercSpawnChance":0.1,
@@ -459,9 +459,9 @@
 	
 	##### BEGIN MISC FLEETS - shrine pilgrims, academy shuttle flights, etc #####
 	
-	"maxMiscFleets":8, # total below does not need to add up to this value
-	"miscFleetPilgrimMaxFleets":6,
-	"miscFleetAcademyMaxFleets":4,
+	"maxMiscFleets":16, # total below does not need to add up to this value
+	"miscFleetPilgrimMaxFleets":8,
+	"miscFleetAcademyMaxFleets":6,
 	
 	"miscSpawnTimeoutPerMarket":[1, 20], # min/max days between misc fleets from same market
 	"miscSpawnInterval":[1, 10], # min/max days between misc fleets spawning anywhere
@@ -480,13 +480,13 @@
 	"blueprintBasePriceCapital":80000,
 	"blueprintPriceOriginalShipMult":0.5, # there's also a base value added based on hull size
 	
-	"maxContacts":5,
+	"maxContacts":10,
 	"contactMinMissions":1,
-	"contactMaxMissions":3,
-	"contactMaxMissionsWithPriorityBonus":4,
+	"contactMaxMissions":6,
+	"contactMaxMissionsWithPriorityBonus":8,
 	"contactMissionUpdateIntervalDays":30,
-	"priorityContactMaxNumMissionsBonus":3,
-	"priorityContactMaxMissionQualityBonus":0.2,
+	"priorityContactMaxNumMissionsBonus":6,
+	"priorityContactMaxMissionQualityBonus":0.4,
 	"defaultPotentialContactProbability":0.25,
 	"potentialContactProbabilityAddPerFail":0.1,
 	
@@ -527,7 +527,7 @@
 	"basePersonBounty":40000,
 	"personBountyPerLevel":15000,
 	"minPersonBounties":3,
-	"maxPersonBounties":5,
+	"maxPersonBounties":10,
 	"personBountyNoSpawnRangeAroundPlayerLY":3,
 	
 	"pirateBaseBounty1":40000,
@@ -537,7 +537,7 @@
 	"pirateBaseBounty5":80000,
 	
 	"minPirateBases":2,
-	"maxPirateBases":3,
+	"maxPirateBases":6,
 	
 	"minLPBases":2,
 	"maxLPBases":3,
@@ -696,7 +696,7 @@
 	"minFleetSpawnChanceMult":0.1,
 	"minFleetSpawnChanceRangeLY":10,
 	"maxPirateFleets":30, # unused 
-	"maxMercFleets":15,
+	"maxMercFleets":30,
 	"minMarketExistenceDaysForMercs":90, # this many days for a new colony before mercs may spawn from it 
 	"minMarketSizeForMercs":4,
 	
@@ -735,13 +735,13 @@
 	"adminSalaryTier2":20000, # need to keep for backwards comp for now
 	"idleAdminSalaryMult":0.1,
 	
-	"baseMaxOutposts":4,
-	"baseMaxAdmins":6,
+	"baseMaxOutposts":8,
+	"baseMaxAdmins":12,
 	"colonyOverMaxPenalty":2,
 	
 	
 	# using Stats.OFFICER* instead 
-	#"officerMaxHireable":40, # at colonies throughout the Sector
+	#"officerMaxHireable":80, # at colonies throughout the Sector
 	#"officerMercFraction":0.25, # fraction of hireable officers that are mercs - fixed level, 2x salary, not subject to officer limit, require story points
 	
 	"officerBaseProb":0.1,
@@ -754,14 +754,14 @@
 	"officerPromoteProbMult":0.2, # post-combat; multiplier applied to ratio of FP destroyed to player fleet FP
 	
 	"officerMercMinLevel":4,
-	"officerMercMaxLevel":12,
+	"officerMercMaxLevel":24,
 	"officerMercPayMult":2, # hiring bonus and salary
 	"officerMercContractDur":730, # minimum days before mercs will try to leave
 	
 	"officerXPRequiredMult":4, # higher number = slower officer level gain
-	"officerMaxLevel":15,
-	"officerMaxEliteSkills":1,
-	"officerAIMax":10,
+	"officerMaxLevel":30,
+	"officerMaxEliteSkills":4,
+	"officerAIMax":20,
 	
 	# these officers use fixed skill sets now so changing this without also changing SalvageSpecialAssigner
 	# is probably ill-advised
@@ -772,7 +772,7 @@
 	"probSleeperPodsOfficerIsExceptional":0.2, # there's 20ish sleeper pod officers total
 	"probSleeperPodsUnexceptionalOfficerUseTemplate":0.5,
 	
-	"maxAIFleetCommanderLevel":14,
+	"maxAIFleetCommanderLevel":28,
 	"commanderLevelForTwoSkills":6,
 	"commanderLevelForOneSkill":4,
 	"baseFPPerAICore":20, # remnant fleets
@@ -805,8 +805,8 @@
 	"suppliesPerShipOverMaxInFleet":0.2, # this is actually a fraction for the total maintenance cost, this * (ships - maxShipsInFleet) 
 	
 	"showMaxShipsWidgetAtShips":25,
-	"maxShipsInFleet":120,
-	"maxShipsInAIFleet":120,
+	"maxShipsInFleet":240,
+	"maxShipsInAIFleet":240,
 	"maxOfficersInAIFleet":20, # should match what a max-skill player can get
 	
 	# when activating the "speed up time" control, has to be an integer >= 2
@@ -839,7 +839,7 @@
 	"baseSensorDestroyer":60, 
 	"baseSensorCruiser":90, 
 	"baseSensorCapital":150, 
-	"maxSensorShips":15, # number of ships used to sensor profile/strength of a fleet 
+	"maxSensorShips":30, # number of ships used to sensor profile/strength of a fleet 
 	"sensorRangeMax":5000, # anything beyond gets culled from detection checks
 	"sensorRangeMaxHyper":2000, # anything beyond gets culled from detection checks (in hyperspace)
 	
@@ -855,8 +855,8 @@
 	"detectionRangeDetailsAlwaysNonFleet":0.3, # fraction of max detection range at which hidden entities are "discovered"
 	
 	"minBattleSize":200, # in supplies-to-recover. min value for settings slider
-	"defaultBattleSize":800, # in supplies-to-recover. starting value for settings slider
-	"maxBattleSize":800, # in supplies-to-recover. max value for settings slider
+	"defaultBattleSize":1200, # in supplies-to-recover. starting value for settings slider
+	"maxBattleSize":1200, # in supplies-to-recover. max value for settings slider
 	"stationDeploymentBonusMult":1, # battlesize is increased by (station cost * this) deployment points
 	"minFractionOfBattleSizeForSmallerSide":0.4,
 	
@@ -871,7 +871,7 @@
 	"escapeStartDistance":4000,
 	"escapeFlankDistance":12000,
 	
-	"maxNoObjectiveBattleSize":200, # maximum number of supplies-to-recover on the smaller side for the battle to not have objectives
+	"maxNoObjectiveBattleSize":400, # maximum number of supplies-to-recover on the smaller side for the battle to not have objectives
 
 	"noDeployCRPercent":0,
 	"noDeployCrewPercent":5,
