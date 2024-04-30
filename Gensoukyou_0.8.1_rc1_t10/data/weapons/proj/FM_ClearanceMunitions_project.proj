@@ -1,0 +1,53 @@
+{
+	"id":"FM_ClearanceMunitions_project",
+	"specClass":"missile",
+	"missileType":"PHASE_CHARGE",
+	#"sprite":"graphics/missiles/bomblet0.png",
+	"sprite":"graphics/weapons/projects/FM_ClearanceMunitions.png",
+	"glowSprite":"graphics/weapons/projects/FM_ClearanceMunitions_glow.png",
+	"glowColor":[77,255,148,200],
+	"size":[20,20],
+	"center":[10,10],
+	"collisionRadius":9,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[36,255,109,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":200, # purely visual
+	"flameoutTime":0.2, # total time from flameout to full fadeout
+	"noEngineGlowTime":0.05, # time spent without the engine glow being rendered
+	"fadeTime":0.05, # fadeout duration
+	"engineSpec":{"turnAcc":100,
+				  "turnRate":10,
+				  "acc":50,
+				  "dec":50,
+				  "maxspeed":50
+				  },
+	"explosionSpec":{"duration":0.2f, # not visual
+					 "radius":125,
+					 "coreRadius":100, # full damage within core radius
+					 "collisionClass":MISSILE_FF,
+					 "collisionClassByFighter":MISSILE_FF},
+	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+					"slowToMaxSpeed":true,
+					"range":90,
+					"explosionSpec":{"duration":0.2f,
+									 "radius":125,
+									 "coreRadius":100, # full damage within core radius
+									 "collisionClass":PROJECTILE_NO_FF,
+									 "collisionClassByFighter":PROJECTILE_NO_FF,
+									 "particleSizeMin":3.0,
+									 "particleSizeRange":5.0,
+									 "particleDuration":1,
+									 "particleCount":50,
+									 "particleColor":[0,255,186,175],
+									 "explosionColor":[36,255,109,160],
+									 "useDetailedExplosion":true,
+									 "useDetailedExplosionColorAlpha":true,
+									 "detailedExplosionRadius":200,
+									 "detailedExplosionFlashRadius":250,
+									 "detailedExplosionFlashDuration":0.5,
+									 "detailedExplosionFlashColorFringe":[69,255,204,255],
+									 "detailedExplosionFlashColorCore":[168,255,231,255],
+									 "sound":"prox_charge_explosion"},
+					},
+
+}

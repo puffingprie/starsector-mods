@@ -1,0 +1,8 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value
+negl_wing,mi_negl_interceptor,"fighter2,interceptor, mid,metelson_bp ",0,,5,6,V,4000,500,300,3,FIGHTER,Fighter,10,6500
+grudiver_wing,mi_grudiver_wing,"interceptor1,interceptor,metelson_bp ",0,,3,5,CLAW,4000,300,700,6,INTERCEPTOR,Interceptor,5,6000
+golgata_wing,mi_golgata_fighter,"fighter2,interceptor,metelson_bp ",1,0.1,6,10,V,4000,500,,2,FIGHTER,Heavy Fighter,12,8000
+obex_wing,mi_obex_bomber,"bomber3,bomber, rare_bp,metelson_bp",2,0.15,8,20,V,5000,500,,3,BOMBER,Bomber,15,10000
+#DRONES,#DRONES,#DRONES,#DRONES,#DRONES,#DRONES,#DRONES,#DRONES,#DRONES,#DRONES,,#DRONES,#DRONES,#DRONES,#DRONES,#DRONES
+articu_drones,mi_acutordrone_standard,"interceptor, low",0,1,8,8,BOX,900,200,,6,INTERCEPTOR,Construction Drone,10,10250
+collier_drones,mi_collierdrone_standard,"fighter1, mid",0,1,8,10,V,1250,200,,2,FIGHTER,Mining Drone,10,9000

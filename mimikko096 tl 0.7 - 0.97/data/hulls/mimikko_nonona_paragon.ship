@@ -1,0 +1,346 @@
+{
+  "hullName": "Song of Stars",
+  "hullId": "mimikko_nonona_paragon",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/mimikko_nonona_paragon.png",
+  "style": "Mimikko_nonona",
+  "coversColor": "255,255,255,255",
+  "height": 364,
+  "width": 330,
+  "center": [165, 182],
+  "collisionRadius": 270,
+  "shieldCenter": [1, 0],
+  "shieldRadius": 270,
+  "viewOffset": 0,
+  "builtInMods": [
+    "advancedcore",
+    "mimikko_nonona_paragon_hullmod"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [166, 16]
+    },
+    {
+      "id": "WS 002",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [166, -15.5]
+    },
+    {
+      "id": "WS 003",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 80,
+      "locations": [11, 97.5]
+    },
+    {
+      "id": "WS 004",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -80,
+      "locations": [11, -99]
+    },
+    {
+      "id": "WS 005",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 20,
+      "locations": [134, 40]
+    },
+    {
+      "id": "WS 006",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -20,
+      "locations": [134, -40]
+    },
+    {
+      "id": "WS 007",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 65,
+      "locations": [59, 89]
+    },
+    {
+      "id": "WS 008",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -65,
+      "locations": [59, -90]
+    },
+    {
+      "id": "WS 009",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 170,
+      "locations": [-135, 62]
+    },
+    {
+      "id": "WS 010",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 190,
+      "locations": [-135, -62]
+    },
+    {
+      "id": "WS 011",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 50,
+      "locations": [114, 68.5]
+    },
+    {
+      "id": "WS 012",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 43.5,
+      "locations": [86, 54]
+    },
+    {
+      "id": "WS 013",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 100,
+      "locations": [-32, 111]
+    },
+    {
+      "id": "WS 014",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 130,
+      "locations": [-44, 81]
+    },
+    {
+      "id": "WS 015",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 90,
+      "locations": [-84, 103]
+    },
+    {
+      "id": "WS 016",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 120,
+      "locations": [-136, 121]
+    },
+    {
+      "id": "WS 017",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -40,
+      "locations": [114, -69]
+    },
+    {
+      "id": "WS 018",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -50,
+      "locations": [86, -55]
+    },
+    {
+      "id": "WS 019",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 260,
+      "locations": [-32, -111]
+    },
+    {
+      "id": "WS 020",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 230,
+      "locations": [-44, -81]
+    },
+    {
+      "id": "WS 021",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -90,
+      "locations": [-84, -104]
+    },
+    {
+      "id": "WS 022",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 240,
+      "locations": [-136, -121]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-169, 138.5],
+      "length": 96,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 48,
+      "style": "mimikko_nonona"
+    },
+    {
+      "location": [-177, 104],
+      "length": 96,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 48,
+      "style": "mimikko_nonona"
+    },
+    {
+      "location": [-180, 71.5],
+      "length": 64,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 48,
+      "style": "mimikko_nonona"
+    },
+    {
+      "location": [-181.5, 63.5],
+      "length": 64,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 48,
+      "style": "mimikko_nonona"
+    },
+    {
+      "location": [-179, 57],
+      "length": 64,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 48,
+      "style": "mimikko_nonona"
+    },
+    {
+      "location": [-178.5, -56.5],
+      "length": 64,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 48,
+      "style": "mimikko_nonona"
+    },
+    {
+      "location": [-181.5, -64.5],
+      "length": 64,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 48,
+      "style": "mimikko_nonona"
+    },
+    {
+      "location": [-181, -71.5],
+      "length": 64,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 48,
+      "style": "mimikko_nonona"
+    },
+    {
+      "location": [-179.5, -104.5],
+      "length": 96,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 48,
+      "style": "mimikko_nonona"
+    },
+    {
+      "location": [-170.5, -139],
+      "length": 96,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 48,
+      "style": "mimikko_nonona"
+    }
+  ],
+  "bounds": [
+    169, 37,
+    129, 66,
+    84, 95,
+    57, 118,
+    43, 117,
+    9, 134,
+    -34, 134,
+    -64, 117,
+    -99, 127,
+    -120, 140,
+    -142, 157,
+    -172, 146,
+    -178, 116,
+    -181, 88,
+    -181, 57,
+    -173, 38,
+    -143, 32,
+    -167, 3,
+    -57, -23,
+    -24, 2,
+    -59, 26,
+    -1, 73,
+    80, -1,
+    -1, -72,
+    -57, -23,
+    -167, 3,
+    -146, -31,
+    -176, -41,
+    -180, -55,
+    -185, -75,
+    -177, -112,
+    -173, -144,
+    -140, -156,
+    -121, -139,
+    -100, -125,
+    -62, -115,
+    -32, -134,
+    8, -134,
+    44, -116,
+    56, -118,
+    80, -98,
+    126, -66,
+    169, -35
+  ]
+}

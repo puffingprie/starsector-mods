@@ -1,0 +1,23 @@
+{
+  "variantId": "acs_mook_variant",
+  "hullId": "acs_mook",
+  "displayName": "Escort Drone",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "acs_minilag",
+        "WS0003": "acs_backupmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

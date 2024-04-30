@@ -1,0 +1,21 @@
+{
+    "displayName": "Long Range",
+    "fluxCapacitors": 2,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "pn_rs",
+    "hullMods": [
+        "advancedshieldemitter",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "variantId": "pn_rs_longrange",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0001": "pn_skscannon",
+            "WS0002": "pn_skscannon"
+        }
+    }]
+}

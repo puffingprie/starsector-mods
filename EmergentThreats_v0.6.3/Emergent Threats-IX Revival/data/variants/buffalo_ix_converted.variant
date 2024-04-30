@@ -1,0 +1,20 @@
+{
+    "displayName": "Converted",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "buffalo_ix",
+    "hullMods": [
+        "extendedshieldemitter",
+        "ix_ground_invasion_conversion",
+        "frontemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "buffalo_ix_converted",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {"WS 001": "morningstar_ciws_ix"}
+    }]
+}

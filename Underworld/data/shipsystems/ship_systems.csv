@@ -1,0 +1,7 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
+Burst Drive,uw_inferniumdrive,1,,,,,,,,,0.3,3.2,2.3,11,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,,,graphics/icons/hullsys/burn_drive.png
+Shadow Skimmer,uw_shadowskim,,,,,,,,2,0.05,0.5,,0.5,0,,TRUE,,TRUE,,,,,,,,,graphics/icons/hullsys/displacer.png
+Flare Launcher,uw_fighterflares_eccm,,,,,,,,,,,,,15,,,,,,,,,,,,,graphics/icons/hullsys/flare_launcher.png
+Incubus Drive,uw_incubusdrive,,,,,,,,2,0.15,0.4,1.2,0.4,0,,,,,,,,,,,,,graphics/icons/hullsys/burn_drive.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Disco Ball,uw_boss_drone_disco_ball,,,,,,,,1,0.01,0,,0,0,,,,,,,,,,,,restricted,graphics/icons/hullsys/drone_pd_high.png

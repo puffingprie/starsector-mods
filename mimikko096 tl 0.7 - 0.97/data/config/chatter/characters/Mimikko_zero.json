@@ -1,0 +1,157 @@
+{
+    "name": "Zero",
+    "personalities": ["steady", "aggressive", "reckless","cautious"],
+    "gender": ["m","f","n"],
+    "chance": 0,
+    "talkativeness": 0.65,
+    "categoryTags": [
+        "othermedia",
+    ],
+    "lines": {
+        "start": [                                            #开始？
+            {
+                "text": "Captain, Zero is ready.",
+            },
+            {
+                "text": "Zero will do everything in her power to assist the Captain.",
+            },
+            {
+                "text": "Captain, Zero will be a good girl.",
+            },
+        ],
+        "start_boss": [                                    #打boss
+            {
+                "text": "There is no info on this ship in the database.",
+            },
+        ],
+        "retreat": [                                            #撤退
+            {
+                "text": "There are somethings Captain aren't satifised with, right?",
+            },
+        ],
+        "out_of_missiles": [                                #用完导弹
+            {
+                "text": "Missile has beem emptied",
+            },
+            {
+                "text": "Missile Out",
+            },
+            {
+                "text": "Ugh, missiles have been used up.",
+            },
+        ],
+        "engaged": [                                     #舰船部署
+            {
+                "text": "Is Zero, obedient today?",
+            },
+            {
+                "text": "Captain, Zero will be a good girl.",
+            },
+            {
+                "text": "You like zero, right......right.",
+            },
+            {
+                "text": "Captain, Zero will never reject the Captain.",
+            },
+        ],
+        "need_help": [                                         #需要帮助
+            {
+                "text": "Zero, is needed, right?",
+            },
+            {
+                "text": "Zero, will be good. So please, don't leave.",
+            },
+            {
+                "text": "If zero.......made a mistake, please tell Zero, please do not abandon Zero.",
+            },
+        ],
+        "pursuing": [                                               #发动进攻
+            {
+                "text": "Zero will complete the Captain's mission.",
+            },
+            {
+                "text": "Enemy have shown an opening, Zero request the Captain to issue an attack command.",
+            },
+            {
+                "text": "Maybe going all out on the enemy will mean the Captain will not leave Zero.",
+            },
+        ],
+        "running": [                                        #后撤
+            {
+                "text": "Zero is carrying out the retreat command.",
+            },
+            {
+                "text": "Zero is retreating.",
+            },
+        ],
+        "hull_90": [                                     #90%生命值
+            {
+                "text": "Hull under 90%, Zero can feel, this ship's pain",
+            },
+            {
+                "text": "Captain, Zero's ship has its hull reduced to below 90%.",
+            },
+            {
+                "text": "Hull under 90%, Zero can still assist the captain",
+            },
+        ],
+        "hull_50": [
+            {
+                "text": "Hull under 50%, Zero can feel, this ship is screaming in pain",
+            },
+            {
+                "text": "Captain,Hull under 50%, Zero is requesting retreat.",
+            },
+            {
+                "text": "Hull has been reduced to below 50%, Zero, will not refuse the Captain's command. ",
+            },
+        ],
+        "hull_30": [
+            {
+                "text": "You like zero, right......right.",
+            },
+            {
+                "text": "Zero, is needed, right?",
+            },
+            {
+                "text": "Hull has been reduced to below 30%, please do not abandon zero, captain.",
+            },
+        ],
+        "overload": [                					#过载
+            {
+                "text": "Zero's breathing, is chaotic.",
+            },
+            {
+                "text": "Zero's operating system has overloaded.",
+            },
+            {
+                "text": "Overloaded, Zero cannot feel this ship.",
+            },
+        ],
+        "death": [							#沉船
+            {
+                "text": "If zero.......made a mistake, please tell Zero, please do not abandon Zero.",
+            },
+            {
+                "text": "(Image Feed) Captain, Zero is knocked out, we've sent her into the escape pod, tell Zero we are fine. (Salutes, followed by fire of explosion)",
+            },
+            {
+                "text": "Zero, doesnt want to leave the captain......",
+            },
+        ],
+        "victory": [							#胜利
+            {
+                "text": "Zero will not hate the Captain.",
+            },
+            {
+                "text": "Uh, Captain, whats wrong? ",
+            },
+            {
+                "text": "Captain, can you be with Zero more?",
+            },
+            {
+                "text": "I hope Captain can, talk to Zero more, Zero likes to hear it, likes it alot.",
+            },
+        ],
+    },
+}

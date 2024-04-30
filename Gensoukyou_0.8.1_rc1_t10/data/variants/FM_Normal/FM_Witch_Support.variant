@@ -1,0 +1,38 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 20,
+    "fluxVents": 16,
+    "goalVariant": true,
+    "hullId": "FM_Witch",
+    "hullMods": [
+        "targetingunit",
+        "eccm",
+        "FantasyPlayerMod"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Witch_Support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "FM_Masterspark"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "salamanderpod",
+                "WS0004": "salamanderpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "FM_Spark_pd",
+                "WS0003": "FM_Spark_pd"
+            }
+        }
+    ]
+}

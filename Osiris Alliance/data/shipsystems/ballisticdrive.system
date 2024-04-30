@@ -1,0 +1,34 @@
+{
+	"id":"ballisticdrive",
+	"type":"ENGINE_MOD",
+	#"aiType":"BURN_DRIVE",
+	"aiType":"BURN_DRIVE_TOGGLE",
+
+	"statsScript":"data.shipsystems.scripts.BallisticDriveStats",
+	
+	#"engineGlowColor":[255,220,200,255],
+	"engineGlowColor":[255,255,100,190],
+	"engineGlowLengthMult":2,
+	"engineGlowWidthMult":1.5,
+	"engineGlowGlowMult":2,
+	
+	"flameoutOnImpactChance":0.5,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":true,
+	"alwaysAccelerate":true,
+	
+	#"useSound":"system_burn_drive_activate",
+	#"loopSound":"system_burn_drive_loop",
+	#"deactivateSound":"system_burn_drive_deactivate",
+	"useSound":"oas_burn_start2",
+	"loopSound":"oas_burn_loop2",
+	"deactivateSound":"oas_burn_end2",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"activeSpeedIncrease":150,
+		"burstMovementPotential":0,
+		"averageSpeedIncrease":150,
+	}
+}

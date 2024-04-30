@@ -1,0 +1,22 @@
+{
+  "variantId": "pn_drone_harb",
+  "hullId": "pn_drone_harb",
+  "displayName": "P9",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "pn_fluxbomb"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

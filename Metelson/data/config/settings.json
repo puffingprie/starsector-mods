@@ -1,0 +1,17 @@
+{
+	"designTypeColors": {
+		"Metelson": [
+			110,
+			145,
+			80,
+			255
+		],
+	},
+	"misc": {
+	},
+	"graphics": {
+		"blueprint_packages": {
+			"metelson_package": "graphics/faction/mi_flag.png",
+		},
+	},
+}

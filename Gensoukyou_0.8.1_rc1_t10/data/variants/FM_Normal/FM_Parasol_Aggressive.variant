@@ -1,0 +1,31 @@
+{
+    "displayName": "Aggressive",
+    "fluxCapacitors": 10,
+    "fluxVents": 9,
+    "goalVariant": true,
+    "hullId": "FM_Parasol",
+    "hullMods": ["FantasySageMod"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Parasol_Aggressive",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "atropos"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "sabot"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FM_IcicleFall",
+                "WS0002": "FM_IcicleFall"
+            }
+        }
+    ]
+}

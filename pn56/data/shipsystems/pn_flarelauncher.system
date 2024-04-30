@@ -1,0 +1,12 @@
+{
+  "id": "pn_flarelauncher",
+  "type": "WEAPON",
+  "aiType": "FLARE",
+  "weaponDataId": "pn_flarelauncher",
+
+  #"useSound": "system_flare_launcher_active",
+  "outOfUsesSound": "gun_out_of_ammo",
+
+  "aiHints": {
+  }
+}

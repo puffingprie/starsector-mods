@@ -1,0 +1,162 @@
+{
+  "bounds": [
+    -93.5,
+    2,
+    -1,
+    15,
+    2.5,
+    31.5,
+    25,
+    34.5,
+    40,
+    22.5,
+    48.5,
+    9,
+    48.5,
+    -9,
+    40,
+    -22.5,
+    25,
+    -34.5,
+    2.5,
+    -31.5,
+    -1,
+    -15,
+    -93.5,
+    -2
+  ],
+  "builtInMods": [
+    "pn_cores",
+    "pn_phasefield"
+  ],
+  "center": [
+    36,
+    95
+  ],
+  "collisionRadius": 79.227524,
+  "engineSlots": [
+    {
+      "angle": 160.974396,
+      "contrailSize": 3.553299,
+      "length": 11.719365,
+      "location": [
+        2,
+        19
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 3.553299
+    },
+    {
+      "angle": -160.974396,
+      "contrailSize": 3.553299,
+      "length": 11.719365,
+      "location": [
+        2,
+        -19
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 3.553299
+    },
+    {
+      "angle": -151.389542,
+      "contrailSize": 4.469287,
+      "length": 12.609773,
+      "location": [
+        4.5,
+        -27.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 4.469287
+    },
+    {
+      "angle": 151.389542,
+      "contrailSize": 4.469287,
+      "length": 12.609773,
+      "location": [
+        4.5,
+        27.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 4.469287
+    }
+  ],
+  "height": 148,
+  "hullId": "pn_thelep",
+  "hullName": "Thel-EP",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 77.16217,
+  "spriteName": "graphics/pn/ships/pn_thelep.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 20,
+      "id": "WS0001",
+      "locations": [
+        34.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 123.111343,
+      "arc": 0,
+      "id": "WS0007",
+      "locations": [
+        -25.5,
+        11.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -123.111343,
+      "arc": 0,
+      "id": "WS0008",
+      "locations": [
+        -25.5,
+        -11.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 135,
+      "arc": 0,
+      "id": "WS0009",
+      "locations": [
+        -36.5,
+        9.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -135,
+      "arc": 0,
+      "id": "WS0010",
+      "locations": [
+        -36.5,
+        -9.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 72
+}

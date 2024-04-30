@@ -1,0 +1,19 @@
+{
+	"id":"FM_Hailstorm_shot",
+	"specClass":"projectile",
+	"onHitEffect":"com.fs.starfarer.api.impl.combat.IonCannonOnHitEffect",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":10.0,
+	"width":12.0,
+	"fadeTime":0.25,
+	"fringeColor":[0,170,255,235],
+	"coreColor":[200,200,200,255],
+	"hitGlowRadius":70,	
+	"textureType":"ROUGH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0,
+	"bulletSprite":"graphics/weapons/projects/FM_ice_shell.png"
+	
+}

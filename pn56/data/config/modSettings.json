@@ -1,0 +1,11 @@
+{
+    "MagicLib": {
+        "bounty_board": {
+			# List bounties that will be loaded from data/config/modFiles/MagicBounty_data.json
+			# "id" : bounty id
+			# ["required_mod_A","required_mod_B"] : list mods that are required to load that bounty, can be used to make cross-mod bounties. Can be left empty.
+			
+			"pn_pdliner_mission": [ "pn" ]
+		},
+    }
+}

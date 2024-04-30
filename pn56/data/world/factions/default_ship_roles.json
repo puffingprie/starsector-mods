@@ -1,0 +1,175 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+		"pn_rs_longrange":5,
+		"pn_rs_kinetic":5,
+
+		"pn_wolf_Assault":7,
+		"pn_wolf_Strike":3,
+		
+		"pn_snz_escort":5,
+		"pn_snz_support":5,
+		
+		"pn_sike_energy":1,
+		"pn_sike_kinetic":1,
+		
+		"pn_spore_assault":1,		
+	},
+	"combatSmall":{
+		"pn_rs_longrange":5,
+		"pn_rs_kinetic":5,
+		
+		"pn_wolf_Assault":7,
+		"pn_wolf_Strike":3,
+		
+		"pn_snz_escort":8,
+		"pn_snz_support":8,
+	
+		"pn_spore":2,
+		"pn_spore_assault":1,
+
+		"pn_spore-mk2":1,
+		"pn_spore-mk2_elite":1,
+		"pn_spore-mk2_support":1,
+		
+		"pn_sike_energy":2,
+		"pn_sike_kinetic":2,
+		
+		"pn_sike-m_offensive":2,
+		"pn_sike-m_defensive":2,
+		
+		"pn_trundler_combat":1,
+		"pn_trundler_support":1,
+	},
+	"combatMedium":{
+		"pn_aggr_mid":3,
+		"pn_aggr_long":3,
+		
+		"pn_sl-t1_attack":5,
+		"pn_sl-t1_support":5,
+		
+		"pn_sl-t2_longrange":3,
+		"pn_sl-t2_standard":3,
+		
+		"pn_sl-t3_barrage":2,
+		"pn_sl-t3_assault":2,
+	},
+	"combatLarge":{
+		"pn_kaala_artillery":5,
+		"pn_kaala_combat":5,
+		"pn_pdcruiser_standard":3,		
+	},
+	"combatCapital":{
+		"pn_samaa-ebm_mainline":5,
+		"pn_samaa-ebm_frontline":5,
+                
+        "pn_samaa-dsi_close":5,
+        "pn_samaa-dsi_standard":5,
+	},
+	
+	
+	# hybrid ships with good combat and cargo capacity
+	#"combatFreighterSmall":{
+	#},
+	"combatFreighterMedium":{
+		"pn_louse_standard":5,
+		"pn_louse_strike":3,
+		"pn_tick_support":5,
+	},
+	"combatFreighterLarge":{
+		"pn_tick_support":5,
+		"pn_buffalo_Standard":5,
+		
+	},
+	
+	"civilianRandom":{
+		"pn_mite_unarmed":5,
+		"pn_buffalo_Standard":5,
+
+	},
+
+	# carriers
+	#"carrierSmall":{
+	#},
+	"carrierMedium":{
+		"pn_cimex_support":5,
+		"pn_cimex_assault":5,
+	},
+	"carrierLarge":{
+		"pn_cimex_assault":10,
+	},
+
+	# phase ships
+	"phaseSmall":{
+		"pn_thelep_support":5,
+		"pn_thelep_assault":5,
+	},
+	"phaseMedium":{
+		"pn_korlo-skt_elite_strike":5,
+		"pn_korlo-skt_elite_support":5,
+	},
+	"phaseLarge":{
+		"pn_korlo-skt_assault":5,
+		"pn_korlo-skt_support":5,
+		"pn_korlo-skt_longrange":5,
+		
+		"pn_silverfish-mpk_charger":1,
+		"pn_silverfish-mpk_assault":1,
+	},
+	"phaseCapital":{
+		"pn_eyfel_support":3,
+		"pn_eyfel_assault":3,
+	},
+
+	# freighters and such
+	"freighterSmall":{
+		"pn_mite_unarmed":5,
+		"pn_mite_support":5,
+	},
+	"freighterMedium":{
+		"pn_louse_standard":5,
+	},
+	
+	"freighterLarge":{
+		"pn_tick_support":5,
+	},
+	
+	"tankerSmall":{
+		"pn_mite-s_unarmed":5,
+	},
+	#"tankerMedium":{
+	#},
+	"tankerLarge":{
+		"pn_tick_support":5,
+	},
+	
+	"personnelSmall":{
+		"pn_mite_unarmed":5,
+	},
+
+	"personnelMedium":{
+		"pn_valkyrie_advanced":10,
+	},
+	#"personnelLarge":{
+	#},
+	
+	#"linerSmall":{
+	#},
+	#"linerMedium":{
+	#},
+	#"linerLarge":{
+	#},
+	
+	# utility ships
+	"tug":{
+		"pn_mlmv_tug":10,
+	},
+	"crig":{
+		"pn_crig_unarmed":10,
+	},
+	"utility":{
+		"pn_crig_unarmed":10,
+		"pn_mlmv_tug":10,
+	},
+}

@@ -1,0 +1,24 @@
+{
+  "sikeEngine": {
+    "engineColor": [62, 6, 148, 255],
+    "contrailParticleSizeMult": 0.1,
+    "contrailParticleDuration": 0,
+    "contrailParticleFinalSizeMult": 0.1,
+    "contrailMaxSpeedMult": 0.049,
+    "contrailAngularVelocityMult": 0.26,
+    "contrailColor": [60, 2, 40, 90],
+    "engineGlowGlowMult": 1.5,
+    "type": "SMOKE" # GLOW or SMOKE
+  },
+  "pnEngine1": {
+    "engineColor": [62, 6, 148, 255],
+    "contrailParticleSizeMult": 4,
+    "contrailParticleDuration": 1,
+    "contrailParticleFinalSizeMult": 2.5,
+    "contrailMaxSpeedMult": 0.5f,
+    "contrailAngularVelocityMult": 0f,
+    "contrailColor": [60, 2, 40, 20],
+    "engineGlowGlowMult": 1.2,
+    "type": "SMOKE" # GLOW or SMOKE
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "masterVersionFile":"https://raw.githubusercontent.com/TechpriestEnginseer/solid-winner3/master/supplyforging.version",
+    "modName":"Supply Forging",
+    "modThreadId":17503,
+    "modVersion":
+    {
+        "major":1,
+        "minor":5,
+    },
+	"starsectorVersion":"0.97a-RC10",
+	"directDownloadURL":"https://github.com/TechpriestEnginseer/solid-winner3/releases/download/1.5a/Supply.Forging.zip"
+}

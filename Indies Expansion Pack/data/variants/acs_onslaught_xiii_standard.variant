@@ -1,0 +1,49 @@
+{
+  "variantId": "acs_onslaught_xiii_standard",
+  "hullId": "acs_onslaught_xiii",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 33,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull",
+    "targetingunit",
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "hveldriver",
+        "WS 002": "acs_small_flakhag",
+        "WS 003": "hveldriver",
+        "WS 004": "acs_small_flakhag",
+        "WS 005": "acs_small_flakhag",
+        "WS 006": "acs_small_flakhag",
+        "WS 007": "acs_autothumper",
+        "WS 008": "acs_small_flakhag",
+        "WS 009": "acs_small_flakhag",
+        "WS 010": "dualflak",
+        "WS 011": "dualflak",
+        "WS 012": "hveldriver",
+        "WS 013": "hveldriver",
+        "WS 014": "acs_autothumper",
+        "WS 015": "acs_autothumper",
+        "WS 016": "tpc",
+        "WS 017": "tpc",
+        "WS 018": "hellbore",
+        "WS 019": "hellbore",
+        "WS 020": "hellbore",
+        "WS 021": "acs_velites_pod",
+        "WS 022": "acs_velites_pod",
+        "WS 023": "acs_velites_pod",
+        "WS 024": "acs_velites_pod"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

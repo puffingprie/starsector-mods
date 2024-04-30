@@ -1,0 +1,57 @@
+{
+  "hullName": "Bushi",
+  "hullId": "mm_bushi_interceptor",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/mm/fighters/mm_bushi_interceptor.png",
+  "style": "HIGH_TECH",
+  "height": 12,
+  "width": 10,
+  "center": [5, 5.5],
+  "collisionRadius": 7.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 9,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": 0,
+      "locations": [5.5, -2]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-6, 1.5],
+      "length": 7,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-2, 5.5],
+      "length": 7,
+      "width": 3,
+      "angle": 90,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-4, 3.5],
+      "length": 12.690152,
+      "width": 5.370305,
+      "angle": 135,
+      "contrailSize": 5.370305,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    5.5, -3,
+    -5.5, -3,
+    -5.5, 4.5,
+    2.5, 4.5
+  ]
+}

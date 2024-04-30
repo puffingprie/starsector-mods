@@ -1,0 +1,9 @@
+{
+  "id": "oas",
+  "name": "Osiris Alliance",
+  "version": "4.0.2",
+  "description": "Osiris Alliance faction, Nexerilin and commissioned crews compatible.",
+  "gameVersion": "0.97a-RC8",
+  "modPlugin": "data.scripts.OasPlugin",
+  "jars": ["Osiris Alliance.jar"]
+}

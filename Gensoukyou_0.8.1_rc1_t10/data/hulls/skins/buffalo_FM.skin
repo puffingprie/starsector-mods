@@ -1,0 +1,37 @@
+{
+  "baseHullId": "buffalo",
+  "baseValueMult": 1,
+  "builtInMods": [
+    "FantasyBasicMod"
+  ],
+  "descriptionId": "buffalo",
+  "descriptionPrefix": "The ship has been adapted by Gensoukyou Manufacture to respond to the increasing demands in Persean Sector.",
+  "fighterBays": 0,
+  "fpMod": 0,
+  "hullDesignation": "Freighter",
+  "hullName": "Buffalo (GM)",
+  "manufacturer": "Gensoukyou Manufacture",
+  "removeBuiltInMods": [
+    "degraded_engines"
+  ],
+  "systemId":"drone_pd_x2",
+  "restoreToBaseHull": false,
+  "skinHullId": "buffalo_FM",
+  "spriteName": "graphics/ships/skins/buffalo_FM.png",
+  "tech": "Gensoukyou Project",
+  "weaponSlotChanges": {
+    "WS 001": {
+      "type": "ENERGY"
+    }
+  },
+  	"engineSlotChanges":{
+		"0":{
+          	"style": "HIGH_TECH",
+		},
+		"1":{"style":"HIGH_TECH"},
+		"2":{"style":"HIGH_TECH"},
+		"3":{"style":"HIGH_TECH"},
+		"4":{"style":"HIGH_TECH"},
+		"5":{"style":"HIGH_TECH"},
+	},
+}

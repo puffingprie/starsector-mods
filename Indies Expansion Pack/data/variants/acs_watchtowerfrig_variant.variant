@@ -1,0 +1,29 @@
+{
+  "variantId": "acs_watchtowerfrig_variant",
+  "hullId": "acs_watchtowerfrig",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0002": "acs_small_lasgun",
+        "WS0003": "vulcan",
+        "WS0004": "acs_medium_arty",
+        "WS0005": "pilum"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "acs_mook_r_wing",
+    "acs_mook_wing"
+  ]
+}

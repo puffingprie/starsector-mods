@@ -1,0 +1,167 @@
+{
+  "hullName": "Atlas BRRT",
+  "hullId": "acs_atladumdum",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/acs_atlasdumdum.png",
+  "style": "LOW_TECH",
+  "height": 400,
+  "width": 203,
+  "center": [101.5, 200],
+  "collisionRadius": 294.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 228.5,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0004": "acs_bigmookrailslauncher",
+    "WS0005": "acs_bigmookrailslauncher",
+    "WS0006": "acs_bigmookrailslauncher",
+    "WS0007": "acs_bigmookrailslauncher"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 307,
+      "angle": 0,
+      "locations": [148.5, -1]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 245,
+      "angle": 140.5,
+      "locations": [-118.5, 77.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 245,
+      "angle": -140.5,
+      "locations": [-118.5, -77.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-24, 67]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-24, -67]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [73, 57]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [73, -57]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-195, 17],
+      "length": 47,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-195, -17],
+      "length": 47,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-193.5, 33],
+      "length": 39.555218,
+      "width": 12.310108,
+      "angle": 180,
+      "contrailSize": 12.310108,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-193.5, -33],
+      "length": 39.555218,
+      "width": 12.310108,
+      "angle": -180,
+      "contrailSize": 12.310108,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-191, 43],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-191, -43],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-197, -0.5],
+      "length": 60.5,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    170, -41,
+    104, -62,
+    100.5, -82,
+    45, -85.5,
+    45, -62.5,
+    10.5, -66.5,
+    4, -94,
+    -50, -94.5,
+    -67.5, -64,
+    -110, -83.5,
+    -175.5, -51.5,
+    -175.5, 51.5,
+    -110, 83.5,
+    -67.5, 64,
+    -50, 94.5,
+    4, 94,
+    10.5, 66.5,
+    45, 62.5,
+    45, 85.5,
+    100.5, 82,
+    104, 62,
+    170, 41
+  ]
+}

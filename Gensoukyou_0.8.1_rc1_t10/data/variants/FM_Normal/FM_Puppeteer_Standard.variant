@@ -1,0 +1,38 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 20,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "FM_Puppeteer",
+    "hullMods": [
+        "expanded_deck_crew",
+        "hardenedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Puppeteer_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FM_Spark_pd",
+                "WS0002": "FM_Spark_pd",
+                "WS0003": "FM_Spark_pd",
+                "WS0004": "FM_Spark_pd"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "FM_SkySerpent_S",
+                "WS0006": "FM_SkySerpent_S"
+            }
+        }
+    ],
+    "wings": [
+        "FM_Shanghai_wing",
+        "FM_Shanghai_wing"
+    ]
+}

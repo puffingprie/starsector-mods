@@ -1,0 +1,30 @@
+{
+	"baseHullId":"vice_preceptor_base",
+	"skinHullId":"vice_preceptor",
+	"descriptionId":"vice_preceptor",
+	"hullName":"Preceptor",
+	"ordnancePoints":79,
+	"hullDesignation":"Escort Carrier",
+	"descriptionPrefix":"An escort carrier based upon a heavily modified Gemini combat freighter hull. When the Sindrian Diktat embarked upon its ambitious fighter carrier program, it turned to the Preceptor as a stopgap measure while its future battlecarrier was still in the planning phase. In creating the Preceptor, the original blueprint was updated at the forge level, at extravagant expense, with a larger flight deck and modified weapon mounts that adhered to Askonian naval doctrine, which also undid all the potential cost savings of using a readily available design.",
+	"tags":["LG_bp"],
+	"tech":"Sindrian Diktat",
+	"fighterBays":2,
+	"spriteName":"graphics/vice/ships/preceptor.png",
+	"baseValueMult":1.25,
+	"removeWeaponSlots":[], 			# ids
+	"removeEngineSlots":[], 			# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 			# hullmod ids
+	"removeBuiltInWeapons":[], 			# weapon slot ids
+	#"systemId":"vice_lightofsindria",
+	#"maxSpeed":50,
+	#"shieldEfficiency":0.6,
+	"builtInMods":["vice_converted_escort_carrier", "solar_shielding", "andrada_mods", "vice_fleet_override"],
+	"addHints":["CARRIER"],
+	removeHints:["HIDE_IN_CODEX"],
+	"builtInWeapons":{
+    },
+    "weaponSlotChanges":{
+	},
+	"engineSlotChanges":{
+	},
+}

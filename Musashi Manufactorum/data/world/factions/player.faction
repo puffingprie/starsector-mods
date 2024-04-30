@@ -1,0 +1,36 @@
+{
+"flags":[
+		{
+			"logo":"graphics/mm/factions/mm_flag.png",
+			"crest":"graphics/mm/factions/mm_crest.png",
+		},
+],	
+"portraits":{
+		"standard_male":[
+			"graphics/mm/portraits/mm_madmiral_01.png",
+			"graphics/mm/portraits/mm_madmiral_02.png",
+			"graphics/mm/portraits/mm_madmiral_03.png",
+			"graphics/mm/portraits/mm_madmiral_04.png",
+			"graphics/mm/portraits/mm_mbusiness_01.png",
+			"graphics/mm/portraits/mm_mbusiness_02.png",
+			"graphics/mm/portraits/mm_memperor_01.png",
+			"graphics/mm/portraits/mm_memperor_02.png",
+			"graphics/mm/portraits/mm_mwanderer_01.png",
+			"graphics/mm/portraits/mm_mwanderer_02.png",
+		],
+		"standard_female":[
+			"graphics/mm/portraits/mm_wbusiness_01.png",
+			"graphics/mm/portraits/mm_wbusiness_02.png",
+			"graphics/mm/portraits/mm_wbusiness_03.png",
+			"graphics/mm/portraits/mm_wbusiness_04.png",
+			"graphics/mm/portraits/mm_wtrader_01.png",
+			"graphics/mm/portraits/mm_wtrader_02.png",
+			"graphics/mm/portraits/mm_wtrader_03.png",
+			"graphics/mm/portraits/mm_wtrader_04.png",
+			"graphics/mm/portraits/mm_wtrader_05.png",
+			"graphics/mm/portraits/mm_wtrader_06.png",
+		],
+	},
+}
+
+

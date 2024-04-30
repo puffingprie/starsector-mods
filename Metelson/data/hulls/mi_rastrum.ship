@@ -1,0 +1,172 @@
+{
+  "hullName": "Rastrum",
+  "hullId": "mi_rastrum",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/rastrum.png",
+  "style": "MIDLINE",
+  "height": 118,
+  "width": 128,
+  "center": [64, 59],
+  "collisionRadius": 95.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 84.5,
+  "viewOffset": 0,
+  "builtInWings": [
+    "collier_drones",
+    "collier_drones"
+  ],
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -15, -0,
+        -13.5, 3,
+        -13.5, -3,
+        -10.5, -3,
+        -9.5, -0,
+        -10.5, 3
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 90,
+      "locations": [4, 37]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -90,
+      "locations": [4, -37]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 125,
+      "angle": -30,
+      "locations": [29, -17]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 125,
+      "angle": 30,
+      "locations": [29, 17]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [24, 42]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [24, -42]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 90,
+      "locations": [7.5, 18]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": -90,
+      "locations": [7.5, -18]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -12, 3,
+        -14.5, 1.5,
+        -15, -2.5,
+        -11.5, -3.5,
+        -9, -2,
+        -9.5, 2
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-39, 34],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-39, -34],
+      "length": 32,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-57.5, -13],
+      "length": 64,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-57.5, 13],
+      "length": 64,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -41.5, -31,
+    -58.5, -20.5,
+    -58.5, 20.5,
+    -41.5, 31,
+    -39.5, 46.5,
+    -3, 62,
+    19, 57.5,
+    53.5, 21,
+    53.5, -21,
+    19, -57.5,
+    -11.5, -61,
+    -39.5, -46.5
+  ]
+}

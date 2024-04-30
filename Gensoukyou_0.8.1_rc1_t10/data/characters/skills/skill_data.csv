@@ -1,0 +1,38 @@
+id,name,order,tier,description,author,combat officer,admiral,admin,tags,icon,
+# COMBAT,,,,,,,,,,,
+FM_Reimu_skill,Red & White Devil,99,5,"""Just Follow Red & White and you'll live""?
+
+She's definitely an ace, but she's so reliant on intuition I dont know if she can ensure this...",Vice captain of the ship commanded by the shrine maiden in red and white.,TRUE,,,"npc_only, player_only",graphics/icons/skills/FM_Reimu_skill.png,
+,,,,,,,,,,,
+,,,,,,,,,,,
+# LEADERSHIP,,,,,,,,,,,
+#FM_Tokiko_skill,无名有翼的参谋,100,5,并非所有学员都有足够的时间精力与天赋允许她们在这短短的学院生涯中成为顶尖的指挥官，但我们仍能教给她们相应的方法并期待着时间的魔力使她们蜕变。,未署名的幻想工造空间战术学院教员,TRUE,TRUE,,"npc_only, player_only",graphics/icons/skills/FM_Tokiko_skill.png,
+FM_Tokiko_skill,Unnamed Winged Advisor,100,5,"Clearly, these plans still have many small issues that needs to be resolved, let's hope everything goes well.....","Personal record of ""Unnamed"" Tokiko, accessed with her permission.",TRUE,TRUE,,"npc_only, player_only",graphics/icons/skills/FM_Tokiko_skill.png,
+,,,,,,,,,,,
+,,,,,,,,,,,
+# TECHNOLOGY,,,,,,,,,,,
+,,,,,,,,,,,
+# INDUSTRY,,,,,,,,,,,
+,,,,,,,,,,,
+# HIDDEN,,,,,,,,,,,
+FM_Tokiko_skillCom,,100,5,,,,TRUE,,"player_only, npc_only",graphics/icons/skills/space_ops.png,
+,,,,,,,,,,,
+# FM Special,,,,,,,,,,,
+FM_ShieldExpand_skill,Salamander Shields,100,0,Salamander and fire rat have only one word difference in ancient texts. . . But that's not the only reason we associate them so much. ,“Five Problems of the New Era” Gensoukyou Manufacture News Clip,,TRUE,,deprecated,graphics/icons/skills/FM_Tokiko_skill.png,
+FM_PriceOfLife_skill,Value of Life,101,0,"Relying on people drawn to lofty ideals and grand visions is ultimately not enough to achieve your goals.. Therefore, we recommend adding a more realistic solution to find the required talent. ","Excerpt from the Gensoukyou Manufacture inspection team's report on the ""Hegemony"" inspection.",,TRUE,,"player_only, deprecated",graphics/icons/skills/FM_Tokiko_skill.png,
+FM_FUMOS_skill,F.U.M.O.S,102,0,"The New Generation of Field Unison Modification Operating System (F.U.M.O.S)，
+
+brings you closer to the enemy.",Shield Operating System F.U.M.O.S 11 Commercials Excerpt,TRUE,,,deprecated,graphics/icons/skills/FM_Tokiko_skill.png,
+FM_TheFlash_skill,Price of Life,103,0,"-Death doesn't come to you when you're ready, Marisa.
+
+-No need for you to tell me that!","Combat communications log, c. 205, Hakurei low orbit, recovered from GMS Xi",TRUE,,,deprecated,graphics/icons/skills/FM_Tokiko_skill.png,
+FM_WindOfGensokyo_skill,Illusionary Dominance,104,0,Studies have shown that actions such as painting a ship's hull red or keeping crows on board do not increase a ship's maximum speed.,Gensoukyou Manufacture Fleet Technical Officer Training Course Basic Edition,,TRUE,,deprecated,graphics/icons/skills/FM_Tokiko_skill.png,
+FM_SalvageCritic_skill,Selective Recycling,105,0,"Although the non-human guys can't clearly recognise the importance of all the basic salvage products even now, honestly, this small increase in cost is still acceptable if they really get something more exciting...",Interview record with Salvagers active around Gensoukyou,,TRUE,,deprecated,graphics/icons/skills/FM_Tokiko_skill.png,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+FM_SkillAptitude,,0,,,,,,,"deprecated, npc_only, player_only",graphics/icons/skills/FM_SkillAptitude.png,

@@ -1,0 +1,103 @@
+{
+  "hullName": "Farin",
+  "hullId": "mi_farin",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/farin.png",
+  "style": "MIDLINE",
+  "height": 97,
+  "width": 74,
+  "center": [37, 48],
+  "collisionRadius": 96.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 75,
+  "viewOffset": 0,
+  "builtInMods": [
+    "shielded_holds"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [29, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 235,
+      "angle": -35,
+      "locations": [12, -21]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 235,
+      "angle": 35,
+      "locations": [12, 21]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 180,
+      "locations": [-37, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-46, 25],
+      "length": 60,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-46, -25],
+      "length": 60,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-45.5, 19],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-45.5, -19],
+      "length": 80,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -42.5, -34.5,
+    -16.5, -24,
+    0.5, -24,
+    8, -31.5,
+    29.5, -30,
+    45.5, -13.5,
+    45.5, 13.5,
+    29.5, 30,
+    8, 31.5,
+    0.5, 24,
+    -16.5, 24,
+    -42.5, 34.5
+  ]
+}

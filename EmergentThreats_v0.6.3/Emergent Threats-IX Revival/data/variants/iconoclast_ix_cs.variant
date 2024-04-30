@@ -1,0 +1,33 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "iconoclast_ix",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "iconoclast_ix_cs",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS ARR": "interdictor_iris_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "muon_streamer_ix",
+                "WS0 002": "muon_streamer_ix"
+            }
+        }
+    ],
+    "wings": [
+        "dictum_ix_wing",
+        "maxim_ix_wing"
+    ]
+}

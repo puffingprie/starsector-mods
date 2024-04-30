@@ -1,0 +1,44 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 0,
+    "fluxVents": 15,
+    "goalVariant": true,
+    "hullId": "vice_jubilant",
+    "hullMods": [
+        "eccm",
+        "targetingunit",
+        "stabilizedshieldemitter",
+        "vice_adaptive_thruster_control"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_jubilant_assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 011": "heavyburst"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "cyclone",
+                "WS 002": "sabot",
+                "WS 003": "sabot",
+                "WS 004": "sabot",
+                "WS 005": "sabot",
+                "WS 006": "sabot",
+                "WS 007": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "vice_ionstreamer",
+                "WS 009": "vice_ionstreamer"
+            }
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+	"baseHullId":"fulgent",
+	"skinHullId":"vice_effulgent",
+	"hullName":"Effulgent",
+	"descriptionId":"vice_effulgent",
+	"descriptionPrefix":"A remnant of the autonomous AI fleets developed by the Tri-Tachyon Corporation. Illegal under Domain (and Hegemony) law, and an abomination to the Church of Galactic Redemption, the First AI War saw these creations purged from the Sector. At least that is how the official histories tell it.",
+	"systemId":"forgevats",
+	"addHints":["ALWAYS_PANIC"],
+	"baseValueMult":1.5,
+	"fpMod":2,
+	"spriteName":"graphics/vice/ships/hidden/effulgent.png",
+	"removeWeaponSlots":["WS 000", "WS 002"],
+	"builtInMods":["vice_effulgent_remnant"],
+    "weaponSlotChanges":{
+	   "WS 001":{
+			"size": "LARGE",
+			"type": "MISSILE",
+		},
+    },
+}

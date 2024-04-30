@@ -1,0 +1,47 @@
+{
+  "variantId": "acs_modatlas_standard",
+  "hullId": "acs_modatlas",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 26,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "reinforcedhull",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hellbore",
+        "WS0002": "hellbore",
+        "WS0003": "hveldriver",
+        "WS0004": "hveldriver",
+        "WS0005": "vulcan",
+        "WS0006": "vulcan",
+        "WS0007": "vulcan",
+        "WS0008": "vulcan",
+        "WS0009": "vulcan",
+        "WS0010": "vulcan",
+        "WS0011": "acs_velites_single",
+        "WS0012": "acs_velites_single",
+        "WS0013": "acs_velites_single",
+        "WS0014": "acs_velites_single",
+        "WS0015": "acs_velites_single",
+        "WS0016": "acs_velites_single",
+        "WS0017": "acs_toyhammer_small2",
+        "WS0018": "acs_toyhammer_small2",
+        "WS0019": "hellbore",
+        "WS0020": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "acs_watchman_Fighter_wing"
+  ]
+}

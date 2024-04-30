@@ -1,0 +1,33 @@
+{
+    "displayName": "Honor Guard",
+    "fluxCapacitors": 1,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "hyperion_ix_hg",
+    "hullMods": [
+		"ix_smod_handler",
+        "magazines",
+        "extendedshieldemitter",
+        "hardenedshieldemitter",
+        "hardened_subsystems",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": ["ix_smod_handler"],
+    "sMods": [],
+    "variantId": "hyperion_ix_special",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "thundermark_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "orthrus_s_ix",
+                "WS 002": "orthrus_s_ix"
+            }
+        }
+    ]
+}

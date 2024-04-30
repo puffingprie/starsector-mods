@@ -1,0 +1,28 @@
+name,id,tier,rarity,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,tech/manufacturer,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+Precision Bombardment,kayse_precisionbombardment,1,,"special, req_spaceport","Requires Dock, Logistics",7500,,TRUE,,No Such Org,5,10,15,25,data.hullmods.Kayse_PrecisionBombardment,"Package for precision orbital bombardment. Reduces bombardment cost by %s/%s/%s/%s depending on hull size.
+
+Not compatible with other ground support or bombardment hull features.",,graphics/kayse/hullmods/kayse_crosshair.png
+Phase Tuning - Lean,kayse_phasetuninglean,1,,special,Special,10000,,,,No Such Org,-5,-5,-5,-5,data.hullmods.Kayse_PhaseTuningLean,"Adjust the Phase Coils to run colder, slows the phase-time bonus by %s.
+
+Not compatible with other phase tunings, unstable coils, or experimental coils.",,graphics/kayse/hullmods/kayse_phase_field_bluer.png
+Phase Tuning - Rich,kayse_phasetuningrich,1,,special,Special,10000,,,,No Such Org,5,10,15,25,data.hullmods.Kayse_PhaseTuningRich,"Adjust the Phase Coils to run hotter, increases the phase-time bonus by %s.
+
+Not compatible with other phase tunings, unstable coils, or experimental coils.",,graphics/kayse/hullmods/kayse_phase_field_redder.png
+Phase Logistics,kayse_phaselogistics,1,,special,Special,20000,,TRUE,,No Such Org,0,0,0,0,data.hullmods.Kayse_PhaseLogistics,"No Such Organization has improved the logistics of phase ships, reducing the supplies required for maintenance and recovery by %s.
+
+This stealth expertise is applied to non-phase ships by reducing any unnecessary signals, resulting in %s reduced sensor profile.",,graphics/kayse/hullmods/tiny_crest_nosuchorg.png
+Phase Carrier,kayse_phasecarrier,1,,special,Fighters,10000,,TRUE,,No Such Org,0,0,0,0,data.hullmods.Kayse_PhaseCarrier,"Enables special procedures to launch fighters from a phase carrier. If all wings are NSO phase fighters, launching is %s slower. If there are non-phase fighters, then launching is %s slower.",,graphics/kayse/hullmods/phase_carrier.png
+Superposition Armor,kayse_armorrepair,1,,defenses,Defenses,20000,,,,No Such Org,8,15,20,40,data.hullmods.Kayse_ArmorRepair,"Replaces damaged armor with undamaged armor plates stored in p-space superposition. Most useful for repairing damage between encounters with weak ships.
+
+Will slowly (estimate %s seconds to repair front armor of ship outside of combat, but varies) restore armor up to %s of the starting armor value while in normal space, starting at the front of the ship. Maintaining the p-space superposition increases the phase cloak cooldown by %s.
+
+Generates %s hard flux per armor damage repaired; in the best case scenario against damage reduced by %s by armor, repair will generate %s hard flux per pre-reduction damage point.
+
+The armor repair is halted if flux level is above %s.",Passively repairs armor.,graphics/kayse/hullmods/superposition_armor.png
+Superposition Armor (Elite),kayse_superiorarmorrepair,1,,defenses,Defenses,20000,,TRUE,,No Such Org,0,0,0,0,data.hullmods.Kayse_SuperiorArmorRepair,"Replaces damaged armor with undamaged armor plates stored in p-space superposition. Most useful for repairing damage between encounters with weak ships. The Elite version of Superposition Armor repairs armor faster than normal for cheaper Flux cost, but worse phase cloak cooldown.
+
+Will slowly (estimate %s seconds to repair front armor of ship outside of combat, but varies) restore armor up to %s of the starting armor value while in normal space, starting at the front of the ship. Maintaining the p-space superposition increases the phase cloak cooldown by %s.
+
+Generates %s hard flux per armor damage repaired; in the best case scenario against damage reduced by %s by armor, repair will generate %s hard flux per pre-reduction damage point.
+
+The armor repair is halted if flux level is above %s.",Passively repairs armor.,graphics/kayse/hullmods/superposition_armor.png

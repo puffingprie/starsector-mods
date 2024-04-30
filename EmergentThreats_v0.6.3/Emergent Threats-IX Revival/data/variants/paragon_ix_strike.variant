@@ -1,0 +1,66 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 28,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "paragon_ix",
+    "hullMods": [
+        "magazines",
+        "fluxdistributor",
+        "hardenedshieldemitter",
+        "pointdefenseai",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "paragon_ix_strike",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "thundermark_ix",
+                "WS 002": "thundermark_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "orthrus_m_ix",
+                "WS 008": "orthrus_m_ix",
+                "WS 012": "orthrus_s_ix",
+                "WS 014": "orthrus_s_ix",
+                "WS 018": "orthrus_s_ix",
+                "WS 020": "orthrus_s_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "conversion_lance_ix",
+                "WS 004": "conversion_lance_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "lightbringer_ciws_ix",
+                "WS 006": "lightbringer_ciws_ix",
+                "WS 009": "morningstar_ciws_ix",
+                "WS 010": "morningstar_ciws_ix",
+                "WS 011": "muon_streamer_ix",
+                "WS 013": "morningstar_ciws_ix",
+                "WS 015": "morningstar_ciws_ix",
+                "WS 016": "morningstar_ciws_ix",
+                "WS 017": "muon_streamer_ix",
+                "WS 019": "morningstar_ciws_ix",
+                "WS 021": "morningstar_ciws_ix",
+                "WS 022": "morningstar_ciws_ix",
+                "WS 023": "morningstar_ciws_ix"
+            }
+        }
+    ]
+}

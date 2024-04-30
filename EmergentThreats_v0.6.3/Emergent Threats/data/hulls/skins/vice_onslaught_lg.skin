@@ -1,0 +1,38 @@
+{
+	"baseHullId":"onslaught",
+	"skinHullId":"vice_onslaught_lg",
+	"hullName":"Onslaught (LG)",
+	"incompatibleWithBaseHull":true, # for the autofit dialog
+	"descriptionId":"onslaught",
+	"descriptionPrefix":"The former flagship of Admiral Phillip Andrada was also the first ship to declare for the Lion during the Opis crisis. As the newly established Sindrian Diktat gradually began to deploy warships of its own design, it retired its fleet of captured Hegemony capital ships until only this vessel remained in active service. However, as a piece of history graced by the Supreme Executor himself, no expense was spared to update this ship to the modern combat doctrine of the Lion's Guard.",
+	"coversColor":[180,255,255,255],
+	"tags":["no_dealer"],
+	"tech":"Lion's Guard",
+	"fleetPoints":35,
+	"spriteName":"graphics/vice/ships/hidden/onslaught_lg.png",
+	"baseValueMult":2,
+	#"systemId":"",
+	#"shieldEfficiency":0.8,
+	"ordnancePoints":345,
+	"builtInMods":["vice_onslaught_hull", "solar_shielding", "coherer"],
+	#"removeBuiltInWeapons":["WS 016", "WS 017"],
+	"addHints":["HIDE_IN_CODEX"],
+	"builtInWeapons":{
+		"WS 016": "vice_gigapulser",
+		"WS 017": "vice_gigapulser"
+	},
+    "weaponSlotChanges":{
+		"WS 001":{"type": "ENERGY", angle: "55"},
+		"WS 003":{"type": "ENERGY", angle: "-55"},
+		"WS 007":{"type": "ENERGY"},
+		"WS 010":{"type": "ENERGY"},
+		"WS 011":{"type": "ENERGY"},
+		"WS 012":{"type": "HYBRID"},
+		"WS 013":{"type": "HYBRID"},
+		"WS 014":{"type": "ENERGY"},
+		"WS 015":{"type": "ENERGY"},
+		"WS 018":{"type": "MISSILE", "arc": 30, angle: "90"},
+		"WS 019":{"type": "ENERGY"},
+		"WS 020":{"type": "MISSILE", "arc": 30, angle: "-90"},
+	},
+}

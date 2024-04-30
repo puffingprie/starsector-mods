@@ -1,0 +1,2 @@
+name,id,planetary,decivRemove,script,desc,icon,order
+Cabal Influence,cabal_influence,,TRUE,data.scripts.campaign.econ.UW_CabalInfluence,"The Starlight Cabal established a presence at $marketName, controlling the flow of exotics from within. While there is little outward difference, an enterprising individual can source some hard-to-attain equipment, provided they have the right connections.",graphics/uw/icons/markets/uw_cabal_influence.png,30

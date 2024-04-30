@@ -1,0 +1,3 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+kayse_poltergeist_wing,kayse_poltergeist_variant,"figher4, fighter, hightech_bp, high, no_such_org_bp, merc, tritachyon",3,,6,18,V,4000,500,,3,FIGHTER,Phase Fighter,15,18000,,,,,,,,,,,,,1
+kayse_maggot_wing,kayse_maggot_variant,"bomber4, bomber, high, hightech_bp, no_such_org_bp, merc",3,,5,25,V,4000,2000,600,3,BOMBER,Phase Bomber,20,20000,,,,,,,,,,,,,13

@@ -1,0 +1,13 @@
+{
+
+	"designTypeColors":{
+		"Musashi Manufactorum":[225,25,45,150],
+    	},
+    "graphics":{
+		"blueprint_packages":{
+           	"musashi_bp":"graphics/mm/icons/cargo/mm_package_bp.png",
+		"mm_bishamonten_bp":"graphics/mm/icons/cargo/mm_package_bp.png",
+		"mm_kajin_bp":"graphics/mm/icons/cargo/mm_package_bp.png",
+		},
+	}
+}

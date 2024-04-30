@@ -1,0 +1,14 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
+Bolide Drones,vice_summonbolide,,,,,,,,6,,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+EMP Emitter,vice_remnantstationemp,,,,,,,,,,0.5,3,0.5,3,,,,,,,,,,,,,graphics/icons/hullsys/emp_emitter.png
+Active Flare Salvo,vice_flare_launcher,,,,,,0.1,,,,,,,10,,,,,,,,,,,,,graphics/icons/hullsys/active_flare_launcher.png
+Fleet Jump,vice_fleetjump,,,,,,,,,,3,0,1,30,,,,TRUE,TRUE,,,,TRUE,,,,graphics/icons/hullsys/displacer.png
+Interdictor Array,vice_interdictor,,,,2000,,,,,,1,1,0.5,20,,,,,,,,,,,,,graphics/icons/hullsys/interdictor_array.png
+Light of Sindria,vice_lightofsindria,,,,,,0.2,,,,0,3,0,30,,,,,,,,,,,,,graphics/icons/hullsys/reserve_deployment.png
+Mass Deployment,vice_massdeployment,,,,,,0.5,,,,0.5,,0.5,90,,,,,,,,,,,,,graphics/icons/hullsys/reserve_deployment.png
+Micro-Missile Swarm,vice_micromissile,,,,,,,,,,,,,10,,,,,,,,,,,,,graphics/icons/hullsys/active_flare_launcher.png
+Point Defense Drones,vice_drone_pd,,,,,,,,20,,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+Phase Overcharge,vice_phaseovercharge,,,,,,,,,,0,3,1,10,,,,,,,,,,,,,graphics/icons/hullsys/high_energy_focus.png
+Spatial Charges,vice_spatialcharges,,,,,,0.1,,,,,,,10,,,,,,,,,,,,,graphics/icons/hullsys/active_flare_launcher.png
+Targeting Sweep,vice_targetingsweep,,,,,,0.25,,,,0.5,20,0.5,10,,,,,,,,,,,,,graphics/icons/hullsys/targeting_feed.png
+Ultracapacitors,vice_capacitors,1,,,,,,,,,0.25,10,0.25,15,,,,,,,,,,,,,graphics/icons/hullsys/high_energy_focus.png

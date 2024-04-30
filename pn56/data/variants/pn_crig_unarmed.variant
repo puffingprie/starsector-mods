@@ -1,0 +1,11 @@
+{
+    "displayName": "Unarmed",
+    "fluxCapacitors": 10,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "pn_crig",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "pn_crig_unarmed",
+    "weaponGroups": []
+}

@@ -1,0 +1,9 @@
+{
+	"baseHullId":"remnant_hangar1",
+	"skinHullId":"vice_station_hangar_platform",
+	#"hullName":"",
+	#"hullDesignation":"",
+	"manufacturer":"Remnant",
+	"systemId":"recalldevice",
+	"tags":["no_autofit"],
+}

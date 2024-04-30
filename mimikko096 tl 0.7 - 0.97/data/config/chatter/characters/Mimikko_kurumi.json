@@ -1,0 +1,151 @@
+{
+    "name": "Kurumi",
+    "personalities": ["steady", "aggressive", "reckless","cautious"],
+    "gender": ["m","f","n"],
+    "chance": 0,
+    "talkativeness": 0.65,
+    "categoryTags": [
+        "othermedia",
+    ],
+    "lines": {
+        "start": [                                            #开始？
+            {
+                "text": "The magic show is starting!",
+            },
+            {
+                "text": "Kurumi is coming!",
+            },
+            {
+                "text": "Captain, I'll show you a new magic trick after this battle",
+            },
+        ],
+        "start_boss": [                                    #打boss
+            {
+                "text": "Woah",
+            },
+        ],
+        "retreat": [                                            #撤退
+            {
+                "text": "Kurumi's performance, drawing to a wonderful close!",
+            },
+        ],
+        "out_of_missiles": [                                #用完导弹
+            {
+                "text": "The missile for the performance has ran out",
+            },
+            {
+                "text": "We got no more missile prop in stock?!",
+            },
+        ],
+        "engaged": [                                     #舰船部署
+            {
+                "text": "Kurumi, glowing on stage!",
+            },
+            {
+                "text": "Though it hasn't been too long, but the captain already got used to my presence, that's a good thing, right?",
+            },
+            {
+                "text": "If you want to see a magic show, you gotta praise me a bit at least?",
+            },
+            {
+                "text": "Watch the Captain? Taking good care of the captain is my duty.....just part of the job~",
+            },
+            {
+                "text": "It's not fun if you give away the mystery at the start.",
+            },
+        ],
+        "need_help": [                                         #需要帮助
+            {
+                "text": "Uhh, come give Kurumi a hand, Catapin",
+            },
+            {
+                "text": "Captain! Come help Kurumi!",
+            },
+            {
+                "text": "Captain! Come over here and watch my magic show!",
+            },
+        ],
+        "pursuing": [                                               #发动进攻
+            {
+                "text": "Kurumi's performance is starting!",
+            },
+            {
+                "text": "Eh, so their ship blows up if I press this button?",
+            },
+            {
+                "text": "Magic performance is starting!",
+            },
+            {
+                "text": "Magic show is starting!",
+            },
+        ],
+        "running": [                                        #后撤
+            {
+                "text": "Intermission!",
+            },
+            {
+                "text": "Getting a bit tired with this performance, time for a break",
+            },
+        ],
+        "hull_90": [                                     #90%生命值
+            {
+                "text": "The prop is a bit damaged",
+            },
+            {
+                "text": "Guess I will have to maintain the props properly after this",
+            },
+        ],
+        "hull_50": [
+            {
+                "text": "The show is not over!",
+            },
+            {
+                "text": "You want to find my hidden props like this? No way~",
+            },
+        ],
+        "hull_30": [
+            {
+                "text": "What! Kurumi is in a big pinch!",
+            },
+            {
+                "text": "Look's like the show is over",
+            },
+            {
+                "text": "The captain havent finished watching Kurumi's performance, this isn't over!",
+            },
+        ],
+        "overload": [                					#过载
+            {
+                "text": "What! An accident in the show!",
+            },
+            {
+                "text": "Overload!",
+            },
+            {
+                "text": "Overloading is as annoying as interrupted shows",
+            },
+        ],
+        "death": [							#沉船
+            {
+                "text": "Can't perform for the captain anymore......",
+            },
+            {
+                "text": "Doing magic trick with cards is not the same as playing with them, losing is understandable",
+            },
+        ],
+        "victory": [							#胜利
+            {
+                "text": "Captain, do you want to see the special performance I prepared for you?",
+            },
+            {
+                "text": "Captain! I hid a present, you can find it anywhere within your ship!",
+            },
+            {
+                "text": "So about love on first sight......aiya, could it be that the Captain doesn't believe in it?",
+            },
+            {
+                "text": "What will it be like if I had met the Captain much, much earlier?",
+            },
+        ],
+    },
+}

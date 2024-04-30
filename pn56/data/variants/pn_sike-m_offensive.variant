@@ -1,0 +1,43 @@
+{
+  "variantId": "pn_sike-m_offensive",
+  "hullId": "pn_sike-m",
+  "displayName": "Offensive",
+  "goalVariant": true,
+  "fluxCapacitors": 1,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter",
+    "eccm",
+    "advancedshieldemitter",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "pn_jetlauncher",
+        "WS0005": "pn_jetlauncher",
+        "WS0006": "pn_jetlauncher"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "pn_sike_mpod",
+        "WS0002": "pn_sike_mpod",
+        "WS0003": "pn_sike_mpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

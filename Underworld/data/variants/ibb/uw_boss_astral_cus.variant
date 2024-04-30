@@ -1,0 +1,85 @@
+{
+    "displayName": "Custom",
+    "fluxCapacitors": 20,
+    "fluxVents": 31,
+    "goalVariant": true,
+    "hullId": "uw_boss_astral",
+    "hullMods": [
+        "expanded_deck_crew",
+        "targetingunit",
+        "eccm",
+        "missleracks"
+    ],
+    "permaMods": [
+        "expanded_deck_crew",
+        "targetingunit",
+        "eccm"
+    ],
+    "sMods": [
+        "expanded_deck_crew",
+        "targetingunit",
+        "eccm"
+    ],
+    "variantId": "uw_boss_astral_cus",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "harpoonpod",
+                "WS0005": "harpoonpod"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "squall",
+                "WS0003": "squall"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0014": "swarmer",
+                "WS0015": "swarmer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "phasebeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "phasebeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "guardian"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "pdlaser",
+                "WS0009": "pdlaser",
+                "WS0010": "pdlaser",
+                "WS0011": "pdlaser",
+                "WS0012": "pdlaser",
+                "WS0013": "pdlaser"
+            }
+        }
+    ],
+    "wings": [
+        "uw_boss_wasp_wing",
+        "uw_boss_wasp_wing",
+        "uw_boss_wasp_wing",
+        "flash_wing",
+        "flash_wing",
+        "flash_wing"
+    ]
+}

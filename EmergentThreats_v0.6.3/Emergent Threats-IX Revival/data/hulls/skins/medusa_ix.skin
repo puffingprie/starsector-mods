@@ -1,0 +1,17 @@
+{
+	"baseHullId":"medusa",
+	"skinHullId":"medusa_ix",
+	"hullName":"Medusa (IX)",
+	"incompatibleWithBaseHull":true,
+	"descriptionId":"medusa",
+	"coversColor":[120,130,120,255],
+	"descriptionPrefix":"This ship is a survivor of a 9th Domain Battlegroup task force stranded in the Persean Sector. Specialized in the Domain Navy's \"lightning strike\" doctrine, it has received extensive upgrades (performed with pre-Collapse industrial methods) to its engines and shield emitters.",
+	"fleetPoints":14,
+	"ordnancePoints":105,
+	"baseValueMult":1.5,
+	"spriteName":"graphics/ships/ix/medusa_ix.png",
+	"removeHints":["HIDE_IN_CODEX"],
+	"tags":["ixbattlegroup"],
+	"tech":"IX Battlegroup",
+	"builtInMods":["ix_ninth"],
+}

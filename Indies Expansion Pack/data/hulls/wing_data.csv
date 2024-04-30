@@ -1,0 +1,22 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+acs_trooper_Fighter_wing,acs_troopernew_standard,"fighter4, fighter, mid, midline_bp, hegemony, independent, merc",1,,2,5,V,4000,500,0,5,FIGHTER,Fighter,6,20000,,,,,,,,,,,,,25
+acs_gunner_Fighter_wing,acs_gunner_variant,"support3, fighter, mid, midline_bp",3,,2,6,V,4000,500,0,3,FIGHTER,Fighter,8,25000,,,,,,,,,,,,,26
+acs_watchman_Fighter_wing,acs_watchmannew_standard,"fighter4, fighter, low, lowtech_bp, hegemony, independent, merc, scavengers, mercantile,",0,,2,3,V,4000,500,0,5,FIGHTER,Fighter,5,10000,,,,,,,,,,,,,27
+acs_peasant_Fighter_wing,acs_peasantnew_standard,"fighter5, fighter, low, base_bp, independent, merc, pirates",0,,2,2,V,4000,500,0,6,FIGHTER,Fighter,3,5000,,,,,,,,,,,,,28
+acs_militia_Fighter_wing,acs_militianew_standard,"fighter5, fighter, derelict, auto_fighter",0,,2,4,CLAW,4000,500,0,6,FIGHTER,Drone,6,10000,,,,,,,,,,,,,28
+acs_militianewrail_wing,acs_militianew_rail,"fighter5, drone, auto_fighter, no_drop, no_sell",0,,5,0,CLAW,4000,500,,1,FIGHTER,Drone,7,1000,,,,,,,,,,,,,17
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+acs_mook_wing,acs_mook_variant,"fighter5, drone, low, base_bp, auto_fighter, scavengers, mercantile,",0,,5,0,BOX,2000,500,0,4,FIGHTER,Drone,7,2000,,,,,,,,,,,,,17
+acs_mook_r_wing,acs_mook_r_variant,"support0, drone, low, auto_fighter, scavengers, base_bp",0,,5,0,BOX,0,200,100,6,FIGHTER,Drone,10,3000,,,,,,,,,,,,,17
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+acs_mookrail_wing,acs_mookrail_variant,"fighter5, drone, auto_fighter, no_drop, no_sell",0,,5,0,BOX,4000,200,600,1,FIGHTER,Drone,7,1000,,,,,,,,,,,,,17
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+acs_borer_wing,drone_borer,"no_drop, no_sell, low",0,,4,0,BOX,2000,500,,3,INTERCEPTOR,Drone,5,1500,,,,,,,,,,,,,18
+acs_mining_drone_wing,mining_drone_Standard,"support0, drone, low, auto_fighter, no_drop, no_sell",0,,5,0,BOX,0,500,,2,FIGHTER,Drone,10,1500,,,,,,,,,,,,,17
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+acs_drone_borer_wing,acs_drone_borer_standard,"fighter5, drone, low, base_bp, auto_fighter, scavengers, mercantile,",0,,4,0,CLAW,2000,500,,6,INTERCEPTOR,Drone,5,1500,,,,,,,,,,,,,18
+acs_modborerrail_wing,acs_drone_borer_rail,"fighter5, drone, auto_fighter, no_drop, no_sell",0,,5,0,CLAW,4000,200,600,1,FIGHTER,Drone,7,1000,,,,,,,,,,,,,17
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,201 @@
+{
+  "hullName": "Barnabas",
+  "hullId": "acs_barnabas",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/acs_barnabas.png",
+  "style": "LOW_TECH",
+  "height": 295,
+  "width": 120,
+  "center": [60, 147.5],
+  "collisionRadius": 189,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 159,
+  "viewOffset": 0,
+  "builtInMods": [
+    "acs_drifterlogistic",
+    "repair_gantry",
+    "rugged"
+  ],
+  "builtInWings": [
+    "acs_mook_r_wing",
+    "borer_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 214,
+      "angle": 90.5,
+      "locations": [-42.5, 22]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 214,
+      "angle": -90.5,
+      "locations": [-42.5, -22]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 219,
+      "angle": 0,
+      "locations": [2.5, 17],
+      "renderOrderMod": 3
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 219,
+      "angle": -0,
+      "locations": [2.5, -17],
+      "renderOrderMod": 3
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 206,
+      "angle": -0,
+      "locations": [85.5, 29]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 206,
+      "angle": 0,
+      "locations": [85.5, -29]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 17,
+      "angle": 0,
+      "locations": [120.5, 10]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 17,
+      "angle": -0,
+      "locations": [120.5, -10]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 303,
+      "angle": 180,
+      "locations": [-69.5, -0]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 288,
+      "angle": 0,
+      "locations": [64.5, -0]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 255,
+      "angle": 0,
+      "locations": [34.5, -0],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        14.5, 43,
+        12.5, -42
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        20, -42,
+        23.5, 44
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [50, 47],
+      "length": 30,
+      "width": 10,
+      "angle": 155,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [50, -47],
+      "length": 30,
+      "width": 10,
+      "angle": -155,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-133, 14],
+      "length": 54.115753,
+      "width": 26.056505,
+      "angle": 180,
+      "contrailSize": 26.056505,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-133, -14],
+      "length": 54.115753,
+      "width": 26.056505,
+      "angle": -180,
+      "contrailSize": 26.056505,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-142, -0.5],
+      "length": 89.469276,
+      "width": 23.769615,
+      "angle": 180,
+      "contrailSize": 23.769615,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    115.5, -29.5,
+    -98.5, -46.5,
+    -139.5, -0,
+    -139.5, 0,
+    -98.5, 46.5,
+    115.5, 29.5
+  ]
+}

@@ -1,0 +1,28 @@
+{
+	"specClass":"beam",
+	"id":"vice_neutron_autolance",
+	"type":"ENERGY",
+	"size":"MEDIUM",
+	"turretSprite":"graphics/vice/weapons/neutron_hardpoint_deco.png",
+	"turretGlowSprite":"graphics/fx/empty.png",
+	"hardpointSprite":"graphics/fx/empty.png",
+	"hardpointGlowSprite":"graphics/vice/weapons/hmc_glow.png",
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	"fringeColor":[100,100,255,225],
+	"coreColor":[255,255,255,255],
+	"glowColor":[155,155,255,255],
+	"width":25.0,
+	"skipIdleFrameIfZeroBurstDelay":true,
+	#"textureType":LASER,
+	"textureType": [
+		"graphics/fx/beam_rough2_fringe.png",
+		"graphics/fx/empty.png"
+	],
+	"textureScrollSpeed":384.0,
+	"pixelsPerTexel":5.0,
+	"pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER,MISSILE_FF,MISSILE_NO_FF],
+	"fireSoundTwo":"vice_neutron_autolance_loop",
+}

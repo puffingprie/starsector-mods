@@ -1,0 +1,35 @@
+{
+        "specClass":"beam",
+        "id":"mimikko_yurika_shield_2",
+        "type":"UNIVERSAL",
+        "size":"MEDIUM",
+        "collisionClass":"RAY",
+        "collisionClassByFighter":"RAY_FIGHTER",
+
+        "everyFrameEffect":"data.scripts.campaign.combat.weapon.Mimikko_yurika_shield_2",
+
+        "turretSprite":"graphics/weapons/mimikko_yurika_shield_2_base.png",
+        "turretGlowSprite":"graphics/weapons/mimikko_yurika_shield_2_base_glow.png",
+        "hardpointSprite":"graphics/weapons/mimikko_yurika_shield_2_base.png",
+        "hardpointGlowSprite":"graphics/weapons/mimikko_yurika_shield_2_base_glow.png",
+
+        "turretOffsets":[25,0],
+        "turretAngleOffsets":[0],
+        "hardpointOffsets":[25,0],
+        "hardpointAngleOffsets":[0],
+
+        "fringeColor":[0,0,155,0],
+        "coreColor":[255,255,255,0],
+        "glowColor":[100,255,208,255],
+        #"fringeColor":[0,155,0,255],
+        #"coreColor":[255,255,255,255],
+        #"glowColor":[100,255,100,255],
+        "width":17.0,
+        "textureType":ROUGH,
+        "textureScrollSpeed":128.0,
+        "pixelsPerTexel":5.0,
+
+        "pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER],
+        "fireSoundOne":"burst_pd_fire",
+        #"fireSoundTwo":"burst_pd_loop",
+        }

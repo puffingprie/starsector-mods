@@ -1,0 +1,26 @@
+{
+	"id":"FM_FUMOS_skill",
+	"governingAptitude":"FM_SkillAptitude",
+	"compressHullmods":false,
+	"elite":true,
+	"scope":"PILOTED_SHIP",
+	"effectGroups":[
+
+		{
+			"requiredSkillLevel":1,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"SHIP", "script":"data.campaign.skills.FM_FUMOS_skill$Level1"},
+				{"type":"SHIP", "script":"data.campaign.skills.FM_FUMOS_skill$Level1X"},
+			]
+		},
+		{
+			"name":"Elites",
+			"requiredSkillLevel":2,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"SHIP", "script":"data.campaign.skills.FM_FUMOS_skill$Level2"},
+			]
+		},
+	],
+}

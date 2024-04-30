@@ -1,0 +1,16 @@
+{
+	"id":"mimikko_kasutaria_torpedo_weapon_proj",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":230.0,
+	"width":45,
+	"fadeTime":0.3,
+	"fringeColor":[240,161,248,255],
+	"coreColor":[235,235,255,255],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+	"bulletSprite":"graphics/missiles/shell_gauss_cannon.png"	
+}

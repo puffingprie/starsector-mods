@@ -1,0 +1,27 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 7,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "pn_thelep",
+    "hullMods": ["eccm"],
+    "permaMods": [],
+    "variantId": "pn_thelep_support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "pn_vaala"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "pn_pexplauncher",
+                "WS0008": "pn_pexplauncher",
+                "WS0009": "pn_pexplauncher",
+                "WS0010": "pn_pexplauncher"
+            }
+        }
+    ]
+}

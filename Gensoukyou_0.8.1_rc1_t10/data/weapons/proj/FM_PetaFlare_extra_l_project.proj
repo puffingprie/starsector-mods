@@ -1,0 +1,21 @@
+{
+	"id":"FM_PetaFlare_extra_l_project",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":64.0,
+	"width":16.0,
+	"fadeTime":0.3,
+	"hitGlowRadius":24,
+	"glowColor":[255,184,54,60],
+	"glowRadius":40,
+	"fringeColor":[255,184,54,255],
+	"coreColor":[255,155,155,200],
+	"textureType":"ROUGH",  # only needed for BEAM spawnType
+	#"textureType":["graphics/fx/emp_arcs.png","graphics/fx/emp_arcs.png"],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,	
+	#"bulletSprite":"graphics/weapons/projects/FM_ice_shell.png"
+}

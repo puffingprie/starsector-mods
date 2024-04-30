@@ -1,0 +1,100 @@
+{
+    "name": "Nemuri",
+    "personalities": ["steady", "aggressive", "reckless","cautious"],
+    "gender": ["m","f","n"],
+    "chance": 0,
+    "talkativeness": 0.65,
+    "categoryTags": [
+        "othermedia",
+    ],
+    "lines": {
+        "start": [                                            #开始？
+            {
+                "text": "Ugh, Nemuri is not good at fighting.",
+            },
+            {
+                "text": "Combat, Nemuri, don't understand.",
+            },
+        ],
+        "start_boss": [                                    #打boss
+            {
+                "text": "Is a ship, Nemuri haven't seen before.",
+            },
+        ],
+        "retreat": [                                            #撤退
+            {
+                "text": "Captain......teach Nemuri what to do.",
+            },
+        ],
+        "out_of_missiles": [                                #用完导弹
+            {
+                "text": "Eh, Nemuri has used up all the missiles.",
+            },
+            {
+                "text": "Ugh, missile is all used up.",
+            },
+        ],
+        "engaged": [                                     #舰船部署
+            {
+                "text": "Nemuri is remebering, learning......I will become very strong.",
+            },
+            {
+                "text": "Nemuri's feeling, is strange.",
+            },
+        ],
+        "need_help": [                                         #需要帮助
+            {
+                "text": "Captain, Nemuri is facing difficulty.",
+            },
+        ],
+        "pursuing": [                                               #发动进攻
+            {
+                "text": "Nemuri seen it before, this is how you attack.",
+            },
+            {
+                "text": "Captain, is Nemuri attacking correctly?",
+            },
+        ],
+        "running": [                                        #后撤
+            {
+                "text": "Nemuri, is retreating, hopefully I'm not in the Captain's way.",
+            },
+        ],
+        "hull_90": [                                     #90%生命值
+            {
+                "text": "Ah, some part of the ship has turned red on display.",
+            },
+        ],
+        "hull_50": [
+            {
+                "text": "Captain, Nemuri's ship cannot hold on.",
+            },
+        ],
+        "hull_30": [
+            {
+                "text": "Nemuri cannot control this ship, Captain.",
+            },
+        ],
+        "overload": [                					#过载
+            {
+                "text": "Ah, Nemuri's ship suddenly cannot open its shield.",
+            },
+            {
+                "text": "Shield, Nemuri cannot open shield.",
+            },
+        ],
+        "death": [							#沉船
+            {
+                "text": "Captain, Nemuri lost connection with this ship.",
+            },
+            {
+                "text": "Although Nemuri commanded this ship beside the Captain, but.......",
+            },
+        ],
+        "victory": [							#胜利
+            {
+                "text": "Nemuri, can do things right too.",
+            },
+        ],
+    },
+}

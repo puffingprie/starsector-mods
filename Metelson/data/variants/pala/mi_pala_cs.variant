@@ -1,0 +1,35 @@
+{
+  "displayName": "Close Support",
+  "fluxCapacitors": 8,
+  "fluxVents": 3,
+  "goalVariant": true,
+  "hullId": "mi_pala",
+  "hullMods": [],
+  "permaMods": [],
+  "quality": 0.55,
+  "variantId": "mi_pala_cs",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+
+        "WS0003": "molarisblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+		"WS0001": "combatmg",
+        "WS0002": "combatmg"
+		}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "wings": []
+}

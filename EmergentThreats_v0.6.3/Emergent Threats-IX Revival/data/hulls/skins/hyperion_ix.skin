@@ -1,0 +1,17 @@
+{
+	"baseHullId":"hyperion",
+	"skinHullId":"hyperion_ix",
+	"hullName":"Hyperion (IX)",
+	"incompatibleWithBaseHull":true,
+	"descriptionId":"hyperion",
+	"coversColor":[120,130,120,255],
+	"descriptionPrefix":"The 9th Domain Battlegroup reverse engineered the Hyperion from the wrecks of several Tri-Tachyon black ops frigates, left behind in the wake of a brazen megacorp orchestrated raid against Zorya. The upgraded Hyperion (IX) design has since been used extensively by the Fleet Command Honor Guard to ensure no such incident ever occurs again. However, due to the ship's extreme complexity and high maintenance demand, adoption among the rest of the Fleet has been slow.",
+	"fleetPoints":17,
+	"ordnancePoints":68,
+	"baseValueMult":1.5,
+	"spriteName":"graphics/ships/ix/hyperion_ix.png",
+	"removeHints":["HIDE_IN_CODEX"],
+	"tags":["no_autofit", "ix_core_guard", "ix_core_bp"],
+	"tech":"IX Battlegroup",
+	"builtInMods":["ix_ninth"],
+}

@@ -1,0 +1,18 @@
+{
+	"id":"FM_PriceOfLife_skill",
+	"governingAptitude":"FM_SkillAptitude",
+	"compressHullmods":false,
+	"scope":CUSTOM,
+	"scopeStr":"Incomes",
+	"effectGroups":[
+		{
+			"requiredSkillLevel":1,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"CHARACTER_STATS", "script":"data.campaign.skills.FM_PriceOfLife_skill$Level1"},
+
+			]
+		},
+	],
+}
+

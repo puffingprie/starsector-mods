@@ -1,0 +1,14 @@
+{
+  "variantId": "mm_bushi_raidsuit_variant",
+  "hullId": "mm_bushi_raidsuit",
+  "displayName": "New Variant",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [],
+  "wings": []
+}

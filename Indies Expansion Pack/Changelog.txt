@@ -1,0 +1,120 @@
+v0.1:
+
+- Version established
+
+v0.1p :
+
+- Increase Limitanei-Class Shield to Hulls gap
+- Increase Limitanei Hull to > 4550
+- Increase Limitanei Speed to > 35
+- Increase Drifter Hull to > 5700
+- Increase Kerberos Speed to > 90
+- Decrease Kerberos Hulls to > 2800
+- Now ships will properly spawn to its tagged pool (Sorry for not spawning before)
+
+v0.2 :
+
+- Added Toyhammer (S)
+- Added Toyhammer (S) (D)
+- Added Toyhammer (M)
+
+- Added Kothar Assault Gun (M)
+- Added Sethlans Blast Gun (M)
+- Added Ulak Mirco Flak (S)
+
+- Added Buffalo Mk.IV Militarized Freighter
+
+- Added Partial Automation Overhaul Hullmod
+- Added Automatized Maintanance System Hullmod
+
+- Various buff and nerf i forgot to remember
+
+# Hullmod are subject to change in future, i still learning how to code to give it reasonable handicap, so go nuts with it.
+# All changes above are subject to change in future.
+
+v0.5? :
+
+- Where the fuck 3 version below?!?! (too much shit to add and forgot to actually update changelog)
+
+- Many shit, XIII Battlegroup, Frontier Indies Colony, Bunch of hullmod and shipsystem, lots of guns and ship, and wip industry that turn ur colony invisible to raid and invansion (hopefully?).
+
+- Small variant hotfix, srry
+
+- Its fixed i swear
+
+v1.6:
+
+- Added Sethlans Artillery Battery & Mega Thumper
+- Added Converted Frigates Hangar & Towed Frigates Hullmod
+
+v1.7:
+
+#Various rebalance, fix, content update, and resprite, if there anything gone, then it is deprecated, all of them will be removed though in next actual big updates
+#Below are changes i made that i remember, i kinda lazy, so bear with me
+
+- Added Barnabas - Class Combat Hauler (Yet another combat freighter, sorry :p)
+- Added Barnabas(P) - Class Battle Hauler (This time with its bad guy version with bad paintjob)
+
+- Added Vulcan Mk.II (upgrade of our beloved Vulcan MG)
+- Added PD Pulsed Laser (energy pd but pew pew)
+
+- Sethlans Artillery Cannon now actually shootable (but still blow up fighter, still havent manage how to make it go pass and didnt damage fighter sadly  https://fractalsoftworks.com/forum/Smileys/default/cry.gif)
+
+- Change Plumbata MRM damage type to FRAGMENTATION, and set it projectile health to 200 and its speed to 500
+- Various balance to Izrael Reaper Launcher, change it reload to 250 second per 3 ammo
+
+# My aim was to balance it to vanilla level, an reaper launcher with possibility of infinite reaper, but maan i nerf it too much
+# Let me know if it now better or worse
+
+- Change Mark X Autocannon DP to 20, Possibly change it in future as it function as temp balance
+- Rebuild Jar with 9.6 starsector.api, No longer you will have problem with WIP colony structure crashing your gameplay, and other problem that might arise from old jar
+
+v1.7a
+
+-Small Hotfix, Srry
+
+v1.7aa
+
+-Actually fix it sorry sorry
+
+v1.8
+
+#"Mini" Update, that include Few new content, with most change lies in balancing, respriting, and fixing things
+#Not include other change that i didnt remember :)
+
+- Added Hellstorm Revolving Cannon (Hellbore but BANG BANG BANG!, also COOL animation :D, might get resprited too at future) #I want to DAKKA hellbore so much and i want it NOW.
+
+- Resprite Chain Thumper
+- Resprite Exterminator 
+
+- Change bunch of projectile effect and trail
+
+- Sethlans Artillery Cannon & Battery now wont get triggered by missile! (yay!, still destroy it though it if it hit by explosion also fighter still get triggered...)
+
+- Change Barnabas (P) DP -> 10
+- Change Phaeton Mk.IV DP -> 12 (probaly change it even further nextime along with commitatensis)
+
+- Remove Frontier System Generation, it wont be generated in new saves anymore, but still exist in already existing saves, come back in the future
+
+- "Resprite" All Mech/Zero-G Marine Suit Fighter (Now they actually have moving arms and head, probally resprite it again in future)
+
+- Stored Frigate Hullmod now actually unavailable for anything other than Frigate
+
+- Maybe ill update the preview and such now...
+
+- Version Change Update to 9.7 (not jar rebuild version yet... #i still play 9.6 for next 2 or 3 week till SS update stabilized)
+
+---
+
+#Below are following content to be expected in next content update
+
+* Resprite Drifter Exploration Cruiser(Again...)
+* Nomad-Class Mobile Junker Station
+* Noah-Class Voidfaring Nomadic Hubship
+* Hullmod that allow FRIGATES to dock to repair and restore CR in any ship with specific Hullmod (possibly merge it into already existing Frigates Hangar and Stored Frigates Hullmod)
+* Actually finishing Frontier Command Structure
+* Various Weapon and Content that i probaly make on whim when i get inspiration out for it
+* Actually make froniter system unique
+* Actually make the story and bounty content
+* Balance Hell, and deleting many deprecated
+* Actually removing Herdmaster (will be come back in future in new form)

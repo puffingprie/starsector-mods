@@ -1,0 +1,30 @@
+{
+	"id":"Mimikko_zero_1",
+	"governingAptitude":"technology",
+	"compressHullmods":false,
+	"elite":true,
+	"scope":"PILOTED_SHIP",
+	"effectGroups":[
+		{
+			"requiredSkillLevel":1,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"SHIP", "script":"data.scripts.skill.Mimikko_zero_1$Level1"},
+				#{"type":"CHARACTER_STATS", "script":"data.scripts.skill.Mimikko_zero_1$Level0"},
+				#{"type":"SHIP", "script":"com.fs.starfarer.api.impl.campaign.skills.BallisticMastery$Level2"},
+				#{"type":"HULLMOD_UNLOCK", "hullmods":{"targetingunit":1}},
+				#{"type":"HULLMOD_UNLOCK", "hullmods":{"ballistic_rangefinder":1}},
+			]
+		},
+		{
+			"name":"Elite",
+			"requiredSkillLevel":2,
+			"effectBasedOnLevel":false,
+			"effects":[
+			    {"type":"SHIP", "script":"data.scripts.skill.Mimikko_zero_1$Level2"},
+
+			]
+		},
+	],
+}
+

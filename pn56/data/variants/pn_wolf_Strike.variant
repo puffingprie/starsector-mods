@@ -1,0 +1,46 @@
+{
+  "variantId": "pn_wolf_Strike",
+  "hullId": "pn_wolf",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 6,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "advancedoptics"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "pn_taala",
+        "WS 004": "pn_taala"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 005": "pn_jetlauncher",
+        "WS 006": "pn_jetlauncher"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "pn_vulcan",
+        "WS 003": "pn_vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

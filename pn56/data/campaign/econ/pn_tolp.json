@@ -1,0 +1,83 @@
+{
+    "starSystem":"Tolp",
+    "markets":[
+        {
+            "entities":["tolpI"],
+            "faction":"pn_colony",
+            "size":4,
+            "startingConditions":[
+                "rare_ore_ultrarich",
+                "ore_ultrarich",
+                "no_atmosphere",
+                "population_4",
+
+            ],
+            "industries":[
+                "population",
+                "spaceport",
+                "mining",
+            ],
+        },        {
+            "entities":["tolpIII"],
+            "faction":"pn_colony",
+            "size":6,
+            "startingConditions":[
+                "ore_abundant",
+				"habitable",
+                "population_6",
+            ],
+            "industries":[
+                "population",
+                "spaceport",
+				"grounddefenses",
+				"fuelprod",
+                "refining",
+				"patrolhq",
+                ["lightindustry", "biofactory_embryo"],
+            ],
+        },
+        {
+            "entities":["tolpIV"],
+            "faction":"pn_colony",
+            "size":7,
+            "startingConditions":[        
+                "population_7",
+                "organics_common",
+                "farmland_poor",
+				"ore_abundant",
+				"rare_ore_moderate",
+                "cold",
+                "habitable",
+                "extreme_weather",
+                "volatiles_diffuse",
+            ],
+            "industries":[
+                "starfortress_high",
+				"mining",
+                "militarybase",
+                "waystation",
+                "spaceport",
+				"farming",
+				"heavybatteries",
+                "population",
+                ["heavyindustry", "corrupted_nanoforge"],
+            ],
+        },
+        {
+            "entities":["tolp_piratestation"],
+            "faction":"pirates",
+            "freePort":true,
+            "size":5,
+            "startingConditions":[
+                "population_5",
+            ],
+            "industries":[
+                "population",
+                "battlestation",
+                "waystation",
+                "spaceport",
+                ["heavyindustry", "corrupted_nanoforge"],
+            ],
+        },
+    ],
+}

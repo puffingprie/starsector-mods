@@ -1,0 +1,45 @@
+{
+  "id": "acs_backupmg_watchmanhead",
+  "specClass": "projectile",
+  "projectileSpecId": "acs_backupmg_pdhead_shot",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "displayArcRadius": 250,
+  "turretSprite": "graphics/mech/acs_backupmg_watchmanhead_turret.png",
+  "hardpointSprite": "graphics/mech/acs_backupmg_watchmanhead_turret.png",
+  "visualRecoil": 3,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    3,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    8,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 6,
+    "spread": 6,
+    "particleSizeMin": 1,
+    "particleSizeRange": 3,
+    "particleDuration": 0.15,
+    "particleCount": 7,
+    "particleColor": [
+      255,
+      240,
+      165,
+      200
+    ]
+  },
+  "fireSoundTwo": "vulcan_cannon_fire"
+}

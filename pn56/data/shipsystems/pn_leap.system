@@ -1,0 +1,32 @@
+{
+	"id": "pn_leap",
+	"type": "STAT_MOD",
+	"aiType": "CUSTOM",
+	"aiScript": "data.shipsystems.scripts.ai.pn_leapAI",
+	"statsScript": "data.shipsystems.scripts.pn_leapStats",
+
+	"jitterColor": [255, 100, 255, 25],
+	"jitterCopies": 5,
+	"jitterRange": 5,
+	"jitterRangeRadiusFraction": 0,
+
+	"engineGlowColor": [255, 100, 225, 255],
+	"engineGlowContrailColor": [200, 100, 200, 25],
+	"engineGlowLengthMult": 2,
+	"engineGlowWidthMult": 1.5,
+	"engineGlowGlowMult": 1.5,
+
+	"vulnerableChargeup": false,
+	"vulnerableChargedown": false,
+	"renderCopyDuringTeleport": false,
+
+	"fadeActivationSoundOnChargedown": false,
+
+	"useSound": "pn_leap_sound_1",
+	"loopSound": "system_high_energy_focus_loop",
+	"outOfUsesSound": "gun_out_of_ammo",
+
+	"aiHints": {
+		"averageSpeedIncrease": 750
+	}
+}

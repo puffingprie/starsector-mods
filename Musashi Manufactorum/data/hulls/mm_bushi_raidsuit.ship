@@ -1,0 +1,93 @@
+{
+  "hullName": "Bushi Raidsuit",
+  "hullId": "mm_bushi_raidsuit",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/mm/ships/mm_bushi_raidsuit.png",
+  "style": "HIGH_TECH",
+  "height": 18,
+  "width": 16,
+  "center": [8, 8],
+  "collisionRadius": 11,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 18.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "mmadvancetargetingcore"
+  ],
+  "builtInWings": [
+    "mm_bushi_interceptor_standard_wing"
+  ],
+  "builtInWeapons": {
+    "WS0001": "mm_bushi_raidsuitarm"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 75,
+      "angle": 0,
+      "locations": [1, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-3, 2.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-7.5, -0],
+      "length": 12.743295,
+      "width": 4.053862,
+      "angle": -153.5,
+      "contrailSize": 4.053862,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-4.5, 7],
+      "length": 7.883327,
+      "width": 2.900455,
+      "angle": 104,
+      "contrailSize": 2.900455,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-7.5, 4],
+      "length": 46.669048,
+      "width": 11.313708,
+      "angle": 180,
+      "contrailSize": 11.313708,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    },
+    {
+      "location": [-1.5, 9],
+      "length": 5,
+      "width": 2,
+      "angle": 90,
+      "contrailSize": 2,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-7.5, 7.5],
+      "length": 8.378056,
+      "width": 3.497532,
+      "angle": 135,
+      "contrailSize": 3.497532,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -5.5, -3,
+    -8, 1.5,
+    -1.5, 8.5,
+    6, 1,
+    6, -5.5
+  ]
+}

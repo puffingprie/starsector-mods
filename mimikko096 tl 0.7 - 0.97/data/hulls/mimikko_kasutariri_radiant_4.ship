@@ -1,0 +1,71 @@
+{
+  "hullName": "mimikko_kasutariri_radiant_4",
+  "hullId": "mimikko_kasutariri_radiant_4",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/mimikko_kasutariri_radiant/mimikko_kasutariri_radiant_4.png",
+  "style": "HIGH_TECH",
+  "height": 324,
+  "width": 316,
+  "center": [158, 162],
+  "collisionRadius": 179.5,
+  "shieldCenter": [-44.5, 112.5],
+  "shieldRadius": 77.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "advancedcore",
+    "mimikko_kasutariri_radiant_moudle_hullmod",
+    "reduced_explosion",
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [-3, 117]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-54, 112]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-115.5, 124.5],
+      "length": 81.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "mimikko_kasutariri"
+    },
+    {
+      "location": [-112.5, 134.5],
+      "length": 81.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "mimikko_kasutariri"
+    },
+  ],
+  "bounds": [
+    15, 120.5,
+    -10.5, 142.5,
+    -37, 131,
+    -87.5, 151.5,
+    -113.5, 139.5,
+    -113.5, 116.5,
+    -96, 110,
+    -89, 93.5,
+    -56, 80.5,
+    -51, 93,
+    -14, 92,
+    9, 100
+  ]
+}

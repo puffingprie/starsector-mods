@@ -1,0 +1,185 @@
+{
+  "hullName": "mimikko_kasutariri_radiant_1",
+  "hullId": "mimikko_kasutariri_radiant_1",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/mimikko_kasutariri_radiant/mimikko_kasutariri_radiant_1.png",
+  "style": "HIGH_TECH",
+  "height": 324,
+  "width": 316,
+  "center": [158, 162],
+  "collisionRadius": 200.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 208.5,
+  "viewOffset": 0,
+  "builtInMods": [
+  "mimikko_kasutariri_radiant_mainship_hullmod",
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [93, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [9, 75]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [9, -75]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 90,
+      "locations": [-98, 90]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-124, 46]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-124, -46]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -90,
+      "locations": [-98.5, -90]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [0, -0]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [0, -0]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [0, -0]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [0, -0]
+    },
+    {
+      "id": "WS0012",
+      "size": "MEDIUM",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [0, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-146, 91],
+      "length": 120,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "mimikko_kasutariri"
+    },
+    {
+      "location": [-146, -91],
+      "length": 120,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "mimikko_kasutariri"
+    },
+    {
+      "location": [-156, 58.5],
+      "length": 155,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "mimikko_kasutariri"
+    },
+    {
+      "location": [-156, -58.5],
+      "length": 155,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "mimikko_kasutariri"
+    }
+  ],
+  "bounds": [
+    135.5, -0,
+    100.5, 31.5,
+    56.5, 46.5,
+    13.5, 104,
+    -63.5, 92.5,
+    -129.5, 116.5,
+    -143, 90,
+    -144, 74,
+    -155.5, 68.5,
+    -156, 48,
+    -148, 46,
+    -120, 21,
+    -120, -17.5,
+    -154, -48,
+    -155, -69.5,
+    -140, -74.5,
+    -141.5, -94,
+    -126, -110,
+    -62, -88.5,
+    12, -106,
+    55.5, -49.5,
+    99, -29.5
+  ]
+}

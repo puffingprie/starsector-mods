@@ -1,0 +1,24 @@
+{
+  "variantId": "FM_Kedama_drone",
+  "hullId": "FM_Kedama_drone",
+  "displayName": "Support Drone",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "no_weapon_flux"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ioncannon_fighter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

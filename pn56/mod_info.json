@@ -1,0 +1,9 @@
+{
+  "id":"pn", # internal id
+	"name":"P9 Colony Group", # displayed to the player
+	"version":"0.56",
+	"description":"Adds the P9 faction, a former prosperous colony of Tri-Tachyon that were sacrificed in a bid for power against the Domain of Man. Nexerelin compatible. By Zudgemud (but 100% of all java shamelessly stolen from Mendonca and his Junk Pirates mod)",
+	"gameVersion":"0.96a-RC10",
+	"modPlugin":"data.scripts.pnModPlugin", # mod plug in ...
+	"jars":["jars/PN.jar"],
+}

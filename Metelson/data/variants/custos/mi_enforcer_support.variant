@@ -1,0 +1,49 @@
+{
+  "displayName": "Support",
+  "fluxCapacitors": 10,
+  "fluxVents": 18,
+  "goalVariant": true,
+  "hullId": "mi_enforcer",
+  "hullMods": [
+    "armoredweapons"
+  ],
+  "permaMods": [],
+  "quality": 0.5,
+  "variantId": "mi_enforcer_support",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 007": "hammer",
+        "WS 009": "hammer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "hveldriver",
+        "WS 005": "hveldriver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "heavymauler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "crackler",
+        "WS 004": "crackler",
+        "WS 006": "light_maser_beam",
+        "WS 008": "light_maser_beam"
+      }
+    }
+  ],
+  "wings": []
+}

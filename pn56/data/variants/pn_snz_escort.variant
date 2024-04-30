@@ -1,0 +1,33 @@
+{
+    "displayName": "Escort",
+    "fluxCapacitors": 8,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "pn_snz-gp",
+    "hullMods": [
+        "targetingunit",
+        "turretgyros",
+        "hardenedshieldemitter"
+    ],
+    "permaMods": [],
+    "variantId": "pn_snz_escort",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "pn_skscannon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "pn_vulcan",
+                "WS0006": "pn_vulcan",
+                "WS0007": "pn_vulcan",
+                "WS0008": "pn_vulcan",
+                "WS0009": "pn_vulcan",
+                "WS0010": "pn_vulcan"
+            }
+        }
+    ]
+}

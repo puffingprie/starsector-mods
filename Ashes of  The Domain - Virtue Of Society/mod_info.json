@@ -1,0 +1,12 @@
+{
+	"id":"aod_vos",
+	"name": "AoTD - Virtue Of Society",
+	"author":"Kaysaar",
+	"utility":"false",
+	"version":"1.0.9c",
+	"description":"Ashes of The Domain - Virtue of Society: Module that adds events to colonies",
+    "gameVersion": "0.97a-RC6",
+	"jars":["jars/Vos.jar"],
+	"modPlugin":"data.plugins.AoTDVoSModPlugin"
+
+}

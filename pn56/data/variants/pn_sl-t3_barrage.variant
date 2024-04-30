@@ -1,0 +1,25 @@
+{
+    "displayName": "Barrage",
+    "fluxCapacitors": 15,
+    "fluxVents": 2,
+    "goalVariant": true,
+    "hullId": "pn_sl-t3",
+    "hullMods": ["pointdefenseai"],
+    "permaMods": [],
+    "variantId": "pn_sl-t3_barrage",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "pn_t3cannon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "pn_skscannon",
+                "WS0003": "pn_skscannon"
+            }
+        }
+    ]
+}

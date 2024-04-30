@@ -1,0 +1,43 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 0,
+    "fluxVents": 19,
+    "goalVariant": true,
+    "hullId": "medusa_ix",
+    "hullMods": [
+        "extendedshieldemitter",
+        "hardenedshieldemitter",
+        "targetingunit",
+        "ix_laser_collimator",
+        "frontemitter",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "medusa_ix_attack",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "taclaser",
+                "WS 003": "taclaser",
+                "WS 006": "twin_tactical_laser_ix",
+                "WS 007": "twin_tactical_laser_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "orthrus_s_ix",
+                "WS 009": "orthrus_s_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 005": "morningstar_ciws_ix"}
+        }
+    ]
+}

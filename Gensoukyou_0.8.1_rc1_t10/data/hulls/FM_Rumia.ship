@@ -1,0 +1,95 @@
+{
+  "hullName": "FM_Rumia",
+  "hullId": "FM_Rumia",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/FM_Rumia/FM_Rumia.png",
+  "style": "FM",
+  "height": 93,
+  "width": 114,
+  "center": [57, 47],
+  "collisionRadius": 64,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 60.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FantasyBasicMod",
+    "FantasySpellMod",
+    "FantasyRumiaMod",
+    "phasefield"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 45,
+      "locations": [10, 24]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -45,
+      "locations": [10, -24]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-22.5, 11.5],
+      "length": 21,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-22.5, -11.5],
+      "length": 21,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-21.5, 13.5],
+      "length": 17.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-21.5, -13.5],
+      "length": 17.5,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-14.5, -0],
+      "length": 42.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "FM_ome"
+    }
+  ],
+  "bounds": [
+    -4, -56,
+    -4, -35.5,
+    -13, -29.5,
+    -21, -16,
+    -31.5, -3,
+    -31.5, 3,
+    -21, 16,
+    -13, 29.5,
+    -4, 35.5,
+    -4, 56,
+    43.5, -0
+  ]
+}

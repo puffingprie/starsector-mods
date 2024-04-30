@@ -1,0 +1,9 @@
+{
+	"id":"ix_spatial_charges",
+	"type":"WEAPON",
+	"aiType":"CUSTOM",
+	"aiScript":"data.scripts.ix.ai.SpatialChargesAI",
+	
+	"weaponDataId":"spatial_charge_ix",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

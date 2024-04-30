@@ -1,0 +1,10 @@
+{
+	"baseHullId":"vice_tigershark_base",
+	"skinHullId":"vice_tigershark_ex",
+	"hullName":"Tigershark (EX)",
+	"descriptionId":"vice_ex_all",
+	"descriptionPrefix":"A high-tech cruiser prototype envisioned as a universal weapons platform. The highly versatile Tigershark is unusual in its ability to fit a wide array of armaments, including railguns and cannons more commonly found on low-tech hulls.",
+	"tags":["rare_bp", "hist2t", "merc", "ind", "tritachyon", "vice_ex_bp"],
+	"removeHints":["HIDE_IN_CODEX"],
+	"builtInMods":["vice_universal_interface", "vice_experimental_hull"],
+}

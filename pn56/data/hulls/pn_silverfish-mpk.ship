@@ -1,0 +1,266 @@
+{
+  "hullName": "Silverfish-MPK",
+  "hullId": "pn_silverfish-mpk",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/pn/ships/pn_silverfish-mpk.png",
+  "style": "HIGH_TECH",
+  "height": 427,
+  "width": 183,
+  "center": [91.5, 300],
+  "collisionRadius": 301.112091,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 136.434052,
+  "viewOffset": 0,
+  "builtInMods": [
+    "pn_repairmod",
+    "pn_cores",
+    "pn_phasefield",
+    "pn_sensors"
+  ],
+  "builtInWeapons": {
+    "WS0004": "pn_dsiblink"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [35.5, -84]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 40,
+      "angle": 0,
+      "locations": [97.5, -9]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 40,
+      "angle": -0,
+      "locations": [97.5, 9]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 40,
+      "angle": 0,
+      "locations": [115, -32]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 40,
+      "angle": -0,
+      "locations": [115, 32]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 40,
+      "angle": 0,
+      "locations": [115.5, -46]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 40,
+      "angle": -0,
+      "locations": [115.5, 46]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [89, -40]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [89, 40]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-12.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-58.5, 14],
+      "length": 4,
+      "width": 34,
+      "angle": -90,
+      "contrailSize": 34,
+      "style": "CUSTOM",
+      "styleId": "sikeEngine"
+    },
+    {
+      "location": [-58.5, -14],
+      "length": 4,
+      "width": 34,
+      "angle": 90,
+      "contrailSize": 34,
+      "style": "CUSTOM",
+      "styleId": "sikeEngine"
+    },
+    {
+      "location": [-36.5, -11.5],
+      "length": 9.562056,
+      "width": 13.125104,
+      "angle": 122.195732,
+      "contrailSize": 13.125104,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-36.5, 11.5],
+      "length": 9.562056,
+      "width": 13.125104,
+      "angle": -122.195732,
+      "contrailSize": 13.125104,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-29.5, -9],
+      "length": 16.390482,
+      "width": 9.241665,
+      "angle": 145.980652,
+      "contrailSize": 9.241665,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-29.5, 9],
+      "length": 16.390482,
+      "width": 9.241665,
+      "angle": -145.980652,
+      "contrailSize": 9.241665,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-25, -0],
+      "length": 83,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-98.5, 17.5],
+      "length": 3.5,
+      "width": 23,
+      "angle": -90,
+      "contrailSize": 23,
+      "style": "CUSTOM",
+      "styleId": "sikeEngine"
+    },
+    {
+      "location": [-98.5, -17.5],
+      "length": 3.5,
+      "width": 23,
+      "angle": 90,
+      "contrailSize": 23,
+      "style": "CUSTOM",
+      "styleId": "sikeEngine"
+    },
+    {
+      "location": [-126, 17.5],
+      "length": 4,
+      "width": 30,
+      "angle": -90,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "sikeEngine"
+    },
+    {
+      "location": [-126, -17.5],
+      "length": 4,
+      "width": 30,
+      "angle": 90,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "sikeEngine"
+    },
+    {
+      "location": [-158, 17.5],
+      "length": 4,
+      "width": 30,
+      "angle": -90,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "sikeEngine"
+    },
+    {
+      "location": [-158, -17.5],
+      "length": 4,
+      "width": 30,
+      "angle": 90,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "sikeEngine"
+    },
+    {
+      "location": [-184.5, 17.5],
+      "length": 3.5,
+      "width": 20,
+      "angle": -90,
+      "contrailSize": 20,
+      "style": "CUSTOM",
+      "styleId": "sikeEngine"
+    },
+    {
+      "location": [-184.5, -17.5],
+      "length": 3.5,
+      "width": 20,
+      "angle": 90,
+      "contrailSize": 20,
+      "style": "CUSTOM",
+      "styleId": "sikeEngine"
+    }
+  ],
+  "bounds": [
+    -35, 13,
+    -299, 25.5,
+    5, 95,
+    130.5, 63.5,
+    122.5, 30.5,
+    103.5, 7,
+    103.5, -7,
+    122.5, -30.5,
+    130.5, -63.5,
+    5, -95,
+    -299, -25.5,
+    -35, -13
+  ]
+}

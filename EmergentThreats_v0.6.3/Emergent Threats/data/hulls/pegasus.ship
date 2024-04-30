@@ -1,0 +1,40 @@
+{
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 200,
+      "angle": 180,
+      "locations": [
+        -118, -8,
+        -118, 8
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 135,
+      "locations": [
+        8, 83,
+        12, 91
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 225,
+      "locations": [
+        8, -83,
+        12, -91
+      ]
+    }
+  ],
+}

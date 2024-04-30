@@ -1,0 +1,85 @@
+{
+    "displayName": "Navy",
+    "fluxCapacitors": 0,
+    "fluxVents": 47,
+    "hullId": "executor",
+    "hullMods": [
+        "damaged_mounts",
+        "increased_maintenance",
+        "comp_structure",
+        "vice_attuned_emitter_diodes",
+        "fluxdistributor",
+        "hardenedshieldemitter",
+        "targetingunit",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [
+        "damaged_mounts",
+        "increased_maintenance",
+        "comp_structure"
+    ],
+    "sMods": [],
+    "variantId": "executor_mission",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "vice_siege_burst",
+                "WS 001": "vice_siege_burst"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 012": "squall",
+                "WS 013": "squall"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "gravitonbeam",
+                "WS 007": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "hveldriver",
+                "WS 005": "hveldriver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 014": "vice_ionstreamer",
+                "WS 015": "vice_ionstreamer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "vulcan",
+                "WS 009": "vulcan",
+                "WS 010": "vulcan",
+                "WS 011": "flak",
+                "WS 016": "pdlaser",
+                "WS 017": "pdlaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "heavyburst",
+                "WS 006": "heavyburst"
+            }
+        }
+    ]
+}

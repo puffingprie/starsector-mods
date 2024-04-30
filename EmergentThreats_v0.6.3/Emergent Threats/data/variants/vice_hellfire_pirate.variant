@@ -1,0 +1,48 @@
+{
+    "displayName": "Pirate",
+    "fluxCapacitors": 2,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "vice_hellfire_colossus",
+    "hullMods": [
+        "dedicated_targeting_core",
+        "pointdefenseai"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_hellfire_pirate",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS DEM": "vice_hellfire"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS TGT": "vice_hellfire_targeting"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "hveldriver",
+                "WS 008": "hveldriver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "vulcan",
+                "WS 002": "vulcan",
+                "WS 003": "vulcan",
+                "WS 004": "vulcan",
+                "WS 005": "vulcan",
+                "WS 006": "vulcan",
+                "WS 009": "vulcan",
+                "WS 010": "vulcan"
+            }
+        }
+    ]
+}

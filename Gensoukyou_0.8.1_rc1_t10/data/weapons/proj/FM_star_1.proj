@@ -1,0 +1,66 @@
+
+{
+	"id":"FM_star_1",
+	"specClass":"missile",
+	"missileType":"PHASE_MINE",
+	"sprite":"graphics/weapons/projects/FM_ball_white.png",
+	"size":[16,16],
+	"center":[8,8],
+	"collisionRadius":8,
+	"collisionClass":"NONE",
+	"explosionColor":[0,63,222,200],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":20, # purely visual
+	"fadeTime":0.1, # fadeout duration
+	"glowColor":[255,255,255,255],
+	"glowRadius":8,
+	"flameoutTime":0.5,
+	"hitGlowRadius": 20,
+	"noDebrisWhenDestroyed":true,
+	"noCollisionWhileFading":true,
+	"useHitGlowWhenDestroyed":true,
+	"onHitEffect":"data.weapons.onHit.FM_PersuasionExtraOnHit",
+	"engineSpec":{"turnAcc":0,
+				  "turnRate":0,
+				  "acc":0,
+				  "dec":0},
+	#"engineSpec":{"turnAcc":240,
+	#			  "turnRate":120,
+	#			  "acc":400,
+	#			  "dec":400},
+
+	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+									"slowToMaxSpeed":false,
+									"range":0,
+									"pingColor":[100,60,255,0],
+									"mineHasNoSprite":true,
+									"flashRateMult":0.25,
+									"pingRadius":0,
+									"pingDuration":0.25,
+									"delay":0.0,
+									"windupSound":"hit_glancing_energy",
+									"windupDelay":0.3,
+									"explosionSpec":{"duration":0.2f,
+													 "radius":30,
+													 "coreRadius":30, # full damage within core radius
+													 "collisionClass":PROJECTILE_FF,
+													 "collisionClassByFighter":PROJECTILE_FF,
+													 "particleSizeMin":3.0,
+													 "particleSizeRange":5.0,
+													 "particleDuration":1,
+													 "particleCount":15,
+													 "particleColor":[63,63,222,200],
+													 "explosionColor":[70,133,222,255],
+													 "useDetailedExplosion":true,
+													 "useDetailedExplosionColorAlpha":true,
+													 "detailedExplosionRadius":16,
+													 "detailedExplosionFlashRadius":30,
+													 "detailedExplosionFlashDuration":0.5,
+													 "detailedExplosionFlashColorFringe":[177,213,255,255],
+													 "detailedExplosionFlashColorCore":[255,255,255,255],
+													 "sound":"FM_Spark_pd_fire"},
+									}
+
+
+
+
+}

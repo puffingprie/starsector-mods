@@ -1,0 +1,24 @@
+id,first name,last name,character
+# unique string,"if one name is specified, check if it matches","if both are, must match both",
+# for multiple matching entries the first one is picked,two-name matches are preferred,,
+# note that if the character name is same as the officer's full name it automatically matches without checking this file,,,
+Mimikko_momona,Momona,,Mimikko_momona
+Mimikko_momona_2,Momona Chan,,Mimikko_momona
+Mimikko_zero,Zero,,Mimikko_zero
+Mimikko_mint,Mint,,Mimikko_mint
+Mimikko_kurumi,Kurumi,,Mimikko_kurumi
+Mimikko_ariana,Ariana,,Mimikko_ariana
+Mimikko_simeng,Simeng,,Mimikko_simeng
+Mimikko_miruko,Miruko,,Mimikko_miruko
+Mimikko_miruku,Miruku,,Mimikko_miruku
+Mimikko_yurika,Yurika,,Mimikko_yurika
+Mimikko_nonona,Nonona,,Mimikko_nonona
+Mimikko_nemuri,Nemuri,,Mimikko_nemuri
+Mimikko_kasutariri,Kasutariri,,Mimikko_kasutariri
+Mimikko_kasutarira,Kasutarira,,Mimikko_kasutarira
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,

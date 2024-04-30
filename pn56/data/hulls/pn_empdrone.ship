@@ -1,0 +1,86 @@
+{
+  "bounds": [
+    -5,
+    -4.5,
+    0.5,
+    -8.5,
+    7,
+    -6,
+    7,
+    5.5,
+    0.5,
+    8.5,
+    -5,
+    4.5
+  ],
+  "center": [
+    10,
+    6
+  ],
+  "collisionRadius": 15,
+  "engineSlots": [
+    {
+      "angle": -180,
+      "contrailSize": 4,
+      "length": 2.5,
+      "location": [
+        -5,
+        -0
+      ],
+      "style": "CUSTOM",
+      "styleId": "sikeEngine",
+      "width": 4
+    },
+    {
+      "angle": 56.309933,
+      "contrailSize": 4.242641,
+      "length": 2.828427,
+      "location": [
+        3,
+        5
+      ],
+      "style": "CUSTOM",
+      "styleId": "sikeEngine",
+      "width": 4.242641
+    },
+    {
+      "angle": -56.309933,
+      "contrailSize": 4.242641,
+      "length": 2.828427,
+      "location": [
+        3,
+        -5
+      ],
+      "style": "CUSTOM",
+      "styleId": "sikeEngine",
+      "width": 4.242641
+    }
+  ],
+  "height": 13,
+  "hullId": "pn_empdrone",
+  "hullName": "P9 EMP drone",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 15,
+  "spriteName": "graphics/pn/ships/Drones/pn_empdrone.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        2,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 20
+}

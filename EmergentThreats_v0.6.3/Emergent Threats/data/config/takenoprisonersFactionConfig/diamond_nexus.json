@@ -1,0 +1,8 @@
+{
+  "capturesOfficers": false,
+  "capturesCommanders": false,
+  "commanderForcedCapture": false,
+  "acceptsRansoms": false,
+  "captureChance": 0,
+  "sendsVengeanceFleets": false
+}

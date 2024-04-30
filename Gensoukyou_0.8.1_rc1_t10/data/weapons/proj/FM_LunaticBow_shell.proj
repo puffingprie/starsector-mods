@@ -1,0 +1,20 @@
+{
+	"id":"FM_LunaticBow_shell",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":90.0,
+	"width":16,
+	"fadeTime":0.3,
+	"fringeColor":[255,125,114,255],
+	"coreColor":[235,235,255,255],
+	"glowColor":[255,125,114,60],
+	"glowRadius":50,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+	"passThroughFighters":true,
+	"onHitEffect":"data.weapons.onHit.FM_LunaticBowOnHit",
+	"bulletSprite":"graphics/weapons/projects/FM_LunaticBow_shell.png"
+}

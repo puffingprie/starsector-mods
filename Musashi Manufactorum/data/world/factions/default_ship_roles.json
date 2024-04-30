@@ -1,0 +1,52 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+
+	"combatCapital":{
+"mm_susanowo_standard":10,		
+"mm_bishamonten_standard":10,
+		"mm_mikaboshi_standard":10,
+		"mm_amaterasu_standard":10,
+		"mm_fell_amaterasu_standard":10,
+	},
+
+	"combatLarge":{
+		"mm_kuzuryu_standard":10,
+		"mm_watatsumi_standard":10,	
+		"mm_hachiman_standard":10,	
+		"mm_kajin_standard":10,	
+		"mm_moreya_standard":10,
+		"mm_gongen_standard":10,
+		"mm_kurao_standard":10,
+		"mm_isetsu_standard":10,
+	},
+
+	"combatMedium":{
+		"mm_kisshoten_standard":10,
+		"mm_nesaku_standard":10,
+	},
+
+
+	"combatSmall":{
+		"mm_kojin_standard":10,
+		"mm_hoderi_standard":10,
+		"mm_idaten_standard":10,
+		"mm_bushi_hunter_standard":10,
+	},
+
+	"carrierSmall":{
+	},
+
+	"carrierMedium":{
+		"mm_ebisu_s_standard":10,
+	},
+
+	"carrierLarge":{
+		"mm_ebisu_m_standard":10,
+		"mm_ebisu_standard":10,
+	},
+
+	"civilianRandom":{
+	},
+		
+}

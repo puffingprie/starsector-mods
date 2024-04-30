@@ -1,0 +1,94 @@
+{
+  "hullName": "mimikko_zero_fighter",
+  "hullId": "mimikko_zero_fighter",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/mimikko_zero_fighter.png",
+  "style": "HIGH_TECH",
+  "height": 58,
+  "width": 38,
+  "center": [19, 26.5],
+  "collisionRadius": 28,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 36.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "advancedoptics",
+    "terminator_core",
+    "turretgyros",
+    "shield_always_on",
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [17.5, -0.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [10, -0.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-11.5, 6.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-11.5, -9]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [-1, -1]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-13, 7],
+      "length": 70,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "mimikko_zero"
+    },
+    {
+      "location": [-12, -8],
+      "length": 76,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "mimikko_zero"
+    }
+  ],
+  "bounds": [
+    27.5, 1.5,
+    1, 15.5,
+    -23.5, 8,
+    -17, 2.5,
+    -23.5, -13.5,
+    -4.5, -13.5,
+    7.5, -14
+  ]
+}

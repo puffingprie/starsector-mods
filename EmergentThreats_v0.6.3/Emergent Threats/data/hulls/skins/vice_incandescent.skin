@@ -1,0 +1,19 @@
+{
+	"baseHullId":"vice_incursion_base",
+	"skinHullId":"vice_incandescent",
+	"hullName":"Incandescent",
+	"hullDesignation":"Drone Battleship",
+	"descriptionId":"vice_incandescent",
+	"descriptionPrefix":"A remnant of the autonomous AI fleets developed by the Tri-Tachyon Corporation. Illegal under Domain (and Hegemony) law, and an abomination to the Church of Galactic Redemption. This ship is clearly derived from the Incursion-class battleship, a proposed but never widely adopted replacement for the venerable Onslaught-class battleships still in service with the Domain Armada. First spotted by deep space patrols less than 20 cycles ago, how this type of autonomous warship came into being remains a mystery. However, its very existence is enough to keep COMSEC strategic planners awake at night.",
+	"addHints":["UNBOARDABLE"],
+	"tags":["remnant", "auto_rec"],
+	"manufacturer":"Remnant",
+	"baseValueMult":1,
+	"fpMod":2,
+	"spriteName":"graphics/vice/ships/hidden/incandescent.png",
+	"builtInMods":["automated", "vice_incandescent_remnant"],
+	"builtInWeapons": {
+        "WS20": "vice_hmc",
+        "WS21": "vice_hmc"
+    },
+}

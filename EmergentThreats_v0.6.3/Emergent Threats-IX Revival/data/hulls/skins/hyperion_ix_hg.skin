@@ -1,0 +1,21 @@
+{
+	"baseHullId":"hyperion_ix_base",
+	"skinHullId":"hyperion_ix_hg",
+	"hullName":"Hyperion (HG)",
+	"incompatibleWithBaseHull":true,
+	"descriptionId":"hyperion_ix_hg",
+	"coversColor":[120,130,120,255],
+	"descriptionPrefix":"A one of a kind upgrade of the rarely seen Hyperion (EX). The 9th Domain Battlegroup meticulously reassembled this ship from rare caches of battlefield salvage, restored it to full functionality, and further improved its performance with their own cutting edge technology.",
+	"fleetPoints":17,
+	"ordnancePoints":58,
+	"baseValueMult":2,
+	"addHints":["HIDE_IN_CODEX"],
+	"tags":[],
+	"tech":"IX Battlegroup",
+	"builtInMods":["ix_ninth", "ix_missile_nanoforge"],
+	"weaponSlotChanges":{
+		"WS 001":{"type": "SYNERGY"},
+		"WS 002":{"type": "SYNERGY"},
+		},
+	},
+}

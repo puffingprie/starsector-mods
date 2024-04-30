@@ -1,0 +1,67 @@
+{
+  "variantId": "mi_drengur_kamikaze",
+  "hullId": "mi_drengur",
+  "displayName": "Kamikaze",
+  "goalVariant": true,
+  "fluxCapacitors": 13,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "blast_doors"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "multineedler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 005": "harpoonpod",
+        "WS 006": "harpoonpod",
+        "WS 014": "gorgonpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "plasma",
+        "WS 013": "molarisblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "heavy_chaingun",
+        "WS 007": "crackler",
+        "WS 008": "crackler",
+        "WS 009": "heavy_chaingun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "guardian",
+        "WS 010": "pdlaser",
+        "WS 012": "pdlaser",
+        "WS 015": "pdlaser",
+        "WS 017": "pdlaser",
+        "WS 018": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "negl_wing",
+    "negl_wing"
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "hullName": "FM_Egret",
+  "hullId": "FM_Egret",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/FM_Egret.png",
+  "style": "FM",
+  "height": 270,
+  "width": 132,
+  "center": [66, 120.5],
+  "collisionRadius": 160,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 156.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "recovery_shuttles",
+    "FantasyBasicMod"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 45,
+      "locations": [1, 23.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -2, -47.5,
+        3.5, -45
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        26.5, 3.5,
+        26.5, -2.5,
+        35.5, 3.5,
+        35.5, -3.5
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -2.5, 48,
+        3.5, 46
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 45,
+      "locations": [36.5, 18]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -45,
+      "locations": [36.5, -18]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -90,
+      "locations": [-38.5, -22]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 90,
+      "locations": [-38.5, 22]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-90, 0],
+      "length": 68.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-64.5, -15.5],
+      "length": 55,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-64.5, 15.5],
+      "length": 55,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-67, 18],
+      "length": 43,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-67, -18],
+      "length": 43,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-70.5, 20.5],
+      "length": 30,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-70.5, -20.5],
+      "length": 30,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    104.5, -5,
+    138, -5.5,
+    141, -11,
+    92.5, -32,
+    83.5, -43,
+    63, -42,
+    58, -43,
+    29, -51.5,
+    17.5, -46,
+    6.5, -55,
+    -2.5, -53,
+    -3.5, -63.5,
+    -29.5, -66,
+    -47, -52,
+    -72.5, -37,
+    -53.5, -30.5,
+    -85.5, -23,
+    -63.5, -14.5,
+    -104.5, -6.5,
+    -113, 5.5,
+    -63.5, 14.5,
+    -85.5, 23,
+    -53.5, 30.5,
+    -72.5, 37,
+    -47, 52,
+    -29.5, 66,
+    -3.5, 63.5,
+    -2.5, 53,
+    6.5, 55,
+    17.5, 46,
+    29, 51.5,
+    58, 43,
+    63, 42,
+    83.5, 43,
+    92.5, 32,
+    141, 11,
+    138, 5.5,
+    104.5, 5
+  ]
+}

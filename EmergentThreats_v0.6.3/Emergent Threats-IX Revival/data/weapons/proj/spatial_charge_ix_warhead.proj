@@ -1,0 +1,21 @@
+{
+	"id":"spatial_charge_ix_warhead",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/fx/empty.png",
+	"onFireEffect":"data.scripts.ix.weapons.SpatialChargeShotOnFire",
+	"size":[2,2],
+	"center":[1,1],
+	"collisionRadius":3,
+	"collisionClass":"NONE",
+	"explosionColor":[0,0,0,0],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":0, # purely visual
+	"fadeTime":0.1, # fadeout duration
+	"maxFlightTime":0.1,
+	"engineSpec":{
+				  "turnAcc":0,
+				  "turnRate":0,
+				  "acc":0,
+				  "dec":0,
+				  "maxSpeed":0}
+}

@@ -1,0 +1,34 @@
+{
+	"id":"FM_Kedama_drone_system",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+
+	"aiScript":"data.shipsystems.ai.FM_SpellCard_ai_type01",
+
+	"statsScript":"data.shipsystems.FM_Kedama_drone_system",
+
+
+	#"weaponGlowColor":[255,165,90,0],
+	#"weaponTypes":[ENERGY, BALLISTIC, MISSILE],
+
+	#"engineGlowColor":[255,90,255,255],
+
+  "range":700,
+
+	"soundFilterType":"LOWPASS",
+	"soundFilterGain":0.75,
+	"soundFilterGainHF":0.25,
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_damper",
+	"loopSound":"system_damper_loop",
+	"deactivateSound":"system_damper_off",
+	"outOfUsesSound":"gun_out_of_ammo",
+
+	"aiHints":{
+
+		"threatRange":600,
+		"threatAngle":0,
+		"threatArc":360,
+	}
+}

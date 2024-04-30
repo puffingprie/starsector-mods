@@ -1,0 +1,278 @@
+{
+  "hullName": "Kuzuryu",
+  "hullId": "mm_kuzuryu",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/mm/ships/mm_kuzuryu.png",
+  "style": "OMEGA",
+  "height": 460,
+  "width": 118,
+  "center": [59, 228.5],
+  "collisionRadius": 240,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 256,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hbi",
+    "mmadvancetargetingcore",
+  ],
+  "weaponSlots": [
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -168.5, 1,
+        -169, -40.5
+      ]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 180,
+      "locations": [-87, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 147.5,
+      "locations": [-180.5, 21]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -136,
+      "locations": [-180.5, -21]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 90,
+      "locations": [-161.5, 15.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -90,
+      "locations": [-161.5, -15.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 71.5,
+      "locations": [-139.5, 23]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -71.5,
+      "locations": [-139.5, -23]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 152,
+      "angle": 89,
+      "locations": [-53.5, 15]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 152,
+      "angle": -89,
+      "locations": [-53.5, -15]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 50,
+      "locations": [-40.5, 15]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -50,
+      "locations": [-40.5, -15]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 24,
+      "angle": 0,
+      "locations": [88, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 22,
+      "angle": 0,
+      "locations": [31, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [-19, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-212.5, 17],
+      "length": 144.169434,
+      "width": 19.639298,
+      "angle": 176.5,
+      "contrailSize": 19.639298,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    },
+    {
+      "location": [-212.5, -18],
+      "length": 144.169434,
+      "width": 19.639298,
+      "angle": -176.5,
+      "contrailSize": 19.639298,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    },
+    {
+      "location": [-203, 5.5],
+      "length": 242.630386,
+      "width": 27.766411,
+      "angle": 179.5,
+      "contrailSize": 27.766411,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    },
+    {
+      "location": [-203, -6.5],
+      "length": 242.630386,
+      "width": 27.766411,
+      "angle": -179.5,
+      "contrailSize": 27.766411,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    },
+    {
+      "location": [-148, 48],
+      "length": 15.649136,
+      "width": 7.308778,
+      "angle": 161.5,
+      "contrailSize": 7.308778,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    },
+    {
+      "location": [-148, -49],
+      "length": 15.649136,
+      "width": 7.308778,
+      "angle": -161.5,
+      "contrailSize": 7.308778,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    },
+    {
+      "location": [-138.5, 53.5],
+      "length": 15.649136,
+      "width": 7.308778,
+      "angle": 161.5,
+      "contrailSize": 7.308778,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    },
+    {
+      "location": [-138.5, -54.5],
+      "length": 15.649136,
+      "width": 7.308778,
+      "angle": -161.5,
+      "contrailSize": 7.308778,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    },
+    {
+      "location": [-27.5, 52.5],
+      "length": 15.649136,
+      "width": 7.308778,
+      "angle": 161.5,
+      "contrailSize": 7.308778,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    },
+    {
+      "location": [-27.5, -53.5],
+      "length": 15.649136,
+      "width": 7.308778,
+      "angle": -161.5,
+      "contrailSize": 7.308778,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    },
+    {
+      "location": [-15.5, 47.5],
+      "length": 15.649136,
+      "width": 7.308778,
+      "angle": 161.5,
+      "contrailSize": 7.308778,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    },
+    {
+      "location": [-15.5, -48.5],
+      "length": 15.649136,
+      "width": 7.308778,
+      "angle": -161.5,
+      "contrailSize": 7.308778,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    229.5, -8,
+    51, -41,
+    -173, -44.5,
+    -227.5, -16.5,
+    -227.5, 18.5,
+    -173, 46.5,
+    51, 43,
+    229.5, 10
+  ]
+}

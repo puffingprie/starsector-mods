@@ -1,0 +1,18 @@
+{
+	"id":"es_projector_ix_shot",
+	"specClass":"projectile",
+	"onHitEffect":"data.scripts.ix.weapons.ElectrostaticProjectorEffect",
+	"onFireEffect":"data.scripts.ix.weapons.ElectrostaticProjectorEffect",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":0.1,
+	"width":0.1,
+	"hitGlowRadius":0,
+	"fadeTime":0.25,
+	"fringeColor":[50,150,50,70],
+	"coreColor":[150,255,150,100],
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256,
+	"pixelsPerTexel":5.0
+}

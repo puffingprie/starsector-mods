@@ -1,0 +1,17 @@
+{
+	"baseHullId":"vice_paragon_base",
+	"skinHullId":"vice_resplendent",
+	"hullName":"Resplendent",
+	"hullDesignation":"Command Droneship",
+	"descriptionId":"vice_resplendent",
+	"descriptionPrefix":"A remnant of the autonomous AI fleets developed by the Tri-Tachyon Corporation. Illegal under Domain (and Hegemony) law, and an abomination to the Church of Galactic Redemption. Bearing radical changes from its origins as a Paragon-class battleship, the Resplendent was meant to function as both a front line combatant and fleet carrier. Rumors persist that such vessels were converted from what remained of Tri-Tachyon fleet reserves near the end of the First AI War, at the behest of an increasingly desperate executive board that sought mutual destruction rather than surrender.",
+	"addHints":["CARRIER", "COMBAT", "NO_AUTO_ESCORT", "UNBOARDABLE"],
+	"removeHints":[],
+	"tags":["remnant", "auto_rec"],
+	"manufacturer":"Remnant",
+	"fighterBays":6,
+	"ordnancePoints":350,
+	"spriteName":"graphics/vice/ships/hidden/resplendent.png",
+	"builtInWings": [],
+	"builtInMods":["automated", "vice_drone_autoforge", "vice_resplendent_remnant"],
+}

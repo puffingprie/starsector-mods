@@ -1,0 +1,61 @@
+{
+  "id": "guilmjnor",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "beamEffect": "com.fs.starfarer.api.impl.combat.IonBeamEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/bulit-in/newguilmjonr.png",
+  "turretGlowSprite": "graphics/weapons/bulit-in/newguilmjonr_glow.png",
+  "hardpointSprite": "graphics/weapons/bulit-in/newguilmjonr.png",
+  "hardpointGlowSprite": "graphics/weapons/bulit-in/newguilmjonr_glow.png",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+    255,
+    84,
+    59,
+    255
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    -5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    13,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    255,
+    84,
+    59,
+    255
+  ],
+  "coreColor": [
+    255,
+    225,
+    255,
+    255
+  ],
+  "darkCore": true,
+  "width": 35,
+  "textureType": ROUGH,
+  "textureScrollSpeed": 260,
+  "pixelsPerTexel": 15,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF,
+    FIGHTER
+  ],
+  "fireSoundTwo": "ion_beam_loop"
+}

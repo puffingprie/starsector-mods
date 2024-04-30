@@ -1,0 +1,28 @@
+{
+	"id":"Mimikko_nemuri_1",
+	"governingAptitude":"industry",
+	"compressHullmods":false,
+	"elite":true,
+	"scope":"PILOTED_SHIP",
+	"effectGroups":[
+		{
+			"requiredSkillLevel":1,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"SHIP", "script":"data.scripts.skill.Mimikko_nemuri_1$Level1"},
+				#{"type":"SHIP", "script":"data.scripts.skill.Mimikko_miruko_1$Level2"},
+				#{"type":"SHIP", "script":"data.scripts.skill.Mimikko_miruko_1$Level3"},
+				#{"type":"SHIP", "script":"data.scripts.skill.Mimikko_miruko_1$Level4"},
+			]
+		},
+		{
+			"name":"Elite",
+			"requiredSkillLevel":2,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"SHIP", "script":"data.scripts.skill.Mimikko_nemuri_1$Level2"},
+			]
+		},
+	],
+}
+

@@ -1,0 +1,36 @@
+{
+  "variantId": "acs_phaetonmkiv_standard",
+  "hullId": "acs_phaetonmkiv",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hellbore",
+        "WS0002": "acs_velites_pod",
+        "WS0003": "acs_autothumper",
+        "WS0004": "vulcan",
+        "WS0005": "vulcan",
+        "WS0006": "acs_small_lascannon",
+        "WS0007": "vulcan",
+        "WS0008": "vulcan",
+        "WS0009": "vulcan",
+        "WS0010": "acs_velites_single",
+        "WS0011": "acs_velites_single",
+        "WS0012": "heatseeker"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

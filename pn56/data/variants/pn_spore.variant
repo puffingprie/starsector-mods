@@ -1,0 +1,30 @@
+{
+  "variantId": "pn_spore",
+  "hullId": "pn_spore",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pn_saala"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "pn_vulcan",
+        "WS0003": "pn_vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

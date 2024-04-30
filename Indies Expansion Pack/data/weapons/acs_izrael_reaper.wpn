@@ -1,0 +1,56 @@
+{
+  "id": "acs_izrael_reaper",
+  "specClass": "projectile",
+  "projectileSpecId": "reaper_torp",
+  "type": "MISSILE",
+  "size": "LARGE",
+  "displayArcRadius": 1000,
+  "turretSprite": "graphics/acs_autoreaper_turret.png",
+  "hardpointSprite": "graphics/acs_autoreaper_hardpoint.png",
+  "turretOffsets": [
+    26,
+    0,
+    22,
+    10,
+    22,
+    -10
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    32,
+    0,
+    28,
+    10,
+    28,
+    -10
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 10,
+    "particleSizeRange": 24,
+    "cloudParticleCount": 10,
+    "cloudDuration": 2.5,
+    "cloudRadius": 12,
+    "blowbackParticleCount": 8,
+    "blowbackDuration": 2,
+    "blowbackLength": 18,
+    "blowbackSpread": 10,
+    "particleColor": [
+      245,
+      65,
+      35,
+      120
+    ]
+  },
+  "fireSoundTwo": "reaper_fire"
+}

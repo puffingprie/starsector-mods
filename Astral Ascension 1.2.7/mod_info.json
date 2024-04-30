@@ -1,0 +1,11 @@
+{
+  "id": "Planetace_AstralAscension",
+  "name": "Astral Ascension",
+  "author": "Planetace",
+  "utility": "true",
+  "version": "1.2.7",
+  "description": "Ascend beyond the Domain. Bring about the Impossible. Comprehend the Singularity.",
+  "gameVersion": "0.97a-RC11",
+  "jars":["jars/astralAscension.jar"],
+  "modPlugin":"planetace.astralAscension.AstralModPlugin",
+}

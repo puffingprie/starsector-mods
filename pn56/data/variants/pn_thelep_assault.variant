@@ -1,0 +1,27 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "pn_thelep",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "pn_thelep_assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "pn_taala"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "pn_jetlauncher",
+                "WS0008": "pn_jetlauncher",
+                "WS0009": "pn_jetlauncher",
+                "WS0010": "pn_jetlauncher"
+            }
+        }
+    ]
+}

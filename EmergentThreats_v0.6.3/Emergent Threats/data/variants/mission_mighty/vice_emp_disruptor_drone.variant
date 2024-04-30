@@ -1,0 +1,12 @@
+{
+    "displayName": "Disruptor Drone",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "hullId": "vice_disruptor_drone",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_emp_disruptor_drone",
+    "weaponGroups": [],
+	"wings": []
+}

@@ -1,0 +1,36 @@
+{
+	"id":"Mimikko_nonona_2",
+	"governingAptitude":"Mimikko_nonona",
+	"compressHullmods":false,
+	"elite":true,
+	"scope":"PILOTED_SHIP",
+	"effectGroups":[
+		{
+			"name":"Cauldron of Stars",
+			"requiredSkillLevel":1,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"SHIP", "script":"data.scripts.skill.Mimikko_nonona_2$Level1"},
+				{"type":"SHIP", "script":"data.scripts.skill.Mimikko_nonona_2$Level2"},
+				{"type":"SHIP", "script":"data.scripts.skill.Mimikko_nonona_2$Level0"},
+				{"type":"SHIP", "script":"data.scripts.skill.Mimikko_nonona_2$Level3"},
+				#{"type":"SHIP", "script":"data.scripts.skill.Mimikko_miruko_1$Level3"},
+				#{"type":"SHIP", "script":"data.scripts.skill.Mimikko_miruko_1$Level4"},
+			]
+		},
+		{
+			"name":"Chaos Potion",
+			"requiredSkillLevel":2,
+			"effectBasedOnLevel":false,
+			"effects":[
+			{"type":"SHIP", "script":"data.scripts.skill.Mimikko_nonona_2$Level4"},
+			{"type":"SHIP", "script":"data.scripts.skill.Mimikko_nonona_2$Level5"},
+			{"type":"SHIP", "script":"data.scripts.skill.Mimikko_nonona_2$Level6"},
+			{"type":"SHIP", "script":"data.scripts.skill.Mimikko_nonona_2$Level7"},
+			#{"type":"SHIP", "script":"data.scripts.skill.Mimikko_miruko_1$Level6"},
+			#{"type":"SHIP", "script":"data.scripts.skill.Mimikko_miruko_1$Level7"},
+			]
+		},
+	],
+}
+

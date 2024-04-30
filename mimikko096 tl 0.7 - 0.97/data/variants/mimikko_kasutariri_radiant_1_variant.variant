@@ -1,0 +1,34 @@
+{
+  "variantId": "mimikko_kasutariri_radiant_1_variant",
+  "hullId": "mimikko_kasutariri_radiant_1",
+  "displayName": "Glory of Ataraya",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "tachyonlance",
+        "WS0002": "typhoon",
+        "WS0003": "typhoon",
+        "WS0004": "taclaser",
+        "WS0005": "taclaser",
+        "WS0006": "taclaser",
+        "WS0007": "taclaser"
+      }
+    }
+  ],
+"modules": [
+		{"WS0008": "mimikko_kasutariri_radiant_2_variant"},
+		{"WS0009": "mimikko_kasutariri_radiant_3_variant"},
+		{"WS0010": "mimikko_kasutariri_radiant_4_variant"},
+		{"WS0011": "mimikko_kasutariri_radiant_5_variant"},
+		{"WS0012": "mimikko_kasutariri_radiant_6_variant"},
+	],
+  "wings": []
+}

@@ -1,0 +1,109 @@
+{
+  "bounds": [
+    -37.5,
+    14.5,
+    -13,
+    21,
+    -12,
+    32,
+    5.5,
+    29.5,
+    9,
+    18,
+    20,
+    15.5,
+    33,
+    18.5,
+    44.5,
+    9,
+    44.5,
+    -9,
+    33,
+    -18.5,
+    20,
+    -15.5,
+    9,
+    -18,
+    5.5,
+    -29.5,
+    -12,
+    -32,
+    -13,
+    -21,
+    -37.5,
+    -14.5
+  ],
+  "builtInMods": [
+    "pn_cores"
+  ],
+  "center": [
+    30.5,
+    37
+  ],
+  "collisionRadius": 53.488316,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 15,
+      "location": [
+        -10.5,
+        -26
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 4
+    },
+    {
+      "angle": -180,
+      "contrailSize": 4,
+      "length": 15,
+      "location": [
+        -10.5,
+        26
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 4
+    }
+  ],
+  "height": 89,
+  "hullId": "pn_mite",
+  "hullName": "Mite",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 51.478149,
+  "spriteName": "graphics/pn/ships/pn_mite.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0001",
+      "locations": [
+        12.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 180,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        -36.5,
+        0.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    }
+  ],
+  "width": 61
+}

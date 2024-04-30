@@ -1,0 +1,53 @@
+{
+  "variantId": "mm_watatsumi_standard",
+  "hullId": "mm_watatsumi",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 33,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "mm_cryofusionbattery",
+        "WS0005": "mm_cryofusionbattery"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "mm_flakstormbattery",
+        "WS0016": "mm_flakstormbattery"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mm_miniflakpd",
+        "WS0002": "mm_miniflakpd",
+        "WS0003": "mm_miniflakpd",
+        "WS0006": "mm_miniflakpd",
+        "WS0007": "mm_miniflakpd",
+        "WS0008": "mm_miniflakpd",
+        "WS0009": "mm_miniflakpd",
+        "WS0010": "mm_miniflakpd",
+        "WS0011": "mm_miniflakpd",
+        "WS0012": "mm_miniflakpd",
+        "WS0013": "mm_miniflakpd",
+        "WS0017": "mm_miniflakpd",
+        "WS0018": "mm_miniflakpd",
+        "WS0019": "mm_miniflakpd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "mm_bomber_jizo"
+  ]
+}

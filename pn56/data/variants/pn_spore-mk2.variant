@@ -1,0 +1,33 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 8,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "pn_spore-mk2",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "pn_spore-mk2",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "pn_bombbay",
+                "WS0005": "pn_bombbay"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "pn_skscannon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "pn_vulcan",
+                "WS0003": "pn_vulcan"
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "displayName": "Defensive",
+    "fluxCapacitors": 1,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "pn_sike-m",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "eccm",
+        "missleracks"
+    ],
+    "permaMods": [],
+    "variantId": "pn_sike-m_defensive",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "pn_pexplauncher",
+                "WS0005": "pn_pexplauncher",
+                "WS0006": "pn_pexplauncher"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "pn_sike_mpod",
+                "WS0002": "pn_sike_mpod",
+                "WS0003": "pn_sike_mpod"
+            }
+        }
+    ]
+}

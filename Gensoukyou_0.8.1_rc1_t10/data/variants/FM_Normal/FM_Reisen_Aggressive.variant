@@ -1,0 +1,34 @@
+{
+    "displayName": "Aggressive",
+    "fluxCapacitors": 20,
+    "fluxVents": 17,
+    "goalVariant": true,
+    "hullId": "FM_Reisen",
+    "hullMods": ["FantasyBorderMod"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Reisen_Aggressive",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "FM_Blade_ac",
+                "WS0002": "FM_Blade_ac"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "sabotpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "FM_Spark_pd",
+                "WS0008": "FM_Spark_pd"
+            }
+        }
+    ]
+}

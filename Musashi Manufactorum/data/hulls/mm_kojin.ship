@@ -1,0 +1,115 @@
+{
+  "hullName": "Kojin",
+  "hullId": "mm_kojin",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/mm/ships/mm_kojin.png",
+  "style": "HIGH_TECH",
+  "height": 162,
+  "width": 58,
+  "center": [29, 77.5],
+  "collisionRadius": 89.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 94,
+  "viewOffset": 0,
+  "builtInMods": [
+    "mmmilitarytargetingcore",
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 0,
+      "locations": [43.5, -0]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": -180,
+      "locations": [-45.5, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [75, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 20,
+      "angle": 0,
+      "locations": [5.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-78.5, 6],
+      "length": 53.157726,
+      "width": 17.147152,
+      "angle": 179,
+      "contrailSize": 17.147152,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-78.5, -6],
+      "length": 53.157726,
+      "width": 17.147152,
+      "angle": -179,
+      "contrailSize": 17.147152,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-76, 16.5],
+      "length": 23.960037,
+      "width": 11.120543,
+      "angle": 166.5,
+      "contrailSize": 11.120543,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-76, -16.5],
+      "length": 23.960037,
+      "width": 11.120543,
+      "angle": -166.5,
+      "contrailSize": 11.120543,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-14, 27],
+      "length": 13.266404,
+      "width": 4.583684,
+      "angle": 164.5,
+      "contrailSize": 4.583684,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-14, -27],
+      "length": 13.266404,
+      "width": 4.583684,
+      "angle": -164.5,
+      "contrailSize": 4.583684,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    77.5, -6.5,
+    15.5, -23,
+    -50, -24,
+    -74.5, -9,
+    -74.5, 11,
+    -50, 26,
+    15.5, 25,
+    77.5, 8.5
+  ]
+}

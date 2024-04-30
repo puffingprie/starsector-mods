@@ -1,0 +1,4 @@
+name,id,demand class,base price,export value,price variability,utility,origin,tags,stack size,cargo space,icon,sound id,sound id drop,order,economyTier,econUnitOrigUnused,econUnit,baseRaidDanger,eU * base value,iconWidthMult,plugin,desc
+Panopticon Core,ix_panopticon_core,ai_cores,,,0,75,,"nonecon, ai_core, no_loss_from_combat",1000,1,graphics/icons/ix_panopticon_core.png,ai_core_pickup,ui_beta_core_drop,39,,,,MEDIUM,,1,,
+Broken AI Core,ix_broken_core,ai_cores,,,0,10,,"nonecon, ai_core, no_loss_from_combat",1000,1,graphics/icons/ix_broken_core.png,ai_core_pickup,ui_gamma_core_drop,38,,,,MEDIUM,,1,,
+Panopticon Core,ix_command_core,ai_cores,,,0,0,,"nonecon, ai_core, no_loss_from_combat, no_drop",1000,1,graphics/icons/ix_broken_core.png,ai_core_pickup,ui_gamma_core_drop,38,,,,MEDIUM,,1,,

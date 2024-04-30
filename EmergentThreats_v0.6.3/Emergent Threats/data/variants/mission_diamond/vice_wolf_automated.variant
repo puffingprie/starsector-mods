@@ -1,0 +1,36 @@
+{
+    "displayName": "Automated",
+    "fluxCapacitors": 9,
+    "fluxVents": 10,
+    "goalVariant": false,
+    "hullId": "vice_wolf_ai",
+    "hullMods": [
+        "fluxdistributor",
+        "targetingunit",
+        "stabilizedshieldemitter",
+        "vice_adaptive_pulse_resonator"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_wolf_automated",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "ioncannon",
+                "WS 004": "irpulse",
+                "WS 005": "breach",
+                "WS 006": "breach"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "pdlaser",
+                "WS 003": "pdlaser"
+            }
+        }
+    ]
+}

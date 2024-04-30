@@ -1,0 +1,100 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+    
+    "directoryUseShortName":false,
+    
+    "rebelFleetSuffix":"Rebel Group",
+    
+    "morality":"neutral",
+
+	"startRelationships":{
+		# Vanilla factions that should be manually set (IE not "hidden" ones)
+		"independent":0.6,					# Indy is everyone's friend
+		"pirates":-0.6,						# Jerks
+		"persean":0.2,						# Ok
+		"tritachyon":0.8,					# Best Friends Forever
+		"hegemony":-0.4,					# They pick on Tritachyon
+
+		# These should be set to the same relationship
+		"lions_guard":0.2,					# Respect the military might
+		"sindrian_diktat":0.2,				# Drink the space fuel
+
+		# More vanilla factions that should be manually set
+		"luddic_church":-0.1,				# We're probably heratics to them
+		"luddic_path":-0.6,					# We're totally heratics to them
+		"remnant":0.0,						# Live and let digitally live
+
+		# Mod factions						# Not going to bother with mod factions yet. Might do so once I know more about them.
+		
+	},
+	
+	"colonyExpeditionChance":1,
+    
+    "maxRelationships":{
+    "hegemony": 0.0,						# Will not forgive Hegemony for bombing them into the stone ages.
+    "luddic_path": -0.5,
+	},
+	
+    "alignments":{
+        "corporate":0.2,	
+        "technocratic":0.5,
+		"militarist":0.4,
+    },
+	
+	"diplomacyTraits":["stalwart", "helps_allies", "anarchist", "lowprofile", "devious"],
+    
+    "vengeanceLevelNames":["Lament", "Requiem", "Funeral"],
+    "vengeanceFleetNames":["Lament Flotila", "Requiem Force", "Funeral Fleet",],
+    "vengeanceFleetNamesSingle":["a Lament Flotila", "a Requiem Force", "a Funeral Fleet",],
+    
+    "vengeanceFleetSizeMult":1.25,
+	
+	"invasionSupportFleetName":"Reanimation Fleet",
+    "responseFleetName":"Memorial Fleet",
+    "defenceFleetName":"Somber Fleet",	
+    
+    "startShipsSolo":[["kayse_grim_variant"]],
+    "startShipsCombatSmall":[
+		["kayse_grim_variant", "kayse_ghoul_variant", "shade_Assault"]
+	],
+    "startShipsTradeSmall":[
+      ["kayse_wight_variant", "kayse_ghoul_variant"],
+    ],
+    "startShipsCombatLarge":[
+      ["kayse_dullahan_variant", "kayse_banshee_variant", "kayse_harbinger_NSO_variant"]
+    ],
+    "startShipsTradeLarge":[
+      ["revenant_Elite", "kayse_wight", "kayse_ghoul_variant"]
+    ],
+    "startShipsCarrierSmall":[
+	  ["kayse_haunt_variant", "kayse_grim_variant", "kayse_ghoul_variant"]
+	],
+    #"startShipsCarrierLarge":[["swp_eos_sta", "swp_arachne_sta", "brawler_tritachyon_Standard"]],
+    "startShipsSuper":[["doom_Strike"]],
+	
+	"startSpecialItems":[
+        [["no_such_org_bp",  ""]],
+        #[["no_such_org_weapon_package",  ""]]
+    ],
+   
+   #"customStations":["fed_headquarters_station"],
+   
+   #"miningVariantsOrWings":["shepherd_Frontier"],
+   
+    "defenceStations":[
+        {"ids":["orbitalstation_high", "battlestation_high", "starfortress_high"]},
+    ],
+	
+    "industrySeeds":[
+    {"id":"orbitalworks", "mult":1}
+    ],
+    
+    "bonusSeeds":[
+        {"id":"nanoforge_pristine", "count":1},
+        {"id":"aiCore_station", "count":1, "mult":0.1},
+        {"id":"aiCore_military", "mult":0.15},
+        {"id":"aiCore_heavyindustry", "count":1},
+        {"id":"aiCore_any", "mult":0.1},
+    ],
+}

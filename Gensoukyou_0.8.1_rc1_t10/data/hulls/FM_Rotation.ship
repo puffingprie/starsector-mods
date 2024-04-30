@@ -1,0 +1,174 @@
+{
+  "hullName": "FM_Rotation",
+  "hullId": "FM_Rotation",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/FM_Rotation.png",
+  "style": "FM",
+  "height": 102,
+  "width": 84,
+  "center": [42, 46],
+  "collisionRadius": 67,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 64,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FantasyBasicMod"
+  ],
+  "builtInWings": [
+    "FM_Kedama_drone_wing"
+  ],
+  "builtInWeapons": {
+    "WS0005": "FM_light1",
+    "WS0006": "FM_light1"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 40,
+      "locations": [-11.5, 19.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -40,
+      "locations": [-11.5, -19.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-1.5, 3.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-1.5, -3.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        2.5, 26,
+        3.5, 24
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        4, -26.5,
+        2, -28.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-30.5, 6.5],
+      "length": 26,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-30.5, -6.5],
+      "length": 26,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-30.5, 8],
+      "length": 21.172806,
+      "width": 2.97473,
+      "angle": 169,
+      "contrailSize": 2.97473,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-30.5, -8],
+      "length": 21.172806,
+      "width": 2.97473,
+      "angle": -169,
+      "contrailSize": 2.97473,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-30, 9.5],
+      "length": 15.813173,
+      "width": 3.126372,
+      "angle": 161.5,
+      "contrailSize": 3.126372,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-30, -9.5],
+      "length": 15.813173,
+      "width": 3.126372,
+      "angle": -161.5,
+      "contrailSize": 3.126372,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    55, -0.5,
+    39, -7,
+    39, -10,
+    12, -21.5,
+    1.5, -29,
+    0.5, -33,
+    -17.5, -33.5,
+    -27.5, -39.5,
+    -33, -40,
+    -27, -25.5,
+    -30.5, -25.5,
+    -37, -21.5,
+    -29.5, -16,
+    -32, -14,
+    -29.5, -11.5,
+    -30.5, -5,
+    -34, -5,
+    -43.5, -1,
+    -43.5, 1,
+    -34, 5,
+    -30.5, 5,
+    -29.5, 11.5,
+    -32, 14,
+    -29.5, 16,
+    -37, 21.5,
+    -30.5, 25.5,
+    -27, 25.5,
+    -33, 40,
+    -27.5, 39.5,
+    -17.5, 33.5,
+    0.5, 33,
+    1.5, 29,
+    12, 21.5,
+    39, 10,
+    39, 7,
+    55, 0.5
+  ]
+}

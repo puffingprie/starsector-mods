@@ -1,0 +1,253 @@
+id,trigger,conditions,script,text,options,notes
+#IX Battlegroup,,,,,,
+greetingIXFriendly,OpenCommLink,"$faction.id == ix_battlegroup
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Acknowledging ID codes - good to see you, captain.""
+OR
+""Your $shipOrFleet has been scanned and identified, everything is in order.""
+OR
+""Scanned and identified. Good hunting."" $PersonRank $personName gives a salute and signs off with a flash of the 9th Battlegroup insignia.",,
+greetingIXHostileWeaker,OpenCommLink,"$faction.id == ix_battlegroup
+$entity.isHostile
+$entity.relativeStrength < 0",$entity.ignorePlayerCommRequests = true 1,"""I knew the risks when I signed up. Bring it, then."" The 9th Battlegroup $personRank says with a grim smile.
+OR
+""Just part of the job."" The 9th Battlegroup $personRank sighs and then cuts the feed.
+OR
+The 9th Battlegroup $personRank gives you a glare and cuts the line without a word.
+OR
+The enemy captain looks grim. ""Fine. I'll see you in hell."" There's a pause, and then the feed cuts.
+OR
+$PersonRank $personName slams on the console. ""If it's a fight you want, you'll get it.""",cutCommLink:Cut the comm link,
+greetingIXHostileWeakerDefiant,OpenCommLink,"$faction.id == ix_battlegroup
+$entity.isHostile
+$entity.relativeStrength < 0
+$entity.weakerThanPlayerButHolding",$entity.ignorePlayerCommRequests = true 1,"The $personRank sneers contemptuously and then promptly cuts the comm-link.
+OR
+You're treated to the sight of $PersonRank $personName rudely gesturing, and then to static.
+OR
+$PersonRank $personName hurls a few epithets and storms off. The feed self-terminates shortly after.
+OR
+""Think you're real tough, huh? We'll see about that.""
+OR
+""To the last.""
+OR
+""For the Ninth.""
+OR
+The Ninth Battlegroup $personRank taps on a Tri-Pad. $HeOrShe then looks at you. ""Reinforcements on their way. Let's tidy this up, then.""
+OR
+$personName leans back. ""Screw it. Let's do this.""",cutCommLink:Cut the comm link,
+greetingIXHostileStronger,OpenCommLink,"$faction.id == ix_battlegroup
+$entity.isHostile
+$entity.relativeStrength >= 0",$entity.ignorePlayerCommRequests = true 1,"The enemy $personRank laughs. ""Ready to die, worm?""
+OR
+$PersonRank $personName looks confused. ""Whatever you're about to say, I don't care."" They cut the link.
+OR
+""Oh, I'm gonna love this."" $PersonRank $personName rubs $hisOrHer hands together.
+OR
+Already in the middle of giving attack orders on $hisOrHer flagship, $PersonRank $personName reaches over and shuts off the commlink without even looking at you.",cutCommLink:Cut the comm link,
+greetingIXNeutral,OpenCommLink,"$faction.id == ix_battlegroup
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""You have been scanned and identified. If nothing is amiss, you should continue on your way.""
+OR
+The 9th Battlegroup $personRank looks impatient. ""Is there an emergency to report? No? Then carry on.""",,
+,,,,,,
+relLevelCooperativeIX,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
+$faction.id == ix_battlegroup",FireAll RelLevelMoreDescription,"You are a highly trusted asset of the 9th Domain Battlegroup, and have unrestricted access to all the advanced warships and weapons that have made its forces rightly feared throughout the Sector. The Panopticon has determined you are vital to the long term success of the Fleet, and has moved to subtly support your endeavors from behind the scenes.",,
+relLevelFriendlyIX,RelationshipLevelDesc,"$faction.rel == FRIENDLY
+$faction.id == ix_battlegroup",FireAll RelLevelMoreDescription,"Fleet Command considers you a valuable asset for the future ambitions of the 9th Domain Battlegroup. Patrol captains know to overlook minor transgressions due to your likely status as a covert agent of the Fleet, and even the Honor Guard are cordial in their dealings with you.",,
+relLevelWelcomingIX,RelationshipLevelDesc,"$faction.rel == WELCOMING
+$faction.id == ix_battlegroup",FireAll RelLevelMoreDescription,"You have demonstrated your worth to the 9th Domain Battlegroup. The Fleet is ready to hire you in all manner of lucrative opportunities, and you are permitted limited access to military grade equipment that has been built to a quality rarely seen in the rest of the Sector.",,
+relLevelFavorableIX,RelationshipLevelDesc,"$faction.rel == FAVORABLE
+$faction.id == ix_battlegroup",FireAll RelLevelMoreDescription,"Your presence is tolerated by the 9th Domain Battlegroup. An agent has been dispatched to keep an eye on you and evaluate your potential usefulness. Port authorities rarely give you any trouble, so long as you conduct your business swiftly and do not cause any trouble in return.",,
+relLevelNeutralIX,RelationshipLevelDesc,"$faction.rel == NEUTRAL
+$faction.id == ix_battlegroup",FireAll RelLevelMoreDescription,You are treated no differently than the rest of the pirate rabble who frequent Zorya. There's a chance to make good credits if you keep your head down and go about your business.,,
+relLevelSuspiciousIX,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
+$faction.id == ix_battlegroup",FireAll RelLevelMoreDescription,"Past missteps in your dealings with the 9th Domain Battlegroup has cast a pall of suspicion over you. Patrols tend to be extra vigilant in checking your cargo, and port authorities will often make you wait longer than necessary before clearing you for dock.",,
+relLevelInhospitableIX,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
+$faction.id == ix_battlegroup",FireAll RelLevelMoreDescription,"The 9th Domain Battlegroup has flagged you for enhanced scrutiny. Port authorities have been ordered to deny you docking rights, and combat patrols will often look for any excuse to harass you.",,
+relLevelHostileIX,RelationshipLevelDesc,"$faction.rel == HOSTILE
+$faction.id == ix_battlegroup",FireAll RelLevelMoreDescription,"You are classified among all the other undeserving rabble that the 9th Domain Battlegroup seeks to cleanse from the Sector, and shoot on sight orders have been given to combat patrols against your fleet.
+
+Being commissioned by any other faction aside from the pirates will prevent you from improving your reputation beyond Hostile.",,
+relLevelVengefulIX,RelationshipLevelDesc,"$faction.rel == VENGEFUL
+$faction.id == ix_battlegroup",FireAll RelLevelMoreDescription,"You are a known threat to the 9th Domain Battlegroup, and have your own file at Fleet Command HQ. The Panopticon is even now plotting the most efficient way to eliminate you. It's rumored any captain who defeats you will earn a promotion to the Honor Guard.",,
+,,,,,,
+flavorTextMarketIX,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == ix_battlegroup
+!$hostileToPlayer
+$market.mc:ix_monitored == true","AddText ""The vast port concourse is filled with well maintained ships bearing the distinct black, white, and green livery of the 9th Domain Battlegroup. Loader drones accompanied by neatly dressed dock workers move containers of cargo to their destinations with orderly purpose. Given the state of constant and omnipresent AI directed surveillance imposed by Fleet Command, armed guards here are rarely visible, but never far away."" marketFlavorTextColor",,,
+flavorTextMarketIXNoMonitor,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == ix_battlegroup
+!$hostileToPlayer
+$market.mc:ix_monitored == false","AddText ""The vast port concourse is filled with well maintained ships bearing the distinct black, white, and green livery of the 9th Domain Battlegroup. Loader drones accompanied by neatly dressed dock workers move containers of cargo to their destinations with orderly purpose. But beneath the gleaming surface, cracks have begun to form. The shutdown of the Vertex Station Panopticon has led to the emergence of a thriving black market, if one knows where to look."" marketFlavorTextColor",,,
+flavorTextMarketIXSneak,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == ix_battlegroup
+!$hostileToPlayer
+$player.transponderOn == false
+$market.mc:ix_monitored == true","AddText ""Your shuttle flies fast and low to avoid sensors constantly on the lookout for unauthorized landing craft, and eventually finds a quiet spot to set down. But your daredevil flying does you little good. The oppressive layers of electronic monitoring embedded into the planetary infosphere prevents any black market activity from having a chance to thrive. If you wish to conduct any trade at this colony, you will have to do it through official channels"" marketFlavorTextColor",,,
+flavorTextMarketIXSneakNoMonitor,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == ix_battlegroup
+!$hostileToPlayer
+$player.transponderOn == false
+$market.mc:ix_monitored == false","AddText ""Your shuttle flies fast and low to avoid sensors constantly on the lookout for unauthorized landing craft, and eventually finds a quiet spot to set down. The shutdown of the Vertex Station Panopticon has allowed a small but thriving black market to spring up at the colony. Human greed has found fertile soil, and now you stand to profit."" marketFlavorTextColor",,,
+,,,,,,
+bar_descIXBattlegroup,BarPrintDesc,$faction.id == ix_battlegroup,ShowImageVisual space_bar,"You enter the prefab bar filled with off duty military personnel enjoying their downtime. A group of augmented marines excitedly discuss the prospect of their next deployment, while several junior officers in the upper lounge watch reports of the Fleet's latest engagements with rapt attention. There's even a pirate captain and crew nursing drinks at their own table, looking decidedly out of place in their well worn spacer garb.",,
+,,,,,,
+# Handing in the PK - IX Battlegroup,,,,,,
+pk_giveToIX,PopulateOptions,"$isPerson
+!$player.turnedInPlanetkiller
+PlayerHasCargo planetkiller
+PK_CMD rightPostToAcceptPK
+$personFaction.id == ix_battlegroup",$cameToYouSecondWithPK = true,,"pk_turnInIX:""I'd like to discuss planetkiller weapons.""",#Bringing up this topic with the IX will make TT Arroyo unhappy
+pk_turnInIXSel,DialogOptionSelected,$option == pk_turnInIX,,"""I see,"" $PersonRank $personLastName says in a neutral tone. ""I was wondering when you'd bring that up. Our sensors detected the PK device the moment your $shipOrFleet entered orbit. So, what do you propose to do with it?""
+
+The $Rank calmly awaits your response. You are being watched, and $heOrShe wants you to know it.","pk_turnInIXtrade:""I propose a trade.""
+pk_turnInIXabout:""I was just wondering if you had any information about it.""
+pk_turnInIXnm:""Never mind, I need time to think this over.""",
+pk_turnInIXaboutSel,DialogOptionSelected,$option == pk_turnInIXabout,,"""Aside from the fact that it's unarmed?"" $HeOrShe gives you a thin smile. ""I couldn't tell you, even if I knew. Was there something else?""","pk_turnInIXabout2:""How do you know it's unarmed?""",
+pk_turnInIXabout2Sel,DialogOptionSelected,$option == pk_turnInIXabout2,,"""An educated guess,"" says $personLastName, refusing to elaborate further. ""$PlayerSirOrMadam, I asked you a question, and you have yet to answer me. What do you propose to do with it?""","pk_turnInIXtrade:""I propose a trade.""
+pk_turnInIXnm:""Never mind, I need time to think this over.""",
+pk_turnInIXnmSel,DialogOptionSelected,$option == pk_turnInIXnm,FireAll PopulateOptions,"""Very well,"" $personLastName nods. ""We can speak of it again when you're ready. Was there anything else?""",,
+pk_turnInIXtradeSel,DialogOptionSelected,$option == pk_turnInIXtrade,,"""Of course, the Fleet is always looking to expand our strategic arsenal."" $personLastName seems unperturbed. ""Name your price.""","pk_turnInIXmoney:""Credits, plain and simple.""
+pk_turnInIXship:""Weapons, ships. Make it worth my while.""
+pk_turnInIXskill:""Training for my officers, the best you can provide.""
+pk_turnInIXtech:""Advanced tech that will give me an edge.""
+pk_turnInIXpanopticon:""I want to be briefed on the Panopticon.""
+pk_turnInIXnm:""Never mind, I need time to think this over.""",
+pk_turnInIXpanopticonSel,DialogOptionSelected,$option == pk_turnInIXpanopticon,RemoveOption pk_turnInIXpanopticon,"A look of concern flashes across $personLastName's face.
+
+""That information is classified,"" $heOrShe says. ""I cannot make an exception even in exchange for a PK device. Let's move on. What else interests you?""",,
+pk_turnInIXmoneySel,DialogOptionSelected,$option == pk_turnInIXmoney,,"""Very well,"" $personLastName nods. ""Half a million credits in exchange for the device. Is that agreeable?""","pk_turnInIXmoney2:""I'll take it.""
+pk_turnInIXtrade:""Actually, I've reconsidered.""",
+pk_turnInIXmoney2Sel,DialogOptionSelected,$option == pk_turnInIXmoney2,"AddCommodity credits 500000
+AdjustRep ix_battlegroup 25
+AdjustRepActivePerson 25
+AddRemoveAnyItem SPECIAL planetkiller -1
+$global.gavePKtoIX = true
+$player.turnedInPlanetkiller = true
+AddPotentialContact
+$player.ethosMercenary++
+$receivedAPlanetkillerFromPlayer","$PersonRank $personLastName makes the arrangements for the transfer. Your credits arrive just as the retrieval team's shuttle is requesting to dock. 
+
+The handover goes smoothly. But later, as you're reviewing the security footage, you notice one of the Fleet's technicians input a command into the planetkiller's control panel, bringing it into a diagnostic mode that was unknown to you or your crew. It may be only a matter of time before the weapon is armed and fully operational in the hands of its new masters.
+
+Nonetheless, what's done is done, and you are richer for it.",cutCommLink:Attend to other business,
+pk_turnInIXshipSel,DialogOptionSelected,$option == pk_turnInIXship,,"""What does 'worth your while' mean exactly?"" asks $personLastName.","pk_turnInIXfrig:""I've heard rumors the Fleet is in possession of a unique Hyperion prototype. I want it.""
+pk_turnInIXbb:""I've seen some very interesting Honor Guard battleships. They look so sleek, so radiant. I want one.""
+pk_turnInIXnm:""Never mind, I need time to think this over.""",
+pk_turnInIXshipNoFrigateSel,DialogOptionSelected,"$option == pk_turnInIXship
+$global.hyperion_ix_start",,"""What does 'worth your while' mean exactly?"" asks $personLastName.","pk_turnInIXbb:""I've seen some very interesting Honor Guard battleships. They look so sleek, so radiant. I want one.""
+pk_turnInIXnm:""Never mind, I need time to think this over.""",
+pk_turnInIXskillSel,DialogOptionSelected,$option == pk_turnInIXskill,,"""I don't think that's possible,"" says $personLastName. ""There are security concerns, you understand. However, I could arrange for the transfer of a biochip, imprinted with our officer training program. Anyone who receives it will be able to call upon our tactics as if it was second nature. Is that agreeable?""
+
+$HeOrShe sends you a brief overview of the device. Your ship's medbay should be able to perform the implant procedure.","pk_turnInIXskill2:""I'll take it.""
+pk_turnInIXtrade:""Actually, I've reconsidered.""",
+pk_turnInIXskill2Sel,DialogOptionSelected,$option == pk_turnInIXskill2,"AddRemoveAnyItem SPECIAL ix_biochip_sotf 1
+AdjustRep ix_battlegroup 25
+AdjustRepActivePerson 25
+AddRemoveAnyItem SPECIAL planetkiller -1
+$global.gavePKtoIX = true
+$player.turnedInPlanetkiller = true
+AddPotentialContact
+$player.ethosMercenary++
+$receivedAPlanetkillerFromPlayer","$PersonRank $personLastName makes the arrangements for the transfer. The 9th Domain Battlegroup retrieval team brings with them the agreed upon payment, and takes possession of the weapon.
+
+The handover goes smoothly. But later, as you're reviewing the security footage, you notice one of the Fleet's technicians input a command into the planetkiller's control panel, bringing it into a diagnostic mode that was unknown to you or your crew. It may be only a matter of time before the weapon is armed and fully operational in the hands of its new masters.
+
+Nonetheless, what's done is done, and you have what you came for.",cutCommLink:Attend to other business,
+pk_turnInIXtechSel,DialogOptionSelected,$option == pk_turnInIXtech,,"$personLastName takes a moment to think.
+
+""I can offer you a small cache of restricted technology in exchange for the weapon. Two Panopticon Cores. Once installed, they will greatly enhance the performance of any warship. Is that agreeable?""","pk_turnInIXtech2:""I'll take it.""
+pk_turnInIXtrade:""Actually, I've reconsidered.""",
+pk_turnInIXtech2Sel,DialogOptionSelected,$option == pk_turnInIXtech2,"AddCommodity ix_panopticon_core 2
+AdjustRep ix_battlegroup 25
+AdjustRepActivePerson 25
+AddRemoveAnyItem SPECIAL planetkiller -1
+$global.gavePKtoIX = true
+$player.turnedInPlanetkiller = true
+AddPotentialContact
+$player.ethosMercenary++
+$receivedAPlanetkillerFromPlayer","$PersonRank $personLastName makes the arrangements for the transfer. The 9th Domain Battlegroup retrieval team brings with them the agreed upon AI cores, and takes possession of the weapon.
+
+The handover goes smoothly. But later, as you're reviewing the security footage, you notice one of the Fleet's technicians input a command into the planetkiller's control panel, bringing it into a diagnostic mode that was unknown to you or your crew. It may be only a matter of time before the weapon is armed and fully operational in the hands of its new masters.
+
+Nonetheless, what's done is done, and you have what you came for.",cutCommLink:Attend to other business,
+pk_turnInIXfrigSel,DialogOptionSelected,$option == pk_turnInIXfrig,$player.receivedHyperionIX = true,"""How do you know about..."" $personLastName pauses and tilts $hisOrHer head, as if listening to a voice only $heOrShe can hear. ""I've just been informed your ship should arrive before the end of the day. Your terms are agreeable. $personLastName out.""
+
+You take a moment to consider the hasty sign-off. The $personRank's expression was unmistakable. $HeOrShe had no idea the ship you desired was already on its way. How $hisOrHer superiors could have anticipated your demand before you even proposed it is a very interesting question indeed.",pk_turnInIXfrig2:Continue,
+pk_turnInIXfrig2Sel,DialogOptionSelected,$option == pk_turnInIXfrig2,"AddTextSmall ""Received Hyperion (HG) class advanced gunship"" good
+SetTextHighlights ""Hyperion (HG) class advanced gunship""
+AdjustRep ix_battlegroup 25
+AdjustRepActivePerson 25
+AddRemoveAnyItem SPECIAL planetkiller -1
+$global.gavePKtoIX = true
+$player.turnedInPlanetkiller = true
+AddPotentialContact
+$player.ethosMercenary++
+$receivedAPlanetkillerFromPlayer","True to $hisOrHer word, your new ship arrives before the end of the day, accompanied by a fast courier to retrieve the weapon, and the skeleton crew that brought you the ship.
+
+The handover goes smoothly. But later, as you're reviewing the security footage, you notice one of the Fleet's technicians input a command into the planetkiller's control panel and bring it into a diagnostic mode that was unknown to you or your crew. It may be only a matter of time before the weapon is armed and fully operational in the hands of its new masters.
+
+Nonetheless, what's done is done, and you have what you came for.",cutCommLink:Attend to other business,
+pk_turnInIXbbSel,DialogOptionSelected,$option == pk_turnInIXbb,$player.receivedRadiantIX = true,"""What makes you think..."" $personLastName pauses and tilts $hisOrHer head, as if listening to a voice only $heOrShe can hear. ""I've just been informed your ship should arrive before the end of the day. Your terms are agreeable. $personLastName out.""
+
+You take a moment to consider the hasty sign-off. The $personRank's expression was unmistakable. $HeOrShe had no idea the ship you desired was already on its way. How $hisOrHer superiors could have anticipated your demand before you even proposed it is a very interesting question indeed.",pk_turnInIXbb2:Continue,
+pk_turnInIXbb2Sel,DialogOptionSelected,$option == pk_turnInIXbb2,"AddTextSmall ""Received Radiant (IX) class converted battleship"" good
+SetTextHighlights ""Radiant (IX) class converted battleship""
+AdjustRep ix_battlegroup 25
+AdjustRepActivePerson 25
+AddRemoveAnyItem SPECIAL planetkiller -1
+$global.gavePKtoIX = true
+$player.turnedInPlanetkiller = true
+AddPotentialContact
+$player.ethosMercenary++
+$receivedAPlanetkillerFromPlayer","True to $hisOrHer word, your new ship arrives before the end of the day, accompanied by a fast courier to retrieve the weapon, and the skeleton crew that brought you the ship.
+
+The handover goes smoothly. But later, as you're reviewing the security footage, you notice one of the Fleet's technicians input a command into the planetkiller's control panel and bring it into a diagnostic mode that was unknown to you or your crew. It may be only a matter of time before the weapon is armed and fully operational in the hands of its new masters.
+
+Nonetheless, what's done is done, and you have what you came for.",cutCommLink:Attend to other business,
+,,,,,,
+# Handing in the PK - Marzanna Cartel,,,,,,
+pk_giveToMarzanna,PopulateOptions,"$isPerson
+!$player.turnedInPlanetkiller
+PlayerHasCargo planetkiller
+!$player.offeredCartelPK
+$postId == stationCommander
+$personFaction.id == ix_marzanna",$cameToYouSecondWithPK = true,,"pk_turnInMarzanna:""Hey $personFirstName, can I call you $personFirstName? You in the market for a planetkiller?""",#Bringing up this topic with the IX will make TT Arroyo unhappy
+pk_turnInMarzannaSel,DialogOptionSelected,"$option == pk_turnInMarzanna
+!$player.offeredCartelUnderbossPK",,"$personFirstName lets out a hearty laugh. ""Ha! That's a good one.""
+
+An awkward silence follows. Once $heOrShe realizes you're not joking, $hisOrHer expression turns to sheer incredulity.
+
+""Are you insane? Just talking about this can get both of us killed!""","pk_turnInMarzannaInsist:""So... is that a yes?""
+pk_turnInMarzannaOops:""I'm sorry, my joke was in poor taste.""",
+pk_turnInMarzanna2Sel,DialogOptionSelected,"$option == pk_turnInMarzanna
+$player.offeredCartelUnderbossPK","AdjustRepActivePerson -10
+$player.offeredCartelPK = true","Boss $personLastName lets out a long sigh.
+
+""So you heard the warning from my underboss, and you still thought to bring this up with me. Are you an idiot? Were you dropped on your head as a child? You know what, never mind. Just... get off my comms. And scrub the logs. We did not have this conversation!""
+
+It's unusual to see the leader of the Marzanna Cartel so angry, but your attempt to discuss the planetkiller has truly rattled $himOrHer. You infer $heOrShe very much does not want the 9th Domain Battlegroup to find out what you tried to do here.",cutCommLink:Cut the comm link,
+pk_turnInMarzannaInsistSel,DialogOptionSelected,$option == pk_turnInMarzannaInsist,"AdjustRepActivePerson -10
+$player.offeredCartelPK = true","Boss $personLastName places an ornate pistol on the table, front and center on your screen. $HisOrHer tone is ice cold.
+
+""Listen here you little shit. Say another word, and I'm coming up there to shoot you myself. Delete this conversation from your logs, and never speak of this in my presence again.""
+
+It's unusual to see the leader of the Marzanna Cartel so angry, but your attempt to discuss the planetkiller has truly rattled $himOrHer. You infer $heOrShe very much does not want the 9th Domain Battlegroup to find out what you tried to do here.",cutCommLink:Cut the comm link,
+pk_turnInMarzannaOopsSel,DialogOptionSelected,$option == pk_turnInMarzannaOops,"AdjustRepActivePerson -10
+$player.offeredCartelPK = true","""Yeah, sure,"" $personLastName frowns. ""Scrub this conversation from your logs. We never spoke of it, and we'll never speak of it again.""
+
+$HeOrShe unceremoniously cuts the feed, leaving the death grin logo of the Marzanna Cartel for you to contemplate. It seems that even for a hardened crime boss, there are some hot goods $heOrShe will never touch.",cutCommLink:Cut the comm link,
+pk_giveToMarzannaUnderboss,PopulateOptions,"$isPerson
+!$player.turnedInPlanetkiller
+PlayerHasCargo planetkiller
+!$player.offeredCartelPK
+!$player.offeredCartelUnderbossPK
+$postId == administrator
+$personFaction.id == ix_marzanna",$cameToYouSecondWithPK = true,,"pk_turnInMarzannaUnderboss:""I have something in my possession that may interest you. A planetkiller.""",#Bringing up this topic with the IX will make TT Arroyo unhappy
+pk_turnInMarzannaUnderbossSel,DialogOptionSelected,$option == pk_turnInMarzannaUnderboss,"AdjustRepActivePerson -10
+$player.offeredCartelUnderbossPK = true","""You're serious, aren't you?"" $personLastName frowns. ""The answer is no. Not interested.""
+
+Just before $heOrShe turns off the comms, $heOrShe looks you straight in the eyes.
+
+""A piece of advice, captain. Don't mention this to the boss, and don't bring it up again with me either. You'll live longer.""",cutCommLink:Cut the comm link,

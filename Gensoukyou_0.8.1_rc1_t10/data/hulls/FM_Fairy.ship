@@ -1,0 +1,50 @@
+{
+  "hullName": "FM_Fairy",
+  "hullId": "FM_Fairy",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/FM_Fairy.png",
+  "style": "FM_fighter",
+  "height": 42,
+  "width": 42,
+  "center": [21, 18.5],
+  "collisionRadius": 25,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 23,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": -0,
+      "locations": [7, 6]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": 0,
+      "locations": [7, -6]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-11.5, -0],
+      "length": 21.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -1, -13.5,
+    -11.5, -0,
+    -1, 13.5,
+    14, 0
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "variantId": "pn_spore_elite",
+  "hullId": "pn_spore",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 3,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pn_skscannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "pn_vulcan",
+        "WS0003": "pn_vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

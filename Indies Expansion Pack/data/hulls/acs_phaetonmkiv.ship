@@ -1,0 +1,178 @@
+{
+  "hullName": "Phaeton MkIV",
+  "hullId": "acs_phaetonmkiv",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/acs_phaetonmkiv.png",
+  "style": "LOW_TECH",
+  "height": 251,
+  "width": 137,
+  "center": [68.5, 125.5],
+  "collisionRadius": 177.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 153,
+  "viewOffset": 0,
+  "builtInMods": [
+    "repair_gantry",
+    "rugged"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 293,
+      "angle": 0,
+      "locations": [23, -0.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 245,
+      "angle": 70,
+      "locations": [20, 34.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 291,
+      "angle": -38,
+      "locations": [67.5, -33.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 232,
+      "angle": 0,
+      "locations": [109, 8.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 207,
+      "angle": -38.5,
+      "locations": [99, -28.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 219,
+      "angle": -90,
+      "locations": [18.5, -38.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 213,
+      "angle": -90,
+      "locations": [-21, -48.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 318,
+      "angle": 180,
+      "locations": [-93, -4.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 196,
+      "angle": 79.5,
+      "locations": [-45, 42.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [63.5, 40]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [44.5, 46]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-2.5, -50]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-108, -26],
+      "length": 97,
+      "width": 23,
+      "angle": 180,
+      "contrailSize": 23,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-117, -5],
+      "length": 48.5,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-114, 12],
+      "length": 76.331276,
+      "width": 20.667477,
+      "angle": 180,
+      "contrailSize": 20.667477,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-109.5, 33.5],
+      "length": 46,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-102, -45.5],
+      "length": 47,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    95, -36.5,
+    -90, -50.5,
+    -92, 40.5,
+    -65, 58,
+    87.5, 40.5,
+    117.5, 10
+  ]
+}

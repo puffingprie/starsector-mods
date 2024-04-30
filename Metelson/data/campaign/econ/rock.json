@@ -1,0 +1,116 @@
+{
+"starSystem":"rock",
+	"markets":[
+		{
+			"entities":["pebble"],
+			"faction":"pirates",
+			"size":2,
+			"startingConditions":[
+				"uninhabitable",
+				"thin_atmosphere",
+				"cold",
+				"ore_sparse",
+				"ruins_extensive",
+				"rare_ore_sparse",
+				"population_2",
+			],
+			"industries":[
+				"population",
+				"mining",
+				"heavybatteries",
+				"spaceport",
+			],
+		  },
+		
+		{
+			"entities":["viymese"],
+			"faction":"independent",
+			"size":6,
+			"startingConditions":[
+				"cold",
+				"ore_moderate",
+				"volatiles_diffuse",
+				"habitable",
+				"ruins_widespread",
+				"population_6",
+			],
+			"industries":[
+				"population",
+				"mining",
+				"fuelprod",
+				"commerce",
+				"heavybatteries",
+				"spaceport",
+			],
+		},
+
+		{
+			"entities":["rock_station"],
+			"faction":"tritachyon",
+			"size":3,
+			"startingConditions":[
+				"population_3",
+			],			
+			"industries":[
+				"population",
+				"spaceport",
+				"grounddefenses",
+				"waystation",
+				"patrolhq",
+			],
+		},
+		{
+			"entities":["rangus"],
+			"faction":"metelson",
+			"size":7,
+			"startingConditions":[
+				"arid",
+				"habitable",
+				"ruins_widespread",
+				"organics_trace",
+				"farmland_adequate",
+				"ore_rich",
+				"rare_ore_rich",
+				"population_7",
+			],			
+			"industries":[
+				"population",
+				"farming",
+				"megaport",
+				"lightindustry",
+				"mining",
+				"heavybatteries",
+				"highcommand",
+				"waystation",
+				"starfortress_mid",
+			],
+		},
+{			
+			"entities":["anvil"],
+			"faction":"metelson",
+			"size":5,
+			"startingConditions":[
+				"low_gravity",
+				"no_atmosphere",
+				"population_5",
+							],			
+			"industries":[
+				"population",
+				"megaport",
+				"refining",
+				["orbitalworks", "corrupted_nanoforge"],
+				"heavybatteries",
+				"militarybase",
+				"orbitalstation",
+			],
+		},
+
+
+
+	],
+
+
+}
+
+
+

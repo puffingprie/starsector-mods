@@ -1,0 +1,21 @@
+{
+	"portraits":{
+	    "standard_female":[
+          
+	    ],
+             "standard_male":[
+
+          	"graphics/portraits/characters/bione_lata.png",
+	    ],
+	},
+	"ranks":{
+		"ranks":{
+			
+		},
+		"posts":{
+			#"patrolCommander":{"name":"船长"},
+                         "tester":{"name":"实验员"},
+			
+		},
+	},
+},		 

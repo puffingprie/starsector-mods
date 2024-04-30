@@ -1,0 +1,25 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 9,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "vice_hyperion_ex",
+    "hullMods": [
+        "magazines",
+        "hardenedshieldemitter",
+        "hardened_subsystems",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_hyperion_ex_attack",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS 001": "lightag",
+            "WS 002": "lightag",
+            "WS 003": "autopulse"
+        }
+    }]
+}

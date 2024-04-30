@@ -1,0 +1,77 @@
+{
+	"id":"FM_Nightbugs_proj",
+	"specClass":"missile",
+	"missileType":"MIRV",
+	"sprite":"graphics/weapons//projects/FM_Nightbugs_proj.png",
+	"size":[26,34],
+	"center":[13,17],
+	"collisionRadius":22,
+	"collisionClass":"NONE",
+	"glowColor":[95,255,130,100],
+	"glowRadius":50,
+	"explosionColor":[100,100,255,0],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":150, # purely visual
+	"flameoutTime":1,
+	"fadeTime":1,
+	"armingTime":20,
+	#	"engineSpec":{"turnAcc":140,
+	#				  "turnRate":35,
+	#				  "acc":1000,
+	#				  "dec":500},
+	"engineSpec":{"turnAcc":210,
+					"turnRate":35,
+					"acc":500,
+					"dec":500},
+	"engineSlots":[{"id":"ES1",
+					"loc":[0, 0],
+						#"style":"MISSILE_HIGH_TECH",
+						"style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[100,165,255,255],
+						"contrailDuration":0,
+						"contrailWidthMult":1,
+						"contrailWidthAddedFractionAtEnd":2.5,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.5f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailColor":[100,165,255,75],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+						"width":7.0,
+						"length":40.0,
+						"angle":180.0},
+						],
+	
+		"behaviorSpec":{"behavior":"MIRV",
+					"splitRange":0,
+					"splitRangeRange":0,
+					"minTimeToSplit":20,
+					"canSplitEarly":false,
+					"splitSound":"FM_SkySerpent_S_expand",
+					"numShots":60,
+					"damage":225,
+					"emp":0,
+					"damageType":HIGH_EXPLOSIVE,
+					"hitpoints":50,
+					"evenSpread":true,
+					"arc":360,
+					"spreadInaccuracy":0,
+					#"spreadSpeed":300,
+					"spreadSpeed":0,
+					"spreadSpeedRange":0,
+
+					"projectileSpec":"FM_PdMissile_project",
+					"smokeSpec":{"particleSizeMin":20.0,
+								 "particleSizeRange":20.0,
+								 "cloudParticleCount":11,
+								 "cloudDuration":1.0,
+								 "cloudRadius":20.0,
+								 "blowbackParticleCount":0,
+								 "blowbackDuration":0,
+								 "blowbackLength":0,
+								 "blowbackSpread":0,
+								 "particleColor":[100,100,100,200]}
+					}
+
+}

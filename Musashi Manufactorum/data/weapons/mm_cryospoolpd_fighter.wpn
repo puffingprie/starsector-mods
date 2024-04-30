@@ -1,0 +1,48 @@
+{
+  "id": "mm_cryospoolpd_fighter",
+  "specClass": "projectile",
+  "projectileSpecId": "mm_cryospoolpd_fighter_shot",
+  "type": "BALLISTIC",
+  "mountTypeOverride": "HYBRID",
+  "size": "SMALL",
+  "everyFrameEffect": "com.fs.starfarer.api.impl.combat.CryofluxTransducerEffect",
+  "turretSprite": "graphics/mm/weapons/mm_spd_cyrospoolpd_body.png",
+  "turretGlowSprite": "graphics/mm/weapons/mm_spd_cyrospoolpd_glow.png",
+  "turretGunSprite": "graphics/mm/weapons/mm_spd_cyrospoolpd_barrel.png",
+  "turretUnderSprite": "graphics/mm/weapons/mm_spd_cyrospoolpd_base.png",
+  "hardpointSprite": "graphics/mm/weapons/mm_spd_cyrospoolpd_body_hp.png",
+  "hardpointGlowSprite": "graphics/mm/weapons/mm_spd_cyrospoolpd_glow_hp.png",
+  "hardpointGunSprite": "graphics/mm/weapons/mm_spd_cyrospoolpd_barrel_hp.png",
+  "glowColor": [
+    225,
+    10,
+    15,
+    85
+  ],
+  "visualRecoil": 1,
+  "turretOffsets": [
+    2,
+    -0.5,
+    2,
+    0.5
+  ],
+  "turretAngleOffsets": [
+    -3.5,
+    3.5
+  ],
+  "hardpointOffsets": [
+    5.5,
+    1.5,
+    5.5,
+    -1.5
+  ],
+  "hardpointAngleOffsets": [
+    5,
+    -5
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW",
+  "autocharge": true,
+  "noImpactSounds": true,
+  "unaffectedByProjectileSpeedBonuses": true
+}

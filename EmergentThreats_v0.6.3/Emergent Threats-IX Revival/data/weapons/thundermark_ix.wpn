@@ -1,0 +1,23 @@
+{
+  "id": "thundermark_ix",
+  "specClass": "projectile",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/ix/thundermark/thundermark_t00.png",
+  "hardpointSprite": "graphics/weapons/ix/thundermark/thundermark_h00.png",
+  "glowColor": [0,100,255,255],
+  "turretOffsets": [18, -5, 18, 5],
+  "turretAngleOffsets": [0, 0],
+  "hardpointOffsets": [21, -5, 21, 5],
+  "hardpointAngleOffsets": [0, 0],
+  "numFrames":4,
+  "frameRate":30,
+  "barrelMode": "LINKED",
+  "animationType": "NONE",
+  "autocharge": true,
+  "requiresFullCharge":true,
+  "projectileSpecId": "thundermark_ix_shot",
+  "noImpactSounds":true,
+  "fireSoundOne": "thundermark_ix_spinup",
+  "fireSoundTwo": "thundermark_ix_fire"
+}

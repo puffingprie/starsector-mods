@@ -1,0 +1,55 @@
+{
+  "variantId": "pn_eyfel_assault",
+  "hullId": "pn_eyfel",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 34,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "unstable_injector",
+    "advancedoptics",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pn_hil",
+        "WS0004": "pn_hil",
+        "WS0008": "pn_hil"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "pn_skscannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "pn_skscannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "pn_vulcan",
+        "WS0006": "pn_vulcan",
+        "WS0007": "pn_double-vulcan",
+        "WS0009": "pn_vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "pn_stress_wing",
+    "pn_stress_wing"
+  ]
+}

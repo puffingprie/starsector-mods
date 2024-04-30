@@ -1,0 +1,23 @@
+{
+    "displayName": "标准",
+    "fluxCapacitors": 4,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "mercury",
+    "hullMods": [
+        "eccm",
+        "frontemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "DT_mql",
+    "weaponGroups": [{
+        "autofire": false,
+        "mode": "ALTERNATING",
+        "weapons": {
+            "WS 001": "heatseeker",
+            "WS 002": "heatseeker",
+            "WS 003": "heatseeker"
+        }
+    }]
+}

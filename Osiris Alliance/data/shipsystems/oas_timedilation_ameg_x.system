@@ -1,0 +1,28 @@
+{
+	"id":"oas_timedilation_ameg_x",
+	"type":"ENGINE_MOD",
+	#"aiType":"MANEUVERING_JETS",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.OasTimeDilationAI",
+	"statsScript":"data.shipsystems.scripts.OasRedTimeDilationStats",
+	
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":true,
+	"alwaysAccelerate":false,
+
+	"soundFilterType":"LOWPASS",
+	"soundFilterGain":0.75,
+	"soundFilterGainHF":0.5,
+
+	"fadeActivationSoundOnChargedown":false,
+	"useSound":"oas_system_redtime_start",
+	"loopSound":"oas_system_redtime_loop",
+	"deactivateSound":"oas_system_redtime_end",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"activeSpeedIncrease":150,  # not right since it's ship-dependent, but hopefully close enough
+		"burstMovementPotential":0,
+		"averageSpeedMult":4,
+	}
+}

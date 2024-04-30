@@ -1,0 +1,38 @@
+{
+    "displayName": "Auxiliary",
+    "fluxCapacitors": 0,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "casimir_ix_a",
+    "hullMods": [
+        "eccm",
+        "extendedshieldemitter",
+        "frontemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "casimir_ix_aux",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "taclaser",
+                "WS 002": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "orthrus_m_ix",
+                "WS 005": "orthrus_m_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "morningstar_ciws_ix"}
+        }
+    ]
+}

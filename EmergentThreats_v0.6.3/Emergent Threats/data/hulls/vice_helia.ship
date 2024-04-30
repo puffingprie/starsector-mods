@@ -1,0 +1,52 @@
+{
+  "hullName": "Helia",
+  "hullId": "vice_helia",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/vice/ships/hidden/helia.png",
+  "style": "HIGH_TECH",
+  "height": 48,
+  "width": 38,
+  "center": [19, 28],
+  "collisionRadius": 40,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 38,
+  "viewOffset": 0,
+  "builtInMods": ["eccm"],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 4,
+      "angle": 0,
+      "locations": [-3, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-26, 4],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-26, -4],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -25, 6,
+    -16, 14,
+    17, 14,
+    17, -14,
+    -16, -14,
+    -25, -6
+  ]
+}

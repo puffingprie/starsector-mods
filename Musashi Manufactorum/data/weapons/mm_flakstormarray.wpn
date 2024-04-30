@@ -1,0 +1,77 @@
+{
+  "id": "mm_flakstormarray",
+  "specClass": "projectile",
+  "projectileSpecId": "mm_flakstormarray_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "displayArcRadius": 650,
+  "turretSprite": "graphics/mm/weapons/mm_lb_flakstormarray_body.png",
+  "turretGunSprite": "graphics/mm/weapons/mm_lb_flakstormarray_barrel.png",
+  "hardpointSprite": "graphics/mm/weapons/mm_lb_flakstormarray_body_hp.png",
+  "hardpointGunSprite": "graphics/mm/weapons/mm_lb_flakstormarray_barrel_hp.png",
+  "visualRecoil": 6,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    19,
+    -17.5,
+    19,
+    -11.5,
+    19,
+    -5.5,
+    19,
+    5.5,
+    19,
+    11.5,
+    19,
+    17.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    31.5,
+    -17.5,
+    31.5,
+    -11.5,
+    31.5,
+    -5.5,
+    31.5,
+    5.5,
+    31.5,
+    11.5,
+    31.5,
+    17.5
+  ],
+  "hardpointAngleOffsets": [
+    -0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 20,
+    "spread": 15,
+    "particleSizeMin": 10,
+    "particleSizeRange": 20,
+    "particleDuration": 0.2,
+    "particleCount": 12,
+    "particleColor": [
+      225,
+      100,
+      50,
+      200
+    ]
+  },
+  "fireSoundTwo": "hephaestus_fire"
+}

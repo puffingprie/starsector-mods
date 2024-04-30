@@ -1,0 +1,66 @@
+{
+    "displayName": "Automated",
+    "fluxCapacitors": 0,
+    "fluxVents": 35,
+    "hullId": "vice_odyssey_ai",
+    "hullMods": [
+        "vice_advanced_terminator_core",
+        "hardenedshieldemitter",
+        "targetingunit",
+        "vice_adaptive_pulse_resonator"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_odyssey_tt_automated",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "squall",
+                "WS 003": "squall"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "cyclone"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "ionpulser",
+                "WS 005": "ionpulser",
+                "WS 007": "irpulse",
+                "WS 008": "irpulse",
+                "WS 009": "irpulse",
+                "WS 010": "irpulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 006": "gravitonbeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 011": "pdlaser",
+                "WS 012": "pdlaser",
+                "WS 013": "pdlaser",
+                "WS 014": "pdlaser",
+                "WS 015": "pdlaser",
+                "WS 016": "pdlaser",
+                "WS 017": "pdlaser",
+                "WS 018": "pdlaser"
+            }
+        }
+    ],
+	"modules": [{"SM 1": "vice_odyssey_secondary_drone_bay"}],
+    "wings": [
+        "vice_sundog_wing",
+        "vice_sundog_wing"
+    ]
+}

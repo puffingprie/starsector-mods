@@ -1,0 +1,8 @@
+fieldID,fieldName,fieldType,defaultValue,secondaryValue,fieldDescription,minValue,maxValue,tab
+vice_abyssalEnabled,Enable Abyssal adaptive hullmod,Boolean,true,,Enable Abyssal Entropy Projector hullmod for enemy Abyssal ships (Random Assortment of Things). Requires reload.,,,Expansion
+vice_messEnabled,Enable Remnant Mess adaptive hullmod,Boolean,true,,Enable Adaptive Metastatic Growth hullmod for enemy Remnant Mess Objects (Hazard Mining Incorporated). Requires reload.,,,Expansion
+vice_vriEnabled,Enable Volantian adaptive hullmods,Boolean,true,,Enable various adaptive hullmods for Volantian Remnant Conversion ships (Volantian Reclamation Initiative). Requires reload.,,,Expansion
+vice_remnantDifficulty,Adjust difficulty of NPC Remnant fleets,Radio,Challenging,"Challenging,Hard,Easy","Challenging adds adaptive hullmods to all NPC Remnant fleets. 
+Hard does not add hullmods, but NPC Remnant fits are optimized.
+Easy replaces NPC adaptive hullmods with time slowdown penalty.
+Requires reload.",,,Expansion

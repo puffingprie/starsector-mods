@@ -1,0 +1,18 @@
+{
+	"baseHullId":"tigershark_ix_base",
+	"skinHullId":"tigershark_ix_hvb",
+	"hullName":"Tigershark (HG)",
+	"hullDesignation":"Drone Cruiser",
+	"incompatibleWithBaseHull":true,
+	"descriptionId":"tigershark_ix_hvb",
+	"coversColor":[120,130,120,255],
+	"descriptionPrefix":"This ship is a survivor of a 9th Domain Battlegroup task force stranded in the Persean Sector. Specialized in the Domain Navy's \"lightning strike\" doctrine, it has received extensive upgrades (performed with pre-Collapse industrial methods) to its engines and shield emitters.",
+	"fleetPoints":22,
+	"ordnancePoints":170,
+	"baseValueMult":2,
+	"spriteName":"graphics/ships/ix/hvb/tigershark_ix_hvb.png",
+	"tags":["no_autofit"],
+	#"removeHints":["HIDE_IN_CODEX"],
+	"tech":"IX Battlegroup",
+	"builtInMods":["automated", "ix_plasma_ramjet", "ix_ninth"],
+}

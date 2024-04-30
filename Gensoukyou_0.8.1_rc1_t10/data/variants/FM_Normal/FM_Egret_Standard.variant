@@ -1,0 +1,34 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 4,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "FM_Egret",
+    "hullMods": [
+        "expanded_deck_crew",
+        "FantasyKawausoMod"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Egret_Standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "FM_SkySerpent_M"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "FM_SkySerpent_S",
+                "WS0003": "FM_SkySerpent_S"
+            }
+        }
+    ],
+    "wings": [
+        "FM_Amanojyak_wing",
+        "FM_Amanojyak_wing",
+        "FM_Fairy_bomb_wing"
+    ]
+}

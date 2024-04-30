@@ -1,0 +1,51 @@
+{
+    "displayName": "Pirate",
+    "fluxCapacitors": 0,
+    "fluxVents": 26,
+    "goalVariant": true,
+    "hullId": "vice_praxis",
+    "hullMods": [
+        "armoredweapons",
+        "magazines",
+        "missleracks",
+        "targetingunit",
+        "vice_adaptive_reactor_chamber"
+    ],
+    "permaMods": [
+        "armoredweapons",
+        "magazines"
+    ],
+    "sMods": [
+        "armoredweapons",
+        "magazines"
+    ],
+    "variantId": "vice_praxis_attack",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "ionpulser",
+                "WS 003": "ionpulser",
+                "WS 009": "amblaster",
+                "WS 010": "amblaster"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "atropos",
+                "WS 005": "atropos",
+                "WS 006": "atropos",
+                "WS 007": "atropos"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "dualflak"}
+        }
+    ],
+    "wings": ["lux_wing"]
+}

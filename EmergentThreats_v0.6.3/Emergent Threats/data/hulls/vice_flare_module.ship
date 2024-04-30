@@ -1,0 +1,42 @@
+{
+  "hullName": "",
+  "hullId": "vice_flare_module",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/vice/ships/blank.png",
+  "style": "HIGH_TECH",
+  "height": 1,
+  "width": 1,
+  "center": [0, 0],
+  "collisionRadius": 1,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 1,
+  "viewOffset": 0,
+  "builtInWings": [],
+  "builtInMods": ["never_detaches", "vastbulk"],
+  "weaponSlots": [
+      {
+      "id": "SYSTEM 1",
+      "size": "MEDIUM",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 30,
+      "locations": [0,0]
+    },
+	{
+      "id": "SYSTEM 2",
+      "size": "MEDIUM",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": -30,
+      "locations": [0,0]
+    },
+  ],
+  "bounds": [
+    1, 1,
+    1, -1,
+    -1, 1,
+    -1, -1,
+  ]
+}

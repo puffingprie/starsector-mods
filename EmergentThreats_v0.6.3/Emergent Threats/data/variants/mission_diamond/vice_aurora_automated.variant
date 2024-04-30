@@ -1,0 +1,55 @@
+{
+    "displayName": "Automated",
+    "fluxCapacitors": 10,
+    "fluxVents": 6,
+    "hullId": "vice_aurora_ai",
+	"goalVariant": false,
+    "hullMods": [
+        "ecm",
+        "missleracks",
+        "hardenedshieldemitter",
+        "targetingunit",
+        "stabilizedshieldemitter",
+        "vice_adaptive_emitter_diodes"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_aurora_automated",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 009": "ionbeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "taclaser",
+                "WS 006": "breachpod",
+                "WS 010": "breach",
+                "WS 011": "breach",
+                "WS 012": "breach",
+                "WS 013": "breach"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "taclaser",
+                "WS 005": "taclaser",
+                "WS 007": "gravitonbeam",
+                "WS 008": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "pdlaser",
+                "WS 002": "pdlaser"
+            }
+        }
+    ]
+}

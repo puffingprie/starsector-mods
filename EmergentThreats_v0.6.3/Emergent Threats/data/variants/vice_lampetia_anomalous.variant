@@ -1,0 +1,63 @@
+{
+    "displayName": "Anomalous",
+    "fluxCapacitors": 0,
+    "fluxVents": 48,
+    "goalVariant": true,
+    "hullId": "vice_lampetia",
+    "hullMods": [
+        "vice_advanced_terminator_core",
+        "targetingunit",
+        "stabilizedshieldemitter",
+        "vice_adaptive_emitter_diodes"
+    ],
+    "modules": [{"SM 1": "vice_lampetia_secondary_drone_bay"}],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_lampetia_anomalous",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "vice_siege_burst"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "squall",
+                "WS 003": "squall"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "gravitonbeam",
+                "WS 005": "gravitonbeam",
+                "WS 006": "ionbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "lrpdlaser",
+                "WS 008": "lrpdlaser",
+                "WS 009": "lrpdlaser",
+                "WS 010": "lrpdlaser",
+                "WS 011": "lrpdlaser",
+                "WS 012": "pdlaser",
+                "WS 013": "pdlaser",
+                "WS 014": "lrpdlaser",
+                "WS 015": "pdlaser",
+                "WS 016": "pdlaser",
+                "WS 017": "pdlaser",
+                "WS 018": "pdlaser"
+            }
+        }
+    ],
+    "wings": [
+        "vice_sundog_wing",
+        "vice_sundog_wing"
+    ]
+}

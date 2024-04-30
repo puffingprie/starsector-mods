@@ -1,0 +1,24 @@
+{
+  "variantId": "acs_militianew_rail",
+  "hullId": "acs_militianew",
+  "displayName": "Droid Unit",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "acs_railfedfighter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "acs_militianew_gpmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

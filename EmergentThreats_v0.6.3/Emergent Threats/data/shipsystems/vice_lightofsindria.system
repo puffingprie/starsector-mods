@@ -1,0 +1,15 @@
+{
+	"id":"vice_lightofsindria",
+	"type":"STAT_MOD",
+	#"aiType":"RESERVE_DEPLOYMENT",
+	"aiType":"CUSTOM",
+	"aiScript":"data.scripts.vice.ai.LightOfSindriaAI",
+	
+	"statsScript":"data.scripts.vice.shipsystems.LightOfSindria",
+	
+	"useSound":"system_reserve_wing",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}

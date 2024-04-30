@@ -1,0 +1,25 @@
+{
+  "star_tolpstar": {
+    "name": "Red Star",
+    "tilt": -5, # left-right (>0 tilts to the left)
+    "pitch": 66, # towards-away from the viewer (>0 pitches towards)
+    "rotation": -3, # degrees/second
+    "planetColor": [200, 0, 32, 255],
+    "atmosphereThickness": 0.45, # as fraction of radius.  Set to 0 for no atmosphere
+    "atmosphereThicknessMin": 10, #  minimum thickness in pixels
+    "atmosphereColor": [255, 0, 64, 255],
+    "texture": "graphics/planets/star_yellow-orange.jpg",
+    "icon": "graphics/warroom/icon_star.png",
+    "iconColor": [200, 0, 32, 250],
+    "starCoronaSprite": "graphics/fx/star_halo.png", # optional, defaults to really bright particle
+    "starCoronaColor": [255, 0, 64, 60], # optional, defaults to white
+    "starCoronaSizeMult": 6.0, # required, multiplier for star's radius
+    "isStar": true,
+    "lightPosition": [0, 0, 10], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+  }
+},
+
+}
+
+
+

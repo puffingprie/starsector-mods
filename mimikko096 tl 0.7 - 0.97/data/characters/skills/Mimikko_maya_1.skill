@@ -1,0 +1,20 @@
+{
+	"id":"Mimikko_maya_1",
+	"governingAptitude":"industry", # why not
+	"compressHullmods":false,
+	"scope":"GOVERNED_OUTPOST",
+	"effectGroups":[
+		{
+			"requiredSkillLevel":1,
+			"effectBasedOnLevel":false,
+			"effects":[
+				#{"type":"GOVERNED_OUTPOST", "script":"data.scripts.skill.Mimikko_maya_1$Level1"},
+				#{"type":"GOVERNED_OUTPOST", "script":"data.scripts.skill.Mimikko_maya_1$Level4"},
+				#{"type":"GOVERNED_OUTPOST", "script":"data.scripts.skill.Mimikko_maya_1$Level2"},
+				#{"type":"CHARACTER_STATS", "script":"data.scripts.skill.Mimikko_maya_1$Level3"},
+				#{"type":"GOVERNED_OUTPOST", "script":"com.fs.starfarer.api.impl.campaign.skills.Hypercognition$Level3"},
+				#{"type":"GOVERNED_OUTPOST", "script":"com.fs.starfarer.api.impl.campaign.skills.Hypercognition$Level4"},
+			]
+		},
+	],
+}

@@ -1,0 +1,13 @@
+{
+	"baseHullId":"vice_iris_base",
+	"skinHullId":"vice_iris_ex",
+	"hullName":"Iris (EX)",
+	"descriptionId":"vice_ex_all",
+	"descriptionPrefix":"A high-tech destroyer prototype equipped with an experimental Interceptor Burst Laser. The Iris can intercept a large volume of incoming fighters and missiles, freeing capital ships under its protection to focus on engaging enemy forces directly.",
+	"tags":["rare_bp", "hist1t", "merc", "ind", "tritachyon", "vice_ex_bp"],
+	"removeHints":["HIDE_IN_CODEX"],
+	"builtInMods":["escort_package", "vice_experimental_hull"],
+	"builtInWeapons": {
+        "WS ARR": "vice_interceptor_pd",
+    },
+}

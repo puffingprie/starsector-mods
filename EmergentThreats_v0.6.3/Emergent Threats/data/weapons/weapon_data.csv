@@ -1,0 +1,36 @@
+name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
+#Built-in Weapons,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Gigapulser,vice_gigapulser,3,,100000,800,,900,,0,5,,,,,ENERGY,675,,1,7.5,3,0.25,0,0,0,0,,1000,,,,,,"SYSTEM, STRIKE, USE_VS_FRIGATES",,TPC_only,,,Strike,,,,,,,,,,28.1
+Hydromagnetic Cannon,vice_hmc,3,,100000,1200,,900,,300,0,,,,,KINETIC,1200,,0.5,2.5,,,,,,,,1200,,,400,,,"SYSTEM, SHOW_IN_CODEX","kinetic20, LR",,Remnant,,General,,,,,Each impact against exposed armor or hull has a chance to degrade the target's %s by %s. Loss of armor at the site of impact increases odds of applying penalty.,Combat Readiness | 1%,,,,40.1
+Hellfire SDEM,vice_hellfire,3,,0,1000,4000,,,,0,,4,0.1,,ENERGY,,2400,0.1,0.2,0.9,6.8,,,,,1000000,,,,,,,"SYSTEM, SHOW_IN_CODEX, CONSERVE_3, STRIKE, USE_VS_FRIGATES","beam20, energy20, LR",,,,Strike,,,,,,,,,,16.02
+Hellfire Targeting Laser,vice_hellfire_targeting,0,,0,1200,1,,,,0,,,,,ENERGY,,,0,0.1,,,,,,,1000000,,,,,,,"SYSTEM, SHOW_IN_CODEX, STRIKE, USE_VS_FRIGATES","beam0, energy0",,,,Intimidation,,,,,,,,,,16.03
+Interdictor Pulse Emitter,vice_interdictor_pulse,,,,2500,,1,,,,,1,0.1,,KINETIC,0,,0,0,2,0.1,0,0,0,0,,100,0,0.1,500,,,SYSTEM,,,,,,,,,,,,,,,41.1
+    Interdictor Payload,vice_interdictor_payload,2,,0,2500,2000,,,,100,,1,,,KINETIC,0,,0,0.33,0.9,,,,,,1000000,,,,,,,SYSTEM,fires_one_burst,,,,,,,,,,,,,TRUE,41.2
+    Interdictor Deco Laser,vice_deco_laser,,,,1,1,,,,,,,,,ENERGY,,,0,0.1,,,,,,,1000000,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+Micro-Missile Launcher,vice_mml,0,,0,1400,,200,,5,30,,6,3,6,FRAGMENTATION,0,,0,0.1,6,0.3,0,0,0,0,,400,100,6,60,,,"SYSTEM, ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","utility5, missile5",,,,Anti Small Craft,Fast,Excellent,,,,,,,,16.3
+Spatial Charge Launcher,vice_spatial_charge,0,,0,1500,,150,300,0,0,,,,,ENERGY,0,,0,2,2,0.5,0,0,0,0,,400,400,3,300,,,"SYSTEM, DO_NOT_AIM, DO_NOT_CONSERVE","utility5, missile5",,,,Special,Very Slow,None,,,"Not affected by missile speed, acceleration, and flight time modifiers.",,,,,16.3
+Neutron Autolance,vice_neutron_autolance,0,,0,1000,500,,,0,20,,40,4,20,KINETIC,,600,0,0,0.1,0,,,,,1000000,,,,,,,"SYSTEM, SHOW_IN_CODEX, FIRE_WHEN_INEFFICIENT, DO_NOT_CONSERVE","beam15, energy15",,,,Anti Shield,,,,,Inflicts %s against shields.,hard flux,,,,21.9
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Fighter Weapons,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Balefire Emitter,vice_balefire_emitter,3,,0,800,1500,,,,0,,1,,,ENERGY,,0,0.1,0.2,0.9,0,,,,,1000000,,,,,,,"SYSTEM, STRIKE",beam9,,,,Strike,,,,,,,,,TRUE,16.5
+Breach SRM (High Delay),vice_breach_fighter,1,,0,1500,,150,,15,10,,,,,HIGH_EXPLOSIVE,0,,0,9.5,2,0.5,0,0,0,,,400,50,5,450,,,SYSTEM,missile7,,,,Anti Armor,Fast,Good,,,Each missile deals an additional %s damage to armor. This damage is not reduced by armor.,250,,,TRUE,11.7
+Breach SRM (Single),vice_breach_fighter_single,1,,0,1500,,150,,15,10,,,,,HIGH_EXPLOSIVE,0,,0,10,1,,0,0,0,,,400,50,5,450,,,SYSTEM,missile7,,,,Anti Armor,Fast,Good,,,Each missile deals an additional %s damage to armor. This damage is not reduced by armor.,250,,,TRUE,11.7
+Autopulse Laser (High Delay),vice_autopulse_fighter,1,,0,700,,150,,0,60,,,,,ENERGY,0,,0,2.9,3,0.05,0,10,1,5,,1500,,,,,,SYSTEM,energy18,,,,General,,,,,,,,,,25.1
+Plasma Caster,vice_plasma_fighter,3,,0,1000,,250,,25,0,,5,,,ENERGY,0,,0,0.5,,,,,,,,750,750,2,50,,,"SYSTEM, STRIKE","strike8, rocket8",,,,Strike,Very Fast,None,,,,,,,,23.1
+Stinger Catapult,vice_fragbomb_fighter,0,,0,800,,500,,10,0,,3,0.3,3,FRAGMENTATION,0,,0,2,1,,0,0,0,0,,500,500,7,150,,,"SYSTEM, DO_NOT_AIM, ANTI_FTR, PD",pd0,,,,Point Defense,,,,,,,,,TRUE,3.3
+LR Burst Laser (Gunship),vice_lrburstpd_fighter,3,,0,1000,391,,,0,100,,,,,ENERGY,,300,0,1,1,,,,,,50000,,,,,,,"SYSTEM, PD","beam9, energy9, pd9",,,,Point Defense,,,,,Laser ablation removes %s extra armor on each hit against an unshielded hull. This effect is not reduced by armor.,15,,,,19.6
+Interceptor Burst Laser,vice_interceptor_pd,3,,0,700,450,,,0,40,,,,,ENERGY,,413,0.1,0.1,0.3,0.1,,,,,50000,,,,,,,"SYSTEM, SHOW_IN_CODEX, PD, ANTI_FTR","beam10, energy10, pd15",,,,Point Defense,,,,,,,,,,22.9
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#New Weapons,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Atropos MIRV Launcher,vice_atropos_mirv,2,,5000,1800,,1000,,50,20,22,20,,,HIGH_EXPLOSIVE,0,,0,10,1,,0,0,0,0,,400,100,4.75,300,,,"CONSERVE_5, STRIKE, USE_VS_FRIGATES","missile18, strike15, rare_bp, hist1t, merc, ind",,,,Torpedo,Fast,Special,,,Deploys %s guided Atropos torpedoes near the target. First stage unguided booster rocket extends the total range of the weapon to approximately %s.,2 | 2500,,,TRUE,16
+Deadeye Plasma Seeker,vice_deadeye_plasma,3,,8000,800,,300,,,20,25,,,,ENERGY,360,,0.3,2.9,3,0.2,,,,,,500,500,2,400,,,"DIRECT_AIM, DO_NOT_AIM","energy20, rare_bp, hist2t, merc, tritachyon",,,,General,Fast,Good,,,"Fires %s. Unlike most energy weapons, the charged projectiles can be intercepted by point defenses.",homing projectiles,,,,23.9
+Ion Streamer,vice_ionstreamer,3,,2500,1000,60,,720,0,40,6,3,1,3,ENERGY,,187.5,0,0.05,0.4,0.05,,,,,50000,,,,,,,"FIRE_WHEN_INEFFICIENT, DO_NOT_CONSERVE","beam6, LR, hightech_bp, LG_bp, tritachyon",,,,Suppression,,,,,"Hits on hull or armor periodically arc to weapons and engines, dealing extra EMP and energy damage. Hits on shields have a chance to generate a shield-penetrating arc based on the target's hard flux level.",,,,,19.2
+Siege Burst Laser,vice_siege_burst,3,,6000,1000,883,,,0,20,28,,,,ENERGY,,1500,0,0.5,0.4,0.1,,,,,50000,,,,,,,,"beam20, hightech_bp, LG_bp, tritachyon",,,,General,,,,,Laser ablation removes %s extra armor on each hit against an unshielded hull. This effect is not reduced by armor.,50,,,,24.6
+Tactical Burst Laser,vice_lrburstpd,3,,3000,1000,391,,,0,30,14,,,,ENERGY,,600,0,0.25,0.3,0.05,,,,,50000,,,,,,,,"beam9, hightech_bp, LG_bp, tritachyon",,,,General,,,,,Laser ablation removes %s extra armor on each hit against an unshielded hull. This effect is not reduced by armor.,15,,,,19.7
+X-ray Pulse Laser,vice_x-ray_pulse,1,,5000,800,,200,,0,20,22,,,,ENERGY,160,,0,1.3,3,0.1,,,,,,1000,,,,,,,"energy18, hightech_bp, merc",,,,General,,,,,,,,,,25.1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Deco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ultracapacitors Reactor Glow,vice_ultracapacitors_deco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,44
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Updated Core Weapons,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Kinetic Blaster,kineticblaster,3,,5000,600,,50,,1,20,12,20,2,10,KINETIC,75,,0.05,0.05,,,0,10,1,5,,1000,,,,,,,"kinetic11, no_sell, no_dealer, no_drop_salvage",,,,Anti Shield,,,,,Deals %s of base weapon damage as extra damage against shields. This extra damage is not affected by skills.,100%,,,,22.35

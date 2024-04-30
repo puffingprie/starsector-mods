@@ -1,0 +1,65 @@
+{
+  "bounds": [
+    -14.5,
+    7,
+    1,
+    22,
+    12,
+    8.5,
+    12,
+    -8.5,
+    1,
+    -22,
+    -14.5,
+    -7
+  ],
+  "builtInWeapons": {
+    "WS0001": "pn_empvulcan"
+  },
+  "center": [
+    21.5,
+    16.5
+  ],
+  "collisionRadius": 27.115494,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 14.5,
+      "location": [
+        -13.5,
+        -0
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 4
+    }
+  ],
+  "height": 35,
+  "hullId": "pn_stress",
+  "hullName": "Stress",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 25.811819,
+  "spriteName": "graphics/pn/ships/pn_stress.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 120,
+      "id": "WS0001",
+      "locations": [
+        8,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 43
+}

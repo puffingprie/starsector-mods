@@ -1,0 +1,22 @@
+{
+  "variantId": "mm_bushi_interceptor_standard",
+  "hullId": "mm_bushi_interceptor",
+  "displayName": "Interceptor",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mm_miniflakpd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

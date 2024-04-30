@@ -1,0 +1,124 @@
+{
+    "name": "Nonona",
+    "personalities": ["steady", "aggressive", "reckless","cautious"],
+    "gender": ["m","f","n"],
+    "chance": 0,
+    "talkativeness": 0.65,
+    "categoryTags": [
+        "othermedia",
+    ],
+    "lines": {
+        "start": [                                            #开始？
+            {
+                "text": "First things first! No calling me mousey! I will get mad!",
+            },
+            {
+                "text": "Umumu, I forgot what I was thinking about! What do I do!",
+            },
+            {
+                "text": "Phew, thankfully the potion I just made is fine!",
+            },
+        ],
+        "start_boss": [                                    #打boss
+            {
+                "text": "I gotta make proper note of this",
+            },
+        ],
+        "retreat": [                                            #撤退
+            {
+                "text": "Captain, I just thought of a new potion formula, I'll go experiment first!",
+            },
+        ],
+        "out_of_missiles": [                                #用完导弹
+            {
+                "text": "If we can use magic missiles, we will be able to keep going forever",
+            },
+            {
+                "text": "How can I create self-replicating missiles",
+            },
+        ],
+        "engaged": [                                     #舰船部署
+            {
+                "text": "Does the Captain need Nonona's help!",
+            },
+            {
+                "text": "The captain seems curious about Nonona, I wonder why",
+            },
+        ],
+        "need_help": [                                         #需要帮助
+            {
+                "text": "Umu, Nonona will need the Captain's help",
+            },
+            {
+                "text": "Where is Yurika!",
+            },
+        ],
+        "pursuing": [                                               #发动进攻
+            {
+                "text": "Don't underestimate Nonona!",
+            },
+            {
+                "text": "I will show you the true power of a great witch!",
+            },
+        ],
+        "running": [                                        #后撤
+            {
+                "text": "Let Nonona focus!",
+            },
+            {
+                "text": "If you do this my ear will be itchy......when my ears are itchy......(Sneeze)",
+            },
+        ],
+        "hull_90": [                                     #90%生命值
+            {
+                "text": "The ship has received a bit of damage",
+            },
+            {
+                "text": "Wawa, steams are coming out of the pipe",
+            },
+        ],
+        "hull_50": [
+            {
+                "text": "Maybe I can make a better potion to repair the hull",
+            },
+            {
+                "text": "The hull is cracking!",
+            },
+        ],
+        "hull_30": [
+            {
+                "text": "All the monitors are red!!!",
+            },
+            {
+                "text": "This bit of magic can't keep the ship going, what to do!",
+            },
+        ],
+        "overload": [                					#过载
+            {
+                "text": "Overloaded!",
+            },
+            {
+                "text": "Think, Nonona, what to do in times like this",
+            },
+        ],
+        "death": [							#沉船
+            {
+                "text": "With the protection from the magic circle, everyone is safe",
+            },
+            {
+                "text": "Looks like I can't continue the research",
+            },
+        ],
+        "victory": [							#胜利
+            {
+                "text": "In the future, I will show more witch powers!",
+            },
+            {
+                "text": "The captain seems curious about Nonona, I wonder why.",
+            },
+            {
+                "text": "Captain seems very weird, this smile needs to be recorded in <The Codex of The Captain's Behavior>!",
+            },
+        ],
+    },
+}

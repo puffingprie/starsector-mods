@@ -1,0 +1,326 @@
+id,name,order,tier,reqPoints,reqPointsPerExtraSkill,description,author,combat officer,admiral,admin,tags,icon,,Column 15,Column 16
+# COMBAT,,,,,,,,,,,,,,,
+#helmsmanship,Helmsmanship,10,1,0,,"It sings when you push the mix just right, like, [humming]. Everything is right in the world, from the stars down to your bones. Coming off a shift, it’s like I just woke up. [laughing] Words can't tell it.","Nachiketa Portside Interview Project, Ep.3",TRUE,,,,graphics/icons/skills/helmsmanship.png,,,
+#combat_endurance,Combat Endurance,20,1,0,,"Through calamity, the Fourteenth endured. 
+Through hegemony, the Domain endures. 
+Through duty, humanity shall endure.","Admiral Kali Molina, the Declaration of Hegemony, c49",TRUE,,,,graphics/icons/skills/combat_endurance3.png,,,
+#eeDimentionInfect,维度感染,3400,1,0,,他们看到了紫色,在我的眼里。下潜,下潜……,回来的人,TRUE,,,"npc_only, deprecated",graphics/icon/characters/skills/ee_DimentionInfect.png,
+#Mimikko_test,技能测试,3398,1,,,测试,,TRUE,,,,graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+#军官增加,,,,,,,,,,,,,,,
+Mimikko_addofficer1,Daily Life,3397,1,,,"A memory from old earth.
+You live a lazy and relaxed life, your only fun comes from that magical app coming from who knows where. Within lives a series of lively girls, whose beauty seems otherworldly and with wildly different personality. 
+Perhaps you are the fun?
+But compared to boring life, whats wrong with this?",,,TRUE,,deprecated,graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+#Mimikko_addofficer2,灵能之毒,3396,1,,,"一段来自另一个科技星球的印象。
+人们来自灵魂的力量与科技的结合使得世界处于一种发展的巅峰。
+灵能者既是劳工,又是管理者,又是统治者。而没有灵能的人,如同被圈养一般活在世界上。
+你的志向和工作是想要解放那些被圈养的人,让世界变得更加和平。
+而你确实做得到,以你的技术,一手遮天。然而也总有恶人企图借此统治所有人,遗憾的是,他做到了。
+而你,为了你最爱的却又不得不抛弃的她,踏上不归的道路。",,,TRUE,,deprecated,graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+#Mimikko_addofficer3,天命勇者,3395,1,,,"一段来自古旧、不开明世界的印象。
+从小被教导魔王会统治世界,毁灭世界的你,从不相信魔族会有善良的人。
+直到王国真的被颠覆,在魔王的治理之下走向更繁荣的盛世,你放下了你勇者的职责。
+你实实在在的输给了魔王,输在了你并不知道怎么样的力量才是世界真正所需要的。
+而你也体会到了,如果不是魔王的她一直鼓励着她,她也不可能战胜你。
+你又踏上了锻炼自己的道路。",,,TRUE,,deprecated,graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+#Mimikko_addofficer4,反叛之剑,3394,1,,,"一段来自无上荣光世界的印象。
+当所有人都沉浸在他们给出的虚伪之中时,她们小小的举动,紧紧的依偎,改变了被覆灭的结局。
+然而,她们显然陷入了更大的麻烦,作为刺破虚伪面纱的代价,她们有责任理解一切,说给世人。
+向谁寻求？向你寻求。",,,TRUE,,deprecated,graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+#Mimikko_addofficer5,数流核心,3393,1,,,"一段来自近代的印象。
+当人人都生活在数据化的生活中时,一家伟大的公司反其道而行之,创造了两个伟大的生命。
+她们有与生俱来的使命,而如今,她们愿意为你多倾斜一点算力。
+如何？你也想知道她们的使命到底是什么吗？",,,TRUE,,deprecated,graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+,,,,,,,,,,,,,,,
+Mimikko_addadmin1,Extra Admin I,3389,1,,,,,,TRUE,,deprecated,graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+Mimikko_addadmin2,Extra Admin II,3388,1,,,,,,TRUE,,deprecated,graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+#梦梦奈,粉色,,,,,,,,,,,,,,
+aptitude_momona,,0,,,,,,,,,"npc_only, deprecated",graphics/icon/characters/skills/aptitude_momona.png,,,
+Mimikko_momonalove,Fuzzy Love,3399,1,0,,"""I feel so at ease just by being at your side, captain""
+
+Although everyone can clearly see this,she herself is the only one who havent quite realized she actually likes the captain very much.
+
+""Captain, can you pat momona's head?""She asked coquettishly.",,TRUE,,,"npc_only, deprecated",graphics/icon/characters/skills/Mimikko_momona_1.png,,,
+Mimikko_momonamiracle,Mysterious Bunny Girl,3401,1,0,,"She is sometime airhead, and sometime a stubborn tsundere. 
+
+Under her loli like apperance is a mysterious heart, and she would sometime say some quite yabai stuff.
+
+Her requirement for herself is to dutifully fulfill her job as an assistant.
+
+As for whether that ear on her head is real...or not...is for you to determine yourself.",,TRUE,,,"npc_only, deprecated",graphics/icon/characters/skills/Mimikko_momona_2.png,,,
+#Mimikko_officer_momona,心智结晶-粉,,,,,这是一颗粉色的心智结晶吗？,,TRUE,,,"npc_only, deprecated",graphics/icon/characters/skills/Mimikko_momona_2.png,,,
+#阿尔法零,,,,,,,,,,,,,,,
+Mimikko_zero_1,Obedient Child,3402,1,,,"Zero had been abandoned before, so she is very afraid of being abandoned again. She is very afraid of causing trouble for the Captain. 
+
+Despite her tough past, I'm sure the experience with the Captain will slowly heal everything. ",,TRUE,,,"npc_only, deprecated",graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+Mimikko_zero_2,Android Girl (Prototype),3403,1,,,"Zero was created by an unknown individual. Though she is an AI, she is sentient and can feel heat, emotion, even love.
+
+Zero have strong computational power, allowing her to assist a ship with various calculation, including percisely directing shield energy to needed areas.
+
+“Zero can feel, the emotion of this ship. It is like Zero, it has lost someone dear to it. ” This video cannot be published.
+
+Zero has a snake like tail, according to her, this is a sensor, and it is very itchy if touched. ",,TRUE,,,"npc_only, deprecated",graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+#Mimikko_officer_zero,心智结晶-天蓝,,,,,这是一颗天蓝色的心智结晶吗？,,,,,,,,,
+#爱莉安娜,,,,,,,,,,,,,,,
+Mimikko_ariana_1,Armed House Robot,3404,1,,,“My duty is your daily life and personal security.”,,TRUE,,,"npc_only, deprecated",graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+Mimikko_ariana_2,Android Girl (Mass Production Type),3405,1,,,"Ariana is less responsive to emotions when compared to zero.
+
+“Please do not touch the tail, that is an important sensor.”
+
+Her appearance is identical to a normal girl, as she put it, she was built to the image of a 16 year old girl. She seems to be a domestic and combat type, and is extra conscious of the Captain's safety.
+
+“She seems to be secretly recording various data about the captain and learn various knowledge of human society...” This intel is top secret, do not let the Hegemony find out.
+
+Ariana is always accompanied by an electronic elf named Mint to assist her.",,TRUE,,,"npc_only, deprecated",graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+#Mimikko_officer_ariana,心智结晶-深蓝,,,,,这是一颗深蓝色的心智结晶吗？,,,,,,,,,
+#摩耶,,,,,,,,,,,,,,,
+Mimikko_maya_1,Deity Who Lost Their Power,3406,1,,,"Maya has lost her divine power, when the captain brought her before everyone, almost no one believed that she is a deity. But then Maya doesnt seem to care about what they think. 
+
+“We have done a comprehensive analysis, she is approximately 12 years old, and various physical parameter matches her age. What is weird is that although she looks like a fox, the data shows she's more like a dog. Yeah. ” Report from the medical personal.",,,,TRUE,"npc_only, deprecated",graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+Mimikko_maya_2,Become my Disciple,3411,1,,,"A deity is only real if they have their own faithful. Clearly she is a long way off from a real deity, but with the captain's help, maybe more and more people will believe in the deity? 
+
+According to Maya, the more disciple she has, the stronger her divine power gets.",,,,TRUE,"npc_only, deprecated",graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+#Mimikko_maya_3,平凡之愿(Level1),3411.1,1,,,"Thou connection with me, is my greatest treasure.",Maya,,,TRUE,"npc_only, deprecated",graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+#Mimikko_maya_4,何故侵犯？(Level2),3411.2,1,,,"Thou homeland, shall be mine to protect.",Maya,,,TRUE,"npc_only, deprecated",graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+#Mimikko_maya_5,休养生息(Level3),3411.3,1,,,"Food and Home, shall be the root of life.",Maya,,,TRUE,"npc_only, deprecated",graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+#Mimikko_maya_6,新生彼川(Level4),3411.4,1,,,"This be thou land, my rebirth.",Maya,,,TRUE,"npc_only, deprecated",graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+#琉璃,,,,,,,,,,,,,,,
+Mimikko_rury_1,Heart of Ocean,3407,1,,,"Ruri was born in the deep ocean, and ocean might be the best home for Ruri. 
+
+But it is difficult to find a habitable ocean planet, not to mention the effort required to protect the ocean along with developing the planet afterward.",,,,TRUE,"npc_only, deprecated",graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+Mimikko_rury_2,Descendants of Dragon,3408,1,,,"Ruri is very shy and have magic that cannot be explained by science. Based on observation, Ruri can float in air not very high from the ground, and can control the flow of water. 
+
+Ruri seems to only trust the captain and don't like to talk to other scientists, the following data comes from the captain：
+“Ruri's horn and tail are very smooth when touched, and feels slightly cold. Though ruri feels it is a bit itchy and hope we dont touch her horns and tail.”",,,,TRUE,"npc_only, deprecated",graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+#胡桃,灰色,,,,,,,,,,,,,,
+aptitude_kurumi,,0,,,,,,,,,"npc_only, deprecated",graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+Mimikko_kurumi_1,Last Job of the Phantom Thief,3409,1,,,"“My last job as the phantom thief will be stealing your excellency's heart!"" So she says, and the captain seems to have permitted this. 
+
+After joining the fleet, Kurumi tried all kind of methods to win the Captain's heart. From helping the captain completing various task to follow the captain around to various events in the name of protecting the captain, and so on. ",,TRUE,,,"npc_only, deprecated",graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+Mimikko_kurumi_2,Mysterious Phantom Thief Magician,3410,1,,,"Kurumi joined the fleet as a Phantom Thief Magician, though her appearnce seems professional, her luck with cards seems to be terrible for a magician. 
+
+“It's much more important for magicians to do fancy card tricks rather than getting lucky in card games.” As she would say to defend herself. 
+
+At a glance, Kurumi is just like a normal girl, but upon closer inspection, the pair of ears hidden beneath her costume and the decorated tail, a monkey?",,TRUE,,,"npc_only, deprecated",graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+#死萌,,,,,,,,,,,,,,,
+Mimikko_simeng,I'm Winning!,3411,1,,,"This captain usually wins all her battles with overwhelming advantage,she is almost never at a disadvantage. As a result, she doesnt really know how to use any tactic. 
+
+""Full Assault"" summarizes this captain's tactical planning in two short words.
+
+According to her, she's been through 39 cycles of rebirth, and many other unrecorded, incomplete cycles.",,TRUE,,,"npc_only, deprecated",graphics/icon/characters/skills/Mimikko_simeng.png,,,
+#米露可,银色,,,,,,,,,,,,,,
+aptitude_miruko,,0,,,,,,,,,"npc_only, deprecated",graphics/icon/characters/skills/aptitude_momona.png,,,
+Mimikko_miruko_1,Up Up Down Down Left Right Left Right BABA,3412,1,,,"Miruko loves to play games, with this talent, she easily learned to control a real warship. 
+
+Miruko would often tell others of her glorius past ""I was a big time streamer with hundreds of thousands of followers!""
+
+Though the truth of that is known only to her.",,TRUE,,,"npc_only, deprecated",graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+Mimikko_miruko_2,System Girl (Miruko),3413,1,,,"""Miruko is not a human, but a synthetic human created with technology beyond our understanding. The technology involved far exceed even that of an alpha core, or any other known technology. This is definately beyond our understanding. There is more! They have to eat and rest, or their performance will reduce, and they will even turn off.....no, die, just like human! This is beyond my understanding captain, I need a few days off...""",Record from retired ex-technical advisor. ,TRUE,,,"npc_only, deprecated",graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+#Mimikko_officer_miruko,心智结晶-银,,,,,这是一颗银色的心智结晶吗？,,,,,,,,,
+#米露库,,,,,,,,,,,,,,,
+Mimikko_miruku_1,Elegent Lady and Perfect Aide,3414,1,,,"Miruku always know and perform her duty, she is very strict with herself and have a very regulated lifestyle. She will expect the same from the captain and hope the captain will be able to have a more healthy life style. 
+
+While Miruku is well versed in cultured hobbies such as dancing and tea tasting, she is likes bones and icecreams even more. Though she will try to pretend like she doesnt need those. 
+
+As a elegent lady, Miruku have a high standard for apperance, especially her bangs, which must always be soft and fluffy. ",,TRUE,,,"npc_only, deprecated",graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+Mimikko_miruku_2,System Girl (Miruku),3415,1,,,"""Mikuru's body composition is similar to human, but she is not entirely human. She has the feature of a canine, like ears and tail. Also, my equipment cannot perform a normal scan of Mikuru's body, so we do not know her biological age. Hmm....it is also nothing like gene modification, Captain, our equipment doesnt work on Mikuru at all, so we probably cannot help with any health issue. Oh I forgot to mention, Mikuru seems to really care about her bangs."" ",Head Medical Officer,TRUE,,,"npc_only, deprecated",graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+#Mimikko_officer_miruku,心智结晶-金,,,,,这是一颗金色的心智结晶吗？,,,,,,,,,
+"#诺诺娜,紫色",,,,,,,,,,,,,,,
+aptitude_nonona,,0,,,,,,,,,"npc_only, deprecated",graphics/icon/characters/skills/aptitude_momona.png,,,
+Mimikko_nonona_1,Silvermoon Coating,3416,1,,,"Just like Nonona's self introduction, her mystical alchemy is beyond our scientist's ability to explain. Only Nonona can produce these mysterious potion, and any attempt to replicate Nonona's alchemy have failed, even if we follow identical material usage and mixing time. 
+
+According to Nonona, because of the magical requirement of alchemy, she can only produce enough potion for her own ship, and will require the modification of ship pipings to allow for the replenishment of the potions. ",,TRUE,,,"npc_only, deprecated",graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+Mimikko_nonona_2,Alchemist,3417,1,,,"Nonona is very curious about new things, and often borrow various materials and equipment from the science and medical staff. Whilst everyone tried their best to get close to Nonona in hopes of learning about her alchemy, the result are obvious. 
+
+The scientist never got any useful stats, and the medical staff never figured out how Nonona's potion quickly healed injuries. Normally, such injury would take week or a month to heal, and leave a scar. With Nonona's potion, the injury healed with a speed visible to the naked eye, and left no scar.
+
+""A new important regulation of this ship, do not call Nonona ""Little Rat"", anyone in violation of this regulation will face severe punishment.""","From the captain, second day after Nonona boarded the ship. ",TRUE,,,"npc_only, deprecated",graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+Mimikko_nonona_3,Chaos Potion,3418,1,,,Chaos Potion,,TRUE,,,"npc_only, player_only",graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+#Mimikko_officer_nonona,心智结晶-紫,,,,,这是一颗紫色的心智结晶吗？,,,,,,,,,
+#优莉卡,,,,,,,,,,,,,,,
+Mimikko_yurika_1,Duel of the Fate,3419,1,,,"The Demon Lord is training hard to beat the hero. Through trial and tribulation, there will be a day where the hero is defeated and I rule the world!",,TRUE,,,"npc_only, deprecated",graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+Mimikko_yurika_2,Antagonist Demon Lord,3420,1,,,"Yurika would speak all kinds of chunni lines every day, accompanied by very chunni pose. Though she does have the power to back it up. 
+
+The power of the Demon Lord seems to affect ship under her control. How does this even work? Your researcher doesnt want to know. 
+Whe asked about her relationship with Nonona, Yurika mumbles and did not answer the question.
+
+Hero and Demon Lord training to get stronger, thats weird no matter how you look at it!
+",,TRUE,,,"npc_only, deprecated",graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+#Mimikko_officer_zero,心智结晶-红,,,,,这是一颗红色的心智结晶吗？,,,,,,,,,
+#奈姆利,,,,,,,,,,,,,,,
+Mimikko_nemuri_1,Wordless Thanks,3421,1,,,"Nemuri will remeber those nice to hear and repay everyone's kindess in her own ways. 
+Now she help the captain complete some basic work and help manage the logistic related task of a ship. ",,TRUE,,,"npc_only, deprecated",graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+Mimikko_nemuri_2,The Silent Lamb,3422,1,,,"Nemuri is very quiet, and almost never talk to others. It is also hard to see her emotion through her expressions, and she is bad at expressing herself. She carries a lamb doll named ""Baa"".
+
+Also, Nemuri really likes to be patted, especially by the captain. Though other people can pat her as well, the effect is not as good as the captain. 
+
+Lead by the captain, Nemuri cooperated through most examinations, based on the researcher's report, Nemuri's horn and ear seems to be related to a sheep. ",,TRUE,,,"npc_only, deprecated",graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+#Mimikko_officer_黄,心智结晶-黄,,,,,这是一颗黄色的心智结晶吗？,,,,,,,,,
+#苏娜,紫色,,,,,,,,,,,,,,
+Mimikko_suna_1,Kemono Friend,3423,1,,,"She often explore around the planet and make records. Suna's cabin is basically filled with record books. Rather than use advanced tech like TriPad, she prefer to use the primitive books and pens.
+
+Suna can talk to animals, including dead ones, but no one knows how she accomplishes this. 
+
+Suna's ability allows her to better understand quirks of the planet, and help the dead fulfilling their final wish or uncover their secrets. For Suna, she does enjoy this kind of peaceful life.
+
+Suna will also plant some medicinal herbs, or use those herb to make basic healing medicine, these research are very useful for the development of the planet. ",,,,TRUE,"npc_only, deprecated",graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+Mimikko_suna_2,Necromancer,3424,1,,,"Suna can summon a black blob, this blob seems to be tangible and can help carry stuff like furniture. 
+
+The pink animal known as Fuwa is very weary of other people, even if Suna often tell fuwa to calm down. 
+
+Suna is always surrounded by a swarm of butterflies, these butterflies seems to react to Suna's mental state, when she is anxious, they will glow a blinding light. 
+
+“New Regulation, do not touch the butterflies around Suna, it could cause a dangerous situation. ” Captain's announcement after being scolded by Suna for nearly touching the butterflies. ",,,,TRUE,"npc_only, deprecated",graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+"#羲和,红色",,,,,,,,,,,,,,,
+Mimikko_xihe_1,Dream of Song,3430,1,,,"Becoming a singer is Xihe's dream, even if that dream was almost crashed by pirates. Thankfully, Xihe's dream is saved by the symbol of Persean Sector's justice, you. You also built her a stage so that an entire colony can hear her songs, surly she will become the most famous signer of Persean Sector soon enough!
+
+Though Xihe kept telling you she wont sing just for you, she is very eager to hear what you think of her, after all, Xihe thinks of you as her number one fan. ",,,,TRUE,"npc_only, deprecated",graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+Mimikko_xihe_2,Rebirth,3431,1,,,"Xihe doesnt want to talk about her past, only thing you can be sure is that she immediately recognized Ruri after coming to the colony. It seems they have met and have a touching story between them, but whenever you ask about this story, she will always blush furiously and excuse herself.
+
+""I really underestimated how annoying you are!"" Said Xihe after you asked her how she was able to change her hair color at will. Though as you understand, Ruri can do this as well. 
+
+Though Xihe does say some very mean things to you, you believe this isn't out of true malice. After all, she would still accept certain request or help you accomplish certain tasks after calling you a insect. ",,,,TRUE,"npc_only, deprecated",graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+#卡斯特莉亚,紫色,,,,,,,,,,,,,,
+Mimikko_kasutaria_1,Sneering Thorn,3425,1,,,"""Your thought process are beyond redemption, In the name of [Redacated] I cast divine punishment upon you. The thorn of absolute purity shall purge the mind of sinners, Eternal Purification!""",Kasutaria,TRUE,,,"npc_only, deprecated",graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+Mimikko_kasutaria_2,"Atrayan Legacy
+",3426,1,,,"Though Kasutaria seems very kind and gentle, you can find her playfully tricky, even somewhat S side after getting to know her. She also love to play prank on you.
+
+Her pet is known as Bagel, often following Ria around, though it is playful and often get in trouble, it is hard to tell if Ria make bagel take the blame for her pranks. 
+
+Ria likes to draw and would some time paint down your embarassing moments to show you. ",,TRUE,,,"npc_only, deprecated",graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+#,,,,,,,,,,,,,,,
+#卡斯特莉莉,银色,,,,,,,,,,,,,,
+Mimikko_kasutariri_1,Heaven's Judgement,3427,1,,,"""The consequence of your action are beyond redemption, In the name of [Redacated] I cast divine punishment upon you. Let the sword of absolute justice be stained with the blood fo the irredeemable sinners, Incinerate Evil!""
+",Kasutariri,TRUE,,,"npc_only, deprecated",graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+Mimikko_kasutariri_2,"Atrayan Legacy
+",3430,1,,,"It is very difficult to chat with Kasutariri, but Riri is very gentle. She always deal with everything in a calm and collected manner, and is very focused on efficiency. 
+
+Riri loves milk products, even if they are hard to find in this world. Though she is happy just to talk about this topic from time to time. 
+
+Though Riri wants you to address her as ""Kasuta"", when she speaks in her dream, she wants you to call her ""Riri"".",,TRUE,,,"npc_only, deprecated",graphics/icon/characters/skills/Mimikko_momonalove.png,,,
+#,,,,,,,,,,,,,,,
+#薄荷AI,蓝色,,,,,,,,,,,,,,
+Mimikko_mint_1,mInT Class Targeting System,3429,,,,"Ariana have some understanding of human society, even if human are still somewhat complicated and confusing to her. While Mint is Ariana's assistant unit, the two of them would sometime separate to act on their own in hope of deepning their understanding of human. As a result, Mint have evolved past the programing that require to stay next to Ariana to operate, though it is not as effective as when it is next to Ariana. ",,TRUE,,,"npc_only, ai_core_only, deprecated",graphics/icon/characters/skills/Mimikko_mint_1.png,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+# LEADERSHIP,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+#tactical_drills,Tactical Drills,500,1,0,,"Perfect.
+Now do it again.","Cameron Fourth-Phobos, Coatl Gunnery Range",,TRUE,,,graphics/icons/skills/weapon_drills.png,,,
+#coordinated_maneuvers,Coordinated Maneuvers,520,2,0,,"Sir- incoming hostiles burning hard. Big ones. Count two. No, three. More... there's too many! High energy read. Contact in six.","Audio archive from CIC of HSS Ceraon, recovered 189.09.13",,TRUE,,,graphics/icons/skills/coordinated_maneuvers2.png,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+# TECHNOLOGY,,,,,,,,,,,,,,,
+#navigation,Navigation,1000,1,0,0,Spend enough time out here and it becomes second nature. It's how I move when I dream. Not all of us get that. Lots do.,"Nachiketa Portside Interview Project, Ep.2",,,,,graphics/icons/skills/navigation.png,,,
+#sensors,Sensors,1010,1,0,0,"I see you, little fish!","Comm buffer of ISS Green Flash, recovered in orbit of Beta Zuma B",,,,,graphics/icons/skills/sensors.png,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+# INDUSTRY,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+# Misc non-player,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+"# removed in 0.95.1a, but kept around for save compatibility",,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+#combat_endurance,Combat Endurance,0,1,,,"Through experience and planning, a seasoned officer has the ability to extend the effective warfighting time of ship and crew during the extreme conditions of combat deployment.",Lorem Ipsum,TRUE,,,"npc_only, deprecated",graphics/icons/skills/combat_endurance2.png,,,
+,,,,,,,,,,,,,,,
+#ordnance_expert,Ordnance Expertise,10,2,,,A detailed knowledge of the operational characteristics and maintenance protocols of armaments can be applied to achieve increased combat performance.,Lorem Ipsum,TRUE,,,"npc_only, deprecated",graphics/icons/skills/ordnance_expert.png,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,"
+",,
+#defensive_systems,Defensive Systems,37.5,4,,,Extensive knowledge of the interactions between the ship's power grid and its defensive systems can produce qualitative improvements in operational characteristics.,Lorem Ipsum,TRUE,,,"npc_only, deprecated",graphics/icons/skills/defensive_systems.png,,,
+#advanced_countermeasures,Advanced Countermeasures,39,4,,,Attention to detail and regular maintenance can allow the various defensive systems of a hull to excel in their role.,Lorem Ipsum,TRUE,,,"npc_only, deprecated",graphics/icons/skills/advanced_countermeasures.png,,,
+#evasive_action,Evasive Action,40,5,,,"Even if incoming fire cannot be completely avoided, the pilot often has a choice in just where the damage is taken, which can result in reduced damage impact.",Lorem Ipsum,TRUE,,,"npc_only, deprecated",graphics/icons/skills/evasive_maneuvering.png,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+#command_and_control,Command & Control,90,1,,,Hard-won experience - as well as poring over tactical manuals and battle reports - allow the commander to formulate and carry out more advanced battle plans.,Lorem Ipsum,,,,"npc_only, deprecated",graphics/icons/skills/advanced_tactics.png,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+#fighter_doctrine,Fighter Doctrine,130,3,,,"Carriers and fighter wings have a very different set of requirements from regular ships, and an experienced fleet commander can make a critical difference by providing proper support.",Lorem Ipsum,,,,"carrier, npc_only, deprecated",graphics/icons/skills/fighter_doctrine.png,,,
+#carrier_command,Carrier Command,135,3,,,"Fighter wings and their crews have very specialized requirements, and an experienced captain can make a critical difference by providing proper support.",Lorem Ipsum,TRUE,,,"carrier, npc_only, deprecated",graphics/icons/skills/carrier_command.png,,,
+#wing_commander,Wing Commander,140,4,,,"Rigorous training drills, select personnel, and camaraderie forged through hardship can turn a rag-tag bunch of fighter pilots into an efficient, elite-level force.",Lorem Ipsum,TRUE,,,"carrier, npc_only, deprecated",graphics/icons/skills/wing_commander.png,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+#flux_modulation,Power Grid Modulation,155,1,,,Preventive maintenance and some inspired on-the-fly adjustments can greatly increase the capacity of the ship's power grid.,Lorem Ipsum,TRUE,,,"npc_only, deprecated",graphics/icons/skills/power_grid_manipulation.png,,,
+,,,,,,,,,,,,,,,
+#ship_design,Loadout Design,170,2,,,"The baseline specifications for ship loadouts are notoriously conservative, and an experienced engineer can push them well above their stated limits.",Lorem Ipsum,,,,"npc_only, deprecated",graphics/icons/skills/loadout_design.png,,,
+,,,,,,,,,,,,,,,
+#fleet_logistics,Fleet Logistics,1560,4,,,"Making sure supplies and other materiel get where they need to be is not a glorious task. It is, however, critical - both in dealing with emergencies and ensuring smooth day-to-day operations.",Lorem Ipsum,,,,"npc_only, deprecated",graphics/icons/skills/fleet_logistics.png,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+#recovery_operations,Recovery Operations,260,1,,,"Extracting working equipment or even useful replacement parts out of wreckage requires broad technical knowledge, prudence, and a willingness to take calculated risks.",Lorem Ipsum,,,,"npc_only, deprecated",graphics/icons/skills/recovery_ops.png,,,
+#safety_procedures,Safety Procedures,1540,3,,,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",Lorem Ipsum,,,,"npc_only, deprecated",graphics/icons/skills/safety_procedures.png,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,

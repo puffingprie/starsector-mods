@@ -1,0 +1,33 @@
+{
+  "hullName": "",
+  "hullId": "vice_terminator_drone_forge",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/fx/empty.png",
+  "style": "HIGH_TECH",
+  "height": 1,
+  "width": 1,
+  "center": [0, 0],
+  "collisionRadius": 1,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 1,
+  "viewOffset": 0,
+  "builtInWings": ["terminator_wing"],
+  "builtInMods": ["vice_drone_autoforge", "never_detaches", "vastbulk"],
+  "weaponSlots": [
+      {
+      "id": "LB 1",
+      "size": "MEDIUM",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 00,
+      "locations": [0,0]
+    },
+  ],
+  "bounds": [
+    1, 1,
+    1, -1,
+    -1, 1,
+    -1, -1,
+  ]
+}

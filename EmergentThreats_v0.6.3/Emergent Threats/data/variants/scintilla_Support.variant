@@ -1,0 +1,35 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 9,
+    "goalVariant": true,
+    "hullId": "scintilla",
+    "hullMods": ["vice_adaptive_emitter_diodes"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "scintilla_Support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "annihilatorpod",
+                "WS 007": "vice_ionstreamer",
+                "WS 008": "vice_ionstreamer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "taclaser",
+                "WS 001": "taclaser"
+            }
+        }
+    ],
+    "wings": [
+        "vice_sundog_wing",
+        "vice_sundog_wing",
+        ""
+    ]
+}

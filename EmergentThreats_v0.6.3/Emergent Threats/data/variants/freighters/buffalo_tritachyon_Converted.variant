@@ -1,0 +1,19 @@
+{
+    "displayName": "Converted",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "hullId": "buffalo_tritachyon",
+    "hullMods": [
+        "militarized_subsystems",
+        "vice_ground_attack_conversion",
+        "pointdefenseai"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "buffalo_tritachyon_Converted",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {"WS 001": "pdlaser"}
+    }]
+}

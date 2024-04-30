@@ -1,0 +1,56 @@
+{
+  "hullName": "Mook Wing",
+  "hullId": "acs_mook",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/acs_mook2.png",
+  "style": "LOW_TECH",
+  "height": 46,
+  "width": 60,
+  "center": [34, 17],
+  "collisionRadius": 38.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 29.5,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0001": "acs_minilag",
+    "WS0003": "acs_backupmg"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 27,
+      "angle": 0,
+      "locations": [9, -4],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [3, -4],
+      "renderOrderMod": 3
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-12.5, -4],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    6.5, -11,
+    -8.5, -11.5,
+    -8.5, 11,
+    6.5, 11
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "hullName": "Exploraria",
+  "hullId": "acs_exploraria",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/acs_wanderer.png",
+  "style": "LOW_TECH",
+  "height": 225,
+  "width": 175,
+  "center": [87.5, 112.5],
+  "collisionRadius": 148,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 112,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-23.5, 37]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 285,
+      "angle": 0,
+      "locations": [37.5, 1]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 309,
+      "angle": -0.5,
+      "locations": [64, 1]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 290,
+      "angle": 179.5,
+      "locations": [-46, 0.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 7,
+      "angle": 90.5,
+      "locations": [20, 51]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-102, 0.5],
+      "length": 72.418701,
+      "width": 19.264662,
+      "angle": -179.5,
+      "contrailSize": 19.264662,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-105, 17.5],
+      "length": 40.734802,
+      "width": 16.873156,
+      "angle": 178.5,
+      "contrailSize": 16.873156,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-105, -17.5],
+      "length": 40.734802,
+      "width": 16.873156,
+      "angle": -178.5,
+      "contrailSize": 16.873156,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-103, 31],
+      "length": 18.133442,
+      "width": 7.328922,
+      "angle": 177,
+      "contrailSize": 7.328922,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-103, -31],
+      "length": 18.133442,
+      "width": 7.328922,
+      "angle": -177,
+      "contrailSize": 7.328922,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -74, -49.5,
+    -96.5, -33,
+    -96.5, 33,
+    -74, 49.5,
+    77, 47.5,
+    100, 25,
+    92.5, 15.5,
+    92.5, -15.5,
+    100, -25,
+    77, -47.5
+  ]
+}

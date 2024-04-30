@@ -1,0 +1,30 @@
+{
+    "displayName": "Converted",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "hullId": "vice_banteng_tt",
+    "hullMods": [
+        "militarized_subsystems",
+        "vice_ground_attack_conversion"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_banteng_tt_converted",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "heavyburst"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "pdburst",
+                "WS 003": "pdburst",
+                "WS 004": "pdburst",
+                "WS 005": "pdburst"
+            }
+        }
+    ]
+}

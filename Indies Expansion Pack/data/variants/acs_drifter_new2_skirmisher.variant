@@ -1,0 +1,37 @@
+{
+  "variantId": "acs_drifter_new2_skirmisher",
+  "hullId": "acs_drifter_new2",
+  "displayName": "Skirmisher",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "acs_medium_hag",
+        "WS0002": "hephag",
+        "WS0003": "flak",
+        "WS0004": "acs_velites_single",
+        "WS0005": "acs_velites_single",
+        "WS0006": "acs_velites_single",
+        "WS0007": "acs_small_flakhag",
+        "WS0008": "acs_small_flakhag",
+        "WS0009": "acs_toyhammer_small2",
+        "WS0010": "acs_velites_pod"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "acs_watchman_Fighter_wing",
+    "acs_watchman_Fighter_wing"
+  ]
+}

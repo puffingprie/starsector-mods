@@ -1,0 +1,33 @@
+{
+  "variantId": "mimikko_yurika_onslaught_variant",
+  "hullId": "mimikko_yurika_onslaught",
+  "displayName": "Incomplete",
+  "goalVariant": false,
+  "fluxCapacitors": 50,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "flak",
+        "WS 003": "flak",
+        "WS 007": "flak",
+        "WS 016": "mimikko_tpc_left",
+        "WS 017": "mimikko_tpc_right",
+        "WS 018": "devastator",
+        "WS 019": "devastator",
+        "WS 020": "devastator",
+        "WS 021": "resonatormrm",
+        "WS 023": "resonatormrm"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

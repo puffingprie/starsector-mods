@@ -1,0 +1,33 @@
+{
+	"id":"mm_magneticrifle_shot",
+	"specClass":"projectile",
+	"bulletSprite":"graphics/mm/missiles/mm_magnetic_bullet.png",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":35.0,
+	"hitGlowRadius":50,
+	"width":8.0,
+	"fadeTime":0.4,
+	"fringeColor":[255,15,75,185],
+	"coreColor":[205,125,85,205],
+	"glowColor":[255,15,75,225],
+	"glowRadius":0,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":8.0,
+	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+					"range":8,
+					"explosionSpec":{"duration":0.1f,
+									 "radius":90,
+									 "coreRadius":40, # full damage within core radius - also equal to proximity fuse range
+									 "collisionClass":PROJECTILE_FF,
+									 "collisionClassByFighter":PROJECTILE_FIGHTER,
+									 "particleSizeMin":0.1,
+									 "particleSizeRange":1.0,
+									 "particleDuration":0.2,
+									 "particleCount":10,
+									 "particleColor":[255,45,85,205],
+									 "sound":"explosion_flak"},
+					}
+
+}

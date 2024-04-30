@@ -1,0 +1,28 @@
+{
+	"id":"pn_burstmauler",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"MEDIUM",
+	"turretSprite":"graphics/pn/weapons/pn_burstmauler_turret.png",
+	"turretGunSprite":"graphics/pn/weapons/pn_burstmauler_turret_recoil.png",
+	"hardpointSprite":"graphics/pn/weapons/pn_burstmauler_hardpoint.png",
+	"hardpointGunSprite":"graphics/pn/weapons/pn_burstmauler_turret_recoil.png",	
+	"visualRecoil":3.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets":[16, 4, 16, -4],
+	"turretAngleOffsets":[0, 0],
+	"hardpointOffsets":[26, 4, 26, -4],
+	"hardpointAngleOffsets":[0, 0],	
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":40.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":5.0,
+					   "particleSizeMin":12.0,
+					   "particleSizeRange":14.0,
+					   "particleDuration":0.5,
+					   "particleCount":12,
+					   "particleColor":[155,75,165,200]},	
+	"projectileSpecId":"pn_burstmauler_shot",  # projectile that will be fired
+	"fireSoundOne":"pn_burstmauler_chargeup",	
+	"fireSoundTwo":"pn_burstmauler_fire",	
+}

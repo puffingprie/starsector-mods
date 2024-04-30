@@ -1,0 +1,19 @@
+{
+    "id":"EmergentThreats_IX_Revival",
+    "name":"Emergent Threats: IX Revival",
+    "author":"vicegrip (original by Inventor Raccoon)",
+    "version":"0.6.3",
+    "description":"Standalone mod that adds the 9th Domain Battlegroup high-tech hostile faction from the old Arsenal Expansion mod. Can be enabled by itself or with Emergent Threats.",
+    "gameVersion":"0.97a-RC11",
+	"dependencies": [
+		{
+            "id": "MagicLib",
+            "name": "MagicLib",
+		},
+		{
+            "id": "lunalib",
+            "name": "LunaLib",
+		},
+    ],
+	"modPlugin":"data.scripts.ix.IXModPlugin"
+}

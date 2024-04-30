@@ -1,0 +1,41 @@
+{
+  "hullName": "P9 Sensor Drone",
+  "hullId": "pn_drone_sensor",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/pn/ships/Drones/pn_drone_com.png",
+  "style": "HIGH_TECH",
+  "height": 13,
+  "width": 20,
+  "center": [10, 6],
+  "collisionRadius": 15,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 15,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": 0,
+      "locations": [3, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-4, -0],
+      "length": 11.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    }
+  ],
+  "bounds": [
+    4, -7,
+    4, 8,
+    -4, 0
+  ]
+}

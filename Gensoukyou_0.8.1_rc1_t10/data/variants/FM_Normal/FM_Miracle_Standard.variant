@@ -1,0 +1,37 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 30,
+    "fluxVents": 24,
+    "goalVariant": true,
+    "hullId": "FM_Miracle",
+    "hullMods": [
+        "targetingunit",
+        "FantasyBulletMod"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Miracle_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "tachyonlance"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FM_Persuasion",
+                "WS0002": "FM_Persuasion"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "FM_Persuasion",
+                "WS0004": "FM_Persuasion"
+            }
+        }
+    ]
+}

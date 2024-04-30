@@ -1,0 +1,190 @@
+{
+  "bounds": [
+    -44,
+    14.5,
+    -24.5,
+    40.5,
+    14,
+    43,
+    33.5,
+    27.5,
+    41.5,
+    12.5,
+    41.5,
+    -12.5,
+    33.5,
+    -27.5,
+    14,
+    -43,
+    -24.5,
+    -40.5,
+    -44,
+    -14.5
+  ],
+  "builtInMods": [
+    "pn_pdaugmenter",
+    "pn_cores"
+  ],
+  "builtInWeapons": {
+    "WS0005": "pn_vulcan",
+    "WS0006": "pn_vulcan",
+    "WS0007": "pn_vulcan",
+    "WS0008": "pn_vulcan",
+    "WS0009": "pn_vulcan",
+    "WS0010": "pn_vulcan"
+  },
+  "center": [
+    46,
+    44
+  ],
+  "collisionRadius": 72.201111,
+  "engineSlots": [
+    {
+      "angle": 123.178513,
+      "contrailSize": 6.315813,
+      "length": 15.207815,
+      "location": [
+        -25.5,
+        39.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 6.315813
+    },
+    {
+      "angle": -123.178513,
+      "contrailSize": 6.315813,
+      "length": 15.207815,
+      "location": [
+        -25.5,
+        -39.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 6.315813
+    },
+    {
+      "angle": -123.178513,
+      "contrailSize": 6.315813,
+      "length": 15.207815,
+      "location": [
+        5,
+        -44
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 6.315813
+    },
+    {
+      "angle": 123.178513,
+      "contrailSize": 6.315813,
+      "length": 15.207815,
+      "location": [
+        5,
+        44
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 6.315813
+    }
+  ],
+  "height": 98,
+  "hullId": "pn_snz-gp",
+  "hullName": "SNZ-PD platform",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 67.26812,
+  "spriteName": "graphics/pn/ships/pn_snz-gp.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 30,
+      "id": "WS0001",
+      "locations": [
+        34.5,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 45,
+      "arc": 260,
+      "id": "WS0005",
+      "locations": [
+        19.5,
+        19
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -45,
+      "arc": 260,
+      "id": "WS0006",
+      "locations": [
+        19.5,
+        -19
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 90,
+      "arc": 220,
+      "id": "WS0007",
+      "locations": [
+        -1,
+        22
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -90,
+      "arc": 220,
+      "id": "WS0008",
+      "locations": [
+        -1,
+        -22
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 180,
+      "arc": 260,
+      "id": "WS0009",
+      "locations": [
+        -25,
+        13
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -180,
+      "arc": 260,
+      "id": "WS0010",
+      "locations": [
+        -25,
+        -13
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 92
+}

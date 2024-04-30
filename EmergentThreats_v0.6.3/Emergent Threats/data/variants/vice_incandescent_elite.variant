@@ -1,0 +1,63 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 1,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "vice_incandescent",
+    "hullMods": [
+        "fluxdistributor",
+        "hardenedshieldemitter",
+        "targetingunit",
+        "stabilizedshieldemitter",
+        "vice_adaptive_temporal_shell",
+        "vice_module_handler"
+    ],
+    "permaMods": ["vice_module_handler"],
+    "sMods": [],
+    "variantId": "vice_incandescent_elite",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS05": "breachpod",
+                "WS06": "breachpod",
+                "WS07": "breachpod",
+                "WS08": "breachpod",
+                "WS20": "vice_hmc",
+                "WS21": "vice_hmc"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS18": "locust",
+                "WS19": "locust"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS17": "tachyonlance"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS01": "heavyburst",
+                "WS02": "heavyburst",
+                "WS03": "heavyburst",
+                "WS04": "heavyburst",
+                "WS09": "heavyburst",
+                "WS10": "pdlaser",
+                "WS11": "pdlaser",
+                "WS12": "pdlaser",
+                "WS13": "pdlaser",
+                "WS14": "pdlaser",
+                "WS15": "pdlaser",
+                "WS16": "pdlaser"
+            }
+        }
+    ]
+}

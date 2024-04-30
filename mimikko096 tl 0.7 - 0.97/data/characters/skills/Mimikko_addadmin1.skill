@@ -1,0 +1,15 @@
+{
+	"id":"Mimikko_addadmin1",
+	"governingAptitude":"combat",
+	"compressHullmods":false,
+	"scope":CUSTOM,
+	"scopeStr":"PLAYER",
+	"effectGroups":[
+		{
+			"requiredSkillLevel":1,
+			"effects":[
+				{"type":"CHARACTER_STATS", "script":"data.scripts.skill.Mimikko_addadmin1$Level1"},
+			]
+		},
+	],
+}

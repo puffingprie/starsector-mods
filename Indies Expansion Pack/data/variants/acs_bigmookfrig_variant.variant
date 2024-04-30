@@ -1,0 +1,23 @@
+{
+  "variantId": "acs_bigmookfrig_variant",
+  "hullId": "acs_bigmookfrig",
+  "displayName": "Big Mook Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "acs_medium_hag",
+        "WS0002": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

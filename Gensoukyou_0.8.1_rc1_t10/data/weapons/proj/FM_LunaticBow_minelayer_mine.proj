@@ -1,0 +1,60 @@
+{
+	"id":"FM_LunaticBow_minelayer_mine",
+	"specClass":"missile",
+	"missileType":"PHASE_MINE",
+	"sprite":"",
+	"glowSprite":"",
+	#"sprite":"graphics/missiles/heavy_mine3.png",
+	#"glowSprite":"graphics/missiles/heavy_mine3_glow.png",
+	#"glowColor":[175,100,255,255], # also used for the NegativeExplosionVisual effect color
+	"glowColor":[100,60,255,255], # also used for the NegativeExplosionVisual effect color
+	#"glowColor":[255,100,100,255], # also used for the NegativeExplosionVisual effect color
+	"size":[48,48],
+	"center":[24,24],
+	"collisionRadius":20,
+	"collisionClass":"NONE",
+	"collisionClassAfterFlameout":"NONE",
+	"flameoutTime":0.1, # total time from flameout to full fadeout
+	"fadeTime":0.1, # fadeout duration
+	"noEngineGlowTime":0.05, # time spent without the engine glow being rendered
+	"explosionColor":[175,100,255,255],  # unused
+	"explosionRadius":0, # purely visual
+	"renderTargetIndicator":false, # no target diamond in combat view, not targeted by flares
+	"engineSpec":{"turnAcc":500,
+				  "turnRate":150,
+				  "acc":500,
+				  "dec":500},
+
+					"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+									"slowToMaxSpeed":true,
+									"range":0,
+									"onExplosionEffect":"data.weapons.onExplosion.FM_LunaticBow_mine_onExplosion",
+									"pingColor":[100,60,255,255],
+									"mineHasNoSprite":true,
+									"flashRateMult":0.25,
+									"pingRadius":100,
+									"pingDuration":0.25,
+									"delay":0.3,
+									
+									"windupDelay":0.3,
+									"explosionSpec":{"duration":0.2f,
+													 "radius":100,
+													 "coreRadius":50, # full damage within core radius
+													 "collisionClass":PROJECTILE_NO_FF,
+													 "collisionClassByFighter":PROJECTILE_NO_FF,
+													 "particleSizeMin":3.0,
+													 "particleSizeRange":5.0,
+													 "particleDuration":1,
+													 "particleCount":50,
+													 "particleColor":[255,38,38,175],
+													 "explosionColor":[255,38,38,255],
+													 "useDetailedExplosion":true,
+													 "useDetailedExplosionColorAlpha":true,
+													 "detailedExplosionRadius":100,
+													 "detailedExplosionFlashRadius":150,
+													 "detailedExplosionFlashDuration":0.5,
+													 "detailedExplosionFlashColorFringe":[255,38,38,255],
+													 "detailedExplosionFlashColorCore":[213,230,255,255],
+													 "sound":"FM_Opposition_expand"},
+									}
+}

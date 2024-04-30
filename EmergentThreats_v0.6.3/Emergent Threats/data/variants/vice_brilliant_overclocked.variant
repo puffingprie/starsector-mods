@@ -1,0 +1,39 @@
+{
+    "displayName": "Overclocked",
+    "fluxCapacitors": 0,
+    "fluxVents": 16,
+    "goalVariant": true,
+    "hullId": "brilliant",
+    "hullMods": [
+        "safetyoverrides",
+        "vice_adaptive_thruster_control"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_brilliant_overclocked",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "plasma",
+                "WS 005": "ionpulser",
+                "WS 006": "ionpulser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "sabotpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "heavyburst",
+                "WS 002": "pdlaser",
+                "WS 003": "pdlaser"
+            }
+        }
+    ]
+}

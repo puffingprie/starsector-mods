@@ -1,0 +1,66 @@
+{
+  "variantId": "mi_drengur_standard",
+  "hullId": "mi_drengur",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 43,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "actel",
+        "WS 003": "actel",
+        "WS 013": "miningblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 005": "sabotpod",
+        "WS 014": "sabotpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "heavymortar",
+        "WS 006": "heavymortar",
+        "WS 009": "heavy_chaingun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 007": "crackler",
+        "WS 008": "crackler",
+        "WS 010": "lrpdlaser",
+        "WS 012": "lrpdlaser",
+        "WS 015": "lrpdlaser",
+        "WS 017": "light_maser_beam",
+        "WS 018": "light_maser_beam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "devastator"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "negl_wing",
+    "negl_wing"
+  ]
+}

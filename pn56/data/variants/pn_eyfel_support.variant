@@ -1,0 +1,48 @@
+{
+  "variantId": "pn_eyfel_support",
+  "hullId": "pn_eyfel",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 50,
+  "fluxVents": 4,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "auxiliarythrusters"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "pn_t3cannon",
+        "WS0004": "pn_t3cannon",
+        "WS0008": "pn_t3cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "pn_double-vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "pn_vulcan",
+        "WS0003": "pn_vulcan",
+        "WS0005": "pn_vulcan",
+        "WS0006": "pn_vulcan",
+        "WS0009": "pn_vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "pn_stress_wing",
+    "pn_stress_wing"
+  ]
+}

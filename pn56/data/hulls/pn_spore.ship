@@ -1,0 +1,97 @@
+{
+  "bounds": [
+    -16.5,
+    2.5,
+    -4.5,
+    11.5,
+    13,
+    11.5,
+    7.5,
+    5,
+    7.5,
+    -5,
+    13,
+    -11.5,
+    -4.5,
+    -11.5,
+    -16.5,
+    -2.5
+  ],
+  "builtInMods": [
+    "pn_cores"
+  ],
+  "builtInWeapons": {
+    "WS0002": "pn_vulcan",
+    "WS0003": "pn_vulcan"
+  },
+  "center": [
+    14.5,
+    19.5
+  ],
+  "collisionRadius": 20.112185,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 2,
+      "length": 48.5,
+      "location": [
+        -15.5,
+        -0
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 2
+    }
+  ],
+  "height": 33,
+  "hullId": "pn_spore",
+  "hullName": "Spore",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 19.137659,
+  "spriteName": "graphics/pn/ships/pn_spore.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": -0,
+      "arc": 90,
+      "id": "WS0001",
+      "locations": [
+        -4.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        13.5,
+        10.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        13.5,
+        -10.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 29
+}

@@ -1,0 +1,2 @@
+id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order
+pn_nexus,P9 Nexus,9999,9999,,13,,ms_massIndustry,"heavyindustry, uses_blueprints, industry, industrial, unraidable, medical",,graphics/icons/markets/trade_center.png,data.campaign.econ.industries.pn_nexus,"An industrial and logistical hub for the whole faction, the centralized nature of the trade in Tolp means that most common trade items are plentiful here. This massive construct features automated farms and thus produce a net surplus of food.",160

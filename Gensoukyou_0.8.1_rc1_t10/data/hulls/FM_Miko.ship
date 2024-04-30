@@ -1,0 +1,314 @@
+{
+  "hullName": "FM_Miko",
+  "hullId": "FM_Miko",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/FM_Miko/FM_Miko.png",
+  "style": "FM",
+  "height": 214,
+  "width": 170,
+  "center": [85, 107],
+  "collisionRadius": 130.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 124.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FantasyBasicMod",
+    "FantasySpellMod",
+    "FantasyAmuletMod"
+  ],
+  "builtInWeapons": {
+    "WS0001": "FM_Amulet_B",
+    "WS0002": "FM_Amulet_B",
+    "WS0006": "FM_Amulet_B",
+    "WS0007": "FM_Amulet_B",
+    "WS0008": "FM_Amulet_B",
+    "WS0009": "FM_Amulet_B",
+    "WS0010": "FM_Amulet_B",
+    "WS0011": "FM_Amulet_B",
+    "WS0012": "FM_MikoBuiltIn"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 45,
+      "locations": [-15, 23]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -45,
+      "locations": [-15, -23]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-44, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-8, 41.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-8, -41.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 79,
+      "locations": [-4.5, 40.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -79,
+      "locations": [-4.5, -40.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 56.5,
+      "locations": [-1.5, 39]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -56.5,
+      "locations": [-1.5, -39]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 22.5,
+      "locations": [1.5, 37]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -22.5,
+      "locations": [1.5, -37]
+    },
+    {
+      "id": "WS0012",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [32.5, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -37, 14,
+        -37, -14,
+        -45, 7.5,
+        -45, -8
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-69, -0],
+      "length": 56,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "FM_ome"
+    },
+    {
+      "location": [-71, -20],
+      "length": 21,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-71, 20],
+      "length": 21,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-69.5, -22.5],
+      "length": 11,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-69.5, 22.5],
+      "length": 11,
+      "width": 2,
+      "angle": -180,
+      "contrailSize": 2,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-62, 27],
+      "length": 8.5,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-62, -27],
+      "length": 8.5,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-59.5, 29],
+      "length": 8,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-59.5, -29],
+      "length": 8,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-63.5, 25],
+      "length": 10.5,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-63.5, -25],
+      "length": 10.5,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-57, 33],
+      "length": 5,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-57, -33],
+      "length": 5,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-55, 31],
+      "length": 7,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-55, -31],
+      "length": 7,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-73, 17.5],
+      "length": 27,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-73, -17.5],
+      "length": 27,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    50, -7.5,
+    103.5, -8,
+    15, -35,
+    -3.5, -54,
+    -23.5, -47,
+    -37, -65.5,
+    -52, -52,
+    -55.5, -32.5,
+    -67.5, -22.5,
+    -78, -2,
+    -78, 2,
+    -67.5, 22.5,
+    -55.5, 32.5,
+    -52, 52,
+    -37, 65.5,
+    -23.5, 47,
+    -3.5, 54,
+    15, 35,
+    103.5, 8,
+    50, 7.5
+  ]
+}

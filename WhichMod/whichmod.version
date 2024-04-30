@@ -1,0 +1,11 @@
+{
+    "masterVersionFile":"https://raw.githubusercontent.com/theDragn/whichmod/master/whichmod.version",
+    "modName":"WhichMod",
+    "modThreadId":22367,
+    "modVersion":
+    {
+        "major":1,
+        "minor":2,
+        "patch":"2a"
+    },
+}

@@ -1,0 +1,221 @@
+{
+  "bounds": [
+    -171,
+    10.5,
+    -184.5,
+    36.5,
+    -181.5,
+    60,
+    -12,
+    66.5,
+    61.5,
+    98.5,
+    190.5,
+    66.5,
+    142.5,
+    12,
+    26.5,
+    8,
+    26.5,
+    -8,
+    142.5,
+    -12,
+    190.5,
+    -66.5,
+    61.5,
+    -98.5,
+    -12,
+    -66.5,
+    -181.5,
+    -60,
+    -184.5,
+    -36.5,
+    -171,
+    -10.5
+  ],
+  "builtInMods": [
+    "pn_cores",
+    "pn_phasefield"
+  ],
+  "builtInWeapons": {
+    "WS0004": "pn_korloglow"
+  },
+  "center": [
+    88,
+    182
+  ],
+  "collisionRadius": 211.618164,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 14,
+      "length": 41,
+      "location": [
+        -175.5,
+        54
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 14
+    },
+    {
+      "angle": -180,
+      "contrailSize": 14,
+      "length": 41,
+      "location": [
+        -175.5,
+        -54
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 14
+    },
+    {
+      "angle": -180,
+      "contrailSize": 18,
+      "length": 67.5,
+      "location": [
+        -169.5,
+        -0
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 18
+    },
+    {
+      "angle": 180,
+      "contrailSize": 11,
+      "length": 44.5,
+      "location": [
+        -181,
+        41
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 11
+    },
+    {
+      "angle": -180,
+      "contrailSize": 11,
+      "length": 44.5,
+      "location": [
+        -181,
+        -41
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 11
+    },
+    {
+      "angle": -174.369324,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        32.5,
+        -79.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 10
+    },
+    {
+      "angle": 174.369324,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        32.5,
+        79.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 10
+    }
+  ],
+  "height": 364,
+  "hullId": "pn_korlo-skt",
+  "hullName": "Korlo-SKT",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 207.610809,
+  "spriteName": "graphics/pn/ships/pn_korlo-skt.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 130,
+      "id": "WS0001",
+      "locations": [
+        -44,
+        34
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 130,
+      "id": "WS0002",
+      "locations": [
+        -44,
+        -34
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 180,
+      "id": "WS0003",
+      "locations": [
+        -133,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        -1.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 220,
+      "id": "WS0005",
+      "locations": [
+        164.5,
+        -60.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 220,
+      "id": "WS0006",
+      "locations": [
+        164.5,
+        60.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    }
+  ],
+  "width": 176
+}

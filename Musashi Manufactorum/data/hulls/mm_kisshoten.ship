@@ -1,0 +1,133 @@
+{
+  "hullName": "Kisshoten",
+  "hullId": "mm_kisshoten",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/mm/ships/mm_kisshoten.png",
+  "style": "HIGH_TECH",
+  "height": 306,
+  "width": 70,
+  "center": [35, 154.5],
+  "collisionRadius": 151,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 158,
+  "viewOffset": 0,
+  "builtInMods": [
+    "mmstandardtargetingcore",
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 300,
+      "angle": 0,
+      "locations": [80, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 300,
+      "angle": -0,
+      "locations": [-17, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 300,
+      "angle": 179.5,
+      "locations": [-88.5, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 91.5,
+      "locations": [11.5, 13.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -91.5,
+      "locations": [11.5, -13.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 300,
+      "angle": -180,
+      "locations": [-131, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-128.5, 18.5],
+      "length": 16.008184,
+      "width": 7.138082,
+      "angle": 155,
+      "contrailSize": 7.138082,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-128.5, -18.5],
+      "length": 16.008184,
+      "width": 7.138082,
+      "angle": -155,
+      "contrailSize": 7.138082,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-130.5, 14],
+      "length": 67.5,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-130.5, -14],
+      "length": 67.5,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [32.5, 28],
+      "length": 16.705851,
+      "width": 6.376372,
+      "angle": 166.5,
+      "contrailSize": 6.376372,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [32.5, -28],
+      "length": 16.705851,
+      "width": 6.376372,
+      "angle": -166.5,
+      "contrailSize": 6.376372,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    53, -26.5,
+    -131, -26,
+    -144.5, -5.5,
+    -144.5, 6.5,
+    -131, 27,
+    53, 27.5,
+    144, 5,
+    144, -4
+  ]
+}

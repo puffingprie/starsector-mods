@@ -1,0 +1,117 @@
+{
+  "hullName": "Barrow",
+  "hullId": "kayse_wight",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/kayse/ships/wight/wight.png",
+  "style": "HIGH_TECH",
+  "height": 152,
+  "width": 134,
+  "center": [67, 81],
+  "collisionRadius": 120,
+  "shieldCenter": [1, 0],
+  "shieldRadius": 107,
+  "viewOffset": 0,
+  "builtInMods": [
+    "phasefield",
+    "delicate",
+    "shielded_holds"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 0,
+      "locations": [41, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 28,
+      "angle": 90,
+      "locations": [33.5, 53]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 28,
+      "angle": -90,
+      "locations": [33.5, -53]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-77, 36],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 32,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-79, 28],
+      "length": 44,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 44,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-80, 20],
+      "length": 46,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 46,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-77, -36],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 32,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-80, -28],
+      "length": 44,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 44,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-80, -20],
+      "length": 46,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 46,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    61, 40,
+    61, -39,
+    23, -57,
+    -5, -46,
+    -13, -51,
+    -40, -51,
+    -49, -42,
+    -74, -41,
+    -76, -17,
+    -64, 0,
+    -76, 18,
+    -74, 41,
+    -49, 42,
+    -40, 51,
+    -13, 51,
+    -5, 46,
+    21, 56
+  ]
+}

@@ -1,0 +1,111 @@
+name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
+#ENERGY_SMALL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Icicle Fall,FM_IcicleFall,1,,300,600,,60,50,0,50,6,,,,ENERGY,66,,0.4,0,1,0.1,3,12,1,2,,600,,,,,,,"energy9, FM_com , FM_weapon",,Gensoukyou Project,,General,,,,,"Split into %s Projectiles when its about to reach max range, Each projectile deals %s damages and can travel for an additional %s units.",6 | 30 Energy | 250,,,,1011
+Spark PD,FM_Spark_pd,0,,600,700,180,,,0,100,5,8,1,4,ENERGY,,110,0,0,0.3,0.1,,,,,100000,,,,,,,"PD,ANTI_FTR","pd8, beam9, FM_com, FM_weapon",,Gensoukyou Project,,Point Defense,,,,,,,,,,1003
+Mini Illusion Laser,FM_IllusionLaser_S,0,,200,800,120,,,0,30,5,,,,HIGH_EXPLOSIVE,,90,0.1,0.1,,,,,,,10000,,,,,,,,"he8, beam9, LR, FM_com, FM_weapon",,Gensoukyou Project,,General,,,,,,,,,,1006
+Capture Web,FM_CaptureWeb,1,,500,500,,500,,0,30,9,60,,,ENERGY,600,,0.2,13.5,4,0.1,0,9,2.25,1,,1000,,,,,,"STRIKE, USE_VS_FRIGATES","energy9, SR, FM_com , FM_weapon",,Gensoukyou Project,,Strike,,,,,%s chance on Impact with hull to reduce the target %s from %s by %s for %s (Non-Stackable).,25% | Maximum damage reduction | Armor | 25% | 3s,,,,1011
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#ENERGY_MEDIUM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sealing Needle,FM_Persuasion,1,,2500,700,,40,0,1,15,12,,,,ENERGY,40,,1,4,45,0.033,0,5,0.5,5,,1200,,,10,,,,"energy14, rare_bp, FM_weapon",,Gensoukyou Project,,Anti Shield,,,,,Every third shot on target fires an additional projectile after a short delay. The bonus shot deals %s.,30 Energy,,,,1001
+Void Blade,FM_Blade_ac,1,,2250,600,,600,0,40,10,12,,,,ENERGY,720,,1,4,3,0.15,0,6,1.2,3,,630,,,300,,,,"energy14, rare_bp, FM_weapon",,Gensoukyou Project,,Strike,,,,,"After travelling some distance, it will spread into danmaku with %s low damage projectiles, but total damage stay %s.", 15 | the same,,,,1004
+Void Blade (Fighter),FM_Blade_ac_fighter,1,,2250,400,,600,0,40,10,12,,,,ENERGY,60,,1,7,1,0.15,0,6,1.2,3,,630,,,300,,,"SYSTEM, SHOW_IN_CODEX","no_sell, no_drop",,Gensoukyou Project,,Support,,,,,,,,,,1004
+Hailstorm,FM_Hailstorm,1,,3000,700,,150,300,0,20,13,,,,ENERGY,175,,0.4,0.9,4,0.1,8,10,1,1.5,,700,,,,,,,"energy13, rare_bp, FM_weapon",,Gensoukyou Project,,General,,,,,After the projectile travelled %s of ranges it will spread into %s projectiles with %s damage and minor emp damages.,60% | 10 | 15 Energy,,,,1015
+Spirit Seal,FM_Seal,0,,2000,1000,,150,,10,20,11,12,0.75,3,ENERGY,225,,0.25,0.75,3,0.1,0,10,2,5,,400,,,30,,,,"energy10, LR, FM_com, FM_weapon",,Gensoukyou Project,,Long Range Support,,,,,danmaku have limited tracking.,,,,,1005
+Heavy Spark,FM_Spark_heavy,1,,2000,800,500,,,0,20,10,4,0.13,,ENERGY,,550,0,0.5,1.5,0.5,,,,,100000,,,,,,,,"beam14, FM_com , FM_weapon",,Gensoukyou Project,,General,,,,,,,,,,1009
+Illusion Laser,FM_IllusionLaser_M,1,,2000,900,360,,,0,30,10,,,,HIGH_EXPLOSIVE,,320,0.2,0.2,,,,,,,10000,,,,,,,,"he14, beam13, LR, FM_com, FM_weapon",,Gensoukyou Project,,Anti Armor,,,,,,,,,,1012
+Flying Leaf CIWS,FM_Leaf,0,,2250,450,,45,200,0,60,9,20,4,10,ENERGY,45,,0.05,0.05,5,0.1,0,4,0.5,1,,1350,,,,,,"ANTI_FTR, PD","energy10, pd13, SR, FM_com, FM_weapon",,Gensoukyou Project,,General (Point Defense),,,,,"Upon hitting enemy missile or fighter, will generate %s emp arc dealing the same damage as this weapon to another enemy missile or fighter in %s range. If there are no viable target, this effect does not trigger. ",150 | 1,,,,22.75
+Flying Leaf CIWS (Fighter),FM_Leaf_fighter,0,,2250,550,,45,200,0,60,9,,,,ENERGY,30,,0.05,0.55,5,0.1,0,4,0.5,1,,1350,,,,,,"SYSTEM, SHOW_IN_CODEX, ANTI_FTR, PD","no_sell, no_drop",,Gensoukyou Project,,General (Point Defense),,,,,"Upon hitting enemy missile or fighter, will generate %s emp arc dealing the same damage as this weapon to another enemy missile or fighter in %s range. If there are no viable target, this effect does not trigger. ",150 | 1,,,,22.75
+Shotoku PD,FM_AdministratorPD,1,,2000,600,300,,,0,100,13,,,,ENERGY,,1000,0.1,1.2,0.2,,,,,,20000,,,,,,,"ANTI_FTR, PD","energy14, pd13, rare_bp, FM_com , FM_weapon",,Gensoukyou Project,,Point Defense (Anti-Shield),,,,,"When the shot hit the first target or reaches maximum range, create an explosion at the end of beam or location of hit targe dealing %s damage, and generate %s burst ray with %s damage in all directions. ",150 Energy | 17 | 25 Energy,,,,1009
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#ENERGY_LARGE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Silver Blade Array,FM_SilverBlade,1,,4500,800,,125,,0,20,20,,,,KINETIC,150,,0.2,2.3,8,0.1,4,4,0,0,,900,,5,,,,,"energy22, FM_com, FM_weapon",,Gensoukyou Project,,General,,,,,,,,,,1014
+Lunatic Bow,FM_LunaticBow,1,,5000,1000,,675,,300,3,25,10,0.25,5,ENERGY,1000,,0.35,0.4,,,,,,,,750,,,400,,,,"energy20, LR, rare_bp, FM_weapon",,Gensoukyou Project,,Long Range Strike,,,,,"When the projectile hit a target, will cause %s secondary explosions, dealing %s damage to nearby area.",4 | 100 Energy,,,,1010
+Peta Flare,FM_PetaFlare,1,,5000,700,,1200,,500,5,26,,,,ENERGY,1800,,1,3,,,,,,,,450,,,,,,"STRIKE, USE_VS_FRIGATES","energy22, rare_bp, FM_weapon",,Gensoukyou Project,,Strike,,,,,"Projectile not affected by inertia. When fired, will also launch a secondary danmaku with %s projectiles, each with %s damage and a tertiary danmaku with %s projectiles, each with %s damage, will also generate guided projectiles when charging up.",4 | 100 Energy | 8 | 25 Energy,,,,1010
+Fuujins Hidden Leaf,FM_LeafFujin,1,,4500,700,,40,150,0,20,30,,,,ENERGY,33,,0.1,0.1,,,15,15,,,,1200,,5,,,,,"energy22, FM_com, FM_weapon",,Gensoukyou Project,,Close Range Suppression,,,,,"On hitting shield, has a %s chance based on enemy's hard flux level to create an shield piercing emp arc. The arc does the same damage as the projectile from this weapon. Does not trigger on hull impact",25%,,,,1014
+Desire Accelerator,FM_DesireAccelerator,1,,5000,1200,,200,300,50,3,28,18,1,,ENERGY,350,,0.1,3.4,9,0.1,0,0,,,,1000,,6,,,-100,DO_NOT_AIM,"energy20, LR, rare_bp, FM_weapon",,Gensoukyou Project,,Long Range Support,,,,,"The projectiles have good tracking but can be hard to concentrate damage on large targets.
+
+May miss target at extreme range.
+On impact, has %s chance to create an emp arc dealing %s of the weapon's damage. when it hit shield, has chance to create shield piercing emp arc based on target hard flux.",33% | Equivalent,,,,1010
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#MISSILE_SMALL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Shining Needle Torpedo,FM_Opposition,1,,300,1200,,1000,,30,10,4,2,,,ENERGY,0,,0,5,1,,0,0,0,0,,900,75,3.5,300,,,,"strike8, missile8, rare_bp, FM_weapon",,Gensoukyou Project,,Torpedo,Fast,Aiming Stages Only,,,,,,,TRUE,1002
+Shining Needle Torpedo (Fighter),FM_Opposition_fighter,1,,300,1200,,1000,,30,10,4,1,,,ENERGY,0,,0,5,1,,0,0,0,0,,900,75,3.5,300,,,"SYSTEM, SHOW_IN_CODEX","no_sell, no_drop",,Gensoukyou Project,,Torpedo,Fast,Aiming Stages Only,,,,,,,TRUE,1002
+Sky Serpent MRM Pods,FM_SkySerpent_S,0,,300,3000,,750,0,10,20,5,8,,,HIGH_EXPLOSIVE,0,,0,2,1,0,0,0,0,,,500,300,6,100,,,"DO_NOT_AIM, CONSERVE_4","missile9, FM_weapon, FM_com",,Gensoukyou Project,,Anti Armor,Very Fast,,,,"This missile does not explode on impact, instead it'll will deploy a %s in target area, dealing area damage equal to %s of missile damage every %s second.",danmaku barrage | 10% | 0.1s,,,TRUE,1008
+Blossom Rocket Silo,FM_Petal_S,0,,700,1500,,200,0,5,30,7,40,,,ENERGY,0,,0,2.5,5,0.1,0,0,0,0,,800,50,3.75,100,,,CONSERVE_4,"rocket7, strike0, FM_weapon",,Gensoukyou Project,,General,Very Fast,None,,,"Every %s rocket will switch the damage type, indicated by different trail colors.
+
+%s coloured trail change damage to %s,
+
+%s coloured trail change damage to %s,
+
+%s coloured trail change damage to %s,
+
+%s coloured trail change damage to %s,
+
+weapon spread in each of the situations above will progressively decrease.",5|Blue|200 Energy|Green|200 Kinetic|Red|200 HE|Yellow|400 Fragmentation,,,,11
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Blossom Rocket Silo (Fighter),FM_Petal_S_fighter,0,,300,1500,,200,,5,30,7,20,,,ENERGY,0,,0,0.125,1,0.125,0,0,0,0,,800,50,3.75,50,,,"SYSTEM, SHOW_IN_CODEX","no_sell, no_drop",,Gensoukyou Project,,General,Very Fast,None,,,"Every %s rocket will switch the damage type, indicated by different trail colors.
+
+%s coloured trail change damage to %s,
+
+%s coloured trail change damage to %s,
+
+%s coloured trail change damage to %s,
+
+%s coloured trail change damage to %s,
+
+weapon spread in each of the situations above will progressively decrease.",5|Blue|200 Energy|Green|200 Kinetic|Red|200 HE|Yellow|400 Fragmentation,,,,11
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#MISSILE_MEDIUM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sky Serpent MRM Launcher,FM_SkySerpent_M,1,,1200,3000,,750,0,10,10,11,20,,,HIGH_EXPLOSIVE,0,,0,1,1,0,0,0,0,,,500,300,6,100,,,"DO_NOT_AIM, CONSERVE_4","missile13, FM_weapon, FM_com",,Gensoukyou Project,,Anti Armor,Very Fast,,,,"This missile does not explode on impact, instead it'll will deploy a %s in target area, dealing area damage equal to %s of missile damage every %s second.",danmaku barrage | 10% | 0.1s,,,TRUE,1007
+Suzumega,FM_Stardust,1,,3000,1500,,750,,10,25,11,8,,,ENERGY,,,,7,1,,,,,,,1200,0,4.25,175,,,,"rocket14, strike4, FM_com, FM_weapon",,Gensoukyou Project,,Medium-Range Suppression,Very Fast,None,,,"While homing for %s, every %s the missile will quickly launch %s small missiles, dealing %s damage.", 4.25s | 0.2s | 4 | 50 Energy,,,TRUE,1013
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#MISSILE_LARGE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Yakouchuu,FM_Nightbugs,1,,7500,2000,,13500,,,20,28,17,,,FRAGMENTATION,0,,0.33,7,1,0.33,,,,,,300,300,20,3000,,,"DO_NOT_CONSERVE, DO_NOT_AIM","missile20, utility18, LR, rare_bp, FM_weapon",,Gensoukyou Project,,Sustained Suppression,,Special,,,"The main projectile deal no damage and pass through all objects, will slow down after a while, once speed is sufficently low, will launch two volley of smaller projectiles.",,,,,23
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#TEST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+百合(),FM_Lily,3,,8000,1000,1500,,1000,0,7,25,,,,ENERGY,,2000,0.5,1,1,4,,,,,10000,,,,,,,SYSTEM,,,Gensoukyou Project,,Suppression,,,,,,,,,,27
+PD DEM SRM(),FM_DemPD,1,,250,1500,,800,,15,30,5,4,,,ENERGY,0,,0,1,1,,0,0,0,0,,300,75,6,250,,,"DO_NOT_AIM, SYSTEM","missile8, merc, rare_bp, damage_special, damage_soft_flux",,,,Point Defense,Medium,Good,,,DEM,,,,TRUE,11.9
+PD DEM - Payload(),FM_DemPD_payload,1,,0,700,800,,,,30,0,,,,ENERGY,0,,,,0.2,0.0.05,,,,,1000000,,,,,,,SYSTEM,,,,,,,,,,,,,,,11.91
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#SYSTEM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Master Spark,FM_Masterspark,0,,8000,1000,1500,,,0,7,,,,,ENERGY,,1700,0.5,0.5,2,5,10,,,,100000,,,,,,,"FIRE_WHEN_INEFFICIENT, SYSTEM,SHOW_IN_CODEX","no_sell, no_drop",,Gensoukyou Project,,Suppression,,,,,"When charging and cooling, reduce ship's turn rate by up to %s.",50%,,,,1101
+Pure Void Danmaku,FM_ClearanceMunitions,0,,100,1500,,750,500,600,0,,1,,,ENERGY,0,,0,1,1,,0,0,0,0,,50,500,10,500,,,"SYSTEM, STRIKE, ANTI_FTR, DO_NOT_AIM, PD,PD_ALSO, SHOW_IN_CODEX","no_sell, no_drop",,Gensoukyou Project,,Multipurpose Strike,Fast,None,,,,,,,TRUE,3.2
+Miniature Lance,FM_DollsLance,0,,,400,195,,,0,100,,,,,ENERGY,,50,0,0.5,0.5,,,,,,2400,,,,,,,"SYSTEM, PD, SHOW_IN_CODEX","no_sell, no_drop",,Gensoukyou Project,,Point Defense,,,,,Deals small area %s damage on hit.,50 Fragmentation,,,,17
+Concentration Binding Thread,FM_DollsWire,0,,,600,50,,200,0,100,,,,,ENERGY,,50,0,1.25,1.25,,,,,,800,,,,,,,"SYSTEM, PD, SHOW_IN_CODEX","no_sell, no_drop",,Gensoukyou Project,,Disable,Very Slow,,,,"On impact, has a chance every %s to cause a single emp arc strike with %s chance.", 0.2s | 33% ,,,,17
+Dark Illumination Sign: Cross,FM_RumiaSystemWeapon,0,,,700,,100,100,0,0,0,,,,ENERGY,50,,0.75,1.25,1,0,0,0,0,,,1600,1600,0.7,,,,SYSTEM,"no_sell, no_drop",tpc,Gensoukyou Project,,System,,,,,"Can only be used through the ship system, deals more damage at high level of hard flux, up to %s.",10 Multiplier,,,TRUE,
+Sealing Moon Spirit Needle,FM_MikoBuiltIn,0,,,800,,250,,0,0,0,24,1.5,12,ENERGY,0,,,0.13,1,0,0,0,0,,,1800,1800,5,,,,"SYSTEM, SHOW_IN_CODEX","no_sell, no_drop",,Gensoukyou Project,,Generic,,,,,"Cost no flux, but each shot consumes %s Spiritual Energy, and each hit restores %s",6% | 2%,,,TRUE,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#弹幕与战术系统衍生,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Moth Rise,FM_star_weapon_1,0,,,500,,75,,,,,,,,ENERGY,0,,0,0,4,0,,,,,,0,0,4,,,,SYSTEM,,,,,,,,,,,,,,,
+Moth Dust,FM_star_weapon_2,0,,,1200,,50,,,,,,,,ENERGY,0,,0,0,4,0,,,,,,600,50,7,50,,,SYSTEM,,,,,,,,,,,,,,,
+Ice Crystal (S),FM_ice_weapon_s,0,,,250,,30,25,0,0,0,,,,ENERGY,0,,0,0,4,0,0,0,0,,,150,150,1,,,,SYSTEM,,,,,,,,,,,,,,,
+Ice Crystal (M),FM_ice_weapon_m,0,,,300,,15,30,0,0,0,,,,ENERGY,0,,0,0,4,0,0,0,0,,,800,800,1,,,,SYSTEM,,,,,,,,,,,,,,,
+Knife,FM_Blade_weapon,0,,,150,,20,0,0,0,0,,,,ENERGY,0,,0,0,4,0,0,0,0,,,500,500,1,,,,SYSTEM,,,,,,,,,,,,,,,
+Acc Ball,FM_accball,0,,,900,,100,,0,0,0,,,,ENERGY,0,,0,0,1,0,0,0,0,,,2,2,2,0,,,SYSTEM,,,,,,,,,,,,,,,
+Dec Ball,FM_decball,0,,,900,,450,,0,0,0,,,,FRAGMENTATION,0,,0,0,1,0,0,0,0,,,100,600,2,0,,,SYSTEM,,,,,,,,,,,,,,,
+Oppossition Slug,FM_Opposition_warhead_weapon,0,,,1300,,1000,0,0,0,0,,,,ENERGY,0,,0,0,4,0,0,0,0,,,900,900,1.5,,,,SYSTEM,,,,,,,,,,,,,,,
+Kedama Weapon System,FM_Kedama_system_weapon,0,,,600,,75,,100,0,0,,,,HIGH_EXPLOSIVE,0,,0,0,4,0,0,0,0,,,600,600,1.2,,,,SYSTEM,,,,,,,,,,,,,,,
+Yakouchuu Level-II,FM_PdMissile_builtin,0,,,1000,,225,,15,50,,,,,FRAGMENTATION,0,,0,9,3,0.2,0,0,0,0,,500,100,4,50,,,"DO_NOT_AIM, DO_NOT_CONSERVE, SYSTEM",,,,,,,,,,,,,,,10
+Lunatic Bow Mines,FM_LunaticBow_minelayer,0,,,,,100,0,25,,,,,,ENERGY,0,,,,1,,,,,,,0,0,20,1000,,,SYSTEM,,,,,,,,,,,,,,,38.5
+Persuasion Extra,FM_Persuasion_extra,0,,,1000,,30,,0,50,,,,,ENERGY,0,,0,9,3,0.2,0,0,0,0,,700,100,3,50,,,"DO_NOT_AIM, DO_NOT_CONSERVE, SYSTEM",,,,,,,,,,,,,,,10
+Suicide Pact Mines,FM_Suicidepact_minelayer,0,,,,,300,0,25,,,,,,HIGH_EXPLOSIVE,0,,,,1,,,,,,,0,0,20,1000,,,SYSTEM,,,,,,,,,,,,,,,38.5
+Ofuda,FM_Amulet_B,0,,200000,1000,,70,,25,30,,0,0,,ENERGY,0,,0,10,10,0.1,0,0,0,0,,500,300,3.5,100,,,SYSTEM,"no_sell, no_drop",FM_Amulet,Gensoukyou Project,,Suppression,,,,,,,,,,
+Mochi Strike,FM_dumplingstrike,0,,200000,1000,,150,,25,30,,,,,ENERGY,0,,0,10,10,0.1,0,0,0,0,,300,50,20,100,,,SYSTEM,,,,,,,,,,,,,,,
+Wolfs Fang,FM_WolfsFang,0,,200000,1000,,150,150,0,0,,,,,FRAGMENTATION,0,,0,10,10,0.1,0,0,0,0,,800,50,20,200,,,SYSTEM,,,,,,,,,,,,,,,
+PetaFlare Extra,FM_PetaFlare_extra,0,,,700,,25,0,0,0,0,,,,ENERGY,0,,0,0,4,0,0,0,0,,,425,,,,,,SYSTEM,,,,,,,,,,,,,,,
+PetaFlare Extra L,FM_PetaFlare_extra_l,0,,,700,,100,0,0,0,0,,,,ENERGY,0,,0,0,4,0,0,0,0,,,475,,,,,,SYSTEM,,,,,,,,,,,,,,,
+Fuujin Extra,FM_LeafFujin_extra,0,,,700,,40,150,0,0,0,,,,ENERGY,50,,0,0,4,0,0,0,0,,,1200,1200,5,,,,SYSTEM,,,,,,,,,,,,,,,
+Sky Serpent Stage 2,FM_SkySerpent_Stage2,0,,,250,,50,100,0,0,0,,,,ENERGY,50,,0,0,4,0,0,0,0,,,450,450,5,,,,SYSTEM,,,,,,,,,,,,,,,
+Sky Serpent Stage 3,FM_SkySerpent_Stage3,0,,,250,,50,100,0,0,0,,,,ENERGY,50,,0,0,4,0,0,0,0,,,450,450,5,,,,SYSTEM,,,,,,,,,,,,,,,
+Petal KE,FM_Petal_S_ke,0,,300,1500,,200,,5,30,4,80,,,KINETIC,0,,0,1,5,0.1,0,0,0,0,,800,150,3.75,100,,,SYSTEM,,,,,,,,,,,,,,,11
+Petal HE,FM_Petal_S_he,0,,300,1500,,200,,5,30,4,80,,,HIGH_EXPLOSIVE,0,,0,1,5,0.1,0,0,0,0,,800,250,3.75,100,,,SYSTEM,,,,,,,,,,,,,,,11
+Petal FR,FM_Petal_S_fr,0,,300,1500,,400,,5,30,4,80,,,FRAGMENTATION,0,,0,1,5,0.1,0,0,0,0,,800,350,3.75,100,,,SYSTEM,,,,,,,,,,,,,,,11
+Hob Goblin Active-Flares,FM_FlareLauncher2,,,,800,,10,400,,,,,0,,ENERGY,0,0,0,0.1,1,0.1,90,90,0,0,,800,200,7,1,,,SYSTEM,,,,,,,,,,,,,,,38
+Hotaru Bait Launcher,FM_FireflyFlare,,,,800,,10,400,,,,,0,,ENERGY,0,0,1,1,6,0.1,90,90,0,0,,50,120,7,1,,,SYSTEM,,,,,,,,,,,,,,,38
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#其他,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Wave particle fireworks launcher FM built-in type,FM_BBA_built_in,0,,,500,,1000,,,,,1,0.03,,ENERGY,0,,0,1,1,0,,,,,,200,200,30,,,,SYSTEM,,,,,,,,,,"The main projectile cannot damage physical targets and cannot be intercepted, it causes unreliable damage with its submuniations.",,,,,
+wire control anchor point,FM_Alice,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,44
+Amanojyaku Cover,FM_Amanojyak_above,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,44
+Light Test,FM_light1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Miko Effect,FM_MikoEffect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

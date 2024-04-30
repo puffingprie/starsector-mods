@@ -1,0 +1,18 @@
+{
+	"displayName":"Standard",
+	"hullId":"pn_empdrone",
+	"variantId":"pn_empdrone",
+	"fluxVents":0,
+	"fluxCapacitors":2,
+	"mods":[], # array of strings
+	
+	# mode is either LINKED or ALTERNATING
+	# slot ids (WS ***) must match what's in the .ship file
+	"weaponGroups":[
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS0001":"pn_dsiblink",
+		 		   },
+		},
+	],
+}

@@ -1,0 +1,52 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 5,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "aurora_ix",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "targetingunit",
+        "frontemitter",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "aurora_ix_cs",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "muon_autolance_ix",
+                "WS 008": "muon_autolance_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "orthrus_m_ix",
+                "WS 010": "orthrus_s_ix",
+                "WS 011": "orthrus_s_ix",
+                "WS 012": "orthrus_s_ix",
+                "WS 013": "orthrus_s_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 009": "starfall_rocket_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "morningstar_ciws_ix",
+                "WS 003": "morningstar_ciws_ix",
+                "WS 004": "morningstar_ciws_ix",
+                "WS 005": "morningstar_ciws_ix"
+            }
+        }
+    ]
+}

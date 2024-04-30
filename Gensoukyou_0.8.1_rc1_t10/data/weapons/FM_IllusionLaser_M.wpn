@@ -1,0 +1,74 @@
+{
+  "id": "FM_IllusionLaser_M",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/FM_IllusionLaser_M_turret.png",
+  "turretGlowSprite": "graphics/weapons/FM_IllusionLaser_M_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/FM_IllusionLaser_M_hardpoint.png",
+  "hardpointGlowSprite": "graphics/weapons/FM_IllusionLaser_M_hardpoint_glow.png",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+    4,
+    204,
+    12,
+    160
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    3.5,
+    4,
+    3.5,
+    -4,
+    -0.5,
+    9,
+    -0.5,
+    -9
+  ],
+  "turretAngleOffsets": [
+    0,
+    -0,
+    2.5,
+    -2.5
+  ],
+  "hardpointOffsets": [
+    3.5,
+    -4,
+    3.5,
+    4,
+    -0.5,
+    -9,
+    -0.5,
+    9
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    -0,
+    2.5,
+    -2.5
+  ],
+  "beamFireOnlyOnFullCharge": true,
+  "fringeColor": [
+    99,
+    255,
+    209,
+    255
+  ],
+  "coreColor": [
+    4,
+    204,
+    12,
+    255
+  ],
+  "width": 10,
+  "textureType": [
+    "graphics/fx/beamfringec.png",
+    "graphics/fx/beamcoreb.png"
+  ],
+  "textureScrollSpeed": 128,
+  "pixelsPerTexel": 1,
+  "fireSoundOne": "laser_intro",
+  "fireSoundTwo": "FM_IllusionLaser_M_loop"
+}

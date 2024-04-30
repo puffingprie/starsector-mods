@@ -1,0 +1,50 @@
+{
+  "id": "FM_MikoBuiltIn",
+  "specClass": "projectile",
+  "projectileSpecId": "FM_MikoBuiltIn_shot",
+  "everyFrameEffect": "data.weapons.everyFrame.FM_MikoBuiltInEveryFrame",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "turretSprite": "",
+  "hardpointSprite": "",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "turretOffsets": [
+    7,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    18,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 35,
+    "spread": 30,
+    "particleSizeMin": 5,
+    "particleSizeRange": 5,
+    "particleDuration": 0.3,
+    "particleCount": 35,
+    "particleColor": [
+      224,
+      79,
+      50,
+      220
+    ]
+  },
+  "autocharge": true,
+  "textureType": ROUGH,
+  "fireSoundTwo": "FM_IcicleFall_fire",
+}

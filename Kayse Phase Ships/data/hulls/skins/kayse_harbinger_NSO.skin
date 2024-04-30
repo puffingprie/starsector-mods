@@ -1,0 +1,54 @@
+{
+    "baseHullId":"harbinger",
+    "skinHullId":"kayse_harbinger_NSO",
+    "hullName":"Harbinger (NSO)",
+    "designation":"Phase HK Destroyer",
+    "descriptionId":"harbinger",  # optional
+    "descriptionPrefix":"This ship has been modified for PHASEOPS, modifying the Quantum Disruptor to focus all of its energy into the target's phase coils, disrupting them for a critical few seconds. This puts the modified ship squarely in the Anti-Phase-Ship, Hunter-Killer role.",
+   "tags":["no_such_org_bp"],
+   "tech":"No Such Org",
+    "spriteName":"graphics/kayse/ships/harbinger/harbinger_NSO.png",
+#    "ordnancePoints":60,
+#    "baseValueMult":1.5,
+    "systemId":"kayse_phase_disruptor",
+    "removeWeaponSlots":[],       # ids
+    "removeEngineSlots":[],       # indices, as engine slots have no id in the .ship file
+    "removeBuiltInMods":[],       # hullmod ids
+    "removeBuiltInWeapons":[],       # weapon slot ids
+#    "builtInMods":[],            # vanilla harbinger already has those built in
+#    "builtInWeapons":{
+#    },
+#    "weaponSlotChanges":{
+#      "WS 001":{
+        #"angle": 0,
+        #"arc": 210,
+        #"mount": "TURRET",
+        #"size": "SMALL",
+#        "type": "ENERGY"
+#      },
+#      "WS 002":{
+        #"angle": 0,
+        #"arc": 210,
+        #"mount": "TURRET",
+        #"size": "SMALL",
+#        "type": "ENERGY"
+#      },
+#      "WS 003":{"type":SYNERGY},
+#      "WS 004":{"type":SYNERGY},
+#    },
+#   "engineSlotChanges":{
+#      "0":{
+         #"width": 0,
+             #"length": 210,
+             #"angle": 210,
+#             "style": "HIGH_TECH",
+#      },
+#      "1":{"style":"HIGH_TECH"},
+#      "2":{"style":"HIGH_TECH"},
+#      "3":{"style":"HIGH_TECH"},
+#      "4":{"style":"HIGH_TECH"},
+#      "5":{"style":"HIGH_TECH"},
+#      "6":{"style":"HIGH_TECH"},
+#      "7":{"style":"HIGH_TECH"},
+#   },   
+}

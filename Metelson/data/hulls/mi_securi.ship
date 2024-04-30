@@ -1,0 +1,114 @@
+{
+  "hullName": "Securi",
+  "hullId": "mi_securi",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/securi.png",
+  "style": "MIDLINE",
+  "height": 88,
+  "width": 111,
+  "center": [55.5, 44],
+  "collisionRadius": 86.46965,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 71.142464,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 180,
+      "locations": [-19, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": 25,
+      "locations": [24, 32.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": -25,
+      "locations": [24, -32.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [31, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 23,
+      "locations": [-3, 27.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -23,
+      "locations": [-3, -27.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-27, -0],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-38, 15.5],
+      "length": 64,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-38, -15.5],
+      "length": 64,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    40, -10.5,
+    31.5, -28,
+    39, -42,
+    16.5, -51.5,
+    -12, -51.5,
+    -37, -34,
+    -37, -7.5,
+    -25.5, -4.5,
+    -25.5, 4.5,
+    -37, 7.5,
+    -37, 34,
+    -12, 51.5,
+    16.5, 51.5,
+    39, 42,
+    31.5, 28,
+    40, 10.5
+  ]
+}

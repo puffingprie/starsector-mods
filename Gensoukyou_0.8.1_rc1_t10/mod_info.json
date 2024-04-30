@@ -1,0 +1,24 @@
+{
+"id":"FantasyM", # required code id
+
+"name":"Gensoukyou Manufacture", # required friendly name
+#Just small adjust for name and display, all other things such as ids still begin with FM_
+
+"version":"0.8.1_rc1, in dev", # required mod version
+
+"description":"Add Gensoukyou Manufacture Faction to the sector. \nNote: This mod contains a considerable amount of content related to the Touhou Project series by Team Shanghai Alice, as well as a fan creations. \nFor the list of credits, please refer to special_thanks.txt.", # required friendly mod description
+
+"gameVersion":"0.97a-RC6", # required starsector version this was designed for
+
+"dependencies": [
+    {"id": "lw_lazylib", "name": "LazyLib"},
+    {"id": "MagicLib", "name": "MagicLib"},
+    {"id": "shaderLib", "name": "GraphicLib"}
+  ],
+
+"author":"\n\nOriginal Works : Team Shanghai Alice \n\nLead:\n\nhomejerry99  \n\nSpritings:\n\nForever Seventeen！(Ykaris),\n\nhomejerry99,\n\nShadow Light(影之光),\n\nlili,\n\nAnyIDElse,\n\nArctic Giant Seal(北冰洋大海豹),\n\nmimeio,\n\nLittleMercy \n\ngame-icons.net(UNGP-related Icons),\n\ndairi(Images from pixiv)(Related to Portraits) \n\nCodings:\n\nhomejerry99,\n\nAnyIDElse (Review and provide a large number of suggestions, as well as OpenGL-related codes), \n\nNicke535(诱导射弹相关), \n\nNitori_Tachyon(Campaign Related), \n\nOriginem(Modding Introduction), \n\nData and Balancings: AnyIdElse,\n\nscythe, \n\nMusic: \n\nzun(Original Composition), \n\nhomejerry99(Arrangement Proccessing) \n\nSound Effects:\n\nShadow Light(影之光) \n\nhomejerry99 \n\nwww.ear0.com \n\nBluezone_Corporation_Free_Sound_Effects", # author's name
+
+"modPlugin":"data.Fantasyplugin",
+
+"jars":["jars/Gensoukyou_Daze.jar"]
+}

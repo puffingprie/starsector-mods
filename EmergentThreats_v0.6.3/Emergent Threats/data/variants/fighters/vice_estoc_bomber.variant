@@ -1,0 +1,16 @@
+{
+	"quality":1,
+	"displayName":"Bomber",
+	"hullId":"vice_estoc",
+	"hullMods":["no_weapon_flux", "solar_shielding"],
+	"variantId":"vice_estoc_bomber",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"weaponGroups":[
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS 001":"vice_balefire_emitter",
+		 		   },
+		},
+	],
+}

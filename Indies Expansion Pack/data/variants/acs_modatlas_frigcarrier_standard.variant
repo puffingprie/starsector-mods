@@ -1,0 +1,45 @@
+{
+  "variantId": "acs_modatlas_frigcarrier_standard",
+  "hullId": "acs_modatlas_frigcarrier",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 25,
+  "fluxVents": 27,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hellbore",
+        "WS0002": "hellbore",
+        "WS0003": "heavymauler",
+        "WS0004": "heavymauler",
+        "WS0005": "acs_small_flakhag",
+        "WS0006": "acs_small_flakhag",
+        "WS0007": "acs_small_flakhag",
+        "WS0008": "acs_small_flakhag",
+        "WS0009": "acs_small_flakhag",
+        "WS0010": "acs_small_flakhag",
+        "WS0011": "acs_velites_single",
+        "WS0012": "acs_velites_single",
+        "WS0013": "acs_velites_single",
+        "WS0014": "acs_velites_single",
+        "WS0015": "acs_velites_single",
+        "WS0016": "acs_velites_single",
+        "WS0017": "acs_toyhammer_small2",
+        "WS0018": "acs_toyhammer_small2",
+        "WS0019": "devastator",
+        "WS0020": "acs_small_flakhag",
+        "WS0021": "acs_rorariirailslauncher"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,39 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 22,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "FM_Satori",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Satori_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "FM_SilverBlade"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "FM_SkySerpent_M"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "FM_Blade_ac"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FM_Spark_pd",
+                "WS0005": "FM_Spark_pd",
+                "WS0006": "FM_Spark_pd",
+                "WS0007": "FM_Spark_pd",
+                "WS0008": "FM_Spark_pd"
+            }
+        }
+    ]
+}

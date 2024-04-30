@@ -1,0 +1,24 @@
+{
+  "variantId": "pn_mite_support",
+  "hullId": "pn_mite",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pn_skscannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

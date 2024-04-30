@@ -1,0 +1,38 @@
+{
+    "displayName": "Auxiliary",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "hetman_ix_a",
+    "hullMods": [
+        "pointdefenseai",
+        "frontemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "hetman_ix_aux",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "morningstar_ciws_ix",
+                "WS 004": "morningstar_ciws_ix",
+                "WS 005": "morningstar_ciws_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "orthrus_s_ix",
+                "WS 003": "orthrus_s_ix"
+            }
+        }
+    ],
+    "wings": [
+        "axiom_ix_wing",
+        "axiom_ix_wing",
+        "dictum_ix_wing"
+    ]
+}

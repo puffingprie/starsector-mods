@@ -1,0 +1,21 @@
+{
+	"id":"FM_bordercontrol",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"range":3000,
+	"aiScript":"data.shipsystems.ai.FM_bordercontrol_ai",
+
+	"statsScript":"data.shipsystems.FM_bordercontrol",
+
+	#"runScriptWhilePaused":true, # only for the player's ship
+	"runScriptWhileIdle":true, # unapply() never gets called
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_entropy",
+	"loopSound":"system_entropy_loop",
+	"deactivateSound":"system_entropy_off",
+	"outOfUsesSound":"gun_out_of_ammo",
+
+	"aiHints":{
+	}
+}

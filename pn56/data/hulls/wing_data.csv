@@ -1,0 +1,4 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,number
+pn_stress_wing,pn_stress_wing,"fighter4, fighter, pn_wep_bp",2,,5,5,V,4000,500,,2,FIGHTER,Fighter,5,7000,
+pn_saksh-t_turret_wing,pn_saksh-t_turret_wing,"support3, fighter, pn_wep_bp",2,,6,10,CLAW,0,500,,2,SUPPORT,Support,5,10000,
+pn_spore-mk3_variant_wing,pn_spore-mk3_variant,"fighter4, fighter, pn_wep_bp",3,,13,15,V,4000,500,,3,FIGHTER,Fighter,15,12000,

@@ -1,0 +1,36 @@
+{
+
+  "maxIndustries":[1,1,2,2,3,4,4,5,5,6],
+  "overMaxIndustriesPenalty":5, # stability penalty
+  "maxColonySize": 100,
+
+  # Carrying Capacity Settings. NOTE not used atm.
+  "baseCarryingCapacity": 10,
+  "minimumCarryingCapacity": 4,
+
+  # Omega Core Officer Chance, default value is 0.0.
+  # Modify this to increase or decrease the chance.
+  "drop_prob_officer_omega_core": 0.33,
+
+  # Debug values, causes colonies to quite literally develop at the same pace as a Dyson Sphere entirely filled with completely immortal humans undergoing mitosis to each other every attosecond.
+  # No seriously, this is lore and gameplay breaking. DO NOT USE THIS UNLESS YOU WANT TO BECOME A JUGGERNAUT!
+  #"immigrationIncentiveCostPerPoint": 0,
+  #"immigrationIncentivePointsAboveHazardPenalty": 2140000000,
+
+  # Accessability Debug values. Because large markets suffer from limited exporting, this just makes it so you can flood your entire empire (not the sector) with stellar system sized quantities of food and choco-lava.
+  #"accessibilitySameFactionBonus":1000,
+
+  "graphics": {
+    "planets": {
+        "PartialEcumenopolis": "graphics/planets/AA_ecumenopolis.jpg",
+        "PartialEcumGlow": "graphics/planets/AA_partialEcumLights.png",
+        "Ecumenopolis": "graphics/planets/AA_fullEcumenopolis.jpg",
+        "EcumenopolisGlow": "graphics/planets/AA_ecumenopolisLights.png",
+        "HyperEcumenopolis": "graphics/planets/AA_hyperEcumenopolis.jpg",
+        "HyperspatialLeakage": "graphics/planets/AA_hyperspaceLeakage.png",
+        "Matrioshka Layer": "graphics/planets/AA_matrioshkaLayer.png",
+        "Matrioshka Layer Two": "graphics/planets/AA_matrioshkaLayer2.png",
+        "Astral World": "graphics/planets/AA_astral.jpg",
+    },
+  }
+}

@@ -1,0 +1,272 @@
+{
+	id:"ix_battlegroup",
+	"displayName":"IX Battlegroup",
+	"displayNameWithArticle":"the IX Battlegroup",
+	"displayNameLong":"9th Domain Battlegroup",
+	"displayNameLongWithArticle":"the 9th Domain Battlegroup",
+	"entityNamePrefix":"IX Battlegroup",
+	"personNamePrefix":"IX Battlegroup",
+	"personNamePrefixAOrAn":"a",
+	"displayNameIsOrAre":"is",
+	
+	"logo":"graphics/factions/ix_flag.png",
+	"crest":"graphics/factions/ix_crest.png",
+	"shipNamePrefix":"DSS",
+	
+	"color":[0,255,0,255],
+	"secondaryUIColor":[50,50,50,155],
+    "secondarySegments":6,
+	"baseUIColor":[0,255,0,255],
+	
+	"showInIntelTab":true,
+	
+	"shipNameSources":{
+		"BRITISH_NAVY":2,
+		"ROMAN":1,
+		"GREEK":1,
+		"NORDIC":1,
+		"KNIGHTS":1,
+		"BEASTS":2,
+	},
+	"names":{
+		"old english":1,
+		"modern":1,
+		"world":1,
+		"future":1,
+		"myth":1,
+	},
+	"music":{
+		"theme":"music_hegemony_market_neutral",
+		"market_neutral":"music_hegemony_market_neutral",
+		"market_hostile":"music_hegemony_market_hostile",
+		"market_friendly":"music_hegemony_market_friendly",
+		"encounter_neutral":"music_hegemony_encounter_neutral",
+		"encounter_hostile":"music_hegemony_encounter_hostile",
+		"encounter_friendly":"music_hegemony_encounter_friendly",
+	},	
+	"portraits":{
+		"standard_male":[
+            "graphics/portraits/portrait12.png",
+			"graphics/portraits/portrait13.png",
+			"graphics/portraits/portrait15.png",
+			"graphics/portraits/portrait18.png",
+			"graphics/portraits/portrait20.png",
+			"graphics/portraits/portrait23.png",
+			"graphics/portraits/portrait26.png",
+			"graphics/portraits/portrait30.png",
+			"graphics/portraits/portrait31.png",
+			"graphics/portraits/portrait33.png",
+			"graphics/portraits/portrait35.png",
+			"graphics/portraits/portrait36.png",
+			"graphics/portraits/portrait38.png",
+			"graphics/portraits/portrait43.png",
+			"graphics/portraits/portrait47.png",
+			"graphics/portraits/portrait_hegemony02.png",
+			"graphics/portraits/portrait_mercenary03.png",
+			"graphics/portraits/portrait_mercenary04.png",
+		],
+		"standard_female":[
+			"graphics/portraits/portrait14.png",
+			"graphics/portraits/portrait16.png",
+			"graphics/portraits/portrait21.png",
+			"graphics/portraits/portrait22.png",
+			"graphics/portraits/portrait27.png",
+			"graphics/portraits/portrait28.png",
+			"graphics/portraits/portrait29.png",
+			"graphics/portraits/portrait32.png",
+			"graphics/portraits/portrait34.png",
+			"graphics/portraits/portrait37.png",
+			"graphics/portraits/portrait39.png",
+			"graphics/portraits/portrait41.png",
+			"graphics/portraits/portrait42.png",
+			"graphics/portraits/portrait_hegemony06.png",
+			"graphics/portraits/portrait_hegemony10.png",
+			"graphics/portraits/portrait_league10.png",
+			"graphics/portraits/portrait_mercenary02.png",
+			"graphics/portraits/portrait_mercenary05.png",
+		],
+	},
+	"ranks":{
+		"ranks":{
+			"spaceCommander":{"name":"Commander"},
+		},
+		"posts":{
+			"patrolCommander":{"name":"Patrol Commander"},
+			"fleetCommander":{"name":"Fleet Commander"},
+			"baseCommander":{"name":"Base Commander"},
+		},
+	},
+	"illegalCommodities":[
+		"ai_cores",	
+	],
+	"variantOverrides":{
+		"hyperion_ix_elite":3,
+		"odyssey_ix_attack":3,
+		"odyssey_ix_cs":3,
+		"temblor_ix_attack":4,
+		"temblor_ix_cs":4,
+		"tigershark_ix_attack":2,
+		"tigershark_ix_missile":2,
+		
+		"hyperion_ix_honor":0,
+		"odyssey_ix_honor":0,
+		"temblor_ix_honor":0,
+		"tigershark_ix_honor":0,
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+
+		},
+		"hulls":{
+
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":[],
+		"hulls":[
+			
+		],
+	},
+	"knownShips":{
+		"tags":["ixbattlegroup", "ix_auxiliary"],
+		"hulls":["hyperion_ix", "temblor_ix", "tigershark_ix"],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		"hulls":[],
+	},
+	"knownFighters":{
+		"tags":["ixbattlegroup"],
+		"fighters":[
+			"axiom_ix_wing",
+			"dictum_ix_wing",
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+		],
+	},
+	"knownWeapons":{
+		"tags":["ixbattlegroup"],
+		"weapons":[
+			"taclaser",
+			"hil"
+		],
+	},
+	"knownHullMods":{
+		"tags":["base_bp", "tritachyon", "ixbattlegroup"],
+		"hullMods":[
+			"advancedshieldemitter", # accelerated
+			"advancedoptics",
+			"turretgyros",
+			"augmentedengines",
+			"eccm",
+			"ecm",
+			"expanded_deck_crew",
+			"magazines",
+			"missleracks",
+			"extendedshieldemitter",
+			"frontemitter",
+			"frontshield",  # makeshift
+			"hardenedshieldemitter",
+			"insulatedengine",
+			"pointdefenseai",
+			"targetingunit",
+			"nav_relay",
+			"adaptiveshields", # omni
+			"operations_center",
+			"fluxbreakers",
+			"stabilizedshieldemitter",
+			"hiressensors",
+			"efficiency_overhaul",
+			"ix_ground_invasion_conversion",
+			"ix_laser_collimator",
+			"ix_reactive_combat_shields",
+			"ix_terminus_relay",
+			"ix_antecedent"
+		],
+	},
+	"factionDoctrine":{
+		"warships":5,
+		"carriers":2,
+		"phaseShips":0,
+		
+		"officerQuality":5,
+		"shipQuality":5,
+		"numShips":5,
+		
+		"shipSize":4,
+		
+		"aggression":4,
+		
+		"combatFreighterProbability":0.1,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0,				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0,
+
+		"officerSkillsShuffleProbability":1,
+		"officerSkills":[
+			"ix_sword_of_the_fleet",
+		],
+
+		"commanderSkillsShuffleProbability":1,
+		"commanderSkills":[
+			"electronic_warfare",
+			"crew_training",
+			"officer_training",
+		],
+	},
+	"voices":{
+		"LOW":{
+			"soldier":10,	
+			"spacer":5,
+		},
+		"MEDIUM":{
+			"soldier":10,
+			"official":5,
+		},
+		"HIGH":{
+			"soldier":5,
+			"official":10,
+		},
+	},
+	"custom":{
+		"offersCommissions":true,
+		#"offerMissionsWhenHostile":false,
+		"engageWhenEvenStrength":true,
+		"gaVIPMission":false,
+		"ignoreTradeWithEnemiesForReputation":true,
+		"postsNoBounties":true,
+		"caresAboutAtrocities":false,
+		"buysAICores":true,
+		"AICoreValueMult":1,
+		"AICoreRepMult":2,
+		"fightToTheLast":true, # order a full assault instead of retreating, in most cases
+		"makesPirateBases":true,
+		"pirateBaseStationTypes":{
+			"battlestation_high":10,
+			"starfortress_high":2,
+		},
+		"punitiveExpeditionData":{
+			"vsCompetitors":false,
+			"vsFreePort":false,
+			"canBombard":true,
+			"territorial":true,
+		},
+	},
+	"fleetTypeNames":{
+		"patrolSmall":"Vanguard",
+		"patrolMedium":"Contingent",
+		"patrolLarge":"Flotilla",
+		"trade":"Supply Convoy",
+		"tradeLiner":"Troop Convoy",
+		"tradeSmuggler":"Covert Courier",
+		"smallTrader":"Supply Convoy",
+		"academyFleet":"Infiltration Team",
+		"taskForce":"Rapid Reaction Force",
+	},
+},

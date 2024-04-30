@@ -1,0 +1,78 @@
+{
+  "variantId": "oas_observer_balanced",
+  "hullId": "oas_observer",
+  "displayName": "Balanced",
+  "goalVariant": true,
+  "fluxCapacitors": 35,
+  "fluxVents": 35,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "ballistic_rangefinder",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oas_l_orb_missile"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "oas_m_kinetic2_missile"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "oas_s_kineticmissile",
+        "WS0006": "oas_s_kineticmissile"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "oas_orb_observer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "oas_l_shottie"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "oas_s_benergy",
+        "WS0010": "oas_s_benergy"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "oas_l_pd",
+        "WS0007": "oas_s_pd",
+        "WS0009": "oas_s_pd",
+        "WS0011": "oas_s_pd",
+        "WS0012": "oas_s_pd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "oas_blaster_drone3_wing",
+    "oas_turtle2_ball_wing",
+    "oas_turtle2_magnetron_wing",
+    "oas_fattie_wing"
+  ]
+}

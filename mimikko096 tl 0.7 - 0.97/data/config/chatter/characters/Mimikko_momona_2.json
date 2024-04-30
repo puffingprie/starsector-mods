@@ -1,0 +1,157 @@
+{
+    "name": "Momona Chan",
+    "personalities": ["steady", "aggressive", "reckless","cautious"],
+    "gender": ["m","f","n"],
+    "chance": 0,
+    "talkativeness": 0.65,
+    "categoryTags": [
+        "othermedia",
+    ],
+    "lines": {
+        "start": [                                            #开始？
+            {
+                "text": "What kind of big brother wouldn't be happy to have a sister like myself?",
+            },
+            {
+                "text": "Big Bro~ Big Bro~ Give Momona a good chance to show off!",
+            },
+            {
+                "text": "Combination of Stupid Brother and Cute Sister, heheh~",
+            },
+        ],
+        "start_boss": [                                    #打boss
+            {
+                "text": "I hear this ship has a lot of stories, can big brother tell it to Momona?",
+            },
+        ],
+        "retreat": [                                            #撤退
+            {
+                "text": "Big Bro!Momona will retreat and refit for now, be sure to comeback safely!",
+            },
+        ],
+        "out_of_missiles": [                                #用完导弹
+            {
+                "text": "Stupid Brother only prepared this little bit of missiles for sis.",
+            },
+            {
+                "text": "Sis wants to carry more missle, pretty please, big bro.",
+            },
+            {
+                "text": "Big bro bought this missile with his money, so little sis won't hesitate in using them~",
+            },
+        ],
+        "engaged": [                                     #舰船部署
+            {
+                "text": "Momona misses big bro!",
+            },
+            {
+                "text": "Stupid big bro really need Momona's help.",
+            },
+            {
+                "text": "Brother and Sister's combination, can't miss a single one.",
+            },
+            {
+                "text": "Heheh, don't forget to reward your little sis after this battle, big bro.",
+            },
+        ],
+        "need_help": [                                         #需要帮助
+            {
+                "text": "Hmph, stupid brother promised to protect his little sis.",
+            },
+            {
+                "text": "Will big bro come save little sis like the princes in the stories?",
+            },
+            {
+                "text": "Stupid brother! Your little sis is getting kidnapped by the bad guys!",
+            },
+            {
+                "text": "Maybe big bro will pay attention to little sis if I cry a little.",
+            },
+        ],
+        "pursuing": [                                               #发动进攻
+            {
+                "text": "Stupid brother, that's not how you fly a ship!",
+            },
+            {
+                "text": "Big brother, come and use the special combination attack with little sis.",
+            },
+            {
+                "text": "Brother and Sister as one heart, none shall stand in our way!",
+            },
+        ],
+        "running": [                                        #后撤
+            {
+                "text": "Momona is going to hide behind big brother.",
+            },
+            {
+                "text": "The best hiding spot is behind brother's mountain like body.",
+            },
+        ],
+        "hull_90": [                                     #90%生命值
+            {
+                "text": "A big bro won't make his little sis drive a junk ship, right~",
+            },
+            {
+                "text": "The ship got scratched!Even if big bro doesn't mind, I do.",
+            },
+        ],
+        "hull_50": [
+            {
+                "text": "Big bro!Little sis need you to show me how its done in person!",
+            },
+            {
+                "text": "Can't let big bro down.",
+            },
+        ],
+        "hull_30": [
+            {
+                "text": "Could big bro really be an idiot, I'm like this and he still isn't coming......",
+            },
+            {
+                "text": "Could big bro be angry at me, and thats why he isn't coming to help?! Impossible!",
+            },
+        ],
+        "overload": [                					#过载
+            {
+                "text": "Wouldn't it be great if the overload can be passed onto big bro's ship?",
+            },
+            {
+                "text": "Big bro~can you teach little sis how to quickly get rid of overload~",
+            },
+            {
+                "text": "The control station is all biribiri right now.",
+            },
+        ],
+        "death": [							#沉船
+            {
+                "text": "Ugh,I let idiot bro down.",
+            },
+            {
+                "text": "BIG!BRO!I!D!I!O!T!",
+            },
+            {
+                "text": "Big bro better comfort me properly tonight.",
+            },
+            {
+                "text": "Big bro! That's the one that was bullying your sister, hurry and help me get back at it!",
+            },
+        ],
+        "victory": [							#胜利
+            {
+                "text": "I Won! As reward Momona can hug big bro as she goes to sleep tonight~",
+            },
+            {
+                "text": "Big bro is so lucky to have the world's cutest, smartest little sister!",
+            },
+            {
+                "text": "Heh, watch me hug big bro from behind. Aiya~It's a hologram!",
+            },
+            {
+                "text": "So tired, since big bro is busy, I'll sleep on big bro's bed for now~",
+            },
+            {
+                "text": "Hmm, stupid brother has uppgraded to not so stupid but still stupid big brother in my heart.",
+            },
+        ],
+    },
+}

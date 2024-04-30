@@ -1,0 +1,7 @@
+id,name,short,desc,cost,isBonus,isGolden,spritePath,effectPlugin,extra1,extra2,source,tags,spriteAuthor
+,,,,,,,,,,,,,
+FM_FateOfSixtyYears,Fate of Sixty Years,Fate Two Hundred Cycles After the Great Collapse,"The payment cost for crew members has increased to stellars %s. The crew supply within all markets will decrease based on market size, reducing by %s/%s/%s from large to small.",2,FALSE,,graphics/icons/ungp/FM_FateOfSixtyYears.png,data.ungp.FM_FateOfSixtyYears,,,Gensoukyou Manufacture,,game-icons.net
+FM_PointdeviceMode,Perfect Mode,Purified Existence,Each D-Mods on your ships will now incur a %s reduction in weapon ranges.,2,FALSE,,graphics/icons/ungp/FM_PointdeviceMode.png,data.ungp.FM_PointdeviceMode,,,Gensoukyou Manufacture,,game-icons.net
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,

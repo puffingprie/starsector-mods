@@ -1,0 +1,133 @@
+{
+  "hullName": "Cavos",
+  "hullId": "mi_cavos",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/cavos.png",
+  "style": "LOW_TECH",
+  "height": 98,
+  "width": 76,
+  "center": [38, 40],
+  "collisionRadius": 96,
+  "shieldCenter": [11, -0],
+  "shieldRadius": 75,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 180,
+      "locations": [-17, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 90,
+      "locations": [8, 24]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -90,
+      "locations": [8, -24]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 215,
+      "angle": 0,
+      "locations": [22, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [41, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 215,
+      "angle": 45,
+      "locations": [32, 19]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 215,
+      "angle": -45,
+      "locations": [32, -19]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-35, -3],
+      "length": 29.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-35, 3],
+      "length": 29.5,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-34.5, -14.5],
+      "length": 48,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-34.5, 14.5],
+      "length": 48,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -34, -17.5,
+    -30.5, -31,
+    -17.5, -30,
+    -10.5, -24.5,
+    -4, -27,
+    -9, -33.5,
+    6.5, -37,
+    27, -34,
+    50, -20,
+    50, 20,
+    27, 34,
+    6.5, 37,
+    -9, 33.5,
+    -4, 27,
+    -10.5, 24.5,
+    -17.5, 30,
+    -30.5, 31,
+    -34, 17.5
+  ]
+}

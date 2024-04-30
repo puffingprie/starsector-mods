@@ -1,0 +1,47 @@
+{
+  "variantId": "acs_legion_xiii_standard",
+  "hullId": "acs_legion_xiii",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "reinforcedhull",
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "squall",
+        "WS 001": "squall",
+        "WS 002": "acs_velites_pod",
+        "WS 003": "acs_velites_pod",
+        "WS 004": "acs_medium_arty",
+        "WS 005": "dualflak",
+        "WS 007": "acs_medium_arty",
+        "WS 008": "acs_small_flakhag",
+        "WS 009": "acs_small_flakhag",
+        "WS 014": "acs_small_flakhag",
+        "WS 015": "acs_small_flakhag",
+        "WS 018": "acs_small_lasgun",
+        "WS 019": "acs_small_lasgun",
+        "WS 020": "acs_small_flakhag",
+        "WS 021": "acs_small_flakhag",
+        "WS0001": "acs_small_flakhag",
+        "WS0002": "acs_small_flakhag"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "acs_trooper_Fighter_wing",
+    "acs_trooper_Fighter_wing",
+    "acs_trooper_Fighter_wing",
+    "acs_trooper_Fighter_wing"
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "hullName": "Buffalo Mk.IV",
+  "hullId": "acs_mil_buffalo",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/acs_milbuffalo.png",
+  "style": "LOW_TECH",
+  "height": 155,
+  "width": 103,
+  "center": [51.5, 77.5],
+  "collisionRadius": 119,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 102,
+  "viewOffset": 0,
+  "builtInMods": [
+    "frontshield",
+    "rugged",
+    "repair_gantry",
+    "converted_hangar"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [18, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 320,
+      "angle": 0,
+      "locations": [57.5, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 320,
+      "angle": 180,
+      "locations": [-41, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-15.5, 31.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-72, 25],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-72, -25],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-72.5, 16],
+      "length": 46.5,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-72.5, -16],
+      "length": 46.5,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-74, 7],
+      "length": 54,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-74, -7],
+      "length": 54,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    67, -5.5,
+    54.5, -40.5,
+    -43, -41.5,
+    -51.5, -28.5,
+    -69, -27.5,
+    -69, 27.5,
+    -51.5, 28.5,
+    -43, 41.5,
+    54.5, 40,
+    66.5, 13
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "FM_PetaFlare",
+  "specClass": "projectile",
+  "projectileSpecId": "FM_PetaFlare_project",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "everyFrameEffect": "data.weapons.everyFrame.FM_PetaFlareEveryFrame",
+  "turretSprite": "graphics/weapons/FM_PetaFlare/FM_PetaFlare_turret00.png",
+  "hardpointSprite": "graphics/weapons/FM_PetaFlare/FM_PetaFlare_hardpoint00.png",
+  "glowColor": [
+    254,
+    239,
+    200,
+    200
+  ],
+  "turretOffsets": [
+    27,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    25.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "numFrames": 4,
+  "frameRate": 4,
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 34,
+    "spread": 15,
+    "particleSizeMin": 15,
+    "particleSizeRange": 15,
+    "particleDuration": 0.6,
+    "particleCount": 30,
+    "particleColor": [
+      255,
+      239,
+      200,
+      160
+    ]
+  },
+  "fireSoundOne": "FM_PetaFlare_fire01",
+  "fireSoundTwo": "FM_PetaFlare_fire02"
+}

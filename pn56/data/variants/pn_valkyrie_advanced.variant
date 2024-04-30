@@ -1,0 +1,30 @@
+{
+    "displayName": "Advanced",
+    "fluxCapacitors": 0,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "pn_valkyrie",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "pn_valkyrie_advanced",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "pn_skscannon",
+                "WS0006": "pn_skscannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "pn_vulcan",
+                "WS0002": "pn_vulcan",
+                "WS0003": "pn_vulcan",
+                "WS0004": "pn_vulcan"
+            }
+        }
+    ]
+}

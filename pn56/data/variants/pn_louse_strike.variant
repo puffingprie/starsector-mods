@@ -1,0 +1,27 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 18,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "pn_louse",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "pn_louse_strike",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "pn_ivp"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "pn_jetlauncher"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "pn_vulcan"}
+        }
+    ]
+}

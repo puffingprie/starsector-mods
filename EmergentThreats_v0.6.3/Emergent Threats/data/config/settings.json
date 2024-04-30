@@ -1,0 +1,27 @@
+{
+	"designTypeColors":{
+        "Sindrian Diktat":[160,0,95,255],
+	},
+	"graphics":{
+		"vice_ships":{
+			"resplendent_adaptive_flight_command":"graphics/vice/ships/hidden/resplendent_adaptive_flight_command.png",
+			"resplendent_adaptive_gravity_drive":"graphics/vice/ships/hidden/resplendent_adaptive_gravity_drive.png",
+			"resplendent_base":"graphics/vice/ships/hidden/resplendent.png",
+			
+			"equalizer_ex":"graphics/vice/ships/ex/equalizer_ex.png",
+			"equalizer_ex_classic":"graphics/vice/ships/ex/classic/equalizer_ex.png",
+			"flamebreaker_ex":"graphics/vice/ships/ex/flamebreaker_ex.png",
+			"flamebreaker_ex_classic":"graphics/vice/ships/ex/classic/flamebreaker_ex.png",
+			"hyperion_ex":"graphics/vice/ships/ex/hyperion_ex.png",
+			"hyperion_ex_classic":"graphics/vice/ships/ex/classic/hyperion_ex.png",
+			"incursion_ex":"graphics/vice/ships/ex/incursion_ex.png",
+			"incursion_ex_classic":"graphics/vice/ships/ex/classic/incursion_ex.png",
+			"iris_ex":"graphics/vice/ships/ex/iris_ex.png",
+			"iris_ex_classic":"graphics/vice/ships/ex/classic/iris_ex.png",
+			"mandrake_ex":"graphics/vice/ships/ex/mandrake_ex.png",
+			"mandrake_ex_classic":"graphics/vice/ships/ex/classic/mandrake_ex.png",
+			"tigershark_ex":"graphics/vice/ships/ex/tigershark_ex.png",
+			"tigershark_ex_classic":"graphics/vice/ships/ex/classic/tigershark_ex.png",
+		},
+	},
+}

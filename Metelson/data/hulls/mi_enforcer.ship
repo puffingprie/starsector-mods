@@ -1,0 +1,177 @@
+{
+  "hullName": "Custos",
+  "hullId": "mi_enforcer",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/enforcer_base.png",
+  "style": "MIDLINE",
+  "height": 136,
+  "width": 136,
+  "center": [68, 67],
+  "collisionRadius": 132.185471,
+  "shieldCenter": [-3, -0],
+  "shieldRadius": 100.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 90,
+      "locations": [-13, 44]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 125,
+      "angle": 30,
+      "locations": [9, 25]
+    },
+    {
+      "id": "WS 003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 125,
+      "angle": 0,
+      "locations": [20, -0]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 125,
+      "angle": -30,
+      "locations": [9, -25]
+    },
+    {
+      "id": "WS 005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -90,
+      "locations": [-13, -44]
+    },
+    {
+      "id": "WS 006",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [28.5, 48]
+    },
+    {
+      "id": "WS 007",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [38.5, 31]
+    },
+    {
+      "id": "WS 008",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [28.5, -48]
+    },
+    {
+      "id": "WS 009",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [38.5, -31]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-64, -19],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-64, 19],
+      "length": 32,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-66, -26],
+      "length": 64,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-66, 26],
+      "length": 64,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-64.5, -34.5],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-64.5, 34.5],
+      "length": 32,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    67.5, -8,
+    64, -18,
+    36, -15.5,
+    34, -20,
+    40, -23.5,
+    41, -39,
+    31, -40,
+    31, -56,
+    7.5, -57,
+    -14, -65.5,
+    -62.5, -41.5,
+    -64.5, -22,
+    -59.5, -17,
+    -29.5, -6,
+    -29.5, 6,
+    -59.5, 17,
+    -64.5, 22,
+    -62.5, 41.5,
+    -14, 65.5,
+    7.5, 57,
+    31, 56,
+    31, 40,
+    41, 39,
+    40, 23.5,
+    34, 20,
+    36, 15.5,
+    64, 18,
+    67.5, 8
+  ]
+}

@@ -1,0 +1,50 @@
+{
+    "displayName": "Navy",
+    "fluxCapacitors": 0,
+    "fluxVents": 19,
+    "hullId": "sunder_LG",
+    "hullMods": [
+        "degraded_engines",
+        "degraded_shields",
+        "vice_attuned_emitter_diodes",
+        "targetingunit"
+    ],
+    "permaMods": [
+        "degraded_engines",
+        "degraded_shields"
+    ],
+    "sMods": [],
+    "variantId": "sunder_LG_mission",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "vice_siege_burst"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "atropos",
+                "WS 005": "atropos"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "gravitonbeam",
+                "WS 004": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "vulcan",
+                "WS 007": "vulcan",
+                "WS 008": "vulcan"
+            }
+        }
+    ]
+}

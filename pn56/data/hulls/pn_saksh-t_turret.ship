@@ -1,0 +1,102 @@
+{
+  "bounds": [
+    -33,
+    10,
+    12.5,
+    32,
+    20.5,
+    14.5,
+    20.5,
+    -14.5,
+    12.5,
+    -32,
+    -33,
+    -10
+  ],
+  "builtInWeapons": {
+    "WS0001": "pn_heavyburst",
+    "WS0002": "pn_heavyburst"
+  },
+  "center": [
+    28,
+    34
+  ],
+  "collisionRadius": 37.619808,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 6.5,
+      "location": [
+        -33.5,
+        -0
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 6
+    },
+    {
+      "angle": -43.726971,
+      "contrailSize": 4.021658,
+      "length": 10.918176,
+      "location": [
+        14.5,
+        -26
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 4.021658
+    },
+    {
+      "angle": 43.726971,
+      "contrailSize": 4.021658,
+      "length": 10.918176,
+      "location": [
+        14.5,
+        26
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 4.021658
+    }
+  ],
+  "height": 61,
+  "hullId": "pn_saksh-t_turret",
+  "hullName": "Saksh-t Turret",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 35.362408,
+  "spriteName": "graphics/pn/ships/pn_saksh-t_turret.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 60,
+      "id": "WS0001",
+      "locations": [
+        13,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 60,
+      "id": "WS0002",
+      "locations": [
+        13,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 56
+}

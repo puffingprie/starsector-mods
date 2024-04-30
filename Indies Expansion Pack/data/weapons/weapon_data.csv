@@ -1,0 +1,140 @@
+name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
+Mounted LMG,acs_mg,1,,200,300,,30,,1,60,2,,,,KINETIC,,,0,0.2,3,,0,10,1,15,,750,,,10,"PD, SYSTEM ","no_sell, no_drop, no_drop_salvage",,,,Point Defense,,,,,,,,,,0.5
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Mounted MG,acs_hmg,2,,300,300,,35,,1,65,3,,,,KINETIC,,,0,0.1,2,,0,15,1,15,,800,,,10,"PD, SYSTEM ","no_sell, no_drop, no_drop_salvage",,,,Point Defense,,,,,,,,,,2
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Mounted HMG,acs_vulcan,2,,400,350,,40,,1,75,5,,,,FRAGMENTATION,,,0,0.05,1,,0,20,1,15,,850,,,10,"PD, SYSTEM ","no_sell, no_drop, no_drop_salvage",,,,Point Defense,,,,,,,,,,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+gunner_head,acs_head_gunner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3
+watchman_head,acs_head_watchman,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4
+trooper_head,acs_head_trooper,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Mounted HMG,acs_watchman_vulcan,2,,400,350,,40,,1,75,5,,,,FRAGMENTATION,,,0,0.05,1,,0,20,1,15,,850,,,10,"PD, SYSTEM ","no_sell, no_drop, no_drop_salvage",,,,Point Defense,,,,,,,,,,1
+Mounted MG,acs_trooper_hmg,2,,300,300,,35,,1,65,3,,,,KINETIC,,,0,0.1,2,,0,15,1,15,,800,,,10,"PD, SYSTEM ","no_sell, no_drop, no_drop_salvage",,,,Point Defense,,,,,,,,,,2
+Mounted LMG,acs_peasant_mg,1,,200,300,,30,,1,60,2,,,,KINETIC,,,0,0.2,3,,0,10,1,15,,750,,,10,"PD, SYSTEM ","no_sell, no_drop, no_drop_salvage",,,,Point Defense,,,,,,,,,,0.5
+Mounted Chaingun,acs_gunner_chaingun,2,,1500,450,,85,,3,30,8,,,,HIGH_EXPLOSIVE,,,0,0.15,1,,0,25,1,10,,800,,,30,SYSTEM ,"no_sell, no_drop, no_drop_salvage",,,,Anti Armor,,,,,,,,,,4.5
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Drifter Deco,acs_drifter_deco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Mounted Chaingun,acs_chaingun,2,,1500,450,,85,,3,30,8,,,,HIGH_EXPLOSIVE,,,0,0.15,1,,0,25,1,10,,800,,,30,SYSTEM ,"no_sell, no_drop, no_drop_salvage",,,,Anti Armor,,,,,,,,,,4.5
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Compact Assault Gun,acs_minilag,1,,300,500,,20,,3,40,5,,,,HIGH_EXPLOSIVE,20,,0,0.4,1,,0,5,1,5,,800,,,30,SYSTEM ,"no_sell, no_drop, no_drop_salvage",,,,Anti Armor,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Toyhammer-class Torpedo (S),acs_toyhammer_small,0,,20,1000,,1200,,5,10,3,15,0.1,6,FRAGMENTATION,0,,0,20,3,1,0,0,0,0,,500,40,4,250,"STRIKE, USE_VS_FRIGATES","strike8, rocket3, base_bp",,,,Torpedo,Fast,None,,,,,,,TRUE,
+Toyhammer-class Torpedo (Double) (S),acs_toyhammer_small2,0,,40,1000,,1200,,5,10,6,30,0.06,12,FRAGMENTATION,0,,0,20,6,1,0,0,0,0,,500,40,4,250,"STRIKE, USE_VS_FRIGATES","strike8, rocket3, base_bp",,,,Torpedo,Fast,None,,,,,,,TRUE,
+Toyhammer-class Torpedo (M),acs_toyhammer_medium,0,,100,1000,,1200,,5,10,10,60,0.05,16,FRAGMENTATION,0,,0,20,8,1,0,0,0,0,,500,40,4,250,"STRIKE, USE_VS_FRIGATES","strike8, rocket3, base_bp",,,,Torpedo,Fast,None,,,,,,,TRUE,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Kothar Assault Gun,acs_medium_hag,1,,2000,1000,,70,,5,20,10,,,,HIGH_EXPLOSIVE,45,,0,0.25,1,,0,10,2,10,,800,,,50,,"he13, lowtech_bp, merc",,,,Anti Armor,,,,,,,,,,
+DEPRECATED Sethlans Blast Gun,acs_medium_minihag,1,,1000,700,,80,,5,25,8,,,,HIGH_EXPLOSIVE,30,,0,0.4,1,,0,10,2,5,,600,,,50,"PD, PD_ALSO","no_sell, no_drop, no_drop_salvage",,,,General,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ulka Micro Flak,acs_small_flakhag,1,,600,400,,40,,2,65,4,,,,FRAGMENTATION,20,,0,0.2,3,0.12,0,30,3,,,850,,,30,PD,"pd13, SR, lowtech_bp, merc",,,,Point Defense (Area),,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Mook Rail,acs_mookrailslauncher,1,0.8,3500,4000,,500,,5,0,7,3,0.03,3,HIGH_EXPLOSIVE,0,,0.5,4.5,3,0.5,0,0,0,0,,150,350,4,1600,"DO_NOT_AIM, GUIDED_POOR, DO_NOT_CONSERVE","utility13, missile6, missile_bp, merc",,,,Long Range Support,Fast,Fighter,,,Launches automated Mook Drones. Not orderable after firing.,,Drone launched will always be at 75% CR.,,,
+Watchtower Rail,acs_watchtowerrailslauncher,1,0.8,3500,4000,,500,,1000,0,7,2,0.002,1,HIGH_EXPLOSIVE,0,,1,178,1,0.15,0,0,0,0,,150,350,4,1000000,"DO_NOT_AIM, GUIDED_POOR, DO_NOT_CONSERVE, SYSTEM","no_sell, no_drop, no_drop_salvage",,,,Long Range Support,Fast,Fighter,,,Construct an Stationary Defensive Emplacement. Not orderable after firing.,,Drone launched will always be at 75% CR.,,,
+Big Mook Rail,acs_bigmookrailslauncher,1,0.8,3500,4000,,500,,1000,0,7,6,0.008,1,HIGH_EXPLOSIVE,0,,2,178,2,0.15,0,0,0,0,,150,350,4,1000000,"DO_NOT_AIM, GUIDED_POOR, DO_NOT_CONSERVE, SYSTEM","no_sell, no_drop, no_drop_salvage",,,,Long Range Support,Fast,Fighter,,,Launches automated Bigmook Drones. Not orderable after firing.,,Drone launched will always be at 75% CR.,,,
+Rorarii Rail,acs_rorariirailslauncher,1,0.8,3500,4000,,500,,1000,0,7,12,0.02,1,HIGH_EXPLOSIVE,0,,2,178,2,0.15,0,0,0,0,,150,350,4,1000000,"DO_NOT_AIM, GUIDED_POOR, DO_NOT_CONSERVE, SYSTEM ","no_sell, no_drop, no_drop_salvage",,,,Long Range Support,Fast,Fighter,,,Launches manned Rorarii Deployable Frigate. Not orderable after firing.,,Drone launched will always be at 75% CR.,,,
+Velites MRM,acs_velites_single,0,,80,2000,,200,,15,30,2,9,0.2,9,ENERGY,0,,0,10,3,1.5,0,0,0,,,300,100,12.5,150,"DO_NOT_AIM, USE_VS_FRIGATES, DO_NOT_CONSERVE","missile6, strike1, base_bp",,,,Finisher,Medium,Medium,,,,,,,TRUE,11.61
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,acs_silly_collossus_deco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,acs_silly_collossus_deco2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Velites MRM Pod,acs_velites_pod,0,,250,2000,,200,,15,10,6,36,0.2,18,ENERGY,0,,0,10,9,0.4,0,0,0,,,300,100,12.5,150,"DO_NOT_AIM, USE_VS_FRIGATES, DO_NOT_CONSERVE","utility13, missile7, missile_bp, merc",,,,Finisher,Medium,Medium,,,,,,,TRUE,11.61
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Vigiles GPMG,acs_backupmg,0,,25,450,,3,,1,50,0,,,,FRAGMENTATION,1,,0,0.12,3,0.12,0,30,1,15,,1500,,5,,PD,"pd13, SR, base_bp, merc",,,,Backup Point Defense,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Light Lascannon,acs_small_lascannon,2,,500,700,,500,,10,10,6,,,,ENERGY,80,,0,3,1,,0,15,3,10,,400,,,200,,"he6, lowtech_bp, merc",,,,Anti Armor,,,,,,,,,,
+Heavy Lascannon,acs_medium_lascannon,3,,1000,900,,500,,10,5,12,,,,ENERGY,160,,0,4.4,2,1,0,5,1,10,,400,,,30,,"he16, LR, remnant, lowtech_bp, merc",,,,Anti Armor,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Light Lasgun Battery,acs_small_lasgun,1,,100,800,,35,,0,50,4,,,,ENERGY,25,,0,0.3,1,,,,,,,1000,,,,"PD, PD_ALSO","he8, lowtech_bp, merc",,,,General,,,,,,,,,,
+Heavy Lasgun Battery,acs_medium_lasgun,1,,1000,1000,,35,,0,30,8,,,,ENERGY,50,,0,0.2,1,,,,,,,1000,,,,"PD, PD_ALSO","he13, lowtech_bp, merc",,,,General,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Exteminator Autocannon,acs_exteminator,1,,2000,1000,,350,,40,50,12,,,,FRAGMENTATION,50,,0,0.5,1,,0,5,1,15,,1900,,,50,"PD, PD_ALSO","he13, lowtech_bp, merc",,,,General/Anti Frigate,,,,,,,,,,
+Chain Thumper,acs_autothumper,0,,1200,800,,100,,2,40,10,,,,FRAGMENTATION,25,,0,0.1,20,0.1,0,10,1,20,,800,,,30,"PD, PD_ALSO","he13, lowtech_bp, merc",,,,General,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Modified Autopulse Laser,acs_tpc_autopulse,1,,100000,1000,,200,,0,0,,25,5,,ENERGY,80,,0.05,0.05,1,,0,10,2,5,,1000,,,,"SYSTEM,SHOW_IN_CODEX",,,,,General,,General,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Mark X Autocannon,acs_mark10,0,,4000,1000,,350,,20,10,20,,,,KINETIC,200,,0,0.5,1,,0,15,2,10,,800,,,100,,"kinetic18, base_bp, merc",,,,Anti Shield,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Plumbata MLRS,acs_medium_squall,0,,1000,2500,,200,,10,20,9,120,1,60,FRAGMENTATION,0,,0,10,20,0.5,0,0,0,0,,500,100,4.75,200,"DO_NOT_AIM, CONSERVE_3, STRIKE, USE_VS_FRIGATES, MISSILE_SPREAD","utility13, missile7, missile_bp, merc",,,,Suppression,,Very Fast,Special,,,Unguided after a brief initial aiming stage.,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Izrail Reaper Launcher,acs_izrael_reaper,2,,20000,1200,,4000,,75,20,35,15,0.012,3,HIGH_EXPLOSIVE,0,,0,9,3,1,0,0,0,0,,400,100,3.5,500,STRIKE,"strike18, rocket14, rare_bp, merc",,,,Torpedo,,Fast,None,,,,,,TRUE,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sethlans Artillery Cannon,acs_medium_arty,0,0.6,3000,1500,,500,0,400,7,12,,,,HIGH_EXPLOSIVE,500,,0,6,,,5,10,5,10,,300,300,30,250,"BOMB, DO_NOT_CONSERVE","he18, lowtech_bp, merc",,,,Area Explosive,Extremely Slow,,Slow,Terrible,"Reaching the %s, triggers an explosion, causing damage in a %s.","maximum range, or approaching a target | great area",,"maximum range, or approaching a target | great area",,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Mega Thumper,acs_large_thumper,0,,2000,900,,100,,2,35,18,,,,FRAGMENTATION,5,,0,0,20,0.05,0,10,1,20,,800,,,30,"PD, PD_ALSO","he13, lowtech_bp, merc",,,,General,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sethlans Artillery Barrage,acs_large_arty,0,0.6,6000,1500,,500,0,400,7,20,,,,HIGH_EXPLOSIVE,500,,0,10,3,0.2,5,10,5,10,,300,300,30,250,"BOMB, DO_NOT_CONSERVE","he18, lowtech_bp, merc",,,,Area Explosive,Extremely Slow,,Slow,Terrible,"Reaching the %s, triggers an explosion, causing damage in a %s.","maximum range, or approaching a target | great area",,"maximum range, or approaching a target | great area",,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Vulcan Mk.II,acs_vulcanmk2,1,,200,300,,25,,1,75,5,,,,FRAGMENTATION,1,,0,0.1,3,0.05,1,30,1,10,,800,,,10,PD,"pd7, SR, lowtech_bp, merc",,,,Point Defense,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Pulsed PD Laser,acs_pd_laser,0,,100,350,,35,,0,50,3,,,,ENERGY,15,,0,0.2,1,,,,,,,1000,,,,"PD, PD_ALSO","pd7, beam7, SR, lowtech_bp, hightech_bp, midline_bp, merc",,,,General,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Mounted MG,acs_watchman_hmg,2,,300,300,,35,,1,65,3,,,,KINETIC,,,0,0.1,2,,0,15,1,15,,800,,,10,"PD, SYSTEM ","no_sell, no_drop, no_drop_salvage",,,,Point Defense,,,,,,,,,,2
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Vigiles GPMG (F),acs_backupmg_watchmanhead,0,,25,100,,3,,1,50,0,,,,FRAGMENTATION,0,,0,0.12,3,0.12,0,30,1,15,,1500,,5,,"PD_ONLY, SYSTEM","no_sell, no_drop, no_drop_salvage",,,,Backup Point Defense,,,,,,,,,,
+Vigiles GPMG (F),acs_backupmg_trooperhead,0,,25,100,,3,,1,50,0,,,,FRAGMENTATION,0,,0,0.12,3,0.12,0,30,1,15,,1500,,5,,"PD_ONLY, SYSTEM","no_sell, no_drop, no_drop_salvage",,,,Backup Point Defense,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Mounted MG,acs_troopernew_hmg,0,,300,300,,35,,1,65,3,,,,KINETIC,,,0,0.1,2,,0,15,1,15,,800,,,10,"PD, SYSTEM ","no_sell, no_drop, no_drop_salvage",,,,Point Defense,,,,,,,,,,2
+Mounted HMG,acs_watchmannew_hmg,0,,400,350,,40,,1,75,5,,,,FRAGMENTATION,,,0,0.05,1,,0,20,1,15,,850,,,10,"PD, SYSTEM ","no_sell, no_drop, no_drop_salvage",,,,Point Defense,,,,,,,,,,1
+Mounted LMG,acs_peasantnew_mg,0,,200,300,,30,,1,60,2,,,,KINETIC,,,0,0.2,3,,0,10,1,15,,750,,,10,"PD, SYSTEM ","no_sell, no_drop, no_drop_salvage",,,,Point Defense,,,,,,,,,,0.5
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Hellstorm Siege Cannon,acs_large_hellboredakka,2,,8000,1000,,600,,200,5,24,,,,HIGH_EXPLOSIVE,600,,0,1,,,0,20,2,15,,500,,,400,"STRIKE, USE_VS_FRIGATES","he18, lowtech_bp, merc",,,,Anti Armor,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Small Borer (B) Launcher,acs_small_modborerrailslauncher,1,0.8,500,4000,,500,,5,0,7,2,0.03,2,HIGH_EXPLOSIVE,0,,0.5,4.5,2,0.5,0,0,0,0,,150,350,4,1600,"DO_NOT_AIM, GUIDED_POOR, DO_NOT_CONSERVE","utility13, missile6, missile_bp, merc",,,,Long Range Support,Fast,Fighter,,,Launches automated Mook Drones. Not orderable after firing.,,Drone launched will always be at 75% CR.,,,
+Medium Borer (B) Launcher,acs_medium_modborerrailslauncher,1,0.8,1500,4000,,500,,5,0,7,4,0.03,4,HIGH_EXPLOSIVE,0,,0.5,4.5,4,0.5,0,0,0,0,,150,350,4,1600,"DO_NOT_AIM, GUIDED_POOR, DO_NOT_CONSERVE","utility13, missile6, missile_bp, merc",,,,Long Range Support,Fast,Fighter,,,Launches automated Mook Drones. Not orderable after firing.,,Drone launched will always be at 75% CR.,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Mounted GPMG,acs_militianew_gpmg,0,,300,300,,35,,1,65,3,,,,FRAGMENTATION,,,0,0.1,2,,0,15,1,15,,800,,,10,"PD, SYSTEM ","no_sell, no_drop, no_drop_salvage",,,,Point Defense,,,,,,,,,,2
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Militia Drone Launcher,acs_medium_militianewrailslauncher,2,0.8,1500,4000,,500,,5,0,10,4,0.03,3,HIGH_EXPLOSIVE,0,,0.5,4.5,3,0.5,0,0,0,0,,150,350,4,1600,"DO_NOT_AIM, GUIDED_POOR, DO_NOT_CONSERVE","utility13, missile6, derelict",,,,Long Range Support,Fast,Fighter,,,Launches automated Mook Drones. Not orderable after firing.,,Drone launched will always be at 75% CR.,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,48
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,49
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,50
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,51
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,52
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,53
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,54
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,55
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,56
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,57
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,58
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,59
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,60
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,61
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,62
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,63
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,64
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,65
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,66
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,67
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,68
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,69
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,70
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,72
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,73

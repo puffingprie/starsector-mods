@@ -1,0 +1,5 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+axiom_ix_wing,axiom_ix_fighter,"interceptor5, interceptor, high, ixbattlegroup",2,,6,12,V,4000,500,,3,INTERCEPTOR,Interceptor,12,9000,,,,,,,,,,,,,23.1
+dictum_ix_wing,dictum_ix_fighter,"fighter6, fighter, high, ixbattlegroup",2,,7,18,V,4000,600,300,2,FIGHTER,Heavy Fighter,20,12000,,,,,,,,,,,,,1.1
+maxim_ix_wing,maxim_ix_fighter,"bomber6, bomber, high, ixbattlegroup",3,,6,20,BOX,4000,700,300,1,BOMBER,Assault Gunship,20,14000,,,,,,,,,,,,,1.2
+terminus_ix_wing,terminus_ix_drone,"no_drop, no_sell, high",3,,6,0,BOX,0,200,,2,SUPPORT,Point Defense,15,0,,,,,,,,,,,,,19.2

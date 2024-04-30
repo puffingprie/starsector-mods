@@ -1,0 +1,18 @@
+{
+    "displayName": "Kinetic",
+    "fluxCapacitors": 10,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "pn_rs",
+    "hullMods": ["fluxcoil"],
+    "permaMods": [],
+    "variantId": "pn_rs_kinetic",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0001": "pn_saala",
+            "WS0002": "pn_saala"
+        }
+    }]
+}

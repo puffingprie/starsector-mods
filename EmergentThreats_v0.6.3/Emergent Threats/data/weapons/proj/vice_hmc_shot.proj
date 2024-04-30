@@ -1,0 +1,21 @@
+{
+	"id":"vice_hmc_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"onHitEffect":"data.scripts.vice.weapons.HydromagOnHitEffect",
+	"length":50.0,
+	"hitGlowRadius":150,
+	"width":24.0,
+	#"width":12.0,
+	"fadeTime":0.5,
+	"coreColor":[255,255,255,200],
+	"fringeColor":[155,255,30,175],
+	"glowColor":[155,255,30,105],	
+	"glowRadius":60,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+	"bulletSprite":"graphics/missiles/shell_hellbore.png"
+}

@@ -1,0 +1,151 @@
+{
+  "bounds": [
+    -15,
+    3.5,
+    -13,
+    11,
+    4,
+    15.5,
+    15.5,
+    11.5,
+    11.5,
+    2,
+    11.5,
+    -2,
+    15.5,
+    -11.5,
+    4,
+    -15.5,
+    -13,
+    -11,
+    -15,
+    -3.5
+  ],
+  "builtInMods": [
+    "pn_cores"
+  ],
+  "builtInWeapons": {
+    "WS0002": "pn_vulcan",
+    "WS0003": "pn_vulcan",
+    "WS0004": "pn_bombbay",
+    "WS0005": "pn_bombbay"
+  },
+  "center": [
+    18.5,
+    16.5
+  ],
+  "collisionRadius": 22.36068,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 2,
+      "length": 16.5,
+      "location": [
+        -15.5,
+        -0
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 2
+    },
+    {
+      "angle": 180,
+      "contrailSize": 2,
+      "length": 15.5,
+      "location": [
+        -13.5,
+        -8
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 2
+    },
+    {
+      "angle": -180,
+      "contrailSize": 2,
+      "length": 15.5,
+      "location": [
+        -13.5,
+        8
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 2
+    }
+  ],
+  "height": 45,
+  "hullId": "pn_spore-mk2",
+  "hullName": "Spore-MkII",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 21.78302,
+  "spriteName": "graphics/pn/ships/pn_sporemk2.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": -0,
+      "arc": 120,
+      "id": "WS0001",
+      "locations": [
+        -3.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        14.5,
+        3.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        14.5,
+        -3.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        15.5,
+        9
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0005",
+      "locations": [
+        15.5,
+        -9
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 37
+}

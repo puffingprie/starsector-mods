@@ -1,0 +1,540 @@
+{
+	    "vice_white_whale":{
+		"trigger_marketFaction_any": ["independent", "hegemony", "luddic_church", "luddic_path", "persean", "pirates", "player", "sindrian_diktat", "tritachyon"],
+        "trigger_marketFaction_alliedWith": true,
+		"trigger_player_minLevel": 8,
+		
+		#BOUNTY DESCRIPTION
+		"job_name": "To Hunt a White Whale",
+		"job_description": "You catch wind of the Azure Fire returning from its latest raid. This infamous pirate battleship leads an armada of rogues and misfits specialized in ambushing other tech-miners on the edges of the sector. Many prospectors have already met a grisly end at their hands. \nWhile the leader of the scoundrels tends to change often, the armada of \"Polite Collectors\" as they call themselves has remained a cohesive group for decades, posing a constant threat to explorers. They rarely make an appearance anywhere near the core worlds, but the need to sell their stolen goods and gain resupply has brought them to the pirate port of ==$location== in the ==$system system==, where they are expected to stay for a time. If you are feeling daring, this would be a great opportunity to raid the raiders, and take their their booty for yourself.",
+		
+		"job_comm_reply": "Among an unusually well maintained pirate fleet, a single ship stands out. The unmistakable Azure Fire takes the lead in closing the distance with you. The image of a self satisfied pirate queen soon appears on your screen. Her eyes wide with naked greed, she is all but salivating at the though of raiding your fleet for any signs of advanced technology.\n\n\"What a pretty ship you have there. Do be a dear and power down for boarding, before we start to shoot. Or don't. We could use the practice.\"\n\nThe message cuts out amidst the sadistic cheers of her bridge crew. However, despite all its extensive upgrades, the Azure Fire is still build upon a commercial freighter. Flanking the ship should be enough to bring it down in short order, if you can get its escorts off your back.",
+		
+		"job_intel_success": "The salvage operation aboard the Azure Fire is a hair raising ordeal, as the ship interior more resembles a maze, or nest, than a proper starship. Every section has been built and rebuilt countless times, in an endless search for ever greater performance. The captain and her crew were obviously talented in hull restoration, and kept not only their flagship but the entire pirate fleet in pristine condition using automation technology they must have recovered on a raid long ago. \nDeep in the heart of the Azure Fire's twisted hull, you uncover blueprints for a strange device. The ==Abomination Interface== is meant to connect all manner of exotic technology to Remnant AI systems, which offers a tantalizing clue for how this ship came to be. However, the device stubbornly refuses to work with most conventional ship designs. You will have to find some other means of making use of the technology you uncovered.",
+		
+		"job_type": "assassination", 
+		"job_credit_reward": 0,
+		"job_reward_scaling": 0,
+		"job_reputation_reward": 0,
+		"job_item_reward": {
+			"modspec vice_abomination_interface":1,
+			"modspec vice_adaptive_drone_bay":1,
+			"modspec vice_adaptive_reactor_chamber":1,
+			"modspec vice_adaptive_thruster_control":1,
+			"ship_bp vice_mimesis_p":1,
+			"ship_bp vice_praxis":1,
+		},
+		"job_show_type": true,
+		"job_show_captain": true,
+		"job_show_fleet": "vanilla",
+		"job_show_distance": "exact",
+		"job_difficultyDescription": "auto",
+		"job_pick_option": "Begin the hunt",
+		"job_memKey": "$vice_white_whale",
+		
+		#TARGET COMMANDER
+		"target_first_name": "Gabrielle",
+        "target_last_name": "Delacroix",
+		"target_portrait": "graphics/portraits/portrait29.png",
+		"target_gender": "FEMALE",
+		"target_rank": "spaceCaptain",
+		"target_post": "warlord",
+		"target_personality": "aggressive",
+		"target_isAI": false,
+		"target_level": 6,
+		"target_elite_skills": 3,
+        "target_skills": {
+			"combat_endurance":1,
+			"field_modulation":2,
+			"target_analysis":1,
+			"missile_specialization":2,
+			"gunnery_implants":1,
+			"ordnance_expert":2,
+        },
+		
+		#TARGET FLEET
+		"fleet_name": "The Polite Collectors",
+        "fleet_faction": "pirates",
+		"fleet_flagship_variant": "vice_the_azure_fire",
+		"fleet_flagship_name": "Azure Fire",
+		"fleet_flagship_recoverable": true,
+		"fleet_flagship_autofit": false,
+		"fleet_preset_ships": {
+			"vice_mimesis_p_attack": 2,
+			"vice_praxis_attack": 4,
+		},
+		"fleet_preset_autofit": false,
+		"fleet_scaling_multiplier": 0,
+		"fleet_min_FP": 120, 
+		"fleet_composition_faction": "pirates",
+		"fleet_composition_quality": 2,
+		"fleet_transponder": true,
+		"fleet_no_retreat": true,
+        "fleet_behavior": "GUARDED",
+		
+		#LOCATION
+		"location_entitiesID": [
+            "donn",
+        ],
+		"location_distance": "CLOSE",
+		"location_marketFactions": [
+			"pirates"
+		],
+		"location_themes": [
+		],
+		"location_entities": [
+		],
+	},
+	"vice_gaining_vantage":{
+		"trigger_marketFaction_any": ["independent", "hegemony", "luddic_church", "luddic_path", "persean", "pirates", "player", "sindrian_diktat", "tritachyon"],
+        "trigger_marketFaction_alliedWith": true,
+		"trigger_player_minLevel": 8,
+		"trigger_memKeys_any": {
+            "$vice_high_and_mighty": true,
+        },
+		#BOUNTY DESCRIPTION
+		"job_name": "Gaining Vantage",
+		"job_description": "Your search of the Azure Fire's databanks has yielded an interesting lead. On multiple occasions, the Polite Collectors sold their stolen goods to a mysterious buyer, who always paid a hefty premium but otherwise kept tight lipped about any information pertaining to themselves. Curiosity got the better of Gabrielle Delacroix, and during her last hand-off, the captain of the Azure Fire slipped a tracker into her cargo. She traced its destination to the ==$system system==, to a ship that should not exist. If you want to follow the treasure, then you know where to look next.",
+		
+		"job_comm_reply": "As you approach the TTS Event Horizon, your tactical display soon makes it clear you are not facing a single ship, but an entire fleet. Spacial distortions radiate from the flagship like a cancer across the skein of spacetime, while the shadows that surround it reveal the presence of more ships rapidly emerging from both phase space and... elsewhere. \n\nA middle aged man in a neatly pressed suit appears on screen. He has the arrogant bearing of a Tri-Tachyon senior executive, although the corporation at large likely has very little idea of what's happening here. Galen addresses you in a tone of cool disdain. \n\n\"Did Gabrielle put you up to this? No matter. I'll have my answers soon enough. Try to keep your brain intact while you die, captain. I'm going to need it.\"\n\nBattle has been given, and there will be no quarter.",
+		
+		"job_intel_success": "Much of the technology aboard the TTS Event Horizon is salvaged intact, revealing a treasure trove of research on warship automation, phase fields, and temporal dynamics. Among them is a set of design blueprints for an advanced phase destroyer unknown even to the shipwrights of Culann. Additional records aboard the TTS Event Horizon indicate it was used as a mobile research facility by a group of transhumanists within the Tri-Tachyon Corporation. This \"Vantage Group\" has spent decades introducing cutting edge yet often socially destabilizing technology to the Sector, all in the name of progress. \nMost disturbing of all, the group appears to have been in regular contact with a subset of the AI Remnant. The Vantage Group is no more, but the Diamond Nexus remains hidden in the shadows.",
+		
+		"job_type": "assassination", 
+		"job_credit_reward": 0,
+		"job_reputation_reward": 0,
+		"job_reward_scaling": 0,
+		"job_item_reward": {
+			"modspec vice_adaptive_gravity_drive":1,
+			"modspec vice_adaptive_phase_coils":1,
+			"modspec vice_adaptive_temporal_shell":1,
+			"modspec vice_interdiction_array":1,
+			"ship_bp vice_mutilator":1,
+			"vice_signal_masker_device":1,
+		},
+		"job_show_type": true,
+		"job_show_captain": false,
+		"job_show_fleet": "flagship",
+		"job_show_distance": "exact",
+		"job_difficultyDescription": "What little information you can find on the TTS Event Horizon suggests it was lost during the First AI War. But someone has clearly found it, and has been using it to hoard all manner of invaluable and illicit technology ever since. Whether out of a sense of greed, or duty to the Sector, you have yourself a target.",
+		"job_pick_option": "Hunt down a ghost ship",
+		"job_memKey": "$vice_gaining_vantage",
+		
+		#TARGET COMMANDER
+		"target_first_name": "Galen",
+        "target_last_name": "Smith",
+		"target_portrait": "graphics/portraits/portrait_corporate01.png",
+		"target_gender": "MALE",
+		"target_rank": "specialAgent",
+		"target_post": "fleetCommander",
+		"target_personality": "reckless",
+		"target_isAI": false,
+		"target_level": 6,
+		"target_elite_skills": 3,
+        "target_skills": {
+			"combat_endurance":1,
+			"damage_control":2,
+            "field_modulation":1,
+			"target_analysis":1,
+			"systems_expertise":2,
+			"energy_weapon_mastery":2,
+        },
+		
+		#TARGET FLEET
+		"fleet_name": "Vantage Group Flotilla",
+        "fleet_faction": "vantage_group",
+		"fleet_flagship_variant": "vice_resplendent_crewed",
+		"fleet_flagship_name": "TTS Event Horizon",
+		"fleet_flagship_recoverable": true,
+		"fleet_flagship_autofit": false,
+		"fleet_preset_ships": {
+			"vice_paragon_automated":2,
+			"vice_mutilator_automated": 3,
+			"vice_doom_automated": 3,
+			"vice_medusa_automated": 4,
+			"vice_afflictor_automated": 4,
+		},
+		"fleet_preset_autofit": false,
+		"fleet_scaling_multiplier": 0,
+		"fleet_min_FP": -1,
+		"fleet_composition_faction": "tritachyon",
+		"fleet_composition_quality": 2,
+		"fleet_transponder": false,
+		"fleet_no_retreat": true,
+        "fleet_behavior": "AGGRESSIVE",
+		
+		#LOCATION
+		"location_entitiesID": [
+			"tia1"
+        ],
+		"location_distance": "CORE",
+		"location_themes": [
+			"theme_core_unpopulated",
+		],
+		"location_entities": [
+			"planet",
+		],
+	},
+    "vice_dark_diamond":{
+		"trigger_marketFaction_any": ["independent", "hegemony", "luddic_church", "luddic_path", "persean", "pirates", "player", "sindrian_diktat", "tritachyon"],
+        "trigger_marketFaction_alliedWith": true,
+		"trigger_player_minLevel": 8,
+		"trigger_memKeys_any": {
+            "$vice_gaining_vantage": true,
+        },
+		
+		#BOUNTY DESCRIPTION
+		"job_name": "A Diamond in the Dark",
+		"job_description": "Some time after your encounter with the Vantage Group, you detect a hyperwave signal sent from the ==$system system==. The contents are encrypted, but the frequency matches what you recovered from the TTS Event Horizon. Galen Smith and his mysterious contact have stayed in touch using a still active network of Domain-era hyperwave relays that extend all the way to the edges of the Sector. \nA cross reference of timestamps of past messages show a disturbing correlation with major industrial accidents, mysterious deaths, and even planet wide plagues that have each altered the course of the Sector's history in recent cycles. While it sounds like tabloid fodder, you've found hints that a dark mover behind the scenes threatens the lives of millions. Someone has to put a stop to it.",
+		
+		"job_comm_reply": "You locate a fleet of Tri-Tachyon military vessels. However, at the lead is an Odyssey-class battlecruiser that more closely resembles a droneship of the First AI War than anything else you have seen before. An abstract hologram appears on your screen unbidden, accompanied by a strangely genial voice. \n\n\"Captain, your presence here has significantly raised the probability of a near term malignant singularity event. The Tri-Tachyon Corporation places the highest value on the continued viability of the Persean Sector, and further disruptions will not be tolerated. Surrender your ships to us, and we will begin to repair the damage you have caused.\"\n\nThe enemy fleet turns towards you with eerie precision, raising their shields in unison.",
+		
+		"job_intel_success": "Your examination of the wreckage reveals the AI core in command was in the process of converting the Tri-Tachyon ships into something new and terrifying. The TTDS Liminal Space was the most changed, and no longer even accommodated a living crew, while the other ships were still in the earliest stages being altered. Of the former crew there is no sign, but study of the wreckage yields a treasure trove of data on ship automation and engineering. \nThe fleet was engaged in salvage operations to gather more resources. However, the conversion process was being conducted elsewhere. Your search for the source of the Diamond Nexus continues.\n[Thanks for playing! The final mission to confront the Diamond Nexus will be completed in a future update of this mod.]",
+		
+		"job_type": "assassination", 
+		"job_credit_reward": 0,
+		"job_reward_scaling": 0,
+		"job_reputation_reward": 0,
+		"job_item_reward": {
+			"modspec vice_adaptive_emitter_diodes":1,
+			"modspec vice_adaptive_flight_command":1,
+			"modspec vice_adaptive_neural_net":1,
+			"modspec vice_adaptive_pulse_resonator":1,
+			"modspec vice_adaptive_tactical_core":1,
+		},
+		"job_show_type": true,
+		"job_show_captain": false,
+		"job_show_fleet": "vanilla",
+		"job_show_distance": "vanilla",
+		"job_difficultyDescription": "With a clever bit of engineering, you manage to ping a sensor array near the message's point of origin, and capture a snapshot of a mysterious fleet transiting the system. Drive signatures match various ship that were either purchased by the Vantage Group, or have gone missing in previous cycles. However, the ships maneuver in sync with the eerie precision of an automated drone fleet, similar to those that defended the TTS Event Horizon in your last encounter. Your search for the Diamond Nexus is leading to a most dangerous place.",
+		"job_pick_option": "Track down the fleet",
+		"job_memKey": "$vice_dark_diamond",
+		
+		#TARGET COMMANDER
+		"target_first_name": "Diamond",
+        "target_last_name": "Nexus",
+		"target_portrait": "graphics/portraits/portrait_ai2b.png",
+		"target_gender": "FEMALE",
+		"target_rank": "unknown",
+		"target_post": "vice_AI",
+		"target_personality": "reckless",
+		"target_isAI": true,
+		"target_aiCoreId": "alpha_core",
+		"target_level": 7,
+		"target_elite_skills": 5,
+		"target_skill_preference": "YES_ENERGY_NO_BALLISTIC_YES_MISSILE_YES_DEFENSE",
+		
+		#TARGET FLEET
+		"fleet_name": "Exciton Clade",
+        "fleet_faction": "diamond_nexus",
+		"fleet_flagship_variant": "vice_lampetia_aberrant",
+		"fleet_flagship_name": "TTDS Liminal Space",
+		"fleet_flagship_recoverable": true,
+		"fleet_flagship_autofit": false,
+		"fleet_preset_ships": {
+			"vice_astral_automated": 1,
+			"vice_odyssey_tt_automated": 2,
+			"vice_aurora_automated": 3,
+			"vice_fury_automated": 4,
+			"vice_shrike_automated": 6,
+			"vice_tempest_automated": 4,
+			"vice_wolf_automated": 6,
+		},
+		"fleet_preset_autofit": false,
+		"fleet_scaling_multiplier": 0,
+		"fleet_min_FP": -1,
+		"fleet_composition_faction": "diamond_nexus",
+		"fleet_composition_quality": 2,
+		"fleet_transponder": true,
+		"fleet_no_retreat": true,
+        "fleet_behavior": "GUARDED",
+		
+		#LOCATION
+		"location_entitiesID": [
+			
+        ],
+		"location_distance": "FAR",
+		"location_themes": [
+			"procgen_no_theme_pulsar_blackhole",
+		],
+		"location_entities": [
+			"planet",
+		],
+	},
+    "vice_mess_cleanup":{
+		"required_mods_id": ["HMI"],
+		"trigger_marketFaction_any": ["independent", "hegemony", "luddic_church", "luddic_path", "persean", "pirates", "player", "sindrian_diktat", "tritachyon"],
+        "trigger_marketFaction_alliedWith": true,
+		"trigger_player_minLevel": 8,
+		"trigger_memKeys_any": {
+			"$vice_gaining_vantage": true,
+        },
+		
+		#BOUNTY DESCRIPTION
+		"job_name": "Cleaning up a Mess",
+		"job_description": "Long range hyperspace scans recently detected an energy burst originating in the ==$system system== that closely matches the signature recorded on Ancyra during the Galatea Incident. The tantalizing possibility that an unidentified entity may have attempted to activate the gate network certainly warrants investigation.",
+		
+		"job_comm_reply": "Your fleet approaches a flotilla of AI Remnant warships. At least they would be, if they weren't all covered in tumorous nanite growths. The Mess has thoroughly infected these ships. But in a curious display of restraint, they make no attempt to attack. Scans of the ships soon reveal why. All of them are running on low power, with signs of having recently suffered extreme damage, from which they have yet to fully recover. Meanwhile, trailing streams of inert gray goo extend all the way to the gate, pointing to a cataclysmic event that almost destroyed this swarm. \n\nYou are presented with a unique opportunity to study this curious machine plague. The Mess rapidly collapses into inert dust the moment their ships are damaged past the point of reconstitution, but perhaps this current fleet may prove an exception. If you can disable them fully, you might be able to salvage a more intact sample for analysis.",
+		
+		"job_intel_success": "Analysis of the wreckage reveals how Mess nanites have co-opted the adaptive subsystems found aboard Remnant ships into a configuration of its own design. It appears some form of programming error prevents the subsystem from functioning in its intended purpose as a nanite infection vector, but the benefits of the design caused it to be retained among Remnant Mess swarms. A sufficiently powerful AI core could keep the nanites in check, and allow you to integrate the system onto standard automated warships.\nHowever, records of how this swarm had achieved a gate transit, and what damaged it so badly, prove impossible to recover. All you can determine is that the swarm originated from the ==Mansa system==.",
+		
+		"job_type": "obliteration", 
+		"job_credit_reward": 0,
+		"job_reward_scaling": 0,
+		"job_item_reward": {
+			"modspec vice_adaptive_metastatic_growth":1,
+		},
+		"job_show_type": true,
+		"job_show_captain": false,
+		"job_show_fleet": "none",
+		"job_show_distance": "exact",
+		"job_difficultyDescription": "none",
+		"job_pick_option": "Investigate the gate",
+		"job_memKey": "$vice_mess_cleanup",
+		
+		
+		#TARGET COMMANDER
+		"target_first_name": "OBJ",
+        "target_last_name": "2097",
+		"target_portrait": "graphics/portraits/portrait_static.png",
+		"target_gender": "MALE",
+		"target_rank": "unknown",
+		"target_post": "unknown",
+		"target_personality": "reckless",
+		"target_isAI": true,
+		"target_aiCoreId": "beta_core",
+		"target_level": 5,
+		"target_elite_skills": 5,
+		"target_skill_preference": "YES_ENERGY_YES_BALLISTIC_YES_MISSILE_YES_DEFENSE",
+		
+		#TARGET FLEET
+		"fleet_name": "Crippled Mess Swarm",
+        "fleet_faction": "mess_remnant",
+		"fleet_flagship_variant": "mess_radiant_missile",
+		"fleet_flagship_name": "OBJ 2097",
+		"fleet_flagship_recoverable": false,
+		"fleet_flagship_autofit": true,
+		"fleet_preset_autofit": true,
+		"fleet_scaling_multiplier": 1,
+		"fleet_min_FP": 100,
+		"fleet_composition_faction": "mess_remnant",
+		"fleet_composition_quality": 0,
+		"fleet_transponder": false,
+		"fleet_no_retreat": true,
+        "fleet_behavior": "PASSIVE",
+		
+		#LOCATION
+		"location_entitiesID": [
+		],
+		"location_distance": "CLOSE",
+		"location_themes": [
+		],
+		"location_entities": [
+			"gate",
+		],
+	},
+	"vice_high_and_mighty":{
+		"trigger_marketFaction_any": ["independent", "hegemony", "luddic_church", "luddic_path", "persean", "pirates", "player", "sindrian_diktat", "tritachyon"],
+        "trigger_marketFaction_alliedWith": true,
+		"trigger_player_minLevel": 8,
+		"trigger_memKeys_any": {
+			"$vice_white_whale": true,
+        },
+		
+		#BOUNTY DESCRIPTION
+		"job_name": "High and Mighty",
+		"job_description": "You receive a video of a meticulously coiffed man lounging in a luxurious office. The room's bright decor hurts your eyes a little, but he is obviously very well to do. By the lines of mysterious powder still visible on his desk, and the telltale way he keeps working his jaw, he's also high out of his mind. Nonetheless, he waves a hand to bring up a display of a fleet.\n\"My sister has taken something that does not belong to her, and now she's thinking of selling it to those buffoons in the Diktat. This... will.. not... do! Destroy her ship, blow it up into tiny little pieces, and I will shower you with credits. But don't you dare even think about doing what she did and salvage that ship for yourself. Now go, do your thing. I'm tired of talking.\"\nA curt wave, a proof of deposit, and you have your next target.",
+		
+		"job_comm_reply": "You encounter a fleet of Diktat warships making a rendezvous with a single sleek Tri-Tachyon militarized Odyssey. Scans of the battlecruiser reveal signs of advanced technology you've never seen before. Compared to it, the Diktat fleet is in far rougher shape, a likely sign that they're from the Diktat Navy, rather than the better equipped Lion's Guard. \n\nA pale blonde woman in a haute couture dress appears on your screen. She is addressing you from a fancy stateroom, surrounded by uniformed Diktat officers, rather than on a bridge. Her violet gene tweaked eyes flash with anger. \n\n\"Really? I was just about to close this deal, right before you showed up. I suppose I'll have to kill you now. How boring!\"\n\nThe Diktat fleet soon begins to maneuver with commendable precision, while the Odyssey is making a straight line for your flagship. You have a fight on your hands.",
+		
+		"job_intel_success": "With a big payday on the horizon, you forego salvaging the Sublime Exuberance intact. A thorough examination of the wreck nonetheless sheds light on many of its upgraded components. With a bit of trial and error, you soon learn how to perform the drone upgrade procedure on other Tri-Tachyon Odyssey hulls. \nThe destroyed Diktat fleet also tells an interesting tale. It's an open secret that the Diktat Navy is starved for credits, with so much of the military budged being swallowed up by the Lion's Guard. Navy captains have increasingly resorted to \"creative\" methods of resupply in the face of such budget constraints. Now that its rogue operative is out of the way, the Tri-Tacyhon Corporation stands to profit from a lucrative weapons trade that is thoroughly back under its control, and they have you to thank for it.",
+		
+		"job_intel_failure": "You could not resist the allure of claiming the Sublime Exuberance for yourself. As expected, the ship is well built, and your salvage crews soon restore emergency power. Working out all the engineering procedures that went into its drone upgrades takes far longer, but with the intact ship as a template, you are eventually able to reverse engineer the process. The Diktat ships were also upgraded with smuggled Tri-Tachyon tech, which is now yours to claim. \nMeanwhile, the man who hired you is less than pleased. He threatens you with everything from a painful death to lawsuits for breach of contract, but his impotent complaints fall on deaf ears. He can keep his money. After all, you have his ship.",
+		
+		"job_forFaction": "tritachyon",
+		"job_type": "destruction",
+		"job_credit_reward": 500000,
+		"job_reward_scaling": 0,
+		"job_reputation_reward": 5,
+		"job_item_reward": {
+			"modspec vice_advanced_terminator_core":1,
+			"modspec vice_ai_subsystem_integration":1,
+			"modspec vice_apotheosis_protocol":1,
+			"modspec vice_attuned_emitter_diodes":1,
+			"modspec vice_convert_shuttle":1,
+			"vice_signal_masker_device":1,
+		},
+		"job_show_type": true,
+		"job_show_captain": true,
+		"job_show_fleet": "vanilla",
+		"job_show_distance": "exact",
+		"job_difficultyDescription": "You will be facing the smuggler in her stolen ship, along with her prospective clients. The Diktat fleet is formidable, but once news of this illegal weapons purchase goes public, the Navy brass will be quick to distance themselves from anyone who took part in the scheme, lest they spark a civil war with the Lion's Guard. There are no shortages in the Sindrian Diktat, but to go against the official narrative can be fatal. Engaging the fleet will not incur hostilities with the Diktat at large.",
+		"job_pick_option": "Go crash the party",
+		"job_memKey": "$vice_high_and_mighty",
+		
+		#TARGET COMMANDER
+		"target_first_name": "Athena",
+        "target_last_name": "Summerstar",
+		"target_portrait": "graphics/portraits/portrait32.png",
+		"target_gender": "FEMALE",
+		"target_rank": "vice_smuggler",
+		"target_post": "armsDealer",
+		"target_personality": "aggressive",
+		"target_isAI": false,
+		"target_level": 7,
+		"target_elite_skills": 3,
+		"target_skills": {
+			"helmsmanship":1,
+            "field_modulation":1,
+			"missile_specialization":2,
+			"target_analysis":1,
+            "gunnery_implants":1,
+			"energy_weapon_mastery":2,
+			"ordnance_expert":2,
+        },
+		
+		#TARGET FLEET
+		"fleet_name": "Diktat Navy Armada",
+        "fleet_faction": "vice_diktat_navy",
+		"fleet_flagship_variant": "vice_odyssey_a_mission",
+		"fleet_flagship_name": "TTS Sublime Exuberance",
+		"fleet_flagship_recoverable": true,
+		"fleet_flagship_autofit": false,
+		"fleet_preset_ships": {
+			"vice_exhortation_mission": 1,
+			"executor_mission": 1,
+			"vice_unifier_mission": 2,
+			"eagle_LG_mission": 2,
+			"falcon_LG_mission": 2,
+			"hammerhead_LG_mission": 3,
+			"sunder_LG_mission": 2,
+			"vice_preceptor_mission": 2,
+			"centurion_LG_mission": 3,
+			"brawler_LG_mission": 3,
+		},
+		"fleet_preset_autofit": false,
+		"fleet_scaling_multiplier": 1,
+		"fleet_min_FP": -1,
+		"fleet_composition_faction": "vice_diktat_navy",
+		"fleet_composition_quality": 1,
+		"fleet_transponder": true,
+		"fleet_no_retreat": true,
+        "fleet_behavior": "GUARDED",
+		
+		#LOCATION		
+		"location_entitiesID": [
+			"telepylus_station"
+        ],
+		"location_distance": "CORE",
+		"location_themes": [
+			"theme_core_unpopulated",
+		],
+		"location_entities": [
+			"planet",
+		],
+		"location_marketFactions": [
+			
+		],
+	},
+	"vice_shattered_fortress":{
+		"trigger_marketFaction_any": ["independent", "hegemony", "luddic_church", "luddic_path", "persean", "pirates", "player", "sindrian_diktat", "tritachyon"],
+        "trigger_marketFaction_alliedWith": true,
+		"trigger_player_minLevel": 8,
+		"trigger_memKeys_any": {
+			"$vice_high_and_mighty": true,
+        },
+		
+		#BOUNTY DESCRIPTION
+		"job_name": "Shattered Fortress",
+		"job_description": "You are greeted by the image of an older woman wearing the neatly pressed uniform of a high ranking Diktat Navy officer. The Deputy Star Marshal does not state her name, but you know exactly who she is. She stares at her screen for a moment, clearly finding this exchange distasteful.\n\"I take no joy in coming to you with this task, captain. After what you did to my ships, I should have you shot. However, you should know that your recent actions have weakened one of the few remaining checks against the ambitions of the ==Lion's Guard==. They have been emboldened into launching a surprise attack against a neighboring state, using their most potent weapon. You will destroy it, immediately, and make sure it is not recovered. Otherwise, the whole Sector will suffer war and devastation on a scale not seen since the Collapse.\"\nA vast sum of credits and classified energy weapons research have both been promised to you for completion of the task.",
+		
+		"job_comm_reply": "The image of a Lion's Guard admiral appears on your screen. His lips curl into a mirthless smile. \n\n\"How convenient. We were just about to perform a live firing test. You should raise shields and not make this too easy.\"\n\nHe barks an order, and your flagship is suddenly raked by laser fire from a range that is highly concerning. Your ship weathers the opening salvo with minimal damage, but soon the Lion's Guard fleet begins to close for battle.",
+		
+		"job_intel_success": "The unusual gravity wave emitted by the dreadnought upon its destruction points to the presence of a once stable wormhole terminus. It's a good thing that you destroyed the ship. Not only has the Lion's Guard been humbled, but any proof of an active Coronal Hypershunt not found in the Sector being connected to the Invincible Fortress has now also been hidden from the public. That fact alone could have sent every major polity into a frenzied military buildup, leading to more war and destruction, even if no outsiders ever set foot in the Sector again.\nAs promised, your employer transmits a set of top secret weapons blueprints, results of the Diktat's latest research. Ironically, your attack has also earned you begrudging respect from the Lion's Guard. They do not tolerate failure, and see your actions as doing them a favor for terminating a weak leader.",
+		
+		"job_intel_failure": "Your employer is not happy with your decision to salvage the LGS Invincible Fortress, but there is precious little she can do. She does not message you again, and you have no more need of her.\nThe salvaged ship is truly one of a kind, and its mysteries may take lifetimes to fully decipher. But it yields more readily the technology that was already reverse engineered by those who found it first. You recover complete blueprints for a set of experimental energy weapons developed by the Diktat. Not only was this a warship, but it was also a hub of cutting edge research, and your taking of it has set back their progress by decades.\nYou suffer surprisingly few consequences for your brazen actions. The LGS Invincible Fortress never officially existed, and so ignoring its loss continues to give the Lion's Guard plausible deniability for their shameful incompetence.",
+		
+		"job_forFaction": "sindrian_diktat",
+		"job_type": "destruction",
+		"job_credit_reward": 1000000,
+		"job_reward_scaling": 0,
+		"job_reputation_reward": 10,
+		"job_item_reward": {
+			"weapon_bp vice_ionstreamer":1,
+			"weapon_bp vice_lrburstpd":1,
+			"weapon_bp vice_siege_burst":1,
+			"weapon_bp kineticblaster":1,
+			"weapon_bp gigacannon":1,
+		},
+		"job_show_type": true,
+		"job_show_captain": true,
+		"job_show_fleet": "flagship",
+		"job_show_distance": "exact",
+		"job_difficultyDescription": "The LGS Invincible Fortress is guarded by the very best of the Lion's Guard. You will have to be prepared to strike hard and fast. The ship has tremendous frontal firepower and range, but is weaker in the flanks and rear. Approach with utmost caution.",
+		"job_pick_option": "Confront the LGS Invincible Fortress",
+		"job_memKey": "$vice_shattered_fortress",
+		
+		#TARGET COMMANDER
+		"target_first_name": "Triton",
+        "target_last_name": "Othanos",
+		"target_portrait": "graphics/portraits/portrait_diktat07.png",
+		"target_gender": "MALE",
+		"target_rank": "spaceAdmiral",
+		"target_post": "guardLeader",
+		"target_personality": "steady",
+		"target_isAI": false,
+		"target_level": 7,
+		"target_elite_skills": 3,
+		"target_skills": {
+			"impact_mitigation":2,
+            "missile_specialization":2,
+			"target_analysis":1,
+			"ordnance_expert":1,
+			"polarized_armor":1,
+            "gunnery_implants":1,
+			"energy_weapon_mastery":2,
+        },
+		
+		#TARGET FLEET
+		"fleet_name": "Lion's Guard 1st Division",
+        "fleet_faction": "vice_lions_guard",
+		"fleet_flagship_variant": "vice_invictus_lg_boss",
+		"fleet_flagship_name": "LGS Invincible Fortress",
+		"fleet_flagship_recoverable": true,
+		"fleet_flagship_autofit": false,
+		"fleet_preset_ships": {
+			"vice_onslaught_lg_boss": 1,
+			"executor_Elite": 2,
+			"vice_unifier_elite": 2,
+			"eagle_LG_Assault": 3,
+			"falcon_LG_CS": 4,
+			"sunder_LG_Assault": 4,
+			"brawler_LG_Elite": 5,
+			"centurion_LG_Assault": 3,
+			
+		},
+		"fleet_preset_autofit": false,
+		"fleet_scaling_multiplier": 0,
+		"fleet_min_FP": -1,
+		"fleet_composition_faction": "lions_guard",
+		"fleet_composition_quality": 2,
+		"fleet_transponder": true,
+		"fleet_no_retreat": true,
+        "fleet_behavior": "AGGRESSIVE",
+		
+		#LOCATION		
+		"location_entitiesID": [
+			"duzahk2"
+        ],
+		"location_distance": "CORE",
+		"location_themes": [
+			"theme_core_unpopulated",
+		],
+		"location_entities": [
+			"planet",
+		],
+		"location_marketFactions": [
+			
+		],
+	},
+}

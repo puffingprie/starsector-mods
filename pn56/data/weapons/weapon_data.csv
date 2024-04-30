@@ -1,0 +1,44 @@
+name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P9 Vulcan Cannon,pn_vulcan,0,,800,350,,50,,1,75,5,,,20,FRAGMENTATION,6,,0,0.1,1,,0,15,1,15,,1200,,,10,,,PD,"pd7, SR, pn_wep_bp",,P9,,Point Defense,,,,,,,,,,
+P9 Double Vulcan Cannon,pn_double-vulcan,1,,1700,350,,50,,1,75,11,,,20,FRAGMENTATION,6,,0,0.05,1,,0,15,1,15,,1200,,,10,,,PD,"pd9, SR, pn_wep_bp",,P9,,Point Defense,,,,,,,,,,
+P9 Heavy Burst Laser,pn_heavyburst,99,,3750,850,500,,,100,80,15,4,0.75,,ENERGY,,600,0.1,0.1,0.3,0.1,,,,,10000,,,,,,,"PD,ANTI_FTR,IGNORES_FLARES","pd15, beam10, pn_wep_bp",,P9,,Point Defense,,,,,,,,,,2268823
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P9 EX Burst Cannon,pn_burstmauler,2,,3500,900,,100,,10,20,12,16,3,8,HIGH_EXPLOSIVE,120,,0.25,0.1,2,0.15,5,15,2,3,,900,,,30,,,,"he16, LR, pn_wep_bp",,P9,,Anti Armor,,,,,,,,,,4.75
+P9 IV-Type Plasma Blaster,pn_ivp,2,,3000,600,,1500,100,50,8,13,4,0.15,,FRAGMENTATION,850,,0.5,1.55,2,0.05,,30,12,10,,1500,,0.3,50,,,,"strike10, pn_wep_bp",,P9,,Finisher,,,,,,,,,,15.63672
+SK-S cannon,pn_skscannon,2,,2000,700,,39.375,50,,38,10,,,,ENERGY,47.25,,0.1,0.35,4,0.1,2,5,0.8,2,,950,,,10,,,,"energy9, pn_wep_bp",,P9,,Long Range Pressure,,,,,,,,,,
+SK-M cannon,pn_skvcannon,2,,5000,800,,78.75,50,,28,13,,,,ENERGY,94.5,,0.1,0.35,4,0.1,2,5,0.8,2,,950,,,10,,,,"energy14, pn_wep_bp",,P9,,Long Range Pressure,,,,,,,,,,
+SK-L cannon,pn_sktcannon,3,,15000,900,,157.5,50,,18,25,,,,ENERGY,189,,0.1,0.35,4,0.1,2,5,0.8,2,,950,,,10,,,,"energy19,LR, pn_wep_bp",,P9,,Long Range Pressure,,,,,,,,,,
+T3 Cannon,pn_t3cannon,3,,15000,1150,,750,50,,18,25,,,,ENERGY,1350,,0.25,1.75,1,2,2,5,0.8,2,,1250,,,10,,,,"kinetic20,LR, pn_wep_bp",,P9,,Anti Shield,,,,,,,,,,
+T3 Support Cannon,pn_t3cannon-support,3,,15000,850,,165,50,,26,25,,,,ENERGY,180,,0.01,0.3,2,0.2,15,25,10,8,,350,,,10,,,"PD,ANTI_FTR","pd15, pn_wep_bp",,P9,,Anti Fighter,,,,,,,,,,
+P9 Raala Rayblaster,pn_raala,3,,8000,750,,415,100,50,10,20,,,,HIGH_EXPLOSIVE,415,,1.6,1,1,1.6,,15,12,9,,1500,,0.3,50,,,,"he18, no_drop, no_drop_salvage",,P9,,Anti Armor,,,,,,,,,,1.6367
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P9 Saala Laser,pn_saala,2,,1500,500,500,,,50,8,8,8,1.638,,KINETIC,,500,0.05,0.05,0.2,0.05,,,,,10000,,,,,,,,"kinetic7, beam7, pn_wep_bp",,P9,,Anti Shield,,,,,,,,,,15.6
+P9 Vaala Laser,pn_vaala,1,,3750,850,450,,,40,40,13,9,0.20,3,KINETIC,,600,0.1,0.1,1.5,0.5,,,,,10000,,,,,,,,"kinetic12,beam13,LR, pn_wep_bp",,P9,,Anti Shield,,,,,,,,,,
+P9 Taala Laser,pn_taala,1,,5000,400,300,,200,0,0,9,,,,KINETIC,,300,0.5,1,,,,,,,2400,,,,,,,,"beam9,SR, pn_wep_bp",,P9,,Suppression,,,,,,,,,,
+P9 High Intensity Laser,pn_hil,1,,8000,1000,600,,20,0,9,20,,,,HIGH_EXPLOSIVE,,700,0.3,1,,,,,,,2400,,,,,,,,"beam20, LR, pn_wep_bp",,P9,,Anti Armor,,,,,,,,,,24877
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Pexp Launcher,pn_pexplauncher,1,,400,1000,,80,,50,30,5,,,,HIGH_EXPLOSIVE,60,,0,1.5,1,,0,0,0,,,400,330,5,50,,,"DO_NOT_AIM, CONSERVE_1","utility8, missile0, pn_wep_bp",,P9,,Anti Small Craft,Fast,Excellent,,,,,,,,13451566
+Jet Launcher,pn_jetlauncher,2,,500,500,,500,,300,5,4,2,0.04,2,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,400,100,3,500,,,STRIKE,"missile8, strike3, pn_wep_bp",,P9,,Anti Armor,,,,,,,,,,5759
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P9 Fluxbomb,pn_fluxbomb,,,1,300,,5,25,25,75,100000,1000,,,ENERGY,160000,,0,0.05,1,,0,15,1,15,,1200,,,10,,,SYSTEM,,,P9,,,,,,,,,,,,
+P9 Ion Repeater,pn_autoioncannon,2,,500,500,,25,400,0,40,6,,,,ENERGY,35,,0.5,0,,,,,,,,1000,,,,,,,"energy8, no_drop, no_drop_salvage",,,,Suppression,,,,,"Hits on hull or armor have a %s chance to arc to weapons and engines, dealing extra damage equal to the original hit.",25%,,,,19
+P9 E-modified Probe Launcher,pn_lrmissile,99,,10200,9000,,600,200,150,10,0,1,0.2,,HIGH_EXPLOSIVE,400,,0,5,1,0,0,0,0,0,,250,250,30,850,,,"SYSTEM,DO_NOT_AIM,SHOW_IN_CODEX","utility13, missile7",,P9,,Long Range Support,Fast,Excellent,,,,,,,,8116
+Eyfel Cannon,pn_eyfelcannon,3,,15000,1050,,1500,50,,18,0,,,,KINETIC,2700,,1,2,1,2,2,5,0.8,2,,1250,,,10,,,SYSTEM,,,P9,,,,,,,,,,,,
+P9 Bomb Bay,pn_bombbay,,,1,1500,,1500,200,50,15,100000,1,0.06,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,20,20,60,200,,,"STRIKE, BOMB","he0, no_drop, no_drop_salvage",,P9,,,,,,,,,,,,3.552
+Eyfel Launcher,pn_eyfellauncher,1,,1200,1200,,2000,1500,1000,150,0,9,0.25,3,HIGH_EXPLOSIVE,500,,0,3,3,0.3,4,0,0,0,,700,100,3,620,,,SYSTEM,,,P9,,,,,,,,,,,,146647
+OMNOMNOM,pn_omnom,1,,1,,25000,,,0,0,100000,,,,ENERGY,,175,0.5,1,,,,,,,2400,,,,,,,SYSTEM,,,P9,,,,,,,,,,,,
+DSI Tachyon Ray,pn_dsilaser,,,1,1500,200,,500,50,5,100000,,,,KINETIC,,500,5,2,1,,,,,,10000,,,,,,,SYSTEM,,,P9,,,,,,,,,,,TRUE,15.15
+P9 EMP-Vulcan,pn_empvulcan,,,1,300,,5,25,25,75,100000,1000,,,ENERGY,3,,0,0.05,1,,0,15,1,15,,1200,,,10,,,SYSTEM,,,P9,,,,,,,,,,,,
+Sike-M Rocket Pod,pn_sike_mpod,,,1,1500,,15,,20,30,100000,350,2,,HIGH_EXPLOSIVE,10,,0,0.1,5,0.2,0,0,0,0,,600,400,1.5,5,,,SYSTEM,,,P9,,,,,,,,,,,,115441
+P9 Kaala,pn_laser,,,,700,1500,,400,0,,,,,,ENERGY,0,400,0,,8,,,,,,,1500,,,,,,SYSTEM,,,P9,,,,,,,,,,,,4884545522
+P9 Flare Launcher,pn_flarelauncher,,,,500,,100,200,,,,,0,,FRAGMENTATION,0,0,0,0.5,2,0.2,2,60,15,2,,260,,,1,,,SYSTEM,,,P9,,,,,,,,,,,,
+Chaff Spray,pn_chaffspray,,,,400,,10,50,,,,,0,,ENERGY,0,0,0,0.1,50,0.2,60,60,0,0,,30,30,3,1,,,SYSTEM,,,P9,,,,,,,,,,,,36
+P9 ArmorCharge,pn_repair,,,200,30,25,,,0,0,9,,,,KINETIC,,175,0.5,1,,,,,,,2400,,,,,,,SYSTEM,,,P9,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DSI glow,pn_dsiblink,,,,10,,,,,,,,,,,,,,,,,,,,,,20,,,,,,SYSTEM,,,P9,,,,,,,,,,,,22653665
+Sike glow,pn_sikeglow,,,,10,,,,,,,,,,,,,,,,,,,,,,20,,,,,,SYSTEM,,,P9,,,,,,,,,,,,2265355
+Korlo glow,pn_korloglow,,,,10,,,,,,,,,,,,,,,,,,,,,,20,,,,,,SYSTEM,,,P9,,,,,,,,,,,,226531
+omnomnom,pn_omnomnom,,,,10,,,,,,,,,,,,,,,,,,,,,,20,,,,,,SYSTEM,,,P9,,,,,,,,,,,,226536995
+Nanite gel,pn_trundler_gel,,,,10,,,,,,,,,,,,,,,,,,,,,,20,,,,,,SYSTEM,,,P9,,,,,,,,,,,,226531

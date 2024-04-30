@@ -1,0 +1,66 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+
+
+    "directoryUseShortName":true,
+
+    "startRelationships":{ 
+        "pirates": -0.75,
+    },
+
+    "morality":"neutral",
+    "alignments":{
+        "corporate":0.25,
+        "technocratic":1,
+    },
+	
+    "diplomacyTraits":["lowprofile", "neutralist"],
+    "colonyExpeditionChance":1,
+		
+    "rebelFleetSuffix":"Dissidents",
+    "vengeanceLevelNames":["Peacekeeping", "Retaliation", "Demilitarization"],
+    "vengeanceFleetNames":["Peacekeeper", "Retaliation", "Occupation"],
+    "vengeanceFleetNamesSingle":["a Peacekeeping fleet", "a Retaliation fleet", "an Occupation force"],
+
+    "miningVariantsOrWings":["pn_mlmv_miner", "pn_tick_miner"],
+
+
+    "startShipsSolo":[
+        ["pn_rs_kinetic"],
+    ],
+    "startShipsCombatSmall":[
+        ["pn_sl-t3_barrage", "pn_sike-m_offensive"],
+    ],
+    "startShipsCombatLarge":[
+        ["pn_kaala_combat", "pn_sl-t1_support", "pn_sike_kinetic", "pn_sike_kinetic"],
+    ],
+    "startShipsTradeSmall":[
+        ["pn_louse_strike", "pn_tick_miner", "pn_tick_miner"],
+    ],
+    "startShipsCarrierSmall":[
+        ["pn_cimex_assault", "pn_snz_escort"],
+    ],
+    "startShipsSuper":[
+        ["pn_trundler_support", "pn_mite_unarmed"],
+    ],
+	
+    "startSpecialItems":[
+        [["pn_base_package", ""]],
+        [["pn_wepons_package", ""]],
+    ],
+
+    "defenceStations":[
+        {"ids":["orbitalstation_high", "battlestation_high", "starfortress_high"]},
+    ],
+
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.1},
+        {"id":"fuelprod", "mult":0.1},
+    ],
+
+    "bonusSeeds":[
+        {"id":"population_upsize", "count":2},
+        {"id":"nanoforge_corrupted", "count":1},
+    ],    
+}

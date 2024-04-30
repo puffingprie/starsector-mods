@@ -1,0 +1,165 @@
+{
+  "hullName": "P9 Valkyrie",
+  "hullId": "pn_valkyrie",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/pn/ships/pn_valkyrie.png",
+  "style": "MIDLINE",
+  "height": 280,
+  "width": 100,
+  "center": [50, 139.5],
+  "collisionRadius": 184.272888,
+  "shieldCenter": [-0.5, -0],
+  "shieldRadius": 173.539627,
+  "viewOffset": 0,
+  "builtInMods": [
+    "pn_cores",
+    "ground_support"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -120,
+      "locations": [-81, -28.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 120,
+      "locations": [-81, 28.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -90,
+      "locations": [43.5, -23]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 90,
+      "locations": [43.5, 23]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [124.5, -15]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [124.5, 15]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [3.5, -40],
+      "length": 41.620441,
+      "width": 9.795661,
+      "angle": -166.729355,
+      "contrailSize": 9.795661,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [3.5, 40],
+      "length": 41.620441,
+      "width": 9.795661,
+      "angle": 166.729355,
+      "contrailSize": 9.795661,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-131, -27.5],
+      "length": 37,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-131, 27.5],
+      "length": 37,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-132, -19.5],
+      "length": 47.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-132, 19.5],
+      "length": 47.5,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-130.5, -11.5],
+      "length": 36,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-130.5, 11.5],
+      "length": 36,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-131.5, -0],
+      "length": 58,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    }
+  ],
+  "bounds": [
+    -134, 40,
+    43, 45.5,
+    130, 24.5,
+    130, -24.5,
+    43, -45.5,
+    -134, -40
+  ]
+}

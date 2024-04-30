@@ -1,0 +1,98 @@
+{
+    "pn_pdliner_mission":{
+    "trigger_marketFaction_any": [
+      "pn_colony"
+    ],
+    "trigger_marketFaction_alliedWith": true,
+    "trigger_market_minSize": 1,
+    "trigger_player_minLevel": 10,
+    "trigger_min_days_elapsed": 1,
+    "trigger_weight_mult": 1,
+	"trigger_playerRelationship_atLeast": {
+      "pn_colony":0.55
+    },
+    "trigger_playerRelationship_atMost": {
+      "tritachyon": -0.2
+    },
+    "job_name": "A discrete reacquisition",
+    "job_description": "As you are browsing through the bounty board a woman carrying a big gray and puple box calls for your attention.\nAfter confirming her identity as a senior administrator of the P9 Coloy Group she tells you that three representatives of the A.A.L.A. defence bureau wants to talk to you about a sensitive matter. Curious what the all-powerful bureau wants you agree and are soon shuffled to a small empty room. As you enter the woman places the large box on the table, asks you to wait for a minute, then leaves. \nAfter exactly 60 secods the box opens up and you see three gamma cores, all wired together into a common hub with a simple screen interface and a sound relay. Before you even have time to ask the trio presents themselves as nr 2, 15 and 53, consensus representatives of the A.A.L.A defence bureau. \nIn a calm monotone voice they start to explain that by logical deduction you should by now be privy to what the upper echelons in all major factions already know, but which should not become public knowledge. The P9 colony group is partially controlled by AIs. Though an obvious affront to the Treaty of Crom Cruach, the cluster of gamma cores originally designated Autonomous AI Logistics and Administration is allowed to exist by the good graces of the Hegemony upper command. The Hegemony utilizes the cluster of gamma cores for extensive computation projects in return for having their AI inspection fleets turning a blind eye towards the P9 Colony Group. \nThe cores explain that the Tri-Tachyon corporation has gotten ahold of AALA Erinim, an early stage P9 Colony prototype ship that was undergoing trials in the outer reaches of the sector. These trials was overseen by A.A.L.A. core 36 which was integrated into the hull of the prototype. \nSadly, an undiscovered data recording device was also hardwired into the original base hull by an initial subcontractor secrectly working for the Tri-Tachyon corporation. This recording device allowed the Tri-Tachyon corporation to collect extensive evidence of AI use against the P9 faction. If it would become public knowledge this is something that would undoubtedly force a break in the long-standing mutually beneficial relationship and cooperation between the P9 Colony Group and the Hegemony. Thus this information must not be extracted and come into a usable format of the Tri-Tachyon corporation. \nLuckily, simulations with the safety backup of nr 36 which has been activated by the A.A.L.A. cluster has calculated a high probability of the onboard 36 to become aware of the recording device. It is therefore expected to have initiated containment measures for the associated databank. To break this containment is estimated to take 633 days of careful hardware extraction and decryption using top of the line procedures and hardware. \nYou are to deny Tri-Tachyon access to this information by enacting the destruction or capture of the prototype. The information pulse sent by the onboard AI at the time of capture suggests that the ship is currently located in $system_name and that it is accompanied by a sizable escort. Though a clearly non competetive monetary compensation of $reward is presented on the screen it is also accompanyied by a full transfer of ownership of $shipName and any accompanying equipment. \nIf you agree to these terms you are asked tick the yes box and to fill in the 83 page Material Transfer Agreement form that pops up on the display.\n\n\n",
+    "job_comm_reply": "Instantly the hail is answered, someone has been waiting for this very moment, probably hovering with their fingers over the reply button ever since you were first spotted on their scanners. \n\n\"Greetings P9 Operative, we have been expecting someone like you!\" \n\n\"The Tri-Tachyon corporation board of directors have allowed me to relay a message to you and those sphearical Tri-Tachyon assets that undoubtedly sent you here.\" \n\nThe captain smiles, slowly removes the fine glove of azure silk from his hand, and with an elegant mannerisms he carefully closes his fist, holds it up against the recorder and raises the middle finger towards you. With his other hand the captain smoothly turns his recorder around to show the well groomed crew on the bridge, they too, are flipping you off. After a full slow 360 degree panorama the captain gently bows, and ends the transmission.",
+    "job_intel_success": "When your salvage officer starts to brief you on the upcoming salvage operation you suddenly get a short message transferred from the shot up prototype. \n\n\"A.A.L.A. rescue mission profile confirmed, mission success, initializing core preservation and memorybank wipe\" \n\nA few seconds later you see a short flash coming from what used appears to be the bridge of the hull.",
+    "job_intel_failure": "Your communication screen lights up, but only static appears on the screen. Then suddenly, a monotonous voice message plays. \n\n\"Our calculations predicted your skill level would constitute a positive outlier, but it appears that it is placed firmly within the interquartile range. Our calculations were wrong and we thank you for diligent bug testing.\"", 
+    "job_intel_expired": "Your communication screen lights up, but only static appears on the screen. Then suddenly, a monotonous voice message plays. \n\n\"Our calculations predicted your attention span would manage to focus on this task despite constant external stimuli and distractions. Our calculations were wrong and we thank you for diligent bug testing.\"",  
+    "job_forFaction": "pn_colony",
+	"job_difficultyDescription": "auto",
+    "job_deadline": 360,
+    "job_reputation_reward": 10,
+    "job_credit_reward": 45000,
+    "job_reward_scaling": 1,
+	"job_item_reward": {
+        "gamma_core":1
+        },
+    "job_type": "assassination",
+    "job_show_type": true,
+    "job_show_captain": true,
+    "job_show_fleet": "preset",
+    "job_show_distance": "vanilla",
+    "job_show_arrow": true,
+    "job_pick_option": "You sigh as you tick the checkbox marked YES in the lower left corner of the screen and starts to scroll through the Material Transfer Agreement.",
+    "target_portrait": "graphics/portraits/portrait_corporate08.png",
+	"job_memKey": "$pn_pdlinerkey",
+    "target_first_name": "Ayna",
+    "target_last_name": "Skramor",
+    "target_gender": "MALE",
+    "target_rank": "spaceCommander",
+    "target_post": "fleetCommander",
+    "target_personality": "aggressive",
+    "target_isAI": false,
+    "target_level": 7,
+    "target_elite_skills": 3,
+    "target_skill_preference": "GENERIC",
+    "target_skills": {
+        "point_defense":2,
+        "gunnery_implants":2,
+        "systems_expertise":2,
+        "electronic_warfare":2,
+        "missile_specialization":2,
+        "helmsmanship":2			
+    },
+    "fleet_name": "Tri-Tachyon asset reclamation fleet",
+    "fleet_faction": "tritachyon",
+    "fleet_flagship_variant": "pn_pdliner",
+    "fleet_flagship_name": "Erinim, P9 prototype",
+    "fleet_flagship_recoverable": true,
+    "fleet_preset_ships": {
+      "paragon_Raider": 1,
+      "aurora_Assault": 1,
+      "aurora_Balanced": 1,
+      "medusa_Attack": 1,
+      "harbinger_Strike": 1,
+      "astral_Strike": 1,
+      "apogee_Balanced": 1,
+      "afflictor_Strike": 1,
+      "shade_Assault": 2,
+      "tempest_Attack": 2,
+      "wolf_Strike": 2,
+      "buffalo_tritachyon_Standard": 3	  
+    },
+    "fleet_scaling_multiplier": 1.6,
+    "fleet_min_DP": -1,
+    "fleet_composition_faction": "tritachyon",
+    "fleet_composition_quality": 2,
+    "fleet_transponder": false,
+    "fleet_behavior": "GUARDED",
+    "location_distance": "FAR",
+    "location_themes": [
+            "theme_hidden",
+            "theme_ruins"
+    ],
+    "location_entities": [
+      "wreck",
+      "debris",
+      "planet"
+    ],
+    "location_prioritizeUnexplored": false,
+    "location_defaultToAnyEntity": true,
+    "author": "Zudgemud"
+  }
+}

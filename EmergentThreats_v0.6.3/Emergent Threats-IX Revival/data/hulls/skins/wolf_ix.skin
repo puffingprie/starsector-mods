@@ -1,0 +1,17 @@
+{
+	"baseHullId":"wolf",
+	"skinHullId":"wolf_ix",
+	"hullName":"Wolf (IX)",
+	"incompatibleWithBaseHull":true,
+	"descriptionId":"wolf",
+	"coversColor":[120,130,120,255],
+	"descriptionPrefix":"This ship is a survivor of a 9th Domain Battlegroup task force stranded in the Persean Sector. Specialized in the Domain Navy's \"lightning strike\" doctrine, it has received extensive upgrades (performed with pre-Collapse industrial methods) to its engines and shield emitters.",
+	"fleetPoints":6,
+	"ordnancePoints":58,
+	"baseValueMult":1.5,
+	"spriteName":"graphics/ships/ix/wolf_ix.png",
+	"removeHints":["HIDE_IN_CODEX"],
+	"tags":["ixbattlegroup"],
+	"tech":"IX Battlegroup",
+	"builtInMods":["ix_ninth"],
+}

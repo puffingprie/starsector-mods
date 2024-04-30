@@ -1,0 +1,258 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+	
+			"mi_roma_standard":5,
+			"mi_roma_strike":5,
+
+			"mi_glima_attack":3,			
+			"mi_glima_standard":5,
+			"mi_glima_strike":5,
+			"mi_glima_support":3,
+			"mi_glima_assault":5,
+			
+
+			"mi_vigilance_standard":5,
+			"mi_vigilance_poorman":8,
+			"mi_vigilance_milita":3,
+			"mi_vigilance_escort":3,
+			"mi_vigilance_support":2,
+			
+			"mi_cavos_standard":5,
+			"mi_cavos_assualt":3,
+			"mi_cavos_escort":5,
+			"mi_cavos_support":3,
+			
+			"mi_wolf_standard":3,
+			"mi_wolf_assualt":3,	
+			"mi_wolf_metelson":3,			
+		
+		},	
+ 		"fastAttack":{
+			
+			"mi_cavos_standard":5,
+			"mi_cavos_assualt":3,
+			"mi_cavos_escort":5,
+			"mi_cavos_support":3,
+			
+			"mi_wolf_standard":5,
+			"mi_wolf_assualt":3,	
+			"mi_wolf_metelson":5,			
+
+			"fallback":{"combatSmall":1},
+		},
+	
+		"escortSmall":{
+			"mi_pala_strike":2,
+									
+			"mi_farin_cs":2,
+			"mi_farin_assualt":2,
+			"mi_farin_standard":2,
+			"mi_farin_support":2,
+			
+			"mi_mite_standard":3,
+			"mi_mite_missle":3,
+			"mi_mite_miner":2,
+			
+			"mi_glima_standard":5,
+			"mi_glima_support":3,
+			
+			"mi_cavos_standard":4,
+			"mi_cavos_assualt":3,
+			"mi_cavos_escort":5,
+			"mi_cavos_support":3,
+			
+			"mi_hound_standard":2,
+			
+			"mi_wolf_standard":3,	
+			"mi_wolf_metelson":5,
+			
+
+			"fallback":{"combatSmall":1},
+		},
+		"escortMedium":{
+			
+			"mi_varingur_standard":3,
+			"mi_varingur_pd":3,
+			
+			"mi_actelh35_support":2,
+			"mi_actelh35_assualt":5,
+			"mi_actelh35a_standard":3,
+			"mi_actelh35a_escort":3,
+			
+			"mi_rastrum_escort":3,
+			"mi_rastrum_PD":3,
+			
+			"mi_mantarn_escort":3,
+			"mi_mantarn_standard":3,
+			
+			"mi_hammerhead_standard":4,
+			
+
+			"fallback":{"combatMedium":1},
+		},
+		"combatMedium":{
+			
+			"mi_rastrum_standard":5,
+			"mi_rastrum_escort":3,
+			"mi_rastrum_PD":5,
+			
+			"mi_actelh35a_standard":3,
+			"mi_actelh35a_escort":3,
+			"mi_actelh35_standard":3,
+			"mi_actelh35_support":2,
+			"mi_actelh35_assualt":2,
+			
+			"mi_securi_standard":5,
+			"mi_securi_assualt":3,
+			"mi_securi_brawler":5,
+			"mi_securi_support":3,
+			"mi_hammerhead_standard":5,
+			
+			"mi_enforcer_assualt":3,
+			"mi_enforcer_miner":5,
+			"mi_enforcer_standard":5,		
+			
+			"mi_varingur_standard":3,
+			"mi_varingur_pd":3,
+			"mi_varingur_assualt":6,
+			
+			"fallback":{"combatSmall":2},
+		},
+		"combatLarge":{
+		
+			"mi_mantarn_escort":5,
+			"mi_mantarn_standard":5,
+			"mi_mantarn_strike":3,
+			
+			"mi_gadfar_standard":4,
+			"mi_gadfar_support":5,
+			"mi_gadfar_assualt":3,
+			
+			"mi_grancursor_standard":3,
+			"mi_grancursor_support":3,
+			"mi_grancursor_assault":3,
+			
+			"mi_cringer_standard":3,
+			"mi_cringer_CS":3,
+			"mi_cringer_support":3,
+			
+			"fallback":{"combatMedium":2},
+		},
+		"combatCapital":{
+			"mi_acutor_battle":5,
+			"mi_acutor_support":2,
+			"mi_thrudgelmir_standard":2,
+			"mi_thrudgelmir_CS":2,
+			"mi_drengur_standard":2,
+			"fallback":{"combatLarge":2},
+		},
+		
+		##So fucking tired... BAAAAAAAAAAH!
+		
+		# hybrid ships with good combat and cargo capacity
+		"combatFreighterSmall":{
+			"mi_pala_standard":7,
+			"mi_pala_mining":5,
+			"mi_farin_standard":5,
+			"mi_farin_cs":5,
+			"mi_farin_assualt":5,
+			
+			
+			"fallback":{"freighterSmall":1},
+		},
+		"combatFreighterMedium":{
+			"mi_varingur_standard":3,
+			"mi_varingur_pd":3,
+			"fallback":{"combatFreighterSmall":2},
+		},
+		"combatFreighterLarge":{
+			"mi_cringer_standard":3,
+			"mi_cringer_CS":3,
+			"mi_cringer_support":3,
+			"fallback":{"combatFreighterMedium":2},
+		},
+		
+		
+		"civilianRandom":{
+		
+			"mi_pala_standard":3,
+			"mi_mite_missle":2,
+			"mi_mite_miner":2,
+		
+			"fallback":{"freighterSmall":1},
+		},
+	
+	
+		# carriers
+		"carrierSmall":{
+			"mi_varingur_standard":5,
+			"mi_varingur_pd":5,
+			"fallback":{"carrierMedium":0.5},
+		},
+		"carrierMedium":{
+			"mi_bigvaringur_standard":5,
+			"mi_bigvaringur_assualt":5,
+			"fallback":{"carrierSmall":2},
+		},
+		"carrierLarge":{
+			"mi_drengur_standard":8,
+			"fallback":{"carrierMedium":2},
+		},
+	
+		# freighters and such
+		"freighterSmall":{
+			"mi_mudskipper_standard":2,
+			"fallback":{"freighterMedium":0.5},
+		},
+		"freighterMedium":{
+
+			"mi_varingur_standard":5,
+			"mi_varingur_pd":5,
+			
+			"fallback":{"freighterSmall":2},
+		},
+		"freighterLarge":{
+			"fallback":{"freighterMedium":2},
+		},
+		
+		"tankerSmall":{
+
+			"fallback":{"tankerMedium":0.5},
+		},
+		"tankerMedium":{
+			"mi_starliner_standard":5,
+			"fallback":{"tankerSmall":2},
+		},
+		"tankerLarge":{
+
+			"fallback":{"tankerMedium":2},
+		},
+		
+		"personnelSmall":{
+
+			"fallback":{"personnelMedium":0.5},
+		},
+		"personnelMedium":{
+			
+			"fallback":{"personnelSmall":2},
+		},
+		"personnelLarge":{
+			"fallback":{"personnelMedium":2},
+		},
+		
+		# utility ships
+		"tug":{
+			"fallback":{"utility":1},
+		},
+		"crig":{
+			"mi_acutor_support":5,
+			"fallback":{"utility":1},
+		},
+		"utility":{
+			"mi_acutor_standard":11,
+		},
+	},
+}
+

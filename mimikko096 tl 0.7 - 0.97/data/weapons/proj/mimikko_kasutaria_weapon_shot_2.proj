@@ -1,0 +1,57 @@
+{
+	"id":"mimikko_kasutaria_weapon_shot_2",
+	"specClass":"missile",
+	"missileType":"MISSILE",
+	"sprite":"graphics/missiles/resonator_mrm.png",
+	"onHitEffect":"data.scripts.campaign.combat.weapon.Mimikko_kasutaria_weapon2_onhit",
+	#"onHitEffect":"com.fs.starfarer.api.impl.combat.PilumOnHitEffect",
+
+	#"size":[10,14],
+	#"center":[5,7],
+	"size":[9,22],	
+	"center":[4.5,9],
+	"collisionRadius":8,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[181, 0, 255,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":75, # purely visual
+	#"alwaysAccelerate":true,
+	"reduceDamageWhileFading":false,
+	"useHitGlowWhenDestroyed":true,
+	"fizzleOnReachingWeaponRange":true,
+	"dudProbabilityOnFlameout":0,
+	"armingTime":0,
+	"flameoutTime":0.5,
+	"noEngineGlowTime":0.5,
+	"fadeTime":0.5,
+	"glowColor":[228, 184, 245,75],
+	"glowRadius":10,
+	"engineSpec":{"turnAcc":500,
+				  "turnRate":100,
+				  "acc":700,
+				  "dec":700},
+	"engineSlots":[{"id":"ES1",
+					#"loc":[-7, 0],
+					"loc":[0, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[0,0,0,0],
+						"glowSizeMult":1.5,
+						"glowAlternateColor":[228, 184, 245,75],
+						"contrailDuration":2,
+						"contrailWidthMult":1,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":4, # how far away from engine it starts
+						"contrailColor":[228, 184, 245,70],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":8.0,
+				    "length":20.0,
+				    "angle":180.0}],
+
+
+
+}

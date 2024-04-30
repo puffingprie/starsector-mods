@@ -1,0 +1,21 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 10,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "FM_Bazhiwu",
+    "hullMods": [
+        "targetingunit",
+        "frontemitter",
+        "magazines",
+        "fluxbreakers"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Bazhiwu_Support",
+    "weaponGroups": [{
+        "autofire": false,
+        "mode": "LINKED",
+        "weapons": {"WS0001": "FM_LunaticBow"}
+    }]
+}

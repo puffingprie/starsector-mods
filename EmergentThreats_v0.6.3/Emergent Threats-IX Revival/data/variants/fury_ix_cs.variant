@@ -1,0 +1,43 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 12,
+    "fluxVents": 25,
+    "goalVariant": true,
+    "hullId": "fury_ix",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "targetingunit",
+        "frontemitter",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "fury_ix_cs",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "muon_autolance_ix",
+                "WS 003": "morningstar_ciws_ix",
+                "WS 004": "morningstar_ciws_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "starfall_rocket_ix",
+                "WS 002": "starfall_rocket_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "morningstar_ciws_ix",
+                "WS 008": "morningstar_ciws_ix"
+            }
+        }
+    ]
+}

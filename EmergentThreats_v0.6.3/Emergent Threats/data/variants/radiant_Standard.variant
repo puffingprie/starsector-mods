@@ -1,0 +1,62 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 0,
+    "fluxVents": 27,
+    "goalVariant": true,
+    "hullId": "radiant",
+    "hullMods": [
+        "missleracks",
+        "hardenedshieldemitter",
+        "high_scatter_amp",
+        "targetingunit",
+        "stabilizedshieldemitter",
+        "vice_adaptive_temporal_shell",
+        "vice_module_handler"
+    ],
+    "permaMods": ["vice_module_handler"],
+    "sMods": [],
+    "variantId": "radiant_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "hil",
+                "WS 001": "hil",
+                "WS 012": "vice_ionstreamer",
+                "WS 013": "vice_ionstreamer",
+                "WS 014": "vice_ionstreamer",
+                "WS 015": "vice_ionstreamer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "squall",
+                "WS 004": "squall"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "typhoon",
+                "WS 006": "typhoon",
+                "WS 007": "typhoon",
+                "WS 008": "typhoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "guardian",
+                "WS 009": "pdlaser",
+                "WS 011": "pdlaser",
+                "WS 016": "pdlaser",
+                "WS 018": "pdlaser"
+            }
+        }
+    ]
+}

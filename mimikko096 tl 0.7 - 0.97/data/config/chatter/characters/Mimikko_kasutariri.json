@@ -1,0 +1,121 @@
+{
+    "name": "Kasutariri",
+    "personalities": ["steady", "aggressive", "reckless","cautious"],
+    "gender": ["m","f","n"],
+    "chance": 0,
+    "talkativeness": 0.65,
+    "categoryTags": [
+        "othermedia",
+    ],
+    "lines": {
+        "start": [                                            #开始？
+            {
+                "text": "Captain, Riri has arrived in the battlefield",
+            },
+            {
+                "text": "Captain, memeber to call me Kasuta, don't use Riri in public.",
+            },
+            {
+                "text": "Kasuta has taken over the battle field.",
+            },
+        ],
+        "start_boss": [                                    #打boss
+            {
+                "text": "It, came from -Cognitive Impairment - ?",
+            },
+        ],
+        "retreat": [                                            #撤退
+            {
+                "text": "Captain, Riri has completed her work, the rest is up to you",
+            },
+        ],
+        "out_of_missiles": [                                #用完导弹
+            {
+                "text": "Em, the missile ran out within the timeline Riri perdicted",
+            },
+            {
+                "text": "Captain, Riri has ran out of missiles. How is the Captain doing?",
+            },
+        ],
+        "engaged": [                                     #舰船部署
+            {
+                "text": "Riri is here to ensure the Captain finish the job",
+            },
+            {
+                "text": "Captain, Riri suggest you finish this quickly",
+            },
+            {
+                "text": "Time is preasure, please use the most efficient way to complete the battle, Captain",
+            },
+        ],
+        "need_help": [                                         #需要帮助
+            {
+                "text": "Captain, working with Riri is the most efficient method right now",
+            },
+            {
+                "text": "Riri really need the Captain's support",
+            },
+        ],
+        "pursuing": [                                               #发动进攻
+            {
+                "text": "Now is the perfect chance to attack",
+            },
+            {
+                "text": "Attack now will have double the effect for half the effort",
+            },
+            {
+                "text": "Attack! Riri will not fail the captain!",
+            },
+        ],
+        "running": [                                        #后撤
+            {
+                "text": "Retreating now is the only way to prevent maximized loss",
+            },
+            {
+                "text": "Captain, Riri is retreating, please be careful",
+            },
+        ],
+        "hull_90": [                                     #90%生命值
+            {
+                "text": "Recieved slight damage, this will not reduce work efficiency",
+            },
+            {
+                "text": "Riri is fine, don't worry, captain",
+            },
+        ],
+        "hull_50": [
+            {
+                "text": "Situation has exceeded expectation",
+            },
+        ],
+        "hull_30": [
+            {
+                "text": "The situation may be out of Riri's control",
+            },
+            {
+                "text": "Riri, in the name of Kasuta......",
+            },
+        ],
+        "overload": [                					#过载
+            {
+                "text": "Ship overloaded, this will severely impact efficiency. Must try my best to avoid it",
+            },
+        ],
+        "death": [							#沉船
+            {
+                "text": "Thank you for your care, captain......but all of these are what I should be doing......no need to do this, captain......",
+            },
+            {
+                "text": "Riri......？Please don't call me that, if possible, just call me ‘Kasuta’......",
+            },
+        ],
+        "victory": [							#胜利
+            {
+                "text": "Everyone have a different method of thinking, I hope I can understand the captain more in the days to follow.",
+            },
+            {
+                "text": "Even though I am not used to smile all the time, I will try my best to find an opportunity to let myself smile.",
+            },
+        ],
+    },
+}

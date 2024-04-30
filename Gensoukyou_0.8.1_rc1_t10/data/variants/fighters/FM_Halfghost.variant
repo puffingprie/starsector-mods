@@ -1,0 +1,24 @@
+{
+  "variantId": "FM_Halfghost",
+  "hullId": "FM_Halfghost",
+  "displayName": "Drone Fighter",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "FM_Blade_ac_fighter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

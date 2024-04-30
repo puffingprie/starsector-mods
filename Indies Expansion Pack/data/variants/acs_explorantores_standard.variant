@@ -1,0 +1,27 @@
+{
+  "variantId": "acs_explorantores_standard",
+  "hullId": "acs_explorantores",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 3,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "acs_small_lasgun",
+        "WS0002": "vulcan",
+        "WS0003": "vulcan",
+        "WS0004": "acs_velites_single"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

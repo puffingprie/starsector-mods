@@ -1,0 +1,55 @@
+{
+  "hullName": "FM_Amanojyak",
+  "hullId": "FM_Amanojyak",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/FM_Amanojyaku.png",
+  "style": "FM_fighter",
+  "height": 50,
+  "width": 40,
+  "center": [20, 26],
+  "collisionRadius": 25,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 24,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0002": "FM_Amanojyak_above"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [5.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-2.5, -0],
+      "renderOrderMod": 120
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-6, -0],
+      "length": 32,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    7, -8.5,
+    0, -16,
+    -6.5, -0,
+    0, 16,
+    7, 8.5
+  ]
+}

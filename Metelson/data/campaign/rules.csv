@@ -1,0 +1,208 @@
+id,trigger,conditions,script,text,options,notes
+,,,,,,
+# MI fleet greeting lines,,,,,,
+greetingMIFriendly,OpenCommLink,"$faction.id == metelson
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","A smile breaks over the $personRank ""Signal received $playerName. You're talking to the $personRank here, what can I do you for?"" 
+OR
+With a relieved face the $personRank gives you a salute, ""Hey $playerName, how goes it?""
+OR
+""Glad to see a friendly face $playerName, what do you need?"" the $personRank absently looks up occasionally from their data pad for the cargo aboard their ship.
+OR
+""Hey $playerName, what've you been doing out here?"" The $personRank cackles with a good natured smile.
+OR
+""Good to see you $playerName. Your location has been logged and cargo is clear."" After a brief conversation $personRank notices a new message, ""Ah, well, Off we go I suppose, have a great Cycle $playerName."" The transmission ends.
+OR
+""By Ludd, By Ludd, By Ludd! It's $playerName! I can't believe it's you! Standing there! Your fleet right next to me!"" Almost giddy like an annoying toddler, an adoring fan, they continue, "" Is there something you need? Can I carry your loot? Shine your engines? Top up your fue-"" they continue before being told you need to leave. ""Aw gee! You sure? Okay, well, I'll be hanging around the Are-"" the Comm's officer cuts the transmission, ""What the cuss was that?""
+OR
+""Oh, it's YOU. Hi!"" Sighing with a laugh, the $personRank settles down in their seat after realizing you're not out to kill them (it seems) or someone they have to scan.
+OR
+""I used to be an spacer like you until I took an comet to the head."" Sighing dreamily the $personRank's eyes glaze over, ""Ah well... Anything ya' need $playerName?""",cutCommLink:Cut the comm link,
+greetingMIHostileWeaker,OpenCommLink,"$faction.id == metelson
+$entity.isHostile
+$entity.relativeStrength < 0",,"""Hello $playerName What do you require?"" The $personRank's face is stoic but, behind them you catch hints of a panicked crew.
+OR
+The $personRank swallows when they see your face, ""Hello, $playerName…"" there's a slight pause before they continue, ""We can be going, now, Gilligan."" the transmission is then terminated as they start to turn away from the fleet.
+OR
+The screen is empty, save for a small poster in the background stating ""Hang in there kitty!""  The sound of crew-members shouting and working filter through your speakers. The transmission ends as sensors pick up the flare of engines.
+OR
+""$playerName good to see you,"" the $personRank's smile is forced, ""We can be on our separate ways without incident, hopefully?""
+OR
+""Oh for Ludd's sake! I just want to sell some damned tubers an' whatever else, now I've you! $playerName, and I've heard what you've done... Lemme' go, I Just want to finish n' go home!"" $hisOrHer hands slam on the console in frustration and anger.
+OR
+There's a roar of ranting  that comes through the speakers as $personRank $personName rants on about you burning their potatoes. Your comms officer looks at you with a confused cringe before shutting the connection down. This happens just as $personName goes on about how you'll never burn their potatoes without a fight! Some of the crew members laugh as the Comms officer takes a breather.
+OR
+When you open the link there's a frantic scrambling before a weak voice in the background cries out in a whine, ""Leave us alone!"" there's a sharp pop of static as the transmission is cut.
+OR
+The $personRank looks at you with a belligerent stare before cutting the link with a slur intended to offend you and your crew. The Comms officer is unphased, they've heard worse from you somedays.
+OR
+As Comms officer pulls up the connection there's some confusion on their face. The speakers start to blare with the sound of some esoteric, almost primal music, ""We live, we die, we'll live again by Ludd's Luck!"" the music continues before the other ship cuts the connection and waits for your action.
+OR
+As the $personRank realizes just who you are and the situation. They simply say one word before ending the transmission,  ""Nope."" as the transmission ends their engines come to life to take them away from your fleet.
+OR
+Looking at you the $personRank Swallows as they finally see you, ""Wisdom is the offspring of suffering and time,"" making a subtle gesture, the video feed is cut, ""And my wisdom tells me it's time to go!"" the fleet then powers up to avoid yours.
+OR
+With a nervous smile the $personRank speaks quickly, “If our lives are already written, it would take a courageous man to change the script. I am no such man."" $heOrShe cuts the connection, their fleet powering up to run.
+OR
+""I’m just a simpleton trying to make my way in the universe."" Sighing, the $personRank glowers at you, ""I wanna' go home and drink my mushroom wine, is that too much to ask for?""
+OR
+Angrily slamming their fists on the console, the $personRank's voice blares through the speaker, ""If we're going to be damned, let's be damned for what we really are!""
+OR
+""Ya' know,"" The $personRank rubs the bridge of their nose, ""In critical moments, men sometimes see exactly what they wish to see."" Looking at you they take another breath and sigh, ""But you are not what I was hoping to see."" ",cutCommLink:Cut the comm link,
+greetingMIHostileWeakerDefiant,OpenCommLink,"$faction.id == metelson
+$entity.isHostile
+$entity.relativeStrength < 0
+$entity.weakerThanPlayerButHolding",,"The Metelson $personRank eyes you with a slight scowl before turning to send $hisOrHer crew to their stations.  The comm signal cuts out a moment later. 
+OR
+There's a curt tone in $hisOrHer voice as the $personRank addresses you, ""Hello $playerName. Please make note that we've records of this location and any incident that may occur. Good day."" Not giving you a chance to reply the transmission is cut.
+OR
+""Greetings $playerName... If you're going to do something, do it."" The feed cuts off abruptly, with no answer being given from further hails.
+OR
+As the feed opens the $personRank is standing with a mad smile. The smile remains as they speak, ""Time to see what can be done."" There's a soft tap, the transmission ends. ",cutCommLink:Cut the comm link,
+greetingMIHostileStronger,OpenCommLink,"$faction.id == metelson
+$entity.isHostile
+$entity.relativeStrength >= 0",,"A smiling snarl comes from the $personRank ""I wonder, how much metal I can extract from you when I drag your cold lifeless carcass from that ship...""
+OR
+""$playerName, poor ol' $playerName... I wonder if I'll get a promotion or be reprimanded for killing you. Guess I'll have to find out the hard way."" the transmission ends.
+OR
+""$playerName, you're going to die here. That's right, you're going to die!"" With a maddening cackle to oblivion the $personRank starts to burn towards your fleet with the transmission cutting out.
+OR
+""Attention $playerName, there has been too much violence from you.  Just come out, let your crew walk away. I'll grant them safe passage and it'll be a bloodless end to your horrific career."" They wait for your reply with a grim mask.
+OR
+The Comm's officer shakily answers the transmission flinching at the blaring noise that comes from the other ship, ""You're already dead ya' blaggards!"" With a cackle the comm's officer groans before cutting the transmission looking at you like a forlorn puppy, ""I'm not paid enough.""
+OR
+When the transmission is open, there is a only a black screen for a few moments and a soft diddy before white words wash onto the screen with a childish giggle, ""It's dark, you're likely to be eaten by a grue and it's crew."" The Comm's officer cuts the transmission as the sound of a chain saw starts.
+OR
+""The burden of time,"" the $personRank has a flinty smile on their face, ""The burden of time has come for you $playerName. Let's see what you do with whatever you have left.""
+OR
+""Praise the Miners... We've not struck gold, or Adamantine,"" with a snarl the enemy starts to power up their weapon batteries, ""But your head on a platter will be good all the same.""
+OR
+""I’m $personName $personRank, and this is my favorite ship in the sector! It's got your pretty little head,"" The $personRank growls with a sickeningly sweet voice, ""Just for me to take that bounty.""
+OR
+The other ship's transmission comes on and the $personRank smiles cruelly, ""I wonder, can you do a barrel roll? Maybe a few holes would help.""
+OR
+“Dreams have a nasty habit of going bad when you’re not looking.” The $personRank sighs and with a placid, almost bored voice as if he's said this many times before, cuts the transmission, ""Should've watched where you were going.""
+OR
+The $personRank pops on screen laughing their head off it seems, ""THAT WORKED?! THE TRANMISSION FOR FREE CAKE, IT WORKED?!"" Crew around the $personRank laugh. Several of them patting the back and roughing the head of one particular crew member before they're all pulled down into a dog-pile for a moment. The captain continues before steely replying to your silence, “The cake is a lie. You should've known that, are you that dumb or is yo-"" Your comm's officer cuts the transmission with a smug look, ""I can't punch'm, but I can do that which is just as nice.""
+OR
+""You may be but small, but you will die a colossus perhaps."" The $personRank chuckles, smiling at you, ""Maybe we could've known each other better. Good day, and good luck captain.""
+OR
+The $personRank looks at you glumly, ""I believe in a universe that doesn't care, and people who do."" opening a list of your crimes, they sigh, ""But you, and others like you. Make that belief quite hard sometimes.""
+OR
+“It’s a funny thing, ambition. It can take one to sublime heights or harrowing depths. And sometimes they are one and the same.” Thinking it seems the $personRank sighs, ""Enough of this talk... Have at you!""
+OR
+ “Some trees flourish, others die. Some cattle grow strong, others are taken by wolves. Some men are born rich enough and dumb enough to enjoy their lives. Ain’t nothing fair.” they smirk at you, ""But, that just gives me more money and a laugh. Bye."" The transmission is cut.
+OR
+""Tell me $playerName,"" and manic smile is on the $personRank's face ""What are you scared of? Failing to save this cesspool of a ship? Not finding the cache in time? Me, in a leopard thong?"" Cackling with their attempt to mind cuss-you the officer cut's the transmission as a picture is being shown. The Enemy fleet powers up their weapons to meet you  as your crew get themselves together.",cutCommLink:Cut the comm link,
+greetingMINeutral,OpenCommLink,"$faction.id == metelson
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Hello, this is a Metelson Industries vessel captain; What do you need $playerName?""
+OR
+""Hello $playerName, I hope your trades were good."" The $personRank's tone is polite as they speak to you.
+OR
+As the transmission opens the $personRank looks up once before looking back at their pad. ""Anything you need?"" the $personRank continues to work from their data pad, tallying and checking the cargo aboard $hisOrHer ship.
+OR
+""Greetings, this $personName, I'm a $personRank of Metelson Industries."" After a moment they continue, ""Is there anything you need?""
+OR
+The $personRank looks over their pad in a routine- maybe bored -fashion before turning to you, ""Hello $playerName. Your location has been logged and cargo is clear."" The $personRank ends the transmission after some pleasantries.
+OR
+""Watch the skies, traveler."" As the transmission closes the $personRank gives you a friendly nod.
+OR
+""We welcome you freely, outlander. Welcome to the sector and good trade to ya'.""  As the transmission closes the $personRank gives you a friendly nod.
+OR
+""Auh,"" awkwardly looking at you the $personRank points at your comm's officer, ""Would you kindly… Stop?"" The officer, as if dumb to your commands, ends the transmission before coming out of their every. ""What, what?""",cutCommLink:Cut the comm link,
+greetingMITOffNormal,OpenCommLink,"!$player.transponderOn
+$faction.id == metelson
+$entity.relativeStrength >= 0",,"$personRank $personName looks aggravated. ""If you wanna talk, turn your transponder on.""
+OR
+$personName scowls, ""Come on, turn the thing on. I know half of ya' blaggards don't want to be seen or have your own crap maybe but, we'd rather not have a cabal of pirates!""
+OR
+""Attention, this is $personName, a $personRank of Metelson Industries. By common law and practices you are hereby ordered to activate your transponder. Failure to do so will result in a bounty for reckless navigation."" The $personRank stands at attention, waiting for you to correct your mistake.
+OR
+""A lie is a very poor way to say hello."" The $personRank stands with their finger's locking together in a somewhat snotty fashion, ""Perhaps you can try this again, hmm?"" They're waiting for you to correct your mistake, what do you do?
+OR
+""STOP RIGHT THERE, CRIMINAL SCUM! Your spree is at an end... Turn that transponder on now and pay your dues! Your goods are also forfeit!"" The $personRank sits on the edge of their seat, weather they're excited or not it's hard to tell.","turnOnTransponder:Turn your transponder on
+cutCommLink:Cut the comm link",
+greetingMITOffWeaker,OpenCommLink,"!$player.transponderOn
+$faction.id == metelson
+$entity.relativeStrength < 0",,"$personRank $personName looks concerned. ""If you wanna talk, turn your transponder on.""
+OR
+The $personRank is curt as they speak, ""Turn on your transponder if you wish to discuss anything further.""
+OR
+""I just wanted to sell some Potatoes, leave me alone please. Or, auh, if you're interested, I can sell ya' some, just turn on your transponder."" $heOrShe gives you a hopeful smile and sends a list of potato types to you.
+OR
+""Attention, this is $personName, a $personRank of Metelson Industries. By common law and practices, you are hereby ordered to activate your transponder. Failure to do so will result in a bounty for reckless navigation."" The $personRank stands at attention, waiting for you to correct your mistake.
+OR
+The $personRank sends you a list of wares and other items. Among them is a list of Potatoes:
+Adirondack Blue, Adirondack Red, Almond Tubers, Bellarosa, Belle de Fontenay, Bintje and Black Champion; 
+Bloomer Potatoes, British Queen tubers, Buttes, Champions, Cheries, Chiloes, Dejimas and Desiree;
+ Dore Taters, Ewelinas, Fingerling Potatoes, Gala Tubers, Golden Wonders, Hansa, Home Guard Potatoes and Irish Cobbler, Lump and Whites.
+
+Finally when the list ends the transmission ends with a few of your officers looking perplexed.","turnOnTransponder:Turn your transponder on
+cutCommLink:Cut the comm link",
+,,,,,,
+# metelson commission,,,,,,
+CMSNTextRejectHostile_metelson,CMSNTextRejectHostile,$faction.id == metelson,,"""Is this some kind of joke, citizen? If you are who you are claiming to be, you'd be on several top-level Metelson wanted lists. In fact, I'm going to have to report this entire conversation to Metelson COMSEC.""
+OR
+As the $personRank realizes what you're asking, and just who you are, they simply say one word before ending the transmission,  ""Nope.""
+OR
+ ""That's a whole lott'a nope."" laughing the $personRank sends a message, then the transmission ends.
+OR
+ ""That's a hell nope from me."" the transmission ends.
+OR
+They look at you with a laugh ""Nope, nope, nope. No."" the Transmission ends.
+OR
+Laughing to the point of tears the $personRank swallows a breath before speaking curtly with a snarl ""A, cuss you, no. Go away."" the Transmission ends.",,
+CMSNTextHasOther_metelson,CMSNTextHasOther,$faction.id == metelson,,"""I'm sorry $playerName but, you'll need to drop your current commissionary before coming to Metelson Industries."" The $personRank then ends the transmission.
+OR
+The $personRank sighs, ""$playerName, you're already commissioned by someone. You've their logo on your shoulder."" Pointing at the screen they continue, ""If you would like to join us, you'll need to drop the commission you have at the moment. Then we could consider it, if you're in good standing.""
+OR
+""You'll need to talk to your current employer about that... Yeah yeah, it's a commission but we all know it's a side-gig. Either way, get off their racket and then we can look into you being in ours."" The $personRank then ends the transmission.
+OR
+""Son... Do you need me to tell you how much time you're wasting? You can not be commissioned by us untill you get clear of your current employment! Now git!"" The transmission is cut without further ado.",,
+CMSNTextUnsuited_metelson,CMSNTextUnsuited,$faction.id == metelson,,"Formal and polite the $personRank speaks bluntly, ""You do not meet the criteria for receiving a commission at this time. Good day.""
+OR
+$HeOrShe shakes their head, ""I'm sorry $playerName, but you simply don't have the criteria for us to Commission you. You'll need to prove yourself worth taking on."" the $personRank ends the call.
+OR
+$HeOrShe shakes their head, ""You simply don't have the criteria for us to Commission you. You'll need to prove yourself worth taking on. Get some connections, gut a Triachyon trader convoy, something. Until then leave me alone."" the $personRank ends the call.",,
+CMSNTextSuitedPart1_metelson,CMSNTextSuitedPart1,$faction.id == metelson,,"""Hmm, we've had our eye on you for some time it seems. This intelligence summary makes it clear that you're a suitable candidate for commission into Metelson's volunteer militia.
+
+Accepting a commission into any faction is a serious matter. You must pledge loyalty to our carters, code of ethics, and the betterment of your fellow man. You will fight our enemies, cleanse the Sector of the corrupt and feeble, and usher in a new age for our people. If you are lucky, you may even attain the glory of giving your life for the great cause. For rock and stone, deep in the rock of the sector!"" 
+Finishing the speech the $personRank clears their throat, ""While, you can resign at any time- which I'd encourage you to reconsider if it ever came to that. You'd be a great asset to the Metelson militia and our industries at large. So what do you say?""
+OR
+""Well... You've done right by taking a hammering to those Lunatic luddites n' Taut-to-trot tritachyons. What'd you say to joining us?
+
+Pension, pay, benefits for the crew and ships too! All of it and then some if you sign up. Metelson Industries isn't just in it for the money. You think that's all the Tritachyon is in it for?  Well, yeah that's their reason but there's more to it I'm sure. Metelson's is just the other side of that coin. We want the gold, but we want to see it shared and to see those who have little come up and be given a chance. So, care to take a chance spacer?""",,
+CMSNTextSuitedPart2_metelson,CMSNTextSuitedPart2,$faction.id == metelson,,"""By the power invested in me by the office of logistics and the council, I offer you commission as auxiliary to the Metelson Militia. Are you positive you'd like to sign on?""
+OR
+""Then grab the pad, and place your thumb on it if you'd like to dig deep with the rest of us and help us find worlds of gold and forge legends to be told!"" Waiting for you, they hand the pad off with a smile to their face.
+OR
+""So, spacer,"" offering you the pad to finish the commission they grin with a chummily look to their face, ""Care to join us among the rocks?""",,
+CMSNTextWelcomePart1_metelson,CMSNTextWelcomePart1,$faction.id == metelson,,"""Excellent! Welcome to the service.""
+OR
+""Welcome! Welcome to the family! I'd hug you, but Officer Ocheeva told me not to hug the recruits since the last HR meeting."" $HeOrShe offers $hisOrHer hand instead for a shake.
+OR
+With a hearty laugh they slap your back, ""There we go! For Rock an Stone and toiling bones! Welcome to Metelson Industries $playerName, I'm sure you'll enjoy your time here!""",,
+CMSNTextWelcomePart2_metelson,CMSNTextWelcomePart2,$faction.id == metelson,,"""Is there anything else I can do for you, citizen?""
+OR
+""Anything else I can do $playerName?""",,
+CMSNTextChangeMind_metelson,CMSNTextChangeMind,$faction.id == metelson,,"""Ah, right, well. Talking about it is well an good but, doing it is another thing entirely."" With a chuckle $personName sighs, ""Right, well, is there anything else I could do for you today $playerName?""
+OR
+""No one can make you, but, Metelson Industries is always looking for good scavers, pilots, miners and engineers.
+
+Anything else then I can help with?""",,
+CMSNResignAskToConfirm_metelson,CMSNResignAskToConfirm,$faction.id == metelson,,"""Do you affirm to that, citizen, and agree that your recorded affirmation stand as record of your commitment? Metelson Industries needs people we can rely on, and if you were to let us down it would not soon be forgotten.""
+OR
+""Really now? I'm sorry you feel that way about your commission and employment. If you're sure we can take your resignation now. Many people would like to take what work you'll be missing. Are you positive you'd like to do this though?""
+OR
+""We're not that boring, are we?"" With a  warm laugh the $personRank sighs, ""It is what it is, I can't stop you. Please reconsider though before making the jump.""",,
+CMSNResignConfirmed_metelson,CMSNResignConfirmed,$faction.id == metelson,,"""I see. At least you were brave enough to submit your resignation in person.""
+OR
+""Ah, well, I hope your luck stays strong without a net to fall back on. A retirement can only get ya' so far right?"" With a good natured chuckle and final salute as a member of Metelson Industries. The transmission is cut.
+OR
+Cutting the act the $personRank scowls, ""Ah cuff off then... Who need's your lot around here anyways?"" they cut transmission before anything can be exchanaged.",,
+CMSNResignCancelled_metelson,CMSNResignCancelled,$faction.id == metelson,,"""A good decision. Despite what dissident agitprop may claim, Metelson Industries does not ask blind obedience. It takes courage to first question then choose to re-affirm a commitment. We can use people like you in this troubled age.""
+OR
+""Well I'm glad you changed your mind. You've been a great help to Ragnus and all her children, or if you don't think so. You've been a good captain, which is better than a good portion of people around here sometimes.""
+OR
+""Your have chosen wisely,"" shooting you a salute $heOrShe continues, ""We work together, or die alone so I'm glad you chose not to die cold in the void.""",,

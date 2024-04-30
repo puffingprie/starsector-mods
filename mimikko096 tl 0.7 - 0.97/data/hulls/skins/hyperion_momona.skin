@@ -1,0 +1,45 @@
+{
+	"baseHullId":"hyperion",
+	"skinHullId":"hyperion_momona",
+	"hullName":"Hyperion (M)",
+	"descriptionId":"hyperion",
+	#"hullDesignation":"Cruiser",
+	"descriptionPrefix":"Momona's favourite frigate back in Galatia Academy! Momona personally painted the pink camo as a gift for the Captain.",
+        "hints":["HIDE_IN_CODEX"],
+	"tags":["restricted"],
+	"tech":"Mimikko",
+	#"systemId":"",
+	#"fleetPoints":9,
+	#"ordnancePoints":40,
+	"baseValueMult":1.2,
+	"suppliesToRecover":20,
+	#"suppliesPerMonth":6,
+	"spriteName":"graphics/ships/hyperion_momona.png",
+	#"removeWeaponSlots":["WS 001", "WS 004"], 		# ids
+	#"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	#"removeBuiltInMods":[], 		# hullmod ids
+	#"removeBuiltInWeapons":[], 		# weapon slot ids
+	#"builtInWeapons":{
+	"builtInMods":["extendedshieldemitter"],
+   "weaponSlotChanges":{
+		"WS 001":{
+			
+            #"mount": "HARDPOINT",
+            #"size": "LARGE",
+            "type": "UNIVERSAL"
+		},
+		"WS 002":{
+			
+            #"mount": "HARDPOINT",
+            #"size": "LARGE",
+            "type": "UNIVERSAL"
+		},
+		"WS 003":{
+			
+            #"mount": "HARDPOINT",
+            #"size": "LARGE",
+            "type": "UNIVERSAL"
+		},	
+	},
+    },
+}

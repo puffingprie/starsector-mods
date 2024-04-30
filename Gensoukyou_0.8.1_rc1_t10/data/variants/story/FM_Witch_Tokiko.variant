@@ -1,0 +1,40 @@
+{
+    "displayName": "Tokiko",
+    "fluxCapacitors": 20,
+    "fluxVents": 13,
+    "goalVariant": true,
+    "hullId": "FM_Witch",
+    "hullMods": ["missleracks"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Witch_Tokiko",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "FM_Masterspark"}
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "phasecl",
+                "WS0004": "phasecl"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "FM_IcicleFall"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "FM_Spark_pd",
+                "WS0003": "FM_Spark_pd",
+                "WS0006": "FM_Spark_pd"
+            }
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "displayName": "Aberrant",
+    "fluxCapacitors": 0,
+    "fluxVents": 40,
+    "goalVariant": true,
+    "hullId": "vice_lampetia",
+    "hullMods": [
+        "vice_advanced_terminator_core",
+        "magazines",
+        "targetingunit",
+        "vice_adaptive_gravity_drive"
+    ],
+    "modules": [{"SM 1": "vice_lampetia_secondary_drone_bay"}],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_lampetia_aberrant",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "locust",
+                "WS 003": "locust"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "cyclone"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "ionpulser",
+                "WS 005": "ionpulser",
+                "WS 006": "ionpulser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "pdlaser",
+                "WS 008": "pdlaser",
+                "WS 009": "pdlaser",
+                "WS 010": "pdlaser",
+                "WS 011": "pdlaser",
+                "WS 012": "pdlaser",
+                "WS 013": "pdlaser",
+                "WS 014": "pdlaser",
+                "WS 015": "pdlaser",
+                "WS 016": "pdlaser",
+                "WS 017": "pdlaser",
+                "WS 018": "pdlaser"
+            }
+        }
+    ],
+    "wings": [
+        "vice_helia_wing",
+        "vice_helia_wing"
+    ]
+}

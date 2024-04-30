@@ -1,0 +1,59 @@
+{
+  "hullName": "Grudiver",
+  "hullId": "mi_grudiver",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/grudiver.png",
+  "style": "LOW_TECH",
+  "height": 24,
+  "width": 20,
+  "center": [10, 12],
+  "collisionRadius": 25.675863,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 18.027756,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0002": "light_maser_beam"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": 0,
+      "locations": [3, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-11, -0],
+      "length": 16,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-11, 2.5],
+      "length": 10,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-11, -2.5],
+      "length": 10,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -9, -7,
+    -9, 7,
+    12, -0
+  ]
+}

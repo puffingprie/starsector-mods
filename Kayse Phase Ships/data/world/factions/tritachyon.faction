@@ -1,0 +1,41 @@
+{
+	"knownShips":{
+		"tags":["no_such_org_bp"],
+		"hulls":[
+			"kayse_dullahan",
+			"kayse_ghoul",
+			"kayse_grim",
+			"kayse_grime",
+			"kayse_haunt",
+			"kayse_pyre",
+			"kayse_wight",
+			"kayse_banshee",
+			"kayse_harbinger_NSO",
+			"kayse_necromancer",
+			"kayse_ghost",
+			"kayse_deathknight",
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+			#"kayse_grim",
+			#"kayse_haunt",
+			#"kayse_banshee",
+		],
+	},
+	"knownFighters":{
+		"tags":[],
+		"fighters":[
+			"kayse_poltergeist_wing",
+			"kayse_maggot_wing",
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+		],
+	},
+},
+

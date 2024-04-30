@@ -1,0 +1,20 @@
+{
+	"id":"tahlan", # internal id
+	"name":"Tahlan Shipworks", # displayed to the player
+	"author":"Nia Tahl",
+	"version":"1.2.6",
+	"description":"A ship pack that suffers from feature creep",
+	"gameVersion":"0.97a-RC11",
+	"jars":["jars/TahlanShipworks.jar"],
+	"modPlugin":"org.niatahl.tahlan.plugins.TahlanModPlugin",
+	"dependencies": [
+		{
+			"id": "lw_lazylib",
+			"name": "LazyLib",
+		},
+		{
+			"id": "MagicLib",
+			"name": "MagicLib",
+		}
+	]
+}

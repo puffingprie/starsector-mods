@@ -1,0 +1,75 @@
+{
+    "displayName": "Converted",
+    "fluxCapacitors": 37,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "vice_onslaught_lg",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "pointdefenseai",
+        "targetingunit",
+        "fluxdistributor",
+        "magazines",
+        "missleracks",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [
+        "fluxdistributor",
+        "magazines",
+        "missleracks"
+    ],
+    "sMods": [
+        "fluxdistributor",
+        "magazines",
+        "missleracks"
+    ],
+    "variantId": "vice_onslaught_lg_boss",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "kineticblaster",
+                "WS 003": "kineticblaster",
+                "WS 016": "vice_gigapulser",
+                "WS 017": "vice_gigapulser",
+                "WS 018": "locust",
+                "WS 020": "locust"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "ionbeam",
+                "WS 012": "gravitonbeam",
+                "WS 013": "gravitonbeam",
+                "WS 021": "breachpod",
+                "WS 022": "breachpod",
+                "WS 023": "breachpod",
+                "WS 024": "breachpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 019": "guardian"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "vulcan",
+                "WS 004": "vulcan",
+                "WS 005": "vulcan",
+                "WS 006": "vulcan",
+                "WS 008": "vulcan",
+                "WS 009": "vulcan",
+                "WS 010": "heavyburst",
+                "WS 011": "heavyburst",
+                "WS 014": "heavyburst",
+                "WS 015": "heavyburst"
+            }
+        }
+    ]
+}

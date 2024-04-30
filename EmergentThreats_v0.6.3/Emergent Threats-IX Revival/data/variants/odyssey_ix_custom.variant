@@ -1,0 +1,59 @@
+{
+    "displayName": "Honor Guard",
+    "fluxCapacitors": 0,
+    "fluxVents": 45,
+    "goalVariant": true,
+    "hullId": "odyssey_ix",
+    "hullMods": [
+        "ix_antecedent",
+        "targetingunit",
+        "ix_reactive_combat_shields",
+        "frontemitter",
+        "ix_terminus_relay",
+		"ix_smod_handler"
+    ],
+    "modules": [{"SM 1": "odyssey_drone_bay_ix"}],
+    "permaMods": ["hiressensors", "ix_smod_handler"],
+    "sMods": [],
+    "variantId": "odyssey_ix_custom",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "muon_siege_lance_ix",
+                "WS 004": "muon_autolance_ix",
+                "WS 005": "muon_autolance_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS TORP": "antecedent_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "orthrus_l_ix",
+                "WS 003": "orthrus_l_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "lightbringer_ciws_ix",
+                "WS 007": "morningstar_ciws_ix",
+                "WS 008": "morningstar_ciws_ix",
+                "WS 009": "morningstar_ciws_ix",
+                "WS 010": "morningstar_ciws_ix",
+                "WS 011": "morningstar_ciws_ix",
+                "WS 014": "morningstar_ciws_ix",
+                "WS 015": "morningstar_ciws_ix",
+                "WS 016": "morningstar_ciws_ix"
+            }
+        }
+    ],
+    "wings": []
+}

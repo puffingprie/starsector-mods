@@ -1,0 +1,130 @@
+{
+  "hullName": "Maquech",
+  "hullId": "vice_maquech",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/vice/ships/maquech.png",
+  "style": "HIGH_TECH",
+  "height": 156,
+  "width": 120,
+  "center": [60, 76],
+  "collisionRadius": 112,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 100,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS 003": "blinker_red",
+    "WS 004": "blinker_green"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 0,
+      "locations": [55, -0]
+    },
+    {
+      "id": "WS 002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [-42, -0]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": 0,
+      "locations": [6.5, 53]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [6.5, -53]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 90,
+      "locations": [
+        -3, 50,
+        17, 50
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": -90,
+      "locations": [
+        -3, -50,
+        17, -50
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-75, 19],
+      "length": 20,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-76, 9],
+      "length": 27,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-76, -9],
+      "length": 27,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-75, -19],
+      "length": 20,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    },
+  ],
+  "bounds": [
+    16, 59,
+    -4, 59,
+    -63, 39,
+    -73, 25,
+    -73, -25,
+    -63, -39,
+    -4, -59,
+    16, -59,
+    44, -53,
+    66, -22,
+    78, -13,
+    78, 13,
+    66, 22,
+    44, 53
+  ]
+}

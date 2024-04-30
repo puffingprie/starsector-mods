@@ -1,0 +1,44 @@
+{
+  "displayName": "Miner Issue",
+  "fluxCapacitors": 8,
+  "fluxVents": 5,
+  "goalVariant": true,
+  "hullId": "mi_pala",
+  "hullMods": [],
+  "permaMods": [],
+  "quality": 0.55,
+  "variantId": "mi_pala_mining",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "miningblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "light_maser_beam",
+        "WS0002": "light_maser_beam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "wings": []
+}

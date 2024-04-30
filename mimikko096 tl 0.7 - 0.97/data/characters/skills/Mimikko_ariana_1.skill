@@ -1,0 +1,31 @@
+{
+	"id":"Mimikko_ariana_1",
+	"governingAptitude":"technology",
+	"compressHullmods":false,
+	"elite":true,
+	"scope":"PILOTED_SHIP",
+	"effectGroups":[
+		{
+			"requiredSkillLevel":1,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"SHIP", "script":"data.scripts.skill.Mimikko_ariana_1$Level1"},
+				#{"type":"SHIP", "script":"com.fs.starfarer.api.impl.campaign.skills.BallisticMastery$Level2"},
+				#{"type":"HULLMOD_UNLOCK", "hullmods":{"targetingunit":1}},
+				#{"type":"HULLMOD_UNLOCK", "hullmods":{"ballistic_rangefinder":1}},
+			]
+		},
+		{
+			"name":"Elite",
+			"requiredSkillLevel":2,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"SHIP", "script":"data.scripts.skill.Mimikko_ariana_1$Level2"},
+				{"type":"SHIP", "script":"data.scripts.skill.Mimikko_ariana_1$Level3"},
+				{"type":"SHIP", "script":"data.scripts.skill.Mimikko_ariana_1$Level4"},
+				{"type":"SHIP", "script":"data.scripts.skill.Mimikko_ariana_1$Level5"},
+			]
+		},
+	],
+}
+

@@ -1,0 +1,31 @@
+{
+  "variantId": "acs_exploraria2_raider",
+  "hullId": "acs_exploraria2",
+  "displayName": "Raider",
+  "goalVariant": false,
+  "fluxCapacitors": 6,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavymg",
+        "WS0002": "lightag",
+        "WS0003": "vulcan",
+        "WS0004": "harpoonpod",
+        "WS0005": "lightag"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "acs_mook_wing"
+  ]
+}

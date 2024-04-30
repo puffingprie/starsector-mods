@@ -1,0 +1,13 @@
+{
+	"id":"mm_standardfeed",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	
+	"statsScript":"data.shipsystems.scripts.mmstandardfeedstats",
+	
+	"weaponGlowColor":[235,20,65,145],
+	"weaponTypes":[BALLISTIC],
+	
+	"useSound":"system_ammo_feeder",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

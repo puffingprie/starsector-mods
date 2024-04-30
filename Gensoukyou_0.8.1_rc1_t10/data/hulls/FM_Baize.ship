@@ -1,0 +1,158 @@
+{
+  "hullName": "FM_Baize",
+  "hullId": "FM_Baize",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/FM_Baize.png",
+  "style": "FM",
+  "height": 234,
+  "width": 120,
+  "center": [60, 117],
+  "collisionRadius": 128.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 125,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FantasyBasicMod",
+    "civgrade",
+    "surveying_equipment",
+    "hiressensors"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 45,
+      "locations": [36, 10]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -45,
+      "locations": [36, -10]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        95, -5.5,
+        93, -9
+      ]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -135,
+      "locations": [-45, -19]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 135,
+      "locations": [-45, 19]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-71, 4.5],
+      "length": 26.5,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-71, -4.5],
+      "length": 26.5,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-74, -0],
+      "length": 53,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-73, -2],
+      "length": 39,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-73, 2],
+      "length": 39,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    82.5, 16,
+    77.5, 18.5,
+    67, 27.5,
+    61, 35.5,
+    36.5, 35.5,
+    31.5, 42.5,
+    7, 42.5,
+    0.5, 49,
+    -15, 49,
+    -18.5, 55,
+    -32, 55,
+    -64, 33.5,
+    -60, 30,
+    -67, 21.5,
+    -71.5, 20.5,
+    -113, 12,
+    -115, 9.5,
+    -75, 9.5,
+    -71.5, 6.5,
+    -74.5, 1,
+    -74.5, -1,
+    -71.5, -6.5,
+    -75, -9.5,
+    -115, -9.5,
+    -113, -12,
+    -71.5, -20.5,
+    -67, -21.5,
+    -60, -30,
+    -64, -33.5,
+    -32, -55,
+    -18.5, -55,
+    -15, -49,
+    0.5, -49,
+    7, -42.5,
+    31.5, -42.5,
+    36.5, -35.5,
+    61, -35.5,
+    67, -27.5,
+    77.5, -18.5,
+    82.5, -16,
+    96, -13.5,
+    103.5, -1.5,
+    116.5, -1,
+    97, 14.5
+  ]
+}

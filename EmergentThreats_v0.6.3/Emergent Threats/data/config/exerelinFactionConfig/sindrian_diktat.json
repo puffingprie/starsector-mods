@@ -1,0 +1,8 @@
+{
+	"startShipsCarrierSmall":[
+	  ["vice_unifier_standard", "hammerhead_LG_Balanced", "centurion_LG_Assault"]
+    ],
+    "startShipsCarrierLarge":[
+	  ["vice_exhortation_standard", "brawler_LG_Elite", "brawler_LG_Elite"]
+    ],
+}

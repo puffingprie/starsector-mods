@@ -1,0 +1,9 @@
+{
+	"id":"whichtmi",
+	"name":"WhichTMI",
+	"author":"Princess of Evil",
+	"version":"1.2.0",
+	"description":"Tells you what stats something has, WhichMod style.",
+	"gameVersion":"0.97a-RC6",
+	"modPlugin":"data.WhichTMIModPlugin"
+}

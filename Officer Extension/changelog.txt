@@ -1,0 +1,30 @@
+>>> 0.6.7
+- Periodically resets the number-of-exceptional-pod-officers-created count to the number in sector plus however many have ever
+  been in the player's fleet, making it more consistently possible to find 4 per sector.
+- Now temporarily removes all suspended officers from fleet and sets player officer count to a high number whenever you
+  open an interaction dialog, adds suspended officers back and resets player officer count when the game unpauses.
+    - This should finally cause battle difficulty calculations to not include suspended officers.
+    - Also allows events that check officer count (Luddic path bar event, modded events that add officers) to always allow
+      said officer to be added / hired.
+- Renamed LunaLib settings to include mod prefix, will reset settings if you've changed them
+- Filter officers button now only shows the 14 vanilla combat skills
+
+>>> 0.6.6
+- Added a console command to locate level 7 cryopod officers
+- Fixed issue with cryopod officers not retaining the correct number of elite skills
+
+>>> 0.6.5
+- Hotfix for Nexerelin issue; adjusted difficulty calculation will no longer work with Nex or any other mod that
+  uses a modified FleetEncounterContext
+
+>>> 0.6.4
+- Hotfix for a silent crash when computing battle difficulty for a modded fleet using a custom extension of FleetInteractionDialogPluginImpl
+
+>>> 0.6.3
+- Added LunaLib support
+- Battle difficulty calculation no longer takes unassigned officers past the vanilla maximum (sorted in descending level order) into account
+   -For example, if you have 3 assigned officers and 12 unassigned officers that are not officers, mercenaries, or AI cores, and you have an assigned officer limit of 8,
+    only the 5 highest-level unassigned officers will be counted toward battle difficulty.
+
+>>> Prior versions
+- See github.com/qcwxezda/Starsector-Officer-Extension/releases

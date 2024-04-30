@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Metelson">
+    <output-path>$PROJECT_DIR$/out/artifacts/Metelson</output-path>
+    <root id="archive" name="Metelson.jar">
+      <element id="module-output" name="Metelson" />
+    </root>
+  </artifact>
+</component>

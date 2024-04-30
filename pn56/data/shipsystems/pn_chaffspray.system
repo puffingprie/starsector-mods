@@ -1,0 +1,23 @@
+{
+  "id": "pn_chaffspray",
+  "type": "WEAPON",
+  "aiType": "FLARE",
+  "statsScript": "data.shipsystems.scripts.pn_chaffsprayStats",
+
+  "clampTurnRateAfter": true,
+  "clampMaxSpeedAfter": true,
+  "alwaysAccelerate": true,
+
+  "engineGlowColor": [255, 50, 255, 160],
+  "engineGlowContrailColor": [120, 0, 120, 120],
+  "engineGlowLengthMult": 2,
+  "engineGlowWidthMult": 2,
+  "engineGlowGlowMult": 3,
+
+  "weaponDataId": "pn_chaffspray",
+  "outOfUsesSound": "gun_out_of_ammo",
+
+  "aiHints": {
+    "averageSpeedIncrease": 300
+  }
+}

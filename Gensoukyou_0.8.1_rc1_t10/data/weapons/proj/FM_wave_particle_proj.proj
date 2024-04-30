@@ -1,0 +1,16 @@
+{
+	"id":"FM_wave_particle_proj",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"NONE",
+	"collisionClassByFighter":"NONE",
+	"length":75,
+	"width":12.0,
+	"fadeTime":10,
+	"fringeColor":[114,100,230,255],
+	"coreColor":[225,225,255,200],
+	"textureType":"ROUGH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0,
+	"bulletSprite":"graphics/missiles/shell_gauss_cannon.png"
+}

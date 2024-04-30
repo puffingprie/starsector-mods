@@ -1,0 +1,22 @@
+{
+  "variantId": "acs_gunner_variant",
+  "hullId": "acs_gunner",
+  "displayName": "Heavy Infantry Unit",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "acs_chaingun"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

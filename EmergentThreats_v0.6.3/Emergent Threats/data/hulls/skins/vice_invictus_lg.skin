@@ -1,0 +1,28 @@
+{
+	"baseHullId":"vice_invictus_base",
+	"skinHullId":"vice_invictus_lg",
+	"descriptionId":"vice_invictus_lg",
+	"hullName":"Invictus (LG)",
+	"ordnancePoints":300,
+	"hullDesignation":"Dreadnought",
+	"descriptionPrefix":"The ship that would become the LGS Invincible Fortress was discovered drifting in deep space by a Lion's Guard recon unit, which quickly seized the ancient vessel and had it towed to a secret facility. Engineers examining the ship soon uncovered a priceless and shocking artifact, a stable wormhole terminus still connected to an active Coronal Hypershunt.",
+	"tags":[],
+	"tech":"Lion's Guard",
+	"builtInWings": ["vice_gladius_lg_wing", "vice_kite_lg_wing"],
+	"fighterBays":2,
+	"baseValueMult":2,
+	"removeWeaponSlots":[], 			# ids
+	"removeEngineSlots":[], 			# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 			# hullmod ids
+	"removeBuiltInWeapons":[], 			# weapon slot ids
+	"systemId":"highenergyfocus",
+	"builtInMods":["advancedcore", "solar_shielding", "andrada_mods", "coherer", "vice_wormhole_terminus"],
+	"addHints":["CARRIER", "COMBAT", "NO_AUTO_ESCORT"],
+	removeHints:[],
+	"builtInWeapons":{
+    },
+    "weaponSlotChanges":{
+	},
+	"engineSlotChanges":{
+	},
+}

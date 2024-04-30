@@ -1,0 +1,32 @@
+{
+  "id": "pn_shortteleporter2",
+  "type": "PHASE_CLOAK",
+  "aiType": "PHASE_CLOAK",
+
+  "statsScript": "data.shipsystems.scripts.pn_pulse",
+
+
+  "jitterColor": [190, 65, 190, 155],
+  #"jitterColor": [255, 100, 255, 150],
+  "jitterCopies": 10,
+  "jitterRange": 0,
+  "jitterRangeRadiusFraction": 0.5,
+  "weaponGlowColor": [62, 6, 148, 50],
+  "weaponTypes": [ENERGY],
+  "engineGlowColor": [62, 6, 148, 125],
+
+  "range": 200,
+  "randomRange": 100,
+  "renderCopyDuringTeleport": true,
+  "fadeActivationSoundOnChargedown": false,
+
+  "useSound": "system_phase_skimmer",
+  "outOfUsesSound": "gun_out_of_ammo",
+
+  "aiHints": {
+    "averageSpeedIncrease": 50,
+	"burstMovementPotential":300,
+	"activeSpeedIncrease":0,
+
+  }
+}

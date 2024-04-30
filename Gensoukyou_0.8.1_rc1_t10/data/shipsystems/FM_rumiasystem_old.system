@@ -1,0 +1,35 @@
+{
+	"id":"FM_rumiasystem_old",
+	"type":"STAT_MOD",
+
+
+	"aiType":"CUSTOM",
+
+	"aiScript":"data.shipsystems.ai.FM_SpellCard_ai_type01",
+
+	"statsScript":"data.shipsystems.FM_rumiasystem_old",
+
+	"range":400,
+
+
+	#"weaponGlowColor":[255,165,90,0],
+	#"weaponTypes":[ENERGY, BALLISTIC, MISSILE],
+
+	#"engineGlowColor":[255,90,255,255],
+
+
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_damper",
+	"loopSound":"beam_heavy_loop",
+	"deactivateSound":"system_damper_off",
+	"outOfUsesSound":"gun_out_of_ammo",
+
+	"aiHints":{
+
+	"threatRange":500,
+	"threatAngle":0,
+	"threatArc":360,
+
+	}
+}

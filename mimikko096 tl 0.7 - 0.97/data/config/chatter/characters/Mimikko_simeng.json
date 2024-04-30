@@ -1,0 +1,139 @@
+{
+    "name": "Simeng",
+    "personalities": ["steady", "aggressive", "reckless","cautious"],
+    "gender": ["m","f","n"],
+    "chance": 0,
+    "talkativeness": 0.65,
+    "categoryTags": [
+        "othermedia",
+    ],
+    "lines": {
+        "start": [                                            #开始？
+            {
+                "text": "The show is starting",
+            },
+            {
+                "text": "It's my turn",
+            },
+        ],
+        "start_boss": [                                    #打boss
+            {
+                "text": "Right right, uh, no right",
+            },
+        ],
+        "retreat": [                                            #撤退
+            {
+                "text": "Time to peace out",
+            },
+        ],
+        "out_of_missiles": [                                #用完导弹
+            {
+                "text": "I want a auto missile forge hullmod",
+            },
+            {
+                "text": "The missile, is really valuable, you gotta let the enemy eat it first",
+            },
+        ],
+        "engaged": [                                     #舰船部署
+            {
+                "text": "Watch me turn the tide",
+            },
+            {
+                "text": "The Ace is here",
+            },
+            {
+                "text": "I am Persean Legend",
+            },
+        ],
+        "need_help": [                                         #需要帮助
+            {
+                "text": "Captain, please open map, select SiMeng, and click order:protect.",
+            },
+            {
+                "text": "Are all your ships dead? Give me an escort！",
+            },
+        ],
+        "pursuing": [                                               #发动进攻
+            {
+                "text": "The holy Full Assault connects all of our thoughts",
+            },
+            {
+                "text": "Use burn drive! Oh, wait",
+            },
+            {
+                "text": "Lieutenant, where is your mom's fukcing light of ludd, bring it up",
+            },
+        ],
+        "running": [                                        #后撤
+            {
+                "text": "Time to run",
+            },
+            {
+                "text": "Heya, another squad",
+            },
+        ],
+        "hull_90": [                                     #90%生命值
+            {
+                "text": "I am returning to Valhalla！",
+            },
+            {
+                "text": "My finger got cut, let me retreat, or my wound will heal！",
+            },
+            {
+                "text": "Kemonomimi, raise your hands, lend me your power！",
+            },
+        ],
+        "hull_50": [
+            {
+                "text": "Oh my god, if the Sanchez Porter family next door see me pilot a ship like this, they will kick my ass with their boots. ",
+            },
+            {
+                "text": "Armor penetrated, magazine damaged, engine dead!",
+            },
+        ],
+        "hull_30": [
+            {
+                "text": "Next time i'm driving onslaught or an Ashen Blade",
+            },
+            {
+                "text": "How about you give me a different ship",
+            },
+            {
+                "text": "I cant do this ship.jpg",
+            },
+        ],
+        "overload": [                					#过载
+            {
+                "text": "Don't worry about overload, watch my micro",
+            },
+            {
+                "text": "I heard if you get hit by an onslaught and die, you can reincarnate in a world filled with kemonomimi girls",
+            },
+            {
+                "text": "Ouy Kucf！",
+            },
+        ],
+        "death": [							#沉船
+            {
+                "text": "I am injured and the ground, but is alive",
+            },
+            {
+                "text": "Real man should do men....tssssk",
+            },
+            {
+                "text": "Today, I die, but I still am, PERSEAN OVERLORD! ",
+            },
+        ],
+        "victory": [							#胜利
+            {
+                "text": "The holy Full Assault connects all of our thoughts",
+            },
+            {
+                "text": "Zako~ Zako~",
+            },
+            {
+                "text": "EZ（Teabags）",
+            },
+        ],
+    },
+}

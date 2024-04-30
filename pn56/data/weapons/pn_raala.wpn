@@ -1,0 +1,27 @@
+{
+	"specClass":"projectile",
+	"id":"pn_raala",
+	"type":"ENERGY",
+	"size":"LARGE",
+	"turretSprite":"graphics/pn/weapons/pnraala/pn_raala_hardpoint00.png",
+	"turretGlowSprite":"graphics/pn/weapons/pnraala/pn_raala_hardpoint_glow.png",
+	"hardpointSprite":"graphics/pn/weapons/pnraala/pn_raala_hardpoint00.png",
+	"hardpointGlowSprite":"graphics/pn/weapons/pnraala/pn_raala_hardpoint_glow.png",
+	"numFrames":26,	
+	"frameRate":10,
+	"turretOffsets":[12, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],	
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":40.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":5.0,
+					   "particleSizeMin":12.0,
+					   "particleSizeRange":14.0,
+					   "particleDuration":0.5,
+					   "particleCount":12,
+					   "particleColor":[155,2,2,200]},	
+	"projectileSpecId":"pn_raala_shot",  # projectile that will be fired
+	"fireSoundTwo":"pn_raalasound",	
+}

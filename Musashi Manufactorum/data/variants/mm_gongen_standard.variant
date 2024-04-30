@@ -1,0 +1,39 @@
+{
+  "variantId": "mm_gongen_standard",
+  "hullId": "mm_gongen",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 22,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mm_flakstormbattery",
+        "WS0002": "mm_flakstormbattery",
+        "WS0003": "mm_flakstormbattery",
+        "WS0005": "mm_flakstormbattery",
+        "WS0009": "mm_flakstormbattery"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "mm_miniflakpd",
+        "WS0006": "mm_miniflakpd",
+        "WS0007": "mm_miniflakpd",
+        "WS0008": "mm_miniflakpd",
+        "WS0011": "mm_miniflakpd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "mm_bushi_interceptor_standard_wing"
+  ]
+}

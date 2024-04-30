@@ -1,0 +1,33 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "hullId": "vice_station_hangar_platform",
+    "hullMods": ["vice_adaptive_neural_net"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "remnant_hangar1_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "pulselaser",
+                "WS 002": "pulselaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "pdlaser",
+                "WS 005": "pdlaser"
+            }
+        }
+    ],
+    "wings": [
+        "vice_helia_wing",
+        "vice_helia_wing",
+        "vice_helia_wing"
+    ]
+}

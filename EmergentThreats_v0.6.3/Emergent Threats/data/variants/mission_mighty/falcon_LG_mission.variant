@@ -1,0 +1,54 @@
+{
+    "displayName": "Navy",
+    "fluxCapacitors": 0,
+    "fluxVents": 25,
+    "hullId": "falcon_LG",
+    "hullMods": [
+        "comp_armor",
+        "degraded_life_support",
+        "faulty_auto",
+        "vice_attuned_emitter_diodes",
+        "targetingunit"
+    ],
+    "permaMods": [
+        "comp_armor",
+        "degraded_life_support",
+        "faulty_auto"
+    ],
+    "sMods": [],
+    "variantId": "falcon_LG_mission",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "vice_lrburstpd",
+                "WS 008": "vice_lrburstpd"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "breach",
+                "WS 002": "breach"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "heavyburst",
+                "WS 006": "heavyburst"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "vice_ionstreamer",
+                "WS 010": "vice_ionstreamer"
+            }
+        }
+    ]
+}

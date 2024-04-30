@@ -1,0 +1,34 @@
+{
+    "displayName": "Fantasy",
+    "fluxCapacitors": 20,
+    "fluxVents": 19,
+    "goalVariant": true,
+    "hullId": "FM_Reisen",
+    "hullMods": ["pointdefenseai"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Reisen_Fantasy",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "FM_IcicleFall",
+                "WS0004": "FM_IcicleFall"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "breachpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FM_AdministratorPD",
+                "WS0002": "FM_AdministratorPD"
+            }
+        }
+    ]
+}

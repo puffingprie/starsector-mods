@@ -1,0 +1,49 @@
+{
+  "variantId": "mm_bishamonten_standard",
+  "hullId": "mm_bishamonten",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 30,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "mm_rubionblastcannon",
+        "WS0004": "mm_rubionblastcannon",
+        "WS0005": "mm_rubionblastcannon",
+        "WS0006": "mm_rubionblastcannon",
+        "WS0007": "mm_rubionblastcannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mm_cryospoolpd",
+        "WS0002": "mm_cryospoolpd",
+        "WS0008": "mm_cryospoolpd",
+        "WS0009": "mm_cryospoolpd",
+        "WS0010": "mm_cryospoolpd",
+        "WS0011": "mm_cryospoolpd",
+        "WS0012": "mm_cryospoolpd",
+        "WS0013": "mm_cryospoolpd",
+        "WS0014": "mm_cryospoolpd",
+        "WS0016": "mm_cryospoolpd",
+        "WS0017": "mm_cryospoolpd",
+        "WS0018": "mm_cryospoolpd",
+        "WS0019": "mm_cryospoolpd",
+        "WS0020": "mm_cryospoolpd",
+        "WS0021": "mm_cryospoolpd",
+        "WS0022": "mm_cryospoolpd",
+        "WS0023": "mm_cryospoolpd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

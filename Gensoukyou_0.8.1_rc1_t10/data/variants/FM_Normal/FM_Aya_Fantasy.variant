@@ -1,0 +1,27 @@
+{
+    "displayName": "Fantasy",
+    "fluxCapacitors": 15,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "FM_Aya",
+    "hullMods": [
+        "targetingunit",
+        "FantasyTraditionalMod"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Aya_Fantasy",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "FM_Blade_ac"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "ionpulser"}
+        }
+    ],
+    "wings": []
+}

@@ -1,0 +1,69 @@
+{
+  "id": "FM_SilverBlade",
+  "specClass": "projectile",
+  "projectileSpecId": "FM_silver_shot",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/FM_SilverBlade/FM_SilverBlade_turret.png",
+  "turretGlowSprite": "graphics/weapons/FM_SilverBlade/FM_SilverBlade_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/FM_SilverBlade/FM_SilverBlade_hardpoint.png",
+  "hardpointGlowSprite": "graphics/weapons/FM_SilverBlade/FM_SilverBlade_hardpoint_glow.png",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+    213,
+    242,
+    249,
+    180
+  ],
+  "turretOffsets": [
+    18,
+    -11,
+    18,
+    11,
+    18,
+    -11,
+    18,
+    11
+  ],
+  "turretAngleOffsets": [
+    10,
+    -10,
+    -10,
+    10
+  ],
+  "hardpointOffsets": [
+    19,
+    -11,
+    19,
+    11,
+    19,
+    -11,
+    19,
+    11
+  ],
+  "hardpointAngleOffsets": [
+    10,
+    -10,
+    -10,
+    10
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 20,
+    "spread": 15,
+    "particleSizeMin": 10,
+    "particleSizeRange": 10,
+    "particleDuration": 0.5,
+    "particleCount": 10,
+    "particleColor": [
+      200,
+      200,
+      255,
+      190
+    ]
+  },
+  "textureType": ROUGH,
+  "fireSoundTwo": "FM_SilverBlade_fire"
+}

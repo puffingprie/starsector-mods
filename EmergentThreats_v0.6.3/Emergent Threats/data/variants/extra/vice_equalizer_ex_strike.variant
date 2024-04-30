@@ -1,0 +1,60 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 19,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "vice_equalizer_ex",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "pointdefenseai",
+        "targetingunit",
+        "frontemitter",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_equalizer_ex_strike",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "vice_siege_burst",
+                "WS 004": "vice_siege_burst"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 015": "annihilatorpod",
+                "WS 016": "annihilatorpod",
+                "WS 017": "annihilatorpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "vice_deadeye_plasma",
+                "WS 006": "vice_deadeye_plasma"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "guardian",
+                "WS 002": "guardian",
+                "WS 007": "pdlaser",
+                "WS 008": "pdlaser",
+                "WS 009": "pdlaser",
+                "WS 010": "pdlaser",
+                "WS 011": "pdlaser",
+                "WS 012": "pdlaser",
+                "WS 013": "pdlaser",
+                "WS 014": "pdlaser"
+            }
+        }
+    ]
+}

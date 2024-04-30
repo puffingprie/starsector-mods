@@ -1,9 +1,0 @@
-id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
-missp_midline_patrol_craft_wing,missp_midline_patrol_craft_Standard,"fighter4, fighter, low, midline_bp",3,,10,20,V,8000,500,600,1,FIGHTER,Assault Craft,30,20000,,,,,,,,,,,,,
-missp_patrol_craft_wing,missp_patrol_craft_Standard,"fighter4, fighter, low, lowtech_bp",3,,8,12,V,8000,1000,600,1,ASSAULT,Assault Craft,60,15000,,,,,,,,,,,,,50
-missp_flak_craft_wing,missp_flak_craft_Standard,"fighter4, fighter, low, lowtech_bp",3,,8,15,V,8000,1000,600,1,ASSAULT,Assault Craft,60,15000,,,,,,,,,,,,,51
-missp_gun_craft_wing,missp_gun_craft_Standard,"fighter4, fighter, low, lowtech_bp",3,,8,15,V,8000,1000,600,1,ASSAULT,Assault Craft,60,15000,,,,,,,,,,,,,52
-missp_torpedo_craft_wing,missp_torpedo_craft_Standard,"bomber6, bomber, low, lowtech_bp",3,,8,18,V,8000,2000,600,1,BOMBER,Assault Craft,60,15000,,,,,,,,,,,,,53
-missp_broadswordmkii_wing,missp_broadswordmkii_Standard,"fighter4, fighter, low, lowtech_bp",1,,8,12,V,4000,500,600,3,FIGHTER,Heavy Fighter,10,10000,,,,,,,,,,,,,55
-missp_path_patrol_craft_wing,missp_path_patrol_craft_variant,"bomber6, bomber, low, LP_bp",3,,10,18,V,4000,500,600,1,BOMBER,Assault Craft,60,20000,,,,,,,,,,,,,
-missp_nail_wing,missp_nail_Interceptor,"interceptor1, interceptor, low, base_bp",0,,3,2,V,4000,200,0,6,INTERCEPTOR,Interceptor,5,2000,,,,,,,,,,,,,54

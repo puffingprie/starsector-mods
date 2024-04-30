@@ -1,0 +1,21 @@
+{
+	"quality":1,
+	"displayName":"Interceptor",
+	"hullId":"axiom_ix",
+	"hullMods":["no_weapon_flux", "ix_emergency_flux_shunt"],
+	"variantId":"axiom_ix_fighter",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"weaponGroups":[
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS 001":"lightbringer_fighter_ix",
+		 		   },
+		},
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS 002":"starfall_fighter_ix",
+		 		   },
+		},
+	],
+}

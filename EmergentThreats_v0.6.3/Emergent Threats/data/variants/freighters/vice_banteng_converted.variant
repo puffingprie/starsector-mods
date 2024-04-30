@@ -1,0 +1,31 @@
+{
+    "displayName": "Converted",
+    "fluxCapacitors": 0,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "vice_banteng",
+    "hullMods": [
+        "militarized_subsystems",
+        "vice_ground_attack_conversion"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_banteng_converted",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "miningblaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "lrpdlaser",
+                "WS 003": "lrpdlaser",
+                "WS 004": "lrpdlaser",
+                "WS 005": "lrpdlaser"
+            }
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+	"id":"FM_FluxBurn",
+	"type":"SHIELD_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.ai.FM_FluxBurn_ai",
+	"statsScript":"data.shipsystems.FM_FluxBurn",
+	"range":700,
+	"jitterUnderColor":[219,30,9,155],
+	"jitterUnderCopies":25,
+	"jitterUnderMinRange":0,
+	"jitterUnderRange":7,
+	"jitterUnderRangeRadiusFraction":0,
+
+	"jitterColor":[219,30,9,55],
+	"jitterCopies":2,
+	"jitterMinRange":0,
+	"jitterRange":5,
+	"jitterRangeRadiusFraction":0,
+
+	"runScriptWhileIdle":false, # unapply() never gets called
+
+
+
+	"useSound":"shield_raise",
+	"loopSound":"vent_flux",
+	"deactivateSound":"shield_lower",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

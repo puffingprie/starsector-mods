@@ -1,0 +1,18 @@
+{
+	"id":"Mimikko_suna_2",
+	"governingAptitude":"Mimikko_nonona", # why not
+	"compressHullmods":false,
+	"scope":"GOVERNED_OUTPOST",
+	"effectGroups":[
+		{
+			"requiredSkillLevel":1,
+			"effectBasedOnLevel":false,
+			"effects":[
+				#{"type":"GOVERNED_OUTPOST", "script":"data.scripts.skill.Mimikko_suna_1$Level1"},
+				#{"type":"GOVERNED_OUTPOST", "script":"data.scripts.skill.Mimikko_suna_1$Level2"},
+				#{"type":"GOVERNED_OUTPOST", "script":"data.scripts.skill.Mimikko_suna_1$Level3"},
+				#{"type":"GOVERNED_OUTPOST", "script":"data.scripts.skill.Mimikko_suna_1$Level4"},
+			]
+		},
+	],
+}

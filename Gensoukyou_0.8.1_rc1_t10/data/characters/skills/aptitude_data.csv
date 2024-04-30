@@ -1,0 +1,2 @@
+id,name,color,description,order,effect_skill_id,sound1,sound2,sound3,sound4,sound5,sound_story,elite_overlay,elite_overlay_medium,elite_overlay_small
+FM_SkillAptitude,Fantasy,"168,255,249,255",Knowledge & Technologies that come from Otherworldly Gensoukyou Applied to Persean.,5.14,FM_SkillAptitude,combat1,combat2,combat3,combat4,combat5,ui_char_spent_story_point_combat,graphics/icons/skills/FM_SkillElite.png,graphics/icons/skills/FM_SkillElite48.png,graphics/icons/skills/FM_SkillElite32.png

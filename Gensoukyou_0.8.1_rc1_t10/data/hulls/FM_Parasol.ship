@@ -1,0 +1,171 @@
+{
+  "hullName": "FM_Parasol",
+  "hullId": "FM_Parasol",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/FM_Parasol.png",
+  "style": "FM",
+  "height": 106,
+  "width": 114,
+  "center": [57, 51.5],
+  "collisionRadius": 72.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 71,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FantasyBasicMod",
+    "blast_doors",
+    "hiressensors",
+    "surveying_equipment"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 45,
+      "locations": [13.5, 24]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -45,
+      "locations": [13.5, -24]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [25.5, -15]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -0,
+      "locations": [25.5, 15]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        31, 7.5,
+        30.5, 10
+      ]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [4.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-27.5, 26],
+      "length": 5.5,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-27.5, -26],
+      "length": 5.5,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-19, -0],
+      "length": 49.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-29.5, 23.5],
+      "length": 7.5,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-29.5, -23.5],
+      "length": 7.5,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-30, 21],
+      "length": 11.5,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-30, -21],
+      "length": 11.5,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-19, 1.5],
+      "length": 9,
+      "width": 3,
+      "angle": 169.5,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-19, -1.5],
+      "length": 9,
+      "width": 3,
+      "angle": -169.5,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    50.5, -1.5,
+    32, -26.5,
+    16, -53,
+    9.5, -40.5,
+    -6.5, -25,
+    -21, -33.5,
+    -49.5, -5,
+    -23.5, -11,
+    -23.5, 11,
+    -49.5, 5,
+    -21, 33.5,
+    -6.5, 25,
+    9.5, 40.5,
+    16, 53,
+    32, 26.5,
+    50.5, 1.5
+  ]
+}

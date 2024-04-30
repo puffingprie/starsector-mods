@@ -1,0 +1,23 @@
+{
+"starSystem":"tyle",
+	"markets":[		
+		{
+			"entities":["metelsonTyle"],
+			"faction":"metelson",
+			"size":4,
+			"startingConditions":[
+				"population_5",
+				"ore_moderate",
+				"rare_ore_sparse",
+				],
+			"industries":[
+				"population",
+				"megaport",
+				"grounddefenses",
+				"militarybase",
+				"mining",
+				"starfortress_mid",
+			],
+		},
+	],
+}

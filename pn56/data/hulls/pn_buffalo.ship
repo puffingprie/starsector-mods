@@ -1,0 +1,157 @@
+{
+  "hullName": "P9 Buffalo",
+  "hullId": "pn_buffalo",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/pn/ships/pn_buffalo.png",
+  "style": "MIDLINE",
+  "height": 150,
+  "width": 100,
+  "center": [50, 63],
+  "collisionRadius": 112,
+  "shieldCenter": [10, 0],
+  "shieldRadius": 100,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade",
+    "pn_cores"
+  ],
+  "builtInWeapons": {
+    "WS 003": "blinker_red",
+    "WS 004": "blinker_green",
+    "WS 005": "blinker_red",
+    "WS 006": "blinker_green"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 0,
+      "locations": [69, 0]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 180,
+      "locations": [-50, 0]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": 0,
+      "locations": [70, 41]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [70, -41]
+    },
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-35, 40]
+    },
+    {
+      "id": "WS 006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-35, -40]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-59, 24],
+      "length": 48,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-60, 15],
+      "length": 48,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-61, 6],
+      "length": 48,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-61, -6],
+      "length": 48,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-60, -15],
+      "length": 48,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-59, -24],
+      "length": 48,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    }
+  ],
+  "bounds": [
+    55, 48,
+    75, 32,
+    76, 15,
+    85, 6,
+    85, -6,
+    75, -17,
+    75, -31,
+    55, -47,
+    12, -44,
+    -20, -45,
+    -46, -40,
+    -57, -29,
+    -60, -3,
+    -44, 0,
+    -60, 3,
+    -58, 28,
+    -46, 40,
+    -20, 44,
+    12, 44
+  ]
+}

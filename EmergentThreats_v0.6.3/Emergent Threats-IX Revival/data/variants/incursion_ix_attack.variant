@@ -1,0 +1,64 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 0,
+    "fluxVents": 44,
+    "goalVariant": true,
+    "hullId": "incursion_ix",
+    "hullMods": [
+        "extendedshieldemitter",
+        "targetingunit",
+        "ix_laser_collimator",
+        "ix_reactive_combat_shields",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "incursion_ix_attack",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS CB1": "cutting_beam_ix",
+                "WS CB2": "cutting_beam_ix",
+                "WS DEM": "sbe_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "orthrus_m_ix",
+                "WS 006": "orthrus_m_ix",
+                "WS 007": "orthrus_m_ix",
+                "WS 008": "orthrus_m_ix",
+                "WS 017": "orthrus_l_ix",
+                "WS 018": "orthrus_l_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "twin_tactical_laser_ix",
+                "WS 004": "twin_tactical_laser_ix",
+                "WS 009": "twin_tactical_laser_ix",
+                "WS 016": "hil"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "morningstar_ciws_ix",
+                "WS 002": "morningstar_ciws_ix",
+                "WS 010": "morningstar_ciws_ix",
+                "WS 011": "morningstar_ciws_ix",
+                "WS 012": "morningstar_ciws_ix",
+                "WS 013": "morningstar_ciws_ix",
+                "WS 014": "morningstar_ciws_ix",
+                "WS 015": "morningstar_ciws_ix"
+            }
+        }
+    ]
+}

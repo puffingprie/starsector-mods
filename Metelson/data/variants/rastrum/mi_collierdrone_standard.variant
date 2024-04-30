@@ -1,0 +1,29 @@
+{
+  "variantId": "mi_collierdrone_standard",
+  "hullId": "mi_collierdrone",
+  "displayName": "Mining Drone",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "maser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

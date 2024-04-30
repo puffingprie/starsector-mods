@@ -1,0 +1,33 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 1,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "temblor_ix",
+    "hullMods": [
+        "extendedshieldemitter",
+        "ix_laser_collimator",
+        "nav_relay",
+        "ix_reactive_combat_shields",
+        "frontemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "temblor_ix_attack",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "twin_tactical_laser_ix",
+                "WS 002": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS DIF": "diffraction_laser_ix"}
+        }
+    ],
+    "wings": []
+}

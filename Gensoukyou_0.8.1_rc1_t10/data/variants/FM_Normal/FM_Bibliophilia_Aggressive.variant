@@ -1,0 +1,26 @@
+{
+    "displayName": "Aggressive",
+    "fluxCapacitors": 10,
+    "fluxVents": 3,
+    "goalVariant": true,
+    "hullId": "FM_Bibliophilia",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Bibliophilia_Aggressive",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "railgun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FM_Spark_pd",
+                "WS0002": "FM_Spark_pd"
+            }
+        }
+    ]
+}

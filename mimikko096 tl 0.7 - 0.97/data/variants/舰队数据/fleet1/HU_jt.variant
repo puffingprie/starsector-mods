@@ -1,0 +1,52 @@
+{
+    "displayName": "精英",
+    "fluxCapacitors": 20,
+    "fluxVents": 12,
+    "hullId": "legion_xiv",
+    "hullMods": [
+        "targetingunit",
+        "missleracks"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "HU_jt",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "hveldriver",
+                "WS 003": "hveldriver",
+                "WS 004": "hveldriver",
+                "WS 005": "hveldriver",
+                "WS 007": "hveldriver"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "swp_trebuchet",
+                "WS 001": "swp_trebuchet"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 014": "swp_flaregun",
+                "WS 015": "swp_flaregun",
+                "WS 018": "swp_flaregun",
+                "WS 019": "swp_flaregun",
+                "WS 020": "swp_flaregun",
+                "WS 021": "swp_flaregun"
+            }
+        }
+    ],
+    "wings": [
+        "swp_falx_wing",
+        "swp_falx_wing",
+        "swp_falx_wing",
+        "swp_falx_wing"
+    ]
+}

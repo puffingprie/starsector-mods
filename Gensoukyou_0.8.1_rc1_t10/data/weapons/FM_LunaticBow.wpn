@@ -1,0 +1,46 @@
+{
+  "id": "FM_LunaticBow",
+  "specClass": "projectile",
+  "projectileSpecId": "FM_LunaticBow_shell",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/FM_LunaticBow/FM_LunaticBow_main_turret.png",
+  "turretGunSprite": "graphics/weapons/FM_LunaticBow/FM_LunaticBow_barrel_turret.png",
+  "hardpointSprite": "graphics/weapons/FM_LunaticBow/FM_LunaticBow_main_hardpoint.png",
+  "hardpointGunSprite": "graphics/weapons/FM_LunaticBow/FM_LunaticBow_barrel_hardpoint.png",
+  "renderAboveAllWeapons": 0,
+  "visualRecoil": 6,
+  "turretOffsets": [
+    -4,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    4,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 70,
+    "spread": 20,
+    "particleSizeMin": 10,
+    "particleSizeRange": 10,
+    "particleDuration": 0.5,
+    "particleCount": 20,
+    "particleColor": [
+      255,
+      125,
+      114,
+      255
+    ]
+  },
+  "textureType": ROUGH,
+  "fireSoundTwo": "FM_LunaticBow_fire"
+}

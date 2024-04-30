@@ -1,0 +1,81 @@
+{
+    "displayName": "Honor Guard",
+    "fluxCapacitors": 0,
+    "fluxVents": 31,
+    "goalVariant": true,
+    "hullId": "radiant_ix_hvb",
+    "hullMods": [
+        "pointdefenseai",
+        "hardenedshieldemitter",
+        "fluxdistributor",
+        "ix_smod_handler",
+        "ix_hvb_handler",
+        "ix_panoptic_automated",
+        "ix_panoptic_checker",
+        "advancedoptics",
+        "targetingunit",
+        "frontemitter",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [
+        "pointdefenseai",
+        "hardenedshieldemitter",
+        "fluxdistributor",
+        "ix_panoptic_automated",
+        "ix_panoptic_checker",
+        "ix_smod_handler"
+    ],
+    "sMods": [
+        "pointdefenseai",
+        "hardenedshieldemitter",
+        "fluxdistributor"
+    ],
+    "variantId": "radiant_ix_hvb",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS SBE": "sbe_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "starfall_mlrs_ix",
+                "WS 004": "starfall_mlrs_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "stormlight_graser_ix",
+                "WS 001": "stormlight_graser_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "orthrus_m_ix",
+                "WS 006": "orthrus_m_ix",
+                "WS 007": "orthrus_m_ix",
+                "WS 008": "orthrus_m_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "morningstar_ciws_ix",
+                "WS 011": "morningstar_ciws_ix",
+                "WS 012": "muon_streamer_ix",
+                "WS 013": "muon_streamer_ix",
+                "WS 014": "muon_streamer_ix",
+                "WS 015": "muon_streamer_ix",
+                "WS 016": "morningstar_ciws_ix",
+                "WS 018": "morningstar_ciws_ix"
+            }
+        }
+    ]
+}

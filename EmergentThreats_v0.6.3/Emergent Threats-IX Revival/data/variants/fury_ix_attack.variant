@@ -1,0 +1,44 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 0,
+    "fluxVents": 27,
+    "goalVariant": true,
+    "hullId": "fury_ix",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "targetingunit",
+        "ix_laser_collimator",
+        "frontemitter",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "fury_ix_attack",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "twin_tactical_laser_ix",
+                "WS 001": "twin_tactical_laser_ix",
+                "WS 003": "taclaser",
+                "WS 004": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "orthrus_m_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "morningstar_ciws_ix",
+                "WS 006": "morningstar_ciws_ix",
+                "WS 007": "morningstar_ciws_ix",
+                "WS 008": "morningstar_ciws_ix"
+            }
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+id,name,faction,desc,script,icon,order
+uw_cabalmarket,"Cabal
+Exchange",cabal,"A secret market operated by the Starlight Cabal. The occasional captain will reverently whisper of it, as if the place has mystical properties. Rumor has it that certain esteemed individuals can waive the fees...
+
+The exchange stocks a wide variety of (often difficult to acquire) hardware and goods, both legal and illegal. Prices reflect your standing with the Starlight Cabal.",data.scripts.campaign.submarkets.UW_CabalMarketPlugin,,800
+uw_scrapyard_submarket,The Scrapyard,pirates,"The Scrapyard is an unregulated, competitive market featuring a wide variety of refurbished, low-quality equipment. All items are deeply discounted.",data.scripts.campaign.submarkets.UW_ScrapyardMarketPlugin,,1000

@@ -1,0 +1,55 @@
+name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
+Enenra Wrath Battery,mm_omegagun,3,0.1,200000,1800,,3000,,1000,6,40,,,,HIGH_EXPLOSIVE,3000,,0,18.5,3,0.5,2,6,0,0,,1000,1000,6,1800,,,"STRIKE,USE_VS_FRIGATES","he20, no_sell, no_drop, no_drop_salvage",,Musashi Manufactorum,,Anti Armor,,,,,,,,,,5
+Jibakurei Cage,mm_goldendome,3,0.1,6000,700,,42,10,5,60,20,,,,FRAGMENTATION,12,,0,0.1,2,0.05,2,6,2,3,,920,,,100,,,PD,"he20, no_sell, no_drop, no_drop_salvage",,Musashi Manufactorum,,Anti Armor,,,,,,,,,,4.25
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Onryo Rift Cannon,mm_rubionblastcannon,3,0.1,50000,1100,,2600,275,400,7,30,,,,ENERGY,3150,,0.8,11.2,1,,2,10,2,4,,920,,,,,,"STRIKE,USE_VS_FRIGATES","mm_bishamonten_bp,merc",,Musashi Manufactorum,,General,,,,,,,,,,5
+Tadaiji Lance,mm_tadaijilance,3,0.2,30000,1200,,2800,300,400,9,26,1,0.13125,1,ENERGY,3000,,1,,1,,2,8,2,3.6,,1500,1500,0.85,1000,,,"STRIKE,USE_VS_FRIGATES","mm_rare_bp,merc,ind",,Musashi Manufactorum,,General,,,,,,,,,,5
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Kirin Burst Cannon,mm_cryofusionbattery,3,0.4,12000,1000,,1750,100,100,8,26,,,,ENERGY,2250,,0,14,3,0.5,2,10,2.5,4,,920,,,,,,"STRIKE,USE_VS_FRIGATES","musashi_bp,energy20, he17, kinetic17,ind,merc",,Musashi Manufactorum,,General,,,,,,,,,,27
+Fujin Rail Launcher,mm_hypermagneticrifle,3,0.6,12000,1150,,1700,400,300,10,25,,,,KINETIC,2300,,0.6,5.8,1,,1,6,2,3,,1200,,,800,,,"STRIKE,USE_VS_FRIGATES","musashi_bp,strike20,ind,merc",,Musashi Manufactorum,,Anti Shield,,,,,,,,,,5
+Tengu Rifle Battery,mm_hyperblastbattery,3,0.8,8000,1000,,1850,,200,9,24,,,,HIGH_EXPLOSIVE,1900,,0,11.2,3,0.4,2,10,2.5,4,,1020,,,800,,,"STRIKE,USE_VS_FRIGATES","musashi_bp,hightech_bp,he16,ind,merc,pirates",,Musashi Manufactorum,,Anti Armor,,,,,,,,,,5
+Gyuki Flak Storm Array,mm_flakstormarray,3,,6000,900,,80,,30,16,20,,,,HIGH_EXPLOSIVE,60,,0,0.3,3,0.1,2,8,2,3,,920,,,100,,,PD,"musashi_bp,midline_bp,he16,ind,merc,pirates",,Musashi Manufactorum,,Anti Armor,,,,,,,,,,4.25
+Shisa Twin Howitzer,mm_twingigatichowitzer,2,,6000,1200,,3400,,800,10,22,,,,HIGH_EXPLOSIVE,3100,,0,9,1,,0,0,0,0,,500,500,6,2000,,,"STRIKE,USE_VS_FRIGATES","musashi_bp,lowtech_bp,strike20,ind,merc",,Musashi Manufactorum,,Anti Armor,,,,,,,,,,5
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Basan Flame Spitter,mm_cryostormturret,3,0.4,8000,800,,30,3,3,40,14,120,12,36,ENERGY,32,,0,0.05,2,0.05,1,1,0,0,,840,,,,,,PD,"mm_rare_bp,ind,merc",,Musashi Manufactorum,,General,,,,,,,,,,1
+Shisa Howitzer,mm_gigatichowitzer,2,,2000,1200,,3400,,800,14,12,,,,HIGH_EXPLOSIVE,3100,,0,18,1,,0,0,0,0,,500,500,6,2000,,,"STRIKE,USE_VS_FRIGATES","musashi_bp,lowtech_bp,strike20,ind,merc",,Musashi Manufactorum,,Anti Armor,,,,,,,,,,5
+Furi Rail Launcher,mm_magneticrifle,2,0.8,2500,1000,,620,100,60,25,14,,,,KINETIC,900,,0.4,3.6,1,,1,6,2,3,,1120,,,200,,,"STRIKE,USE_VS_FRIGATES","musashi_bp,hightech_bp,strike15,ind,merc,pirates",,Musashi Manufactorum,,Anti Shield,,,,,,,,,,4.25
+Kitsune Flak Battery,mm_flakstormbattery,2,,1600,900,,300,,30,20,14,,,,HIGH_EXPLOSIVE,320,,0,3.6,3,0.2,1,6,2,3,,740,,,100,,,,"musashi_bp,he15,ind,merc,pirates",,Musashi Manufactorum,,Anti Armor,,,,,,,,,,4.25
+Hone-Onna Ward,mm_autoflakpd,3,,600,500,,30,,4,70,9,,,,FRAGMENTATION,12,,0,0.1,1,,1,4,0.1,2,,740,,,,,,PD,"base_bp,midline_bp,pd15,ind,merc,pirates",,Musashi Manufactorum,,Point Defense,,,,,,,,,,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Suzaku Twin laser,mm_cryoflamser,3,,1400,700,,26,3,3,50,7,16,8,8,ENERGY,24,,0,0.05,2,0.05,0,0,0,0,,640,,,,,,PD,"musashi_bp,hightech_bp,energy12,ind,merc,pirates",,Musashi Manufactorum,,General,,,,,,,,,,1
+Ibitsu Ward,mm_miniflakpd,2,,500,450,,16,,2,75,4,,,,FRAGMENTATION,2.5,,0,0.05,1,,0,6,0.5,2,,720,,,,,,PD,"base_bp,pd7,ind,merc,pirates",,Musashi Manufactorum,,Point Defense,,,,,,,,,,1
+Gaki Ward,mm_machineturretpd,2,,400,300,,20,,2,75,5,,,,FRAGMENTATION,3,,0,0.1,1,,0,3,0.1,2,,720,,,,,,PD,"musashi_bp,pd7,ind,merc,pirates",,Musashi Manufactorum,,Point Defense,,,,,,,,,,1
+Akubozu Ward,mm_cryospoolpd,3,0.4,5000,400,,18,3,3,90,5,72,12,36,ENERGY,3,,0,0.05,2,0.05,0,0,0,0,,840,,,,,,PD,"mm_bishamonten_bp,pd7,ind,merc",,Musashi Manufactorum,,Point Defense,,,,,,,,,,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Isetsu Rubion Torpedoes Launcher,mm_isetsutorp,2,,50000,1500,,1500,,120,10,1,6,0.25,6,ENERGY,0,,0,0,12,0.2,2,6,1,2,,1400,200,4,3000,,,SYSTEM,"strike7, missile0, no_sell, no_drop, no_drop_salvage, reload_1_and_a_half_pt",,,,Torpedo,Fast,None,,,,,,,TRUE,9.75
+Ibitsu Ward (Fighter),mm_miniflakpdfighter,2,,4000,900,,16,,2,75,4,,,,FRAGMENTATION,2,,0,0.05,2,0.05,0,4,0.1,1,,720,,,,,,PD,"no_sell, no_drop, no_drop_salvage",,Musashi Manufactorum,,Point Defense,,,,,,,,,,1
+Fighter Annihilator Pod,mm_fighterannihilator,0,,150,1500,,40,,5,30,4,12,6,6,HIGH_EXPLOSIVE,0,,0,6,8,0.2,0,12,5,10,,500,100,3.75,50,,,SYSTEM,"rocket13, strike8, no_sell, no_drop, no_drop_salvage",,,,Anti Armor,Fast,None,,,,,,,,11.1
+Rubion Warhead,mm_rubionwarhead_single,2,,300,1200,,720,,60,10,1,1,,,ENERGY,0,,0,1,1,,0,0,0,0,,400,150,4,300,,,GUIDED_POOR,"strike7, missile0, no_sell, no_drop, no_drop_salvage, reload_1_and_a_half_pt",,,,Torpedo,Fast,Good,,,,,,,TRUE,9.75
+Akubozu Ward (Fighter),mm_cryospoolpd_fighter,3,,5000,400,,14,1,2,90,3,48,8,16,ENERGY,0,,0,0.05,2,0.05,0,0,0,0,,900,,,,,,PD,"musashi_bp,pd7, no_sell, no_drop, no_drop_salvage",,Musashi Manufactorum,,Point Defense,,,,,,,,,,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Bushi Rift Cannon,mm_bushi_raidsuitarm,3,0.1,50000,600,,1300,100,200,60,30,,,,ENERGY,200,,0.5,6.5,1,,2,10,2,4,,920,,,,,,"STRIKE,USE_VS_FRIGATES","musashi_bp,pd7, no_sell, no_drop, no_drop_salvage",,Musashi Manufactorum,,General,,,,,,,,,,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Annihilator Rocket Launcher,annihilator,0,,150,1500,,200,,5,30,4,50,,,HIGH_EXPLOSIVE,0,,0,5,5,0.2,0,0,0,0,,400,50,3.75,50,,,CONSERVE_1,"rocket7, strike0, missile_bp, merc",,,,Anti Armor,Fast,None,,,,,,,,11
+#Annihilator Rocket Pod,annihilator_fighter,0,,150,1500,,200,,5,30,4,5,,,HIGH_EXPLOSIVE,0,,0,0.1,1,,0,30,15,10,,400,50,3.75,50,,,SYSTEM,"rocket13, strike8",,,,Anti Armor,Fast,None,,,,,,,,11.1
+#Heavy Autocannon,heavyac,1,,1000,800,,100,,10,7,10,,,,KINETIC,100,,0,1,3,0.2,0,18,3,10,,800,,,30,,,,"kinetic14, lowtech_bp, merc",,,,Anti Shield,,,,,,,,,,5
+#Mjolnir Cannon,mjolnir,2,0.4,6000,900,,400,200,10,25,24,,,,ENERGY,500,,0,0.75,1,,0,5,1,10,,900,,,75,,,,"energy18, he17, kinetic17, remnant, rare_bp, hist1t, merc",,,,General,,,,,,,,,,7.5
+#Yari Battery,mm_yaribattery,3,,8000,1000,,780,,120,6,26,,,,HIGH_EXPLOSIVE,840,,0,4.5,3,0.5,0,8,2,4,,1200,,,400,,,,"he16, midline_bp, merc",,,,Anti Armor,,,,,,,,,,5
+#Musashi Battery,mm_musashibattery,3,,10000,1000,,950,300,80,7,28,,,,ENERGY,1100,,0,4.5,3,0.5,0,6,2,3,,1000,,,,,,,"energy20, he17, kinetic17, midline_bp, merc",,,,General,,,,,,,,,,27
+#Cryoflamer,cryoflux,3,,100000,400,,75,,3,60,15,120,4,40,ENERGY,50,,,0.05,2,0.05,0,0,0,0,,500,,,,,,,"energy15, SR, omega, restricted",,Unknown,,General,,,,,,,,,,
+#Tengu Battery,mm_hyperblastbattery,3,,12000,1200,,1750,200,200,7,24,,,,HIGH_EXPLOSIVE,1400,,0,10.7,3,0.6,0,8,2,3,,1200,,,500,,,,"musashi_bp,he16,independent,merc",,Musashi Manufactorum,,Anti Armor,,,,,,,,,,5
+#Mujina Battery,mm_cryofusionbattery,3,,14000,1100,,2500,400,250,6,26,,,,ENERGY,2400,,0,12.3,3,0.9,0,10,2,3,,1100,,,,,,,"musashi_bp,energy20, he17, kinetic17,independent,merc",,Musashi Manufactorum,,General,,,,,,,,,,27
+#Sabot SRM Pod,sabotpod,1,,1200,1200,,100,,15,10,10,12,,,KINETIC,0,,0,8.75,2,0.25,0,0,0,0,,150,50,8,300,,,GUIDED_POOR,"missile13, strike8, rare_bp, merc",,,,Anti Shield,Slow,Poor,,,"Submunition hits on hull or armor have a %s chance to arc to weapons and engines, dealing %s EMP damage.",25% | 400,,,TRUE,12.1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#cal,,,,,,425,,,492.8571,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#cal,,,,,,,,,1.130435,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#cal,,,,,,,,,1.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#cal,,,,,,,,,190,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#cal,,,,,,,,,1.333333,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#cal,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#cal,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#cal,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,79 @@
+{
+  "hullName": "Herdsman",
+  "hullId": "acs_auxilia",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/acs_goatherder.png",
+  "style": "LOW_TECH",
+  "height": 150,
+  "width": 80,
+  "center": [40, 75],
+  "collisionRadius": 105,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 95.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "rugged",
+    "repair_gantry",
+    "advancedcore"
+  ],
+  "builtInWings": [
+    "acs_mook_r_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -90,
+      "locations": [-33, -20]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [17.5, -6]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 79,
+      "angle": 0,
+      "locations": [47, -13]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-69.5, 22.5],
+      "length": 60.296776,
+      "width": 18.633209,
+      "angle": 180,
+      "contrailSize": 18.633209,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-69.5, -16.5],
+      "length": 60.296776,
+      "width": 18.633209,
+      "angle": 180,
+      "contrailSize": 18.633209,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    57, -24,
+    -34.5, -34,
+    -40.5, -24,
+    -61.5, -28,
+    -61.5, 28,
+    -50.5, 35.5,
+    -31, 30,
+    57.5, 32.5
+  ]
+}

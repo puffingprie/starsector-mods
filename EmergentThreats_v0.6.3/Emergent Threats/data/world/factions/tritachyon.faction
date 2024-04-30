@@ -1,0 +1,35 @@
+{
+	"variantOverrides":{
+		#"odyssey_Balanced":0,
+	},
+	"priorityShips":{
+		"hulls":[
+			"vice_odyssey_tt",
+			"astral"
+		]
+	},
+	"hullFrequency":{
+		"hulls":{
+			"vice_odyssey_tt":10,
+			"vice_glycon":5,
+			"astral":10,
+			"odyssey":0
+		}
+	},
+	"knownWeapons":{
+		"weapons":[
+			"vice_x-ray_pulse",
+			"vice_lrburstpd",
+			"vice_siege_burst",
+		]
+	},
+	"knownHullMods":{
+		"hullMods":["vice_attuned_emitter_diodes", "vice_advanced_terminator_core", "vice_apotheosis_protocol", "vice_interdiction_array"],
+	},
+	"factionDoctrine":{
+		"warships":3,
+		"carriers":3,
+		"phaseShips":3,
+	}
+}
+

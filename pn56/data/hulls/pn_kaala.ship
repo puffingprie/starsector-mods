@@ -1,0 +1,183 @@
+{
+  "hullName": "Kaala",
+  "hullId": "pn_kaala",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/pn/ships/pn_kaala.png",
+  "style": "MIDLINE",
+  "height": 311,
+  "width": 98,
+  "center": [49, 163.5],
+  "collisionRadius": 215.41124,
+  "shieldCenter": [-4.5, -0],
+  "shieldRadius": 165.904343,
+  "viewOffset": 0,
+  "builtInMods": [
+    "pn_cores"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [94.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [38, 41.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [38, -41.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [64, 36.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [64, -36.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [100, 30.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [100, -30.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [65.5, -0]
+    },
+    {
+      "id": "WS0009",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [27.5, -0]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-21.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-161, -15],
+      "length": 25,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-161, 15],
+      "length": 25,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-162.5, -8],
+      "length": 28,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-162.5, 8],
+      "length": 28,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-163, -0],
+      "length": 30.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-120, -0],
+      "length": 34.5,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    }
+  ],
+  "bounds": [
+    -164, 17.5,
+    -153.5, 27,
+    -128, 25,
+    -99, 49,
+    35.5, 45.5,
+    99.5, 34.5,
+    151, 5.5,
+    89, 4,
+    89, -4,
+    151, -5.5,
+    99.5, -34.5,
+    35.5, -45.5,
+    -99, -49,
+    -128, -25,
+    -153.5, -27,
+    -164, -17.5
+  ]
+}

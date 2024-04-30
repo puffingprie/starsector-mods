@@ -1,0 +1,75 @@
+{
+    "displayName": "Honor Guard",
+    "fluxCapacitors": 0,
+    "fluxVents": 47,
+    "hullId": "radiant_ix",
+    "hullMods": [
+        "pointdefenseai",
+        "ix_reactive_combat_shields",
+        "fluxdistributor",
+        "ix_smod_handler",
+        "advancedoptics",
+        "targetingunit",
+        "frontemitter",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [
+        "pointdefenseai",
+        "ix_reactive_combat_shields",
+        "fluxdistributor",
+        "ix_smod_handler"
+    ],
+    "sMods": [
+        "pointdefenseai",
+        "ix_reactive_combat_shields",
+        "fluxdistributor"
+    ],
+    "variantId": "radiant_ix_honor",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS SBE": "sbe_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "starfall_mlrs_ix",
+                "WS 004": "starfall_mlrs_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "muon_siege_lance_ix",
+                "WS 001": "muon_siege_lance_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "orthrus_m_ix",
+                "WS 006": "orthrus_m_ix",
+                "WS 007": "orthrus_m_ix",
+                "WS 008": "orthrus_m_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "morningstar_ciws_ix",
+                "WS 011": "morningstar_ciws_ix",
+                "WS 012": "taclaser",
+                "WS 013": "taclaser",
+                "WS 014": "taclaser",
+                "WS 015": "taclaser",
+                "WS 016": "morningstar_ciws_ix",
+                "WS 018": "morningstar_ciws_ix"
+            }
+        }
+    ]
+}

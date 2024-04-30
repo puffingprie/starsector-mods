@@ -1,0 +1,18 @@
+{
+	"designTypeColors":{
+            "No Such Org":[70,72,140,255],
+    },
+	"graphics":{
+		"fx":{
+			"kayse_hex":"graphics/kayse/fx/Hexagon_sprite.png",
+			"kayse_triangle":"graphics/kayse/fx/triangle_sprite.png",
+		},
+		"blueprint_packages":{
+			"no_such_org_bp":"graphics/kayse/icons/cargo/no_such_org_package.png",
+			#"no_such_org_weapon_package":"graphics/kayse/icons/cargo/no_such_org_package.png",
+		},
+		"portraits":{
+			"kayse_havelock":"graphics/kayse/portraits/havelock.png",
+		}
+	}
+}

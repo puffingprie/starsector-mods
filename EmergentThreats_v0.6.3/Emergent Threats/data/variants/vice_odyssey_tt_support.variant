@@ -1,0 +1,56 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 5,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "vice_odyssey_tt",
+    "hullMods": [
+        "advancedoptics",
+        "missleracks",
+        "targetingunit"
+    ],
+    "modules": [{"SM 1": "vice_odyssey_secondary_drone_bay"}],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_odyssey_tt_support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "gravitonbeam",
+                "WS 005": "gravitonbeam",
+                "WS 006": "ionbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "hurricane",
+                "WS 002": "hurricane",
+                "WS 003": "hurricane"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "pdlaser",
+                "WS 008": "pdlaser",
+                "WS 009": "pdlaser",
+                "WS 010": "pdlaser",
+                "WS 011": "pdlaser",
+                "WS 012": "pdlaser",
+                "WS 013": "pdlaser",
+                "WS 014": "pdlaser",
+                "WS 015": "pdlaser",
+                "WS 016": "pdlaser"
+            }
+        }
+    ],
+    "wings": [
+        "trident_wing",
+        "trident_wing"
+    ]
+}

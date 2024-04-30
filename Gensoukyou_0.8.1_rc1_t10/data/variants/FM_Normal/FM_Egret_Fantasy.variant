@@ -1,0 +1,39 @@
+{
+    "displayName": "Fantasy",
+    "fluxCapacitors": 2,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "FM_Egret",
+    "hullMods": ["expanded_deck_crew"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Egret_Fantasy",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "FM_SkySerpent_M"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "FM_SkySerpent_S",
+                "WS0003": "FM_SkySerpent_S"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "FM_Spark_pd",
+                "WS0005": "FM_Spark_pd"
+            }
+        }
+    ],
+    "wings": [
+        "FM_Fairy_rocket_wing",
+        "FM_Fairy_rocket_wing",
+        "FM_Fairy_bomb_wing"
+    ]
+}

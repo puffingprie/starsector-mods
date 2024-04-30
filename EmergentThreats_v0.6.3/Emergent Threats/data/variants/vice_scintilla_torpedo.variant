@@ -1,0 +1,34 @@
+{
+    "displayName": "Torpedo",
+    "fluxCapacitors": 0,
+    "fluxVents": 2,
+    "goalVariant": true,
+    "hullId": "scintilla",
+    "hullMods": ["vice_adaptive_thruster_control"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_scintilla_torpedo",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "vice_ionstreamer",
+                "WS 001": "vice_ionstreamer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "atropos",
+                "WS 007": "atropos",
+                "WS 008": "atropos"
+            }
+        }
+    ],
+    "wings": [
+        "vice_helia_wing",
+        "vice_helia_wing"
+    ]
+}

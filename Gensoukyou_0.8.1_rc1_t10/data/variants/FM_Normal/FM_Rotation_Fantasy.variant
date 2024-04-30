@@ -1,0 +1,27 @@
+{
+    "displayName": "Fantasy",
+    "fluxCapacitors": 10,
+    "fluxVents": 3,
+    "goalVariant": true,
+    "hullId": "FM_Rotation",
+    "hullMods": [
+        "FantasyTraditionalMod",
+        "FantasySageMod"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Rotation_Fantasy",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "FM_Blade_ac"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "FM_Leaf"}
+        }
+    ],
+    "wings": []
+}

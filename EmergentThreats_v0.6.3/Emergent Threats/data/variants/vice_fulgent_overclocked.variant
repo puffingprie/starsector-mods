@@ -1,0 +1,50 @@
+{
+    "displayName": "Overclocked",
+    "fluxCapacitors": 0,
+    "fluxVents": 2,
+    "goalVariant": true,
+    "hullId": "fulgent",
+    "hullMods": [
+        "missleracks",
+        "safetyoverrides",
+        "vice_adaptive_reactor_chamber"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_fulgent_overclocked",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "ioncannon",
+                "WS 001": "pulselaser",
+                "WS 002": "ioncannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "reaper",
+                "WS 010": "reaper"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "sabotpod",
+                "WS 004": "sabotpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "irpulse",
+                "WS 006": "irpulse"
+            }
+        }
+    ]
+}

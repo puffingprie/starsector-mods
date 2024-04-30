@@ -1,0 +1,17 @@
+{
+	"id":"vice_interdictor",
+	#"type":"STAT_MOD",
+	"type":"WEAPON",
+	"aiType":"CUSTOM",
+	"aiScript":"data.scripts.vice.ai.InterdictorPulseAI",
+	"statsScript":"data.scripts.vice.shipsystems.InterdictorPulseTargeting",
+	
+	"weaponDataId":"vice_interdictor_pulse",
+	
+	"useSound":"vice_interdictor_fire",
+	
+	"aiHints":{
+	}
+}
+
+

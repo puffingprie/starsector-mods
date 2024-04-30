@@ -1,0 +1,128 @@
+{
+  "hullName": "Ripenses",
+  "hullId": "acs_ripenses",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/acs_scrapripenses.png",
+  "style": "LOW_TECH",
+  "height": 95,
+  "width": 129,
+  "center": [64.5, 47.5],
+  "collisionRadius": 145.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 107,
+  "viewOffset": 0,
+  "builtInMods": [
+    "repair_gantry",
+    "rugged"
+  ],
+  "builtInWings": [
+    "acs_mook_r_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-16.5, 19.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 94,
+      "angle": 0,
+      "locations": [-2.5, -23.5],
+      "renderOrderMod": 2
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 40,
+      "angle": 0,
+      "locations": [23, -23.5],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [28.5, 0.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [28.5, 12.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 90,
+      "locations": [2.5, 46.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 269,
+      "angle": -136.5,
+      "locations": [-23.5, -49.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-43, -20.5],
+      "length": 60.910412,
+      "width": 21.063875,
+      "angle": 180,
+      "contrailSize": 21.063875,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-44.5, -4],
+      "length": 83.5,
+      "width": 22,
+      "angle": 180,
+      "contrailSize": 22,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-42.5, 13],
+      "length": 42.5,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-41, 29],
+      "length": 39.563946,
+      "width": 14.310033,
+      "angle": 180,
+      "contrailSize": 14.310033,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -28.5, 43.5,
+    35.5, 53.5,
+    27.5, -48.5,
+    -35.5, -47
+  ]
+}

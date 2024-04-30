@@ -1,0 +1,32 @@
+{
+	"baseHullId":"vice_venture_base",
+	"skinHullId":"vice_praxis",
+	"hullName":"Praxis",
+	"hullDesignation":"Modified Cruiser",
+	"descriptionId":"vice_praxis",
+	#"descriptionPrefix":"",
+	"systemId":"microburn",
+	"addHints":[],
+	"tags":["no_bp"],
+	#"coversColor":[120,230,255,255],
+	"baseValueMult":2,
+	"fpMod":4,
+	"ordnancePoints":135,
+	"spriteName":"graphics/vice/ships/hidden/praxis.png",
+	"removeWeaponSlots":[],
+	"removeEngineSlots":[],
+	"removeBuiltInMods":["civgrade", "surveying_equipment"],
+	"removeBuiltInWeapons":[],
+	"removeBuiltInWings":["mining_drone_wing"],
+	"builtInMods":["vice_praxis_hull"],
+	"builtInWeapons":{
+     },
+    "weaponSlotChanges":{
+	   "WS 001":{"type":ENERGY},
+	   "WS 002":{"type":HYBRID},
+	   "WS 003":{"type":ENERGY},
+	   "WS 009":{"type":ENERGY},
+	   "WS 010":{"type":ENERGY},
+	   
+    },
+}

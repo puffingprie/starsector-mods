@@ -1,0 +1,57 @@
+{
+  "hullName": "P9 Cimex Drone",
+  "hullId": "pn_drone_cimex",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/pn/ships/Drones/pn_cimexdrone.png",
+  "style": "HIGH_TECH",
+  "height": 24,
+  "width": 25,
+  "center": [12.5, 15],
+  "collisionRadius": 16.124516,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 15.524175,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0001": "pn_empvulcan",
+    "WS0002": "pn_empvulcan"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [7, -6.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [7, 6.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-13, -0],
+      "length": 18,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    }
+  ],
+  "bounds": [
+    -12.5, 2.5,
+    -4, 11,
+    8.5, 11,
+    8.5, -11,
+    -4, -11,
+    -12.5, -2.5
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "hullName": "FM_Bibliophilia",
+  "hullId": "FM_Bibliophilia",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/FM_Bibliophilia.png",
+  "style": "FM",
+  "height": 74,
+  "width": 108,
+  "center": [54, 37],
+  "collisionRadius": 63.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 61.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FantasyBasicMod",
+    "hiressensors",
+    "surveying_equipment",
+    "hardenedshieldemitter"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 45,
+      "locations": [2, 20]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -45,
+      "locations": [2, -20]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 180,
+      "locations": [-10, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-33, 10],
+      "length": 17,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-33, -10],
+      "length": 17,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-31, -12.5],
+      "length": 12.5,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-31, 12.5],
+      "length": 12.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-28.5, -0],
+      "length": 28,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-28.5, 3],
+      "length": 18.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-28.5, -3],
+      "length": 18.5,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    23, -14,
+    33.5, -16,
+    31.5, -26,
+    10, -37,
+    0.5, -50,
+    -33, -17,
+    -27, -6,
+    -27, 6,
+    -33, 17,
+    0.5, 50,
+    10, 37,
+    31.5, 26,
+    33.5, 16,
+    23, 14
+  ]
+}

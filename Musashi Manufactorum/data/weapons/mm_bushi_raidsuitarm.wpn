@@ -1,0 +1,45 @@
+{
+  "id": "mm_bushi_raidsuitarm",
+  "specClass": "projectile",
+  "projectileSpecId": "mm_rubionblastcannon_shot",
+  #"projectileSpecId": "mm_bushi_raidsuitarm_shot",
+  "type": "BALLISTIC",
+  "mountTypeOverride": "HYBRID",
+  "size": "LARGE",
+  #"everyFrameEffect": "com.fs.starfarer.api.impl.combat.CryofluxTransducerEffect",
+  "turretSprite": "graphics/mm/weapons/raidsuitarm/mm_bushi_raidsuitarm.png",
+  "hardpointSprite": "",
+  "glowColor": [
+    225,
+    10,
+    15,
+    85
+  ],
+  "visualRecoil": 1,
+  "turretOffsets": [
+    5,
+    -3.5,
+    5,
+    -0.5
+  ],
+  "turretAngleOffsets": [
+    -1,
+    1
+  ],
+  "hardpointOffsets": [
+    5.5,
+    1.5,
+    5.5,
+    -1.5
+  ],
+  "hardpointAngleOffsets": [
+    5,
+    -5
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "GLOW",
+  #"autocharge": true,
+  #"noImpactSounds": true,
+  #"unaffectedByProjectileSpeedBonuses": true
+  "fireSoundTwo": "rifttorpedo_fire"
+}

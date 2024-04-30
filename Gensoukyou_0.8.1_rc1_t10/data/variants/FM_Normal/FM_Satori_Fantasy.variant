@@ -1,0 +1,35 @@
+{
+    "displayName": "Fantasy",
+    "fluxCapacitors": 30,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "FM_Satori",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Satori_Fantasy",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "FM_LeafFujin"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "annihilatorpod",
+                "WS0003": "annihilatorpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FM_Spark_pd",
+                "WS0005": "FM_Spark_pd",
+                "WS0006": "FM_Spark_pd"
+            }
+        }
+    ]
+}

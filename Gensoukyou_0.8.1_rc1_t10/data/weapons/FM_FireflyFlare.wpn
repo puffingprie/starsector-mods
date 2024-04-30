@@ -1,0 +1,84 @@
+{
+  "id": "FM_FireflyFlare",
+  "specClass": "projectile",
+  "projectileSpecId": "FM_FireflyFlare_project",
+  "type": "DECORATIVE",
+  "size": "SMALL",
+  "displayArcRadius": 300,
+  #"turretSprite": "graphics/ships/deco/FM_FireflyFlare_weapon.png",
+  #"hardpointSprite": "graphics/ships/deco/FM_FireflyFlare_weapon.png",
+  "turretSprite": "",
+  "hardpointSprite": "",
+  "turretGlowSprite": "graphics/ships/deco/FM_FireflyFlare_weaponGlow.png",
+  "hardpointGlowSprite": "graphics/ships/deco/FM_FireflyFlare_weaponGlow.png",
+  "renderHints": [
+  ],
+  "glowColor": [
+    39,
+    255,
+    138,
+    200
+  ],
+  "turretOffsets": [
+    -5,
+    -4,
+    -5,
+    4,
+    2.5,
+    -6,
+    2.5,
+    6,
+    -1,
+    -5,
+    -1,
+    5
+  ],
+  "turretAngleOffsets": [
+    -180,
+    180,
+    -153.5,
+    153.5,
+    -168.5,
+    168.5
+  ],
+  "hardpointOffsets": [
+    14,
+    -6,
+    14,
+    6,
+    10.5,
+    -5,
+    10.5,
+    5,
+    6,
+    -4,
+    6,
+    4
+  ],
+  "hardpointAngleOffsets": [
+    -146.5,
+    146.5,
+    -161.5,
+    161.5,
+    -180,
+    180
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 20,
+    "spread": 20,
+    "particleSizeMin": 30,
+    "particleSizeRange": 5,
+    "particleDuration": 0.15,
+    "particleCount": 2,
+    "particleColor": [
+      39,
+      255,
+      138,
+      255
+    ]
+  },
+  "fireSoundTwo": "system_flare_launcher_active"
+}

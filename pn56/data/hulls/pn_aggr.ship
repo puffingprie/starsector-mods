@@ -1,0 +1,267 @@
+{
+  "hullName": "AGG-r",
+  "hullId": "pn_aggr",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/pn/ships/pn_aggr.png",
+  "style": "MIDLINE",
+  "height": 148,
+  "width": 152,
+  "center": [76, 73],
+  "collisionRadius": 89.872131,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 85.067619,
+  "viewOffset": 0,
+  "builtInMods": [
+    "pn_cores"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 60,
+      "locations": [1, 29]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -60,
+      "locations": [1, -29]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 40,
+      "angle": -0,
+      "locations": [45, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 15,
+      "angle": 0,
+      "locations": [-10, 68]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 15,
+      "angle": 0,
+      "locations": [-10, -68]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 180,
+      "locations": [-19, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-66, -11.5],
+      "length": 10.837329,
+      "width": 3.769509,
+      "angle": 176.820175,
+      "contrailSize": 3.769509,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-66, 11.5],
+      "length": 10.837329,
+      "width": 3.769509,
+      "angle": -176.820175,
+      "contrailSize": 3.769509,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-69, -20.5],
+      "length": 14.274282,
+      "width": 9.432894,
+      "angle": 168.023865,
+      "contrailSize": 9.432894,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-69, 20.5],
+      "length": 14.274282,
+      "width": 9.432894,
+      "angle": -168.023865,
+      "contrailSize": 9.432894,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-58, 50.5],
+      "length": 12,
+      "width": 6.363961,
+      "angle": 141.632507,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-58, -50.5],
+      "length": 12,
+      "width": 6.363961,
+      "angle": -141.632507,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-52.5, 56.5],
+      "length": 12,
+      "width": 8.485281,
+      "angle": 143.426971,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-52.5, -56.5],
+      "length": 12,
+      "width": 8.485281,
+      "angle": -143.426971,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [26.5, 59.5],
+      "length": 12,
+      "width": 6.437263,
+      "angle": 69.443955,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [26.5, -59.5],
+      "length": 12,
+      "width": 6.437263,
+      "angle": -69.443955,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [33.5, 58.5],
+      "length": 12,
+      "width": 7.026373,
+      "angle": 64.798874,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [33.5, -58.5],
+      "length": 12,
+      "width": 7.026373,
+      "angle": -64.798874,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [41, 55],
+      "length": 12,
+      "width": 4.990608,
+      "angle": 55.17551,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [41, -55],
+      "length": 12,
+      "width": 4.990608,
+      "angle": -55.17551,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [62.5, 41],
+      "length": 12,
+      "width": 7.273238,
+      "angle": 34.695152,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [62.5, -41],
+      "length": 12,
+      "width": 7.273238,
+      "angle": -34.695152,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [65, 36],
+      "length": 12,
+      "width": 6.785519,
+      "angle": 10.124672,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [65, -36],
+      "length": 12,
+      "width": 6.785519,
+      "angle": -10.124672,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [66.5, 30],
+      "length": 12,
+      "width": 4.439967,
+      "angle": 6.709837,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [66.5, -30],
+      "length": 12,
+      "width": 4.439967,
+      "angle": -6.709837,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    }
+  ],
+  "bounds": [
+    -71, 30,
+    -28.5, 76.5,
+    59.5, 52,
+    71.5, 19,
+    47, 3,
+    47, -3,
+    71.5, -19,
+    59.5, -52,
+    -28.5, -76.5,
+    -71, -30
+  ]
+}

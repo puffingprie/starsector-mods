@@ -1,0 +1,19 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+Musashi Relic Targeting Core,mmadvancetargetingcore,,,,,,,,TRUE,,0,0,0,0,data.hullmods.mmadvancetargetingcore,"Extends the range of ballistic and energy weapons by %s. The range of point-defense weapons is only extended by %s.
+
+Precludes the installation of a Dedicated Targeting Core or an Integrated Targeting Unit.",Extends non-missile weapon range.,graphics/mm/hullmods/mm_advancecore.png
+Musashi Advance Targeting Core,mmmilitarytargetingcore,,,,,,,,TRUE,,0,0,0,0,data.hullmods.mmmilitarytargetingcore,"Extends the range of ballistic and energy weapons by %s. The range of point-defense weapons is only extended by %s.
+
+Precludes the installation of a Dedicated Targeting Core or an Integrated Targeting Unit.",Extends non-missile weapon range.,graphics/mm/hullmods/mm_militarycore.png
+Musashi Military Targeting Core,mmstandardtargetingcore,,,,,,,,TRUE,,0,0,0,0,data.hullmods.mmstandardtargetingcore,"Extends the range of ballistic and energy weapons by %s. The range of point-defense weapons is only extended by %s.
+
+Precludes the installation of a Dedicated Targeting Core or an Integrated Targeting Unit.",Extends non-missile weapon range.,graphics/mm/hullmods/mm_standardcore.png
+#Heavy Ballistics Integration,hbi,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.HeavyBallisticsIntegration,Reduces the ordnance point cost of large ballistic weapons by %s.,Reduces ordnance point cost of large ballistic weapons.,graphics/hullmods/ballistics_integration.png
+#Automated Ship,automated,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.Automated,"This ship is fully automated, and does not require - and can not take on - any human crew.",Does not require and can not support crew.,graphics/hullmods/automated.png
+#Musashi Targeting Core,mm_targetingcore,,,,,,,,TRUE,,0,0,0,0,data.hullmods.MMTargetingCore,"Extends the range of ballistic and energy weapons by %s. The range of point-defense weapons is only extended by %s.
+
+Precludes the installation of a Dedicated Targeting Core or an Integrated Targeting Unit.",Greatly extends non-missile weapon range.,graphics/hullmods/advanced_targeting_core.png
+#No Weapon Flux,no_weapon_flux,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.NoWeaponFlux,Weapon fire costs no flux. Used on fighters for fine-grained control of effective shield hitpoints.,,
+#Advanced Targeting Core,advancedcore,,,,,,,,TRUE,,0,0,0,0,data.hullmods.AdvancedTargetingCore,"Extends the range of ballistic and energy weapons by %s. The range of point-defense weapons is only extended by %s.
+
+Precludes the installation of a Dedicated Targeting Core or an Integrated Targeting Unit.",Greatly extends non-missile weapon range.,graphics/hullmods/advanced_targeting_core.png

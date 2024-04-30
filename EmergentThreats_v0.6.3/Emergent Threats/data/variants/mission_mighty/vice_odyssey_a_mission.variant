@@ -1,0 +1,77 @@
+{
+    "displayName": "Modified",
+    "fluxCapacitors": 8,
+    "fluxVents": 50,
+    "hullId": "vice_odyssey_ai",
+    "hullMods": [
+        "vice_advanced_terminator_core",
+        "hardenedshieldemitter",
+        "targetingunit",
+        "magazines",
+        "frontemitter",
+        "stabilizedshieldemitter",
+        "vice_adaptive_pulse_resonator"
+    ],
+    "modules": [{"SM 1": "vice_odyssey_secondary_drone_bay"}],
+    "permaMods": [
+        "vice_advanced_terminator_core",
+        "hardenedshieldemitter",
+        "targetingunit"
+    ],
+    "sMods": [
+        "vice_advanced_terminator_core",
+        "hardenedshieldemitter",
+        "targetingunit"
+    ],
+    "variantId": "vice_odyssey_a_mission",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "squall",
+                "WS 003": "squall"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "cyclone"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "ionpulser",
+                "WS 005": "ionpulser",
+                "WS 007": "irpulse",
+                "WS 008": "irpulse",
+                "WS 009": "irpulse",
+                "WS 010": "irpulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 006": "gravitonbeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 011": "pdlaser",
+                "WS 012": "pdlaser",
+                "WS 013": "pdlaser",
+                "WS 014": "pdlaser",
+                "WS 015": "pdlaser",
+                "WS 016": "pdlaser",
+                "WS 017": "pdlaser",
+                "WS 018": "pdlaser"
+            }
+        }
+    ],
+    "wings": [
+        "vice_sundog_wing",
+        "vice_sundog_wing"
+    ]
+}

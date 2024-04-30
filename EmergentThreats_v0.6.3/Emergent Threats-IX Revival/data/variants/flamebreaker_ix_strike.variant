@@ -1,0 +1,50 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 0,
+    "fluxVents": 12,
+    "goalVariant": true,
+    "hullId": "flamebreaker_ix",
+    "hullMods": [
+        "advancedoptics",
+        "hardenedshieldemitter",
+        "targetingunit",
+        "frontemitter",
+        "stabilizedshieldemitter",
+        "ix_point_defense_medium_handler",
+        "ix_point_defense_medium"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "flamebreaker_ix_strike",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "conversion_lance_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "orthrus_s_ix",
+                "WS 010": "orthrus_s_ix",
+                "WS 011": "orthrus_s_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightbringer_ciws_ix",
+                "WS 003": "lightbringer_ciws_ix",
+                "WS 004": "lightbringer_ciws_ix",
+                "WS 005": "morningstar_ciws_ix",
+                "WS 008": "morningstar_ciws_ix"
+            }
+        }
+    ],
+    "wings": [
+        "dictum_ix_wing",
+        "dictum_ix_wing"
+    ]
+}

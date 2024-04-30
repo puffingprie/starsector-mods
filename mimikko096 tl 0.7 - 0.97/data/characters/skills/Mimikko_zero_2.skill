@@ -1,0 +1,29 @@
+{
+	"id":"Mimikko_zero_2",
+	"governingAptitude":"technology",
+	"compressHullmods":false,
+	"elite":true,
+	"scope":"PILOTED_SHIP",
+	"effectGroups":[
+		{
+		    "name":"Psychic Nano Replicator",
+			"requiredSkillLevel":1,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"SHIP", "script":"data.scripts.skill.Mimikko_zero_2$Level1"},
+				{"type":"SHIP", "script":"data.scripts.skill.Mimikko_zero_2$Level2"},
+				{"type":"SHIP", "script":"data.scripts.skill.Mimikko_zero_2$Level3"},
+			]
+		},
+		{
+			"name":"Centralized Hacked Replicator Core",
+			"requiredSkillLevel":2,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"SHIP", "script":"data.scripts.skill.Mimikko_zero_2$Level4"},
+				{"type":"SHIP", "script":"data.scripts.skill.Mimikko_zero_2$Level5"},
+			]
+		},
+	],
+}
+

@@ -1,0 +1,42 @@
+{
+    "displayName": "Aggressive",
+    "fluxCapacitors": 19,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "FM_Egret",
+    "hullMods": [
+        "expanded_deck_crew",
+        "missleracks"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Egret_Aggressive",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "sabotpod"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "atropos",
+                "WS0003": "atropos"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "FM_Spark_pd",
+                "WS0005": "FM_Spark_pd"
+            }
+        }
+    ],
+    "wings": [
+        "FM_Fairy_bomb_wing",
+        "FM_Fairy_bomb_wing",
+        "FM_Fairy_bomb_wing"
+    ]
+}

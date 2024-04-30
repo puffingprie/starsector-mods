@@ -1,0 +1,238 @@
+{
+  "bounds": [
+    -50.5,
+    23,
+    -42,
+    48,
+    -24,
+    59,
+    2.5,
+    54,
+    44.5,
+    30.5,
+    62,
+    8,
+    62,
+    -8,
+    44.5,
+    -30.5,
+    2.5,
+    -54,
+    -24,
+    -59,
+    -42,
+    -48,
+    -50.5,
+    -23
+  ],
+  "builtInMods": [
+    "pn_cores"
+  ],
+  "builtInWeapons": {
+    "WS0001": "pn_sike_mpod",
+    "WS0002": "pn_sike_mpod",
+    "WS0003": "pn_sike_mpod"
+  },
+  "center": [
+    59.5,
+    50
+  ],
+  "collisionRadius": 80.947517,
+  "engineSlots": [
+    {
+      "angle": -140.906143,
+      "contrailSize": 22.911297,
+      "length": 3.165141,
+      "location": [
+        -41.5,
+        -28.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "sikeEngine",
+      "width": 22.911297
+    },
+    {
+      "angle": 140.906143,
+      "contrailSize": 22.911297,
+      "length": 3.165141,
+      "location": [
+        -41.5,
+        28.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "sikeEngine",
+      "width": 22.911297
+    },
+    {
+      "angle": -119.16761,
+      "contrailSize": 10.784032,
+      "length": 1.85099,
+      "location": [
+        -29.5,
+        -50
+      ],
+      "style": "CUSTOM",
+      "styleId": "sikeEngine",
+      "width": 10.784032
+    },
+    {
+      "angle": 121.701431,
+      "contrailSize": 10.784032,
+      "length": 1.85099,
+      "location": [
+        -29.5,
+        50
+      ],
+      "style": "CUSTOM",
+      "styleId": "sikeEngine",
+      "width": 10.784032
+    },
+    {
+      "angle": -92.935677,
+      "contrailSize": 22.911297,
+      "length": 3.165141,
+      "location": [
+        -5.5,
+        -49
+      ],
+      "style": "CUSTOM",
+      "styleId": "sikeEngine",
+      "width": 22.911297
+    },
+    {
+      "angle": 92.935677,
+      "contrailSize": 22.911297,
+      "length": 3.165141,
+      "location": [
+        -5.5,
+        49
+      ],
+      "style": "CUSTOM",
+      "styleId": "sikeEngine",
+      "width": 22.911297
+    },
+    {
+      "angle": -16.858398,
+      "contrailSize": 22.911297,
+      "length": 3.165141,
+      "location": [
+        46,
+        -20.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "sikeEngine",
+      "width": 22.911297
+    },
+    {
+      "angle": 16.858398,
+      "contrailSize": 22.911297,
+      "length": 3.165141,
+      "location": [
+        46,
+        20.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "sikeEngine",
+      "width": 22.911297
+    },
+    {
+      "angle": 0.622756,
+      "contrailSize": 10.784032,
+      "length": 1.85099,
+      "location": [
+        56.5,
+        -0
+      ],
+      "style": "CUSTOM",
+      "styleId": "sikeEngine",
+      "width": 10.784032
+    }
+  ],
+  "height": 114,
+  "hullId": "pn_sike-m",
+  "hullName": "Sike-M",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 77.252831,
+  "spriteName": "graphics/pn/ships/pn_sike-m.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": -133.505661,
+      "arc": 360,
+      "id": "WS0001",
+      "locations": [
+        -18.5,
+        -30
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 120,
+      "arc": 360,
+      "id": "WS0002",
+      "locations": [
+        -17.5,
+        32
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0003",
+      "locations": [
+        34.5,
+        -0.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -60,
+      "arc": 360,
+      "id": "WS0004",
+      "locations": [
+        17.5,
+        -29.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 60,
+      "arc": 360,
+      "id": "WS0005",
+      "locations": [
+        18,
+        28.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 180,
+      "arc": 360,
+      "id": "WS0006",
+      "locations": [
+        -35.5,
+        -0.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 120
+}

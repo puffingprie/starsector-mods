@@ -1,0 +1,48 @@
+{
+  "variantId": "acs_modprom_frigcarrier_standard",
+  "hullId": "acs_modprom_frigcarrier",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 22,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "acs_velites_single",
+        "WS 003": "acs_toyhammer_small",
+        "WS 004": "acs_medium_lasgun",
+        "WS 005": "acs_medium_lascannon",
+        "WS 006": "vulcan",
+        "WS 012": "vulcan",
+        "WS 013": "vulcan",
+        "WS 014": "vulcan",
+        "WS 015": "vulcan",
+        "WS 016": "vulcan",
+        "WS 019": "squall",
+        "WS 031": "tachyonlance",
+        "WS 032": "devastator",
+        "WS0001": "vulcan",
+        "WS0002": "vulcan",
+        "WS0003": "vulcan",
+        "WS0004": "vulcan",
+        "WS0005": "pilum",
+        "WS0006": "acs_rorariirailslauncher"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "acs_trooper_Fighter_wing",
+    "acs_trooper_Fighter_wing",
+    "acs_watchman_Fighter_wing",
+    "acs_watchman_Fighter_wing"
+  ]
+}

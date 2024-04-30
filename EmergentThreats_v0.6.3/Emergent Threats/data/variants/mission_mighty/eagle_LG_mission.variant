@@ -1,0 +1,49 @@
+{
+    "displayName": "Navy",
+    "fluxCapacitors": 0,
+    "fluxVents": 29,
+    "hullId": "eagle_LG",
+    "hullMods": [
+        "comp_hull",
+        "degraded_shields",
+        "vice_attuned_emitter_diodes",
+        "targetingunit"
+    ],
+    "permaMods": [
+        "comp_hull",
+        "degraded_shields"
+    ],
+    "sMods": [],
+    "variantId": "eagle_LG_mission",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "breach",
+                "WS 002": "breach",
+                "WS 007": "hveldriver",
+                "WS 008": "hveldriver",
+                "WS 013": "heavymauler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "vice_lrburstpd",
+                "WS 010": "taclaser",
+                "WS 011": "vice_ionstreamer",
+                "WS 012": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "heavyburst",
+                "WS 006": "heavyburst"
+            }
+        }
+    ]
+}

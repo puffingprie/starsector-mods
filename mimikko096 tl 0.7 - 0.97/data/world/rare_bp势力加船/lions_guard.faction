@@ -1,0 +1,18 @@
+{
+
+	"knownShips":{
+		"tags":[],
+		"hulls":[
+		ee_scienceship_dd
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+	         ee_scienceship_dd
+		],
+	},
+	
+	
+},

@@ -1,0 +1,38 @@
+{
+    "displayName": "Aggressive",
+    "fluxCapacitors": 20,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "FM_Witch",
+    "hullMods": [
+        "targetingunit",
+        "missleracks",
+        "FantasyBorderMod"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Witch_Aggressive",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "FM_Masterspark"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "sabotpod",
+                "WS0004": "sabotpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "FM_Spark_pd",
+                "WS0006": "FM_Spark_pd"
+            }
+        }
+    ]
+}

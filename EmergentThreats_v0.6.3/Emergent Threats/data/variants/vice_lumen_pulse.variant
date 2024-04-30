@@ -1,0 +1,32 @@
+{
+    "displayName": "Overclocked",
+    "fluxCapacitors": 0,
+    "fluxVents": 9,
+    "goalVariant": true,
+    "hullId": "lumen",
+    "hullMods": [
+        "fluxdistributor",
+        "vice_adaptive_pulse_resonator"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_lumen_pulse",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "ioncannon",
+                "WS 009": "ioncannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "irpulse",
+                "WS 007": "irpulse"
+            }
+        }
+    ]
+}

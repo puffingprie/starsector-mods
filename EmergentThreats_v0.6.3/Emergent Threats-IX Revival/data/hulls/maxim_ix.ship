@@ -1,0 +1,58 @@
+{
+  "hullName": "Maxim (IX)",
+  "hullId": "maxim_ix",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/ix/fighters/maxim_ix.png",
+  "style": "HIGH_TECH",
+  "height": 36,
+  "width": 32,
+  "center": [16, 18],
+  "collisionRadius": 27,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 27,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [1, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-16, 6],
+      "length": 9,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-16, -6],
+      "length": 9,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-14, -0],
+      "length": 20,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    18, -1,
+    8, 13,
+    -16, 4,
+    -16, -6,
+    8, -15
+  ]
+}

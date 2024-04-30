@@ -1,0 +1,49 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 19,
+    "goalVariant": true,
+    "hullId": "flamebreaker_ix",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "targetingunit",
+        "frontemitter",
+        "stabilizedshieldemitter",
+        "ix_point_defense_small",
+        "ix_point_defense_small_handler"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "flamebreaker_ix_cs",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "ifc_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "orthrus_s_ix",
+                "WS 010": "orthrus_s_ix",
+                "WS 011": "orthrus_s_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "es_projector_ix",
+                "WS 003": "lightbringer_ciws_ix",
+                "WS 004": "lightbringer_ciws_ix",
+                "WS 005": "muon_streamer_ix",
+                "WS 008": "muon_streamer_ix"
+            }
+        }
+    ],
+    "wings": [
+        "maxim_ix_wing",
+        "maxim_ix_wing"
+    ]
+}

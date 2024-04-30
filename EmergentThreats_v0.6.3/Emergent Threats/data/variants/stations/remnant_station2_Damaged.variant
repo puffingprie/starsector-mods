@@ -1,0 +1,22 @@
+{
+    "displayName": "Damaged",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "hullId": "remnant_station2",
+    "hullMods": ["vice_adaptive_neural_net"],
+    "modules": [
+        {"WS 024": "remnant_armour3_Standard"},
+        {"WS 001": "remnant_weapon_platform1_Standard"},
+        {"WS 030": "remnant_armour3_Standard"},
+        {"WS 007": "remnant_weapon_platform1_Standard"},
+        {"WS 027": "remnant_armour3_Standard"},
+        {"WS 016": "remnant_weapon_platform1_Standard"},
+        {"WS 036": "remnant_weapon_platform2_Standard"},
+        {"WS 038": "remnant_weapon_platform2_Standard"},
+        {"WS 039": "remnant_hangar1_Standard"}
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "remnant_station2_Damaged",
+    "weaponGroups": []
+}

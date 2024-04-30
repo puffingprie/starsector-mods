@@ -1,0 +1,131 @@
+{
+  "hullName": "Nesaku",
+  "hullId": "mm_nesaku",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/mm/ships/mm_neasku.png",
+  "style": "HIGH_TECH",
+  "height": 212,
+  "width": 56,
+  "center": [28, 108],
+  "collisionRadius": 113,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 112,
+  "viewOffset": 0,
+  "builtInMods": [
+    "mmstandardtargetingcore",
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 300,
+      "angle": -0,
+      "locations": [34, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 300,
+      "angle": 179.5,
+      "locations": [-59.5, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 0,
+      "locations": [63, -0]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 300,
+      "angle": 180,
+      "locations": [-85.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-54.5, 23.5],
+      "length": 15.529952,
+      "width": 6.729211,
+      "angle": 171,
+      "contrailSize": 6.729211,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-54.5, -23.5],
+      "length": 15.529952,
+      "width": 6.729211,
+      "angle": -171,
+      "contrailSize": 6.729211,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [20, 24.5],
+      "length": 15.529952,
+      "width": 6.729211,
+      "angle": 171,
+      "contrailSize": 6.729211,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [20, -24.5],
+      "length": 15.529952,
+      "width": 6.729211,
+      "angle": -171,
+      "contrailSize": 6.729211,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-103.5, 14],
+      "length": 36.544468,
+      "width": 11.57615,
+      "angle": 178.5,
+      "contrailSize": 11.57615,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-103.5, -14],
+      "length": 36.544468,
+      "width": 11.57615,
+      "angle": -178.5,
+      "contrailSize": 11.57615,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-106.5, 3.5],
+      "length": 65.781059,
+      "width": 18.450216,
+      "angle": -179.5,
+      "contrailSize": 18.450216,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-106.5, -3.5],
+      "length": 65.781059,
+      "width": 18.450216,
+      "angle": 179.5,
+      "contrailSize": 18.450216,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    102, -4.5,
+    25, -22.5,
+    -53, -23,
+    -102.5, -16.5,
+    -102.5, 16.5,
+    -53, 23,
+    25, 22.5,
+    102, 4.5
+  ]
+}

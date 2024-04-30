@@ -1,0 +1,71 @@
+{
+    "displayName": "Cursed",
+    "fluxCapacitors": 4,
+    "fluxVents": 50,
+    "hullId": "uw_boss_malignancy",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "uw_boss_malignancy_cur",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0013": "plasma"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "annihilatorpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0012": "riftcascade"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "railgun",
+                "WS0003": "railgun",
+                "WS0009": "shredder"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0010": "hveldriver"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "devastator",
+                "WS0018": "devastator"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "vulcan",
+                "WS0005": "vulcan",
+                "WS0006": "shockrepeater",
+                "WS0007": "shockrepeater",
+                "WS0008": "riftbeam",
+                "WS0014": "shockrepeater",
+                "WS0015": "shockrepeater",
+                "WS0016": "shockrepeater",
+                "WS0017": "shockrepeater",
+                "WS0019": "shockrepeater",
+                "WS0020": "shockrepeater"
+            }
+        }
+    ],
+    "wings": [
+        "dagger_wing",
+        "longbow_wing",
+        "broadsword_wing"
+    ]
+}

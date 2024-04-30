@@ -1,0 +1,21 @@
+{
+	"baseHullId":"vice_odyssey_tt",
+	"skinHullId":"vice_odyssey_ai",
+	"hullName":"Odyssey (AI)",
+	"hullDesignation":"Battlecarrier",
+	"descriptionId":"vice_odyssey_tt",
+	"descriptionPrefix":"The extensive automation aboard this ship skirts dangerously close to breaching the Treaty of Thule. An integrated delta-grade AI core can assume command in the absence of a human captain and crew, while versatile construction drones swiftly adapt internal subsystems to meet tactical demands. Any dedicated shipwright could replicate these upgrades with laborious and bespoke engineering, but with nowhere near the stunning efficiency on display.",
+	"tags":["restricted"],
+	"tech":"Tri-Tachyon",
+	"fighterBays":2,
+	"baseValueMult":1.5,
+	"spriteName":"graphics/vice/ships/odyssey_tt.png",
+	"removeWeaponSlots":[],
+	"removeEngineSlots":[],
+	"removeBuiltInMods":[],
+	"removeBuiltInWeapons":[],
+	"builtInWings": [],
+	"builtInMods":["vice_ai_subsystem_integration"],
+	"builtInWeapons":{
+     },
+}

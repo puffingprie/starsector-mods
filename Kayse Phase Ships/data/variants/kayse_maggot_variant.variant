@@ -1,0 +1,22 @@
+{
+  "variantId": "kayse_maggot_variant",
+  "hullId": "kayse_maggot",
+  "displayName": "Torpedo Bomber",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "atropos_single"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,54 @@
+{
+  "variantId": "mm_amaterasu_standard",
+  "hullId": "mm_amaterasu",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 19,
+  "fluxVents": 21,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hbi"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "mm_hyperblastbattery",
+        "WS0004": "mm_hyperblastbattery",
+        "WS0005": "mm_hyperblastbattery"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "mm_magneticrifle",
+        "WS0007": "mm_magneticrifle",
+        "WS0014": "mm_magneticrifle"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mm_autoflakpd",
+        "WS0002": "mm_autoflakpd",
+        "WS0008": "mm_miniflakpd",
+        "WS0009": "mm_miniflakpd",
+        "WS0010": "mm_miniflakpd",
+        "WS0011": "mm_miniflakpd",
+        "WS0012": "mm_miniflakpd",
+        "WS0013": "mm_miniflakpd",
+        "WS0015": "mm_autoflakpd",
+        "WS0016": "mm_autoflakpd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "mm_fighter_jizo",
+    "mm_fighter_jizo"
+  ]
+}

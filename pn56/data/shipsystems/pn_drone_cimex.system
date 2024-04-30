@@ -1,0 +1,48 @@
+{
+  "id": "pn_drone_cimex",
+  "type": "DRONE_LAUNCHER",
+  "aiType": "DRONE_LAUNCHER_PD",
+
+  "droneVariant": "pn_drone_cimex",
+
+  "allowFreeRoam": true,
+
+  "launchSpeed": 100,
+  "launchDelay": 1,
+  "maxDrones": 2,
+  "droneBehavior": [
+    {
+      "droneIndex": [0],
+      "defaultFacing": "MATCH_DRONE_HEADING",
+      "faceEnemy": true,
+      "holdRoamRange": 250,
+      "freeRoamRange": 4000,
+      "targetPriority": [MISSILE, SHIP_TARGET, FIGHTER, SHIP],
+      "initialOrbitAngle": 0,
+      "orbitRadius": 50, # plus ship radius
+      "orbitDir": 1, # -1 or 1
+      "orbitSpeed": 100, # pixels/second
+    },
+    {
+      "droneIndex": [1],
+      "defaultFacing": "MATCH_DRONE_HEADING",
+      "faceEnemy": true,
+      "holdRoamRange": 250,
+      "freeRoamRange": 4000,
+      "targetPriority": [MISSILE, SHIP_TARGET, FIGHTER, SHIP],
+      "initialOrbitAngle": 0,
+      "orbitRadius": 50, # plus ship radius
+      "orbitDir": -1, # -1 or 1
+      "orbitSpeed": 100, # pixels/second
+    }
+
+  ],
+
+  "useSound": "drone_launch",
+  "outOfUsesSound": "gun_out_of_ammo",
+
+  "aiHints": {
+
+  }
+}
+

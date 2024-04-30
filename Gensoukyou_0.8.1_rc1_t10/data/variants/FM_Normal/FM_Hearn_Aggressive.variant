@@ -1,0 +1,34 @@
+{
+    "displayName": "Aggressive",
+    "fluxCapacitors": 21,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "FM_Hearn",
+    "hullMods": [
+        "expanded_deck_crew",
+        "targetingunit",
+        "frontemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Hearn_Aggressive",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "heavyneedler",
+                "WS0002": "heavyneedler"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0009": "cyclone"}
+        }
+    ],
+    "wings": [
+        "FM_Fairy_wing",
+        "FM_Fairy_wing"
+    ]
+}

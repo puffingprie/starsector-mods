@@ -1,0 +1,18 @@
+{
+	"id":"morningstar_ix_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	#"onHitEffect":"data.scripts.ix.weapons.MorningstarOnHitEffect",
+	"hitGlowRadius":20.0,
+	"length":20.0,
+	"width":11.0,
+	"fadeTime":0.07,
+	"fringeColor":[0,200,0,150],
+	"coreColor":[200,255,200,180],
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	#"textureType":["graphics/fx/emp_arcs.png","graphics/fx/emp_arcs.png"],
+	"textureScrollSpeed":0.0,
+	"pixelsPerTexel":1.0
+}

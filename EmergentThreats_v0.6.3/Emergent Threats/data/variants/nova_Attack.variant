@@ -1,0 +1,50 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 11,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "nova",
+    "hullMods": [
+        "fluxdistributor",
+        "targetingunit",
+        "stabilizedshieldemitter",
+        "vice_adaptive_emitter_diodes"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "nova_Attack",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "vice_siege_burst",
+                "WS 001": "vice_siege_burst",
+                "WS 006": "breachpod",
+                "WS 007": "breachpod",
+                "WS 008": "breachpod",
+                "WS 009": "breachpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "ionbeam",
+                "WS 003": "gravitonbeam",
+                "WS 004": "gravitonbeam",
+                "WS 005": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 010": "pdburst",
+                "WS 011": "pdburst",
+                "WS 012": "pdburst",
+                "WS 013": "pdburst"
+            }
+        }
+    ]
+}

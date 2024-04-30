@@ -1,0 +1,56 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 48,
+    "goalVariant": true,
+    "hullId": "odyssey_ix",
+    "hullMods": [
+        "magazines",
+        "targetingunit",
+        "ix_reactive_combat_shields",
+        "frontemitter",
+        "stabilizedshieldemitter",
+        "ix_terminus_relay"
+    ],
+    "modules": [{"SM 1": "odyssey_drone_bay_ix"}],
+    "permaMods": ["hiressensors"],
+    "sMods": [],
+    "variantId": "odyssey_ix_cs",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "thundermark_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS TORP": "vampyr_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "orthrus_l_ix",
+                "WS 003": "orthrus_l_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "lightbringer_ciws_ix",
+                "WS 005": "lightbringer_ciws_ix",
+                "WS 006": "lightbringer_ciws_ix",
+                "WS 007": "muon_streamer_ix",
+                "WS 008": "muon_streamer_ix",
+                "WS 009": "muon_streamer_ix",
+                "WS 010": "muon_streamer_ix",
+                "WS 011": "morningstar_ciws_ix",
+                "WS 013": "morningstar_ciws_ix",
+                "WS 014": "morningstar_ciws_ix"
+            }
+        }
+    ],
+    "wings": []
+}

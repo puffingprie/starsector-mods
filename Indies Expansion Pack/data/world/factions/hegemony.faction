@@ -1,0 +1,5 @@
+{
+	"knownShips":{
+		"hulls":["acs_exploraria2", "acs_phaetonmkii", "acs_commitatensis", "acs_vigiles", "acs_ripenses", "acs_barnabas", "acs_super_champion"],
+	},
+},

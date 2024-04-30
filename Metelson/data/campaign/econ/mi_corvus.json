@@ -1,0 +1,25 @@
+{
+"starSystem":"corvus",
+	"markets":[
+		{
+			"entities":["metelsonCorvus"],
+			"faction":"metelson",
+			"size":4,
+			"startingConditions":[
+				"population_4",
+				"hot",
+				"ore_moderate",
+				"farmland_poor",
+				"ruins_scattered",
+				"habitable",	
+			],
+			"industries":[
+				"population",
+				"heavyindustry",
+				"farming",
+				"megaport",
+				"orbitalstation",
+			],
+		},
+	],
+}

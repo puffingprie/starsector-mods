@@ -1,0 +1,92 @@
+{
+  "hullName": "Tempest",
+  "hullId": "tempest_ix_base",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/ix/temblor_ix.png",
+  "style": "HIGH_TECH",
+  "coversColor": "200,200,200,255",
+  "height": 92,
+  "width": 64,
+  "center": [32, 31],
+  "collisionRadius": 80,
+  "shieldCenter": [15, 0],
+  "shieldRadius": 64,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [36, -0]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [22, -23]
+    },
+    {
+      "id": "WS DIF",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 0,
+      "locations": [21, 21]
+    },
+    {
+      "id": "LB 1",
+      "size": "SMALL",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 270,
+      "locations": [
+        -2, -18,
+        -2, -23
+      ]
+    },
+  ],
+  "engineSlots": [
+    {
+      "location": [-29, 0],
+      "length": 64,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-23, -19],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-23, 19],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    44, 10,
+    0, 28,
+    -22, 20,
+    -29, 7,
+    -29, -7,
+    -22, -20,
+    -5, -29,
+    44, -10
+  ]
+}

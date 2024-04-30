@@ -1,0 +1,13 @@
+{
+	"weaponSlots": [
+		{
+			"id": "WS 003",
+			"size": "SMALL",
+			"type": "SYSTEM",
+			"mount": "HIDDEN",
+			"arc": 90,
+			"angle": 0,
+			"locations": [33, 0]
+		}
+	],
+}

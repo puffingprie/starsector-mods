@@ -1,0 +1,33 @@
+{
+    "displayName": "Fantasy",
+    "fluxCapacitors": 8,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "FM_Parasol",
+    "hullMods": ["FantasyTraditionalMod"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Parasol_Fantasy",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "atropos"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "sabot"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "FM_CaptureWeb"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "FM_IcicleFall"}
+        }
+    ]
+}

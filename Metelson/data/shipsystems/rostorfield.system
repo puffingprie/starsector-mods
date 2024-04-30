@@ -1,0 +1,52 @@
+{
+	"id":"rostor",
+	"type":"STAT_MOD",
+	"aiType":"DAMPER_FIELD",
+	
+	"statsScript":"data.shipsystems.scripts.RamperFieldStats",
+	
+	"jitterUnderColor":[255,165,90,155],
+	"jitterUnderCopies":25,
+	"jitterUnderMinRange":0,
+	"jitterUnderRange":7,
+	"jitterUnderRangeRadiusFraction":0,
+	
+	"jitterColor":[255,165,90,55],
+	"jitterCopies":2,
+	"jitterMinRange":0,
+	"jitterRange":5,
+	"jitterRangeRadiusFraction":0,
+	
+	#"weaponGlowColor":[255,165,90,0],
+	#"weaponTypes":[ENERGY, BALLISTIC, MISSILE],
+	
+	#"engineGlowColor":[255,90,255,255],
+	
+	"soundFilterType":"LOWPASS",
+	"soundFilterGain":0.65,
+	"soundFilterGainHF":0.25,
+		"engineGlowLengthMult":1,
+		"engineGlowWidthMult":1,
+		"engineGlowGlowMult":2,
+	
+	"flameoutOnImpactChance":0.25,
+
+	"clampTurnRateAfter":false,
+	"clampMaxSpeedAfter":false,
+	
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_damper",
+	"loopSound":"system_rostor_loop",
+	"deactivateSound":"system_damper_off",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":
+	{
+		"activeSpeedIncrease":75,
+		"burstMovementPotential":75,
+		"averageSpeedIncrease":30,
+	}
+}
+
+
+

@@ -1,0 +1,59 @@
+{
+  "displayName": "Battle",
+  "fluxCapacitors": 14,
+  "fluxVents": 35,
+  "goalVariant": true,
+  "hullId": "mi_acutor",
+  "hullMods": [
+    "targetingunit"
+  ],
+  "permaMods": [],
+  "quality": 0.75,
+  "variantId": "mi_acutor_battle",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "mjolnir",
+        "WS00010": "actel"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "harpoonpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "kasta",
+        "WS0008": "kasta"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "lightmg",
+        "WS0004": "lightmg",
+        "WS0006": "combatmg",
+        "WS0007": "light_maser_beam",
+        "WS0010": "flak",
+        "WS0011": "crackler",
+        "WS0012": "crackler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "wings": [
+    "negl_wing"
+  ]
+}

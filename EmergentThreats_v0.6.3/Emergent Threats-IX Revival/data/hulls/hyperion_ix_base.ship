@@ -1,0 +1,87 @@
+{
+  "hullName": "Hyperion",
+  "hullId": "hyperion_ix_base",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/ix/easter_egg/hyperion_ix.png",
+  "style": "HIGH_TECH",
+  "height": 93,
+  "width": 98,
+  "center": [49, 41],
+  "collisionRadius": 80,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 65,
+  "viewOffset": 0,
+  "builtInMods": [
+    "high_maintenance",
+    "delicate"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [12, 30]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [12, -30]
+    },
+    {
+      "id": "WS 003",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [14, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-38, 15],
+      "length": 64,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-41, -0],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-38, -15],
+      "length": 64,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -37, 4,
+    -33, 33,
+    -6, 47,
+    13, 41,
+    21, 19,
+    47, 15,
+    47, -15,
+    21, -19,
+    13, -41,
+    -6, -47,
+    -33, -33,
+    -37, -4
+  ]
+}

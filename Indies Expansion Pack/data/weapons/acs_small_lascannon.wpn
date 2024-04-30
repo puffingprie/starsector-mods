@@ -1,0 +1,54 @@
+{
+  "id": "acs_small_lascannon",
+  "specClass": "projectile",
+  "projectileSpecId": "acs_medium_lascannon_shot",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "displayArcRadius": 250,
+  "turretSprite": "graphics/acs_small_lascannon_turret.png",
+  "turretGunSprite": "graphics/acs_small_lascannon_turret_recoil.png",
+  "hardpointSprite": "graphics/acs_small_lascannon_hardpoint.png",
+  "hardpointGunSprite": "graphics/acs_small_lascannon_hardpoint_recoil.png",
+  "visualRecoil": 3,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "glowColor": [
+    255,
+    100,
+    100,
+    255
+  ],
+  "turretOffsets": [
+    14,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    23,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 50,
+    "spread": 6,
+    "particleSizeMin": 25,
+    "particleSizeRange": 30,
+    "particleDuration": 0.15,
+    "particleCount": 15,
+    "particleColor": [
+      255,
+      100,
+      100,
+      255
+    ]
+  },
+  "fireSoundTwo": "heavy_blaster_fire"
+}

@@ -1,0 +1,122 @@
+{
+    "name": "Miruku",
+    "personalities": ["steady", "aggressive", "reckless","cautious"],
+    "gender": ["m","f","n"],
+    "chance": 0,
+    "talkativeness": 0.65,
+    "categoryTags": [
+        "othermedia",
+    ],
+    "lines": {
+        "start": [                                            #开始？
+            {
+                "text": "Captain, if you need Miruku's help, please let me know",
+            },
+            {
+                "text": "Captain, Miruku is ready",
+            },
+        ],
+        "start_boss": [                                    #打boss
+            {
+                "text": "A very special looking ship",
+            },
+
+        ],
+        "retreat": [                                            #撤退
+            {
+                "text": "Ah......That's very rude of me",
+            },
+        ],
+        "out_of_missiles": [                                #用完导弹
+            {
+                "text": "Our missile storage have been used up",
+            },
+            {
+                "text": "Noted, we should stock more missile of this type",
+            },
+        ],
+        "engaged": [                                     #舰船部署
+            {
+                "text": "Handshake can pass on power, Miruku heard about this before",
+            },
+            {
+                "text": "Miruku will not forget pinkie promise with the Captain",
+            },
+            {
+                "text": "Miruku is not a neat freak, is just an outstanding assistant must always maintain a clean appearnce",
+            },
+        ],
+        "need_help": [                                         #需要帮助
+            {
+                "text": "It seems Miruku as an assistant will need assistance from the Captain",
+            },
+            {
+                "text": "Miruku will need the Captain's assistance this time",
+            },
+        ],
+        "pursuing": [                                               #发动进攻
+            {
+                "text": "Miruku can do more than assisting the Captain",
+            },
+            {
+                "text": "This is Miruku's duty as an assistant",
+            },
+            {
+                "text": "Helping the Captain completing their work is Miruku's mission",
+            },
+        ],
+        "running": [                                        #后撤
+            {
+                "text": "Miruku need a short break",
+            },
+            {
+                "text": "Miruku is applying for a short rest",
+            },
+        ],
+        "hull_90": [                                     #90%生命值
+            {
+                "text": "This can't stop me",
+            },
+        ],
+        "hull_50": [
+            {
+                "text": "Miruku will not give up",
+            },
+            {
+                "text": "Captain needs Miruku's help",
+            },
+        ],
+        "hull_30": [
+            {
+                "text": "Captain still need Miruku's help, hold on",
+            },
+        ],
+        "overload": [                					#过载
+            {
+                "text": "We have overloaded",
+            },
+            {
+                "text": "Ugh, I cannot assist the Captain for the time being",
+            },
+        ],
+        "death": [							#沉船
+            {
+                "text": "My bangs...no...don't touch, or it will get messy, just not the bangs...",
+            },    
+        ],
+        "victory": [							#胜利
+            {
+                "text": "Captain, is that a perverted laugh? Please don't make that expression to your assistant",
+            },
+            {
+                "text": "Stop looking for it Captain, Miruku doesn't have an Ahoge......Do you need an ahoge to be cute?",
+            },
+            {
+                "text": "Miruku's ear is very sensitive, I wonder if it is the same with the Captain",
+            },
+            {
+                "text": "Don't underestimate me, an assistant needes good observation skills",
+            },
+        ],
+    },
+}

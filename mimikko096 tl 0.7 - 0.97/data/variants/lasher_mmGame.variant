@@ -1,0 +1,41 @@
+{
+    "displayName": "Tourney Use",
+    "fluxCapacitors": 11,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "lasher",
+    "hullMods": [
+        "targetingunit",
+
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "lasher_mmGame",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "lightag",
+                "WS 003": "lightag"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "atropos",
+                "WS 004": "atropos"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "lightmg",
+                "WS 006": "lightmg",
+                "WS 007": "lightneedler"
+            }
+        }
+    ]
+}

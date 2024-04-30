@@ -1,0 +1,53 @@
+{
+	"id":"FM_Petal_rocket_fr",
+	"specClass":"missile",
+	"missileType":"ROCKET",
+	"sprite":"graphics/missiles/am_srm.png",
+	#"size":[10,14],
+	#"center":[5,7],
+	"size":[13,17],	
+	"center":[7,9],
+	"collisionRadius":8,
+	"onFireEffect":"data.weapons.onFire.FM_PetalOnFire",
+	"collisionClass":"MISSILE_FF",
+	"explosionColor":[255,189,0,235],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":75, # purely visual
+	"flameoutTime":1, # total time from flameout to full fadeout
+	"noEngineGlowTime":0.5, # time spent without the engine glow being rendered
+	"fadeTime":0.5, # fadeout duration	
+	"glowColor":[255,189,0,75],
+	"glowRadius":20,
+	#"alwaysAccelerate":true,
+	"reduceDamageWhileFading":true,
+	#"noCollisionWhileFading":true,
+	"useHitGlowWhenDestroyed":true,
+	"fizzleOnReachingWeaponRange":true,
+	"dudProbabilityOnFlameout":0,
+	"engineSpec":{"turnAcc":0,
+				  "turnRate":0,
+				  "maxspeed":800,
+				  "acc":50,
+				  "dec":0},
+	"engineSlots":[{"id":"ES1",
+					"loc":[0, 0],
+				    #"style":"ROCKET_LOW_TECH",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[255,189,0,255],
+						"contrailDuration":0,
+						"contrailWidthMult":0,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":0f, # how far away from engine it starts
+						"contrailColor":[75,75,75,0],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":4.0,
+				    "length":30.0,
+				    "angle":180.0}]
+}
+
+			

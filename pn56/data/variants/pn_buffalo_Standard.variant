@@ -1,0 +1,24 @@
+{
+  "variantId": "pn_buffalo_Standard",
+  "hullId": "pn_buffalo",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 14,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "auxiliarythrusters"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "pn_saala"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

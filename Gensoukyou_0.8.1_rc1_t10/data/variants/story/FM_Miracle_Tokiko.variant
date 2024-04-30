@@ -1,0 +1,37 @@
+{
+    "displayName": "Tokiko",
+    "fluxCapacitors": 30,
+    "fluxVents": 17,
+    "hullId": "FM_Miracle",
+    "hullMods": [
+        "targetingunit",
+        "FantasyPlayerMod",
+        "advancedoptics"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Miracle_Tokiko",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "FM_LunaticBow"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FM_Hailstorm",
+                "WS0002": "FM_Hailstorm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "FM_IllusionLaser_M",
+                "WS0004": "FM_IllusionLaser_M"
+            }
+        }
+    ]
+}

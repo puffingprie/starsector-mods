@@ -1,0 +1,24 @@
+{
+  "variantId": "acs_troopernew_standard",
+  "hullId": "acs_troopernew",
+  "displayName": "Infantry Unit",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "acs_troopernew_hmg",
+        "WS0002": "acs_backupmg_trooperhead",
+        "WS0003": "sabot_fighter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

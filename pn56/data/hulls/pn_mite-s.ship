@@ -1,0 +1,109 @@
+{
+  "bounds": [
+    -36,
+    22,
+    -13,
+    21,
+    -12,
+    32,
+    5.5,
+    29.5,
+    15,
+    20,
+    22.5,
+    15,
+    35.5,
+    23,
+    47.5,
+    12.5,
+    47.5,
+    -12.5,
+    35.5,
+    -23,
+    22.5,
+    -15,
+    15,
+    -20,
+    5.5,
+    -29.5,
+    -12,
+    -32,
+    -13,
+    -21,
+    -36,
+    -22
+  ],
+  "builtInMods": [
+    "pn_cores"
+  ],
+  "center": [
+    30.5,
+    37
+  ],
+  "collisionRadius": 53.488316,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 15,
+      "location": [
+        -10.5,
+        -26
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 4
+    },
+    {
+      "angle": -180,
+      "contrailSize": 4,
+      "length": 15,
+      "location": [
+        -10.5,
+        26
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 4
+    }
+  ],
+  "height": 89,
+  "hullId": "pn_mite-s",
+  "hullName": "Mite-Tanker",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 51.478149,
+  "spriteName": "graphics/pn/ships/pn_mite-s.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0001",
+      "locations": [
+        12.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -180,
+      "arc": 360,
+      "id": "WS0002",
+      "locations": [
+        -36.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    }
+  ],
+  "width": 61
+}

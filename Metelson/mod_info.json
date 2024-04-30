@@ -1,0 +1,10 @@
+{
+  	"id":"metelson_release", # internal id
+	"name":"The Metelson Federation", # displayed to the player
+	"author":"Azmond and Knight Chase",
+	"version":"2.0.1",
+	"description":"The Metelson Union Republic: A simple mod that intents to add some humor and be a foil to Tri-Tachyon interests. Think, Chaotic Good mega-corp run by Virginia Coal-war Rednecks.",
+	"gameVersion":"0.97a-RC11",
+	"modPlugin":"data.scripts.MetelsonModPlugin", # mod plug in ...
+	"jars":["jars/metelson.jar"]
+}

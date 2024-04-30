@@ -1,0 +1,104 @@
+{
+  "hullName": "Kerberos",
+  "hullId": "acs_kerberossbackup",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/acs_kerberos.png",
+  "style": "LOW_TECH",
+  "height": 125,
+  "width": 100,
+  "center": [50, 62.5],
+  "collisionRadius": 100.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 80.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "rugged",
+    "repair_gantry"
+  ],
+  "builtInWings": [
+    "acs_mook_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-46, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [25, -16]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [29.5, 11]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 26,
+      "angle": 0,
+      "locations": [53, 25]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-50.5, 31],
+      "length": 62.360786,
+      "width": 12.269034,
+      "angle": 179.5,
+      "contrailSize": 12.269034,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-50.5, -31],
+      "length": 62.360786,
+      "width": 12.269034,
+      "angle": -179.5,
+      "contrailSize": 12.269034,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-50, 24],
+      "length": 38.370678,
+      "width": 6.384727,
+      "angle": 179,
+      "contrailSize": 6.384727,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-50, -24],
+      "length": 38.370678,
+      "width": 6.384727,
+      "angle": -179,
+      "contrailSize": 6.384727,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    27, -30,
+    -8, -27,
+    -22.5, -45,
+    -47, -35.5,
+    -47, 35.5,
+    -22.5, 45,
+    -8, 34.5,
+    46.5, 30.5,
+    45, -6
+  ]
+}

@@ -1,0 +1,10 @@
+{
+	"baseHullId":"vice_mandrake_base",
+	"skinHullId":"vice_mandrake_ex",
+	"hullName":"Mandrake (EX)",
+	"descriptionId":"vice_ex_all",
+	"descriptionPrefix":"A high-tech destroyer prototype intended to compete with the popular Sunder. The Mandrake rewards finesse over brute force, and is well suited for hit and run attacks.",
+	"tags":["rare_bp", "hist1t", "merc", "ind", "tritachyon", "vice_ex_bp"],
+	"removeHints":["HIDE_IN_CODEX"],
+	"builtInMods":["vice_experimental_hull"],
+}

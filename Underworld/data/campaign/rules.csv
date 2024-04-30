@@ -1,0 +1,1418 @@
+id,trigger,conditions,script,text,options,notes
+greetingCabalTOffNormal,OpenCommLink,"$faction.id == cabal
+!$isHostile
+!$player.transponderOn
+$entity.relativeStrength >= 0
+CabalNormalTalk","MakeOtherFleetPreventDisengage cabalExtortion false
+MakeOtherFleetAggressive cabalExtortion false","""Why don't you try talking with your transponder on, idiot?""","turnOnTransponder:Turn your transponder on
+cutCommLink:Cut the comm link",
+greetingCabalTOffWeaker,OpenCommLink,"$faction.id == cabal
+!$isHostile
+!$player.transponderOn
+$entity.relativeStrength < 0
+CabalNormalTalk","MakeOtherFleetPreventDisengage cabalExtortion false
+MakeOtherFleetAggressive cabalExtortion false","""Are you going to turn that transponder on, or what?""","turnOnTransponder:Turn your transponder on
+cutCommLink:Cut the comm link",
+greetingCabalTurnOnTExtortion,DialogOptionSelected,"$faction.id == cabal score:100
+RepIsAtBest $faction.id HOSTILE
+!$entity.Cabal_extortionPaid
+!$Cabal_extortionAskedFor
+$relativeStrength >= 0
+$option == turnOnTransponder","MakeHostileWhileTOff false
+UpdateMemory
+ActivateAbility $player.fleetId transponder
+UpdateMemory
+MakeOtherFleetPreventDisengage cabalExtortion true
+MakeOtherFleetAggressive cabalExtortion true
+CabalPickExtortionMethod
+FireBest OpenCommLink",You issue an order to activate the transponder and re-open the comm link.,,
+greetingCabalTurnOnTContribution,DialogOptionSelected,"$faction.id == cabal score:100
+RepIsAtWorst $faction.id INHOSPITABLE
+!$entity.Cabal_extortionPaid
+!$Cabal_extortionAskedFor
+$option == turnOnTransponder","MakeHostileWhileTOff false
+UpdateMemory
+ActivateAbility $player.fleetId transponder
+UpdateMemory
+CabalPickContributionMethod
+FireBest OpenCommLink",You issue an order to activate the transponder and re-open the comm link.,,
+greetingCabalFriendlyA,OpenCommLink,"$faction.id == cabal
+$faction.friendlyToPlayer
+CabalNormalTalk","$menuState = fleetConvMain 0
+MakeOtherFleetPreventDisengage cabalExtortion false
+MakeOtherFleetAggressive cabalExtortion false
+AddText ""Welcome, follower! We estimate the value of your fleet at $Cabal_netWorthString.""
+FireAll PopulateOptions",,,
+greetingCabalFriendlyB,OpenCommLink,"$faction.id == cabal
+$faction.friendlyToPlayer
+CabalNormalTalk","$menuState = fleetConvMain 0
+MakeOtherFleetPreventDisengage cabalExtortion false
+MakeOtherFleetAggressive cabalExtortion false
+AddText ""Have you bought anything from the exchanges at $Cabal_markets, recently?""
+FireAll PopulateOptions",,,
+greetingCabalHostilePalace,OpenCommLink,"$entity.isHostile
+$entity.uwIsPalace score:100
+CabalNormalTalk","$entity.ignorePlayerCommRequests = true 1
+$menuState = fleetConvMain 0
+AddText ""We are beyond your comprehension. The value of your fleet is a paltry $Cabal_netWorthString. The stars belong only to the opulent.""
+FireAll PopulateOptions",,,
+greetingCabalHostileWeaker,OpenCommLink,"$faction.id == cabal
+$entity.isHostile
+$entity.relativeStrength < 0
+CabalNormalTalk","$entity.ignorePlayerCommRequests = true 1
+MakeOtherFleetPreventDisengage cabalExtortion false
+MakeOtherFleetAggressive cabalExtortion false","""So that's how it's going to be, damned leech.""
+OR
+""You filthy freeloader. You only wish your fleet was righfully earned!""",cutCommLink:Cut the comm link,
+greetingCabalHostileWeakerDefiant,OpenCommLink,"$faction.id == cabal
+$entity.isHostile
+$entity.relativeStrength < 0
+$entity.weakerThanPlayerButHolding
+CabalNormalTalk","$entity.ignorePlayerCommRequests = true 1
+MakeOtherFleetPreventDisengage cabalExtortion false
+MakeOtherFleetAggressive cabalExtortion false","""You are a leech, hoarding your wealth for personal power. I will not falter!""
+OR
+""Hah! You think that just because you stole some ships, you'll be able to defeat me?""",cutCommLink:Cut the comm link,
+greetingCabalHostileStronger,OpenCommLink,"$faction.id == cabal
+$entity.isHostile
+$entity.relativeStrength >= 0
+CabalNormalTalk","$entity.ignorePlayerCommRequests = true 1
+MakeOtherFleetPreventDisengage cabalExtortion false
+MakeOtherFleetAggressive cabalExtortion false","""Don't say I didn't warn you.""
+OR
+""Filthy peasant! You are unworthy of the stars!""",cutCommLink:Cut the comm link,
+greetingCabalNeutralA,OpenCommLink,"$faction.id == cabal
+$faction.neutralToPlayer
+CabalNormalTalk","$menuState = fleetConvMain 0
+MakeOtherFleetPreventDisengage cabalExtortion false
+MakeOtherFleetAggressive cabalExtortion false
+AddText ""Have you made your monthly contribution yet, $playerName? We estimate the value of your fleet at $Cabal_netWorthString.""
+FireAll PopulateOptions",,,
+greetingCabalNeutralB,OpenCommLink,"$faction.id == cabal
+$faction.neutralToPlayer
+CabalNormalTalk","$menuState = fleetConvMain 0
+MakeOtherFleetPreventDisengage cabalExtortion false
+MakeOtherFleetAggressive cabalExtortion false
+AddText ""If you're looking to get ahead in life, the Starlight Cabal is centered at $Cabal_markets. Pay a visit.""
+FireAll PopulateOptions",,,
+#encounterCabalFleet,BeginFleetEncounter,"$faction.id == cabal score:100
+!$isHostile
+!$Cabal_toffmad
+!$player.transponderOn score:100
+!$ignorePlayerCommRequests","unset $ignorePlayerCommRequests
+$Cabal_toffmad = true 7
+AddText ""You're being hailed by the $faction $otherShipOrFleet."" $faction.baseColor
+OpenComms",,,
+#encounterCabalFleetMad,BeginFleetEncounter,"$faction.id == cabal score:100
+!$isHostile
+$Cabal_toffmad
+!$player.transponderOn score:100","MakeOtherFleetPreventDisengage tOff true
+MakeOtherFleetAggressive tOff true
+$ignorePlayerCommRequests = true 1
+$Cabal_toffmad = true 7",,,
+,,,,,,
+CabalExtortionCheck,BeginFleetEncounter,"$faction.id == cabal score:100
+!$uwIsPalace
+RepIsAtBest $faction.id HOSTILE
+!$Cabal_extortionPaid
+!$Cabal_extortionAskedFor
+$relativeStrength >= 0
+!$ignorePlayerCommRequests","MakeOtherFleetPreventDisengage cabalExtortion true
+MakeOtherFleetAggressive cabalExtortion true
+$Cabal_extortionAskedFor = true 7
+CabalPickExtortionMethod
+AddText ""You're being hailed by the $faction $otherShipOrFleet."" $faction.baseColor
+$hailing = true 0",,,
+CabalContributionCheck,BeginFleetEncounter,"$faction.id == cabal score:100
+!$uwIsPalace
+RepIsAtWorst $faction.id INHOSPITABLE
+RepIsAtBest $faction.id FRIENDLY
+!$Cabal_extortionPaid
+!$Cabal_extortionAskedFor
+!$ignorePlayerCommRequests","MakeOtherFleetPreventDisengage cabalExtortion true
+$Cabal_extortionAskedFor = true 7
+CabalPickContributionMethod
+AddText ""You're being hailed by the $faction $otherShipOrFleet."" $faction.baseColor
+$hailing = true 0",,,
+,,,,,,
+CabalExtortionTithe,OpenCommLink,"$entity.Cabal_extortionMethod == tithe score:100
+$faction.id == cabal
+RepIsAtBest $faction.id HOSTILE
+!$entity.Cabal_extortionPaid
+CabalTitheCalc","SetTextHighlights $Cabal_tithe_string
+$entity.ignorePlayerCommRequests = true 1
+SetStoryOption avoidCabalExtortion 1 uw_avoidCabalExtortion leadership ""Fast-talked a Cabalero""","Loud and obnoxious music immediately starts to play through the comms-line.
+
+""I can see that you are an individual of wealth, $playerName. Perhaps you can be convinced to start on the Starlight Path for a modest contribution of $Cabal_tithe_string credits.""
+
+The $personRank in the bright suit folds $hisOrHer arms. ""Or, we could do this the hard way. It's your call.""
+OR
+Loud and obnoxious music immediately starts to play through the comms-line.
+
+""You are quite wealthy, $playerName. An individual of your stature can surely start on the Starlight Path for a contribution of $Cabal_tithe_string credits.""
+
+The Cabalero points at you through the comms-link. ""Just remember, you reap what you sow.""
+OR
+Loud and obnoxious music immediately starts to play through the comms-line.
+
+""$playerName, your coffers are large enough for an introduction to the Starlight Path. With a contribution of $Cabal_tithe_string credits, you can come one step closer to enlightenment.""
+
+The comm abruptly cuts to stark black. ""Otherwise, I think you're going to have a bad time.""","payCabalTithe:Surrender $Cabal_tithe_string credits
+avoidCabalExtortion:Fast-talk the $personFaction $personRank
+cutCommLink:Cut the comm link",
+CabalContributionTithe,OpenCommLink,"$entity.Cabal_extortionMethod == tithe score:100
+$faction.id == cabal
+RepIsAtWorst $faction.id INHOSPITABLE
+RepIsAtBest $faction.id FRIENDLY
+!$entity.Cabal_extortionPaid
+CabalTitheCalc","SetTextHighlights $Cabal_tithe_string
+SetStoryOption avoidCabalContribution 1 uw_avoidCabalContribution leadership ""Impressed a Cabalero""","A triangular symbol appears on the comms-line amidst a flood of loud and obnoxious music.
+
+""We can see that you are an individual of wealth, $playerName. Perhaps you can be convinced to continue on the Starlight Path for a modest contribution of $Cabal_tithe_string credits.""","payCabalTithe:Contribute $Cabal_tithe_string credits
+avoidCabalContribution:Try to impress the $personFaction $personRank
+cabalRefuse:Refuse to pay",
+CabalTithePay,DialogOptionSelected,$option == payCabalTithe,"AddText ""Lost $Cabal_tithe_string credits"" textEnemyColor
+SubCredits $Cabal_tithe
+UW_AdjustRepCustom $faction.id $Cabal_repImpact null null HOSTILE null null
+AddText ""\""Thank you for your contribution.\""""
+AddText ""The $personFaction $personRank smiles and ends the connection.""
+FireAll CabalPayCommon",,cutCommLink:Cut the comm link,
+,,,,,,
+CabalExtortionCargo,OpenCommLink,"$entity.Cabal_extortionMethod == cargo score:100
+$faction.id == cabal
+RepIsAtBest $faction.id HOSTILE
+!$entity.Cabal_extortionPaid
+CabalCargoCalc","SetTextHighlights $Cabal_cargo_amount_string
+$entity.ignorePlayerCommRequests = true 1
+FireBest CabalExtortionCargoChoices","Loud and obnoxious music immediately starts to play through the comms-line.
+
+""You're ferrying around quite a lot of cargo, $playerName. Maybe you can be convinced to start on the Starlight Path by donating $Cabal_cargo_amount_string $Cabal_cargo_name.""
+
+""If not, then we've got a problem. Your choice."" The $personRank gives you an exaggerated wink.
+OR
+Loud and obnoxious music immediately starts to play through the comms-line.
+
+""Oh boy, $playerName, you've got an awful lot of cargo. I think you can start on the Starlight Path by donating $Cabal_cargo_amount_string $Cabal_cargo_name to the cause.""
+
+""Not that you've got much of a choice in the matter,"" the Cabal $personRank says while shrugging.
+OR
+Loud and obnoxious music immediately starts to play through the comms-line.
+
+""That's some valuable cargo in your holds, $playerName. Why not start on the Starlight Path by donating $Cabal_cargo_amount_string $Cabal_cargo_name?""
+
+Golden teeth poke out as the $personRank smiles cockily. ""It will be a lot easier on the both of us if you do.""",,
+CabalExtortionCargoDefault,CabalExtortionCargoChoices,"$Cabal_cargo_id != supplies
+$Cabal_cargo_id != fuel","SetStoryOption avoidCabalExtortion 1 uw_avoidCabalExtortion leadership ""Fast-talked a Cabalero""",,"payCabalCargo:Surrender $Cabal_cargo_amount_string $Cabal_cargo_name
+avoidCabalExtortion:Fast-talk the $personFaction $personRank
+cutCommLink:Cut the comm link",
+CabalExtortionCargoSupplies,CabalExtortionCargoChoices,$Cabal_cargo_id == supplies,"SetStoryOption avoidCabalExtortion 1 uw_avoidCabalExtortion leadership ""Fast-talked a Cabalero""",,"payCabalCargo:Surrender $Cabal_cargo_amount_string $Cabal_cargo_name
+questionCabalCargo:""Supplies? Are you kidding me?""
+avoidCabalExtortion:Fast-talk the $personFaction $personRank
+cutCommLink:Cut the comm link",
+CabalExtortionCargoFuel,CabalExtortionCargoChoices,$Cabal_cargo_id == fuel,"SetStoryOption avoidCabalExtortion 1 uw_avoidCabalExtortion leadership ""Fast-talked a Cabalero""",,"payCabalCargo:Surrender $Cabal_cargo_amount_string $Cabal_cargo_name
+questionCabalCargo:""Fuel? Do you take me for an idiot?""
+avoidCabalExtortion:Fast-talk the $personFaction $personRank
+cutCommLink:Cut the comm link",
+CabalContributionCargo,OpenCommLink,"$entity.Cabal_extortionMethod == cargo score:100
+$faction.id == cabal
+RepIsAtWorst $faction.id INHOSPITABLE
+RepIsAtBest $faction.id FRIENDLY
+!$entity.Cabal_extortionPaid
+CabalCargoCalc","SetTextHighlights $Cabal_cargo_amount_string
+FireBest CabalContributionCargoChoices","A triangular symbol appears on the comms-line amidst a flood of loud and obnoxious music.
+
+""You've got some valuable cargo, $playerName. Maybe you can be convinced to continue on the Starlight Path by donating $Cabal_cargo_amount_string $Cabal_cargo_name.""",,
+CabalContributionCargoDefault,CabalContributionCargoChoices,"$Cabal_cargo_id != supplies
+$Cabal_cargo_id != fuel","SetStoryOption avoidCabalContribution 1 uw_avoidCabalContribution leadership ""Impressed a Cabalero""",,"payCabalCargo:Donate $Cabal_cargo_amount_string $Cabal_cargo_name
+avoidCabalContribution:Try to impress the $personFaction $personRank
+cabalRefuse:Refuse to give",
+CabalContributionCargoSupplies,CabalContributionCargoChoices,$Cabal_cargo_id == supplies,"SetStoryOption avoidCabalContribution 1 uw_avoidCabalContribution leadership ""Impressed a Cabalero""",,"payCabalCargo:Donate $Cabal_cargo_amount_string $Cabal_cargo_name
+questionCabalCargo:""I need those supplies to survive!""
+avoidCabalContribution:Try to impress the $personFaction $personRank
+cabalRefuse:Refuse to give",
+CabalContributionCargoFuel,CabalContributionCargoChoices,$Cabal_cargo_id == fuel,"SetStoryOption avoidCabalContribution 1 uw_avoidCabalContribution leadership ""Impressed a Cabalero""",,"payCabalCargo:Donate $Cabal_cargo_amount_string $Cabal_cargo_name
+questionCabalCargo:""Without fuel, I'll be stranded out here!""
+avoidCabalContribution:Try to impress the $personFaction $personRank
+cabalRefuse:Refuse to give",
+CabalQuestionCargoHostile,DialogOptionSelected,"$option == questionCabalCargo
+RepIsAtBest $faction.id HOSTILE","AddText ""\""Don't worry, $playerName. We'll leave you with $Cabal_cargo_amount_left_string $Cabal_cargo_name. That will be plenty!\""""
+SetTextHighlights $Cabal_cargo_amount_left_string
+SetTextHighlightColors textEnemyColor
+SetStoryOption avoidCabalExtortion 1 uw_avoidCabalExtortion leadership ""Fast-talked a Cabalero""",,"payCabalCargo:Surrender $Cabal_cargo_amount_string $Cabal_cargo_name
+avoidCabalExtortion:Fast-talk the $personFaction $personRank
+cutCommLink:Cut the comm link",
+CabalQuestionCargoFriendly,DialogOptionSelected,"$option == questionCabalCargo
+RepIsAtWorst $faction.id INHOSPITABLE
+RepIsAtBest $faction.id FRIENDLY","AddText ""\""Don't fret, $playerName. You'll have $Cabal_cargo_amount_left_string $Cabal_cargo_name left over. That will be plenty!\""""
+SetTextHighlights $Cabal_cargo_amount_left_string
+SetTextHighlightColors textEnemyColor
+SetStoryOption avoidCabalContribution 1 uw_avoidCabalContribution leadership ""Impressed a Cabalero""",,"payCabalCargo:Donate $Cabal_cargo_amount_string $Cabal_cargo_name
+avoidCabalContribution:Try to impress the $personFaction $personRank
+cabalRefuse:Refuse to give",
+CabalCargoPay,DialogOptionSelected,$option == payCabalCargo,"AddText ""Lost $Cabal_cargo_amount_string $Cabal_cargo_name"" textEnemyColor
+CabalTransferCargo $Cabal_cargo_id $Cabal_cargo_amount
+UW_AdjustRepCustom $faction.id $Cabal_repImpact null null HOSTILE null null
+AddText ""\""Thank you for your contribution. I think I'm going to sell your $Cabal_cargo_name at $Cabal_cargo_best_location for about $Cabal_cargo_final_value credits.\""""
+AddText ""The $personFaction $personRank smiles and ends the connection.""
+FireAll CabalPayCommon",,cutCommLink:Cut the comm link,
+,,,,,,
+CabalExtortionWeapon,OpenCommLink,"$entity.Cabal_extortionMethod == weapon score:100
+$faction.id == cabal
+RepIsAtBest $faction.id HOSTILE
+!$entity.Cabal_extortionPaid
+CabalWeaponCalc","$entity.ignorePlayerCommRequests = true 1
+FireBest CabalExtortionWeaponTirades",,,
+CabalExtortionWeaponPlural,CabalExtortionWeaponTirades,$Cabal_weapon_amount == 1,"SetTextHighlights $Cabal_weapon_name
+SetStoryOption avoidCabalExtortion 1 uw_avoidCabalExtortion leadership ""Fast-talked a Cabalero""","Loud and obnoxious music immediately starts to play through the comms-line.
+
+""That is a shiny gun, $playerName. I hope you can be convinced to start on the Starlight Path by donating your $Cabal_weapon_name to the cause.""
+
+The Cabal $personRank in a brightly-colored leotard paces impatiently. ""If not, then I'll take it by force. It's up to you, really.""","payCabalWeapon:Surrender $Cabal_weapon_name
+avoidCabalExtortion:Fast-talk the $personFaction $personRank
+cutCommLink:Cut the comm link",
+CabalExtortionWeaponSingular,CabalExtortionWeaponTirades,$Cabal_weapon_amount > 1,"SetTextHighlights $Cabal_weapon_amount_string $Cabal_weapon_names
+SetStoryOption avoidCabalExtortion 1 uw_avoidCabalExtortion leadership ""Fast-talked a Cabalero""","Loud and obnoxious music immediately starts to play through the comms-line.
+
+""Those are some shiny guns, $playerName. I hope you can be convinced to start on the Starlight Path by donating your $Cabal_weapon_amount_string $Cabal_weapon_names to the cause.""
+
+Behind a mahogany desk, the Cabal $personRank appears to be completely nude except for a large gold chain around the neck. ""If not, then I'll take them by force. It's up to you, really.""","payCabalWeapon:Surrender $Cabal_weapon_amount_string $Cabal_weapon_names
+avoidCabalExtortion:Fast-talk the $personFaction $personRank
+cutCommLink:Cut the comm link",
+CabalContributionWeapon,OpenCommLink,"$entity.Cabal_extortionMethod == weapon score:100
+$faction.id == cabal
+RepIsAtWorst $faction.id INHOSPITABLE
+RepIsAtBest $faction.id FRIENDLY
+!$entity.Cabal_extortionPaid
+CabalWeaponCalc",FireBest CabalContributionWeaponTirades,,,
+CabalContributionWeaponSingular,CabalContributionWeaponTirades,$Cabal_weapon_amount == 1,"SetTextHighlights $Cabal_weapon_name
+SetStoryOption avoidCabalContribution 1 uw_avoidCabalContribution leadership ""Impressed a Cabalero""","A triangular symbol appears on the comms-line amidst a flood of loud and obnoxious music.
+
+""Now that is a fine weapon, $playerName. Hopefully, you can be convinced to continue on the Starlight Path by donating that $Cabal_weapon_name to a greater cause.""","payCabalWeapon:Give $Cabal_weapon_name
+avoidCabalContribution:Try to impress the $personFaction $personRank
+cabalRefuse:Refuse to give",
+CabalContributionWeaponPlural,CabalContributionWeaponTirades,$Cabal_weapon_amount > 1,"SetTextHighlights $Cabal_weapon_amount_string $Cabal_weapon_names
+SetStoryOption avoidCabalContribution 1 uw_avoidCabalContribution leadership ""Impressed a Cabalero""","A triangular symbol appears on the comms-line amidst a flood of loud and obnoxious music.
+
+""Now those are some fine weapons, $playerName. Hopefully, you can be convinced to continue on the Starlight Path by donating $Cabal_weapon_amount_string $Cabal_weapon_names to a greater cause.""","payCabalWeapon:Give $Cabal_weapon_amount_string $Cabal_weapon_names
+avoidCabalContribution:Try to impress the $personFaction $personRank
+cabalRefuse:Refuse to give",
+CabalWeaponPaySingular,DialogOptionSelected,"$option == payCabalWeapon
+$Cabal_weapon_amount == 1","AddText ""Lost $Cabal_weapon_name"" textEnemyColor
+CabalTransferWeapons $Cabal_weapon_id $Cabal_weapon_amount
+UW_AdjustRepCustom $faction.id $Cabal_repImpact null null HOSTILE null null
+AddText ""\""Thank you for your contribution. I can't wait to show this $Cabal_weapon_name off; a collector might pay $Cabal_weapon_collector_value_string credits to own it.\""""
+AddText ""The $personFaction $personRank smiles and ends the connection.""
+FireAll CabalPayCommon",,cutCommLink:Cut the comm link,
+CabalWeaponPayPlural,DialogOptionSelected,"$option == payCabalWeapon
+$Cabal_weapon_amount > 1","AddText ""Lost $Cabal_weapon_amount_string $Cabal_weapon_names"" textEnemyColor
+CabalTransferWeapons $Cabal_weapon_id $Cabal_weapon_amount
+UW_AdjustRepCustom $faction.id $Cabal_repImpact null null HOSTILE null null
+AddText ""\""Thank you for your contribution. I can't wait to show these $Cabal_weapon_names off; a collector might pay $Cabal_weapon_collector_value_string credits to own them.\""""
+AddText ""The $personFaction $personRank smiles and ends the connection.""
+FireAll CabalPayCommon",,cutCommLink:Cut the comm link,
+,,,,,,
+CabalExtortionFighter,OpenCommLink,"$entity.Cabal_extortionMethod == fighter score:100
+$faction.id == cabal
+RepIsAtBest $faction.id HOSTILE
+!$entity.Cabal_extortionPaid
+CabalFighterCalc","$entity.ignorePlayerCommRequests = true 1
+FireBest CabalExtortionFighterTirades",,,
+CabalExtortionFighterPlural,CabalExtortionFighterTirades,$Cabal_fighter_amount == 1,"SetTextHighlights $Cabal_fighter_name
+SetStoryOption avoidCabalExtortion 1 uw_avoidCabalExtortion leadership ""Fast-talked a Cabalero""","Loud and obnoxious music immediately starts to play through the comms-line.
+
+""Wowie, $playerName! What a rare LPC! I hope you will start on the Starlight Path by donating your $Cabal_fighter_name to a greater cause.""
+
+The Cabal $personRank chuckles to themself, reclining on a posh sofa installed in their bridge. ""Hurry up, won't you? I'm growing impatient.""","payCabalFighter:Surrender $Cabal_fighter_name
+avoidCabalExtortion:Fast-talk the $personFaction $personRank
+cutCommLink:Cut the comm link",
+CabalExtortionFighterSingular,CabalExtortionFighterTirades,$Cabal_fighter_amount > 1,"SetTextHighlights $Cabal_fighter_amount_string $Cabal_fighter_names
+SetStoryOption avoidCabalExtortion 1 uw_avoidCabalExtortion leadership ""Fast-talked a Cabalero""","Loud and obnoxious music immediately starts to play through the comms-line.
+
+""Amazing, $playerName! What a wonderful LPC collection! You had better start on the Starlight Path by donating your $Cabal_fighter_amount_string $Cabal_fighter_names to a greater cause.""
+
+The Cabal $personRank reclines on a posh sofa installed in their bridge, inspecting a handful of credit chits. ""Hurry up, darling! I grow impatient.""","payCabalFighter:Surrender $Cabal_fighter_amount_string $Cabal_fighter_names
+avoidCabalExtortion:Fast-talk the $personFaction $personRank
+cutCommLink:Cut the comm link",
+CabalContributionFighter,OpenCommLink,"$entity.Cabal_extortionMethod == fighter score:100
+$faction.id == cabal
+RepIsAtWorst $faction.id INHOSPITABLE
+RepIsAtBest $faction.id FRIENDLY
+!$entity.Cabal_extortionPaid
+CabalFighterCalc",FireBest CabalContributionFighterTirades,,,
+CabalContributionFighterSingular,CabalContributionFighterTirades,$Cabal_fighter_amount == 1,"SetTextHighlights $Cabal_fighter_name
+SetStoryOption avoidCabalContribution 1 uw_avoidCabalContribution leadership ""Impressed a Cabalero""","A triangular symbol appears on the comms-line amidst a flood of loud and obnoxious music.
+
+""I see you are in possession of a rare LPC, $playerName. I am sure you will continue on the Starlight Path by donating that $Cabal_fighter_name to a greater cause.""","payCabalFighter:Give $Cabal_fighter_name
+avoidCabalContribution:Try to impress the $personFaction $personRank
+cabalRefuse:Refuse to give",
+CabalContributionFighterPlural,CabalContributionFighterTirades,$Cabal_fighter_amount > 1,"SetTextHighlights $Cabal_fighter_amount_string $Cabal_fighter_names
+SetStoryOption avoidCabalContribution 1 uw_avoidCabalContribution leadership ""Impressed a Cabalero""","A triangular symbol appears on the comms-line amidst a flood of loud and obnoxious music.
+
+""My scans show that you have quite the collection of LPCs, $playerName. I am certain you will continue on the Starlight Path by donating $Cabal_fighter_amount_string $Cabal_fighter_names to a greater cause.""","payCabalFighter:Give $Cabal_fighter_amount_string $Cabal_fighter_names
+avoidCabalContribution:Try to impress the $personFaction $personRank
+cabalRefuse:Refuse to give",
+CabalFighterPaySingular,DialogOptionSelected,"$option == payCabalFighter
+$Cabal_fighter_amount == 1","AddText ""Lost $Cabal_fighter_name"" textEnemyColor
+CabalTransferFighters $Cabal_fighter_id $Cabal_fighter_amount
+UW_AdjustRepCustom $faction.id $Cabal_repImpact null null HOSTILE null null
+AddText ""\""Thank you for your contribution. This $Cabal_fighter_name will look great in my collection; at auction, this puppy could go for $Cabal_fighter_collector_value_string credits.\""""
+AddText ""The $personFaction $personRank smiles and ends the connection.""
+FireAll CabalPayCommon",,cutCommLink:Cut the comm link,
+CabalFighterPayPlural,DialogOptionSelected,"$option == payCabalFighter
+$Cabal_fighter_amount > 1","AddText ""Lost $Cabal_fighter_amount_string $Cabal_fighter_names"" textEnemyColor
+CabalTransferFighters $Cabal_fighter_id $Cabal_fighter_amount
+UW_AdjustRepCustom $faction.id $Cabal_repImpact null null HOSTILE null null
+AddText ""\""Thank you for your contribution. These $Cabal_fighter_names will look great in my collection; at auction, these babies would go for $Cabal_fighter_collector_value_string credits in a lot.\""""
+AddText ""The $personFaction $personRank smiles and ends the connection.""
+FireAll CabalPayCommon",,cutCommLink:Cut the comm link,
+,,,,,,
+CabalExtortionShip,OpenCommLink,"$entity.Cabal_extortionMethod == ship score:100
+$faction.id == cabal
+RepIsAtBest $faction.id HOSTILE
+!$entity.Cabal_extortionPaid
+CabalShipCalc","$entity.ignorePlayerCommRequests = true 1
+SetTextHighlights $Cabal_ship_name
+SetStoryOption avoidCabalExtortion 1 uw_avoidCabalExtortion leadership ""Fast-talked a Cabalero""","Loud and obnoxious music immediately starts to play through the comms-line.
+
+""You have an excellent taste in ships, $playerName. I think you can start on the Starlight Path by graciously donating the $Cabal_ship_name to the cause.""
+
+The Cabalero looks at you through a pair of blinders. ""It would be a shame if it got damaged. But that's your choice, not mine.""
+OR
+Loud and obnoxious music immediately starts to play through the comms-line.
+
+""$playerName, that ship of yours is positively delicious! I think you can start on the Starlight Path by giving the $Cabal_ship_name to a greater cause.""
+
+The $personRank spins around on an office chair. ""Or we could just take it, you know. It's up to you.""
+OR
+Loud and obnoxious music immediately starts to play through the comms-line.
+
+""Phew, what a beauty that ship is! $playerName, you have a great opportunity to start on the Starlight Path - by sharing the $Cabal_ship_name with the Cabal.""
+
+""Sharing is caring, $playerName. If you're not in the caring mood, you will just have to be punished."" The Cabal $personRank waggles a ring-adorned finger at you, disapprovingly.","payCabalShip:Surrender $Cabal_ship_name, $Cabal_ship_hull_full
+avoidCabalExtortion:Fast-talk the $personFaction $personRank
+cutCommLink:Cut the comm link",
+CabalContributionShip,OpenCommLink,"$entity.Cabal_extortionMethod == ship score:100
+$faction.id == cabal
+RepIsAtWorst $faction.id INHOSPITABLE
+RepIsAtBest $faction.id FRIENDLY
+!$entity.Cabal_extortionPaid
+CabalShipCalc","SetTextHighlights $Cabal_ship_name
+SetStoryOption avoidCabalContribution 1 uw_avoidCabalContribution leadership ""Impressed a Cabalero""","A triangular symbol appears on the comms-line amidst a flood of loud and obnoxious music.
+
+""That is an excellent fleet in your employ, $playerName. I hope you will continue on the Starlight Path by graciously donating the $Cabal_ship_name to a greater cause.""","payCabalShip:Give $Cabal_ship_name, $Cabal_ship_hull_full
+avoidCabalContribution:Try to impress the $personFaction $personRank
+cabalRefuse:Refuse to give",
+CabalShipPay,DialogOptionSelected,$option == payCabalShip,"AddText ""Lost $Cabal_ship_name"" textEnemyColor
+CabalTransferShip $Cabal_ship_uuid
+UW_AdjustRepCustom $faction.id $Cabal_repImpact null null HOSTILE null null
+AddText ""\""Thank you for your contribution. I can't wait to ride this baby into battle.\""""
+AddText ""The $personFaction $personRank smiles and ends the connection.""
+FireAll CabalPayCommon",,cutCommLink:Cut the comm link,
+,,,,,,
+CabalExtortionNoneVengeful,OpenCommLink,"$entity.Cabal_extortionMethod == none score:100
+$faction.id == cabal
+RepIsAtBest $faction.id VENGEFUL score:100
+!$entity.Cabal_extortionPaid","MakeOtherFleetPreventDisengage cabalExtortion true
+MakeOtherFleetAggressive cabalExtortion true
+$entity.ignorePlayerCommRequests = true 1","Loud and obnoxious music immediately starts to play through the comms-line.
+
+""What a loser! Your coffers are so empty that it's not even worth asking you for a contribution. Prepare to burn, lowlife scum!"" The Cabal $personRank regards you as though you are a pile of excrement.",cutCommLink:Cut the comm link,
+CabalExtortionNoneHostile,OpenCommLink,"$entity.Cabal_extortionMethod == none score:100
+$faction.id == cabal
+RepIsAtBest $faction.id HOSTILE
+!$entity.Cabal_extortionPaid","MakeOtherFleetPreventDisengage cabalExtortion false
+MakeOtherFleetAggressive cabalExtortion false
+MakeOtherFleetNonHostile cabalExtortion true 7
+$entity.ignorePlayerCommRequests = true 0","A triangular symbol appears on the comms-line amidst a flood of loud and obnoxious music.
+
+""Attention, captain: your assets are worth a paltry $Cabal_netWorthString! Poverty is a sin, as you should be well aware. You must obtain more wealth before you are worthy to start on the Starlight Path.""
+OR
+Loud and obnoxious music immediately starts to play through the comms-line.
+
+A laughing $personFaction $personRank appears on screen long enough to laugh at you piteously. ""I'll let you go, little pauper! Wouldn't want to cut into profits by wasting time swatting every little fly in my path, would I?"" You are given a mocking wave good-bye before the comms-line - and the music - cuts out.",cutCommLink:Cut the comm link,
+CabalExtortionNoneFriendly,OpenCommLink,"$entity.Cabal_extortionMethod == none score:100
+$faction.id == cabal
+RepIsAtWorst $faction.id INHOSPITABLE
+RepIsAtBest $faction.id FRIENDLY
+!$entity.Cabal_extortionPaid","MakeOtherFleetPreventDisengage cabalExtortion false
+MakeOtherFleetAggressive cabalExtortion false
+MakeOtherFleetNonHostile cabalExtortion true 7
+$entity.ignorePlayerCommRequests = true 0","A triangular symbol appears on the comms-line amidst a flood of loud and obnoxious music.
+
+""You're quite... unwealthy, aren't you? Your assets are only worth $Cabal_netWorthString! You should amass some more wealth, $playerName. As you know, it's a sin to be poor.""",cutCommLink:Cut the comm link,
+CabalCommFallback,OpenCommLink,$faction.id == cabal,"ShowDefaultVisual
+MakeOtherFleetPreventDisengage cabalExtortion false
+MakeOtherFleetAggressive cabalExtortion false
+EndConversation","You try to open a comm link, but only get some strange techno music.",cutCommLink:Cut the comm link,
+,,,,,,
+CabalPayCommon,CabalPayCommon,,"$entity.Cabal_extortionPaid = true 30
+MakeOtherFleetNonHostile Cabal_extortion true 30
+MakeHostileWhileTOff tOff false
+MakeHostileWhileTOff false
+MakeOtherFleetPreventDisengage cabalExtortion false
+MakeOtherFleetAggressive cabalExtortion false
+ShowDefaultVisual
+EndConversation",,,
+,,,,,,
+CabalRefuseContribution,DialogOptionSelected,$option == cabalRefuse,"$entity.ignorePlayerCommRequests = true 1
+UW_AdjustRepCustom $faction.id $Cabal_repNegImpact HOSTILE null null null null
+FireBest CabalRefuseResponse",,,
+CabalRefuseNasty,CabalRefuseResponse,RepIsAtBest $faction.id INHOSPITABLE score:100,"MakeOtherFleetPreventDisengage cabalExtortion true
+MakeOtherFleetAggressive cabalExtortion true
+AddText ""\""You will regret this.\""""
+AddText ""The connection is cut before you have a chance to respond.""
+ShowDefaultVisual
+EndConversation",,cutCommLink:Cut the comm link,
+CabalRefuseNice,CabalRefuseResponse,,"MakeOtherFleetPreventDisengage cabalExtortion false
+MakeOtherFleetAggressive cabalExtortion false
+AddText ""\""It is disappointing to hear that, $playerName.\""""
+AddText ""The $personFaction $personRank curtly cuts the connection.""
+ShowDefaultVisual
+EndConversation",,cutCommLink:Cut the comm link,
+,,,,,,
+CabalAvoidExtortion,DialogOptionSelected,$option == avoidCabalExtortion,"AddText ""Thinking quickly, you launch into a rant about the sort of new-age nonsense that appeals to these Cabaleros. You make most of it up on the spot, but the Cabalero begins to smile and nod, tacitly agreeing with your \""philosophical arguments.\""""
+AddText ""By the time you run out of inspiration, the $personRank is fully enraptured by your ramblings. \""Wise words, truly. You have given me much to think upon, $playerName.\""""
+AddText ""The $personFaction $personRank ends the connection.""
+UW_AdjustRepCustom $faction.id 0.05 null null HOSTILE null null
+$entity.Cabal_extortionPaid = true 30
+MakeOtherFleetNonHostile Cabal_extortion true 30
+MakeHostileWhileTOff tOff false
+MakeHostileWhileTOff false
+MakeOtherFleetPreventDisengage cabalExtortion false
+MakeOtherFleetAggressive cabalExtortion false
+ShowDefaultVisual
+EndConversation",,cutCommLink:Cut the comm link,
+CabalAvoidContribution,DialogOptionSelected,$option == avoidCabalContribution,"AddText ""You begin a prepared routine, complete with lavish displays of wealth and glamour, in an attempt to impress the $personFaction $personRank. To your amazement, the sordid show seems to put a broad grin on the Cabalero's face.""
+AddText ""When you wind down your act, the $personRank applauds. \""Truly inspired! You walk the Starlight Path well, $playerName. May the stars bless your ventures.\""""
+AddText ""The $personFaction $personRank ends the connection.""
+UW_AdjustRepCustom $faction.id 0.05 null null HOSTILE null null
+$entity.Cabal_extortionPaid = true 30
+MakeOtherFleetNonHostile Cabal_extortion true 30
+MakeHostileWhileTOff tOff false
+MakeHostileWhileTOff false
+MakeOtherFleetPreventDisengage cabalExtortion false
+MakeOtherFleetAggressive cabalExtortion false
+ShowDefaultVisual
+EndConversation",,cutCommLink:Cut the comm link,
+,,,,,,
+CabalEncounterPalace,BeginFleetEncounter,"$faction.id == cabal
+$uwIsPalace score:1000
+$stillAlive
+!$global.uwCompletedStarlightGala
+!$ignorePlayerCommRequests
+!$global.uwKilledPalace","AddText ""You're being hailed by the $faction $otherShipOrFleet."" $faction.baseColor
+$hailing = true 0",,,
+CabalOpenCommPalaceDefault,OpenCommLink,"$faction.id == cabal
+$entity.uwIsPalace score:1000
+$entity.stillAlive","SetShortcut cutCommLink ""ESCAPE""","Overwhelmingly loud music blasts through the comm terminal, immediately maxing the speakers. A triangular symbol fills the screen, but no one comes to answer.
+
+The wait seems interminable. The bridge crew is glancing at you, clearly hoping for you to make the music stop.",cutCommLink:Cut the comm link,
+#CabalOpenCommPalace,OpenCommLink,"$faction.id == cabal
+$entity.uwIsPalace score:1000
+$entity.stillAlive
+$id == uw_zeb
+!$global.uwCompletedStarlightGala
+!$entity.ignorePlayerCommRequests
+!$global.uwKilledPalace
+!$entity.uwGaveIntro","$entity.uwGaveIntro = true
+UW_UpdateGalaFacts
+FireBest CabalOpenCommPalace","Overwhelmingly loud music blasts through the comm terminal, immediately maxing the speakers and rendering inaudible the fabulously well-dressed individual on the other side of the screen. He's talking, but you can't hear him. He doesn't seem to notice.
+
+His mouth keeps flapping without halt as a nearby ensign, flustered, hurriedly turns the volume down and applies a speech isolation filter.
+
+""-a real party in here. Hey, are you listening?""",,
+CabalOpenCommPalaceOptions,CabalOpenCommPalace,,$entity.ignorePlayerCommRequests = true 7,,"cabalPalaceListening:""Uh, sure, yeah.""
+cabalPalaceMusic:""Your music is too damn loud. I could hear it from the other side of the system!""
+cutCommLink:Cut the comm link",
+CabalOpenCommPalaceOptionsHyper,CabalOpenCommPalace,UW_IsInHyperspace,$entity.ignorePlayerCommRequests = true 7,,"cabalPalaceListening:""Uh, sure, yeah.""
+cabalPalaceMusic:""Your music is too damn loud. I could hear it from light-years away!""
+cutCommLink:Cut the comm link",
+CabalOpenCommPalaceOptionsHasIntel,CabalOpenCommPalace,UW_HasGalaIntel score:1000,"SetOptionColor cabalPalaceYes buttonShortcut
+SetShortcut cutCommLink ""ESCAPE""",,"cabalPalaceYes:""I'm here for the Starlight Gala.""
+cabalPalaceListening:""Uh, sure, yeah.""
+cabalPalaceMusic:""Your music is too damn loud. I could hear it from the other side of the system!""
+cutCommLink:Cut the comm link",
+CabalOpenCommPalaceOptionsHasIntelHyper,CabalOpenCommPalace,"UW_HasGalaIntel score:1000
+UW_IsInHyperspace","SetOptionColor cabalPalaceYes buttonShortcut
+SetShortcut cutCommLink ""ESCAPE""",,"cabalPalaceYes:""I'm here for the Starlight Gala.""
+cabalPalaceListening:""Uh, sure, yeah.""
+cabalPalaceMusic:""Your music is too damn loud. I could hear it from light-years away!""
+cutCommLink:Cut the comm link",
+#CabalOpenCommPalace2,OpenCommLink,"$faction.id == cabal
+$entity.uwIsPalace score:1000
+$entity.stillAlive
+$id == uw_zeb
+!$global.uwCompletedStarlightGala
+!$entity.ignorePlayerCommRequests
+!$global.uwKilledPalace
+$entity.uwGaveIntro","UW_UpdateGalaFacts
+FireBest CabalOpenCommPalace2","Overwhelmingly loud music blasts through the comm terminal, briefly maxing the speakers before the speech isolation filter kicks in.
+
+The Cabalero on the other side of the screen waves at you while flashing a winning smile while bobbing his head to the music. Some priceless gemstone glints from his ear, reflecting a spectrum of lights flashing around him.
+
+""You're back! Yay! Does that mean you're coming, little $playerBrotherOrSister?""",,
+CabalCommPalaceListening,DialogOptionSelected,$option == cabalPalaceListening,FireBest CabalOpenCommPalace2,"""Right on!"" The Cabalero grins, flashing a winning smile while bobbing his head to the music, fortunately now at a tolerable level. Some priceless gemstone glints from his ear, reflecting a spectrum of lights flashing around him.
+
+""So, are you coming or what, little $playerBrotherOrSister?""",,
+CabalCommPalaceMusic,DialogOptionSelected,$option == cabalPalaceMusic,FireBest CabalOpenCommPalace2,"""That's our hyperwave amp in action, baby! Treaty violations have never sounded so good."" The Cabalero closes his eyes and starts bobbing his head to the music, fortunately now at a tolerable level. Some priceless gemstone glints from his ear, reflecting a spectrum of lights flashing around him.
+
+""So, are you coming or what, little $playerBrotherOrSister?""",,
+CabalCommPalace2Options,CabalOpenCommPalace2,,,,"cabalPalaceWhat:""Coming to what, exactly?""
+cabalPalaceYes:""You know it."" (accept)
+cabalPalaceNo:""I'll pass."" (decline)",
+CabalCommPalace2OptionsHasIntel,CabalOpenCommPalace2,UW_HasGalaIntel,"SetOptionColor cabalPalaceYes buttonShortcut
+SetShortcut cutCommLink ""ESCAPE""",,"cabalPalaceYes:""Yes, I'm here for the Starlight Gala.""
+cutCommLink:Cut the comm link",
+CabalCommPalaceWhat,DialogOptionSelected,$option == cabalPalaceWhat,,"The Cabalero reels his head back, mouth falling agape. He looks to the side, then gesticulates at you, conveying utter bafflement to someone offscreen.
+
+""This bum! Seriously, you don't know about THE party of the Persean Arm?"" The Cabalero palms his face. ""You're invited to the Starlight Gala! Let's tear up the stars!""","cabalPalaceYes:""Sounds like fun."" (accept)
+cabalPalaceNo:""I'll pass."" (decline)",
+CabalCommPalaceNo,DialogOptionSelected,$option == cabalPalaceNo,"AdjustRepActivePerson SUSPICIOUS -2
+AdjustRep cabal HOSTILE -1
+$entity.ignorePlayerCommRequests = true 7
+SetShortcut cutCommLink ""ESCAPE""","""Lame."" The Cabalero immediately loses interest, walking away from his console without even bothing to hit the comm-link cutoff.",cutCommLink:Cut the comm link,
+CabalCommPalaceYes,DialogOptionSelected,$option == cabalPalaceYes,UW_AddGalaIntel,"""Groovy! It's a date, little $playerBrotherOrSister. After you pay the entrance fee, take a shuttle up to my Palace and tell them you're here for the Starlight Gala. You're going to have the night... Of. Your. LIFE!""
+
+The Cabalero sweeps his index finger upward, striking a dramatic pose. He seems to sparkle. It must be a trick of the camera.","cabalPalaceScam:""Oh, so this is a scam.""
+cabalPalaceNoObject:""Money is no object.""
+cabalPalaceHowMuch:""How much is it?""",
+CabalCommPalaceScam,DialogOptionSelected,$option == cabalPalaceScam,"SetTextHighlights $uwEntryFeeDGS
+DoCanAffordCheck $uwEntryFee cabalPalacePay
+$global.uwKnowStarlightGalaFee = true
+UW_UpdateGalaIntel","""Scam?! You wound me!"" The Cabalero covers his mouth in a gesture of mock outrage. ""The $uwEntryFeeDGS credit fee covers the extreme costs of running such an excellent, exclusive, exotic, exquisite, exuberant, exalted affair.""
+
+He gives you a serious look. ""Money does grow on trees, after all, but it must first be plucked. You will find the experience to be most... rewarding.""","cabalPalacePay:Transfer $uwEntryFeeDGS credits
+cabalPalaceScam2:""Yep, totally a scam. That price is ridiculous.""
+cabalPalaceNoPay:""On second thought, I'm not interested.""",
+CabalCommPalaceScam2,DialogOptionSelected,$option == cabalPalaceScam2,"SetStoryOption cabalPalaceStoryPay 1 uw_galaStoryPay general ""Impressed Zeb Sparks enough to waive the Starlight Gala entry fee""
+DoCanAffordCheck $uwEntryFee cabalPalacePay
+DoCanAffordCheck $uwStoryEntryFee cabalPalaceStoryPay","""Tariffs are a scam."" The Cabalero dismissively tosses his fabulous mane of dual-tone hair. ""This... is a transaction, little $playerBrotherOrSister.""
+
+He spreads his hands in a conciliatory gesture. ""Would you prefer to be stabbed in the back with hidden costs and contractual devilry? Everyone who's who will be rubbing elbows at the Gala. Trust me, you don't want to play that game; they've been playing it a lot longer than you have, darling.""","cabalPalacePay:Transfer $uwEntryFeeDGS credits
+cabalPalaceStoryPay:Avoid the entry fee by impressing the Cabalero ($uwStoryEntryFeeDGS credits)
+cabalPalaceNoPay:""On second thought, I'm not interested.""",
+CabalCommPalaceNoObject,DialogOptionSelected,$option == cabalPalaceNoObject,"$player.ethosCocky+
+SetTextHighlights $uwEntryFeeDGS
+DoCanAffordCheck $uwEntryFee cabalPalacePay
+$global.uwKnowStarlightGalaFee = true
+UW_UpdateGalaIntel","The Cabalero smirks. ""Are you sure about that, darling? The entry fee is $uwEntryFeeDGS credits."" He lets that hang in the air for a moment. ""It covers the extreme costs of running such an excellent, exclusive, exotic, exquisite, exuberant, exalted affair.""
+
+Then he shrugs, pursing his luscious purple lips. ""As you know, money grows on trees, and you will find this harvest to be most rewarding. A no-brainer, really.""","cabalPalacePay:Transfer $uwEntryFeeDGS credits
+cabalPalaceNoObject2:""Very funny. What's the real fee?""
+cabalPalaceNoPay:""On second thought, I'm not interested.""",
+CabalCommPalaceNoObject2,DialogOptionSelected,$option == cabalPalaceNoObject2,"SetStoryOption cabalPalaceStoryPay 1 uw_galaStoryPay general ""Impressed Zeb Sparks enough to waive the Starlight Gala entry fee""
+DoCanAffordCheck $uwEntryFee cabalPalacePay
+DoCanAffordCheck $uwStoryEntryFee cabalPalaceStoryPay","""I assure you, little $playerBrotherOrSister: the fee is very real. $uwEntryFeeDGS credits buys your access to an event where everyone who's who will be rubbing elbows. Such discerning guests would hardly tolerate the company of common riff-raff.""
+
+""Of course, you should have no problem paying such a paltry sum,"" the Cabalero drawls, giving you a pointed glance while he plays with his shiny amulet. ""Right?""","cabalPalacePay:Transfer $uwEntryFeeDGS credits
+cabalPalaceStoryPay:Avoid the entry fee by impressing the Cabalero ($uwStoryEntryFeeDGS credits)
+cabalPalaceNoPay:""On second thought, I'm not interested.""",
+CabalCommPalaceHowMuch,DialogOptionSelected,$option == cabalPalaceHowMuch,"SetTextHighlights $uwEntryFeeDGS
+DoCanAffordCheck $uwEntryFee cabalPalacePay
+$global.uwKnowStarlightGalaFee = true
+UW_UpdateGalaIntel","""It's $uwEntryFeeDGS credits,"" the Cabalero says back-handedly, as if such a sum barely deserves mention. ""Of course, the fee covers the extreme costs of running such an excellent, exclusive, exotic, exquisite, exuberant, exalted affair.""
+
+He gives you a sultry wink. ""Money grows on trees, after all, but it must first be plucked. You will find the experience to be most... rewarding.""","cabalPalacePay:Transfer $uwEntryFeeDGS credits
+cabalPalaceHowMuch2:""That's absurdly high.""
+cabalPalaceNoPay:""On second thought, I'm not interested.""",
+CabalCommPalaceHowMuch2,DialogOptionSelected,$option == cabalPalaceHowMuch2,"SetStoryOption cabalPalaceStoryPay 1 uw_galaStoryPay general ""Impressed Zeb Sparks enough to waive the Starlight Gala entry fee""
+DoCanAffordCheck $uwEntryFee cabalPalacePay
+DoCanAffordCheck $uwStoryEntryFee cabalPalaceStoryPay","""So will you be, if you attend the Gala,"" the Cabalero quips before chuckling. ""If you roll with the Cabal, you will soon learn to overcome weak instincts like 'sticker shock', little $playerBrotherOrSister."" He adopts a wistful expression. ""Ah, to be so young and fresh as to feel fear when seeing a mere number.""
+
+Then he refocuses on you. ""Everyone who's who will be rubbing elbows at the Gala, darling. If you can't pay the fee, then you really don't belong; they'll eat you up like a shiver of sharks.""","cabalPalacePay:Transfer $uwEntryFeeDGS credits
+cabalPalaceStoryPay:Avoid the entry fee by impressing the Cabalero ($uwStoryEntryFeeDGS credits)
+cabalPalaceNoPay:""On second thought, I'm not interested.""",
+#CabalOpenCommPalaceKnowFee,OpenCommLink,"$faction.id == cabal
+$entity.uwIsPalace score:1000
+$entity.stillAlive
+$id == uw_zeb
+!$global.uwCompletedStarlightGala
+!$entity.ignorePlayerCommRequests
+!$global.uwKilledPalace
+UW_HasGalaIntel score:1000
+$global.uwKnowStarlightGalaFee score:1000","UW_UpdateGalaFacts
+FireBest CabalOpenCommPalaceKnowFee","With a speech isolation filter already in place, the music that comes through the comms is at a pleasant volume.
+
+The Cabalero on the other side of the screen gives you a grin and a quick nod. The strobing lights all around him glint off of his jewelry.
+
+""You've returned, little $playerBrotherOrSister. Does that mean you're ready to party?""",,
+CabalOpenCommPalaceKnowFeeOptions,CabalOpenCommPalaceKnowFee,,"SetShortcut cutCommLink ""ESCAPE""",,"cabalPalacePay:""More than ready."" (transfer $uwEntryFeeDGS credits)
+cabalPalaceStoryPay:Avoid the entry fee by impressing the Cabalero ($uwStoryEntryFeeDGS credits)
+cutCommLink:Cut the comm link",
+CabalOpenCommPalaceKnowFeeOptionsNoFee,CabalOpenCommPalaceKnowFee,RepIsAtWorst cabal COOPERATIVE,"SetShortcut cutCommLink ""ESCAPE""",,"cabalPalaceYes:""Yes, I'm here for the Starlight Gala.""
+cutCommLink:Cut the comm link",
+CabalCommPalacePay,DialogOptionSelected,$option == cabalPalacePay,"RemoveCommodity credits $uwEntryFee
+AdjustRepActivePerson 20
+AdjustRep cabal 10","The Cabalero is silent for a moment, blinking rapidly as he confirms the credit transfer. He glances up at you, then back down at a console, then back at you. He slowly breaks into a wide, beaming smile.
+
+""Wow. You're a real high roller, baby!"" He leans closer to the screen, causing his jewelry to jingle. ""I'll be keeping my pretty little eye on you, my pretty little $playerBrotherOrSister,"" he purrs with a wink while he cuts off the comm-link.",cabalPalaceGoToGala:Prepare for the Starlight Gala,
+CabalCommPalaceStoryPay,DialogOptionSelected,$option == cabalPalaceStoryPay,,"During your travels, you've learned how the Starlight Cabal operates. Their reputation for avarice is well-founded, but their rapacious appetite for raw credits is... greatly exaggerated. A Cabalero won't turn down money, of course, but they value something more indefinable: opulence.
+
+You pull out all the stops. A frozen Volturnian lobster that you've been saving for a special occasion. A prime vintage of wine from Gilead, retrieved from the ""special"" cabinet in your captain's cabin. Precious metals and gemstones taken as souvenirs from the bountiful ruins of forgotten worlds. Rare recordings of ancient art and music, preserving long-dead Old Earth culture like an insect in amber. You show off and voraciously sample the bounties you have collected from a career spent among the stars.",cabalPalaceStoryPay2:Continue,
+CabalCommPalaceStoryPay2,DialogOptionSelected,$option == cabalPalaceStoryPay2,,"You don't stop there. The Cabal, like the pirates that they so outwardly disdain, respects power more than anything. So, you flex your own power. You remotely tap into the Palace's unsecured Hyperwave Amplifier and coax it into acting as an unrestricted Comm Relay. With your reach suddenly expanded, you make a deliberate series of bribes, purchases, and sales throughout the Sector, leveraging the numerous contacts you've made throughout your life.
+
+It takes a small fortune of credits to accomplish, but afterwards you direct the Cabalero to check the current market trends. As he scans across an unseen screen, you catch the glimpse of red warning lights reflected in his eyes.
+
+The price of recreational drugs has suddenly spiked across every Tri-Tachyon market in the Sector.",cabalPalaceStoryPay3:Continue,
+CabalCommPalaceStoryPay3,DialogOptionSelected,$option == cabalPalaceStoryPay3,"RemoveCommodity credits $uwStoryEntryFee
+AdjustRepActivePerson 20
+AdjustRep cabal 5","The Cabalero is silent for a moment, blinking rapidly as he witnesses your market manipulation. He glances up at you, then back down at a console, then back at you. He slowly breaks into a wide, beaming smile.
+
+""Wow. You're a real high roller, baby!"" The Cabalero leans closer to the screen, causing his jewelry to jingle. ""Forget the fee. I'll let them know that I'm expecting you, my pretty little $playerBrotherOrSister,"" he purrs with a wink while he cuts off the comm-link.",cabalPalaceGoToGala:Prepare for the Starlight Gala,
+CabalCommPalaceYesNoFee,DialogOptionSelected,"$option == cabalPalaceYes
+RepIsAtWorst cabal COOPERATIVE","$global.uwKnowStarlightGalaNoFee = true
+UW_UpdateGalaIntel
+UW_AddGalaIntel","""Groovy! It's a date, little $playerBrotherOrSister. Normally there'd be an entrance fee, but I can see that you're a fellow $playerBrotherOrSister of the shadowsphere. Take a shuttle up to my Palace and tell them you're here for the Starlight Gala. You're going to have the night... Of. Your. LIFE!""
+
+The Cabalero sweeps his index finger upward, striking a dramatic pose. He seems to sparkle. It must be a trick of the camera.",cabalPalaceYesNoFee2:Continue,"This funky scripting ensures that either an update is pushed or a new intel is created, but not both"
+CabalCommPalaceYesNoFee2,DialogOptionSelected,$option == cabalPalaceYesNoFee2,AdjustRepActivePerson 20,"The Cabalero leans his side of the terminal, getting so close that his hair bumps against the screen. ""I'll let them know that I'm expecting you, little $playerBrotherOrSister,"" he says with a wink while he cuts off the comm-link.",cabalPalaceGoToGala:Prepare for the Starlight Gala,
+CabalCommPalaceNoPay,DialogOptionSelected,"$option == cabalPalaceNoPay
+UW_CanPayGala false","AdjustRepActivePerson SUSPICIOUS -2
+AdjustRep cabal HOSTILE -1
+$entity.ignorePlayerCommRequests = true 7
+SetShortcut cutCommLink ""ESCAPE""","""Lame."" The Cabalero immediately loses interest, walking away from his console without even bothing to hit the comm-link cutoff.",cutCommLink:Cut the comm link,
+CabalCommPalaceNoPayCantPay,DialogOptionSelected,"$option == cabalPalaceNoPay
+!UW_CanPayGala false","$entity.ignorePlayerCommRequests = true 7
+SetShortcut cutCommLink ""ESCAPE""","""Oh, I see. You don't have enough coin to knock together, do you,"" the Cabalero coos in an insultingly affectionate tone. ""How adorable."" He sighs, adding, ""be sure to come back when you're worthy of my time, darling.""
+
+The feed cuts off while he's giving you a little wave goodbye.",cutCommLink:Cut the comm link,
+CabalCommPalaceGoToGala,DialogOptionSelected,$option == cabalPalaceGoToGala,"ShowDefaultVisual
+EndConversation
+SetStoryOption cabalPalaceGoToGalaMakeASplash 1 uw_galaStorySplash general ""Wore an outrageous outfit when attending the Starlight Gala""","As your $shipOrFleet prepares for your partygoing excursion to the $uwPalaceShipName, you consider how you are going to present yourself at the Starlight Gala.","cabalPalaceGoToGalaMakeASplash:Make a splash
+cabalPalaceGoToGalaWearADress:Wear a fancy dress
+cabalPalaceGoToGalaWearASuit:Wear a formal suit
+cabalPalaceGoToGalaWearAUniform:Wear your uniform",
+CabalCommPalaceGoToGalaMakeASplash,DialogOptionSelected,$option == cabalPalaceGoToGalaMakeASplash,$uwGalaOutfitSplash = true 0,"You decide to go big or go home: an outfit guaranteed to stand out, even amongst a crowd of eccentric Cabaleros.
+
+After swallowing your nervousness and burying your inhibitions, a number of possibilities come to mind...","cabalPalaceGoToGalaWearNothing:Use your body as a canvas
+cabalPalaceGoToGalaWearBling:Cover yourself in jewelry
+cabalPalaceGoToGalaWearFashion:Invent a new style of fashion",
+CabalCommPalaceGoToGalaWearNothing,DialogOptionSelected,$option == cabalPalaceGoToGalaWearNothing,$uwGalaOutfitNothing = true 0,"Retreating to your quarters, you strip down to your skivvies. Then, after a moment of hesitation, you take those off too.
+
+You then dig into the cosmetics, liberally applying them over your face, transforming your visage into a done-up mask of striking beauty. Having outdone yourself, you proceed with the body paint, carefully tracing your natural contours while you craft a suit of pigments. The process is laborious, at times requiring correction, but determination fuels you.",cabalPalaceGoToGalaWearNothing2:Continue,
+CabalCommPalaceGoToGalaWearNothing2,DialogOptionSelected,$option == cabalPalaceGoToGalaWearNothing2,,"Finally, you stand in front of the mirror to inspect your handiwork. You look like an otherwordly fey being, something both removed from and elevated over humanity. You can barely recognize yourself.
+
+From a distance, one might not even realize you're wearing nothing.
+
+It's time to make an impression.",cabalPalaceGoToGalaWearNothing3:Take a shuttle to the $uwPalaceShipName,
+CabalCommPalaceGoToGalaWearNothing3,DialogOptionSelected,$option == cabalPalaceGoToGalaWearNothing3,"$option = cabalPalaceGoToGala2 0
+FireBest DialogOptionSelected","""It's- it's- um,"" the officer overseeing the shuttle bay stammers, ""not proper protocol to, um-,"" but you wave him off, boarding the shuttle with an air of unwavering authority. Even the marines avert their eyes.",,
+CabalCommPalaceGoToGalaWearBling,DialogOptionSelected,$option == cabalPalaceGoToGalaWearBling,$uwGalaOutfitBling = true 0,"The Starlight Cabal can't get enough of their shiny baubles, so you decide to play to the crowd. You order your ship's forge crew to hammer out rings, bracelets, necklaces - anything they can produce in short order. Meanwhile, you scrounge up every last piece of jewelry in your collection and search around for the perfect outfit to accompany them.
+
+You wind up wearing some of the gaudiest robes you've ever seen - an old shame of one of your officers, who is very eager to be rid of them - and decking yourself out with enough bling to confuse a guidance algorithm.",cabalPalaceGoToGalaWearBling2:Continue,
+CabalCommPalaceGoToGalaWearBling2,DialogOptionSelected,$option == cabalPalaceGoToGalaWearBling2,,"You can't help but feel like a magpie as you inspect your reflection in the mirror. The mass of precious metal literally weighs you down, clinking and jingling with every movement you make. Gemstones strain your eyes from countless multi-faceted reflections. Your whole body sparkles like a cluster of flares.
+
+It's time to make an impression.",cabalPalaceGoToGalaWearBling3:Take a shuttle to the $uwPalaceShipName,
+CabalCommPalaceGoToGalaWearBling3,DialogOptionSelected,$option == cabalPalaceGoToGalaWearBling3,"$option = cabalPalaceGoToGala2 0
+FireBest DialogOptionSelected","You get raised eyebrows from your officers as you stride to the shuttle bay. One of the marines keeps glancing at your feet, clearly hoping to surreptitiously collect any jewelry you accidentally drop on the ground.",,
+CabalCommPalaceGoToGalaWearFashion,DialogOptionSelected,$option == cabalPalaceGoToGalaWearFashion,$uwGalaOutfitFashion = true 0,"You decide to make a fashion statement. No existing style will do; you go straight to the drawing board, deliberately concocting the most ridiculous design you can think of. After a few rounds of revision, you strike gold: a peacock-inspired gown with a low-cut V-neck, massive white frills, and an enormous multicolored fan-shaped protrusion in the back that stretches above the head and far to each side.
+
+It's hideous. It's perfect.",cabalPalaceGoToGalaWearFashion2:Continue,
+CabalCommPalaceGoToGalaWearFashion2,DialogOptionSelected,$option == cabalPalaceGoToGalaWearFashion2,,"It turns out that one of your crew was once a seamstress from Gilead. She grumbles the entire time as she crafts your monstrosity of an outfit, but the final product looks like it was made by a true professional. Rather than tell you her life's story, however, she just demands more hazard pay.
+
+After a thorough inspection in the mirror, you decide that this outfit is even worse than you had imagined. It will be a wonder if you can ever live this down.
+
+It's time to make an impression.",cabalPalaceGoToGalaWearFashion3:Take a shuttle to the $uwPalaceShipName,
+CabalCommPalaceGoToGalaWearFashion3,DialogOptionSelected,$option == cabalPalaceGoToGalaWearFashion3,"$option = cabalPalaceGoToGala2 0
+FireBest DialogOptionSelected","Heads turn and jaws drop as you make your way to the shuttle bay. En route to the $uwPalaceShipName, your escorts wear expressions of secondhand embarrassment.",,
+CabalCommPalaceGoToGalaWearADress,DialogOptionSelected,$option == cabalPalaceGoToGalaWearADress,"$uwGalaOutfitFormal = true 0
+$uwGalaOutfitDress = true 0","You take the opportunity to wear your best, digging out a long-buried black dress with a low-cut back. Shiny high-heels, thin stockings, and a necklace of Volturnian pearls complete the appearance. It's a little revealing, but it'll do.
+
+You tuck a sidearm into your skirt, just in case.
+
+The $uwPalaceShipName sends you the all-clear to approach with the shuttle and escorts.",cabalPalaceGoToGalaWearADress2:Take a shuttle to the $uwPalaceShipName,
+CabalCommPalaceGoToGalaWearADress2,DialogOptionSelected,$option == cabalPalaceGoToGalaWearADress2,"$option = cabalPalaceGoToGala2 0
+FireBest DialogOptionSelected","En route, you notice a male junior officer blushing and looking away from you.",,
+CabalCommPalaceGoToGalaWearASuit,DialogOptionSelected,$option == cabalPalaceGoToGalaWearASuit,"$uwGalaOutfitFormal = true 0
+$uwGalaOutfitSuit = true 0","You take the opportunity to get properly dressed, dusting off a sharp, black suit for the occasion. Sleek boots, ironed pants, and white gloves complete the appearance. It's a little constricting, especially around the collar, but it'll do.
+
+You tuck a sidearm into your jacket, just in case.
+
+The $uwPalaceShipName sends you the all-clear to approach with the shuttle and escorts.",cabalPalaceGoToGalaWearASuit2:Take a shuttle to the $uwPalaceShipName,
+CabalCommPalaceGoToGalaWearASuit2,DialogOptionSelected,$option == cabalPalaceGoToGalaWearASuit2,"$option = cabalPalaceGoToGala2 0
+FireBest DialogOptionSelected","En route, you catch a female junior officer staring at your butt.",,
+CabalCommPalaceGoToGalaWearAUniform,DialogOptionSelected,$option == cabalPalaceGoToGalaWearAUniform,"$player.ethosOrder++
+$uwGalaOutfitUniform = true 0","You consider your reputation. When people see you, they have certain expectations. Captain, commander, trader, privateer, spacer, starfarer. Perhaps it's best to go as-is. After all, this is who you really are.
+
+You keep your sidearm at your hip, just in case.
+
+The $uwPalaceShipName sends you the all-clear to approach with the shuttle and escorts.",cabalPalaceGoToGala2:Take a shuttle to the $uwPalaceShipName,
+#CabalCommPalaceGoToGala2,DialogOptionSelected,$option == cabalPalaceGoToGala2,,#TBD,#TBD,
+,,,#Slightly different text during the event depending on whether you're in hyperspace,,,
+,,,#$entity.sawPlayerTransponderOn = true,,,
+,,,"#Gamify it, keep the player on their toes",,,
+,,,#One night stand? Zeb is pansex,,,
+,,,"#If you accuse the Cabal of being immoral, Zeb asks you what heinous shit YOU have done (or mocks you for even daring to judge if you've committed an atrocity)",,,
+,,,"#Zeb is coldly sober about Kanta, warns the player never to underestimate the pirate queen - a vicious monster, yes, but also a calculating warlord who has kept her wit sharp despite the centuries. Few can balance delegation and personal authority like Kanta, and the immensity of charisma she must possess to command such hordes of lawless pirates...",,,
+,,,"#UW_ContactZeb, $global.uwCompletedStarlightGala = true",,,
+,,,"#Need special contact greet text for Zeb, maybe pattern after Arroyo?",,,
+,,,,,,
+relLevelCooperativeCabal,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
+$faction.id == cabal",,"You have become a member of the Starlight Cabal. You walk the shadowsphere with the full authority of a Cabalero. Now that you have completed the Starlight Path, no longer shall you encounter any fees, restrictions, or demands from fellow Cabaleros.",,
+relLevelFriendlyCabal,RelationshipLevelDesc,"$faction.rel == FRIENDLY
+$faction.id == cabal",,"Now nearly at the terminus of the Starlight Path, you have earned probationary membership within the Starlight Cabal. Entrance fees are waived for you, and most Cabaleros will know not to overtly ask you for further contributions.",,
+relLevelWelcomingCabal,RelationshipLevelDesc,"$faction.rel == WELCOMING
+$faction.id == cabal",,You have walked further along the Starlight Path than most - a result of dedication and deep pockets. You have met important Cabaleros and have a limited level of insight into the inner workings of the organization. Full membership may be on the horizon.,,
+relLevelFavorableCabal,RelationshipLevelDesc,"$faction.rel == FAVORABLE
+$faction.id == cabal",,The Starlight Cabal now sees you as an investment. You are treated with favor over other associates of the Cabal. Some Cabaleros offer you intriguing and exclusive deals.,,
+relLevelNeutralCabal,RelationshipLevelDesc,"$faction.rel == NEUTRAL
+$faction.id == cabal",,"Your contributions to the Starlight Cabal have earned, though not actual membership, an associate position within the organization. The bulk of the Starlight Path still remains ahead of you.",,
+relLevelSuspiciousCabal,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
+$faction.id == cabal",,"You have taken the first few steps along the Starlight Path. You are not a member of the Starlight Cabal, but you are treated with less disrespect than most are.",,
+relLevelInhospitableCabal,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
+$faction.id == cabal",,"You have entered into the Starlight Path, or so they claim. Although relations could quickly sour if you make a wrong move, you are now permitted to do business with the Starlight Cabal.",,
+relLevelHostileCabal,RelationshipLevelDesc,"$faction.rel == HOSTILE
+$faction.id == cabal",,"As with countless others, you are simply prey to the Starlight Cabal. Your wealth and hardware are free for the taking, but a Cabalero will not take your life if you comply with their demands.",,
+relLevelVengefulCabal,RelationshipLevelDesc,"$faction.rel == VENGEFUL
+$faction.id == cabal",,"You have proven to be a willing enemy of the Starlight Cabal. To a Cabalero, your life and liberty are forfeit; compliance will not save you.",,
+,,,,,,
+flavorTextMarketUWArigato,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == pirates
+$market.id == uw_arigato
+$id == uw_arigato","AddText ""Most of the business in Arigato is done in the Hard Dicker bar. Neon signs adorn the walls, advertising various sellers and their questionable wares. The 'representatives' for these sellers look very much like the other low-life patrons, sipping cheap green-tinted liquor while smoking a variety of expensive cigars. Old Dicker's portrait hangs above, protected by several panes of starship-grade armored glass."" marketFlavorTextColor",,,
+,,,,,,
+uwArigatoMarketAddOptionRepair1,PopulateOptions,"$hasMarket
+$menuState == main
+$tradeMode == OPEN
+!RepairAvailable
+UW_StyxRepairAvailable
+RepairNeeded
+RepairEnoughSupplies
+$faction.id == pirates
+$market.id == uw_arigato
+$id == uw_arigato","SetTooltip marketRepair ""Full repairs require $global.repairSupplyCost supplies. $player.supplies supplies are available.""
+SetTooltipHighlightColors marketRepair buttonShortcut buttonShortcut
+SetTooltipHighlights marketRepair $global.repairSupplyCost $player.supplies
+SetShortcut marketRepair ""A"" true",,15:marketRepair:Repair your ships at the dockyard,
+uwArigatoMarketAddOptionRepair2,PopulateOptions,"$hasMarket
+$menuState == main
+$tradeMode == OPEN
+!RepairAvailable
+UW_StyxRepairAvailable
+!RepairNeeded
+$faction.id == pirates
+$market.id == uw_arigato
+$id == uw_arigato","SetTooltip marketRepair ""Your $shipOrFleet does not require any repairs.""
+SetShortcut marketRepair ""A"" true
+SetEnabled marketRepair false",,15:marketRepair:Repair your ships at the dockyard,
+uwArigatoMarketAddOptionRepair3,PopulateOptions,"$hasMarket
+$menuState == main
+$tradeMode == OPEN
+!RepairAvailable
+UW_StyxRepairAvailable
+RepairNeeded
+!RepairEnoughSupplies
+$faction.id == pirates
+$market.id == uw_arigato
+$id == uw_arigato","SetTooltip marketRepair ""Full repairs require $repairSupplyCost supplies. Only $supplies supplies are available.""
+SetTooltipHighlightColors marketRepair buttonShortcut buttonShortcut
+SetTooltipHighlights marketRepair $global.repairSupplyCost $player.supplies
+SetShortcut marketRepair ""A"" true
+SetEnabled marketRepair false",,15:marketRepair:Repair your ships at the dockyard,
+,,,,,,
+uwEncounterDickerson,BeginFleetEncounter,"$stillAlive
+!$talked
+$uwIsDickerson score:100
+$uwDickersonLevel == 0","AddText ""You're being hailed by $personName."" $faction.baseColor
+$talked = true 7
+$hailing = true 0",,,
+uwEncounterDickersonAngry,BeginFleetEncounter,"$stillAlive
+!$talked
+$uwIsDickerson score:100","unset $entity.ignorePlayerCommRequests
+AddText ""You're being hailed by $personName."" $faction.baseColor
+$talked = true 7
+MakeOtherFleetPreventDisengage tOff true
+MakeOtherFleetAggressive tOff true",,,
+uwGreetingDickerson0,OpenCommLink,"$entity.uwIsDickerson score:100
+$entity.uwDickersonLevel == 0
+!$entity.isHostile",,"""Grettings from the Dickerson Clan. Have you visited our offices on Jangala?""
+OR
+""Stay out of trouble. Don't be a dick.""
+OR
+""This is our home. Don't you dare ruin it for everyone.""",cutCommLink:Cut the comm link,
+uwGreetingDickerson0Hostile,OpenCommLink,"$entity.uwIsDickerson score:100
+$entity.uwDickersonLevel == 0
+$entity.isHostile",$entity.ignorePlayerCommRequests = true 1,"""You little prick! We'll teach you to start shit with the Dickersons!""
+OR
+""You wanna fight with the Dickersons, huh? You poor fool.""",cutCommLink:Cut the comm link,
+uwGreetingDickerson1,OpenCommLink,"$entity.uwIsDickerson score:100
+$entity.uwDickersonLevel == 1",$entity.ignorePlayerCommRequests = true 1,"""You killed my brother, you bastard! Or was it my sister?""
+OR
+""No one hurts my family, asshole!""",cutCommLink:Cut the comm link,
+uwGreetingDickerson2,OpenCommLink,"$entity.uwIsDickerson score:100
+$entity.uwDickersonLevel == 2",$entity.ignorePlayerCommRequests = true 1,"""The Dickersons send their regards.""
+OR
+""My name is Dickerson. You killed my father, my grandfather, and my other grandfather. Prepare to die.""",cutCommLink:Cut the comm link,
+uwGreetingDickerson3,OpenCommLink,"$entity.uwIsDickerson score:100
+$entity.uwDickersonLevel == 3",$entity.ignorePlayerCommRequests = true 1,"""You may have won the fight, but you will NOT win the war! You will never prevail!""
+OR
+""I will vanquish you here, or my name isn't Dickerson!""",cutCommLink:Cut the comm link,
+uwGreetingDickerson4,OpenCommLink,"$entity.uwIsDickerson score:100
+$entity.uwDickersonLevel == 4",$entity.ignorePlayerCommRequests = true 1,"""Our resources are endless, commander. Why do you persist? You cannot possibly win.""
+OR
+""I'll tear off your head and skullfuck you! I'll break your spine and shit down your neck! Your pain shall be legendary!""",cutCommLink:Cut the comm link,
+uwGreetingDickerson5,OpenCommLink,"$entity.uwIsDickerson score:100
+$entity.uwDickersonLevel == 5",$entity.ignorePlayerCommRequests = true 1,"""This ends here. Prepare to be Dicked!""
+OR
+""Behold, the power of the Dicker!""",cutCommLink:Cut the comm link,
+uwGreetingDickerson6,OpenCommLink,"$entity.uwIsDickerson score:100
+$entity.uwDickersonLevel == 6",$entity.ignorePlayerCommRequests = true 1,"""Congratulations, commander. You've killed more of us than I had thought possible."" The Dickerson clan lord claps for you, behind the vidscreen. ""It was really quite spectacular. But, as all things do, it must come to an end. Because, we both know that you're not in this for any personal gain; you just want a sense of accomplishment. You senselessly slaughter just to see how far we can be pushed."" Dickerson gestures behind, toward the titanic fleet under their command. ""This is it - the largest independent fleet ever assembled. You'll have your contest, and you'll damn the Persean Sector to Hell to have it."" The video cuts off, but Dickerson's voice remains. ""This ends when you step away, commander. Goodbye.""",cutCommLink:Cut the comm link,
+uwGreetingDickerson7Plus,OpenCommLink,"$entity.uwIsDickerson score:100
+$entity.uwDickersonLevel > 6",$entity.ignorePlayerCommRequests = true 1,"""...""",cutCommLink:Cut the comm link,
+,,,,,,
+uwGreetingTradeFleet,OpenCommLink,UW_ExtortFleet canExtortFleet score:20,"FireBest OpenCommLink
+UW_ExtortFleet addOptions",,,
+uwExtortCreditsStart,DialogOptionSelected,$option == uw_extortCredits,"UW_ExtortFleet getCredits
+$uw_extortMode = ""credits""
+UW_ExtortFleet rollViolentResistance
+FireBest UW_ExtortResponse",,,
+uwExtortCargoStart,DialogOptionSelected,$option == uw_extortCargo,"UW_ExtortFleet getCargo
+$uw_extortMode = ""cargo""
+UW_ExtortFleet rollViolentResistance
+FireBest UW_ExtortResponse",,,
+uwExtortCredits,UW_ExtortResponse,"$entity.relativeStrength < 0
+$uw_extortMode == ""credits""",SetTextHighlights $entity.uw_extortCreditsStr,"""Please, we don't want any trouble. We can give you $uw_extortCreditsStr if you let us go.""
+OR
+""Fine, you bastard! You can have $uw_extortCreditsStr, just go away.""","uw_extortCreditsConfirm:""Fine, hand it over.""
+uw_extortCargo:""Let's see your cargo instead.""
+uw_extortCancel:""Never mind, I won't take your money.""",
+uwExtortCargo,UW_ExtortResponse,"$entity.relativeStrength < 0
+$uw_extortMode == ""cargo""",UW_ExtortFleet printCargo,"""Alright, alright! We'll turn over half our cargo.""
+
+Your $shipOrFleet scans the $faction $otherShipOrFleet to see what they have.
+OR
+""Okay, okay, we'll drop our cargo! Just don't shoot us!""
+
+Your $shipOrFleet scans the $faction $otherShipOrFleet to see what they have.","uw_extortCargoConfirm:""Right, start dropping your pods.""
+uw_extortCredits:""Maybe you ought to pay in cash instead.""
+uw_extortCancel:""Never mind, I won't take your goods.""",
+uwExtortCreditsResist,UW_ExtortResponse,"$entity.relativeStrength >= 0 score:5
+$uw_extortMode == ""credits""","UW_AdjustRepCustom $faction.id -0.02
+$entity.ignorePlayerCommRequests = true 1","""Go to hell! As if we'd give you our hard-earned credits.""
+OR
+""You and whose army, huh? Now git before we call the cops.""",cutCommLink:Cut the comm link,
+uwExtortCargoResist,UW_ExtortResponse,"$entity.relativeStrength >= 0 score:5
+$uw_extortMode == ""cargo""","UW_AdjustRepCustom $faction.id -0.02
+$entity.ignorePlayerCommRequests = true 1","""You'll have to pry our cargo from our cold dead hands!""
+OR
+""You're not getting our cargo without a fight! We won't give anything to the likes of you!""",cutCommLink:Cut the comm link,
+uwExtortResistViolent,UW_ExtortResponse,$entity.uw_extortResistViolently score:99,"UW_AdjustRepCustom $faction.id -0.03
+UW_ExtortFleet alertPatrols
+MakeOtherFleetHostile uw_extort true
+MakeOtherFleetAggressive uw_extort true
+$entity.ignorePlayerCommRequests = true 1
+ShowDefaultVisual
+EndConversation","""Suck vacuum!""
+
+$PersonRank $personName cuts the connection. The $faction $otherShipOrFleet powers up weapons.
+OR
+$PersonRank $personName just glares at you, $hisOrHer face turning puce. $HeOrShe slams a fist on the disconnect button, and the $faction $otherShipOrFleet powers up weapons.
+OR
+""We've heard of you, $playerName, and you can go to hell!""
+
+$PersonRank $personName cuts the connection. The $faction $otherShipOrFleet powers up weapons.",,
+uwExtortCargoNoLoot,UW_ExtortResponse,"$entity.relativeStrength < 0
+$uw_extortMode == ""cargo""
+$entity.uw_fleetCargoValue <= 0",,"""We... we don't have anything worth taking.""","uw_extortCredits:""Fine, let's see the contents of your credit balance.""
+uw_extortCancel:""Forget it.""",
+uwExtortBadRep,UW_ExtortResponse,$player.uw_extortMurderous score:5,,"""What's the point? You'd kill us anyway, you bloody psychopath.""
+OR
+""We've heard of you, $playerName. We're not giving you a damn dime.""
+OR
+""We're not giving you anything! Murderer!""",cutCommLink:Cut the comm link,
+uwExtortCreditsConfirm,DialogOptionSelected,$option == uw_extortCreditsConfirm,"AddCredits $entity.uw_extortCredits
+$entity.uw_extorted = true 30
+SetTextHighlights $entity.uw_extortCreditsStr
+UW_ExtortFleet modifyRep credits
+UW_ExtortFleet addXP
+UW_ExtortFleet alertPatrols","""Very well, here's $uw_extortCreditsStr"".",cutCommLink:Cut the comm link,
+uwExtortCargoConfirm,DialogOptionSelected,$option == uw_extortCargoConfirm,"UW_ExtortFleet dropCargo
+$entity.uw_extorted = true 30
+UW_ExtortFleet modifyRep cargo
+UW_ExtortFleet addXP
+UW_ExtortFleet alertPatrols",The $otherShipOrFleet opens their hatches and starts rolling out pods full of loot.,,
+uwExtortCancel,DialogOptionSelected,$option == uw_extortCancel,"$entity.ignorePlayerCommRequests = true 0
+ShowDefaultVisual
+EndConversation","""...""
+
+The $personRank quickly cuts the connection before you can change your mind.",,
+,,,,,,
+uwGreetingTradeFleetAlreadyExtorted,OpenCommLink,"UW_ExtortFleet canExtortFleet score:20
+$entity.uw_extorted",$entity.ignorePlayerCommRequests = true 1,"""What the hell do you want? We already paid you off.""
+OR
+""We already paid up! Are you here for more?""",cutCommLink:Cut the comm link,
+,,,,,,
+uwMarketAddOptionRestoreOrUpgrade,PopulateOptions,"$hasMarket
+$menuState == main
+$tradeMode == OPEN
+UW_RestoreOrUpgradeAvailable","SetTooltip uwMarketRestoreOrUpgrade ""$global.uwRestoreOrUpgradeTooltip""
+SetTooltipHighlightColors uwMarketRestore buttonShortcut
+SetTooltipHighlights uwMarketRestore $global.uwRestoreShip",,16:uwMarketRestoreOrUpgrade:$global.uwRestoreOrUpgradeStr $global.uwRestoreShip,
+uwMarketOptionRestoreOrUpgradeMenu,DialogOptionSelected,$option == uwMarketRestoreOrUpgrade,"$menuState = uwRestoreOrUpgrade
+FireAll UWPopulateRestoreOrUpgradeOptions",,,
+uwMarketAddOptionRestoreOrUpgradeBack,UWPopulateRestoreOrUpgradeOptions,,SetShortcut uwRestoreOrUpgradeBack ESCAPE,,25:uwRestoreOrUpgradeBack:Back,
+uwMarketRestoreOrUpgradeBack,DialogOptionSelected,$option == uwRestoreOrUpgradeBack,"$menuState = main 0
+FireAll PopulateOptions",,,
+uwMarketAddOptionRestore1,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_RestoreAvailable
+UW_RestoreEnoughCredits","SetTooltip uwMarketRestore ""Cleaing $global.uwRestoreModsStr d-mod from $global.uwRestoreShip requires $global.uwRestoreCostStr credits. $player.creditsStr credits are available.""
+SetTooltipHighlightColors uwMarketRestore buttonShortcut buttonShortcut buttonShortcut
+SetTooltipHighlights uwMarketRestore $global.uwRestoreShip $global.uwRestoreCostStr $player.creditsStr
+UW_AddConfirmation uwMarketRestore ""Cleaing $global.uwRestoreModsStr d-mod from $global.uwRestoreShip requires $global.uwRestoreCostStr credits. $player.creditsStr credits are available. Do you want to proceed?""",,1:uwMarketRestore:Clear a d-mod from the hull,
+uwMarketAddOptionRestore2,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_RestoreAvailable
+!UW_RestoreEnoughCredits","SetTooltip uwMarketRestore ""Clearing $global.uwRestoreModsStr d-mod from $global.uwRestoreShip requires $global.uwRestoreCostStr credits. Only $player.creditsStr credits are available.""
+SetTooltipHighlightColors uwMarketRestore buttonShortcut buttonShortcut bad
+SetTooltipHighlights uwMarketRestore $global.uwRestoreShip $global.uwRestoreCostStr $player.creditsStr
+SetEnabled uwMarketRestore false",,1:uwMarketRestore:Clear a d-mod from the hull,
+uwMarketOptionRestoreShip,DialogOptionSelected,$option == uwMarketRestore,"UW_RestoreShip
+AddText ""$global.uwRestoreShip is $global.uwRestoreAfterStr by clearing $global.uwRestoreRemovedDMod from the hull, at the cost of $global.uwRestoreCostStr credits. $global.uwRestoreNumDModsStr""
+SetTextHighlightColors hColor bad hColor hColor
+SetTextHighlights $global.uwRestoreShip $global.uwRestoreRemovedDMod $global.uwRestoreCostStr $global.uwRestoreNumDModsStrHighlight
+FireAll UWPopulateRestoreOrUpgradeOptions",,,
+uwMarketAddOptionUpgradeU1_1,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable U1
+UW_UpgradeEnoughCredits U1","SetTooltip uwMarketUpgradeU1 ""Installing this upgrade into $global.uwUpgradeShip requires $global.uwUpgradeU1CostStr credits. $player.creditsStr credits are available.""
+SetTooltipHighlightColors uwMarketUpgradeU1 buttonShortcut buttonShortcut buttonShortcut
+SetTooltipHighlights uwMarketUpgradeU1 $global.uwUpgradeShip $global.uwUpgradeU1CostStr $player.creditsStr
+UW_AddConfirmation uwMarketUpgradeU1 ""Installing a pair of built-in Borer Drone wings into $global.uwUpgradeShip requires $global.uwUpgradeU1CostStr credits. $player.creditsStr credits are available. Do you want to proceed?""",,2:uwMarketUpgradeU1:Install a pair of built-in Borer Drone wings,
+uwMarketAddOptionUpgradeU1_2,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable U1
+!UW_UpgradeEnoughCredits U1","SetTooltip uwMarketUpgradeU1 ""Installing this upgrade into $global.uwUpgradeShip requires $global.uwUpgradeU1CostStr credits. Only $player.creditsStr credits are available.""
+SetTooltipHighlightColors uwMarketUpgradeU1 buttonShortcut buttonShortcut bad
+SetTooltipHighlights uwMarketUpgradeU1 $global.uwUpgradeShip $global.uwUpgradeU1CostStr $player.creditsStr
+SetEnabled uwMarketUpgradeU1 false",,2:uwMarketUpgradeU1:Install a pair of built-in Borer Drone wings,
+uwMarketOptionUpgradeU1,DialogOptionSelected,$option == uwMarketUpgradeU1,"UW_UpgradeShip U1
+AddText ""Installed a pair of built-in Borer Drone wings into $global.uwUpgradeShip, at the cost of $global.uwUpgradeU1CostStr credits.""
+SetTextHighlightColors hColor hColor
+SetTextHighlights $global.uwUpgradeShip $global.uwUpgradeU1CostStr
+FireAll UWPopulateRestoreOrUpgradeOptions",,,
+uwMarketAddOptionUpgradeU2_1,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable U2
+UW_UpgradeEnoughCredits U2","SetTooltip uwMarketUpgradeU2 ""Installing this upgrade into $global.uwUpgradeShip requires $global.uwUpgradeU2CostStr credits. $player.creditsStr credits are available.""
+SetTooltipHighlightColors uwMarketUpgradeU2 buttonShortcut buttonShortcut buttonShortcut
+SetTooltipHighlights uwMarketUpgradeU2 $global.uwUpgradeShip $global.uwUpgradeU2CostStr $player.creditsStr
+UW_AddConfirmation uwMarketUpgradeU2 ""Installing a built-in Operations Center into $global.uwUpgradeShip requires $global.uwUpgradeU2CostStr credits. $player.creditsStr credits are available. Do you want to proceed?""",,3:uwMarketUpgradeU2:Install a built-in Operations Center,
+uwMarketAddOptionUpgradeU2_2,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable U2
+!UW_UpgradeEnoughCredits U2","SetTooltip uwMarketUpgradeU2 ""Installing this upgrade into $global.uwUpgradeShip requires $global.uwUpgradeU2CostStr credits. Only $player.creditsStr credits are available.""
+SetTooltipHighlightColors uwMarketUpgradeU2 buttonShortcut buttonShortcut bad
+SetTooltipHighlights uwMarketUpgradeU2 $global.uwUpgradeShip $global.uwUpgradeU2CostStr $player.creditsStr
+SetEnabled uwMarketUpgradeU2 false",,3:uwMarketUpgradeU2:Install a built-in Operations Center,
+uwMarketOptionUpgradeU2,DialogOptionSelected,$option == uwMarketUpgradeU2,"UW_UpgradeShip U2
+AddText ""Installed a built-in Operations Center into $global.uwUpgradeShip, at the cost of $global.uwUpgradeU2CostStr credits.""
+SetTextHighlightColors hColor hColor
+SetTextHighlights $global.uwUpgradeShip $global.uwUpgradeU2CostStr
+FireAll UWPopulateRestoreOrUpgradeOptions",,,
+uwMarketAddOptionUpgradeU3_1,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable U3
+UW_UpgradeEnoughCredits U3","SetTooltip uwMarketUpgradeU3 ""Installing this upgrade into $global.uwUpgradeShip requires $global.uwUpgradeU3CostStr credits. $player.creditsStr credits are available.""
+SetTooltipHighlightColors uwMarketUpgradeU3 buttonShortcut buttonShortcut buttonShortcut
+SetTooltipHighlights uwMarketUpgradeU3 $global.uwUpgradeShip $global.uwUpgradeU3CostStr $player.creditsStr
+UW_AddConfirmation uwMarketUpgradeU3 ""Installing a built-in Hellfire Cannon into $global.uwUpgradeShip requires $global.uwUpgradeU3CostStr credits. $player.creditsStr credits are available. Do you want to proceed?""",,4:uwMarketUpgradeU3:Install a built-in Hellfire Cannon,
+uwMarketAddOptionUpgradeU3_2,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable U3
+!UW_UpgradeEnoughCredits U3","SetTooltip uwMarketUpgradeU3 ""Installing this upgrade into $global.uwUpgradeShip requires $global.uwUpgradeU3CostStr credits. Only $player.creditsStr credits are available.""
+SetTooltipHighlightColors uwMarketUpgradeU3 buttonShortcut buttonShortcut bad
+SetTooltipHighlights uwMarketUpgradeU3 $global.uwUpgradeShip $global.uwUpgradeU3CostStr $player.creditsStr
+SetEnabled uwMarketUpgradeU3 false",,4:uwMarketUpgradeU3:Install a built-in Hellfire Cannon,
+uwMarketOptionUpgradeU3,DialogOptionSelected,$option == uwMarketUpgradeU3,"UW_UpgradeShip U3
+AddText ""Installed a built-in Hellfire Cannon into $global.uwUpgradeShip, at the cost of $global.uwUpgradeU3CostStr credits.""
+SetTextHighlightColors hColor hColor
+SetTextHighlights $global.uwUpgradeShip $global.uwUpgradeU3CostStr
+FireAll UWPopulateRestoreOrUpgradeOptions",,,
+uwMarketAddOptionUpgradeU4_1,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable U4
+UW_UpgradeEnoughCredits U4","SetTooltip uwMarketUpgradeU4 ""Installing this upgrade into $global.uwUpgradeShip requires $global.uwUpgradeU4CostStr credits. $player.creditsStr credits are available. Weapon slot upgrades: one medium slot is increased to large and three small slots are increased to medium.""
+SetTooltipHighlightColors uwMarketUpgradeU4 buttonShortcut buttonShortcut buttonShortcut
+SetTooltipHighlights uwMarketUpgradeU4 $global.uwUpgradeShip $global.uwUpgradeU4CostStr $player.creditsStr
+UW_AddConfirmation uwMarketUpgradeU4 ""Upgrading modular weapon slots and increasing maximum ordnance points by 25 for $global.uwUpgradeShip requires $global.uwUpgradeU4CostStr credits. $player.creditsStr credits are available. Do you want to proceed?""",,5:uwMarketUpgradeU4:Upgrade modular weapon slots (+25 OP),
+uwMarketAddOptionUpgradeU4_2,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable U4
+!UW_UpgradeEnoughCredits U4","SetTooltip uwMarketUpgradeU4 ""Installing this upgrade into $global.uwUpgradeShip requires $global.uwUpgradeU4CostStr credits. Only $player.creditsStr credits are available. Weapon slot upgrades: one medium slot is increased to large and three small slots are increased to medium.""
+SetTooltipHighlightColors uwMarketUpgradeU4 buttonShortcut buttonShortcut bad
+SetTooltipHighlights uwMarketUpgradeU4 $global.uwUpgradeShip $global.uwUpgradeU4CostStr $player.creditsStr
+SetEnabled uwMarketUpgradeU4 false",,5:uwMarketUpgradeU4:Upgrade modular weapon slots (+25 OP),
+uwMarketOptionUpgradeU4,DialogOptionSelected,$option == uwMarketUpgradeU4,"UW_UpgradeShip U4
+AddText ""Upgraded modular weapon slots and increased maximum ordnance points by 25 for $global.uwUpgradeShip, at the cost of $global.uwUpgradeU4CostStr credits.""
+SetTextHighlightColors hColor hColor
+SetTextHighlights $global.uwUpgradeShip $global.uwUpgradeU4CostStr
+FireAll UWPopulateRestoreOrUpgradeOptions",,,
+uwMarketAddOptionUpgradeF1_1,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable F1
+!UW_UpgradeInstalled F2
+UW_UpgradeEnoughCredits F1","SetTooltip uwMarketUpgradeF1 ""Installing this upgrade into $global.uwUpgradeShip requires $global.uwUpgradeF1CostStr credits. $player.creditsStr credits are available.""
+SetTooltipHighlightColors uwMarketUpgradeF1 buttonShortcut buttonShortcut buttonShortcut
+SetTooltipHighlights uwMarketUpgradeF1 $global.uwUpgradeShip $global.uwUpgradeF1CostStr $player.creditsStr
+UW_AddConfirmation uwMarketUpgradeF1 ""Replacing the built-in Borer Drones with a pair of Terminator Drone wings for $global.uwUpgradeShip requires $global.uwUpgradeF1CostStr credits. $player.creditsStr credits are available. Do you want to proceed?""",,6:uwMarketUpgradeF1:Replace built-in Borer Drones with Terminator Drones,
+uwMarketAddOptionUpgradeF1_2,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable F1
+!UW_UpgradeInstalled F2
+!UW_UpgradeEnoughCredits F1","SetTooltip uwMarketUpgradeF1 ""Installing this upgrade into $global.uwUpgradeShip requires $global.uwUpgradeF1CostStr credits. Only $player.creditsStr credits are available.""
+SetTooltipHighlightColors uwMarketUpgradeF1 buttonShortcut buttonShortcut bad
+SetTooltipHighlights uwMarketUpgradeF1 $global.uwUpgradeShip $global.uwUpgradeF1CostStr $player.creditsStr
+SetEnabled uwMarketUpgradeF1 false",,6:uwMarketUpgradeF1:Replace built-in Borer Drones with Terminator Drones,
+uwMarketOptionUpgradeF1,DialogOptionSelected,"!UW_UpgradeInstalled F2
+$option == uwMarketUpgradeF1","UW_UpgradeShip F1
+AddText ""Replaced the built-in Borer Drones with a pair of Terminator Drone wings for $global.uwUpgradeShip, at the cost of $global.uwUpgradeF1CostStr credits.""
+SetTextHighlightColors hColor hColor
+SetTextHighlights $global.uwUpgradeShip $global.uwUpgradeF1CostStr
+FireAll UWPopulateRestoreOrUpgradeOptions",,,
+uwMarketAddOptionSwapF1_1,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable F1
+UW_UpgradeInstalled F2
+UW_UpgradeEnoughCredits F1","SetTooltip uwMarketSwapF1 ""Swapping to this upgrade for $global.uwUpgradeShip requires $global.uwUpgradeF1SwapCostStr credits. $player.creditsStr credits are available.""
+SetTooltipHighlightColors uwMarketSwapF1 buttonShortcut buttonShortcut buttonShortcut
+SetTooltipHighlights uwMarketSwapF1 $global.uwUpgradeShip $global.uwUpgradeF1SwapCostStr $player.creditsStr
+UW_AddConfirmation uwMarketSwapF1 ""Replacing the fighter bays with a pair of built-in Terminator Drone wings and decreasing maximum ordnance points by 20 for $global.uwUpgradeShip requires $global.uwUpgradeF1SwapCostStr credits. $player.creditsStr credits are available. Do you want to proceed?""",,6:uwMarketSwapF1:Replace fighter bays with a pair of built-in Terminator Drone wings (-20 OP),
+uwMarketAddOptionSwapF1_2,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable F1
+UW_UpgradeInstalled F2
+!UW_UpgradeEnoughCredits F1","SetTooltip uwMarketSwapF1 ""Swapping to this upgrade for $global.uwUpgradeShip requires $global.uwUpgradeF1SwapCostStr credits. Only $player.creditsStr credits are available.""
+SetTooltipHighlightColors uwMarketSwapF1 buttonShortcut buttonShortcut bad
+SetTooltipHighlights uwMarketSwapF1 $global.uwUpgradeShip $global.uwUpgradeF1SwapCostStr $player.creditsStr
+SetEnabled uwMarketSwapF1 false",,6:uwMarketSwapF1:Replace fighter bays with a pair of built-in Terminator Drone wings (-20 OP),
+uwMarketOptionSwapF1,DialogOptionSelected,"UW_UpgradeInstalled F2
+$option == uwMarketSwapF1","UW_UpgradeShip F1
+AddText ""Replaced the fighter bays with a pair of built-in Terminator Drone wings and decreased maximum ordnance points by 20 for $global.uwUpgradeShip, at the cost of $global.uwUpgradeF1SwapCostStr credits.""
+SetTextHighlightColors hColor hColor
+SetTextHighlights $global.uwUpgradeShip $global.uwUpgradeF1SwapCostStr
+FireAll UWPopulateRestoreOrUpgradeOptions",,,
+uwMarketAddOptionUpgradeF2_1,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable F2
+!UW_UpgradeInstalled F1
+UW_UpgradeEnoughCredits F2","SetTooltip uwMarketUpgradeF2 ""Installing this upgrade into $global.uwUpgradeShip requires $global.uwUpgradeF2CostStr credits. $player.creditsStr credits are available.""
+SetTooltipHighlightColors uwMarketUpgradeF2 buttonShortcut buttonShortcut buttonShortcut
+SetTooltipHighlights uwMarketUpgradeF2 $global.uwUpgradeShip $global.uwUpgradeF2CostStr $player.creditsStr
+UW_AddConfirmation uwMarketUpgradeF2 ""Replacing the built-in Borer Drone wings with a pair of fighter bays and increasing maximum ordnance points by 20 for $global.uwUpgradeShip requires $global.uwUpgradeF2CostStr credits. $player.creditsStr credits are available. Do you want to proceed?""",,7:uwMarketUpgradeF2:Replace built-in Borer Drone wings with a pair of fighter bays (+20 OP),
+uwMarketAddOptionUpgradeF2_2,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable F2
+!UW_UpgradeInstalled F1
+!UW_UpgradeEnoughCredits F2","SetTooltip uwMarketUpgradeF2 ""Installing this upgrade into $global.uwUpgradeShip requires $global.uwUpgradeF2CostStr credits. Only $player.creditsStr credits are available.""
+SetTooltipHighlightColors uwMarketUpgradeF2 buttonShortcut buttonShortcut bad
+SetTooltipHighlights uwMarketUpgradeF2 $global.uwUpgradeShip $global.uwUpgradeF2CostStr $player.creditsStr
+SetEnabled uwMarketUpgradeF2 false",,7:uwMarketUpgradeF2:Replace built-in Borer Drone wings with a pair of fighter bays (+20 OP),
+uwMarketOptionUpgradeF2,DialogOptionSelected,"!UW_UpgradeInstalled F1
+$option == uwMarketUpgradeF2","UW_UpgradeShip F2
+AddText ""Replaced the built-in Borer Drone wings with a pair of fighter bays and increased maximum ordnance points by 20 for $global.uwUpgradeShip, at the cost of $global.uwUpgradeF2CostStr credits.""
+SetTextHighlightColors hColor hColor
+SetTextHighlights $global.uwUpgradeShip $global.uwUpgradeF2CostStr
+FireAll UWPopulateRestoreOrUpgradeOptions",,,
+uwMarketAddOptionSwapF2_1,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable F2
+UW_UpgradeInstalled F1
+UW_UpgradeEnoughCredits F2","SetTooltip uwMarketSwapF2 ""Swapping to this upgrade for $global.uwUpgradeShip requires $global.uwUpgradeF2SwapCostStr credits. $player.creditsStr credits are available.""
+SetTooltipHighlightColors uwMarketSwapF2 buttonShortcut buttonShortcut buttonShortcut
+SetTooltipHighlights uwMarketSwapF2 $global.uwUpgradeShip $global.uwUpgradeF2SwapCostStr $player.creditsStr
+UW_AddConfirmation uwMarketSwapF2 ""Replacing the built-in Terminator Drone wings with a pair of fighter bays and increasing maximum ordnance points by 20 for $global.uwUpgradeShip requires $global.uwUpgradeF2SwapCostStr credits. $player.creditsStr credits are available. Do you want to proceed?""",,7:uwMarketSwapF2:Replace built-in Terminator Drone wings with a pair of fighter bays (+20 OP),
+uwMarketAddOptionSwapF2_2,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable F2
+UW_UpgradeInstalled F1
+!UW_UpgradeEnoughCredits F2","SetTooltip uwMarketSwapF2 ""Swapping to this upgrade for $global.uwUpgradeShip requires $global.uwUpgradeF2SwapCostStr credits. Only $player.creditsStr credits are available.""
+SetTooltipHighlightColors uwMarketSwapF2 buttonShortcut buttonShortcut bad
+SetTooltipHighlights uwMarketSwapF2 $global.uwUpgradeShip $global.uwUpgradeF2SwapCostStr $player.creditsStr
+SetEnabled uwMarketSwapF2 false",,7:uwMarketSwapF2:Replace built-in Terminator Drone wings with a pair of fighter bays (+20 OP),
+uwMarketOptionSwapF2,DialogOptionSelected,"UW_UpgradeInstalled F1
+$option == uwMarketSwapF2","UW_UpgradeShip F2
+AddText ""Replaced the built-in Terminator Drone wings with a pair of fighter bays and increased maximum ordnance points by 20 for $global.uwUpgradeShip, at the cost of $global.uwUpgradeF2SwapCostStr credits.""
+SetTextHighlightColors hColor hColor
+SetTextHighlights $global.uwUpgradeShip $global.uwUpgradeF2SwapCostStr
+FireAll UWPopulateRestoreOrUpgradeOptions",,,
+uwMarketAddOptionUpgradeS1_1,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable S1
+!UW_UpgradeInstalled S2
+UW_UpgradeEnoughCredits S1","SetTooltip uwMarketUpgradeS1 ""Installing this upgrade into $global.uwUpgradeShip requires $global.uwUpgradeS1CostStr credits. $player.creditsStr credits are available.""
+SetTooltipHighlightColors uwMarketUpgradeS1 buttonShortcut buttonShortcut buttonShortcut
+SetTooltipHighlights uwMarketUpgradeS1 $global.uwUpgradeShip $global.uwUpgradeS1CostStr $player.creditsStr
+UW_AddConfirmation uwMarketUpgradeS1 ""Installing a built-in Advanced Targeting Core into $global.uwUpgradeShip requires $global.uwUpgradeS1CostStr credits. $player.creditsStr credits are available. Do you want to proceed?""",,8:uwMarketUpgradeS1:Install a built-in Advanced Targeting Core,
+uwMarketAddOptionUpgradeS1_2,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable S1
+!UW_UpgradeInstalled S2
+!UW_UpgradeEnoughCredits S1","SetTooltip uwMarketUpgradeS1 ""Installing this upgrade into $global.uwUpgradeShip requires $global.uwUpgradeS1CostStr credits. Only $player.creditsStr credits are available.""
+SetTooltipHighlightColors uwMarketUpgradeS1 buttonShortcut buttonShortcut bad
+SetTooltipHighlights uwMarketUpgradeS1 $global.uwUpgradeShip $global.uwUpgradeS1CostStr $player.creditsStr
+SetEnabled uwMarketUpgradeS1 false",,8:uwMarketUpgradeS1:Install a built-in Advanced Targeting Core,
+uwMarketOptionUpgradeS1,DialogOptionSelected,"!UW_UpgradeInstalled S2
+$option == uwMarketUpgradeS1","UW_UpgradeShip S1
+AddText ""Installed a built-in Advanced Targeting Core into $global.uwUpgradeShip, at the cost of $global.uwUpgradeS1CostStr credits.""
+SetTextHighlightColors hColor hColor
+SetTextHighlights $global.uwUpgradeShip $global.uwUpgradeS1CostStr
+FireAll UWPopulateRestoreOrUpgradeOptions",,,
+uwMarketAddOptionSwapS1_1,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable S1
+UW_UpgradeInstalled S2
+UW_UpgradeEnoughCredits S1","SetTooltip uwMarketSwapS1 ""Swapping to this upgrade for $global.uwUpgradeShip requires $global.uwUpgradeS1SwapCostStr credits. $player.creditsStr credits are available.""
+SetTooltipHighlightColors uwMarketSwapS1 buttonShortcut buttonShortcut buttonShortcut
+SetTooltipHighlights uwMarketSwapS1 $global.uwUpgradeShip $global.uwUpgradeS1SwapCostStr $player.creditsStr
+UW_AddConfirmation uwMarketSwapS1 ""Replacing the Maneuvering Jets system with Burn Drive and replacing the built-in Auxiliary Thrusters and Unstable Injector with an Advanced Targeting Core for $global.uwUpgradeShip requires $global.uwUpgradeS1SwapCostStr credits. $player.creditsStr credits are available. Do you want to proceed?""",,8:uwMarketSwapS1:Replace Maneuvering Jets system with Burn Drive and built-in Aux. Thrusters/U. Injector with Advanced Targeting Core,
+uwMarketAddOptionSwapS1_2,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable S1
+UW_UpgradeInstalled S2
+!UW_UpgradeEnoughCredits S1","SetTooltip uwMarketSwapS1 ""Swapping to this upgrade for $global.uwUpgradeShip requires $global.uwUpgradeS1SwapCostStr credits. Only $player.creditsStr credits are available.""
+SetTooltipHighlightColors uwMarketSwapS1 buttonShortcut buttonShortcut bad
+SetTooltipHighlights uwMarketSwapS1 $global.uwUpgradeShip $global.uwUpgradeS1SwapCostStr $player.creditsStr
+SetEnabled uwMarketSwapS1 false",,8:uwMarketSwapS1:Replace Maneuvering Jets system with Burn Drive and built-in Aux. Thrusters/U. Injector with Advanced Targeting Core,
+uwMarketOptionSwapS1,DialogOptionSelected,"UW_UpgradeInstalled S2
+$option == uwMarketSwapS1","UW_UpgradeShip S1
+AddText ""Replaced the Maneuvering Jets system with Burn Drive and replaced the built-in Auxiliary Thrusters and Unstable Injector with an Advanced Targeting Core for $global.uwUpgradeShip, at the cost of $global.uwUpgradeS1SwapCostStr credits.""
+SetTextHighlightColors hColor hColor
+SetTextHighlights $global.uwUpgradeShip $global.uwUpgradeS1SwapCostStr
+FireAll UWPopulateRestoreOrUpgradeOptions",,,
+uwMarketAddOptionUpgradeS2_1,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable S2
+!UW_UpgradeInstalled S1
+UW_UpgradeEnoughCredits S2","SetTooltip uwMarketUpgradeS2 ""Installing this upgrade into $global.uwUpgradeShip requires $global.uwUpgradeS2CostStr credits. $player.creditsStr credits are available.""
+SetTooltipHighlightColors uwMarketUpgradeS2 buttonShortcut buttonShortcut buttonShortcut
+SetTooltipHighlights uwMarketUpgradeS2 $global.uwUpgradeShip $global.uwUpgradeS2CostStr $player.creditsStr
+UW_AddConfirmation uwMarketUpgradeS2 ""Replacing the Burn Drive system with Maneuvering Jets and installing built-in Auxiliary Thrusters and Unstable Injector into $global.uwUpgradeShip requires $global.uwUpgradeS2CostStr credits. $player.creditsStr credits are available. Do you want to proceed?""",,9:uwMarketUpgradeS2:Replace Burn Drive system with Maneuvering Jets and install built-in Aux. Thrusters and U. Injector,
+uwMarketAddOptionUpgradeS2_2,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable S2
+!UW_UpgradeInstalled S1
+!UW_UpgradeEnoughCredits S2","SetTooltip uwMarketUpgradeS2 ""Installing this upgrade into $global.uwUpgradeShip requires $global.uwUpgradeS2CostStr credits. Only $player.creditsStr credits are available.""
+SetTooltipHighlightColors uwMarketUpgradeS2 buttonShortcut buttonShortcut bad
+SetTooltipHighlights uwMarketUpgradeS2 $global.uwUpgradeShip $global.uwUpgradeS2CostStr $player.creditsStr
+SetEnabled uwMarketUpgradeS2 false",,9:uwMarketUpgradeS2:Replace Burn Drive system with Maneuvering Jets and install built-in Aux. Thrusters and U. Injector,
+uwMarketOptionUpgradeS2,DialogOptionSelected,"!UW_UpgradeInstalled S1
+$option == uwMarketUpgradeS2","UW_UpgradeShip S2
+AddText ""Replaced the Burn Drive system with Maneuvering Jets and installed built-in Auxiliary Thrusters and Unstable Injector into $global.uwUpgradeShip, at the cost of $global.uwUpgradeS2CostStr credits.""
+SetTextHighlightColors hColor hColor
+SetTextHighlights $global.uwUpgradeShip $global.uwUpgradeS2CostStr
+FireAll UWPopulateRestoreOrUpgradeOptions",,,
+uwMarketAddOptionSwapS2_1,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable S2
+UW_UpgradeInstalled S1
+UW_UpgradeEnoughCredits S2","SetTooltip uwMarketSwapS2 ""Swapping to this upgrade for $global.uwUpgradeShip requires $global.uwUpgradeS2SwapCostStr credits. $player.creditsStr credits are available.""
+SetTooltipHighlightColors uwMarketSwapS2 buttonShortcut buttonShortcut buttonShortcut
+SetTooltipHighlights uwMarketSwapS2 $global.uwUpgradeShip $global.uwUpgradeS2SwapCostStr $player.creditsStr
+UW_AddConfirmation uwMarketSwapS2 ""Replacing the Burn Drive system with Maneuvering Jets and replacing the built-in Advanced Targeting Core with Auxiliary Thrusters and Unstable Injector for $global.uwUpgradeShip requires $global.uwUpgradeS2SwapCostStr credits. $player.creditsStr credits are available. Do you want to proceed?""",,9:uwMarketSwapS2:Replace Burn Drive system with Maneuvering Jets and built-in Advanced Targeting Core with Aux. Thrusters/U. Injector,
+uwMarketAddOptionSwapS2_2,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable S2
+UW_UpgradeInstalled S1
+!UW_UpgradeEnoughCredits S2","SetTooltip uwMarketSwapS2 ""Swapping to this upgrade for $global.uwUpgradeShip requires $global.uwUpgradeS2SwapCostStr credits. Only $player.creditsStr credits are available.""
+SetTooltipHighlightColors uwMarketSwapS2 buttonShortcut buttonShortcut bad
+SetTooltipHighlights uwMarketSwapS2 $global.uwUpgradeShip $global.uwUpgradeS2SwapCostStr $player.creditsStr
+SetEnabled uwMarketSwapS2 false",,9:uwMarketSwapS2:Replace Burn Drive system with Maneuvering Jets and built-in Advanced Targeting Core with Aux. Thrusters/U. Injector,
+uwMarketOptionSwapS2,DialogOptionSelected,"UW_UpgradeInstalled S1
+$option == uwMarketSwapS2","UW_UpgradeShip S2
+AddText ""Replaced the Burn Drive system with Maneuvering Jets and replaced the built-in Advanced Targeting Core with Auxiliary Thrusters and Unstable Injector for $global.uwUpgradeShip, at the cost of $global.uwUpgradeS2SwapCostStr credits.""
+SetTextHighlightColors hColor hColor
+SetTextHighlights $global.uwUpgradeShip $global.uwUpgradeS2SwapCostStr
+FireAll UWPopulateRestoreOrUpgradeOptions",,,
+uwMarketAddOptionUpgradeW1_1,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable W1
+!UW_UpgradeInstalled W2
+UW_UpgradeEnoughCredits W1","SetTooltip uwMarketUpgradeW1 ""Installing this upgrade into $global.uwUpgradeShip requires $global.uwUpgradeW1CostStr credits. $player.creditsStr credits are available. The Diablo Cannon has the same sustained damage, but five times the burst damage of a Hellfire Cannon.""
+SetTooltipHighlightColors uwMarketUpgradeW1 buttonShortcut buttonShortcut buttonShortcut
+SetTooltipHighlights uwMarketUpgradeW1 $global.uwUpgradeShip $global.uwUpgradeW1CostStr $player.creditsStr
+UW_AddConfirmation uwMarketUpgradeW1 ""Upgrading the built-in Hellfire Cannon to the Diablo Cannon for $global.uwUpgradeShip requires $global.uwUpgradeW1CostStr credits. $player.creditsStr credits are available. Do you want to proceed?""",,10:uwMarketUpgradeW1:Upgrade built-in Hellfire Cannon to Diablo Cannon,
+uwMarketAddOptionUpgradeW1_2,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable W1
+!UW_UpgradeInstalled W2
+!UW_UpgradeEnoughCredits W1","SetTooltip uwMarketUpgradeW1 ""Installing this upgrade into $global.uwUpgradeShip requires $global.uwUpgradeW1CostStr credits. Only $player.creditsStr credits are available. The Diablo Cannon has the same sustained damage, but five times the burst damage of a Hellfire Cannon.""
+SetTooltipHighlightColors uwMarketUpgradeW1 buttonShortcut buttonShortcut bad
+SetTooltipHighlights uwMarketUpgradeW1 $global.uwUpgradeShip $global.uwUpgradeW1CostStr $player.creditsStr
+SetEnabled uwMarketUpgradeW1 false",,10:uwMarketUpgradeW1:Upgrade built-in Hellfire Cannon to Diablo Cannon,
+uwMarketOptionUpgradeW1,DialogOptionSelected,"!UW_UpgradeInstalled W2
+$option == uwMarketUpgradeW1","UW_UpgradeShip W1
+AddText ""Upgraded the built-in Hellfire Cannon to the Diablo Cannon for $global.uwUpgradeShip, at the cost of $global.uwUpgradeW1CostStr credits.""
+SetTextHighlightColors hColor hColor
+SetTextHighlights $global.uwUpgradeShip $global.uwUpgradeW1CostStr
+FireAll UWPopulateRestoreOrUpgradeOptions",,,
+uwMarketAddOptionSwapW1_1,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable W1
+UW_UpgradeInstalled W2
+UW_UpgradeEnoughCredits W1","SetTooltip uwMarketSwapW1 ""Swapping to this upgrade for $global.uwUpgradeShip requires $global.uwUpgradeW1SwapCostStr credits. $player.creditsStr credits are available. The Diablo Cannon has the same sustained damage, but five times the burst damage of a Hellfire Cannon.""
+SetTooltipHighlightColors uwMarketSwapW1 buttonShortcut buttonShortcut buttonShortcut
+SetTooltipHighlights uwMarketSwapW1 $global.uwUpgradeShip $global.uwUpgradeW1SwapCostStr $player.creditsStr
+UW_AddConfirmation uwMarketSwapW1 ""Reverting modular weapon slot upgrades, decreasing maximum ordnance points by 20, and upgrading the built-in Hellfire Cannon to the Diablo Cannon for $global.uwUpgradeShip requires $global.uwUpgradeW1SwapCostStr credits. $player.creditsStr credits are available. Do you want to proceed?""",,10:uwMarketSwapW1:Revert modular weapon slots and upgrade built-in Hellfire Cannon to Diablo Cannon (-20 OP),
+uwMarketAddOptionSwapW1_2,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable W1
+UW_UpgradeInstalled W2
+!UW_UpgradeEnoughCredits W1","SetTooltip uwMarketSwapW1 ""Swapping to this upgrade for $global.uwUpgradeShip requires $global.uwUpgradeW1SwapCostStr credits. Only $player.creditsStr credits are available. The Diablo Cannon has the same sustained damage, but five times the burst damage of a Hellfire Cannon.""
+SetTooltipHighlightColors uwMarketSwapW1 buttonShortcut buttonShortcut bad
+SetTooltipHighlights uwMarketSwapW1 $global.uwUpgradeShip $global.uwUpgradeW1SwapCostStr $player.creditsStr
+SetEnabled uwMarketSwapW1 false",,10:uwMarketSwapW1:Revert modular weapon slots and upgrade built-in Hellfire Cannon to Diablo Cannon (-20 OP),
+uwMarketOptionSwapW1,DialogOptionSelected,"UW_UpgradeInstalled W2
+$option == uwMarketSwapW1","UW_UpgradeShip W1
+AddText ""Reverted modular weapon slot upgrades, decreased maximum ordnance points by 20, and upgraded the built-in Hellfire Cannon to the Diablo Cannon for $global.uwUpgradeShip, at the cost of $global.uwUpgradeW1SwapCostStr credits.""
+SetTextHighlightColors hColor hColor
+SetTextHighlights $global.uwUpgradeShip $global.uwUpgradeW1SwapCostStr
+FireAll UWPopulateRestoreOrUpgradeOptions",,,
+uwMarketAddOptionUpgradeW2_1,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable W2
+!UW_UpgradeInstalled W1
+UW_UpgradeEnoughCredits W2","SetTooltip uwMarketUpgradeW2 ""Installing this upgrade into $global.uwUpgradeShip requires $global.uwUpgradeW2CostStr credits. $player.creditsStr credits are available. Weapon slot upgrades: two medium slots are increased to large, twelve ballistic slots are changed to hybrid/composite/universal, and the Hellfire Cannon arc is increased to 360 degrees.""
+SetTooltipHighlightColors uwMarketUpgradeW2 buttonShortcut buttonShortcut buttonShortcut
+SetTooltipHighlights uwMarketUpgradeW2 $global.uwUpgradeShip $global.uwUpgradeW2CostStr $player.creditsStr
+UW_AddConfirmation uwMarketUpgradeW2 ""Further upgrading modular weapon slots and increasing maximum ordnance points by 20 for $global.uwUpgradeShip requires $global.uwUpgradeW2CostStr credits. $player.creditsStr credits are available. Do you want to proceed?""",,11:uwMarketUpgradeW2:Further upgrade modular weapon slots (+20 OP),
+uwMarketAddOptionUpgradeW2_2,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable W2
+!UW_UpgradeInstalled W1
+!UW_UpgradeEnoughCredits W2","SetTooltip uwMarketUpgradeW2 ""Installing this upgrade into $global.uwUpgradeShip requires $global.uwUpgradeW2CostStr credits. Only $player.creditsStr credits are available. Weapon slot upgrades: two medium slots are increased to large, twelve ballistic slots are changed to hybrid/composite/universal, and the Hellfire Cannon arc is increased to 360 degrees.""
+SetTooltipHighlightColors uwMarketUpgradeW2 buttonShortcut buttonShortcut bad
+SetTooltipHighlights uwMarketUpgradeW2 $global.uwUpgradeShip $global.uwUpgradeW2CostStr $player.creditsStr
+SetEnabled uwMarketUpgradeW2 false",,11:uwMarketUpgradeW2:Further upgrade modular weapon slots (+20 OP),
+uwMarketOptionUpgradeW2,DialogOptionSelected,"!UW_UpgradeInstalled W1
+$option == uwMarketUpgradeW2","UW_UpgradeShip W2
+AddText ""Further upgraded modular weapon slots and increased maximum ordnance points by 20 for $global.uwUpgradeShip, at the cost of $global.uwUpgradeW2CostStr credits.""
+SetTextHighlightColors hColor hColor
+SetTextHighlights $global.uwUpgradeShip $global.uwUpgradeW2CostStr
+FireAll UWPopulateRestoreOrUpgradeOptions",,,
+uwMarketAddOptionSwapW2_1,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable W2
+UW_UpgradeInstalled W1
+UW_UpgradeEnoughCredits W2","SetTooltip uwMarketSwapW2 ""Swapping to this upgrade for $global.uwUpgradeShip requires $global.uwUpgradeW2SwapCostStr credits. $player.creditsStr credits are available. Weapon slot upgrades: two medium slots are increased to large, twelve ballistic slots are changed to hybrid/composite/universal, and the Hellfire Cannon arc is increased to 360 degrees.""
+SetTooltipHighlightColors uwMarketSwapW2 buttonShortcut buttonShortcut buttonShortcut
+SetTooltipHighlights uwMarketSwapW2 $global.uwUpgradeShip $global.uwUpgradeW2SwapCostStr $player.creditsStr
+UW_AddConfirmation uwMarketSwapW2 ""Reverting the built-in Diablo Cannon to a Hellfire Cannon, further upgrading modular weapon slots, and increasing maximum ordnance points by 20 for $global.uwUpgradeShip requires $global.uwUpgradeW2SwapCostStr credits. $player.creditsStr credits are available. Do you want to proceed?""",,11:uwMarketSwapW2:Revert built-in Diablo Cannon to Hellfire Cannon and further upgrade modular weapon slots (+20 OP),
+uwMarketAddOptionSwapW2_2,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable W2
+UW_UpgradeInstalled W1
+!UW_UpgradeEnoughCredits W2","SetTooltip uwMarketSwapW2 ""Swapping to this upgrade for $global.uwUpgradeShip requires $global.uwUpgradeW2SwapCostStr credits. Only $player.creditsStr credits are available. Weapon slot upgrades: two medium slots are increased to large, twelve ballistic slots are changed to hybrid/composite/universal, and the Hellfire Cannon arc is increased to 360 degrees.""
+SetTooltipHighlightColors uwMarketSwapW2 buttonShortcut buttonShortcut bad
+SetTooltipHighlights uwMarketSwapW2 $global.uwUpgradeShip $global.uwUpgradeW2SwapCostStr $player.creditsStr
+SetEnabled uwMarketSwapW2 false",,11:uwMarketSwapW2:Revert built-in Diablo Cannon to Hellfire Cannon and further upgrade modular weapon slots (+20 OP),
+uwMarketOptionSwapW2,DialogOptionSelected,"UW_UpgradeInstalled W1
+$option == uwMarketSwapW2","UW_UpgradeShip W2
+AddText ""Reverted the built-in Diablo Cannon to a Hellfire Cannon, further upgraded modular weapon slots, and increased maximum ordnance points by 20 for $global.uwUpgradeShip, at the cost of $global.uwUpgradeW2SwapCostStr credits.""
+SetTextHighlightColors hColor hColor
+SetTextHighlights $global.uwUpgradeShip $global.uwUpgradeW2SwapCostStr
+FireAll UWPopulateRestoreOrUpgradeOptions",,,
+uwMarketAddOptionUpgradeA1_1,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable A1
+!UW_UpgradeInstalled A2
+UW_UpgradeEnoughCredits A1","SetTooltip uwMarketUpgradeA1 ""Installing this upgrade into $global.uwUpgradeShip requires $global.uwUpgradeA1CostStr credits. $player.creditsStr credits are available. Infernal Minefield causes mines to attack enemy ships during battle.""
+SetTooltipHighlightColors uwMarketUpgradeA1 buttonShortcut buttonShortcut buttonShortcut
+SetTooltipHighlights uwMarketUpgradeA1 $global.uwUpgradeShip $global.uwUpgradeA1CostStr $player.creditsStr
+UW_AddConfirmation uwMarketUpgradeA1 ""Installing built-in Infernal Minefield into $global.uwUpgradeShip requires $global.uwUpgradeA1CostStr credits. $player.creditsStr credits are available. Do you want to proceed?""",,12:uwMarketUpgradeA1:Install built-in Infernal Minefield,
+uwMarketAddOptionUpgradeA1_2,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable A1
+!UW_UpgradeInstalled A2
+!UW_UpgradeEnoughCredits A1","SetTooltip uwMarketUpgradeA1 ""Installing this upgrade into $global.uwUpgradeShip requires $global.uwUpgradeA1CostStr credits. Only $player.creditsStr credits are available. Infernal Minefield causes mines to attack enemy ships during battle.""
+SetTooltipHighlightColors uwMarketUpgradeA1 buttonShortcut buttonShortcut bad
+SetTooltipHighlights uwMarketUpgradeA1 $global.uwUpgradeShip $global.uwUpgradeA1CostStr $player.creditsStr
+SetEnabled uwMarketUpgradeA1 false",,12:uwMarketUpgradeA1:Install built-in Infernal Minefield,
+uwMarketOptionUpgradeA1,DialogOptionSelected,"!UW_UpgradeInstalled A2
+$option == uwMarketUpgradeA1","UW_UpgradeShip A1
+AddText ""Installed built-in Infernal Minefield into $global.uwUpgradeShip, at the cost of $global.uwUpgradeA1CostStr credits.""
+SetTextHighlightColors hColor hColor
+SetTextHighlights $global.uwUpgradeShip $global.uwUpgradeA1CostStr
+FireAll UWPopulateRestoreOrUpgradeOptions",,,
+uwMarketAddOptionSwapA1_1,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable A1
+UW_UpgradeInstalled A2
+UW_UpgradeEnoughCredits A1","SetTooltip uwMarketSwapA1 ""Swapping to this upgrade for $global.uwUpgradeShip requires $global.uwUpgradeA1SwapCostStr credits. $player.creditsStr credits are available. Infernal Minefield causes mines to attack enemy ships during battle.""
+SetTooltipHighlightColors uwMarketSwapA1 buttonShortcut buttonShortcut buttonShortcut
+SetTooltipHighlights uwMarketSwapA1 $global.uwUpgradeShip $global.uwUpgradeA1SwapCostStr $player.creditsStr
+UW_AddConfirmation uwMarketSwapA1 ""Replacing the built-in Infernal Shield with Infernal Minefield for $global.uwUpgradeShip requires $global.uwUpgradeA1SwapCostStr credits. $player.creditsStr credits are available. Do you want to proceed?""",,12:uwMarketSwapA1:Replace built-in Infernal Shield with Infernal Minefield,
+uwMarketAddOptionSwapA1_2,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable A1
+UW_UpgradeInstalled A2
+!UW_UpgradeEnoughCredits A1","SetTooltip uwMarketSwapA1 ""Swapping to this upgrade for $global.uwUpgradeShip requires $global.uwUpgradeA1SwapCostStr credits. Only $player.creditsStr credits are available. Infernal Minefield causes mines to attack enemy ships during battle.""
+SetTooltipHighlightColors uwMarketSwapA1 buttonShortcut buttonShortcut bad
+SetTooltipHighlights uwMarketSwapA1 $global.uwUpgradeShip $global.uwUpgradeA1SwapCostStr $player.creditsStr
+SetEnabled uwMarketSwapA1 false",,12:uwMarketSwapA1:Replace built-in Infernal Shield with Infernal Minefield,
+uwMarketOptionSwapA1,DialogOptionSelected,"UW_UpgradeInstalled A2
+$option == uwMarketSwapA1","UW_UpgradeShip A1
+AddText ""Replaced the built-in Infernal Shield with Infernal Minefield for $global.uwUpgradeShip, at the cost of $global.uwUpgradeA1SwapCostStr credits.""
+SetTextHighlightColors hColor hColor
+SetTextHighlights $global.uwUpgradeShip $global.uwUpgradeA1SwapCostStr
+FireAll UWPopulateRestoreOrUpgradeOptions",,,
+uwMarketAddOptionUpgradeA2_1,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable A2
+!UW_UpgradeInstalled A1
+UW_UpgradeEnoughCredits A2","SetTooltip uwMarketUpgradeA2 ""Installing this upgrade into $global.uwUpgradeShip requires $global.uwUpgradeA2CostStr credits. $player.creditsStr credits are available. Infernal Shield allows dissipation of hard flux while shields are up, converts shield to 360-degree omni, increases shield turn rate and extension speed, and reduces damage taken by shields.""
+SetTooltipHighlightColors uwMarketUpgradeA2 buttonShortcut buttonShortcut buttonShortcut
+SetTooltipHighlights uwMarketUpgradeA2 $global.uwUpgradeShip $global.uwUpgradeA2CostStr $player.creditsStr
+UW_AddConfirmation uwMarketUpgradeA2 ""Installing built-in Infernal Shield for $global.uwUpgradeShip requires $global.uwUpgradeA2CostStr credits. $player.creditsStr credits are available. Do you want to proceed?""",,13:uwMarketUpgradeA2:Install built-in Infernal Shield,
+uwMarketAddOptionUpgradeA2_2,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable A2
+!UW_UpgradeInstalled A1
+!UW_UpgradeEnoughCredits A2","SetTooltip uwMarketUpgradeA2 ""Installing this upgrade into $global.uwUpgradeShip requires $global.uwUpgradeA2CostStr credits. Only $player.creditsStr credits are available. Infernal Shield allows dissipation of hard flux while shields are up, converts shield to 360-degree omni, increases shield turn rate and extension speed, and reduces damage taken by shields.""
+SetTooltipHighlightColors uwMarketUpgradeA2 buttonShortcut buttonShortcut bad
+SetTooltipHighlights uwMarketUpgradeA2 $global.uwUpgradeShip $global.uwUpgradeA2CostStr $player.creditsStr
+SetEnabled uwMarketUpgradeA2 false",,13:uwMarketUpgradeA2:Install built-in Infernal Shield,
+uwMarketOptionUpgradeA2,DialogOptionSelected,"!UW_UpgradeInstalled A1
+$option == uwMarketUpgradeA2","UW_UpgradeShip A2
+AddText ""Installed built-in Infernal Shield for $global.uwUpgradeShip, at the cost of $global.uwUpgradeA2CostStr credits.""
+SetTextHighlightColors hColor hColor
+SetTextHighlights $global.uwUpgradeShip $global.uwUpgradeA2CostStr
+FireAll UWPopulateRestoreOrUpgradeOptions",,,
+uwMarketAddOptionSwapA2_1,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable A2
+UW_UpgradeInstalled A1
+UW_UpgradeEnoughCredits A2","SetTooltip uwMarketSwapA2 ""Swapping to this upgrade for $global.uwUpgradeShip requires $global.uwUpgradeA2SwapCostStr credits. $player.creditsStr credits are available. Infernal Shield allows dissipation of hard flux while shields are up, converts shield to 360-degree omni, increases shield turn rate and extension speed, and reduces damage taken by shields.""
+SetTooltipHighlightColors uwMarketSwapA2 buttonShortcut buttonShortcut buttonShortcut
+SetTooltipHighlights uwMarketSwapA2 $global.uwUpgradeShip $global.uwUpgradeA2SwapCostStr $player.creditsStr
+UW_AddConfirmation uwMarketSwapA2 ""Replacing the built-in Infernal Minefield with Infernal Shield for $global.uwUpgradeShip requires $global.uwUpgradeA2SwapCostStr credits. $player.creditsStr credits are available. Do you want to proceed?""",,13:uwMarketSwapA2:Replace built-in Infernal Minefield with Infernal Shield,
+uwMarketAddOptionSwapA2_2,UWPopulateRestoreOrUpgradeOptions,"$hasMarket
+$menuState == uwRestoreOrUpgrade
+UW_UpgradeAvailable A2
+UW_UpgradeInstalled A1
+!UW_UpgradeEnoughCredits A2","SetTooltip uwMarketSwapA2 ""Swapping to this upgrade for $global.uwUpgradeShip requires $global.uwUpgradeA2SwapCostStr credits. Only $player.creditsStr credits are available. Infernal Shield allows dissipation of hard flux while shields are up, converts shield to 360-degree omni, increases shield turn rate and extension speed, and reduces damage taken by shields.""
+SetTooltipHighlightColors uwMarketSwapA2 buttonShortcut buttonShortcut bad
+SetTooltipHighlights uwMarketSwapA2 $global.uwUpgradeShip $global.uwUpgradeA2SwapCostStr $player.creditsStr
+SetEnabled uwMarketSwapA2 false",,13:uwMarketSwapA2:Replace built-in Infernal Minefield with Infernal Shield,
+uwMarketOptionSwapA2,DialogOptionSelected,"UW_UpgradeInstalled A1
+$option == uwMarketSwapA2","UW_UpgradeShip A2
+AddText ""Replaced the built-in Infernal Minefield with Infernal Shield for $global.uwUpgradeShip, at the cost of $global.uwUpgradeA2SwapCostStr credits.""
+SetTextHighlightColors hColor hColor
+SetTextHighlights $global.uwUpgradeShip $global.uwUpgradeA2SwapCostStr
+FireAll UWPopulateRestoreOrUpgradeOptions",,,
+,,,,,,
+uwEncounterFamousCancer,BeginFleetEncounter,"$stillAlive
+!$talked
+$faction.id == famous_bounty score:100
+$stageName == STAGE_CANCER","unset $entity.ignorePlayerCommRequests
+AddText ""You're being hailed by $personName."" $faction.baseColor
+$talked = true 7
+MakeOtherFleetPreventDisengage tOff true
+MakeOtherFleetAggressive tOff true
+OpenComms","Your tech officer screams incoherently as the tactical displays flash through horrifying, alien symbols before rebooting. Your comms officer starts praying to any gods that will listen. You look out through the viewscreen.
+
+They loom before you, a cancer upon the vacuum of space. The hulls are gnarled, bent, twisted as if caught writhing in endless agony. The scored armor panels scream of sickness, rather than battle. A shadow seems to creep from the enemy fleet, spreading towards you like a veil of corruption.
+
+Something dies inside of you, wrenching your soul. The abominations arrayed before you lack some crucial aspect of humanity, like a cup with no bottom.",,
+uwGreetingFamousCancer,OpenCommLink,"$faction.id == famous_bounty score:100
+$entity.stageName == STAGE_CANCER",$entity.ignorePlayerCommRequests = true 1,"A deranged figure appears on the communicator, muttering obscenities and blasphemies.",cutCommLink:Cut the comm link,

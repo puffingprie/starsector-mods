@@ -1,0 +1,13 @@
+{
+    "displayName": "Terminator",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "vice_terminator_drone_forge",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_resplendent_drone_forge",
+    "weaponGroups": [],
+	"wings": []
+}

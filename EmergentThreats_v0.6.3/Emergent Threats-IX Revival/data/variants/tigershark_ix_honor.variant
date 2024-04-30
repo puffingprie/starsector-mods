@@ -1,0 +1,53 @@
+{
+    "displayName": "Honor Guard",
+    "fluxCapacitors": 15,
+    "fluxVents": 30,
+    "hullId": "tigershark_ix",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "stabilizedshieldemitter",
+        "missleracks",
+        "ix_smod_handler",
+        "advancedoptics",
+        "extendedshieldemitter",
+        "targetingunit",
+        "frontemitter"
+    ],
+    "permaMods": [
+        "hardenedshieldemitter",
+        "stabilizedshieldemitter",
+        "missleracks",
+        "ix_smod_handler"
+    ],
+    "sMods": [
+        "hardenedshieldemitter",
+        "stabilizedshieldemitter",
+        "missleracks"
+    ],
+    "variantId": "tigershark_ix_honor",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "stormlight_graser_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "orthrus_m_ix",
+                "WS 002": "orthrus_m_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "lightbringer_ciws_ix",
+                "WS 005": "morningstar_ciws_ix",
+                "WS 006": "morningstar_ciws_ix",
+                "WS 009": "morningstar_ciws_ix"
+            }
+        }
+    ]
+}

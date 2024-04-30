@@ -1,0 +1,5 @@
+name,id,planetary,decivRemove,script,desc,icon,order
+,,,,,,,
+Gensoukyou Science,FM_PhantomFactory,,TRUE,data.campaign.econ.FM_PhantomFactory,"A large number of products above the current technological level of Persean Sector are widely used on the planet, considerably improving the quality of life of the local population and alleviating pollution, as well as making industrial production easier and faster.
+The only problem may be that many of the technologies are implemented in a somewhat bizarre manner, but this is irrelevant.",graphics/icons/markets/FM_PhantomFactory.png,110
+,,,,,,,

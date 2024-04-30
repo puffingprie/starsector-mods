@@ -1,0 +1,45 @@
+{
+	"starSystem":"armin",
+	"markets":[
+		{
+			"entities":["harman", "harman_station"],
+			"faction":"osiris",
+			"size":5,
+			"startingConditions":[
+                "population_5",
+                "no_atmosphere",
+                "cold",
+                "volatiles_trace",
+                "rare_ore_sparse",
+                "ore_moderate",
+                "low_gravity"
+			],
+			"industries":[
+                "population",
+                "spaceport",
+                "mining",
+                "grounddefenses",
+				"militarybase"
+			]
+		},
+		{
+			"entities":["fugura"],
+			"faction":"pirates",
+			"size":4,
+			"freePort":true,
+			"startingConditions":[
+				"population_4",
+				"no_atmosphere",
+				"volatiles_plentiful",
+				"cold"
+			],
+			"industries":[
+				"population",
+				"spaceport",
+				"mining",
+				"heavybatteries",
+				"militarybase"
+			]
+		}
+	]
+}

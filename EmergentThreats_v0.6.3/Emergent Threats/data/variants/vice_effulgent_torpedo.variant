@@ -1,0 +1,44 @@
+{
+    "displayName": "Torpedo",
+    "fluxCapacitors": 0,
+    "fluxVents": 4,
+    "goalVariant": true,
+    "hullId": "vice_effulgent",
+    "hullMods": [
+        "eccm",
+        "missleracks",
+        "vice_adaptive_thruster_control"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_effulgent_torpedo",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "cyclone",
+                "WS 009": "breach",
+                "WS 010": "breach"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "sabotpod",
+                "WS 004": "sabotpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "pdburst",
+                "WS 006": "pdburst",
+                "WS 007": "pdburst",
+                "WS 008": "pdburst"
+            }
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+mm_fighter_jizo,mm_fighter_jizo_standard,"fighter4, fighter, mid, musashi_bp, ind, merc",2,,8,18,V,4000,500,300,3,FIGHTER,Fighter,15,17000,,,,,,,,,,,,,1
+mm_bomber_jizo,mm_bomber_jizo_standard,"bomber4, bomber, mid, musashi_bp, ind, merc",2,,10,24,V,4000,300,300,2,BOMBER,Bomber,20,20000,,,,,,,,,,,,,
+mm_support_kappa_wing,mm_support_kappa_standard,"support4, support,fighter, mid, musashi_bp, ind, merc",1,,6,12,CLAW,2000,200,0,2,SUPPORT,PD Bouy,12,15000,,,,,,,,,,,,,
+mm_bushi_interceptor_standard_wing,mm_bushi_interceptor_standard,"interceptor1,fighter, mid, musashi_bp, ind, merc, pirates",1,,6,8,CLAW,1600,200,100,6,INTERCEPTOR,Interceptor,3,5000,,,,,,,,,,,,,
+mm_bushi_hunter_standard_wing,mm_bushi_hunter_standard,"fighter4, fighter, mid, mm_rare_bp, ind, merc",1,,8,14,V,3600,200,100,4,INTERCEPTOR,Interceptor,6,8000,,,,,,,,,,,,,

@@ -1,0 +1,29 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 10,
+    "fluxVents": 1,
+    "goalVariant": true,
+    "hullId": "FM_Parasol",
+    "hullMods": ["FantasyBorderMod"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Parasol_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "railgun",
+                "WS0002": "railgun"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "FM_SkySerpent_S",
+                "WS0004": "FM_SkySerpent_S"
+            }
+        }
+    ]
+}

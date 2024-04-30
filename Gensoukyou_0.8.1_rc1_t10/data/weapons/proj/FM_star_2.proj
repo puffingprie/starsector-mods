@@ -1,0 +1,47 @@
+{
+	"id":"FM_star_2",
+	"specClass":"missile",
+	"missileType":"MISSILE",
+	"sprite":"graphics/weapons/projects/FM_star_shot_s.png",
+	"size":[8,8],
+	"center":[4,4],
+	"collisionRadius":15,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[81,210,255,248],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":40, # purely visual
+	"fadeTime":0.1, # fadeout duration
+	"flameoutTime":0.5,
+	"glowColor":[54,189,255,75],
+	"glowRadius":20,
+	#"alwaysAccelerate":true,
+	"noDebrisWhenDestroyed":true,
+	"noCollisionWhileFading":true,
+	"useHitGlowWhenDestroyed":true,
+	"engineSpec":{"turnAcc":360,
+				  "turnRate":360,
+				  "acc":400,
+				  "dec":400},
+	"engineSlots":[{"id":"ES1",
+					"loc":[0, 0],
+				    #"style":"ROCKET_LOW_TECH",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[0,190,230, 235],
+						"contrailDuration":0.5,
+						"contrailWidthMult":1,
+						"contrailWidthAddedFractionAtEnd":1,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":0f, # how far away from engine it starts
+						"contrailColor":[0,95,115,0],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":4.0,
+				    "length":20.0,
+				    "angle":180.0},]
+
+
+}
+

@@ -1,0 +1,21 @@
+{
+	"portraits":{
+	    "standard_female":[
+          
+	    ],
+             "standard_male":[
+
+          	#"graphics/icon/characters/Mimikko_momona.png",
+	    ],
+	},
+	"ranks":{
+		"ranks":{
+			
+		},
+		"posts":{
+			#"patrolCommander":{"name":"船长"},
+                         "momona":{"name":"神秘助手？"},
+			
+		},
+	},
+},		 

@@ -1,0 +1,47 @@
+{
+  "variantId": "mm_ebisu_standard",
+  "hullId": "mm_ebisu",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 37,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mm_miniflakpd",
+        "WS0002": "mm_miniflakpd",
+        "WS0003": "mm_miniflakpd",
+        "WS0004": "mm_miniflakpd",
+        "WS0005": "mm_miniflakpd",
+        "WS0006": "mm_miniflakpd",
+        "WS0007": "mm_miniflakpd",
+        "WS0008": "mm_miniflakpd",
+        "WS0010": "mm_miniflakpd",
+        "WS0011": "mm_miniflakpd",
+        "WS0012": "mm_miniflakpd",
+        "WS0013": "mm_miniflakpd"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "mm_autoflakpd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "mm_bomber_jizo",
+    "mm_bomber_jizo",
+    "mm_fighter_jizo",
+    "mm_fighter_jizo",
+    "mm_fighter_jizo",
+    "mm_fighter_jizo"
+  ]
+}

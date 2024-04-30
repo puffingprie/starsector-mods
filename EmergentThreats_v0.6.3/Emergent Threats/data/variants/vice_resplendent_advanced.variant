@@ -1,0 +1,61 @@
+{
+    "displayName": "Advanced",
+    "fluxCapacitors": 7,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "vice_resplendent",
+    "hullMods": [
+        "ecm",
+        "fluxdistributor",
+        "hardenedshieldemitter",
+        "targetingunit",
+        "stabilizedshieldemitter",
+        "vice_adaptive_emitter_diodes"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_resplendent_advanced",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "hil",
+                "WS 002": "hil"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "gravitonbeam",
+                "WS 004": "gravitonbeam",
+                "WS 005": "gravitonbeam",
+                "WS 006": "gravitonbeam",
+                "WS 007": "breachpod",
+                "WS 008": "breachpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "lrpdlaser",
+                "WS 010": "lrpdlaser",
+                "WS 011": "lrpdlaser",
+                "WS 012": "lrpdlaser",
+                "WS 013": "lrpdlaser",
+                "WS 014": "lrpdlaser",
+                "WS 015": "lrpdlaser"
+            }
+        }
+    ],
+    "wings": [
+        "lux_wing",
+        "lux_wing",
+        "lux_wing",
+        "lux_wing",
+        "lux_wing",
+        "lux_wing"
+    ]
+}

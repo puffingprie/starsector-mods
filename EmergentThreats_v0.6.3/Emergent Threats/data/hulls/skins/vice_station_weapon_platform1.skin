@@ -1,0 +1,9 @@
+{
+	"baseHullId":"remnant_weapon_platform1",
+	"skinHullId":"vice_station_weapon_platform1",
+	#"hullName":"",
+	#"hullDesignation":"",
+	"manufacturer":"Remnant",
+	"systemId":"",
+	"tags":["no_autofit"],
+}

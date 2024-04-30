@@ -1,0 +1,9 @@
+{
+	"id":"ix_starfall_rockets",
+	"type":"WEAPON",
+	"aiType":"CUSTOM",
+	"aiScript":"data.scripts.ix.ai.SpatialChargesAI", #fires at forward arc targets only
+	
+	"weaponDataId":"starfall_system_ix",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

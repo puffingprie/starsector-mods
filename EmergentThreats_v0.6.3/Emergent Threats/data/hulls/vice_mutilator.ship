@@ -1,0 +1,114 @@
+{
+  "hullName": "Mutilator",
+  "hullId": "vice_mutilator",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/vice/ships/mutilator/mutilator.png",
+  "style": "HIGH_TECH",
+  "height": 163,
+  "width": 122,
+  "center": [61, 81],
+  "collisionRadius": 97,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 90,
+  "viewOffset": 0,
+  "builtInMods": [
+    "phasefield",
+    "delicate",
+    "vice_ai_subsystem_integration"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [60, 0]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [64, 25]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [64, -25]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 91,
+      "locations": [35, 56]
+    },
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -90,
+      "locations": [35, -56]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-80, 14],
+      "length": 34,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-80, -14],
+      "length": 34,
+      "width": 17,
+      "angle": -180,
+      "contrailSize": 17,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [1, 40],
+      "length": 34,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [1, -40],
+      "length": 34,
+      "width": 17,
+      "angle": -180,
+      "contrailSize": 17,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -79, -24,
+    1, -24,
+    1, -48,
+    34, -58,
+    54, -52,
+    76, -16,
+    76, 16,
+    54, 52,
+    34, 58,
+    1, 48,
+    1, 24,
+    -79, 24
+  ]
+}

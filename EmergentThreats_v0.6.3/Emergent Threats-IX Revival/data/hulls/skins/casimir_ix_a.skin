@@ -1,0 +1,13 @@
+{
+	"baseHullId":"casimir_ix_base",
+	"skinHullId":"casimir_ix_a",
+	"hullName":"Casimir (A)",
+	"incompatibleWithBaseHull":true,
+	"coversColor":[120,130,120,255],
+	"descriptionId":"casimir_ix_a",
+	"descriptionPrefix":"The Casimir (A) is an auxiliary warship of the 9th Domain Battlegroup, based on a transorbital shuttle turned improvised missile boat encountered by the Fleet during the conquest of Zorya. The commanders who faced it in battle were so impressed with its performance, they allowed the ships that surrendered to join up as foreign auxiliaries. The design has been kept in service ever since, crewed by ambitious outsiders seeking to join the ranks of the Fleet.",
+	"removeHints":["HIDE_IN_CODEX"],
+	"tags":["no_autofit", "ix_auxiliary"],
+	"tech":"IX Auxiliary",
+	"builtInMods":["ix_cramped_missile_bays"],
+}

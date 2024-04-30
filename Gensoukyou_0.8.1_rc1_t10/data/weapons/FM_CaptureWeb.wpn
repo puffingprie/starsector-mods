@@ -1,0 +1,49 @@
+{
+  "id": "FM_CaptureWeb",
+  "specClass": "projectile",
+  "projectileSpecId": "FM_CaptureWeb_shell",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/FM_CaptureWeb_turret.png",
+  "turretGlowSprite": "graphics/weapons/FM_CaptureWeb_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/FM_CaptureWeb_hardpoint.png",
+  "hardpointGlowSprite": "graphics/weapons/FM_CaptureWeb_hardpoint_glow.png",
+  "glowColor": [
+    155,
+    100,
+    255,
+    255
+  ],
+  "turretOffsets": [
+    10,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    15,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 50,
+    "spread": 15,
+    "particleSizeMin": 15,
+    "particleSizeRange": 10,
+    "particleDuration": 0.3,
+    "particleCount": 15,
+    "particleColor": [
+      155,
+      100,
+      255,
+      255
+    ]
+  },
+  "fireSoundTwo": "FM_CaptureWeb_fire"
+}

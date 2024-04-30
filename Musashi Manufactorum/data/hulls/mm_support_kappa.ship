@@ -1,0 +1,83 @@
+{
+  "hullName": "Kappa Support",
+  "hullId": "mm_support_kappa",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/mm/fighters/mm_support_kappa.png",
+  "style": "HIGH_TECH",
+  "height": 44,
+  "width": 44,
+  "center": [22, 22],
+  "collisionRadius": 31.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 43,
+  "viewOffset": 0,
+  "builtInMods": [
+    "mmmilitarytargetingcore",
+  ],
+  "builtInWeapons": {
+    "WS0001": "mm_miniflakpdfighter",
+    "WS0002": "mm_miniflakpdfighter"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": 0,
+      "locations": [10, -0],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": -0,
+      "locations": [10, 0],
+      "renderOrderMod": 3
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-16, 16],
+      "length": 5.779864,
+      "width": 3.37234,
+      "angle": 135,
+      "contrailSize": 3.37234,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-16, -16],
+      "length": 5.779864,
+      "width": 3.37234,
+      "angle": -135,
+      "contrailSize": 3.37234,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [16, 16],
+      "length": 6,
+      "width": 4,
+      "angle": 45,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [16, -16],
+      "length": 6,
+      "width": 4,
+      "angle": -45,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    17.5, -17,
+    -17, -17,
+    -17, 17,
+    17.5, 17
+  ]
+}

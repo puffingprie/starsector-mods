@@ -1,0 +1,58 @@
+{
+  "variantId": "acs_drifter_standard",
+  "hullId": "acs_drifter",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hellbore"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "acs_mookrailslauncher"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "pilum"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "acs_velites_single",
+        "WS0007": "acs_velites_single",
+        "WS0008": "acs_velites_single"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "acs_small_flakhag",
+        "WS0004": "acs_small_flakhag"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "acs_watchman_Fighter_wing",
+    "acs_watchman_Fighter_wing"
+  ]
+}

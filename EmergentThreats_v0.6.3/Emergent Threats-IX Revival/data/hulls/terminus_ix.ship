@@ -1,0 +1,42 @@
+{
+  "hullName": "Terminus (IX) Drone",
+  "hullId": "terminus_ix",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/drones/drone_terminatorB.png",
+  "style": "HIGH_TECH",
+  "coversColor": "120,130,120,255",
+  "height": 21,
+  "width": 18,
+  "center": [9, 8],
+  "collisionRadius": 40,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 30,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [3, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-4, 0],
+      "length": 24,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "TERMINUS_DRONE"
+    }
+  ],
+  "bounds": [
+    14, 0,
+    -2, 9,
+    -5, 0,
+    -2, -8
+  ]
+}

@@ -1,0 +1,19 @@
+{
+    "hullId": "lux",
+    "variantId": "vice_lux_fighter",
+    "displayName": "Heavy Fighter",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "quality": 1,
+    "hullMods":[],
+	"weaponGroups":[
+		{"mode":"LINKED",
+		 "weapons":{
+					"WS TURRET":"vice_autopulse_fighter",
+					#"WS 001":"vice_pilum_fighter",
+		 			#"WS 002":"irpulse_fighter",
+		 			#"WS 003":"irpulse_fighter",
+		 		   },
+		},
+	],
+}

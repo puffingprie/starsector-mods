@@ -1,0 +1,25 @@
+{
+    "displayName": "Fantasy",
+    "fluxCapacitors": 10,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "FM_Rumia",
+    "hullMods": [
+        "adaptive_coils",
+        "FantasySageMod",
+        "FantasyPlayerMod",
+        "heavyarmor",
+        "reinforcedhull"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Rumia_Fantasy",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0001": "FM_IcicleFall",
+            "WS0002": "FM_IcicleFall"
+        }
+    }]
+}

@@ -1,0 +1,37 @@
+{
+    "id":"FM_windgoddrive",
+    "type":"ENGINE_MOD",
+	"aiType":"BURN_DRIVE",
+    "statsScript":"data.shipsystems.FM_windgoddrive",
+
+    "jitterColor":[0,255,225,128],
+    "jitterCopies":20,
+    "jitterRange":50,
+    "jitterRangeRadiusFraction":0.4,
+
+    "engineGlowColor":[0,255,225,225],
+    "engineGlowContrailColor":[0,100,200,75],
+    "engineGlowLengthMult":4.0,
+    "engineGlowWidthMult":4.0,
+    "engineGlowGlowMult":4.0,
+
+    "shipAlpha":0.25,
+
+    "flameoutOnImpactChance":0,
+
+    "clampTurnRateAfter":true,
+    "clampMaxSpeedAfter":true,
+	"alwaysAccelerate":true,
+
+    "useSound":"system_plasma_burn",
+	"loopSound":"system_plasma_burn_loop",
+	"outOfUsesSound":"engine_disabled",
+	#"deactivateSound":"system_phase_cloak_deactivate",
+	"deactivateSound":"system_phase_cloak_deactivate",
+
+    "aiHints":{
+        "activeSpeedIncrease":600,
+        "burstMovementPotential":0,
+        "averageSpeedIncrease":100,
+    }
+}

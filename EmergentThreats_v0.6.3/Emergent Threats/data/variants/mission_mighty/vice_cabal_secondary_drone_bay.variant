@@ -1,0 +1,12 @@
+{
+    "displayName": "Secondary",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "hullId": "vice_secondary_drone_bay",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_cabal_secondary_drone_bay",
+    "weaponGroups": [],
+	"wings": []
+}

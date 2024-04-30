@@ -1,0 +1,60 @@
+{
+    "displayName": "Heavy",
+    "fluxCapacitors": 0,
+    "fluxVents": 45,
+    "goalVariant": true,
+    "hullId": "vice_resplendent",
+    "hullMods": [
+        "missleracks",
+        "hardenedshieldemitter",
+        "targetingunit",
+        "stabilizedshieldemitter",
+        "vice_adaptive_flight_command"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_resplendent_heavy",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "vice_x-ray_pulse",
+                "WS 002": "vice_x-ray_pulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "annihilatorpod",
+                "WS 004": "annihilatorpod",
+                "WS 005": "annihilatorpod",
+                "WS 006": "annihilatorpod",
+                "WS 007": "breachpod",
+                "WS 008": "breachpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "pdlaser",
+                "WS 010": "pdlaser",
+                "WS 011": "pdlaser",
+                "WS 012": "pdlaser",
+                "WS 013": "pdlaser",
+                "WS 014": "pdlaser",
+                "WS 015": "pdlaser"
+            }
+        }
+    ],
+    "wings": [
+        "vice_helia_wing",
+        "vice_helia_wing",
+        "vice_helia_wing",
+        "",
+        "",
+        ""
+    ]
+}

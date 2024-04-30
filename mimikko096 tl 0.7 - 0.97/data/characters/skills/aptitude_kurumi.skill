@@ -1,0 +1,12 @@
+{
+	"id":"aptitude_kurumi",
+	"governingAptitude":"Mimikko_kurumi",
+	"effectGroups":[
+		{
+			"requiredSkillLevel":0,
+			"effects":[
+				{"type":"DESCRIPTION", "script":"data.scripts.skill.momonaAptitudeDesc$Level0"},
+			]
+		},
+	],
+}

@@ -1,0 +1,40 @@
+{
+	"TAS_acceptedAICoreIds": ["ix_panopticon_core"],
+	"TAS_maintenanceMultipliers": {"ix_panopticon_core": 0.75},
+	"TAS_AICoreShipWeightReduction": {"ix_panopticon_core": 0.5},
+	
+	"drop_prob_officer_ix_panopticon_core":0.1,
+	"drop_prob_officer_ix_command_core":0,
+	
+	"designTypeColors":{
+		"IX Auxiliary":[0,245,0,255],
+		"IX Battlegroup":[0,245,0,255],
+		"IX Elite Guard":[0,245,0,255],
+	},
+	"graphics":{
+		"intel":{
+			"ix_raid":"graphics/factions/ix_activity.png",
+		},
+		"blueprint_packages":{
+			"ix_bp_package":"graphics/factions/ix_fleet_bp.png",
+			"ix_core_bp_package":"graphics/factions/ix_core_bp.png",
+        },
+		"fx":{
+			"ix_antecedent_explosion":"graphics/fx/ix_antecedent_explosion.png",
+			"ix_conversion_explosion":"graphics/fx/ix_conversion_explosion.png",
+		},
+		"illustrations":{
+			"ix_marzanna_illus":"graphics/illustrations/ix_marzanna_illus.png",
+			"ix_piorun_illus":"graphics/illustrations/ix_piorun_illus.png",
+			"ix_vertex_illus":"graphics/illustrations/ix_vertex_illus.png",
+			"ix_rusalka_illus":"graphics/illustrations/ix_rusalka_illus.png",
+			"ix_scorn_illus":"graphics/illustrations/ix_scorn_illus.png",
+		},
+		"ix_ships":{
+			"odyssey_ix_no_bay":"graphics/ships/ix/odyssey_ix_no_bay.png",
+		},
+		"portraits":{
+			"ix_panopticon_core":"graphics/portraits/ix_panopticon_core.png",
+		},
+	},
+}

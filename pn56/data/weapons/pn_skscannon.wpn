@@ -1,0 +1,28 @@
+{
+	"id":"pn_skscannon",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"SMALL",
+	"displayArcRadius":400,
+	"turretSprite":"graphics/pn/weapons/pn_skscannon_turret_base.png",
+	"turretGunSprite":"graphics/pn/weapons/pn_skscannon_turret_recoil.png",
+	"hardpointSprite":"graphics/pn/weapons/pn_skscannon_turret_base.png",
+	"hardpointGunSprite":"graphics/pn/weapons/pn_skscannon_turret_recoil.png",	
+	"visualRecoil":3.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets":[5, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[5, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":10.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":30.0,
+					   "particleSizeMin":16.0,
+					   "particleSizeRange":18.0,
+					   "particleDuration":0.3,
+					   "particleCount":46,
+					   "particleColor":[185,20,185,225]},
+	"projectileSpecId":"pn_sks_shot",  # projectile that will be fired	
+	"fireSoundTwo":"pn_sks_fire",
+}

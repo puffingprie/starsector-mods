@@ -1,0 +1,30 @@
+{
+  "variantId": "wolf_atraya_stand",
+  "hullId": "wolf_atraya",
+  "displayName": "Atrayan Glory",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 8,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardened_subsystems",
+    "fluxdistributor",
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "taclaser",
+        "WS 002": "mininglaser",
+        "WS 003": "mininglaser",
+        "WS 004": "heavyblaster",
+        "WS 005": "gorgon",
+        "WS 006": "gorgon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

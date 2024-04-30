@@ -1,0 +1,46 @@
+{
+  "variantId": "mi_wolf_assualt",
+  "hullId": "mi_wolf",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 10,
+  "quality": 0.75,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "ionpulser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 005": "kasta",
+        "WS 006": "kasta"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "crackler",
+        "WS 002": "crackler",
+        "WS 003": "lightag"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

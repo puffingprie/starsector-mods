@@ -1,0 +1,42 @@
+{
+  "variantId": "mi_actelh35_standard",
+  "hullId": "mi_actelh35",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "fluxbreakers",
+    "hardenedshieldemitter",
+    "metelson_hullnode"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "actelh35cockpit"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "combatmg",
+        "WS0002": "combatmg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "crackler"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

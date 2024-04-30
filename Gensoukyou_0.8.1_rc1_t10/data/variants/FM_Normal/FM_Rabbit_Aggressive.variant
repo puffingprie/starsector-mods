@@ -1,0 +1,30 @@
+{
+    "displayName": "Aggressive",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "FM_Rabbit",
+    "hullMods": [
+        "FantasyBorderMod",
+        "FantasyPlayerMod",
+        "FantasySageMod"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Rabbit_Aggressive",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "FM_Blade_ac"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "sabot",
+                "WS0004": "sabot"
+            }
+        }
+    ]
+}

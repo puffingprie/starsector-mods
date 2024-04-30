@@ -1,0 +1,13 @@
+{
+    "displayName": "EMP",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "vice_emp_emitter",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_emp_module",
+    "weaponGroups": [],
+	"wings": []
+}

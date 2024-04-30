@@ -1,0 +1,34 @@
+{
+    "displayName": "Long Range",
+    "fluxCapacitors": 0,
+    "fluxVents": 3,
+    "goalVariant": true,
+    "hullId": "pn_aggr",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "pn_aggr_long",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "pn_burstmauler"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "pn_skscannon",
+                "WS0005": "pn_skscannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "pn_vulcan",
+                "WS0002": "pn_vulcan",
+                "WS0006": "pn_vulcan"
+            }
+        }
+    ]
+}

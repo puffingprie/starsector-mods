@@ -1,0 +1,25 @@
+{
+	"id":"pn_sike_mpod_rocket",
+	"specClass":"missile",
+	"missileType":"ROCKET",
+	"sprite":"graphics/pn/weapons/projectiles/p9_annihilator.png",
+	"size":[4,18],	
+	"center":[2,9],
+	"collisionRadius":15,
+	"collisionClass":"MISSILE_FF",
+	"explosionColor":[255,0,255,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":50, # purely visual
+	"flameoutTime":1, # total time from flameout to full fadeout
+	"noEngineGlowTime":0.5, # time spent without the engine glow being rendered
+	"fadeTime":0.3, # fadeout duration		
+	"engineSpec":{"turnAcc":0,
+				  "turnRate":0,
+				  "acc":500,
+				  "dec":0},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-11, 0],
+				    "style":"MISSILE_HIGH_TECH",
+				    "width":4.0,
+				    "length":30.0,
+				    "angle":180.0}]
+}

@@ -1,0 +1,19 @@
+{
+	"id":"FM_Blade_ac_shell",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":20,
+	"hitGlowRadius":48,
+	"width":20,
+	"fadeTime":1,
+	"fringeColor":[0,200,200,255],
+	"coreColor":[255,255,255,255],
+	"textureScrollSpeed":32.0,
+	"glowColor":[0,170,255,105],
+	"glowRadius":35,
+	"pixelsPerTexel":5.0,
+	  "onHitEffect":"data.weapons.onHit.FM_Blade_ac_OnHitEffect",
+	"bulletSprite":"graphics/weapons/projects/FM_Blade_ac_shell.png"
+}

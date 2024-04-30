@@ -1,0 +1,41 @@
+{
+
+#"ee_mammoth_fire":[
+ #               {"file":"sounds/fire/ee_mammoth_fire.ogg","pitch":1,"volume":1},
+
+#	],
+
+#"ee_mammoth_active":[
+ #               {"file":"sounds/shipsystem/ee_mammoth_active.ogg","pitch":1,"volume":0.6},
+
+#	],
+"mm_onslaught_system":[
+                {"file":"sounds/shipsystem/Mimikko_yurika_onslaught_system_loop.ogg","pitch":1,"volume":0.6},
+
+	],
+"mm_onslaught_tpchit":[
+                {"file":"sounds/shipsystem/Mimikko_yurika_onslaught_tpchit.ogg","pitch":1,"volume":0.6},
+
+	],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

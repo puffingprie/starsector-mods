@@ -1,0 +1,26 @@
+{
+  "variantId": "FM_Fairy_ice",
+  "hullId": "FM_Fairy_ice",
+  "displayName": "Heavy Fighter",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "FantasyBulletMod",
+    #"FantasyFairyMod"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "FM_IcicleFall",
+        "WS0002": "FM_IcicleFall"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,110 @@
+{
+  "hullName": "Kurao",
+  "hullId": "mm_kurao",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/mm/ships/mm_kurao.png",
+  "style": "HIGH_TECH",
+  "height": 260,
+  "width": 88,
+  "center": [44, 123],
+  "collisionRadius": 138,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 141,
+  "viewOffset": 0,
+  "builtInMods": [
+    "mmadvancetargetingcore"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0017",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 149,
+      "angle": 0,
+      "locations": [84, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 36,
+      "angle": 0,
+      "locations": [0.5, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 292,
+      "angle": 180,
+      "locations": [-62, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-73, 36.5],
+      "length": 13.800476,
+      "width": 8.954745,
+      "angle": 164,
+      "contrailSize": 8.954745,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    },
+    {
+      "location": [-73, -36.5],
+      "length": 13.800476,
+      "width": 8.954745,
+      "angle": -164,
+      "contrailSize": 8.954745,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    },
+    {
+      "location": [-109, 28],
+      "length": 19.07,
+      "width": 9.89,
+      "angle": 164,
+      "contrailSize": 9.89,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    },
+    {
+      "location": [-109, -28],
+      "length": 19.07,
+      "width": 9.89,
+      "angle": -164,
+      "contrailSize": 9.89,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    },
+    {
+      "location": [-110.5, 21],
+      "length": 82.572235,
+      "width": 20.671322,
+      "angle": 177,
+      "contrailSize": 20.671322,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    },
+    {
+      "location": [-110.5, -21],
+      "length": 82.572235,
+      "width": 20.671322,
+      "angle": -177,
+      "contrailSize": 20.671322,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    128, -7,
+    -7, -40.5,
+    -111, -35.5,
+    -111, 35.5,
+    -7, 40.5,
+    128, 7
+  ]
+}

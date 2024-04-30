@@ -1,0 +1,41 @@
+{
+  "variantId": "mi_actelh35_support",
+  "hullId": "mi_actelh35",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 18,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "pointdefenseai",
+    "autorepair",
+    "metelson_hullnode"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "actelh35cockpit"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ioncannon",
+        "WS0002": "ioncannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "crackler"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

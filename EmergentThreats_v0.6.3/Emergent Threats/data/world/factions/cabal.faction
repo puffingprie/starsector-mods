@@ -1,0 +1,5 @@
+{
+	"knownHullMods":{
+		"hullMods":["vice_attuned_emitter_diodes", "vice_advanced_terminator_core", "vice_apotheosis_protocol"],
+	},
+},

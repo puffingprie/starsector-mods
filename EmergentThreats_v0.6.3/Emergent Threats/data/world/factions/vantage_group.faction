@@ -1,0 +1,204 @@
+{
+	id:"vantage_group",
+	"color":[135,206,255,255],
+	"displayName":"Vantage Group",
+	"displayNameWithArticle":"the Vantage Group",
+	"logo":"graphics/vice/factions/logo_vantage_group.png",
+	"crest":"graphics/vice/factions/crest_vantage_group.png",
+	"shipNamePrefix":"TTS",
+	"showInIntelTab":false,
+	"shipNameSources":{
+		"JAPANESE":2,
+		"EGYPTIAN":2,
+		"NORDIC":1,
+		"MERCANTILE":2,
+		"SPACE":2,
+		"GENERAL":2,
+	},
+	"names":{
+		"modern":1,
+		"world":1,
+		"future":1,
+		"myth":1,
+	},
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":[],
+		"hulls":[
+		],
+	},
+	"knownShips":{
+		"tags":[],
+		"hulls":[
+
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	# listing capitals as priority will make them be picked even when they're the wrong "type" re: warship/carrier/phase ship
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+		],
+	},
+	"knownFighters":{
+		"tags":[],
+		"fighters":[
+
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+		],
+	},
+	"knownWeapons":{
+		"tags":[],
+		"weapons":[
+
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+		],
+	},
+	"knownHullMods":{
+		"tags":[],
+		"hullMods":[
+		],
+	},
+	"weaponSellFrequency":{
+
+	},
+	"fighterSellFrequency":{
+	},
+	"hullmodSellFrequency":{
+
+	},		
+	"factionDoctrine":{
+		"warships":3,
+		"carriers":3,
+		"phaseShips":3,
+		
+		"officerQuality":1,
+		"shipQuality":5,
+		"numShips":1,
+		
+		"shipSize":4,
+		
+		"aggression":2,
+		
+		"combatFreighterProbability":0,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0,  				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0.33,# as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.1,
+
+		"officerSkillsShuffleProbability":1f,
+		"officerSkills":[
+			"energy_weapon_mastery",
+			"field_modulation",
+		],
+		"commanderSkillsShuffleProbability":0,
+		"commanderSkills":[
+			"electronic_warfare",
+			"phase_corps",
+		],
+	},
+	"illegalCommodities":[
+		"ai_cores", # only due to treaty w/ Hegemony
+	],
+	"music":{
+		"encounter_hostile":"music_tritach_encounter_hostile",
+	},
+	"internalComms":"tritachyon_internal",
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/portrait_corporate01.png",
+			"graphics/portraits/portrait_corporate03.png",
+			"graphics/portraits/portrait_corporate05.png",
+			"graphics/portraits/portrait_corporate06.png",
+			"graphics/portraits/portrait_corporate08.png",
+			"graphics/portraits/portrait_corporate10.png",
+			"graphics/portraits/portrait13.png",
+			"graphics/portraits/portrait18.png",
+			"graphics/portraits/portrait25.png",
+			"graphics/portraits/portrait26.png",
+			"graphics/portraits/portrait30.png",
+			"graphics/portraits/portrait35.png",
+		],
+		"standard_female":[
+			"graphics/portraits/portrait_corporate02.png",
+			"graphics/portraits/portrait_corporate04.png",
+			"graphics/portraits/portrait_corporate07.png",
+			"graphics/portraits/portrait_corporate09.png",
+			"graphics/portraits/portrait_mercenary02.png",
+			"graphics/portraits/portrait_mercenary08.png",
+			"graphics/portraits/portrait16.png",
+			"graphics/portraits/portrait21.png",
+			"graphics/portraits/portrait28.png",
+			"graphics/portraits/portrait32.png",
+			"graphics/portraits/portrait34.png",
+			"graphics/portraits/portrait41.png",
+		],
+	},
+	"ranks":{
+		"ranks":{
+			"spaceAdmiral":{"name":"Senior Operation Manager"},
+			"spaceCommander":{"name":"Operation Manager"},
+			"factionLeader":{"name":"CEO"},
+		},
+		"posts":{
+			"factionLeader":{"name":"CEO"},
+			"patrolCommander":{"name":"Patrol Director"},
+			"fleetCommander":{"name":"Fleet Director"},
+			"baseCommander":{"name":"Base Director"},
+		},
+	},
+	"voices":{
+		"LOW":{
+			"soldier":10,
+			"spacer":5,
+		},
+		"MEDIUM":{
+			"business":10,
+		},
+		"HIGH":{
+			"business":10,
+			"aristo":10,
+			"scientist":3,
+		},
+	},		
+	"fleetTypeNames":{
+		"trade":"Corporate Trader",
+		"tradeLiner":"TriWay Spaceline Flight",
+		"tradeSmuggler":"Expedited Trader",
+		"smallTrader":"Distribution Convoy",
+		
+		"patrolSmall":"Security Patrol",
+		"patrolMedium":"Security Flotilla",
+		"patrolLarge":"Capital Assurance Fleet",
+		
+		"inspectionFleet":"QA Inspector",
+		"taskForce":"Special Affairs Fleet",
+		
+		"foodReliefFleet":"Relief Convoy",
+		
+		#"mercScout":"Contract Scout",
+		"mercBountyHunter":"Retrieval Contractor",
+		"mercPrivateer":"Security Contractor",
+		#"mercPatrol":"Contracted Patrol",
+		#"mercArmada":"Contracted Armada",
+	}
+},
+

@@ -1,0 +1,18 @@
+{
+    "displayName": "Unarmed",
+    "fluxCapacitors": 10,
+    "fluxVents": 3,
+    "goalVariant": true,
+    "hullId": "pn_mite-s",
+    "hullMods": [
+        "turretgyros",
+        "blast_doors"
+    ],
+    "permaMods": [],
+    "variantId": "pn_mite-s_unarmed",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {"WS0001": "pn_vulcan"}
+    }]
+}

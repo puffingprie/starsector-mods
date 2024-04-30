@@ -1,0 +1,55 @@
+{
+    "displayName": "Automated",
+    "fluxCapacitors": 0,
+    "fluxVents": 20,
+    "hullId": "vice_astral_ai",
+	"goalVariant": false,
+    "hullMods": [
+        "missleracks",
+        "stabilizedshieldemitter",
+        "vice_adaptive_flight_command"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_astral_automated",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 013": "gravitonbeam",
+                "WS 014": "gravitonbeam",
+                "WS 015": "gravitonbeam",
+                "WS 023": "gravitonbeam",
+                "WS 024": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 011": "hurricane",
+                "WS 012": "hurricane"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "pdlaser",
+                "WS 002": "pdlaser",
+                "WS 003": "pdlaser",
+                "WS 004": "pdlaser",
+                "WS 005": "pdlaser",
+                "WS 006": "pdlaser",
+                "WS 007": "pdlaser",
+                "WS 008": "pdlaser"
+            }
+        }
+    ],
+    "wings": [
+        "vice_helia_wing",
+        "vice_helia_wing",
+        "vice_helia_wing"
+    ]
+}

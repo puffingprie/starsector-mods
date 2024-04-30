@@ -1,0 +1,69 @@
+{
+  "hullName": "Jizo Bomber",
+  "hullId": "mm_bomber_jizo",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/mm/fighters/mm_jizo_fighter.png",
+  "style": "HIGH_TECH",
+  "height": 40,
+  "width": 40,
+  "center": [20, 23],
+  "collisionRadius": 23,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 22,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 25,
+      "angle": 0,
+      "locations": [6.5, 11.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 25,
+      "angle": 0,
+      "locations": [6.5, -11.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": 0,
+      "locations": [4, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-18, -1.5],
+      "length": 11,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-18, 1.5],
+      "length": 11,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    13.5, -4,
+    5.5, -20.5,
+    -17.5, -9.5,
+    -17.5, 9.5,
+    5.5, 20.5,
+    13.5, 4
+  ]
+}

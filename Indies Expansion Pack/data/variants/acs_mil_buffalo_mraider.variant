@@ -1,0 +1,29 @@
+{
+  "variantId": "acs_mil_buffalo_mraider",
+  "hullId": "acs_mil_buffalo",
+  "displayName": "Missile Raider",
+  "goalVariant": false,
+  "fluxCapacitors": 23,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "acs_toyhammer_medium",
+        "WS0002": "acs_small_flakhag",
+        "WS0003": "acs_small_flakhag"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "acs_mook_r_wing"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+    "directoryUseShortName":true,
+    "rebelFleetSuffix":"Deserters",
+    
+	"invasionPointMult": 1.1,
+	"patrolSizeMult": 1.3,
+    "marketSpawnWeight":1,
+	"noRandomizeRelations":true,
+	
+	"difficultyString":"hard",
+
+    "startRelationships":{ "default":-0.50, "pirates":0, "independent":0, "ix_core":1, "ix_marzanna":1,
+						"rat_exotech":0 },
+	"maxRelationships":{ "default":-0.50, "player": 1, "pirates":1, "independent":0, "ix_core":1,
+						"ix_marzanna":1, "rat_exotech":0, "tahlan_legioelite":1 },
+	"diplomacyPositiveChance":{ "default":0 },
+    "diplomacyNegativeChance":{ "default":0 },
+	"morality":"amoral",
+	
+	"raidsFromBases":true,
+	
+	"responseFleetName":"Rapid Reaction Force",
+	
+    "alignments":{
+		"technocratic":1,
+        "hierarchical":1,
+        "militarist":1,
+        "diplomatic":-1.0,
+        "ideological":0.5,
+    },
+    "diplomacyTraits":["foreverwar", "irredentist", "lowprofile", "envious"],
+    
+    "colonyExpeditionChance":0,
+    "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
+    
+    "groundBattleSettings":{
+        "moraleDamageTakenMult":0.9,
+    },
+    
+    "specialForcesNamerClass":"exerelin.campaign.intel.specialforces.namer.PlanetNamer",
+    "specialForcesFlagshipVariants":{"paragon_ix_honor":0.1, "radiant_ix_honor":0.3, "radiant_ix_honor_2":0.3, "odyssey_ix_honor":0.5, "tigershark_ix_honor":0.5},
+    
+    "startShipsSolo":[["flourish_ix_attack"], ["wolf_ix_cs"]],
+    "startShipsCombatSmall":[
+      ["medusa_ix_attack", "flourish_ix_cs", "wolf_ix_attack"]
+    ],
+    "startShipsCombatLarge":[["aurora_ix_cs", "shrike_ix_attack"], ["fury_ix_attack", "medusa_ix_attack"]],
+	"startShipsCarrierSmall":[["iconoclast_ix_attack", "flourish_ix_cs"]],
+	"startShipsCarrierLarge":[["flamebreaker_ix_cs", "shrike_ix_cs"]],
+	"startShipsTradeSmall":[["buffalo_ix_standard", "wolf_ix_attack"]],
+	"startShipsTradeLarge":[["banteng_ix_standard", "medusa_ix_attack", "wolf_ix_attack"]],
+    "startShipsSuper":[["hyperion_ix_special"], ["tigershark_ix_custom"], ["odyssey_ix_custom"]],
+	
+    "startSpecialItems":[
+        
+    ],
+    
+    "defenceStations":[
+        {"ids":["orbitalstation_high", "battlestation_high", "starfortress_high"]},
+    ],
+	"miningVariantsOrWings":[
+		"banteng_ix_standard",
+		"buffalo_ix_standard",
+	],
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.1},
+        {"id":"fuelprod", "mult":0.1},
+    ],
+    
+    "bonusSeeds":[
+        {"id":"nanoforge_pristine", "count":1},
+        {"id":"synchrotron", "count":1},
+        {"id":"aiCore_military", "mult":0.4},
+        {"id":"aiCore_heavyindustry", "count":1},
+        {"id":"aiCore_any", "mult":1.5},
+    ],
+}

@@ -1,0 +1,122 @@
+{
+  "hullName": "Iris",
+  "hullId": "vice_iris_base",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/vice/ships/ex/iris_ex.png",
+  "style": "HIGH_TECH",
+  "height": 119,
+  "width": 112,
+  "center": [56, 51],
+  "collisionRadius": 87,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 87,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS ARR",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [35, 0]
+    },
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [2, 17]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [2, -17]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [11, 44]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [11, -44]
+    },
+    {
+      "id": "WS F01",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -30,
+      "locations": [62, 0]
+    },
+    {
+      "id": "WS F02",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 30,
+      "locations": [62, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-50, 13],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-50, -13],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-50, 5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-50, -5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -51, -36,
+    -14, -56,
+    40, -36,
+    63, 0,
+    40, 36,
+    -14, 56,
+    -51, 36
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "variantId": "mm_kuzuryu_standard",
+  "hullId": "mm_kuzuryu",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 35,
+  "fluxVents": 28,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mm_cryofusionbattery",
+        "WS0004": "mm_cryofusionbattery",
+        "WS0005": "mm_cryofusionbattery"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "mm_miniflakpd",
+        "WS0003": "mm_miniflakpd",
+        "WS0006": "mm_autoflakpd",
+        "WS0007": "mm_miniflakpd",
+        "WS0008": "mm_miniflakpd",
+        "WS0009": "mm_miniflakpd",
+        "WS0010": "mm_miniflakpd",
+        "WS0011": "mm_miniflakpd",
+        "WS0012": "mm_miniflakpd",
+        "WS0013": "mm_miniflakpd",
+        "WS0014": "mm_miniflakpd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,66 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 6,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "vice_incursion_ex",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "targetingunit",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_incursion_ex_assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS20": "vice_neutron_autolance",
+                "WS21": "vice_neutron_autolance"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS05": "breachpod",
+                "WS06": "breachpod",
+                "WS07": "breachpod",
+                "WS08": "breachpod",
+                "WS18": "squall",
+                "WS19": "squall"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS17": "vice_x-ray_pulse"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS03": "pulselaser",
+                "WS04": "pulselaser",
+                "WS09": "ionpulser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS01": "heavyburst",
+                "WS02": "heavyburst",
+                "WS10": "pdburst",
+                "WS11": "pdburst",
+                "WS12": "pdburst",
+                "WS13": "pdburst",
+                "WS14": "pdlaser",
+                "WS15": "pdlaser",
+                "WS16": "pdburst"
+            }
+        }
+    ]
+}

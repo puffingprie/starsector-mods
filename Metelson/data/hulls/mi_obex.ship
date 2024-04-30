@@ -1,0 +1,91 @@
+{
+  "hullName": "Obex Heavy Fighter",
+  "hullId": "mi_obex",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/obex.png",
+  "style": "MIDLINE",
+  "height": 38,
+  "width": 46,
+  "center": [23, 18.5],
+  "collisionRadius": 48.373547,
+  "shieldCenter": [0.5, -0],
+  "shieldRadius": 35.057095,
+  "viewOffset": 0,
+  "builtInMods": [
+    "advancedoptics"
+  ],
+  "builtInWeapons": {
+    "WS0003": "hammer",
+    "WS0004": "maser"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": 0,
+      "locations": [14.5, 10.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": 0,
+      "locations": [11, -9.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-10.5, 5.5],
+      "length": 32,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-10.5, -5.5],
+      "length": 32,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-15.5, -10.5],
+      "length": 10,
+      "width": 4,
+      "angle": 174,
+      "contrailSize": 4,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-15.5, 10.5],
+      "length": 10,
+      "width": 4,
+      "angle": -174,
+      "contrailSize": 4,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-12.5, -0],
+      "length": 32,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    11, -19,
+    -17, -19,
+    -9.5, -0,
+    -17, 19,
+    11, 19,
+    17.5, -0
+  ]
+}

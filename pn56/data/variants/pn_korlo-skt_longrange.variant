@@ -1,0 +1,41 @@
+{
+  "variantId": "pn_korlo-skt_longrange",
+  "hullId": "pn_korlo-skt",
+  "displayName": "Long Range",
+  "goalVariant": true,
+  "fluxCapacitors": 30,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "advancedoptics"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pn_hil",
+        "WS0002": "pn_hil"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "pn_t3cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "pn_vulcan",
+        "WS0006": "pn_vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

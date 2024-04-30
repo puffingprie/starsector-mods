@@ -1,0 +1,12 @@
+{
+  "id": "pn_bounce",
+  "type": "PHASE_CLOAK",
+  "aiType": "PHASE_CLOAK",
+
+  "statsScript": "data.shipsystems.scripts.pn_bounce",
+
+  "useSound": "system_phase_cloak_activate",
+  #"deactivateSound": "system_phase_cloak_deactivate",
+  "deactivateSound": "system_phase_cloak_deactivate",
+  "outOfUsesSound": "system_phase_cloak_collision"
+}

@@ -1,0 +1,130 @@
+{
+    "name": "Yurika",
+    "personalities": ["steady", "aggressive", "reckless","cautious"],
+    "gender": ["m","f","n"],
+    "chance": 0,
+    "talkativeness": 0.65,
+    "categoryTags": [
+        "othermedia",
+    ],
+    "lines": {
+        "start": [                                            #开始？
+            {
+                "text": "A hero should work hard and gain more exp.",
+            },
+            {
+                "text": "Captain, could you be asking help from this all-powerful demon lord?",
+            },
+            {
+                "text": "Since you are so eager......mah, do as you wish",
+            },
+            {
+                "text": "So you wish to win the Demon Lord's favor this way? Hmph.",
+            },
+        ],
+        "start_boss": [                                    #打boss
+            {
+                "text": "I feel this is going to be terrible.",
+            },
+        ],
+        "retreat": [                                            #撤退
+            {
+                "text": "Hmph, I'll let you off this time.",
+            },
+        ],
+        "out_of_missiles": [                                #用完导弹
+            {
+                "text": "Missiles are out, how troublesome.",
+            },
+            {
+                "text": "Missiles are great, why do they run out.",
+            },
+        ],
+        "engaged": [                                     #舰船部署
+            {
+                "text": "Are you challenging the Demon Lord's authority?",
+            },
+            {
+                "text": "I am going to use the forbidden spell!",
+            },
+            {
+                "text": "These enemy arent enough!",
+            },
+        ],
+        "need_help": [                                         #需要帮助
+            {
+                "text": "Foolish mortal, do you want to witness real power?",
+            },
+            {
+                "text": "Servant of darkness, show yourself.....what's after that again?",
+            },
+        ],
+        "pursuing": [                                               #发动进攻
+            {
+                "text": "Surrounder now and I'll let you live!",
+            },
+            {
+                "text": "I'll show you real power of the Demon Lord",
+            },
+            {
+                "text": "Attack, rout the enemy",
+            },
+        ],
+        "running": [                                        #后撤
+            {
+                "text": "Hmph, I'll let you off this time.",
+            },
+        ],
+        "hull_90": [                                     #90%生命值
+            {
+                "text": "That's nothing, did you even eat?",
+            },
+            {
+                "text": "Is that all you've got?",
+            },
+        ],
+        "hull_50": [
+            {
+                "text": "Looks like I'll need to get serious",
+            },
+        ],
+        "hull_30": [
+            {
+                "text": "Hmph, I can still go",
+            },
+            {
+                "text": "The Demon Lord will not fall here!",
+            },
+        ],
+        "overload": [                					#过载
+            {
+                "text": "Damn, overloaded",
+            },
+            {
+                "text": "Hmph, what a shame",
+            },
+        ],
+        "death": [							#沉船
+            {
+                "text": "I will be back!",
+            },
+            {
+                "text": "Just a slip up......",
+            },
+            {
+                "text": "You havent seen this Demon Lord's real power yet!",
+            },
+        ],
+        "victory": [							#胜利
+            {
+                "text": "Eh? I have biscuit crumbs around my mouth? (Wipes mouth) Still there?",
+            },
+            {
+                "text": "Could it be......my massive magical energy distorted my appearance?! (smug) ",
+            },
+            {
+                "text": "This is now a new story in this world, did you like it, captain?",
+            },
+        ],
+    },
+}

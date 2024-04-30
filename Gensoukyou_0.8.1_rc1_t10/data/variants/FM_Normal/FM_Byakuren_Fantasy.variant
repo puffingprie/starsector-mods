@@ -1,0 +1,44 @@
+{
+    "displayName": "Fantasy",
+    "fluxCapacitors": 50,
+    "fluxVents": 34,
+    "goalVariant": true,
+    "hullId": "FM_Byakuren",
+    "hullMods": [
+        "targetingunit",
+        "FantasyBulletMod"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Byakuren_Fantasy",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "plasma",
+                "WS0010": "FM_LeafFujin"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "FM_SkySerpent_M",
+                "WS0006": "FM_SkySerpent_M",
+                "WS0007": "FM_SkySerpent_M",
+                "WS0008": "FM_SkySerpent_M"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FM_AdministratorPD",
+                "WS0002": "FM_AdministratorPD",
+                "WS0003": "FM_AdministratorPD",
+                "WS0004": "FM_AdministratorPD"
+            }
+        }
+    ]
+}

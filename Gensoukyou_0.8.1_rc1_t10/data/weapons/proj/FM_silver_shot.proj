@@ -1,0 +1,22 @@
+{
+	"id":"FM_silver_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"onFireEffect":"data.weapons.onFire.FM_SilverOnFire",
+	"length":5.0,
+	"width":10.0,
+	"fadeTime":0.25,
+	"glowColor":[200,190,255,100],
+	"glowRadius":35,
+	"fringeColor":[220,255,255,255],
+	"coreColor":[220,255,255,255],
+	"textureType":"ROUGH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"onHitEffect":"data.weapons.onHit.FM_SilverOnHitEffect",
+	"bulletSprite":"graphics/weapons/projects/FM_ice_shell.png",
+	"passThroughMissiles":true,	
+	"passThroughFighters":true,
+	"pixelsPerTexel":1.0
+}

@@ -1,0 +1,18 @@
+{
+	"id":"acs_medium_lascannon_shot",
+	"specClass":"projectile",
+	#"spawnType":"BEAM",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":100.0,
+	"width":25,
+	"fadeTime":0.3,
+	"fringeColor":[200,0,0,255],
+	"coreColor":[255,200,200,200],
+	#"coreColor":[175,175,175,255],
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"passThroughMissiles":true,
+	"pixelsPerTexel":1.0	
+}

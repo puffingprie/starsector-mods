@@ -1,0 +1,9 @@
+{
+	"id":"vice_spatialcharges",
+	"type":"WEAPON",
+	"aiType":"CUSTOM",
+	"aiScript":"data.scripts.vice.ai.SpatialChargesAI",
+	
+	"weaponDataId":"vice_spatial_charge",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

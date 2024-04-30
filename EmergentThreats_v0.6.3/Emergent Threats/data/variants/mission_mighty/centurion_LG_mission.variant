@@ -1,0 +1,44 @@
+{
+    "displayName": "Navy",
+    "fluxCapacitors": 1,
+    "fluxVents": 10,
+    "hullId": "centurion_LG",
+    "hullMods": [
+        "advancedoptics",
+        "pointdefenseai",
+        "targetingunit",
+		"degraded_engines",
+		"faulty_grid",
+    ],
+    "permaMods": [
+		"degraded_engines",
+		"faulty_grid",
+	],
+    "sMods": [],
+    "variantId": "centurion_LG_mission",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lrpdlaser",
+                "WS 002": "lrpdlaser",
+                "WS 004": "lrpdlaser",
+                "WS 005": "lrpdlaser"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "swarmer"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "lrpdlaser",
+                "WS 007": "lrpdlaser"
+            }
+        }
+    ]
+}

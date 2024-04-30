@@ -1,0 +1,44 @@
+{
+	"id":"mm_tadaijilance_shot",
+	"specClass":"missile",
+	"missileType":"ROCKET",
+	"onHitEffect":"com.fs.starfarer.api.impl.combat.RiftTorpedoEffect",
+	"sprite":"graphics/mm/missiles/mm_tadaijilance_bullet.png",	
+	"size":[76,108],	
+	"center":[38,54],
+	"collisionRadius":80,
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"HITS_SHIPS_AND_ASTEROIDS",
+	"flameoutTime":0.01,
+	"armingTime":0,
+	"hitGlowRadius":0,
+	"fadeTime":0.01,					 
+	"engineSpec":{"turnAcc":0,
+			"turnRate":0,
+			"acc":1200,
+			"dec":0},
+	"engineSlots":[{"id":"ES1",
+			"loc":[14, 0],
+			#"loc":[-14, 0],
+			#"style":"TORPEDO",
+			"style":"CUSTOM",
+			"styleSpec":{
+				"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+				"engineColor":[255,40,75,255],
+				"contrailDuration":2,
+				"contrailWidthMult":1.5,
+				"contrailWidthAddedFractionAtEnd":0,  # can be negative. makes trail spread out/narrow at the end
+				"contrailMinSeg":2, # min segment length, in pixels
+				"contrailMaxSpeedMult":0f,
+				"contrailAngularVelocityMult":0.5f,
+				"contrailSpawnDistMult":-2f, # how far away from engine it starts
+				"contrailColor":[255,40,75,255],
+				"glowSizeMult":1,
+				"glowAlternateColor":[255,40,75,255],
+				"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":10.0,
+				    "length":80.0,
+				    "angle":180.0}]
+}
+}

@@ -1,0 +1,48 @@
+{
+  "id": "pn_drone_harb",
+  "type": "DRONE_LAUNCHER",
+  "aiType": "DRONE_LAUNCHER_PD",
+
+  "droneVariant": "pn_drone_harb",
+
+  "allowFreeRoam": true,
+
+  "launchSpeed": 100,
+  "launchDelay": 1,
+  "maxDrones": 2,
+  "droneBehavior": [
+    {
+      "droneIndex": [0],
+      "defaultFacing": "MATCH_DRONE_HEADING",
+      "faceEnemy": true,
+      "holdRoamRange": 250,
+      "freeRoamRange": 2000,
+      "targetPriority": [SHIP],
+      "initialOrbitAngle": 0,
+      "orbitRadius": 150, # plus ship radius
+      "orbitDir": 1, # -1 or 1
+      "orbitSpeed": 100, # pixels/second
+    },
+    {
+      "droneIndex": [1],
+      "defaultFacing": "MATCH_DRONE_HEADING",
+      "faceEnemy": true,
+      "holdRoamRange": 250,
+      "freeRoamRange": 2000,
+      "targetPriority": [SHIP],
+      "initialOrbitAngle": 0,
+      "orbitRadius": 150, # plus ship radius
+      "orbitDir": -1, # -1 or 1
+      "orbitSpeed": 100, # pixels/second
+    }
+
+  ],
+
+  "useSound": "drone_launch",
+  "outOfUsesSound": "gun_out_of_ammo",
+
+  "aiHints": {
+
+  }
+}
+

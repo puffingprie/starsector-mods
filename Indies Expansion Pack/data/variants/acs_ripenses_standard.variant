@@ -1,0 +1,31 @@
+{
+  "variantId": "acs_ripenses_standard",
+  "hullId": "acs_ripenses",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 11,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull",
+    "heavyarmor",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "acs_medium_lasgun",
+        "WS0002": "acs_medium_lascannon",
+        "WS0003": "acs_toyhammer_small2",
+        "WS0004": "acs_velites_single",
+        "WS0005": "acs_small_lasgun",
+        "WS0006": "acs_small_flakhag"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

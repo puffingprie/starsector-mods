@@ -1,0 +1,36 @@
+{
+    "displayName": "Disabler",
+    "fluxCapacitors": 50,
+    "fluxVents": 34,
+    "goalVariant": true,
+    "hullId": "pn_samaa-dsi",
+    "hullMods": [
+        "frontemitter",
+        "magazines"
+    ],
+    "permaMods": [],
+    "variantId": "pn_samaa-dsi_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "pn_t3cannon-support"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "pn_dsilaser"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "pn_double-vulcan",
+                "WS0003": "pn_vulcan",
+                "WS0004": "pn_vulcan",
+                "WS0005": "pn_double-vulcan",
+                "WS0006": "pn_double-vulcan"
+            }
+        }
+    ]
+}

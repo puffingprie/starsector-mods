@@ -1,0 +1,11 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
+Active Flare Salvo,ix_flare_launcher,,,,,,0.1,,,,,,,10,,,,,,,,,,,,,graphics/icons/hullsys/active_flare_launcher.png
+Immanence Engine,ix_immanence_engine,1,,,,,0.25,,,,4,10,2,10,,,,,,,,,,,,,graphics/icons/hullsys/temporal_shell.png
+Interdictor Array,ix_interdictor,,,,2000,,,,,,1,1,0.5,20,,,,,,,,,,,,,graphics/icons/hullsys/interdictor_array.png
+Missile Reload,ix_missile_reload,,,,,,0.25,,,,1,0,0,25,,,,,,,,,,,,,graphics/icons/hullsys/missile_racks.png
+Plasma Jets,ix_plasmajets,,,,,,,,,,1,4,2,5,,,,,,,,,,,,,graphics/icons/hullsys/infernium_injector.png
+Point Defense Drones,ix_drone_pd,,,,,,,,20,,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+Rapid Assembly,ix_rapid_assembly,,,,,,0.4,,,,0.5,,0.1,90,,,,,,,,,,,,,graphics/icons/hullsys/reserve_deployment.png
+Spatial Charges,ix_spatial_charges,,,,,,0.1,,,,,,,10,,,,,,,,,,,,,graphics/icons/hullsys/active_flare_launcher.png
+Starfall Rocket Swarm,ix_starfall_rockets,,,,,,0.05,,,,,,,10,,,,,,,,,,,,,graphics/icons/hullsys/active_flare_launcher.png
+Terminus Relay,ix_terminus_relay,,,,600,,,,,,0,0.001,0,10,,,,,,,,,,,,,graphics/icons/hullsys/high_energy_focus.png

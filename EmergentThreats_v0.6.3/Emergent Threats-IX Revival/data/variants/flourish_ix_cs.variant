@@ -1,0 +1,43 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 2,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "flourish_ix",
+    "hullMods": [
+        "advancedoptics",
+        "extendedshieldemitter",
+        "frontemitter",
+        "stabilizedshieldemitter"
+    ],
+    "modules": [{"WS 010": "flourish_ix_undershield"}],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "flourish_ix_cs",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "muon_streamer_ix",
+                "WS 003": "muon_streamer_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "orthrus_s_ix",
+                "WS 004": "orthrus_s_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "morningstar_ciws_ix",
+                "WS 006": "morningstar_ciws_ix"
+            }
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+  "variantId": "FM_Fairy_bomb",
+  "hullId": "FM_Fairy_bomb",
+  "displayName": "Light Bomber",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    #"FantasyFairyMod"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "FM_ClearanceMunitions"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

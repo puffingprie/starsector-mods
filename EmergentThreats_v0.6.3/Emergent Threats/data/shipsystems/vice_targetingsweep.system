@@ -1,0 +1,13 @@
+{
+	"id":"vice_targetingsweep",
+	"type":"STAT_MOD",
+	"aiType":"TARGETING_FEED",
+	
+	"statsScript":"data.scripts.vice.shipsystems.TargetingSweep",
+	
+	"useSound":"system_reserve_wing",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}

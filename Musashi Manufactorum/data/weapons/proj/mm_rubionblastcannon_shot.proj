@@ -1,0 +1,22 @@
+{
+	"id":"mm_rubionblastcannon_shot",
+	"specClass":"projectile",
+	#"onHitEffect":"data.weapons.proj.scripts.mmrubiontorpeffect",
+	"onHitEffect":"com.fs.starfarer.api.impl.combat.RiftTorpedoEffect",
+	"bulletsprite":"graphics/missiles/rift_torpedo.png",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"HITS_SHIPS_AND_ASTEROIDS",
+	"length":75.0,
+	"hitGlowRadius":120,
+	"width":30.0,
+	"fadeTime":0.2,
+	"fringeColor":[255,15,80,125],
+	"coreColor":[255,15,0,125],
+	"glowColor":[255,15,80,165],
+	"glowRadius":35,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+
+}

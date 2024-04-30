@@ -1,0 +1,16 @@
+{
+	"id":"FM_swordout",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+
+	"statsScript":"data.shipsystems.FM_swordout",
+	"aiScript":"data.shipsystems.ai.FM_swordout_ai",	
+
+
+	"weaponGlowColor":[255,255,255,155],
+	"weaponTypes":[BALLISTIC,ENERGY],
+
+	"useSound":"system_ammo_feeder",
+	"outOfUsesSound":"gun_out_of_ammo",
+	"loopSound":"system_high_energy_focus_loop",
+}

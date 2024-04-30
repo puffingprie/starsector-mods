@@ -1,0 +1,41 @@
+{
+    "displayName": "Automated",
+    "fluxCapacitors": 10,
+    "fluxVents": 8,
+    "hullId": "vice_afflictor_ai",
+    "hullMods": [
+        "heavyarmor",
+        "fluxbreakers",
+        "fluxcoil",
+        "vice_adaptive_phase_coils"
+    ],
+    "permaMods": [],
+    "sMods": [
+        "heavyarmor",
+        "fluxbreakers",
+	],
+    "variantId": "vice_afflictor_automated",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "lightneedler",
+                "WS 003": "lightneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "sabot",
+                "WS 004": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 006": "amblaster"}
+        }
+    ]
+}

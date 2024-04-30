@@ -1,0 +1,32 @@
+{
+  "AutomatedCommands":{
+    "PERCENT": "{0, number, percent}",
+
+    "TIMID": "timid",
+    "CAUTIOUS": "cautious",
+    "STEADY": "steady",
+    "AGGRESSIVE": "aggressive",
+    "RECKLESS": "reckless",
+
+    "PERSONALITY_INAPPLICABLE_REASON": "Ship may only have 1 personality hullmod",
+    "PERSONALITY_DISABLED_REASON": "has an Officer, AI-Personality-Override disabled",
+    "PERSONALITY_APPLIED": "has been assigned the {1} personality",
+    "PERSONALITY_APPLIED_FLAGSHIP": "$AutomatedCommands:PERSONALITY_APPLIED (for Autopilot)",
+
+    "MISSILE": "no missile ammo",
+    "MISSILE_INAPPLICABLE_REASON": "Ship has no missiles installed",
+    "MISSILE_RETREAT_MESSAGE": "has no missile left - retreating",
+
+    "LOW_DAMAGE": "",
+    "MED_DAMAGE": "",
+    "HIGH_DAMAGE": "",
+    "DAMAGE_RETREAT_MESSAGE": "hull integrity is {1, number, percent} - retreating",
+
+    "CR_RETREAT_MESSAGE": "combat readiness is {1, number, percent} - retreating",
+
+    "REGROUP": "regroup",
+    "ENGAGE": "engage",
+    "REGROUP_INAPPLICABLE": "Ship does not have Fighter Bays"
+
+  }
+}

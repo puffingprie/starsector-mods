@@ -1,0 +1,46 @@
+{
+	"baseHullId":"pegasus",
+	"skinHullId":"vice_exhortation",
+	"descriptionId":"vice_exhortation",
+	"hullName":"Exhortation",
+	"ordnancePoints":340,
+	"hullDesignation":"Battlecarrier",
+	#"incompatibleWithBaseHull":true, # for the autofit dialog
+	"descriptionPrefix":"Following the self declared success of the Executor-class battleship, Supreme Executor Philip Andrada approved further development of a carrier variant to both counter and exceed the capabilities of the venerable fleet carriers still in use by the Hegemony. The Exhortation-class battlecarrier marks a new direction for the Diktat, which has historically opposed the individualism of fighter pilots on ideological grounds. But changing circumstances in the Sector have forced even the Diktat, however painfully, to update its combat doctrine.",
+	"tags":["LG_bp"],
+	"tech":"Lion's Guard",
+	"builtInWings": ["vice_gladius_lg_wing"],
+	"fighterBays":4,
+	"spriteName":"graphics/vice/ships/exhortation.png",
+	"baseValueMult":1.25,
+	"removeWeaponSlots":[], 			# ids
+	"removeEngineSlots":[], 			# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 			# hullmod ids
+	"removeBuiltInWeapons":[], 			# weapon slot ids
+	"systemId":"vice_lightofsindria",
+	"maxSpeed":50,
+	"shieldEfficiency":0.6,
+	"builtInMods":["vice_converted_battlecarrier", "solar_shielding", "andrada_mods", "vice_fleet_override"],
+	"addHints":["CARRIER", "COMBAT", "NO_AUTO_ESCORT"],
+	"removeHints":["MISSILE_HARDPOINTS_ROTATE"],
+	"builtInWeapons":{
+    },
+    "weaponSlotChanges":{
+		"WS 000":{"type": "ENERGY", "size": "LARGE"},
+		"WS 001":{"type": "ENERGY", "size": "LARGE"},
+		"WS 011":{"type": "DECORATIVE"},
+		"WS 012":{"type": "DECORATIVE",},
+		"WS 013":{"type": "DECORATIVE",},
+		"LB 1":{"type": "LAUNCH_BAY",},
+		"LB 2":{"type": "LAUNCH_BAY",},
+		"LB 3":{"type": "LAUNCH_BAY",},
+	},
+	"engineSlotChanges":{
+		"3":{"length": 64, "width":20},
+		"4":{"length": 64, "width":20},
+		"5":{"length": 64, "width":20},
+		"6":{"length": 64, "width":20},
+		"7":{"length": 64, "width":20},
+		"8":{"length": 64, "width":20},
+	},
+}

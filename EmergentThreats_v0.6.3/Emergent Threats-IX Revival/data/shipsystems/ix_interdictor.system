@@ -1,0 +1,16 @@
+{
+	"id":"ix_interdictor",
+	"type":"WEAPON",
+	"aiType":"CUSTOM",
+	"aiScript":"data.scripts.ix.ai.InterdictorPulseAI",
+	"statsScript":"data.scripts.ix.shipsystems.InterdictorPulseTargeting",
+	
+	"weaponDataId":"interdictor_pulse_ix",
+	
+	"useSound":"interdictor_ix_fire",
+	
+	"aiHints":{
+	}
+}
+
+

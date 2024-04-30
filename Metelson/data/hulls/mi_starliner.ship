@@ -1,0 +1,134 @@
+{
+  "hullName": "Stareater",
+  "hullId": "mi_starliner",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/mi_starliner.png",
+  "style": "MIDLINE",
+  "height": 284,
+  "width": 126,
+  "center": [63, 113],
+  "collisionRadius": 202,
+  "shieldCenter": [30, 0],
+  "shieldRadius": 170,
+  "viewOffset": 0,
+  "builtInMods": [
+    "repair_gantry",
+    "mi_MiRepairGantry"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": 120,
+      "locations": [-53, 37]
+    },
+    {
+      "id": "WS 006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": 240,
+      "locations": [-53, -37]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 0,
+      "locations": [27, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 90,
+      "locations": [125, 50]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-108, 19],
+      "length": 64,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 96,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-108, 0],
+      "length": 96,
+      "width": 32,
+      "angle": 180,
+      "contrailSize": 96,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-108, -18],
+      "length": 64,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 96,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-85, 39],
+      "length": 24,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 32,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-85, -38],
+      "length": 24,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 32,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-106, 26],
+      "length": 24,
+      "width": 6,
+      "angle": 170,
+      "contrailSize": 32,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-106, -25],
+      "length": 24,
+      "width": 6,
+      "angle": 190,
+      "contrailSize": 32,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    168, 0,
+    152, -28,
+    130, -41,
+    -39.5, -42.5,
+    -48, -50,
+    -77, -50,
+    -105, -23,
+    -105, 24,
+    -77, 51,
+    -46.5, 51,
+    -39.5, 42.5,
+    57, 46,
+    65, 54,
+    90.5, 57,
+    134.5, 60,
+    136.5, 49,
+    130, 41,
+    152, 29
+  ]
+}

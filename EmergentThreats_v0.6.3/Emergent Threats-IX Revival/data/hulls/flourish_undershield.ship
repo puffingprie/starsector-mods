@@ -1,0 +1,28 @@
+{
+  "hullName": "Undershield",
+  "hullId": "flourish_undershield",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/fx/empty.png",
+  "style": "IX_FLOURISHSHIELD",
+  "height": 4,
+  "width": 4,
+  "center": [31.5, 32],
+  "collisionRadius": 58,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 58,
+  "viewOffset": 0,
+  "builtInMods": [
+    "advancedshieldemitter",
+    "vastbulk",
+    "ix_microfluxshunt",
+    "ix_noventing"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    -13, -0,
+    0, 28.5,
+    13, -0,
+    0, -28.5
+  ]
+}

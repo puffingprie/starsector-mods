@@ -1,0 +1,91 @@
+{
+  "variantId": "mm_susanowo_standard",
+  "hullId": "mm_susanowo",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 50,
+  "fluxVents": 32,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mm_omegagun",
+        "WS0002": "mm_omegagun",
+        "WS0003": "mm_omegagun",
+        "WS0004": "mm_omegagun",
+        "WS0005": "mm_omegagun",
+        "WS0006": "mm_omegagun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0031": "mm_magneticrifle",
+        "WS0032": "mm_magneticrifle",
+        "WS0034": "mm_magneticrifle",
+        "WS0036": "mm_magneticrifle",
+        "WS0037": "mm_magneticrifle",
+        "WS0038": "mm_magneticrifle",
+        "WS0039": "mm_magneticrifle",
+        "WS0040": "mm_hypermagneticrifle"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "mm_cryospoolpd",
+        "WS0008": "mm_cryospoolpd",
+        "WS0009": "mm_machineturretpd",
+        "WS0010": "mm_machineturretpd",
+        "WS0011": "mm_machineturretpd",
+        "WS0012": "mm_machineturretpd",
+        "WS0013": "mm_machineturretpd",
+        "WS0014": "mm_machineturretpd",
+        "WS0015": "mm_cryospoolpd",
+        "WS0016": "mm_cryospoolpd",
+        "WS0017": "mm_cryospoolpd",
+        "WS0018": "mm_cryospoolpd",
+        "WS0019": "mm_machineturretpd",
+        "WS0020": "mm_machineturretpd",
+        "WS0021": "mm_machineturretpd",
+        "WS0022": "mm_machineturretpd",
+        "WS0023": "mm_machineturretpd",
+        "WS0024": "mm_machineturretpd",
+        "WS0025": "mm_machineturretpd",
+        "WS0026": "mm_machineturretpd",
+        "WS0027": "mm_machineturretpd",
+        "WS0028": "mm_machineturretpd",
+        "WS0029": "mm_machineturretpd",
+        "WS0030": "mm_machineturretpd",
+        "WS0033": "mm_autoflakpd",
+        "WS0035": "mm_autoflakpd",
+        "WS0041": "mm_goldendome",
+        "WS0042": "mm_goldendome",
+        "WS0043": "mm_goldendome",
+        "WS0044": "mm_goldendome",
+        "WS0045": "mm_goldendome",
+        "WS0046": "mm_goldendome"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

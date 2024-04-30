@@ -1,0 +1,8 @@
+{
+	"hullFrequency":{
+		"hulls":{"acs_modatlas":10, "acs_modprom":8, "acs_modatlas_frigcarrier":5, "acs_modprom_frigcarrier":5, "acs_foederati":8, "acs_phaetonmkiv":8, "acs_barnabas_p":4, "acs_barnabas":7, "acs_promjunkbarge":8},
+	},
+	"knownShips":{
+		"hulls":["acs_modatlas", "acs_modatlas_frigcarrier", "acs_modprom_frigcarrier", "acs_drifter", "acs_exploraria2", "acs_phaetonmkii", "acs_commitatensis", "acs_vigiles", "acs_ripenses", "acs_modprom", "acs_super_champion", "acs_tarsusmod", "acs_tarsusmod_carrier", "acs_phaetonmkiv", "acs_promjunkbarge", "acs_foederati", "acs_barnabas", "acs_barnabas_p", "acs_super_champion"],
+	},
+},

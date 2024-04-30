@@ -1,0 +1,39 @@
+{
+  "id": "FM_RumiaSystemWeapon",
+  "specClass": "projectile",
+  "projectileSpecId": "FM_RumiaSystemWeapon_shot",
+  "everyFrameEffect": "data.weapons.everyFrame.FM_RumiaSystemWeaponEveryFrame",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "turretSprite": "",
+  "turretGlowSprite": "",
+  "hardpointSprite": "",
+  "hardpointGlowSprite": "",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "turretOffsets": [
+    7,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    18,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "NONE",
+  "autocharge": true,
+  "textureType": ROUGH,
+  "fireSoundOne": "FM_PetaFlare_fire01",
+  "fireSoundTwo": "FM_LunaticBow_fire",
+}

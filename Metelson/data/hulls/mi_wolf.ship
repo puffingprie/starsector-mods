@@ -1,0 +1,129 @@
+{
+  "hullName": "Stinulv",
+  "hullId": "mi_wolf",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/wolf_ff_old2.png",
+  "style": "HIGH_TECH",
+  "height": 96,
+  "width": 52,
+  "center": [26, 42],
+  "collisionRadius": 58,
+  "shieldCenter": [6, 0],
+  "shieldRadius": 70,
+  "viewOffset": 50,
+  "weaponSlots": [
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 180,
+      "locations": [-20.5, -0]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 90,
+      "locations": [-6, 11]
+    },
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -90,
+      "locations": [-6, -11]
+    },
+    {
+      "id": "WS 004",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [43, 0]
+    },
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [10, 19]
+    },
+    {
+      "id": "WS 006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [10, -19]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-41, -0],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-38.5, 8.5],
+      "length": 64,
+      "width": 14,
+      "angle": 173,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-39, -8.5],
+      "length": 64,
+      "width": 14,
+      "angle": -173,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-36, 13],
+      "length": 15.795581,
+      "width": 5.196008,
+      "angle": 166,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-36, -13],
+      "length": 15.795581,
+      "width": 5.196008,
+      "angle": -161.5,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    52, 8,
+    52, -8,
+    18, -12,
+    13, -24,
+    1, -21,
+    -9, -15,
+    -34, -15,
+    -40, 0,
+    -34, 15,
+    -8, 14,
+    1, 22,
+    12, 24,
+    18, 13,
+    42, 15,
+    42.5, 9.5
+  ]
+}

@@ -1,0 +1,85 @@
+{
+
+    "designTypeColors":{
+    "Gensoukyou Manufacture":[219,40,40,255],
+		"Gensoukyou Project":[219,40,40,255],
+    "Gensoukyou Project - Luna Night":[0,90,204,255],
+    "Gensoukyou Project - Mountain of Faith":[50,246,209,255],
+    "Gensoukyou Project - Undefined Fantastic Object":[158,54,255,255],
+    "Gensoukyou Project - Subterranean Animism":[255,6,104,255],
+    "Gensoukyou Project - Night Sakura of Dead Spirits":[255,162,227,255],
+    },
+    "graphics":{
+    
+      "fx":{
+          "FM_trail_1":"graphics/fx/FM_laser_fringe.png",
+		      "FM_trail_2":"graphics/fx/FM_trail_2.png",
+		      "FM_trail_3":"graphics/fx/FM_trail_3.png",
+          "FM_trail_4":"graphics/fx/FM_trail_4.png",
+          "FM_ventffect_1":"graphics/fx/FM_radial_fx_test.png",
+          "FM_modeffect_1":"graphics/fx/FM_modeffect_1.png",
+          "FM_modeffect_2":"graphics/fx/FM_modeffect_2.png",
+          "FM_modeffect_3":"graphics/fx/FM_modeffect_3.png",
+          "FM_modeffect_4":"graphics/fx/FM_modeffect_4.png",
+          "FM_modeffect_5":"graphics/fx/FM_modeffect_5.png",
+          "FM_modeffect_6":"graphics/fx/FM_modeffect_6.png",
+          "FM_maskTest":"graphics/ships/FM_Rumia/FM_Rumia_glow1.png",
+
+          "FM_DiamondParticle3DTest_ring":"graphics/fx/beam_laser_fringe.png",
+          #"FM_DiamondParticle3DTest_ring":"graphics/fx/beamfringeb.png",
+
+          "FM_shieldinner":"graphics/fx/shields256.png",
+          "FM_shieldring":"graphics/fx/shields256ringb.png",
+
+          "FM_StreamFx0":"graphics/fx/FM_StreamFx0.png",
+          "FM_StreamFx1":"graphics/fx/FM_StreamFx1.png",
+          "FM_StreamFx2":"graphics/fx/FM_StreamFx2.png",
+
+          "FM_MikoEffect":"graphics/ships/FM_Miko/FM_MikoEffect.png",
+          "FM_BazhiwuSystemVisual_00":"graphics/ships/deco/FM_BazhiwuSystemVisual_00.png",
+          "FM_BazhiwuSystemVisual_01":"graphics/ships/deco/FM_BazhiwuSystemVisual_01.png",
+
+          "FM_MomiziEffect_Test":"graphics/fx/FM_MomiziEffect_S.png",
+        },
+
+      "misc":{
+        "FM_Opposition_proj_sprite":"graphics/weapons/projects/FM_Opposition_proj.png",
+        "FM_PetaFlare_project_sprite_p":"graphics/weapons/projects/FM_PetaFlare_project.png"
+            
+        },
+		  "intel":{
+
+		    "FM_Reimu":"graphics/portraits/FM_portrait_event01.png",
+        "FM_Tokiko":"graphics/portraits/FM_portrait_event02.png",
+        "FM_Kutaka":"graphics/portraits/FM_portrait_event03.png",
+        
+        "FM_Tenshi":"graphics/portraits/FM_portrait_mission01.png",
+        "FM_Iku":"graphics/portraits/FM_portrait_mission02.png",
+
+        "FM_crest":"graphics/factions/FM_crest.png"
+
+		    },
+    
+      "illustrations":{
+        "FM_illustration_01":"graphics/illustrations/FM_illustration_01.png",
+        "FM_illustration_02":"graphics/illustrations/FM_illustration_02.png",
+        },
+
+      "blueprint_packages":{
+         "FM_com_bp":"graphics/icons/FM_com_package.png"
+        },
+
+      "fighterSkinsPlayerAndNPC":{
+      },
+      "fighterSkinsPlayerOnly":{
+        "xyphos_FM":"graphics/ships/fighters/xyphos_fm.png",
+        "sarissa_FM":"graphics/ships/fighters/sarissa_fm.png",
+      },
+
+    },
+    "plugins":{
+      "FM_SpellFieldEffectScript":"data.utils.FM_SpellFieldEffectScript",
+      "FM_ProjectEffect":"data.utils.FM_ProjectEffect",
+
+    }
+}

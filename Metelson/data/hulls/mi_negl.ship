@@ -1,0 +1,79 @@
+{
+  "hullName": "Negl",
+  "hullId": "mi_negl",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/negl.png",
+  "style": "LOW_TECH",
+  "height": 33,
+  "width": 30,
+  "center": [15, 13],
+  "collisionRadius": 31.642534,
+  "shieldCenter": [1.5, -0],
+  "shieldRadius": 22.472204,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0001": "minerAC",
+    "WS0002": "swarmer_fighter",
+    "WS0003": "crackler"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [15.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": -0,
+      "locations": [2, 9.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": 0,
+      "locations": [2, -9.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-9.5, 6.5],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-9.5, -6.5],
+      "length": 32,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-12.5, -0],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -6, -11,
+    19, -0,
+    -6, 11
+  ]
+}

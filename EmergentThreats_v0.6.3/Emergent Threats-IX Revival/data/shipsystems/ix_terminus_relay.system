@@ -1,0 +1,14 @@
+{
+	"id":"ix_terminus_relay",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.scripts.ix.ai.TerminusRelayAI",
+	"statsScript":"data.scripts.ix.shipsystems.TerminusRelayStats", # system state logic and effect
+
+	"useSound":"tachyon_lance_emp_impact",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+
+	}
+}

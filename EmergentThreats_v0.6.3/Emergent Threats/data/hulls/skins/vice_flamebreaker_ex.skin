@@ -1,0 +1,10 @@
+{
+	"baseHullId":"vice_flamebreaker_base",
+	"skinHullId":"vice_flamebreaker_ex",
+	"hullName":"Flamebreaker (EX)",
+	"descriptionId":"vice_ex_all",
+	"descriptionPrefix":"A high-tech cruiser prototype equipped with advanced sensors, along with a set of high performance capacitors that can temporarily supercharge its energy weapons. The Flamebreaker excels at long range suppression of enemy forces, but is relatively sluggish compared to other high-tech hulls.",
+	"tags":["rare_bp", "hist2t", "merc", "ind", "tritachyon", "vice_ex_bp"],
+	"removeHints":["HIDE_IN_CODEX"],
+	"builtInMods":["hiressensors", "vice_experimental_hull"],
+}

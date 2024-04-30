@@ -1,0 +1,156 @@
+{
+  "bounds": [
+    -50.5,
+    18.5,
+    -50.5,
+    31.5,
+    -41,
+    42.5,
+    -9.5,
+    57,
+    29.5,
+    47,
+    51,
+    12.5,
+    17,
+    7,
+    17,
+    -7,
+    51,
+    -12.5,
+    29.5,
+    -47,
+    -9.5,
+    -57,
+    -41,
+    -42.5,
+    -50.5,
+    -31.5,
+    -50.5,
+    -18.5
+  ],
+  "builtInMods": [
+    "pn_nanitegel"
+  ],
+  "builtInWeapons": {
+    "WS0004": "pn_trundler_gel"
+  },
+  "center": [
+    56.5,
+    53.5
+  ],
+  "collisionRadius": 67.537025,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 15.5,
+      "location": [
+        -48.5,
+        -31
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 4
+    },
+    {
+      "angle": -180,
+      "contrailSize": 4,
+      "length": 15.5,
+      "location": [
+        -48.5,
+        31
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 4
+    },
+    {
+      "angle": -180,
+      "contrailSize": 8,
+      "length": 23.5,
+      "location": [
+        -46,
+        24.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 8
+    },
+    {
+      "angle": 180,
+      "contrailSize": 8,
+      "length": 23.5,
+      "location": [
+        -46,
+        -24.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 8
+    }
+  ],
+  "height": 110,
+  "hullId": "pn_m-tron",
+  "hullName": "M-tron",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 65,
+  "spriteName": "graphics/pn/ships/pn_trundler.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 65,
+      "arc": 200,
+      "id": "WS0001",
+      "locations": [
+        -11.5,
+        30.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -65,
+      "arc": 200,
+      "id": "WS0002",
+      "locations": [
+        -11.5,
+        -30.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 320,
+      "id": "WS0003",
+      "locations": [
+        -6.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        0,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 113
+}

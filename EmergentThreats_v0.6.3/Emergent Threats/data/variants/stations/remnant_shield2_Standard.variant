@@ -1,0 +1,18 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "hullId": "vice_station_shield_platform",
+    "hullMods": ["vice_adaptive_neural_net"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "remnant_shield2_Standard",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS 001": "guardian",
+            "WS 002": "guardian"
+        }
+    }]
+}

@@ -1,0 +1,65 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 11,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "vice_resplendent",
+    "hullMods": [
+        "fluxdistributor",
+        "hardenedshieldemitter",
+        "targetingunit",
+        "stabilizedshieldemitter",
+        "vice_adaptive_gravity_drive"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_resplendent_elite",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "tachyonlance",
+                "WS 002": "tachyonlance"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "pilum",
+                "WS 008": "pilum"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "hveldriver",
+                "WS 006": "hveldriver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "heavyburst",
+                "WS 004": "heavyburst",
+                "WS 009": "lrpdlaser",
+                "WS 010": "lrpdlaser",
+                "WS 011": "lrpdlaser",
+                "WS 012": "lrpdlaser",
+                "WS 013": "lrpdlaser",
+                "WS 014": "lrpdlaser"
+            }
+        }
+    ],
+    "wings": [
+        "flash_wing",
+        "flash_wing",
+        "flash_wing",
+        "flash_wing",
+        "flash_wing",
+        "flash_wing"
+    ]
+}

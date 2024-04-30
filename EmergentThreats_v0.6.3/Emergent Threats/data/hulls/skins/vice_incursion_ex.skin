@@ -1,0 +1,15 @@
+{
+	"baseHullId":"vice_incursion_base",
+	"skinHullId":"vice_incursion_ex",
+	"hullName":"Incursion (EX)",
+	"hullDesignation":"Battleship",
+	"descriptionId":"vice_ex_all",
+	"descriptionPrefix":"A high-tech battleship prototype intended to replace the venerable Onslaught. The Incursion was the result of bitter compromises between reformers and traditionalists within the Domain Navy, and bears several antiquated design traits such as fixed forward shields and built-in energy weapons that are rarely found on high-tech hulls. Nonetheless, it performs as a highly capable flotilla leader when its vulnerable flanks are well protected by escorts.",
+	"tags":["rare_bp", "hist3t", "merc", "ind", "tritachyon", "vice_ex_bp"],
+	"removeHints":["HIDE_IN_CODEX"],
+	"builtInMods":["vice_incursion_hull", "vice_experimental_hull"],
+	"builtInWeapons": {
+        "WS20": "vice_neutron_autolance",
+        "WS21": "vice_neutron_autolance"
+    },
+}

@@ -1,0 +1,46 @@
+{
+  "variantId": "mi_cringer_CS",
+  "hullId": "mi_cringer",
+  "displayName": "Close Support",
+  "goalVariant": true,
+  "fluxCapacitors": 17,
+  "fluxVents": 30,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "harpoonpod",
+        "WS0002": "harpoonpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "annihilator",
+        "WS0007": "annihilator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "combatmg",
+        "WS0004": "lightmg",
+        "WS0005": "lightmg",
+        "WS0008": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "golgata_wing",
+    "golgata_wing"
+  ]
+}

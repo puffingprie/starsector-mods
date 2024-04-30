@@ -1,0 +1,68 @@
+{
+  "variantId": "mi_thrudgelmir_CS",
+  "hullId": "mi_thrudgelmir",
+  "displayName": "Close Support",
+  "goalVariant": true,
+  "fluxCapacitors": 18,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "fluxbreakers",
+    "blast_doors"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0024": "guilmjnor"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "annihilatorpod",
+        "WS0006": "annihilatorpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "actel",
+        "WS0014": "mjolnir",
+        "WS0015": "mjolnir"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "railgun",
+        "WS0010": "ionbeam",
+        "WS0011": "ionbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "flak",
+        "WS0002": "maser",
+        "WS0003": "maser",
+        "WS0004": "flak",
+        "WS0020": "crackler",
+        "WS0021": "crackler",
+        "WS0022": "crackler",
+        "WS0023": "crackler"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "obex_wing",
+    "negl_wing"
+  ]
+}

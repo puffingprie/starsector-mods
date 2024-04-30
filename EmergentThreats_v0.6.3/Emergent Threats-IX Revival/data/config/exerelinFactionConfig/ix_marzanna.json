@@ -1,0 +1,25 @@
+{
+    "playableFaction":false,
+    "corvusCompatible":true,
+    "spawnAsFactionId":"ix_battlegroup",
+    "directoryUseShortName":true,
+    "rebelFleetSuffix":"Traitors",
+	
+	"patrolSizeMult": 1,
+	"noRandomizeRelations":true,
+
+    "startRelationships":{ "default":-0.50, "pirates":0, "ix_battlegroup":1, "ix_core":1 },
+	"maxRelationships":{ "default":-0.50, "player": 1, "pirates":1, "ix_battlegroup":1, "ix_core":1},
+	"diplomacyPositiveChance":{ "default":0 },
+    "diplomacyNegativeChance":{ "default":0 },
+	"morality":"amoral",
+	
+    "responseFleetName":"Liquidators",
+    
+    "colonyExpeditionChance":0,	# 0 to disable colonization
+    "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
+    
+    "groundBattleSettings":{
+        "moraleDamageTakenMult":1.1,
+    },
+}

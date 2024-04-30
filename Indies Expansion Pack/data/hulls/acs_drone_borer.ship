@@ -1,0 +1,56 @@
+{
+  "hullName": "Borer Drone",
+  "hullId": "acs_drone_borer",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/acs_ballistic_drone_borer.png",
+  "style": "LOW_TECH",
+  "height": 16,
+  "width": 18,
+  "center": [9, 8],
+  "collisionRadius": 12,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 12,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": 0,
+      "locations": [0, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-6, 0],
+      "length": 12,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-6, 6],
+      "length": 8,
+      "width": 4,
+      "angle": 160,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-6, -6],
+      "length": 8,
+      "width": 4,
+      "angle": 200,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    5, 0,
+    -5, 6,
+    -5, -6
+  ]
+}

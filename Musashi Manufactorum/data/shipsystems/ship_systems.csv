@@ -1,0 +1,6 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
+Musashi Standard Feeder,mm_standardfeed,,,,,,,,,,0.5,2,0.5,11,,,,,,,,,,,,,graphics/icons/hullsys/ammo_feeder.png
+Musashi Super Feeder,mm_superfeed,,,,,,,,,,0.5,2,0.5,12,,,,,,,,,,,,,graphics/icons/hullsys/ammo_feeder.png
+Musashi Relic Feeder,mm_relicfeed,,,,,,,,,,0.5,2,0.5,13,,,,,,,,,,,,,graphics/icons/hullsys/ammo_feeder.png
+Musashi Rubiophaser ,mm_phasecloak,,,,,,,,,,0.5,,0.5,2,TRUE,,TRUE,TRUE,TRUE,,,,TRUE,,TRUE,,graphics/icons/hullsys/phase_cloak.png
+Musashi Rubiophaser ,mm_rubioplasmicjumper,,,,,,,,,,0.5,0,0.5,2,,,,TRUE,,,,,,,,,graphics/icons/hullsys/displacer.png

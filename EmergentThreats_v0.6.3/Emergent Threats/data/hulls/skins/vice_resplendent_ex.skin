@@ -1,0 +1,18 @@
+{
+	"baseHullId":"vice_paragon_base",
+	"skinHullId":"vice_resplendent_ex",
+	"hullName":"Resplendent (EX)",
+	"hullDesignation":"Command Carrier",
+	"descriptionId":"vice_resplendent_ex",
+	"descriptionPrefix":"A one of a kind prototype, the TTS Event Horizon was the first Paragon-class battleship to be converted into what would become the Resplendent-class command carrier. However, the ship disappeared during the testing of an experimental gravity drive, and did not take part in the First AI War. Although written off as lost by both its creators and the Hegemony, its fate was never conclusively determined, and alleged sightings since then have given it something of a reputation as a ghost ship.",
+	"tags":["restricted"],
+	"systemId":"vice_massdeployment",
+	"addHints":["CARRIER", "COMBAT", "NO_AUTO_ESCORT", SHIP_WITH_MODULES],
+	"removeHints":[],
+	"manufacturer":"High Tech",
+	"fighterBays":4,
+	"ordnancePoints":330,
+	"spriteName":"graphics/vice/ships/hidden/resplendent_ex.png",
+	"builtInWings": [],
+	"builtInMods":["vice_ai_subsystem_integration", "vice_resplendent_prototype", "vice_dual_terminator_core"],
+}

@@ -1,0 +1,58 @@
+{
+  "variantId": "mi_bigvaringur_standard",
+  "hullId": "mi_bigvaringur",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 19,
+  "fluxVents": 30,
+  "quality": 2,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "swarmer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "maser",
+        "WS0006": "maser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "minerAC",
+        "WS0008": "minerAC",
+        "WS0009": "minerAC",
+        "WS0010": "minerAC"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "light_maser_beam",
+        "WS0003": "light_maser_beam",
+        "WS0004": "flak"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "golgata_wing",
+    "golgata_wing",
+    "grudiver_wing"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 2,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "vice_exhortation",
+    "hullMods": [
+        "fluxdistributor",
+        "hardenedshieldemitter",
+        "targetingunit",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_exhortation_elite",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "gigacannon",
+                "WS 001": "gigacannon",
+                "WS 008": "heavyac",
+                "WS 009": "heavyac",
+                "WS 010": "heavyac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "kineticblaster",
+                "WS 006": "kineticblaster"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "gravitonbeam",
+                "WS 007": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "flak",
+                "WS 005": "flak",
+                "WS 014": "pdburst",
+                "WS 015": "pdburst",
+                "WS 016": "pdburst",
+                "WS 017": "pdburst"
+            }
+        }
+    ],
+    "wings": [
+        "vice_spatha_wing",
+        "vice_estoc_wing",
+        "vice_kite_lg_wing"
+    ]
+}

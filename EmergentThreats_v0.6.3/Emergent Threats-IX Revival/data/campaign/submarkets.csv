@@ -1,0 +1,2 @@
+id,name,faction,desc,script,icon,order
+IX_honor_guard_market,Honor Guard Armory,ix_battlegroup,Requisition equipment from the IX Battlegroup Honor Guard.,data.scripts.ix.submarkets.IXHonorGuardMarket,,101

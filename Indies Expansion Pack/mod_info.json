@@ -1,0 +1,12 @@
+{
+    "id":"aerialcombatsuit",
+    "name":"Indies Expansion Pack",
+    "author":"NeoLemon",	
+    "version":"1.92",
+    "description":"Add bunch of indies stuff.",
+    "gameVersion":"0.97a-RC6", 
+	#"0.95. 1a RC8", 0.96a, 0.97a-RC6
+	#[NEO] Indies Expansion Pack 9.7 v1.92
+	"jars":["jars/acs_lemonshipandstuff.jar"],
+	"modPlugin":"data.scripts.acs_ModPlugin",
+}

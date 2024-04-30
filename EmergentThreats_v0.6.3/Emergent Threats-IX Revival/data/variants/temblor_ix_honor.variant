@@ -1,0 +1,40 @@
+{
+    "displayName": "Honor Guard",
+    "fluxCapacitors": 7,
+    "fluxVents": 10,
+    "hullId": "temblor_ix",
+    "hullMods": [
+        "nav_relay",
+        "ix_reactive_combat_shields",
+        "ix_smod_handler",
+        "advancedoptics",
+        "extendedshieldemitter",
+        "frontemitter"
+    ],
+    "permaMods": [
+        "ix_reactive_combat_shields",
+        "nav_relay",
+        "ix_smod_handler"
+    ],
+    "sMods": [
+        "ix_reactive_combat_shields",
+        "nav_relay"
+    ],
+    "variantId": "temblor_ix_honor",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "muon_autolance_ix",
+                "WS 002": "morningstar_ciws_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS DIF": "diffraction_laser_ix"}
+        }
+    ],
+    "wings": []
+}

@@ -1,0 +1,23 @@
+{
+	"baseHullId":"vice_mimesis_p",
+	"skinHullId":"vice_mimesis",
+	"hullName":"Mimesis",
+	"hullDesignation":"Modified Superfreighter",
+	"descriptionId":"vice_mimesis",
+	"descriptionPrefix":"A radically rebuilt version of an already heavily modified superfreighter, this unique pirate battleship is crawling with swarms of automated repair drones. At some point in its murky history, an attempt to repair severe damage to its starboard hull led to the machine swarm constructing a vast autonomous drone bay, which continues to operate despite its precarious position next to a heavy missile battery and maneuvering thrusters.",
+	"tags":["no_bp","no_dealer"],
+	"systemId":"plasmajets",
+	"manufacturer":"Unknown",
+	"fighterBays":1,
+	"baseValueMult":2,
+	"fpMod":3,
+	"spriteName":"graphics/vice/ships/hidden/mimesis.png",
+	"removeBuiltInMods":["vice_active_flare_launcher", "vice_mimesis_hull"],
+	"builtInWings": ["lux_wing", "lux_wing"],
+	"builtInMods":["vice_abomination_interface", "vice_emp_emitter", "vice_self_evolving_hull"],
+	"weaponSlotChanges":{
+		"WS 011":{"type": "DECORATIVE", "mount": "HIDDEN"},
+		"WS 012":{"type": "DECORATIVE", "mount": "HIDDEN"},
+        },
+	},
+}

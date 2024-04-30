@@ -1,0 +1,53 @@
+{
+  "hullName": "Maggot",
+  "hullId": "kayse_maggot",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/kayse/ships/maggot/maggot.png",
+  "style": "HIGH_TECH",
+  "height": 34,
+  "width": 34,
+  "center": [15, 16],
+  "collisionRadius": 39,
+  "shieldCenter": [4, 0],
+  "shieldRadius": 35,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-0.5, -2]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [9.5, -2]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-14, -2],
+      "length": 40,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    4, 10,
+    14.5, -2,
+    4, -15.5,
+    -4, -5,
+    -12.5, -6.5,
+    -12.5, 3,
+    -4, 1
+  ]
+}

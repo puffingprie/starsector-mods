@@ -1,0 +1,107 @@
+{
+  "hullName": "Necromaner",
+  "hullId": "kayse_necromancer",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/kayse/ships/necromancer/necromancer.png",
+  "style": "HIGH_TECH",
+  "height": 182,
+  "width": 136,
+  "center": [72, 97.5],
+  "collisionRadius": 120,
+  "shieldCenter": [5.5, -0],
+  "shieldRadius": 102.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "repair_gantry",
+    "phasefield",
+    "delicate"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": 0,
+      "locations": [68.5, -6]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [55.5, 19]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [46.5, 10]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-77.5, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-95.5, 10],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-96, 21],
+      "length": 48,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-95.5, -3],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-96, -14.5],
+      "length": 48,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    73.5, 19,
+    50, 30.5,
+    34.5, 32.5,
+    10, 51.5,
+    -18.5, 51.5,
+    -47.5, 27,
+    -90.5, 25.5,
+    -92.5, -15.5,
+    -57.5, -23,
+    -20, -53,
+    18, -52,
+    40, -33.5,
+    57.5, -27.5,
+    74.5, -33
+  ]
+}

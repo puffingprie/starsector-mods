@@ -1,0 +1,9 @@
+{
+	"id":"vice_micromissile",
+	"type":"WEAPON",
+	"aiType":"CUSTOM",
+	"aiScript":"data.scripts.vice.ai.MicroMissileAI",
+	
+	"weaponDataId":"vice_mml",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

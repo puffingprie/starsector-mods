@@ -1,0 +1,16 @@
+{
+	"id":"acs_backupmg_pdhead_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"hitGlowRadius":1,
+	"length":3.0,
+	"width":1,
+	"fadeTime":0.15,
+	"fringeColor":[255,50,50,255],
+	"coreColor":[255,255,200,150],	
+	"textureScrollSpeed":2.0,
+	"pixelsPerTexel":3.0,
+	"bulletSprite":"graphics/missiles/shell_large_blue.png"
+}

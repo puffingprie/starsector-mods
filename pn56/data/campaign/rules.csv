@@ -1,0 +1,53 @@
+id,trigger,conditions,script,text,options,notes
+"#RULESET_NAME P9 Colony",,,,,,
+,,,,,,
+# P9 Colony fleet greeting lines,,,,,,
+greetingPnNeutral,OpenCommLink,"$faction.id == pn_colony
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""We have our sensors trained on you, Captain. Move along and keep your distance.""",,
+greetingPnHostileWeaker,OpenCommLink,"$faction.id == pn_colony
+$faction.hostileToPlayer
+$relativeStrength < 0","$ignorePlayerCommRequests = true 1","The $personRank looks sad $heOrShe looks up briefly and say, ""This isn't fair you know.""
+OR
+$heOrShe sends you an address accompanied by a short text message ""If discovered during salvaging, please send my KA-form to the following address.""  Further hails go unanswered.","cutCommLink:Cut the comm link",
+greetingPnHostileStronger,OpenCommLink,"$faction.id == pn_colony
+$faction.hostileToPlayer
+$relativeStrength >= 0","$ignorePlayerCommRequests = true 1","Looking directly at the screen the $personRank gives a small grin.
+OR
+""I guess I can fill these in afterwards.""","cutCommLink:Cut the comm link",
+greetingPnFriendly,OpenCommLink,"$faction.id == pn_colony
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Your codes match our register $playerName. Have a nice flight.""
+OR
+""ID codes check out, you are clear to proceed""
+OR
+""Hi, great that I got ahold of you, our sensors picked up that your ship have an unregistered paintscheme could you just help me speed up the process by filling out thi..."" You cut the comm link before the officer finishes the sentence. ",,
+greetingPnHostileWeakerDefiant,OpenCommLink,"$faction.id == pn_colony
+$faction.hostileToPlayer
+$relativeStrength < 0
+$weakerThanPlayerButHolding","$ignorePlayerCommRequests = true 1","The P9 $personRank looks into the comm screen and sighs, pulls out a pen and begins to fill out a form $hisOrHer crew moves to their stations in the background. The comms signal cuts out a moment later. 
+OR
+The P9 $personRank looks into the comm screen and smiles, pulls out a pen and begins to fill out a small stack of forms, $hisOrHer crew moves to their stations in the background, some are carrying pens and paper.","cutCommLink:Cut the comm link",
+"#END P9 Colony fleet greeting lines",,,,,,
+,,,,,,
+# getting a faction commission,,,,,,
+,,,,,,
+# P9 commission,,,,,,
+CMSNTextHasOther_Pn,CMSNTextHasOther,"$faction.id == pn_colony",,"""No that does not work for us, your commission by $theOtherCommissionFaction would be incompatible with our recruitment form. Please resign your other commission before asking us again.""",,
+CMSNRejectHostileText_Pn,CMSNTextRejectHostile,"$faction.id == pn_colony",,"""Absolutely not!.""",,
+CMSNTextUnsuited_Pn,CMSNTextUnsuited,"$faction.id == pn_colony",,"""Hi, $playerName, your request for a comission has been rejected due to violation of section D336""",,
+CMSNTextSuitedPart1_Pn,CMSNTextSuitedPart1,"$faction.id == pn_colony",,"""Splendid, you match all our criterias so just put your name here on page 35 and you are commissioned.
+
+However you should take extra care of reading about your responsibilities as a commissioned captain on pages 4-19 and our documentation routines on page 21-34, full compliance is expected.""",,
+CMSNTextSuitedPart2_Pn,CMSNTextSuitedPart2,"$faction.id == pn_colony",,"""That was quick, you must be a very fast reader! Now, do you accept?""",,
+CMSNTextWelcomePart1_Pn,CMSNTextWelcomePart1,"$faction.id == pn_colony",,"""Lovely, welcome to our organization! Now if you excuse me I have some paperwork to do now.""",,
+CMSNTextWelcomePart2_Pn,CMSNTextWelcomePart2,"$faction.id == pn_colony",,"""$personRank $personLastName looks up briefly, smiles slightly and picks up a new pen.""",,
+CMSNTextChangeMind_Pn,CMSNTextChangeMind,"$faction.id == pn_colony",,"""No? Ah, very well then.
+
+Is there anything else I can do for you?""",,
+CMSNResignAskToConfirm_Pn,CMSNResignAskToConfirm,"$faction.id == pn_colony",,"""What, why? Have you thought this through, are you sure?""",,
+CMSNResignConfirmed_Pn,CMSNResignConfirmed,"$faction.id == pn_colony",,"""Ok then, I'll just tick this box here and you are out of our system""",,
+CMSNResignCancelled_Pn,CMSNResignCancelled,"$faction.id == pn_colony",,"""Good, now if you excuse me I have work to do""",,
+"#END P9 commission",,,,,,
+"#END getting a faction commission",,,,,,
+

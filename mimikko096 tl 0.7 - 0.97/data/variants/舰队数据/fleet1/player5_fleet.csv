@@ -1,0 +1,27 @@
+rowNumber,variant,personality,skills,name,portrait
+
+#每一行都代表一艘船
+#
+#  1,medusa_CS,reckless,"helmsmanship, combat_endurance",High Medusa,
+#  2,omen_PD,steady,,Thunder Storm,
+#  3,shade_Assault,steady,,,
+#
+#
+#第一个空填数字1,2,3,4.....依次排序
+#第二个空填写你的装配名称
+#第三个空填写副官性格，可以留空，默认沉着
+#第四个空填写副官技能，以list形式，比如 "helmsmanship, combat_endurance"，可以留空
+#第五个空填写舰船名称，可以留空
+#第六个空是副官头像的路径，副官头像仅在有副官技能的情况下生效，可以留空
+
+0,HU_ey,aggressive,"field_modulation,field_modulation,helmsmanship,impact_mitigation,systems_expertise,damage_control",,
+1,HU_jt,steady,"helmsmanship,helmsmanship,target_analysis,ballistic_mastery",,
+4,HU_jt,steady,"helmsmanship,helmsmanship,target_analysis,ballistic_mastery",,
+5,RC_dj2,steady,"damage_control,damage_control,ballistic_mastery,damage_control",,
+6,RC_dj2,steady,,,
+7,RC_dj2,steady,,,
+8,RC_dj2,steady,,,
+10,DT_mql,reckless,,,
+
+
+

@@ -1,0 +1,21 @@
+{
+	"displayName":"Defender Drone",
+	"hullId":"vice_sundog",
+	"variantId":"vice_sundog_defender",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"mods":[], 
+	"weaponGroups":[
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS 000":"lrpdlaser",
+					"WS 001":"lrpdlaser",
+		 		   },
+		},
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS 002":"vice_fragbomb_fighter",
+		 		   },
+		},
+	],
+}

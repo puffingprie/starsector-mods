@@ -1,0 +1,92 @@
+{
+  "hullName": "Mudder",
+  "hullId": "mi_mudskipper",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/mi_mudskipper.png",
+  "style": "LOW_TECH",
+  "height": 84,
+  "width": 64,
+  "center": [32, 42],
+  "collisionRadius": 73.608765,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 66.153229,
+  "viewOffset": 0,
+  "builtInMods": [
+    "shielded_holds",
+    "civgrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 274.09082,
+      "angle": 0,
+      "locations": [23, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 285,
+      "angle": -90,
+      "locations": [-16, -11]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-39, -0],
+      "length": 64,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-39, 24],
+      "length": 24,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-39, -24],
+      "length": 24,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [19, 29],
+      "length": 16,
+      "width": 8,
+      "angle": 150,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [19, -28],
+      "length": 16,
+      "width": 8,
+      "angle": 210,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    37.5, -9,
+    31.5, -25.5,
+    -37.5, -27.5,
+    -32, -14,
+    -37, -8.5,
+    -37, 8.5,
+    -32, 14,
+    -37.5, 27.5,
+    31.5, 25.5,
+    37.5, 9
+  ]
+}

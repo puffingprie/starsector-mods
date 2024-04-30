@@ -1,0 +1,27 @@
+{
+	"WeaponStat": {
+		"tmi safety tag": "Base stats:",
+		
+		"turn rate": "Turn rate: %s°/s",
+		
+		"min spread": "Min spread: %s°",
+		"max spread": "Max spread: %s°",
+		"spread/shot": "Spread per shot: %s°",
+		"spread decay/sec": "Spread decay: %s°/s",
+		
+		"proj speed": "Projectile speed: %su/s",
+		
+		"beam speed": "Beam speed: %su/s",
+		
+		"proj hitpoints": "Projectile health: %shp",
+		"launch speed": "Launch speed: %su/s",
+		"flight time": "Flight time: %ss",
+		
+		"getMaxSpeed": "Max speed: %su/s",
+		"getAcceleration": "Acceleration: %su/s²",
+		"getDeceleration": "Deceleration: %su/s²",
+		
+		"getMaxTurnRate": "Max turn rate: %s°/s",
+		"getTurnAcceleration": "Turn acceleration: %s°/s²"
+	}
+}

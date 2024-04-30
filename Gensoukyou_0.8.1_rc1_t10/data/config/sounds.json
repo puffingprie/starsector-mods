@@ -1,0 +1,190 @@
+{
+	"music":{
+
+		"FM_market_hostile":[
+			{
+				"source":"sounds/bgm",
+				"volume":1,
+				"files":[
+					"FM_market_hostile.ogg",
+				],
+				"randomStart":true,
+			},
+		],
+
+		"FM_market_neutral":[
+			{
+				"source":"sounds/bgm",
+				"volume":1,
+				"files":[
+					"FM_market_neutral.ogg",
+				],
+				"randomStart":true,
+			},
+		],
+
+		"FM_market_friendly":[
+			{
+				"source":"sounds/bgm",
+				"volume":1,
+				"files":[
+					"FM_market_friendly.ogg",
+				],
+				"randomStart":true,
+			},
+		],
+
+		"FM_encounter_hostile":[
+			{
+				"source":"sounds/bgm",
+				"volume":1,
+				"files":[
+					"FM_encounter_hostile.ogg",
+				],
+				"randomStart":true,
+			},
+		],
+
+		"FM_encounter_neutral":[
+			{
+				"source":"sounds/bgm",
+				"volume":1,
+				"files":[
+					"FM_encounter_neutral.ogg",
+				],
+				"randomStart":true,
+			},
+		],
+
+		"FM_encounter_friendly":[
+			{
+				"source":"sounds/bgm",
+				"volume":1,
+				"files":[
+					"FM_encounter_friendly.ogg",
+				],
+				"randomStart":true,
+			},
+		],
+
+		"FM_starsystem_01":[
+			{
+				"source":"sounds/bgm",
+				"volume":1,
+				"files":[
+					"FM_starsystem_01.ogg",
+				],
+				"randomStart":false,
+			},
+		],
+
+	},
+
+	#SE and FX
+
+ 	#UNCHECK
+	"FM_icebreak_se":[
+		{"file":"sounds/se/FM_icebreak_se.ogg","pitch":1,"volume":0.4},
+	],
+	"FM_Hailstorm_se":[
+	    {"file":"sounds/se/FM_Hailstorm_se.ogg","pitch":1,"volume":0.9},
+	],
+	"FM_bordermod_se":[
+	    {"file":"sounds/se/FM_bordermod_se.ogg","pitch":1,"volume":1.0},
+	],
+	"FM_Masterspark_se":[
+	    {"file":"sounds/se/FM_Masterspark_se.ogg","pitch":1,"volume":1.0},
+	],
+
+	#shipsystems
+	"FM_surprisingstrike_loop":[
+		{"file":"sounds/se/shipsystems/FM_surprisingstrike_loop.ogg","pitch":1,"volume":1.0},
+	],
+
+	#energy_large
+	"FM_LunaticBow_fire":[
+			{"file":"sounds/se/energy_large/FM_LunaticBow_fire.ogg","pitch":1,"volume":1.0},
+	],
+	"FM_Nightbugs_fire":[
+			{"file":"sounds/se/energy_large/FM_Nightbugs_fire.ogg","pitch":1,"volume":1.0},
+	],
+	"FM_Nightbugs_expand_1":[
+			{"file":"sounds/se/energy_large/FM_Nightbugs_expand_1.ogg","pitch":1,"volume":1.0},
+	],
+	"FM_Nightbugs_expand_2":[
+			{"file":"sounds/se/energy_large/FM_Nightbugs_expand_2.ogg","pitch":1,"volume":1.0},
+	],
+	"FM_SilverBlade_fire":[
+			{"file":"sounds/se/energy_large/FM_SilverBlade_fire.ogg","pitch":2,"volume":1.0},
+	],
+	"FM_DesireAccelerator":[
+			{"file":"sounds/se/energy_large/FM_DesireAccelerator_fire.ogg","pitch":1,"volume":1.0},
+	],
+	"FM_PetaFlare_fire01":[
+		{"file":"sounds/se/energy_large/FM_PetaFlare_fire01.ogg","pitch":1.2,"volume":1.3},
+	],
+	"FM_PetaFlare_fire02":[
+		{"file":"sounds/se/energy_large/FM_PetaFlare_fire02.ogg","pitch":1.1,"volume":1.5},
+	],
+	"FM_LeafFujin_fire":[
+		{"file":"sounds/se/energy_medium/FM_Leaf_fire.ogg","pitch":1,"volume":1.0},
+	],
+
+	#energy_medium
+	"FM_Blade_ac_fire":[
+			{"file":"sounds/se/energy_medium/FM_Blade_ac_fire.ogg","pitch":1,"volume":1.0},
+	],
+	"FM_IllusionLaser_M_loop":[
+			{"file":"sounds/se/energy_medium/FM_IllusionLaser_M_loop.ogg","pitch":1,"volume":1.0},
+	],
+	"FM_Persuasion_fire":[
+			{"file":"sounds/se/energy_medium/FM_Persuasion_fire.ogg","pitch":3,"volume":1.0},
+	],
+	"FM_Seal_fire":[
+			{"file":"sounds/se/energy_medium/FM_Seal_fire.ogg","pitch":1,"volume":1.0},
+	],
+	"FM_Spark_heavy_fire":[
+			{"file":"sounds/se/energy_medium/FM_test_se_01.ogg","pitch":2,"volume":1.0},
+	],
+	"FM_Stardust_expand":[
+			{"file":"sounds/se/energy_medium/FM_Stardust_expand.ogg","pitch":1,"volume":1.0},
+	],
+	"FM_Stardust_fire":[
+			{"file":"sounds/se/energy_medium/FM_Stardust_fire.ogg","pitch":1,"volume":1.0},
+	],
+	"FM_Leaf_fire":[
+		{"file":"sounds/se/energy_medium/FM_Leaf_fire.ogg","pitch":2,"volume":1.0},
+	],
+	"FM_Ad_fire":[
+		{"file":"sounds/se/energy_medium/FM_Ad_fire.ogg","pitch":1,"volume":2},
+	],
+
+
+	#energy_small
+	"FM_IcicleFall_fire":[
+			{"file":"sounds/se/energy_small/FM_IcicleFall_fire.ogg","pitch":1,"volume":1.0},
+	],
+	"FM_IllusionLaser_S_loop":[
+			{"file":"sounds/se/energy_small/FM_IllusionLaser_S_loop.ogg","pitch":1,"volume":1.0},
+	],
+	"FM_Spark_pd_fire":[
+			{"file":"sounds/se/energy_small/FM_Spark_pd_fire.ogg","pitch":1,"volume":1.0},
+	],
+	"FM_CaptureWeb_fire":[
+			{"file":"sounds/se/energy_small/FM_IcicleFall_fire.ogg","pitch":0.5,"volume":1.0},
+	],
+
+	#missile_small
+	"FM_Opposition_expand":[
+			{"file":"sounds/se/missile_small/FM_Opposition_expand.ogg","pitch":1,"volume":0.8},
+	],
+	"FM_Opposition_fire":[
+			{"file":"sounds/se/missile_small/FM_Opposition_fire.ogg","pitch":1,"volume":1.0},
+	],
+	"FM_SkySerpent_S_expand":[
+			{"file":"sounds/se/missile_small/FM_SkySerpent_S_expand.ogg","pitch":1,"volume":1.0},
+	],
+	"FM_SkySerpent_S_fire":[
+			{"file":"sounds/se/missile_small/FM_SkySerpent_S_fire.ogg","pitch":1,"volume":1.0},
+	],
+}

@@ -1,0 +1,79 @@
+{
+  "hullName": "Sundog",
+  "hullId": "vice_sundog",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/vice/ships/hidden/sundog.png",
+  "style": "HIGH_TECH",
+  "height": 35,
+  "width": 42,
+  "center": [21, 17],
+  "collisionRadius": 27,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 25,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux",
+    "advancedoptics"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 000",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [0, 11]
+    },
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [0, -11]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 0,
+      "locations": [12, 0]
+    },
+  ],
+  "engineSlots": [
+    {
+      "location": [-10, 13],
+      "length": 19,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-10, -13],
+      "length": 19,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-17, -0],
+      "length": 19,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    16, 0,
+    2, -20,
+    -14, 0,
+    2, 20
+  ]
+}

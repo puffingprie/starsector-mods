@@ -1,0 +1,62 @@
+{
+  "hullName": "FM_Crow_drone",
+  "hullId": "FM_Crow_drone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/FM_Crow_drone.png",
+  "style": "FM_fighter",
+  "height": 20,
+  "width": 20,
+  "center": [10, 8.5],
+  "collisionRadius": 15,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 13,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0002": "blinker_red"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [1, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [8, 3.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-2.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-5.5, -0],
+      "length": 7,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    0, -5.5,
+    -3.5, -0,
+    0, 5.5,
+    3.5, -0
+  ]
+}

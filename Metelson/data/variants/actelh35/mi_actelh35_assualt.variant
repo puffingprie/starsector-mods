@@ -1,0 +1,41 @@
+{
+  "variantId": "mi_actelh35_assualt",
+  "hullId": "mi_actelh35",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 15,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "pointdefenseai",
+    "hardened_subsystems",
+    "metelson_hullnode"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "actelh35cockpit"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "maser",
+        "WS0002": "maser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "lightag"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

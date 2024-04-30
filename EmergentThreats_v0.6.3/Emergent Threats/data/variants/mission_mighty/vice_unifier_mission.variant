@@ -1,0 +1,47 @@
+{
+    "displayName": "Navy",
+    "fluxCapacitors": 0,
+    "fluxVents": 22,
+    "hullId": "vice_unifier",
+    "hullMods": [
+        "malfunctioning_comms",
+        "fragile_subsystems",
+        "advancedoptics",
+        "targetingunit"
+    ],
+    "permaMods": [
+        "malfunctioning_comms",
+        "fragile_subsystems"
+    ],
+    "sMods": [],
+    "variantId": "vice_unifier_mission",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "breach",
+                "WS 002": "breach",
+                "WS 007": "vice_lrburstpd",
+                "WS 008": "vice_lrburstpd"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "heavyburst",
+                "WS 006": "heavyburst"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "vice_ionstreamer",
+                "WS 010": "vice_ionstreamer"
+            }
+        }
+    ],
+    "wings": ["vice_spatha_wing"]
+}

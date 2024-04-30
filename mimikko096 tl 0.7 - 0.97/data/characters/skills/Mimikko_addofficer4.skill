@@ -1,0 +1,15 @@
+{
+	"id":"Mimikko_addofficer4",
+	"governingAptitude":"Mimikko_momona",
+	"compressHullmods":false,
+	"scope":CUSTOM,
+	"scopeStr":"PLAYER",
+	"effectGroups":[
+		{
+			"requiredSkillLevel":1,
+			"effects":[
+				{"type":"SHIP", "script":"data.scripts.skill.Mimikko_addofficer4$Level1"},
+			]
+		},
+	],
+}

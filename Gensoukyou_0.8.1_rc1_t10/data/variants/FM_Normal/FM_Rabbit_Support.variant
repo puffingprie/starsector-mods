@@ -1,0 +1,37 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 6,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "FM_Rabbit",
+    "hullMods": [
+        "advancedoptics",
+        "FantasyKawausoMod"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Rabbit_Support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "FM_Spark_heavy"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "heatseeker",
+                "WS0004": "heatseeker"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "taclaser",
+                "WS0002": "taclaser"
+            }
+        }
+    ]
+}

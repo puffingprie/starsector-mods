@@ -1,0 +1,14 @@
+{
+	"id":"FM_RumiaSystem",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.ai.FM_RumiaSystem_ai",
+	"statsScript":"data.shipsystems.FM_RumiaSystem",
+	
+	#"weaponDataId":"FM_RumiaSystemWeapon",
+	"fadeActivationSoundOnChargedown":false,
+	#"useSound":"FM_PetaFlare_fire01",
+	#"loopSound":"beam_heavy_loop",
+	#"deactivateSound":"system_damper_off",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

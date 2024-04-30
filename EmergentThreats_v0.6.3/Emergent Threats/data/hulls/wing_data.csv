@@ -1,0 +1,13 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+vice_helia_wing,vice_helia_bomber,"auto_fighter, no_sell, bomber5, bomber, remnant, merc",3,,8,26,BOX,6000,2500,600,2,BOMBER,Strategic Bomber,25,20000,,,,,,,,,,,,,24
+vice_sundog_wing,vice_sundog_defender,"auto_fighter, no_sell, support3, fighter, remnant, merc",3,,6,18,BOX,0,500,,2,SUPPORT,Defender Drone,18,12000,,,,,,,,,,,,,2
+flash_wing,vice_flash_bomber,"auto_fighter, no_sell, bomber5, bomber, remnant, merc",3,,5,12,V,4000,1000,300,4,BOMBER,Strike Drone,18,8000,,,,,,,,,,,,,21
+lux_wing,vice_lux_fighter,"auto_fighter, no_sell, fighter5, fighter, remnant, merc",3,,6,10,V,6000,500,900,3,FIGHTER,Fighter Drone,15,6000,,,,,,,,,,,,,23
+vice_estoc_wing,vice_estoc_bomber,"bomber5, bomber, mid, no_drop_salvage, LG_bp",2,,6,16,BOX,4000,800,500,2,BOMBER,Bomber,16,12000,,,,,,,,,,,,,10.1
+vice_gladius_lg_wing,vice_gladius_elite,"no_drop, no_drop_salvage, no_sell, fighter4, fighter, mid",2,,8,10,V,4000,500,300,3,FIGHTER,Prototype Fighter,15,10000,,,,,,,,,,,,,3.1
+vice_kite_lg_wing,vice_kite_defender,"support6, fighter, mid, no_drop, no_drop_salvage, no_sell",3,,6,10,V,0,1200,,1,SUPPORT,Gunship,20,10000,,,,,,,,,,,,,20.1
+vice_spatha_wing,vice_spatha_fighter,"fighter5, fighter, mid, no_drop_salvage, LG_bp",2,,7,15,V,4000,500,300,3,FIGHTER,Heavy Fighter,20,10000,,,,,,,,,,,,,3.1
+vice_terminator_triple_wing,drone_terminator,"no_drop, no_drop_salvage, no_sell, high, restricted",3,,9,0,CLAW,0,200,,3,SUPPORT,Point Defense,20,6000,,,,,,,,,,,,,19.1
+vice_disruptor_drone_wing,vice_emp_disruptor_drone,"stay_in_front_of_ship, fighter8, fighter, no_drop, no_drop_salvage, no_sell, high, restricted, vice_emp",3,,7,20,BOX,4000,1000,700,1,FIGHTER,Disruptor Drone,20,10000,,,,,,,,,,,,,19.2
+vice_wasp_wing,wasp_Interceptor,"interceptor3, interceptor, no_drop, no_drop_salvage, no_sell, high, restricted",1,,5,0,CLAW,4000,200,700,6,INTERCEPTOR,Interceptor Drone,5,6000,,,,,,,,,,,,,7
+vice_spark_wing,spark_Interceptor,"interceptor, interceptor5, auto_fighter, no_drop, no_drop_salvage, no_sell, restricted",3,,4,8,CLAW,4000,200,750,5,INTERCEPTOR,Interceptor Drone,10,5000,,,,,,,,,,,,,22

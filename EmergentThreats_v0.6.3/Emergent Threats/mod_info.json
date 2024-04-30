@@ -1,0 +1,19 @@
+{
+	"id":"EmergentThreats_Vice",
+	"name":"Emergent Threats",
+	"author":"vicegrip",
+	"version":"0.6.3",
+	"description":"Adds various ships, especially [Redacted] and Sindrian Diktat ships and technologies for the player to face against and claim for themselves. Does not include IX Battlegroup content (enable ET: IX Revival separately).",
+	"gameVersion":"0.97a-RC11",
+	"dependencies": [
+		{
+            "id": "MagicLib",
+            "name": "MagicLib",
+		},
+		{
+            "id": "lunalib",
+            "name": "LunaLib",
+		},
+    ],
+	"modPlugin": "data.scripts.vice.ETModPlugin",
+}

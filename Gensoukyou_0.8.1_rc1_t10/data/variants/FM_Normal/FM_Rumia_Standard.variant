@@ -1,0 +1,25 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 10,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "FM_Rumia",
+    "hullMods": [
+        "heavyarmor",
+        "missleracks",
+        "reinforcedhull",
+        "FantasySageMod",
+        "adaptive_coils"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Rumia_Standard",
+    "weaponGroups": [{
+        "autofire": false,
+        "mode": "ALTERNATING",
+        "weapons": {
+            "WS0001": "FM_Opposition",
+            "WS0002": "FM_Opposition"
+        }
+    }]
+}

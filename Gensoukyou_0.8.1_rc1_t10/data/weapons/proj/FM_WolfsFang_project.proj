@@ -1,0 +1,40 @@
+{
+	"id":"FM_WolfsFang_project",
+	"specClass":"missile",
+	#"missileType":"ROCKET",
+	"onHitEffect":"data.weapons.onHit.FM_WolfsFangOnHit",
+	"missileType":"ROCKET",
+	"sprite":"graphics/weapons/projects/FM_LunaticBow_shell.png",
+	"size":[8,12],	
+	"center":[4,6],
+	"collisionRadius":15,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,76,76,235],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":55, # purely visual
+	"flameoutTime":1, # total time from flameout to full fadeout
+	"noEngineGlowTime":0.5, # time spent without the engine glow being rendered
+	"fadeTime":0.5, # fadeout duration	
+	"engineSpec":{"turnAcc":360,
+				  "turnRate":180,
+				  "acc":800,
+				  "dec":0},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-2, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[255,180,180,255],
+						"contrailDuration":.7,
+						"contrailWidthMult":1.2,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":0f, # how far away from engine it starts
+						"contrailColor":[255,150,150,150],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":8.0,
+				    "length":50.0,
+				    "angle":180.0}]
+}

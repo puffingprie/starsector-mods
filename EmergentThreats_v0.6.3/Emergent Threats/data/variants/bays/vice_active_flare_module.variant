@@ -1,0 +1,13 @@
+{
+    "displayName": "Active",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "vice_flare_module",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_active_flare_module",
+    "weaponGroups": [],
+	"wings": []
+}

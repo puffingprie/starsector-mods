@@ -1,0 +1,27 @@
+{
+  "variantId": "pn_mlmv_miner",
+  "hullId": "pn_mlmv",
+  "displayName": "Heavy Blasting",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "blast_doors"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mininglaser",
+        "WS0002": "mininglaser",
+        "WS0003": "mininglaser",
+        "WS0004": "miningblaster"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

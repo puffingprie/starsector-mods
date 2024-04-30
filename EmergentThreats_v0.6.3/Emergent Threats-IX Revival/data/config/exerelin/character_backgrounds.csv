@@ -1,0 +1,4 @@
+id,name,shortDescription,longDescription,order,iconPath,plugin
+ix_sotf_bg,IX Battlegroup Operative,Begin your career as an undercover operative of the IX Battlegroup,"Despite your reputation as an independent spacer seeking fame and fortune, you are in fact a deep cover operative of the 9th Domain Battlegroup. You have received the very best training that Fleet Command could provide, and safe harbor awaits you in a system where few others dare to tread.
+
+Should you ever take a commission with any other faction, Fleet patrols will treat you as a hostile intruder to maintain appearances.",20,graphics/icons/ix_sotf.png,data.scripts.ix.SwordOfTheFleetBackground

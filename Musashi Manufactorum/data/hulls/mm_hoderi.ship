@@ -1,0 +1,99 @@
+{
+  "hullName": "Hoderi",
+  "hullId": "mm_hoderi",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/mm/ships/mm_hoderi.png",
+  "style": "HIGH_TECH",
+  "height": 73,
+  "width": 74,
+  "center": [37, 36],
+  "collisionRadius": 43.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 57,
+  "viewOffset": 0,
+  "builtInMods": [
+    "surveying_equipment",
+    "mmmilitarytargetingcore"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 180,
+      "locations": [-25, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 215,
+      "angle": 55,
+      "locations": [14, 25]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 215,
+      "angle": -55,
+      "locations": [14, -25]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [18, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [0.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-38.5, 0],
+      "length": 56.5,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-35, 15.5],
+      "length": 34,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-35, -15.5],
+      "length": 34,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    36.5, -15,
+    2, -34,
+    -34, -20.5,
+    -34, 20.5,
+    2, 34,
+    36.5, 15
+  ]
+}

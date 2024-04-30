@@ -1,0 +1,31 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 6,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "hyperion_ix",
+    "hullMods": [
+        "missleracks",
+        "extendedshieldemitter",
+        "hardenedshieldemitter",
+        "hardened_subsystems"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "hyperion_ix_elite",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightbringer_ciws_ix",
+                "WS 002": "lightbringer_ciws_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "orthrus_m_ix"}
+        }
+    ]
+}

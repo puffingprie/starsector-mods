@@ -1,0 +1,16 @@
+{
+	"id":"FM_Kedama_system_project",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":20,
+	"hitGlowRadius":30,
+	"width":21,
+	"fadeTime":0.6,
+	"fringeColor":[45,255,168,0],
+	"coreColor":[255,255,255,255],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/weapons/projects/FM_SP_shell_01.png"
+}

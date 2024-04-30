@@ -1,0 +1,18 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "mi_acutordrone",
+  "hullMods": [],
+  "quality": 0,
+  "variantId": "mi_acutordrone_standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "light_maser_beam"
+      }
+    }
+  ]
+}

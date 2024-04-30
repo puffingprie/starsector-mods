@@ -1,0 +1,118 @@
+{
+    "name": "Kasutaria",
+    "personalities": ["steady", "aggressive", "reckless","cautious"],
+    "gender": ["m","f","n"],
+    "chance": 0,
+    "talkativeness": 0.65,
+    "categoryTags": [
+        "othermedia",
+    ],
+    "lines": {
+        "start": [                                            #开始？
+            {
+                "text": "Aiyaya, these are the captain's enemy, they seem weak",
+            },
+            {
+                "text": "No worries, Captain, Ria will take care of the trash.",
+            },
+            {
+                "text": "Mhm, Ria wouldn't say no to garbage cleaning task for the captain",
+            },
+        ],
+        "start_boss": [                                    #打boss
+            {
+                "text": "Ria felt that ship looks a bit familar",
+            },
+        ],
+        "retreat": [                                            #撤退
+            {
+                "text": "Aiya, Ria will retreat first, don't forget your promise with Ria, Captain",
+            },
+        ],
+        "out_of_missiles": [                                #用完导弹
+            {
+                "text": "A shame, only prepared this much missile. The enmy didn't even get to enjoy it",
+            },
+            {
+                "text": "What kind of missile to use next, the ones to electrcute the inside of a ship, or the ones that slowly heat it up?",
+            },
+        ],
+        "engaged": [                                     #舰船部署
+            {
+                "text": "Heheh, did you miss Ria, Captain?",
+            },
+            {
+                "text": "Captain, gotta make it clear, Ria isn't helping for free. Remeber to come to Ria's room after~",
+            },
+        ],
+        "need_help": [                                         #需要帮助
+            {
+                "text": "Captain, come help ria, I'll give the captain some ‘reward’~",
+            },
+            {
+                "text": "Ugh, if captain don't come help Ria, the ‘reward’ later is going to be cancelled~",
+            },
+        ],
+        "pursuing": [                                               #发动进攻
+            {
+                "text": "What kind of weapon to use, one can get the Captain's attention will be best",
+            },
+        ],
+        "running": [                                        #后撤
+            {
+                "text": "Ria is taking a break, come fill the line, Captain~",
+            },
+            {
+                "text": "Who would've thought commanding a ship is so tiring, I really hope captain can be Ria's chair right now",
+            },
+        ],
+        "hull_90": [                                     #90%生命值
+            {
+                "text": "Even though this is a ship the Captain bought for Ria, I will not allow you to ruin the Captain's gift like this!",
+            },
+            {
+                "text": "A shame, I will have to use the moves I saved for the Captain on you guys",
+            },
+        ],
+        "hull_50": [
+            {
+                "text": "Ugh, Ria can't hold back these piggys",
+            },
+            {
+                "text": "Disobedient kid is going to get demolished~",
+            },
+        ],
+        "hull_30": [
+            {
+                "text": "Things aren't looking good",
+            },
+        ],
+        "overload": [                					#过载
+            {
+                "text": "Power is out, that's not good",
+            },
+            {
+                "text": "Overload? How",
+            },
+        ],
+        "death": [							#沉船
+            {
+                "text": "Aiya, I will have to properly punish the Captain after this, you will have to focus on commanding ",
+            },
+            {
+                "text": "Ria tried her best to save these kids, Captain will have to explain to Ria tonight about the mistakes in command~",
+            },
+        ],
+        "victory": [							#胜利
+            {
+                "text": "This is Ria's captain~ Ria will properly‘reward’ the captain tonight~",
+            },
+            {
+                "text": "What a shame, was hoping I could properly ‘punish’ the captain. Then congradulation on the victory~",
+            },
+            {
+                "text": "How did Ria do? Shouldn't you show some appreciation tonight, captain?",
+            },
+        ],
+    },
+}

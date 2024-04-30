@@ -1,0 +1,142 @@
+{
+  "bounds": [
+    -5,
+    20,
+    25.5,
+    14.5,
+    25,
+    -10.5,
+    0,
+    -17.5,
+    -28,
+    -15.5,
+    -29,
+    1.5,
+    -22.5,
+    22.5
+  ],
+  "builtInWeapons": {
+    "WS0001": "mininglaser",
+    "WS0002": "mininglaser",
+    "WS0003": "mininglaser",
+    "WS0004": "miningblaster"
+  },
+  "center": [
+    23,
+    29.5
+  ],
+  "collisionRadius": 36.359318,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 16.5,
+      "location": [
+        -26,
+        -13
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 4
+    },
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 16.5,
+      "location": [
+        -26.5,
+        -0.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 4
+    },
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 16.5,
+      "location": [
+        -28,
+        -7
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 4
+    },
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 22,
+      "location": [
+        -22.5,
+        17
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 4
+    }
+  ],
+  "height": 57,
+  "hullId": "pn_mlmv",
+  "hullName": "MLMV",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 35.25975,
+  "spriteName": "graphics/pn/ships/pn_mlmv.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 20,
+      "id": "WS0001",
+      "locations": [
+        19.5,
+        -1.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 20,
+      "id": "WS0002",
+      "locations": [
+        19.5,
+        -5.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 20,
+      "id": "WS0003",
+      "locations": [
+        19.5,
+        -8.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0004",
+      "locations": [
+        21,
+        8.5
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 41
+}

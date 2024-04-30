@@ -1,0 +1,16 @@
+{
+    "weaponSlots": [
+        {
+            "angle": 0,
+            "arc": 120,
+            "id": "WS TURRET",
+            "locations": [
+                12,
+                0
+            ],
+            "mount": "HIDDEN",
+            "size": "SMALL",
+            "type": "SYNERGY"
+        },
+    ],
+}

@@ -1,0 +1,50 @@
+{
+  "id": "FM_Spark_pd",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/FM_Spark_pd_turret.png",
+  "turretGlowSprite": "graphics/weapons/FM_Spark_pd_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/FM_Spark_pd_hardpoint.png",
+  "hardpointGlowSprite": "graphics/weapons/FM_Spark_pd_hardpoint_glow.png",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+    7,
+    48,
+    255,
+    255
+  ],
+  "hitGlowRadius": 30,
+  "turretOffsets": [
+    9.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    15.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hitGlowBrightenDuration":0.25,
+  "beamFireOnlyOnFullCharge": true,
+  "fringeColor": [
+    169, 239, 239, 181
+  ],
+  "coreColor": [
+   169, 239, 239, 181
+  ],
+  "width": 10,
+  "textureType": [
+    "graphics/fx/beamfringe.png",
+    "graphics/fx/beamcoreb.png"
+  ],
+  "textureScrollSpeed": 256,
+  "pixelsPerTexel": 1,
+  "fireSoundOne": "FM_Spark_pd_fire"
+}

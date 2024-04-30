@@ -1,0 +1,39 @@
+{
+  "variantId": "mm_isetsu_standard",
+  "hullId": "mm_isetsu",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 16,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "surveying_equipment",
+    "missleracks",
+    "missile_autoloader"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mm_machineturretpd",
+        "WS0002": "mm_isetsutorp",
+        "WS0003": "mm_magneticrifle",
+        "WS0011": "mm_machineturretpd"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

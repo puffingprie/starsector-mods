@@ -1,0 +1,42 @@
+{
+  "hullName": "FM_Fairy_rocket",
+  "hullId": "FM_Fairy_rocket",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/FM_Fairy_rocket.png",
+  "style": "FM_fighter",
+  "height": 42,
+  "width": 46,
+  "center": [23, 18],
+  "collisionRadius": 24,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 23,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [11, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-3.5, -0],
+      "length": 22,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    2, -12,
+    -17, -2,
+    -17, 2,
+    2, 12,
+    16.5, -0
+  ]
+}

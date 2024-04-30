@@ -1,0 +1,49 @@
+{
+  "id": "FM_Seal",
+  "specClass": "projectile",
+  "projectileSpecId": "FM_Seal_shot",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/FM_Seal/FM_Seal_turret.png",
+  "turretGlowSprite": "graphics/weapons/FM_Seal/FM_Seal_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/FM_Seal/FM_Seal_hardpoint.png",
+  "hardpointGlowSprite": "graphics/weapons/FM_Seal/FM_Seal_hardpoint_glow.png",
+  "glowColor": [
+    255,
+    87,
+    127,
+    200
+  ],
+  "turretOffsets": [
+    8,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    11.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 30,
+    "particleSizeMin": 10,
+    "particleSizeRange": 10,
+    "particleDuration": 0.5,
+    "particleCount": 10,
+    "particleColor": [
+      255,
+      87,
+      127,
+      255
+    ]
+  },
+  "fireSoundTwo": "FM_Seal_fire"
+}

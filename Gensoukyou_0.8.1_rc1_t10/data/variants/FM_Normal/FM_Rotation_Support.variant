@@ -1,0 +1,28 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 10,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "FM_Rotation",
+    "hullMods": [
+        "targetingunit",
+        "hardened_subsystems",
+        "FantasyPlayerMod"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Rotation_Support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "FM_IllusionLaser_M"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "FM_Seal"}
+        }
+    ],
+    "wings": []
+}

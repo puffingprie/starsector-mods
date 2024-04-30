@@ -1,0 +1,93 @@
+{
+  "hullName": "Isetsu",
+  "hullId": "mm_isetsu",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/mm/ships/isetsu/mm_isetsu.png",
+  "style": "HIGH_TECH",
+  "height": 304,
+  "width": 66,
+  "center": [33, 152],
+  "collisionRadius": 166.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 181,
+  "viewOffset": 0,
+  "builtInMods": [
+    "mmmilitarytargetingcore"
+  ],
+  "builtInWeapons": {
+    "WS0002": "mm_isetsutorp"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 0,
+      "locations": [32, -0]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 300,
+      "angle": 0,
+      "locations": [86, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        0.5, -31.5,
+        -32.5, -31.5,
+        -32.5, -7,
+        0, -7
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 320,
+      "angle": 180,
+      "locations": [-75, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [89.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-132.5, -0],
+      "length": 121,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    150.5, -11.5,
+    33, -27.5,
+    -126.5, -15,
+    -148.5, -3.5,
+    -148.5, 3.5,
+    -126.5, 15,
+    33, 27.5,
+    150.5, 11.5
+  ]
+}

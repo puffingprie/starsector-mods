@@ -1,0 +1,48 @@
+name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,hints,tags,rarity,breakProb,minPieces,maxPieces,number
+#Frigate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Kaiten,FM_Rotation,Frigate,Gensoukyou Project,FM_misfortuneabsorb,7,1500,175,2800,,250,50,1,190,200,150,80,160,200,OMNI,,180,0.3,0.8,,,10,20,35,20,1,20,10,20000,10,20,210,0.25,7,7,,"FM_com, FM",,0.5,2,2,1201
+Hotaru,FM_Firefly,Frigate,Gensoukyou Project,FM_FireflyFlare,4,1000,125,2000,,160,45,,150,120,100,60,120,175,OMNI,,210,0.3,0.9,,,10,30,50,30,1,20,10,12000,10,20,210,0.25,4,4,,"FM_com, FM",,0.5,2,2,1202
+Karakasa,FM_Parasol,Covert Frigate,Gensoukyou Project,FM_Tatara_drone,5,1500,150,2500,,175,42,0,150,130,100,60,120,200,OMNI,,150,0.4,0.8,,,8,40,140,60,1,20,10,16000,10,20,210,0.25,5,5,,"rare_bp , FM",,0.5,2,2,1212
+Yasuzume,FM_Nightbird,ECM Frigate,Gensoukyou Project,FM_Nocturne,6,2000,100,2500,,180,50,,200,200,175,60,160,200,OMNI,,180,0.4,0.8,,,10,20,30,20,1,20,10,18000,10,20,240,0.25,6,6,,"FM_com , FM",,0.5,2,2,1215
+Usagi,FM_Rabbit,Frigate,Gensoukyou Project,FM_dumplingstrike,6,1500,150,2250,,180,55,,155,130,100,60,120,200,OMNI,,150,0.4,0.8,,,15,30,50,20,1,20,10,15000,10,20,210,0.25,6,6,,"FM_com, FM",,0.5,2,2,1208
+Yatagarasu,FM_Bazhiwu,Strike Frigate,Gensoukyou Project,FM_reactorexcursion,8,1600,200,3800,,340,50,,180,300,250,100,300,200,FRONT,,240,0.3,0.8,,,10,15,50,40,1,25,11,32000,5,10,210,0.25,8,8,,"rare_bp, FM",,0.5,2,2,
+Yuugure,FM_Rumia,Phase Frigate,Gensoukyou Project,FM_RumiaSystem,9,1200,350,3000,,350,46,,155,200,150,150,300,200,PHASE,FM_PhaseRumia,,,,0.03,0.04,10,20,50,60,1,50,10,36000,10,20,240,0.25,10,10,PHASE,"rare_bp, FM",0.75,0.5,2,2,1218
+Bibliophile,FM_Bibliophilia,Scout Frigate,Gensoukyou Project,FM_FluxBurn,7,1500,200,4000,,160,30,,140,160,160,90,180,200,FRONT,,360,0.5,0.6,,,15,30,30,20,1,20,10,25000,8,10,240,0.25,7,7,,"rare_bp, FM",,0.5,2,2,214
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Destroyer,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Literary,FM_Aya,Destroyer,Gensoukyou Project,FM_windgoddrive,11,3750,300,6000,,320,70,2,120,120,90,60,100,300,OMNI,,360,0.3,0.6,,,35,50,50,40,2,20,9,60000,5,20,360,0.25,11,11,,"FM_com, FM",,0.7,2,3,1204
+Majou,FM_Witch,Destroyer,Gensoukyou Project,FM_BlazingStar,10,4000,250,7500,,500,90,,100,90,90,60,60,350,FRONT,,270,0.45,0.9,,,40,60,80,50,2,25,9,60000,5,20,360,0.25,12,12,,"rare_bp, FM",,0.5,2,3,1205
+Margatroid,FM_Puppeteer,Light Carrier,Gensoukyou Project,FM_cursedpd,10,3250,250,3500,,240,80,2,100,60,40,35,35,450,OMNI,,180,0.4,0.8,,,80,150,70,40,2,20,9,60000,5,20,360,0.25,13,13,"CARRIER, COMBAT","FM_com, FM",,0.5,2,3,1207
+Reisen,FM_Reisen,Destroyer,Gensoukyou Project,FM_reisensystem,9,3000,350,5500,,450,95,,90,80,70,70,70,300,OMNI,,180,0.4,0.7,,,25,30,60,60,2,20,9,60000,5,20,360,0.25,11,11,,"FM_com, FM",,0.5,2,3,1219
+Kagerou,FM_Loupgarou,Destroyer,Gensoukyou Project,FM_LoupgarouSystem,10,3500,200,3000,,200,90,,80,60,30,30,30,300,FRONT,,270,0.4,0.9,,,50,70,50,40,2,20,9,60000,5,20,300,0.25,13,13,,"rare_bp , FM",,0.7,2,3,1216
+Hakutaku,FM_Baize,Exploration Ship,Gensoukyou Project,drone_sensor,7,3500,200,4400,,200,60,1,60,40,25,30,25,400,OMNI,,180,0.4,0.8,,,30,120,300,400,2,35,9,40000,4,8,360,0.25,8,8,"CIVILIAN, FREIGHTER, TANKER","FM_com, FM",,0.5,2,3,1220
+Miko,FM_Miko,Elite Destroyer,Gensoukyou Project,FM_crossborder,13,6000,300,7000,,500,100,1,90,90,80,70,90,400,OMNI,,180,0.3,0.8,,,35,60,80,60,2,30,10,100000,5,15,420,0.25,24,24,COMBAT,"rare_bp , FM",0.5,0.8,4,8,1211
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Cruiser,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Shirasagi,FM_Egret,Fast Carrier,Gensoukyou Project,FM_ReversedWing,14,6000,500,6000,,350,110,3,80,65,50,40,50,1400,OMNI,,150,0.6,0.9,,,130,250,70,60,3,20,9,150000,3,20,420,0.25,20,20,CARRIER,"rare_bp, FM",,0.5,2,3,1203
+Tamashi,FM_Konpaku,Fast Cruiser,Gensoukyou Project,FM_swordout,16,7000,600,12000,,850,130,1,100,90,70,65,75,1800,OMNI,,180,0.35,0.8,,,75,200,150,90,3,30,8,150000,4,20,420,0.25,22,22,,"FM_com, FM",,0.6,2,3,1206
+Neru,FM_Satori,Support Cruiser,Gensoukyou Project,FM_GazeOfSpectre,14,9000,750,10000,,600,115,,75,60,60,50,50,2000,FRONT,,210,0.5,0.8,,,125,450,450,250,2,100,8,130000,3,15,420,0.25,19,19,,"FM_com, FM",,0.6,2,3,1210
+Kiseki,FM_Miracle,Cruiser,Gensoukyou Project,FM_eastwind,18,8000,800,13000,,800,160,0,65,52,40,36,36,2000,OMNI,,180,0.35,0.6,,,90,250,160,110,4,15,9,170000,5,15,480,0.25,29,29,,"rare_bp , FM",,0.5,2,3,1213
+Hearn,FM_Hearn,Aviation Cruiser,Gensoukyou Project,FM_bordercontrol,16,7500,550,9000,,600,135,2,85,70,60,45,40,1600,OMNI,,150,0.4,0.8,,,140,300,275,200,3,20,8,170000,3,15,480,0.25,23,23,"CARRIER, COMBAT","rare_bp, FM",,0.5,2,4,1217
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Capital Ship,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Yagokoro,FM_Yagokoro,Battlecarrier,Gensoukyou Project,FM_endlessgallery,27,10000,900,16000,,900,300,5,50,23,18,10,6,3000,FRONT,,360,0.45,0.7,,,450,1000,250,200,10,20,7,400000,3,15,600,0.25,55,55,"CARRIER, COMBAT, NO_AUTO_ESCORT","rare_bp, FM",,0.6,2,4,1209
+Byakuren,FM_Byakuren,Fast Battleship,Gensoukyou Project,FM_byakurensystem,26,12000,1000,24000,,1100,330,0,40,25,20,13,12,3400,FRONT,,300,0.4,0.7,,,400,800,400,450,8,56,8,400000,4,20,600,0.25,55,55,,"rare_bp , FM",,0.6,2,4,1214
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Fighter,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Amanojyaku,FM_Amanojyak,Drone Bomber,Gensoukyou Project,,,250,50,400,,100,0,,200,300,300,200,300,30,OMNI,,180,0,1,,,0,0,,,,,,,,,,,,,,,,0,,,1301
+Karasu,FM_Crow_drone,Drone Fighter,Gensoukyou Project,flarelauncher_active,,200,60,400,,50,0,,150,400,400,250,400,5,NONE,,,,,,,0,0,,,,,,,,,,,,,,,,0,,,1302
+Kedama,FM_Kedama_drone,Drone Fighter,Gensoukyou Project,FM_Kedama_drone_system,,150,20,150,,50,0,,300,150,150,120,240,5,FRONT,,360,0,1,,,0,0,,,,,,,,,,,,,,,,0,,,1302
+Hinotama,FM_Halfghost,Drone Fighter,Gensoukyou Project,FM_GhostDash,,750,400,400,,100,0,,135,150,150,90,180,50,NONE,,,,,,,0,0,,,,,,,,,,,,,,,,0,,,1303
+Fairy,FM_Fairy,Heavy Interceptor,Gensoukyou Project,,,250,25,300,,50,0,,200,400,350,160,320,30,FRONT,,150,0,1,,,1,1,,,,,,,,,,,,,,,,0,,,1304
+Ice Fairy,FM_Fairy_ice,Heavy Fighter,Gensoukyou Project,flarelauncher_fighter,,250,25,450,,140,0,,175,370,340,140,280,30,FRONT,,360,0,1,,,1,1,,,,,,,,,,,,,,,,0,,,1305
+Great Fairy,FM_Fairy_bomb,Light Bomber,Gensoukyou Project,FM_FlareLauncherFighter,,250,25,250,,50,0,,250,400,350,140,280,30,OMNI,,180,0,1,,,1,1,,,,,,,,,,,,,,,,0,,,1305
+White Fairy,FM_Fairy_rocket,Rocket Bomber,Gensoukyou Project,,,300,25,400,,100,0,,150,200,250,100,220,30,FRONT,,180,0,1,,,1,1,,,,,,,,,,,,,,,,0,,,1305
+Shanghai,FM_Shanghai,Interceptor,Gensoukyou Project,FM_suicidepact,,150,50,150,,40,0,,335,500,400,180,360,10,NONE,,,,,,,0,0,,,,,,,,,,,,,,,,0,,,112
+Hourai,FM_Penglai,Support Fighter,Gensoukyou Project,FM_RemoteSacrifice,,150,50,150,,50,0,,300,400,350,160,320,10,NONE,,,,,,,0,0,,,,,,,,,,,,,,,,0,,,112
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Drone,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Tatara,FM_Tatara_drone,Defense Drone,Gensoukyou Project,,,500,100,500,,100,,,200,200,200,100,200,10,FRONT,,180,0,1,,,0,0,,,,,,,,,,,,,,,,0,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Misc,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Oil Curry,FM_BBA,Toy Ship,Unknown,displacer,6,1500,150,2500,2100,175,38,1,150,130,100,60,120,200,OMNI,,150,0.4,0.8,,,8,40,90,60,1,20,10,16000,10,20,210,0.25,7,7,HIDE_IN_CODEX,,,0.5,2,2,2333

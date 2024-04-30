@@ -1,0 +1,58 @@
+{
+  "variantId": "mi_gadfar_standard",
+  "hullId": "mi_gadfar",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 25,
+  "fluxVents": 30,
+  "quality": 0.55,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "locust"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "shredder",
+        "WS0004": "shredder",
+        "WS0005": "heavyac",
+        "WS0006": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "maser",
+        "WS0002": "maser",
+        "WS0007": "crackler",
+        "WS0008": "crackler",
+        "WS0009": "maser",
+        "WS0010": "maser",
+        "WS0013": "crackler",
+        "WS0014": "crackler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

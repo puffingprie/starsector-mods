@@ -1,0 +1,15 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 10,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "pn_tick",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "pn_tick_support",
+    "weaponGroups": [],
+    "wings": [
+        "pn_saksh-t_turret_wing",
+        "pn_saksh-t_turret_wing"
+    ]
+}

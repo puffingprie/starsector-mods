@@ -1,0 +1,18 @@
+{
+    "displayName": "Converted",
+    "fluxCapacitors": 0,
+    "fluxVents": 4,
+    "hullId": "buffalo_hegemony",
+    "hullMods": [
+        "additional_berthing",
+        "vice_ground_attack_conversion"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "buffalo_hegemony_Converted",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {"WS 001": "lrpdlaser"}
+    }]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "mm_magneticrifle",
+  "specClass": "projectile",
+  "projectileSpecId": "mm_magneticrifle_shot",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "displayArcRadius": 650,
+  "turretSprite": "graphics/mm/weapons/mm_mb_magneticrifle_body.png",
+  "turretGlowSprite": "graphics/mm/weapons/mm_mb_magneticrifle_glow_hp.png",
+  "turretGunSprite": "graphics/mm/weapons/mm_mb_magneticrifle_barrel.png",
+  "hardpointSprite": "graphics/mm/weapons/mm_mb_magneticrifle_body_hp.png",
+  "hardpointGlowSprite": "graphics/mm/weapons/mm_mb_magneticrifle_glow.png",
+  "hardpointGunSprite": "graphics/mm/weapons/mm_mb_magneticrifle_barrel_hp.png",
+  "glowColor": [185,65,85,215],
+  "visualRecoil": 10,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    -1.5,
+    3
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    4.5,
+    2.5
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "autocharge": true,
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 25,
+    "spread": 10,
+    "particleSizeMin": 8,
+    "particleSizeRange": 15,
+    "particleDuration": 0.4,
+    "particleCount": 10,
+    "particleColor": [185,65,85,175]
+  },
+  "fireSoundTwo": "heavy_mauler_fire",
+}

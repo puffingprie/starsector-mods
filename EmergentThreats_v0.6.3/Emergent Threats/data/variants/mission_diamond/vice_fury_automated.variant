@@ -1,0 +1,42 @@
+{
+    "displayName": "Automated",
+    "fluxCapacitors": 12,
+    "fluxVents": 30,
+    "hullId": "vice_fury_ai",
+	"goalVariant": false,
+    "hullMods": [
+        "hardenedshieldemitter",
+        "targetingunit",
+        "vice_adaptive_pulse_resonator"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_fury_automated",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "ionpulser",
+                "WS 001": "ionpulser",
+                "WS 003": "irpulse",
+                "WS 004": "irpulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "sabotpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "pdlaser",
+                "WS 006": "pdlaser",
+                "WS 007": "pdlaser",
+                "WS 008": "pdlaser"
+            }
+        }
+    ]
+}

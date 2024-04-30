@@ -1,0 +1,99 @@
+{
+	"combatSmall":{
+		"vice_glimmer_overclocked":3,
+		"vice_lumen_pulse":4,
+		
+		"vice_hyperion_ex_attack":3,
+		"vice_hyperion_ex_strike":3,
+	},
+	"combatMedium":{
+		"vice_effulgent_assault":4,
+		"vice_effulgent_elite":3,
+		"vice_effulgent_torpedo":4,
+		"vice_fulgent_overclocked":3,
+		"vice_preceptor_standard":5,# makes ship show up despite Diktat anti-carrier doctrine
+		
+		"vice_iris_ex_escort":5,
+		"vice_mandrake_ex_assault":4,
+		"vice_mandrake_ex_overdriven":3,
+		"vice_mandrake_ex_strike":4,
+	},
+	
+	"combatLarge":{
+		"vice_brilliant_elite":5,
+		"vice_brilliant_overclocked":3,
+		"vice_glycon_fire_support":4,
+		"vice_glycon_standard":4,
+		"vice_hellfire_pirate":1,	# pirate surprise
+		"vice_jubilant_assault":5,
+		"vice_jubilant_standard":5,
+		"vice_unifier_elite":5,		# makes ship show up despite Diktat anti-carrier doctrine
+		"vice_unifier_standard":5,	# makes ship show up despite Diktat anti-carrier doctrine
+		
+		"vice_flamebreaker_ex_assault":5,
+		"vice_flamebreaker_ex_strike":5,
+		"vice_tigershark_ex_assault":3,
+		"vice_tigershark_ex_ballistic":2,
+		"vice_tigershark_ex_strike":3,
+	},
+	
+	"combatCapital":{
+		"vice_exhortation_standard":2,	# makes ship show up despite Diktat anti-carrier doctrine
+		"vice_exhortation_elite":2,		# makes ship show up despite Diktat anti-carrier doctrine
+		"vice_incandescent_assault":5,
+		"vice_incandescent_attack":5,
+		"vice_incandescent_elite":5,
+		"vice_radiant_suppression":5,
+		"vice_hellfire_pirate":5,
+		
+		"vice_aquilon_assault":3,
+		"vice_aquilon_beam":3,
+		"vice_aquilon_strike":3,
+		"vice_equalizer_ex_assault":4,
+		"vice_equalizer_ex_strike":4,
+		"vice_incursion_ex_assault":4,
+		"vice_incursion_ex_strike":4,
+	},
+	
+	"carrierSmall":{
+		"vice_maquech_standard":4,
+		"vice_maquech_long_range":3,
+		"vice_scintilla_torpedo":5,
+		"vice_preceptor_standard":5, # for Nex random picker
+	},
+	
+	"carrierMedium":{
+		"vice_unifier_elite":5,		# for Nex random picker
+		"vice_unifier_standard":5,	# for Nex random picker
+	},
+	
+	"carrierLarge":{
+		"vice_lampetia_aberrant":3,
+		"vice_lampetia_anomalous":3,
+		"vice_resplendent_advanced":5,
+		"vice_resplendent_elite":4,
+		"vice_resplendent_heavy":5,
+		"vice_odyssey_tt_attack":10,
+		"vice_odyssey_tt_support":8,
+		"vice_exhortation_standard":2,	# for Nex random picker
+		"vice_exhortation_elite":2,		# for Nex random picker
+	},
+	"freighterMedium":{
+		"vice_banteng_standard":10,
+		"vice_banteng_tt_standard":10,
+	},
+	"personnelSmall":{
+		"buffalo_Converted":10,
+		"buffalo_hegemony_Converted":10,
+		"buffalo_luddic_church_Converted":10,
+		"buffalo_tritachyon_Converted":10,
+	},
+	"personnelMedium":{
+		"vice_banteng_converted":10,
+		"vice_banteng_tt_converted":10,
+	},
+	"tankerMedium":{
+		"vice_banteng_standard":10,
+		"vice_banteng_tt_standard":10,
+	},
+}

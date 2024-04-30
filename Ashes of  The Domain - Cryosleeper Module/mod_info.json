@@ -1,0 +1,12 @@
+{
+	"id":"Cryo_but_better",
+	"name": "AoTD - Cryosleeper Options",
+	"author":"Kaysaar",
+	"utility":"false",
+	"version":"2.0.3",
+	"description":"Ashes of The Domain - Cryosleeper Options: Mod that tweaks Cryosleeper mechanics, independent from other AoTD modules",
+    "gameVersion": "0.97a-RC6",
+	"jars":["jars/Cryos.jar"],
+	"modPlugin":"data.plugins.AodCryosleeperPLugin"
+
+}

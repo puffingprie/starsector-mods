@@ -1,0 +1,33 @@
+{
+  "hullName": "",
+  "hullId": "vice_emp_emitter",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/vice/ships/blank.png",
+  "style": "HIGH_TECH",
+  "height": 1,
+  "width": 1,
+  "center": [0, 0],
+  "collisionRadius": 1,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 1,
+  "viewOffset": 0,
+  "builtInWings": [],
+  "builtInMods": ["never_detaches", "vastbulk"],
+  "weaponSlots": [
+      {
+      "id": "SYSTEM",
+      "size": "MEDIUM",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 00,
+      "locations": [0,0]
+    },
+  ],
+  "bounds": [
+    1, 1,
+    1, -1,
+    -1, 1,
+    -1, -1,
+  ]
+}

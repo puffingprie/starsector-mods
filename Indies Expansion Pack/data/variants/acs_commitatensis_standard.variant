@@ -1,0 +1,32 @@
+{
+  "variantId": "acs_commitatensis_standard",
+  "hullId": "acs_commitatensis",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 17,
+  "fluxVents": 15,
+  "quality": 2,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "acs_medium_lasgun",
+        "WS0002": "acs_small_lascannon",
+        "WS0003": "acs_small_flakhag",
+        "WS0004": "acs_small_flakhag",
+        "WS0005": "acs_small_flakhag",
+        "WS0006": "hellbore",
+        "WS0007": "acs_toyhammer_small2",
+        "WS0008": "acs_velites_single"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

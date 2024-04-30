@@ -1,0 +1,4 @@
+id,name,faction,desc,script,icon,order
+sfc_bsamarket,BSA Resalers,,"A market run by the Sindrian Fuel Company's Board of Security and Armament, selling 'decommissioned' military grade armament and ships at a premium markup. This market will only sell ships, weapons, fighters, and hullmods, with all purchases final.
+
+Can be accessed with or without the transponder activated.",data.scripts.campaign.submarkets.sfc_bsamarketplugin,graphics/factions/sindrian_diktat.png,999

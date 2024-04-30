@@ -1,0 +1,27 @@
+{
+        "hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+			"ee_scienceship_ca":0.25,
+			
+		},
+	},
+
+	"knownShips":{
+		"tags":[],
+		"hulls":[
+		"ee_scienceship_ca",
+                 "ee_paragon",
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+
+		],
+	},
+	
+	
+},

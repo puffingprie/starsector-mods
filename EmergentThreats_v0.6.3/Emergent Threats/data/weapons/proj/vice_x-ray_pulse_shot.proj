@@ -1,0 +1,18 @@
+{
+	"id":"vice_x-ray_pulse_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	#"onHitEffect":"data.scripts.vice.weapons.XRayPulseOnHitEffect",
+	"length":90.0,
+	"width":15.0,
+	"fadeTime":0.25,
+	"glowRadius":40,
+	"fringeColor":[140,60,140,255],
+	"coreColor":[180,60,140,180],
+	"glowColor":[140,60,140,105],	
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0
+}

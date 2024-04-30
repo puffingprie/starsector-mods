@@ -1,0 +1,68 @@
+{
+  "hullName": "Militia Wing",
+  "hullId": "acs_militianew",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/mech/acs_militianew2_body.png",
+  "style": "MIDLINE",
+  "height": 46,
+  "width": 60,
+  "center": [30.5, 19.5],
+  "collisionRadius": 30.5,
+  "shieldCenter": [9.5, 6.5],
+  "shieldRadius": 16.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "autorepair",
+    "ground_support"
+  ],
+  "builtInWeapons": {
+    "WS0001": "acs_militianew_gpmg"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": -10,
+      "locations": [-4, -11.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-15.5, 0.5],
+      "length": 20.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-12.5, 6],
+      "length": 10.258035,
+      "width": 7.489388,
+      "angle": 144,
+      "contrailSize": 7.489388,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-12.5, -6],
+      "length": 10.258035,
+      "width": 7.489388,
+      "angle": -144,
+      "contrailSize": 7.489388,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    5.5, -4,
+    -0.5, -16,
+    -4, -7,
+    -16, -0.5,
+    -16, 0.5,
+    -4, 7,
+    -0.5, 16,
+    5.5, 4
+  ]
+}

@@ -1,0 +1,42 @@
+{
+    "displayName": "Fantasy",
+    "fluxCapacitors": 21,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "FM_Konpaku",
+    "hullMods": [
+        "targetingunit",
+        "FantasyBorderMod",
+        "hardenedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Konpaku_Fantasy",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "FM_Spark_heavy",
+                "WS0006": "FM_Spark_heavy"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FM_Persuasion",
+                "WS0005": "FM_Persuasion"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "railgun",
+                "WS0004": "railgun"
+            }
+        }
+    ],
+    "wings": []
+}

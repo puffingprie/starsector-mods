@@ -1,0 +1,65 @@
+{
+    "displayName": "Honor Guard",
+    "fluxCapacitors": 0,
+    "fluxVents": 46,
+    "hullId": "radiant_ix",
+    "hullMods": [
+        "ix_reactive_combat_shields",
+        "missleracks",
+        "eccm",
+        "ix_smod_handler",
+        "magazines",
+        "targetingunit",
+        "frontemitter",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [
+        "ix_reactive_combat_shields",
+        "missleracks",
+        "eccm",
+        "ix_smod_handler"
+    ],
+    "sMods": [
+        "ix_reactive_combat_shields",
+        "missleracks",
+        "eccm"
+    ],
+    "variantId": "radiant_ix_honor_2",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "stormlight_graser_ix",
+                "WS 001": "stormlight_graser_ix",
+                "WS SBE": "sbe_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "orthrus_l_ix",
+                "WS 004": "orthrus_l_ix",
+                "WS 005": "orthrus_m_ix",
+                "WS 006": "orthrus_m_ix",
+                "WS 007": "orthrus_m_ix",
+                "WS 008": "orthrus_m_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "morningstar_ciws_ix",
+                "WS 011": "morningstar_ciws_ix",
+                "WS 012": "morningstar_ciws_ix",
+                "WS 013": "morningstar_ciws_ix",
+                "WS 014": "morningstar_ciws_ix",
+                "WS 015": "morningstar_ciws_ix",
+                "WS 016": "morningstar_ciws_ix",
+                "WS 018": "morningstar_ciws_ix"
+            }
+        }
+    ]
+}

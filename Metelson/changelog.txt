@@ -1,0 +1,65 @@
+2.0.1
+-Added S-mod bonus to Ionic Hullnodes.
+This basically gives it an additional 10% reduction in damage from projectiles/fragmentation/emp damage. Also, puts the damage taken from beams from 30% to 20% instead.
+-Added S-mod to Primitive Hangar Bay 
+basically this means you can negate the 50% penalty entirely.
+-Thrudgelmir Resprite/rebalance
+removed two small turrets at the back, added one deck. This should make the Thrudgelmir more sufficient with another deck. Should have the same amount of OP.
+-Changed Guilmjnor to High Explosive
+As an Asteroid Cracker, I definitely think it should be more... Explosive
+Also, changed the colors on it plus gave it stats more akin to a Tachyon Lance. 
+-Added Repair Apparatus Icon
+Differentiates itself from the Salvage Gantry Icon.
+-Changed Miller Autocannon to single fire gun.
+Refire rate is at 0.4 seconds, making it a quick rapid fire autocannon just above 100 DPS. 
+-Changed damage of Sylva Cannon to 75, adjusted refire rate to 0.2 from 0.75
+-Changed name of Sylva Cannon to Sylva Autocannon
+These changes should make the Sylva Autocannon more of a longer range, lesser DPS version of the assault chaingun. Kind of like a bofors, which is REALLY fun to play with.
+-Adjusted Crackler burst delay from 0.05 to 0.1
+Should make it a bit more spread to cover more ground.
+-Adjusted barrel positions for all weapons, this should make the muzzle flashes much more consistent.
+
+2.0.0
+-Massive weapons rebalance
+Too much to list AGAIN, 
+-most noticeably Crackler Buff, refire rate changed to 1 second, standardized stats
+-Kasta MRSM turned into kinetic version of the Locust SRM launcher
+This turns it into a very potent alternative to the sabot launcher and is capable of missile saturation
+-Molaris Blaster Damage Buff to 400 from 275, visuals tweaked
+-Heavy Maser Damage Buff to 200 from 100, burst delay changed to 0.15 to match Light Maser
+This makes the Light and Heavy Maser feel much more uniform as a big step up
+-Added Actel Battery
+yet to be used XL version of the Actel Cannon
+-Heavy CmG renamed to Heavy Combat MG
+-Removed ammo system from Padent PD and Actel Cannon
+Unnecessary at this point
+-Added Trails to Actel Cannon(s)
+this looks really cool
+
+-Fixed up hullmod descriptions
+Should be EXTREMELY accurate
+
+-Added Metelson Hound to faction
+-Removed .skin files for the Farin
+This means no Luddic/LP skins
+-Readded Cringer-Class Cruiser
+-Readded Grancursor-Class Cruiser
+Both of these are pretty old Metelson ships, but renewed to add onto the roster!
+-Added Stareater-class Converted Salvager
+This is a Starliner conversion with a focus on salvaging/fuel capacity, should have fun with this!
+-Redone Mantarn-class
+Has extra small ballistic at the back
+-Rebalanced Obex-class Bomber to 20 OP
+Two hammers * 3 is pretty busted, therefore I made it on par with the perdition. Might need feedback on it.
+-Redone all fighters, they should look pretty uniform with their variants/engines now
+
+-Readded Test Mission
+Should be able to test most of the Metelson ships here
+
+NOT COMPATIBLE WITH 1.0.2 SAVES
+
+
+1.0.2
+-Standardized Engine length with vanilla ships
+-Standardized Turret mounts arcs/angles
+Not too big of a patch

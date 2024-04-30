@@ -1,0 +1,14 @@
+{
+	"id":"vice_phaseovercharge",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	
+	"statsScript":"data.scripts.vice.shipsystems.PhaseOvercharge",
+	
+	"weaponGlowColor":[100,165,255,255],
+	"weaponTypes":[ENERGY],
+	
+	"useSound":"system_high_energy_focus_activate",
+	"outOfUsesSound":"gun_out_of_ammo",
+	"loopSound":"system_high_energy_focus_loop",	
+}

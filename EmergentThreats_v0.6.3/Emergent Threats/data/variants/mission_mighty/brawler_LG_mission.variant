@@ -1,0 +1,38 @@
+{
+    "displayName": "Navy",
+    "fluxCapacitors": 0,
+    "fluxVents": 9,
+    "hullId": "brawler_LG",
+    "hullMods": [
+        "vice_attuned_emitter_diodes",
+        "hardenedshieldemitter",
+		"fragile_subsystems",
+		"increased_maintenance",
+    ],
+    "permaMods": [
+		"fragile_subsystems",
+		"increased_maintenance",
+	],
+    "sMods": [],
+    "variantId": "brawler_LG_mission",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "ionbeam"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 003": "atropos",
+                "WS 004": "atropos"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "gravitonbeam"}
+        }
+    ]
+}

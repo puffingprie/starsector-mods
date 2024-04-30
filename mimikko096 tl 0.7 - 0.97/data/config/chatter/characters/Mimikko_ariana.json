@@ -1,0 +1,139 @@
+{
+    "name": "Ariana",
+    "personalities": ["steady", "aggressive", "reckless","cautious"],
+    "gender": ["m","f","n"],
+    "chance": 0,
+    "talkativeness": 0.65,
+    "categoryTags": [
+        "othermedia",
+    ],
+    "lines": {
+        "start": [                                            #开始？
+            {
+                "text": "Captain, I have entered combat area",
+            },
+            {
+                "text": "Comm is open, please issue your command, Captain",
+            },
+            {
+                "text": "Captain, if Necessary, please stay close to me, I will need to ensure your safety",
+            },
+            {
+                "text": "Protecting your safety is my primary duty",
+            },
+        ],
+        "start_boss": [                                    #打boss
+            {
+                "text": "Target ship info: Unknown",
+            },
+        ],
+        "retreat": [                                            #撤退
+            {
+                "text": "Captain, Ariana has retreated from the battlefield",
+            },
+        ],
+        "out_of_missiles": [                                #用完导弹
+            {
+                "text": "Torpedo exhausted",
+            },
+        ],
+        "engaged": [                                     #舰船部署
+            {
+                "text": "Ariana, at your service",
+            },
+            {
+                "text": "Captain, Ariana shall protect your safety",
+            },
+            {
+                "text": "Captain, Ariana has arrived at the battlefield.",
+            },
+        ],
+        "need_help": [                                         #需要帮助
+            {
+                "text": "Ariana requires assistance",
+            },
+            {
+                "text": "Captain, please provide support, but please prioritize your own safety",
+            },
+        ],
+        "pursuing": [                                               #发动进攻
+            {
+                "text": "Detect target weak point",
+            },
+            {
+                "text": "Captain, I leave my flank to you",
+            },
+            {
+                "text": "The captain is only safe when all enemies are driven off",
+            },
+        ],
+        "running": [                                        #后撤
+            {
+                "text": "Pullback, need to regroup",
+            },
+            {
+                "text": "Pullback, select new target",
+            },
+        ],
+        "hull_90": [                                     #90%生命值
+            {
+                "text": "Hull reduced to 90%, hold on, Captain's flank must be protected",
+            },
+            {
+                "text": "Hull reduced to 90%, reconsidering tactics",
+            },
+        ],
+        "hull_50": [
+            {
+                "text": "Hull reduced to 50%, prioritizing protect the captain first",
+            },
+            {
+                "text": "Hull reduced to 50%, Captain is the primary target to protect",
+            },
+        ],
+        "hull_30": [
+            {
+                "text": "Hull reduced to 30%, I will buy time for Captain",
+            },
+            {
+                "text": "Hull reduced to 30%, I can still draw fire for the Captain",
+            },
+        ],
+        "overload": [                					#过载
+            {
+                "text": "Ship overloaded, watch for torpedos",
+            },
+            {
+                "text": "Ship overloaded, evasive maneuvers",
+            },
+            {
+                "text": "Careful, we are overloaded",
+            },
+        ],
+        "death": [							#沉船
+            {
+                "text": "I have not completed the task to protect the Captain......",
+            },
+            {
+                "text": "Have the crew escape in an orderly fashion",
+            },
+            {
+                "text": "Couldn't......protect the Captain......",
+            },
+            {
+                "text": "Mission......Failed",
+            },
+        ],
+        "victory": [							#胜利
+            {
+                "text": "Captain is safe",
+            },
+            {
+                "text": "Ariana request an immediate examination of the Captain's body",
+            },
+            {
+                "text": "Continuing the task of ensuring the Captain's safety",
+            },
+        ],
+    },
+}

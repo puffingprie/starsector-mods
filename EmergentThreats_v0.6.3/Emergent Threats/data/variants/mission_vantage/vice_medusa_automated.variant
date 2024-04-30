@@ -1,0 +1,57 @@
+{
+    "displayName": "Automated",
+    "fluxCapacitors": 4,
+    "fluxVents": 20,
+    "hullId": "vice_medusa_ai",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "targetingunit",
+        "ecm",
+        "stabilizedshieldemitter",
+        "vice_adaptive_temporal_shell"
+    ],
+    "permaMods": [
+        "hardenedshieldemitter",
+        "targetingunit"
+    ],
+    "sMods": [
+        "hardenedshieldemitter",
+        "targetingunit"
+    ],
+    "variantId": "vice_medusa_automated",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "lightneedler",
+                "WS 009": "lightneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "gravitonbeam",
+                "WS 007": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "ioncannon",
+                "WS 003": "ioncannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "pdlaser",
+                "WS 004": "pdlaser",
+                "WS 005": "pdlaser"
+            }
+        }
+    ]
+}

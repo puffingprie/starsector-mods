@@ -1,0 +1,40 @@
+{
+	"graphics":{
+		"aotd_colony_event":{
+			"harvest_of_year":"graphics/aotd_colony_events/harvest_of_year.png",	
+			"comet_sighted":"graphics/aotd_colony_events/comet_sighted.png",
+			"sands_of_time_finding":"graphics/aotd_colony_events/sands_of_time_finding.png",
+			"sands_of_time_vault":"graphics/aotd_colony_events/sands_of_time_vault.png",
+			"sands_of_time_antimatter":"graphics/aotd_colony_events/sands_of_time_antimatter.png",
+			"sands_of_time_hacking":"graphics/aotd_colony_events/sands_of_time_finding.png",
+			"sands_of_time_low_power":"graphics/aotd_colony_events/sands_of_time_safe.png",
+			"sands_of_time_high_power":"graphics/aotd_colony_events/sands_of_time_danger.png",
+			"sands_of_time_outcome":"graphics/aotd_colony_events/sands_of_time_ending.png",
+			"tt_investment":"graphics/aotd_colony_events/tt_investment.png",
+			"awakening":"graphics/aotd_colony_events/awakening.png",
+			"safety_conditions":"graphics/aotd_colony_events/safety_conditions.png",
+			"uaf_bakery_event":"graphics/aotd_colony_events/uaf_event_bakery.png",
+			"reclaimer":"graphics/aotd_colony_events/rebirth_of_collosus.png",
+			"theta_discovery":"graphics/aotd_colony_events/theta_project_discovery.png",
+			"archimedes_question":"graphics/aotd_colony_events/archimedes_question.png",
+			"tectonic_disaster":"graphics/aotd_colony_events/tectonic_disaster.png",
+			"food_experiment":"graphics/aotd_colony_events/food_experiment.png",
+			"hivemind_whoopsie":"graphics/aotd_colony_events/hivemind_whoopsie.png",
+			"acot_event_1":"graphics/aotd_colony_events/acot_event_1.png",
+			"crime_rampant":"graphics/aotd_colony_events/crime_begining.png",
+			"crime_resolve":"graphics/aotd_colony_events/crime_resolve.png",
+		},
+		"portraits":{
+			"theta_core":"graphics/portraits/theta_core.png"
+		},
+	}
+	
+
+
+}
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+{
+  "hullName": "Disruptor Drone",
+  "hullId": "vice_disruptor_drone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/vice/ships/cabal_disruptor_drone.png",
+  "style": "HIGH_TECH",
+  "height": 40,
+  "width": 40,
+  "center": [20, 20],
+  "collisionRadius": 24,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 24,
+  "viewOffset": 0,
+  "builtInMods": [],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    20, -18,
+    20, 18,
+    -20, 18,
+    -20, -18
+  ]
+}

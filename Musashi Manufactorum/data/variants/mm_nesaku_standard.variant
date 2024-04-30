@@ -1,0 +1,31 @@
+{
+  "variantId": "mm_nesaku_standard",
+  "hullId": "mm_nesaku",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 29,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "mm_magneticrifle",
+        "WS0005": "mm_magneticrifle"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "mm_miniflakpd",
+        "WS0009": "mm_miniflakpd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

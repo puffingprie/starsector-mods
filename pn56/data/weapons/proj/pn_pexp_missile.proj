@@ -1,0 +1,24 @@
+{
+	"id":"pn_pexp_missile",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/pn/weapons/projectiles/pn_bomb1.png",
+	"size":[9,12],	
+	"center":[0,0],
+	"collisionRadius":12,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[152,102,255,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":80, # purely visual
+	"engineSpec":{"turnAcc":600,
+				  "turnRate":240,
+				  "acc":500,
+				  "dec":300},
+	"engineSlots":[
+	
+{"id":"ES1",
+					"loc":[0, -5],
+				    "style":"MISSILE_HIGH_TECH",
+				    "width":3.0,
+				    "length":9.0,
+				    "angle":180.0}]
+}

@@ -1,0 +1,4 @@
+Location: Inside the Coral Nebula
+Date: 192.168.0.1
+
+Playing with a P9 fleet.

@@ -1,0 +1,29 @@
+{
+    "displayName": "Combat",
+    "fluxCapacitors": 5,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "pn_trundler",
+    "hullMods": [
+        "heavyarmor",
+        "reinforcedhull",
+        "advancedoptics"
+    ],
+    "permaMods": [],
+    "variantId": "pn_trundler_combat",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "pn_burstmauler"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "pn_saala",
+                "WS0002": "pn_saala"
+            }
+        }
+    ]
+}

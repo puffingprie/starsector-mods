@@ -1,0 +1,106 @@
+{
+  "hullName": "Tarhunz",
+  "hullId": "acs_tarsusmod",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/acs_tarhunz.png",
+  "style": "LOW_TECH",
+  "height": 199,
+  "width": 112,
+  "center": [56, 99.5],
+  "collisionRadius": 157.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 123,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 323,
+      "angle": 38,
+      "locations": [58.5, 38]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 323,
+      "angle": -38,
+      "locations": [58.5, -38]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 305,
+      "angle": 180,
+      "locations": [-83.5, 21]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 305,
+      "angle": -180,
+      "locations": [-83.5, -21]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 290,
+      "angle": 0,
+      "locations": [40.5, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 25,
+      "angle": 0,
+      "locations": [80.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-74, -0],
+      "length": 97,
+      "width": 22,
+      "angle": 180,
+      "contrailSize": 22,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-71.5, 45],
+      "length": 16.85,
+      "width": 7.48,
+      "angle": 90,
+      "contrailSize": 7.48,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-71.5, -45],
+      "length": 16.852963,
+      "width": 7.477348,
+      "angle": -90,
+      "contrailSize": 7.477348,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    91.5, -26,
+    64, -48,
+    -71, -40,
+    -85, -27.5,
+    -85, 27.5,
+    -71, 40,
+    64, 48,
+    91.5, 26
+  ]
+}

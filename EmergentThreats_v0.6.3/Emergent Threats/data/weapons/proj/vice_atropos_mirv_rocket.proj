@@ -1,0 +1,66 @@
+{
+	"id":"vice_atropos_mirv_rocket",
+	"specClass":"missile",	
+	"missileType":"MIRV",
+	#"onFireEffect":"data.scripts.vice.weapons.AtroposMirvOnFireEffect",
+	"sprite":"graphics/vice/weapons/atropos_mirv_rocket.png",
+	"size":[16,28],	
+	"center":[8,14],
+	"collisionRadius":18,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,155,100,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":250, # purely visual
+	"engineSpec":{"turnAcc":0,
+				  "turnRate":0,
+				  "acc":750,
+				  "dec":200},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-16, 0],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"CUSTOM",
+				    "styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[255,200,0,255],
+						"contrailDuration":1,
+						"contrailWidthMult":0.5,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":1, # how far away from engine it starts
+						"contrailColor":[155,100,70,75],
+						"glowSizeMult":2,
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":12.0,
+				    "length":60.0,
+				    "angle":180.0}],
+	"behaviorSpec":{"behavior":"MIRV",
+					"splitRange":800,
+					"minTimeToSplit":2,
+					"canSplitEarly":true,
+					"splitSound":"hurricane_mirv_split",
+					"numShots":2,
+					"damage":1000,
+					"impact":40,
+					"emp":0,
+					"damageType":HIGH_EXPLOSIVE,
+					"hitpoints":300,
+					"arc":180,
+					"arcOffset":180,
+					"evenSpread":true,
+					"spreadSpeed":300,
+					"spreadSpeedRange":100,
+					"projectileSpec":"atropos_torp",
+					"smokeSpec":{"particleSizeMin":30.0,
+								 "particleSizeRange":30.0,
+								 "cloudParticleCount":15,
+								 "cloudDuration":0.5,
+								 "cloudRadius":6.0,
+								 "blowbackParticleCount":0,
+								 "blowbackDuration":0,
+								 "blowbackLength":0,
+								 "blowbackSpread":0,
+								  "particleColor":[175,100,50,100]}
+					}				    
+}

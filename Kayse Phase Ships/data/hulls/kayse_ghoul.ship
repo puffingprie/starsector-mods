@@ -1,0 +1,124 @@
+{
+  "hullName": "Ghoulie",
+  "hullId": "kayse_ghoul",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/kayse/ships/ghoul/ghoul.png",
+  "style": "HIGH_TECH",
+  "height": 92,
+  "width": 92,
+  "center": [46, 45],
+  "collisionRadius": 76,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 72,
+  "viewOffset": 0,
+  "builtInMods": [
+    "phasefield",
+    "delicate",
+    "repair_gantry"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 000",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 20,
+      "locations": [22, 31]
+    },
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -20,
+      "locations": [22, -31]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [42, 17]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [42, -18]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [42, -4]
+    },
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 130,
+      "locations": [-20, 29]
+    },
+    {
+      "id": "WS 006",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 230,
+      "locations": [-21, -28]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-45, 16],
+      "length": 32,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-45, -15],
+      "length": 32,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-42, 28],
+      "length": 32,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-42, -27],
+      "length": 32,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    41, 44,
+    40, -43,
+    -39, -30,
+    -39, 32
+  ]
+}

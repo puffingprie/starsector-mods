@@ -1,0 +1,279 @@
+{
+	id:"vice_diktat_navy",
+	"color":[160,0,95,255],
+	"displayName":"Diktat Navy",
+	"displayNameWithArticle":"the Diktat Navy",
+	"logo":"graphics/vice/factions/logo_diktat_navy.png",
+	"crest":"graphics/vice/factions/crest_diktat_navy.png",
+	"shipNamePrefix":"SDS",
+	"showInIntelTab":false,
+	"shipNameSources":{
+		"DIKTAT":2,
+		"BRITISH_NAVY":1, 
+		"ROMAN":1,
+		"GREEK":1,
+		"EGYPTIAN":1,
+		"PERSIAN":1,
+		"SPACE":1,
+	},
+	"names":{
+		"old english":1,
+		"world":1,
+		"future":1,
+		"myth":1,
+	},
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+		"brawler_LG_Elite":0,
+		"centurion_LG_Assault":0,
+
+		"eagle_LG_Assault":0,
+		"executor_Elite":0,
+		"falcon_LG_CS":0,
+		"hammerhead_LG_Elite":0,
+		"sunder_LG_Assault":0,
+		"vice_unifier_elite":0,
+		"vice_exhortation_elite":0,
+		
+		"eagle_LG_Support":0,
+		"executor_Standard":0,
+		"falcon_LG_Attack":0,
+		"hammerhead_LG_Balanced":0,
+		"sunder_LG_CS":0,
+		"vice_preceptor_standard":0,
+		"vice_unifier_standard":0,
+		"vice_exhortation_standard":0,
+		
+		"brawler_LG_mission":10,
+		"centurion_LG_mission":10,
+		"sunder_LG_mission":10,
+		"hammerhead_LG_mission":10,
+		"eagle_LG_mission":10,
+		"falcon_LG_mission":10,
+		"executor_mission":10,
+		"vice_preceptor_mission":5,
+		"vice_unifier_mission":10,
+		"vice_exhortation_mission":5,
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":[],
+		"hulls":[
+		],
+	},
+	"knownShips":{
+		"tags":["sindrian_diktat", "lions_guard", "LG_bp"],
+		"hulls":[
+			"crig",
+			"ox",
+			"dram",
+			"phaeton",
+			"prometheus",
+			"gemini",
+			"atlas",
+			"mercury",
+			"hermes",
+			"kite_original",
+			"mudskipper",
+			"wayfarer",
+			"nebula",
+			"valkyrie",
+			"starliner",
+			"buffalo",
+			"colossus",
+			
+			"brawler_LG",
+			"centurion_LG",
+			
+			"hammerhead_LG",
+			"sunder_LG",
+			
+			"falcon_LG",
+			"eagle_LG",
+			
+			"executor",
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+		],
+	},
+	"knownFighters":{
+		"tags":["sindrian_diktat", "lions_guard"],
+		"fighters":[
+			"gladius_wing",
+			"vice_spatha_wing",
+			"vice_estoc_wing",
+			"vice_kite_lg_wing",
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+			"vice_spatha_wing",
+			"vice_estoc_wing",
+		],
+	},
+	"knownWeapons":{
+		"tags":["sindrian_diktat", "lions_guard"],
+		"weapons":[
+			"lightmg",
+			"lightdualmg",
+			"vulcan",
+			"lightac",
+			"lightdualac",
+			"lightag",
+			"lightneedler",
+			"railgun",
+
+			"hveldriver",
+			"heavymauler",
+			"heavyneedler",
+			"heavymortar",
+			"chaingun",
+			"heavyac",
+			"flak",
+			"dualflak",
+			
+			"hephag",
+			"mark9",
+			"devastator",
+			
+			"reaper",
+			"atropos",
+			"atropos_single",
+			"swarmer",
+			"annihilator",
+			"heatseeker",
+			"harpoon",
+			"harpoon_single",
+			"breach",
+			"sabot",
+			"sabot_single",
+			
+			"pilum",
+			"breachpod",
+			"harpoonpod",
+			"sabotpod",
+			"phasecl",
+			"typhoon",
+			
+			"squall",
+			"locust",
+			
+			"amblaster",
+			"taclaser",
+			"pdlaser",
+			"lrpdlaser",
+			"ioncannon",
+			"vice_ionstreamer",
+			
+			"gravitonbeam",
+			"pulselaser",
+			"phasebeam",
+			"heavyblaster",
+			
+			"hil",
+			"autopulse",
+			
+			"kineticblaster",
+			"gigacannon",
+			"vice_x-ray_pulse",
+			"vice_lrburstpd",
+			"vice_siege_burst",
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+
+		],
+	},
+	"knownHullMods":{
+		"tags":["standard", "sindrian_diktat", "lions_guard"],
+		"hullMods":["vice_attuned_emitter_diodes"],
+	},
+	"weaponSellFrequency":{
+	},
+	"fighterSellFrequency":{
+	},
+	"hullmodSellFrequency":{
+	},	
+	"factionDoctrine":{
+		"warships":5,
+		"carriers":0,		# "the individualism often displayed by the so-called "fighter jocks" detracts from all working together to fulfill the Supreme Executor's Great Plan"
+		"phaseShips":0,
+		
+		"officerQuality":1,
+		"shipQuality":5,
+		"numShips":1,
+		
+		"shipSize":5,
+		
+		"aggression":4,
+		
+		"combatFreighterProbability":0,      				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0,  				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0,					# there is no room for chance in the Supreme Executor's Great Plan
+		
+		"commanderSkillsShuffleProbability":0,
+		"commanderSkills":[
+			"carrier_group",
+			"fighter_uplink",
+		],
+	},
+	"illegalCommodities":[
+
+	],
+	"internalComms":"sindrian_diktat_internal",
+	"music":{
+		"encounter_hostile":"music_diktat_encounter_hostile",
+	},
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/portrait_diktat01.png",
+			"graphics/portraits/portrait_diktat03.png",
+			"graphics/portraits/portrait_diktat04.png",
+			"graphics/portraits/portrait_diktat07.png",
+
+		],
+		"standard_female":[
+			"graphics/portraits/portrait_diktat02.png",
+			"graphics/portraits/portrait_diktat05.png",
+			"graphics/portraits/portrait_diktat06.png",
+			"graphics/portraits/portrait_diktat08.png",
+		],
+	},
+	"voices":{
+		"LOW":{
+			"soldier":10,
+			"official":5,
+			"spacer":5,
+		},
+		"MEDIUM":{
+			"soldier":10,
+			"official":10,
+		},
+		"HIGH":{
+			"soldier":5,
+			"official":10,
+			"aristo":3,
+		},
+	},
+	"fleetTypeNames":{
+		"patrolSmall":"Diktat Navy Recon",
+		"patrolMedium":"Diktat Navy Patrol",
+		"patrolLarge":"Diktat Navy Flotilla",
+	},
+
+},

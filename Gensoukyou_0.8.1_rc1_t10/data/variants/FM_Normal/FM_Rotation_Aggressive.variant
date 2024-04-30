@@ -1,0 +1,24 @@
+{
+    "displayName": "Aggressive",
+    "fluxCapacitors": 10,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "FM_Rotation",
+    "hullMods": [
+        "high_scatter_amp",
+        "FantasySageMod",
+        "FantasyPlayerMod"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Rotation_Aggressive",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0001": "FM_Spark_heavy",
+            "WS0002": "FM_Spark_heavy"
+        }
+    }],
+    "wings": []
+}

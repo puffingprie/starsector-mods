@@ -1,0 +1,17 @@
+{
+	"id":"FM_Tokiko_skillCom",
+	"governingAptitude":"leadership",
+	"compressHullmods":false,
+	"elite":false,
+	"scope":"CUSTOM",
+	"scopeStr":"",
+	"effectGroups":[
+		{
+			"requiredSkillLevel":1,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"ALL_SHIPS_IN_FLEET", "script":"data.campaign.skills.FM_Tokiko_skillCom$Level1"},
+			]
+		},
+	],
+}

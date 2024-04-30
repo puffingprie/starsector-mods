@@ -1,0 +1,82 @@
+{
+  "hullName": "Bolide",
+  "hullId": "vice_bolide",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/vice/ships/hidden/bolide.png",
+  "style": "HIGH_TECH",
+  "height": 119,
+  "width": 70,
+  "center": [35, 63],
+  "collisionRadius": 79.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 80,
+  "viewOffset": 0,
+  "builtInMods": [
+    "supercomputer",
+    "fluxshunt"
+  ],
+  "builtInWeapons": {
+    "WS 000": "vice_hmc"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS 000",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [42, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-47, 16],
+      "length": 14,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-47, -16],
+      "length": 14,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-46, -0],
+      "length": 25,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-21, 26],
+      "length": 12,
+      "width": 6,
+      "angle": 90,
+      "contrailSize": 18,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-21, -26],
+      "length": 12,
+      "width": 6,
+      "angle": -90,
+      "contrailSize": 18,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    54.5, 11.5,
+    54.5, -11.5,
+    -20, -25,
+    -47, -20,
+    -47, 20,
+    -20, 25
+  ]
+}

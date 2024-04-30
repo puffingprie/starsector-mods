@@ -1,0 +1,53 @@
+{
+  "id": "pn_t3cannon-support",
+  "specClass": "projectile",
+  "projectileSpecId": "pn_t3support_shot",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "displayArcRadius": 400,
+  "turretSprite": "graphics/pn/weapons/pn_t3cannon-support_turret_base.png",
+  "turretGunSprite": "graphics/pn/weapons/pn_t3cannon-support_turret_recoil.png",
+  "hardpointSprite": "graphics/pn/weapons/pn_t3cannon-support_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/pn/weapons/pn_t3cannon-support_hardpoint_recoil.png",
+  "visualRecoil": 8,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    23.5,
+    -4,
+    23.5,
+    4
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    36.5,
+    5,
+    36.5,
+    -5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 40,
+    "spread": 30,
+    "particleSizeMin": 16,
+    "particleSizeRange": 18,
+    "particleDuration": 0.3,
+    "particleCount": 46,
+    "particleColor": [
+      185,
+      20,
+      185,
+      225
+    ]
+  },
+  "fireSoundTwo": "pn_normal_t3cannon"
+}

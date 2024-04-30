@@ -1,0 +1,98 @@
+{
+
+  "pn_dsilaser": [
+    {"file": "sounds/pn/fx/pnweapons/pn_dsilaser.ogg", "pitch": 1, "volume": 0.9}
+  ],
+
+  "pn_skt_fire": [
+    {"file": "sounds/pn/fx/pnweapons/pn_skt_fire.ogg", "pitch": 1, "volume": 0.9},
+    {"file": "sounds/pn/fx/pnweapons/pn_skt_fire.ogg", "pitch": 0.95, "volume": 0.9},
+    {"file": "sounds/pn/fx/pnweapons/pn_skt_fire.ogg", "pitch": 0.90, "volume": 0.9},
+    {"file": "sounds/pn/fx/pnweapons/pn_skt_fire.ogg", "pitch": 0.85, "volume": 0.9}
+  ],
+  "pn_skv_fire": [
+    {"file": "sounds/pn/fx/pnweapons/pn_skv_fire.ogg", "pitch": 1, "volume": 0.9},
+    {"file": "sounds/pn/fx/pnweapons/pn_skv_fire.ogg", "pitch": 0.95, "volume": 0.9},
+    {"file": "sounds/pn/fx/pnweapons/pn_skv_fire.ogg", "pitch": 0.90, "volume": 0.9},
+    {"file": "sounds/pn/fx/pnweapons/pn_skv_fire.ogg", "pitch": 0.85, "volume": 0.9}
+  ],
+  "pn_sks_fire": [
+    {"file": "sounds/pn/fx/pnweapons/pn_sks_fire.ogg", "pitch": 1, "volume": 0.7},
+    {"file": "sounds/pn/fx/pnweapons/pn_sks_fire.ogg", "pitch": 0.95, "volume": 0.7},
+    {"file": "sounds/pn/fx/pnweapons/pn_sks_fire.ogg", "pitch": 0.90, "volume": 0.7},
+    {"file": "sounds/pn/fx/pnweapons/pn_sks_fire.ogg", "pitch": 0.85, "volume": 0.7}
+  ],
+  "pn_ivp": [
+    {"file": "sounds/pn/fx/pnweapons/pn_ivp.ogg", "pitch": 1, "volume": 0.7},
+    {"file": "sounds/pn/fx/pnweapons/pn_ivp.ogg", "pitch": 0.95, "volume": 0.7},
+    {"file": "sounds/pn/fx/pnweapons/pn_ivp.ogg", "pitch": 0.90, "volume": 0.7},
+    {"file": "sounds/pn/fx/pnweapons/pn_ivp.ogg", "pitch": 0.85, "volume": 0.7}
+  ],
+  "pn_kaala_laser": [
+    {"file": "sounds/pn/fx/pnweapons/pn_kaala_laser.ogg", "pitch": 1, "volume": 0.9}
+  ],
+  "pn_normal_t3cannon": [
+    {"file": "sounds/pn/fx/pnweapons/pn_normal_t3cannon.ogg", "pitch": 1, "volume": 0.9}
+  ],
+  "pn_normal_t3cannon_explosion": [
+    {"file": "sounds/pn/fx/pnweapons/pn_normal_t3cannon_explosion.ogg", "pitch": 1, "volume": 0.9}
+  ],
+  "pn_charged_t3cannon": [
+    {"file": "sounds/pn/fx/pnweapons/pn_charged_t3cannon.ogg", "pitch": 1, "volume": 0.9}
+  ],
+  "pn_t3chargeup": [
+    {"file": "sounds/pn/fx/pnweapons/pn_t3chargeup.ogg", "pitch": 1, "volume": 0.9}
+  ],
+
+  "pn_vulcan_fire": [
+    {"file": "sounds/pn/fx/pnweapons/pn_vulcan_fire.ogg", "pitch": 1, "volume": 0.7},
+    {"file": "sounds/pn/fx/pnweapons/pn_vulcan_fire.ogg", "pitch": 0.95, "volume": 0.7},
+    {"file": "sounds/pn/fx/pnweapons/pn_vulcan_fire.ogg", "pitch": 0.90, "volume": 0.7},
+    {"file": "sounds/pn/fx/pnweapons/pn_vulcan_fire.ogg", "pitch": 0.85, "volume": 0.7}
+  ],
+  "pn_smallburstlaser": [
+    {"file": "sounds/pn/fx/pnweapons/pn_smallburstlaser.ogg", "pitch": 1, "volume": 0.9},
+    {"file": "sounds/pn/fx/pnweapons/pn_smallburstlaser.ogg", "pitch": 0.9, "volume": 0.9},
+    {"file": "sounds/pn/fx/pnweapons/pn_smallburstlaser.ogg", "pitch": 0.8, "volume": 0.9}
+  ],
+  "pn_mediumburstlaser": [
+    {"file": "sounds/pn/fx/pnweapons/pn_mediumburstlaser.ogg", "pitch": 1, "volume": 0.9},
+    {"file": "sounds/pn/fx/pnweapons/pn_mediumburstlaser.ogg", "pitch": 0.9, "volume": 0.9},
+    {"file": "sounds/pn/fx/pnweapons/pn_mediumburstlaser.ogg", "pitch": 0.8, "volume": 0.9}
+  ],
+  "pn_raalasound": [
+    {"file": "sounds/pn/fx/pnweapons/pn_raalasound.ogg", "pitch": 1, "volume": 0.6},
+    {"file": "sounds/pn/fx/pnweapons/pn_raalasound.ogg", "pitch": 0.95, "volume": 0.6},
+    {"file": "sounds/pn/fx/pnweapons/pn_raalasound.ogg", "pitch": 0.9, "volume": 0.6}
+  ],
+  "pn_burstmauler_chargeup": [
+    {"file": "sounds/pn/fx/pnweapons/pn_burstmauler_chargeup.ogg", "pitch": 1, "volume": 1.1},
+    {"file": "sounds/pn/fx/pnweapons/pn_burstmauler_chargeup.ogg", "pitch": 0.95, "volume": 1.1},
+    {"file": "sounds/pn/fx/pnweapons/pn_burstmauler_chargeup.ogg", "pitch": 0.9, "volume": 1.1}
+  ],
+  "pn_burstmauler_fire": [
+    {"file": "sounds/pn/fx/pnweapons/pn_burstmauler_fire.ogg", "pitch": 1, "volume": 1.25},
+    {"file": "sounds/pn/fx/pnweapons/pn_burstmauler_fire.ogg", "pitch": 0.95, "volume": 1.25},
+    {"file": "sounds/pn/fx/pnweapons/pn_burstmauler_fire.ogg", "pitch": 0.9, "volume": 1.25}
+  ],
+  "pn_burstburn": [
+    {"file": "sounds/pn/fx/pnsystems/pn_burstburn.ogg", "pitch": 1, "volume": 0.9}
+  ],
+  "pn_silverfishphase_activate": [
+    {"file": "sounds/pn/fx/pnsystems/pn_silverfishphase_activate.ogg", "pitch": 1, "volume": 0.9}
+  ],
+  "pn_phasebomb_activate": [
+    {"file": "sounds/pn/fx/pnsystems/pn_phasebomb.ogg", "pitch": 1, "volume": 0.3}
+  ],
+  "pn_pulse_charge": [
+    {"file": "sounds/pn/fx/pnsystems/pn_pulse_charge.ogg", "pitch": 1, "volume": 0.3}
+  ],
+  "pn_pulse_burst": [
+    {"file": "sounds/pn/fx/pnsystems/pn_pulse_burst.ogg", "pitch": 1, "volume": 0.3}
+  ],
+  "pn_leap_sound_1": [
+    {"file": "sounds/pn/fx/pnsystems/pn_leap_sound_1.ogg", "pitch": 1, "volume": 1}
+  ]
+}
+
+}

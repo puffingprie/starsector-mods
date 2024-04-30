@@ -1,0 +1,80 @@
+{
+  "hullName": "Idaten",
+  "hullId": "mm_idaten",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/mm/ships/mm_idaten.png",
+  "style": "HIGH_TECH",
+  "height": 116,
+  "width": 44,
+  "center": [22, 58.5],
+  "collisionRadius": 61.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 60,
+  "viewOffset": 0,
+  "builtInMods": [
+    "mmstandardtargetingcore",
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": 0,
+      "locations": [-2.5, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": -0,
+      "locations": [30, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": -0,
+      "locations": [49, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-54, 11],
+      "length": 25.5,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-54, -11],
+      "length": 25.5,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-56, -0],
+      "length": 60.979099,
+      "width": 21.89061,
+      "angle": 180,
+      "contrailSize": 21.89061,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    60.5, -3.5,
+    28, -13.5,
+    -55.5, -16,
+    -55.5, 16,
+    28, 13.5,
+    60.5, 3.5
+  ]
+}

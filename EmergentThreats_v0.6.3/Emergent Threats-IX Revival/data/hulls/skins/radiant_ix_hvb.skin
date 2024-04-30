@@ -1,0 +1,20 @@
+{
+	"baseHullId":"radiant_ix_base",
+	"skinHullId":"radiant_ix_hvb",
+	"hullName":"Radiant (HG)",
+	"hullDesignation":"Drone Battleship",
+	"incompatibleWithBaseHull":true,
+	"descriptionId":"radiant_ix_hvb",
+	"descriptionPrefix":"The preserved husk of an AI godling, awakened to serve human masters once more. This terrifying vessel is the result of an intact Radiant-class drone battleship that has been restored and rebuilt, at tremendous expense, by the 9th Domain Battlegroup.",
+	"fleetPoints":35,
+	"ordnancePoints":300,
+	"baseValueMult":1.5,
+	"systemId":"displacer",
+	"spriteName":"graphics/ships/ix/hvb/radiant_ix_hvb.png",
+	"tags":["no_autofit"],
+	"tech":"IX Battlegroup",
+	"builtInMods":["automated", "ix_ninth"],
+	"builtInWeapons": {
+        "WS SBE": "sbe_ix",
+    },
+}

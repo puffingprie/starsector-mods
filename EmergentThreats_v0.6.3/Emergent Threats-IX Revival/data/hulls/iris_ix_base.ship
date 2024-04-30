@@ -1,0 +1,111 @@
+{
+  "hullName": "Iris",
+  "hullId": "iris_ix_base",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/ix/iconoclast_ix.png",
+  "style": "HIGH_TECH",
+  "height": 119,
+  "width": 112,
+  "center": [56, 51],
+  "collisionRadius": 87,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 87,
+  "viewOffset": 0,
+  "builtInMods": [],
+  "weaponSlots": [
+    {
+      "id": "WS ARR",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 60,
+      "angle": 0,
+      "locations": [39, 0]
+    },
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [2, 17]
+    },
+    {
+      "id": "WS0 002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [2, -17]
+    },
+    {
+      "id": "LB 1",
+      "size": "SMALL",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        0, 42,
+        0, 42
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "SMALL",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        0, -42,
+        0, -42
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-50, 13],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-50, -13],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-50, 5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-50, -5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -51, -36,
+    -14, -56,
+    40, -36,
+    63, 0,
+    40, 36,
+    -14, 56,
+    -51, 36
+  ]
+}

@@ -1,0 +1,15 @@
+{
+	"displayName":"Drone",
+	"hullId":"terminus_ix",
+	"variantId":"terminus_ix_drone",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"hullMods":["no_weapon_flux", "ix_terminus_core"], # array of strings
+	"weaponGroups":[
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS 001":"morningstar_fighter_ix",
+		 		   },
+		},
+	],
+}

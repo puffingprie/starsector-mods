@@ -1,0 +1,38 @@
+{
+  "variantId": "kayse_ghost_strike",
+  "hullId": "kayse_ghost",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "salamanderpod",
+        "WS0001": "salamanderpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "pdburst",
+        "WS 002": "pdburst",
+        "WS 004": "pdburst",
+        "WS 009": "mininglaser",
+        "WS 010": "mininglaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "kayse_maggot_wing",
+    "kayse_maggot_wing",
+    "kayse_maggot_wing"
+  ]
+}

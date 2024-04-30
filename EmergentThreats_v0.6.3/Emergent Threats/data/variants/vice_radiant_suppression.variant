@@ -1,0 +1,53 @@
+{
+    "displayName": "Suppression",
+    "fluxCapacitors": 6,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "radiant",
+    "hullMods": [
+        "fluxdistributor",
+        "targetingunit",
+        "stabilizedshieldemitter",
+        "vice_adaptive_emitter_diodes"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_radiant_suppression",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "vice_siege_burst",
+                "WS 001": "vice_siege_burst",
+                "WS 003": "vice_siege_burst",
+                "WS 005": "breachpod",
+                "WS 006": "breachpod",
+                "WS 007": "breachpod",
+                "WS 008": "breachpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "squall",
+                "WS 004": "squall"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "pdlaser",
+                "WS 011": "pdlaser",
+                "WS 012": "pdburst",
+                "WS 013": "pdburst",
+                "WS 014": "pdburst",
+                "WS 015": "pdburst",
+                "WS 016": "pdlaser",
+                "WS 018": "pdlaser"
+            }
+        }
+    ]
+}

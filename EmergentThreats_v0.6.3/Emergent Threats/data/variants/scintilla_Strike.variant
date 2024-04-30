@@ -1,0 +1,42 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 0,
+    "fluxVents": 13,
+    "goalVariant": true,
+    "hullId": "scintilla",
+    "hullMods": ["vice_adaptive_emitter_diodes"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "scintilla_Strike",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "breachpod",
+                "WS 007": "vice_ionstreamer",
+                "WS 008": "vice_ionstreamer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "taclaser",
+                "WS 001": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "pdlaser",
+                "WS 003": "pdlaser"
+            }
+        }
+    ],
+    "wings": [
+        "flash_wing",
+        "flash_wing"
+    ]
+}

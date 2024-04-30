@@ -1,0 +1,51 @@
+{
+  "hullName": "FM_Fairy_bomb",
+  "hullId": "FM_Fairy_bomb",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/FM_Fairy_bomb.png",
+  "style": "FM_fighter",
+  "height": 40,
+  "width": 40,
+  "center": [20, 18],
+  "collisionRadius": 29,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 26,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-3, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [4, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-12, -0],
+      "length": 17.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -13, -2.5,
+    -13, 2.5,
+    -4.5, 9.5,
+    15.5, -0,
+    -4.5, -9.5
+  ]
+}

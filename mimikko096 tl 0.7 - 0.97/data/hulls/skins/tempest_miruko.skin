@@ -1,0 +1,45 @@
+{
+	"baseHullId":"tempest",
+	"skinHullId":"tempest_miruko",
+	"hullName":"Tempest (MRK)",
+	"descriptionId":"tempest",
+	#"hullDesignation":"Cruiser",
+	"descriptionPrefix":"As Miruko's favourite frigate, Tri-Tachyon releasd an official custom model (skin) for a super gamer like Miruko, though it only exist in the game.",
+        "hints":["HIDE_IN_CODEX"],
+	"tags":["restricted"],
+	"tech":"Mimikko",
+	#"systemId":"",
+	#"fleetPoints":9,
+	"ordnancePoints":60,
+	"baseValueMult":1.2,
+	#"suppliesToRecover":6,
+	#"suppliesPerMonth":6,
+	"spriteName":"graphics/ships/tempest_miruko.png",
+	#"removeWeaponSlots":["WS 001", "WS 004"], 		# ids
+	#"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	#"removeBuiltInMods":[], 		# hullmod ids
+	#"removeBuiltInWeapons":[], 		# weapon slot ids
+	#"builtInWeapons":{
+	#"builtInMods":["extendedshieldemitter"],
+   #"weaponSlotChanges":{
+	#	"WS 001":{
+			
+            #"mount": "HARDPOINT",
+            #"size": "LARGE",
+        #    "type": "UNIVERSAL"
+	#	},
+	#	"WS 002":{
+			
+            #"mount": "HARDPOINT",
+            #"size": "LARGE",
+        #    "type": "UNIVERSAL"
+	#	},
+	#	"WS 003":{
+			
+            #"mount": "HARDPOINT",
+            #"size": "LARGE",
+         #   "type": "UNIVERSAL"
+	#	},	
+	#},
+    #},
+}

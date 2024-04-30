@@ -1,0 +1,31 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 10,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "pn_trundler",
+    "hullMods": [
+        "heavyarmor",
+        "turretgyros",
+        "pointdefenseai",
+        "autorepair",
+        "insulatedengine"
+    ],
+    "permaMods": [],
+    "variantId": "pn_trundler_support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "pn_vaala"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "pn_vulcan",
+                "WS0002": "pn_vulcan"
+            }
+        }
+    ]
+}

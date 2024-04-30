@@ -1,0 +1,36 @@
+{
+	## every CUSTOM sound needs to be configed here. ##
+ ### Weapons!!! ###
+#Combat MG test
+	"cmg_fire":
+	[
+		{"file":"sounds/sfx_wpn_guns/cmg_fire_01.ogg","pitch":1,"volume":0.5},
+	],
+	"actel_fire":
+	[
+		{"file":"sounds/sfx_wpn_guns/actel_cannon_1.ogg","pitch":0.75,"volume":0.95},
+	],
+#Ship systems #
+
+	"system_rostor_loop":[
+		{"file":"sounds/sfx_systems/system_rostor_loop.ogg","pitch":1,"volume":1.5},
+		],
+		
+	"system_heavyrostor_loop":[
+		{"file":"sounds/sfx_systems/system_heavyrostor_loop.ogg","pitch":1,"volume":1.5},
+		],
+		"music":{
+		"music_metelson_encounter_neutral":[
+			{"file":"metelsonindustries_neutral.ogg","source":"sounds/music","volume":0.3,"randomStart":true},
+		],
+		"music_metelson_encounter_hostile":[
+			{"file":"metelsonindustries_hostile.ogg","source":"sounds/music","volume":0.3,"randomStart":true},
+		],
+		"music_metelson_encounter_friendly":[
+			{"file":"metelsonindustries_friendly.ogg","source":"sounds/music","volume":0.3,"randomStart":true},
+		],
+		"music_metelson_encounter_market":[
+			{"file":"metelsonindustries_market.ogg","source":"sounds/music","volume":0.3,"randomStart":true},
+		],
+	},
+}

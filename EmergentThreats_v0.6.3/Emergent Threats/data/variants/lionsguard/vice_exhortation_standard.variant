@@ -1,0 +1,57 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 45,
+    "goalVariant": true,
+    "hullId": "vice_exhortation",
+    "hullMods": [
+        "advancedoptics",
+        "fluxdistributor",
+        "hardenedshieldemitter",
+        "targetingunit",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_exhortation_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "vice_siege_burst",
+                "WS 001": "vice_siege_burst"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "gravitonbeam",
+                "WS 004": "hveldriver",
+                "WS 005": "hveldriver",
+                "WS 007": "gravitonbeam",
+                "WS 014": "vice_ionstreamer",
+                "WS 015": "vice_ionstreamer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "pdburst",
+                "WS 006": "pdburst",
+                "WS 008": "vulcan",
+                "WS 009": "vulcan",
+                "WS 010": "vulcan",
+                "WS 016": "pdlaser",
+                "WS 017": "pdlaser"
+            }
+        }
+    ],
+    "wings": [
+        "vice_spatha_wing",
+        "vice_estoc_wing",
+        "vice_kite_lg_wing"
+    ]
+}

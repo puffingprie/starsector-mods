@@ -1,0 +1,22 @@
+{
+  "displayName": "Heavy Laser",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "pn_mlmv",
+  "hullMods": [
+    "blast_doors"
+  ],
+  "variantId": "pn_mlmv_wing",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mininglaser",
+        "WS0002": "mininglaser",
+        "WS0003": "mininglaser",
+        "WS0004": "miningblaster"
+      }
+    }
+  ]
+}

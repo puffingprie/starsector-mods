@@ -1,0 +1,124 @@
+{
+  "hullName": "FM_BBA",
+  "hullId": "FM_BBA",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/FM_BBA.png",
+  "style": "HIGH_TECH",
+  "height": 110,
+  "width": 81,
+  "center": [40.5, 55],
+  "collisionRadius": 57.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 61,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0003": "FM_BBA_built_in"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 45,
+      "locations": [11, 9.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -45,
+      "locations": [11, -9.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [19, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-18.5, 27.5],
+      "length": 15,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-18.5, -27.5],
+      "length": 15,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-17.5, -23],
+      "length": 22,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-17.5, 23],
+      "length": 22,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    17.5, -1.5,
+    23, -2.5,
+    35, -2.5,
+    40.5, -1.5,
+    44, -1.5,
+    39, -7.5,
+    26, -15,
+    7.5, -27,
+    3, -28,
+    -11.5, -37,
+    -18, -37,
+    -19.5, -36,
+    -19.5, -26,
+    -18.5, -25,
+    -18.5, -20,
+    -23, -18.5,
+    -32.5, -10.5,
+    -26.5, -9.5,
+    -26.5, -6,
+    -36.5, -5,
+    -48, -1,
+    -48, 1,
+    -36.5, 5,
+    -26.5, 6,
+    -26.5, 9.5,
+    -32.5, 10.5,
+    -23, 18.5,
+    -18.5, 20,
+    -18.5, 25,
+    -19.5, 26,
+    -19.5, 36,
+    -18, 37,
+    -11.5, 37,
+    3, 28,
+    7.5, 27,
+    26, 15,
+    39, 7.5,
+    44, 1.5,
+    40.5, 1.5,
+    35, 2.5,
+    23, 2.5,
+    17.5, 1.5
+  ]
+}

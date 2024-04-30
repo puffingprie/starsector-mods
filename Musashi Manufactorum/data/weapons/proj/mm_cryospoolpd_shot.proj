@@ -1,0 +1,20 @@
+{
+	"id":"mm_cryospoolpd_shot",
+	"specClass":"projectile",
+	"onHitEffect":"com.fs.starfarer.api.impl.combat.CryofluxTransducerEffect",
+	
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":55.0,
+	"width":35.0,
+	"hitGlowRadius":0,
+	"fadeTime":0.25,
+	"fringeColor":[225,25,15,125],
+	"coreColor":[225,25,15,125],
+	#"coreColor":[255,255,255,50],
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256,
+	"pixelsPerTexel":5.0
+	
+}

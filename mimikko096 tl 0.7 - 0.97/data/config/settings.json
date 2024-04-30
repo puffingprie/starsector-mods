@@ -1,0 +1,150 @@
+{
+	
+ 
+	"mimikkoInteractionScriptmult":"1";                    #助手好感度每月获取的倍数，初始为1，即每月1点
+	"mimikko_mayaskillintel":false;                       #摩耶的技能提示，true为打开
+	"mimikko_interactionintel":true;			#助手每月好感度增长提示，true为打开
+
+
+        #以下内容请勿改动-------------------------------------------------------------
+        "designTypeColors":{
+        "兽耳科技":[229, 118, 246,255],
+       
+    },
+       
+
+        "ruleCommandPackages":[
+		"data.scripts.rulecmd",
+                
+		
+	],
+	"plugins":{
+
+	},
+	"graphics":{
+
+		
+		"blueprint_packages":{
+			
+		},
+		"campaignEntities":{
+
+		},
+		"hab_glows":{
+
+		},
+		"systems":{
+
+		},
+		"fx":{
+		"mimikko_glow_1":"graphics/ships/mimikko_nonona_paragon_glow/glow_1.png",
+		"mimikko_glow_2":"graphics/ships/mimikko_nonona_paragon_glow/glow_2.png",
+
+
+
+
+		"paragon_nonona_center_glow_1":"graphics/ships/mimikko_nonona_paragon_glow/center_glow_1.png",
+
+		"paragon_nonona_hit_glow_1":"graphics/ships/mimikko_nonona_paragon_glow/hit_glow_1.png",
+		"paragon_nonona_hit_glow_2":"graphics/ships/mimikko_nonona_paragon_glow/hit_glow_2.png",
+		"paragon_nonona_engine_partical":"graphics/ships/mimikko_nonona_paragon_glow/engine_partical.png",
+
+		"paragon_nonona_system_glow_1":"graphics/ships/mimikko_nonona_paragon_glow/system_1.png",
+		"paragon_nonona_weapon_hit_glow_1":"graphics/ships/mimikko_nonona_paragon_glow/weapon_hit_glow_1.png",
+		"paragon_nonona_weapon_hit_glow_2":"graphics/ships/mimikko_nonona_paragon_glow/weapon_hit_glow_2.png",
+		"paragon_nonona_weapon_hit_glow_3":"graphics/ships/mimikko_nonona_paragon_glow/weapon_hit_glow_3.png",
+
+
+
+		"onslaught_yurika_hitted_glow_1":"graphics/ships/mimikko_yurika_onxlaught_glow/hit_glow_1.png",
+		"onslaught_yurika_hitted_glow_2":"graphics/ships/mimikko_yurika_onxlaught_glow/hit_glow_2.png",
+
+		"onslaught_yurika_blackhole_1":"graphics/ships/mimikko_yurika_onxlaught_glow/blackhole_1.png",
+		"onslaught_yurika_blackhole_2":"graphics/ships/mimikko_yurika_onxlaught_glow/blackhole_2.png",
+		"onslaught_yurika_blackhole_3":"graphics/ships/mimikko_yurika_onxlaught_glow/blackhole_3.png",
+		"onslaught_yurika_blackhole_4":"graphics/ships/mimikko_yurika_onxlaught_glow/vortex_1.png",
+
+		"onslaught_yurika_fire_glow_1":"graphics/ships/mimikko_yurika_onxlaught_glow/weapon_fire_glow_1.png",
+		"onslaught_yurika_fire_glow_2":"graphics/ships/mimikko_yurika_onxlaught_glow/weapon_fire_glow_2.png",
+		"onslaught_yurika_system_glow_1":"graphics/ships/mimikko_yurika_onxlaught_glow/system_glow_1_1.png",
+		"onslaught_yurika_system_glow_2":"graphics/ships/mimikko_yurika_onxlaught_glow/system_glow_2_1.png",
+		"onslaught_yurika_system_glow_3":"graphics/ships/mimikko_yurika_onxlaught_glow/system_glow_3.png",
+		"onslaught_yurika_system_glow_4":"graphics/ships/mimikko_yurika_onxlaught_glow/system_glow_4_1.png",
+		"onslaught_yurika_system_glow_5":"graphics/ships/mimikko_yurika_onxlaught_glow/system_glow_5_1.png",
+
+
+		"kasutaria_onhit_1":"graphics/ships/mimikko_nonona_paragon_glow/kasutariri_onhit_1.png",
+		"kasutaria_onhit_2":"graphics/ships/mimikko_nonona_paragon_glow/kasutariri_onhit_2.png",
+
+		},		
+		"illustrations":{
+                       
+    
+		},
+                 "industry":{
+                       
+		},
+
+		"characters":{
+			"momona":"graphics/icon/characters/Mimikko_momona.png",	    #公式服
+			"momona_2":"graphics/icon/characters/Mimikko_momona_2.png", #海军毕业生
+			"momona_3":"graphics/icon/characters/Mimikko_momona_3.png", #圣诞交响曲
+			"momona_4":"graphics/icon/characters/Mimikko_momona_4.png", #流金浮梦
+			"momona_5":"graphics/icon/characters/Mimikko_momona_5.png", #纯净信件
+
+			"zero":"graphics/icon/characters/Mimikko_zero.png",	    #公式服
+			"zero_2":"graphics/icon/characters/Mimikko_zero_2.png",     #抹茶圣代
+			"zero_3":"graphics/icon/characters/Mimikko_zero_3.png",	    #掌心之约
+
+			"ariana":"graphics/icon/characters/Mimikko_ariana.png",	    #公式服
+			"ariana_2":"graphics/icon/characters/Mimikko_ariana_2.png", #1314迭代
+
+                        "rury":"graphics/icon/characters/Mimikko_rury.png",		#公式服
+                        "rury_2":"graphics/icon/characters/Mimikko_rury_2.png",		#人鱼泪
+                        "rury_3":"graphics/icon/characters/Mimikko_rury_3.png",		#彼岸花
+
+                        "kurumi":"graphics/icon/characters/Mimikko_kurumi.png",		#公式服
+                        "kurumi_2":"graphics/icon/characters/Mimikko_kurumi_2.png",	#不渝之诺
+	
+                        "maya":"graphics/icon/characters/Mimikko_maya.png",		#公式服
+                        "maya_2":"graphics/icon/characters/Mimikko_maya_2.png",		#久远庇佑
+
+                        "simeng":"graphics/icon/characters/Mimikko_simeng.png",
+
+                        "miruko":"graphics/icon/characters/Mimikko_miruko.png",		#公式服
+                        "miruko_2":"graphics/icon/characters/Mimikko_miruko_2.png",	#永誓花
+
+                        "miruku":"graphics/icon/characters/Mimikko_miruku.png",		#公式服
+                        "miruku_2":"graphics/icon/characters/Mimikko_miruku_2.png",	#晨曦恋歌
+
+                        "nonona":"graphics/icon/characters/Mimikko_nonona.png",		#公式服
+                        "nonona_2":"graphics/icon/characters/Mimikko_nonona_2.png",	#予熏诺
+
+                        "yurika":"graphics/icon/characters/Mimikko_yurika.png",		#公式服
+                        "yurika_2":"graphics/icon/characters/Mimikko_yurika_2.png",	#瑶光思
+
+                        "nemuri":"graphics/icon/characters/Mimikko_nemuri.png",		#公式服
+
+                        "kasutariri":"graphics/icon/characters/Mimikko_kasutariri.png",	#公式服
+                        "kasutariri_2":"graphics/icon/characters/Mimikko_kasutariri_2.png",	#倚星月
+
+                        "kasutaria":"graphics/icon/characters/Mimikko_kasutaria.png",	#公式服
+                        "kasutaria_2":"graphics/icon/characters/Mimikko_kasutaria_2.png",	#恋白羽
+
+
+                        "mint":"graphics/icon/characters/Mimikko_mint.png",
+                        "suna":"graphics/icon/characters/Mimikko_suna.png",
+                        "xihe":"graphics/icon/characters/Mimikko_xihe.png",
+		},
+		"icons":{
+                        "TEMPORA":"graphics/icon/status/Mimikko_tempolra.png",
+                        "ACE":"graphics/icon/status/Mimikko_ace.png",
+			"MINT":"graphics/icon/status/Mimikko_mint.png",
+			"NONONA":"graphics/icon/status/Mimikko_nonona.png",
+			"MIMIKKO":"graphics/icon/characters/skills/Mimikko_momonalove.png",
+
+		}
+
+	}
+}
+	

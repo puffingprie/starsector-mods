@@ -1,0 +1,22 @@
+{
+	"ranks":{
+		"FM_factionLeader":{"name":"Chairperson"},
+		"FM_cadetGraduate":{"name":"2nd Lieutenant Cadet"},
+		"FM_miko":{"name":"Miko"},
+		
+		
+	},
+	
+	"posts":{
+		"FM_factionLeader":{"name":"Chairperson"},
+		"FM_miko":{"name":"Miko"},
+		"FM_executiveAssistant":{"name":"Executive"},
+	},
+}
+
+
+
+
+
+
+

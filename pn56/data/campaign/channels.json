@@ -1,0 +1,26 @@
+{
+	"defaultChannels":[
+		"pn_colony_public",
+	],	
+	"pn_colony_internal":{
+		"name":"P9 Intelligence",
+		"logo":"graphics/pn/icons/intel/pn_colony_public.png",
+		"icon":"graphics/pn/icons/intel/pn_colony_public.png",
+		"image":"graphics/pn/factions/pn_colony_crest.png",
+		"sound":"ui_channel_comm_secure",
+		"faction":"pn_colony",
+		"type":"Intelligence Report",
+		"shortType":"Intel",
+	},
+	"pn_colony_public":{
+		"name":"P9 Broadcast",
+		"logo":"graphics/pn/icons/intel/pn_colony_public.png",
+		"icon":"graphics/pn/icons/intel/pn_colony_public.png",
+		"image":"graphics/pn/factions/pn_colony_crest.png",
+		"sound":"ui_channel_news",
+		"faction":"pn_colony",
+		"type":"News Report",
+		"shortType":"News",
+	},
+
+}

@@ -1,0 +1,58 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 0,
+    "fluxVents": 49,
+    "goalVariant": true,
+    "hullId": "aquilon_ix",
+    "hullMods": [
+        "advancedoptics",
+        "eccm",
+        "targetingunit",
+        "frontemitter",
+        "stabilizedshieldemitter",
+        "ix_aquilon_sr",
+        "ix_aquilon_sr_handler"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "aquilon_ix_strike",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 006": "ifc_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "orthrus_l_ix",
+                "WS 002": "orthrus_m_ix",
+                "WS 003": "orthrus_m_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "muon_autolance_ix",
+                "WS 005": "muon_autolance_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 000": "diffraction_laser_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "morningstar_ciws_ix",
+                "WS 008": "morningstar_ciws_ix",
+                "WS 009": "morningstar_ciws_ix",
+                "WS 010": "morningstar_ciws_ix"
+            }
+        }
+    ]
+}

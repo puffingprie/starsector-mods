@@ -1,0 +1,19 @@
+{
+	"id":"FM_PetaFlare_project",
+	"specClass":"projectile",
+	"spawnType":"PLASMA",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"width":64,
+	"fadeTime":0.3,
+	"fringeColor":[255,125,114,200],
+	"coreColor":[254,239,200,255],
+	"glowColor":[254,125,114,90],
+	"glowRadius":60,
+	"hitGlowRadius":128,
+	"onFireEffect":"data.weapons.onFire.FM_PetaFlareOnFire",
+	#"onHitEffect":"data.weapons.onHit.FM_PetaFlareOnHit",
+	#"bulletSprite":"graphics/weapons/projects/FM_PetaFlare_project.png"
+	"passThroughMissiles":true,	
+	"passThroughFighters":true,
+}

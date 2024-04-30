@@ -1,0 +1,71 @@
+{
+  "hullName": "Big Mook",
+  "hullId": "acs_bigmookfrig",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/acs_bigmookfrig.png",
+  "style": "LOW_TECH",
+  "height": 55,
+  "width": 62,
+  "center": [31, 27.5],
+  "collisionRadius": 64.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 48.5,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0001": "acs_medium_hag",
+    "WS0002": "lightmg"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 26,
+      "angle": 0,
+      "locations": [18.5, 8]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-4.5, -13]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-26, 5.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-26, -5.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-26, -16.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    22, -25.5,
+    -13, -25,
+    -15, 13,
+    -3.5, 26.5,
+    20.5, 18.5
+  ]
+}

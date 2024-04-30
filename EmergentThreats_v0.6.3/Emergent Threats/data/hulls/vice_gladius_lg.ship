@@ -1,0 +1,68 @@
+{
+  "hullName": "Gladius (LG)",
+  "hullId": "vice_gladius_lg",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/vice/ships/gladius_lg.png",
+  "style": "MIDLINE",
+  "height": 33,
+  "width": 38,
+  "center": [19, 15],
+  "collisionRadius": 25,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 25,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": 0,
+      "locations": [3, 12]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": 0,
+      "locations": [3, -12]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 135,
+      "angle": 0,
+      "locations": [0, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-14, 9],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-14, -8],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    17, 1,
+    7, 16,
+    -11, 9,
+    -11, -7,
+    6, -14
+  ]
+}

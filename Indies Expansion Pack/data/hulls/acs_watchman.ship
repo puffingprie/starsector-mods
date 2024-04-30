@@ -1,0 +1,69 @@
+{
+  "hullName": "Watchman Wing",
+  "hullId": "acs_watchman",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/watchman/acs_watchman_body.png",
+  "style": "LOW_TECH",
+  "height": 46,
+  "width": 60,
+  "center": [30.5, 19.5],
+  "collisionRadius": 30.5,
+  "shieldCenter": [9.5, 6.5],
+  "shieldRadius": 16.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ground_support"
+  ],
+  "builtInWeapons": {
+    "WS0002": "acs_head_watchman"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [14.5, -11]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 174,
+      "angle": 0,
+      "locations": [3, 0.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 174,
+      "angle": 0,
+      "locations": [-9, 0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-15.5, 0.5],
+      "length": 20.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    5, -4,
+    -0.5, -15.5,
+    -4, -7,
+    -16, -0.5,
+    -16, 0.5,
+    -4, 7,
+    -0.5, 15.5,
+    5, 4
+  ]
+}

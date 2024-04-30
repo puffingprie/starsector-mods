@@ -1,0 +1,30 @@
+{
+	"id":"FM_FireflyFlare_project",
+	"specClass":"missile",
+	"missileType":"FLARE",
+	#"sprite":"graphics/missiles/bomblet0.png",
+	"sprite":"graphics/missiles/am_srm.png",
+	"glowColor":[77,255,148,200],
+	"size":[14,14],
+	"center":[7,7],
+	"collisionRadius":9,
+	"collisionClass":"MISSILE_NO_FF",
+	"behaviorSpec":{"behavior":"CUSTOM",
+					"effectRange":800,
+					"effectChance":0.4,
+				},
+	"explosionColor":[36,255,109,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":200, # purely visual
+	"flameoutTime":0.2, # total time from flameout to full fadeout
+	"noEngineGlowTime":0.05, # time spent without the engine glow being rendered
+	"fadeTime":0.05, # fadeout duration
+	"glowRadius":15,
+	"engineSpec":{"turnAcc":100,
+				  "turnRate":10,
+				  "acc":50,
+				  "dec":50,
+				  "maxspeed":25
+				  },
+	"onFireEffect":"data.weapons.onFire.FM_FireflyFlareOnFIre",
+
+}

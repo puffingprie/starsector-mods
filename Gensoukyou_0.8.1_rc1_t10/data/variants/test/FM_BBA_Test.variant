@@ -1,0 +1,24 @@
+{
+  "variantId": "FM_BBA_Test",
+  "hullId": "FM_BBA",
+  "displayName": "Test",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "FM_Spark_pd",
+        "WS0002": "FM_Spark_pd",
+        "WS0003": "FM_BBA_built_in"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

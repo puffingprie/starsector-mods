@@ -1,0 +1,159 @@
+{
+  "hullName": "Lasher",
+  "hullId": "kayse_corpse",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/kayse/ships/corpse/corpse.png",
+  "style": "LOW_TECH",
+  "coversColor": "255,188,175,255",
+  "height": 96,
+  "width": 68,
+  "center": [34, 35],
+  "collisionRadius": 75,
+  "shieldCenter": [11, 0],
+  "shieldRadius": 64,
+  "viewOffset": 0,
+  "builtInMods": [
+    "comp_hull"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [11, 27]
+    },
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 60,
+      "locations": [4, 10]
+    },
+    {
+      "id": "WS 006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -60,
+      "locations": [4, -10]
+    },
+    {
+      "id": "WS 008",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 60,
+      "angle": 160,
+      "locations": [-15, 29]
+    },
+    {
+      "id": "WS 009",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 60,
+      "angle": 200,
+      "locations": [-15, -29]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-34, 0],
+      "length": 64,
+      "width": 16,
+      "angle": 179,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-28, 14],
+      "length": 32,
+      "width": 8,
+      "angle": 172,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-26, 19],
+      "length": 31.417284,
+      "width": 9.209623,
+      "angle": 145.5,
+      "contrailSize": 9.209623,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-24.5, -18.5],
+      "length": 30.761576,
+      "width": 11.484853,
+      "angle": -113.5,
+      "contrailSize": 11.484853,
+      "style": "CUSTOM",
+      "styleSpec": {
+        "type": "SMOKE",
+        "engineColor": [
+          0,
+          0,
+          50,
+          0
+        ],
+        "engineCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mode": "",
+        "contrailColor": [
+          0,
+          0,
+          25,
+          0
+        ],
+        "contrailCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrailParticleSizeMult": 1,
+        "contrailParticleFinalSizeMult": 0,
+        "contrailMaxSpeedMult": 0.1,
+        "contrailAngularVelocityMult": 0.1,
+        "contrailParticleDuration": 1
+      }
+    },
+    {
+      "location": [-29, -13],
+      "length": 45.723831,
+      "width": 14.910564,
+      "angle": -152.5,
+      "contrailSize": 14.910564,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -10, 32,
+    16, 33,
+    11.5, 18,
+    21.5, 7.5,
+    51.5, 8.5,
+    61, 0,
+    51, -7.5,
+    21, -7.5,
+    16, -20,
+    4.5, -21.5,
+    2, -30.5,
+    -14, -29,
+    -11, -20,
+    -23, -21,
+    -32, 1,
+    -22, 21,
+    -9, 22
+  ]
+}

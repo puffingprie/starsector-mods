@@ -1,0 +1,292 @@
+{
+  "hullName": "P9 ",
+  "hullId": "pn_pdliner",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/pn/ships/pn_pdliner.png",
+  "style": "HIGH_TECH",
+  "height": 334,
+  "width": 319,
+  "center": [156, 141.5],
+  "collisionRadius": 82.525757,
+  "shieldCenter": [2, -0],
+  "shieldRadius": 118,
+  "viewOffset": 0,
+  "builtInMods": [
+    "pn_cores",
+    "pn_pdaugmenter",
+    "civgrade",
+    "turretgyros"
+  ],
+  "builtInWeapons": {
+    "WS0001": "pn_double-vulcan",
+    "WS0002": "pn_double-vulcan",
+    "WS0003": "pn_double-vulcan",
+    "WS0004": "pn_double-vulcan",
+    "WS0005": "pn_double-vulcan",
+    "WS0006": "pn_double-vulcan",
+    "WS0007": "pn_double-vulcan",
+    "WS0008": "pn_double-vulcan",
+    "WS0009": "pn_empvulcan",
+    "WS0010": "pn_empvulcan"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": 135,
+      "locations": [-77.5, 22]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": -135,
+      "locations": [-77.5, -22]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 115,
+      "locations": [-22, 79]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -115,
+      "locations": [-22, -79]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 90,
+      "locations": [33, 32]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": -90,
+      "locations": [33, -32]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 65,
+      "locations": [59.5, 31.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -65,
+      "locations": [59.5, -31.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": 24.5,
+      "locations": [85, 25]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": -24.5,
+      "locations": [85, -25]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 44,
+      "angle": 0,
+      "locations": [79, -0]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [59.5, 68]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [59.5, -68]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [59.5, 83]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [59.5, -83]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 135,
+      "locations": [-47.5, 98.5]
+    },
+    {
+      "id": "WS0017",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -135,
+      "locations": [-47.5, -98.5]
+    },
+    {
+      "id": "WS0018",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-19.5, 107]
+    },
+    {
+      "id": "WS0019",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-19.5, -107]
+    },
+    {
+      "id": "WS0020",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [11.5, 107]
+    },
+    {
+      "id": "WS0021",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [11.5, -107]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-101, -13],
+      "length": 30,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-101, 13],
+      "length": 30,
+      "width": 19,
+      "angle": -180,
+      "contrailSize": 19,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-101, -22.5],
+      "length": 23,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-101, 22.5],
+      "length": 23,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-100.5, -0],
+      "length": 18,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    }
+  ],
+  "bounds": [
+    -55, -56,
+    -106.5, -28.5,
+    -106.5, 28.5,
+    -55, 56,
+    -70.5, 76,
+    -47.5, 103.5,
+    15, 111,
+    59, 95.5,
+    61.5, 52,
+    78, 48,
+    109, 31.5,
+    85.5, 7,
+    85.5, -7,
+    109, -31.5,
+    78, -48,
+    61.5, -52,
+    59, -95.5,
+    15, -111,
+    -47.5, -103.5,
+    -70.5, -76
+  ]
+}

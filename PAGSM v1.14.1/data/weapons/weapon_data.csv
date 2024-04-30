@@ -1,0 +1,80 @@
+name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
+# small weapons,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Antimatter Torpedo Launcher (Regular),sfcamregular,1,1,200,1500,,500,,75,20,5,4,,,FRAGMENTATION,0,,0,15,1,,0,0,0,0,,600,200,3,200,,,"STRIKE, USE_VS_FRIGATES","strike8, rocket3, sfc_wep_bp, sfc_bp",,Sindrian Fuel Company,,Torpedo,Fast,None,,,"Projectiles explode upon hitting a target, dealing area of effect damage. Direct hits on ships will deal an extra %s damage.",2500 HE,,,TRUE,4
+Antimatter Missile Launcher (Plus),sfcamplusmissile,1,0.75,1200,4000,,100,2000,25,10,10,20,,,ENERGY,0,,0,15,1,,0,0,0,0,,350,200,40,450,,,"DO_NOT_AIM, HEATSEEKER","utility13, missile7, sfc_wep_bp, sfc_bp",,Sindrian Fuel Company,,Disabler,Fast,Excellent,,,"Second-stage hits on shields have a chance to arc through to weapons and engines, dealing %s EMP damage. The chance to pierce the shields is based on the target's hard flux level.",2000,,,,5
+Antimatter Pulse Laser,sfcampulser,1,1,500,500,,30,,0,50,8,,,,ENERGY,40,,0.5,0.5,2,0.25,,0,0,0,,1000,,,100,,,,"energy8, sfc_wep_bp, sfc_bp",,Sindrian Fuel Company,,General,,,,,Hits on hull or armor deal an extra %s High Explosive damage.,45,,,,6
+Light Antimatter Destablizer,sfclightdestabilizer,1,0.75,2000,600,,80,40,20,20,6,,,,ENERGY,100,,0.05,1,1,0.1,5,25,5,5,,900,,,100,,,"PD,PD_ALSO","energy6, pd4, sfc_wep_bp, sfc_bp",,Sindrian Fuel Company,,Anti Fighter (Area),,,,,"Projectiles will explode near targets. Each explosion will also have a %s chance to deal extra damage based on the original hit and cause an emp effect.
+
+Will target missiles if no other targets are in range.",50%,,,,15
+Antimatter Micro Missile Launcher,sfcmicrolauncher,1,1,500,1500,,50,,5,40,6,60,,,FRAGMENTATION,0,,0,3,1,,0,0,0,0,,500,200,8,20,,,"PD, PD_ALSO, ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","utility7, missile7, pd7, sfc_wep_bp, sfc_bp",,Sindrian Fuel Company,,Point Defense (Area),Very Fast,Excellent,,,Point Defense missiles equipped with an antimatter charge. Deals an extra %s damage on non-shield hits.,200% HE,,,,21
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# medium weapons,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Assault Chaingun (AM),sfcamchaingun,1,1,1500,500,,60,,3,30,10,,,,HIGH_EXPLOSIVE,50,,0,0.2,1,,0,10,0.5,5,,1000,,,30,,,,"he15, sfc_wep_bp, sfc_bp",,Sindrian Fuel Company,,Anti Armor,,,,,Hits do an additional %s Energy damage.,40,,,,9
+Antimatter Scatterblaster,sfcamscatterblaster,3,0.5,3000,500,,1000,,0,30,13,60,,,ENERGY,1000,,0.25,10,1,,40,40,0.5,5,,600,,,100,,,"STRIKE, USE_VS_FRIGATES, GROUP_ALTERNATING","strike15, sfc_wep_bp, sfc_bp",SR_strike_only,Sindrian Fuel Company,,Strike,,,,,,,,,,11
+Kinetic Chain Pulser,sfcamchainpulser,2,0.5,3000,500,,40,,0,20,12,40,4,2,KINETIC,50,,0,0.1,1,,5,10,1,5,,1200,,,,,,,"kinetc13, pd10, sfc_wep_bp, sfc_bp",,Sindrian Fuel Company,,Suppression,,,,,,,,,,12
+Antimatter Pulse Gun,sfcampulsegun,2,0.75,3000,750,,150,300,0,15,12,,,,ENERGY,400,,1,2,2,0.5,,,,,,1000,,,,,,"STRIKE, USE_VS_FRIGATES","energy14, sfc_wep_bp, sfc_bp",,Sindrian Fuel Company,,Disabler,,,,,"Hits on hull or armor have a %s chance to arc to weapons and enginese, dealing extra EMP and energy damage.",25%,,,,13
+Antimatter Thrower,sfcamthrower,1,1,4000,500,,25,,3,40,8,50,2.5,10,ENERGY,35,,1,0.05,5,0.05,0,0,0,0,,750,,,,,,"STRIKE, USE_VS_FRIGATES","energy10, sfc_wep_bp, sfc_bp",,Sindrian Fuel Company,,Hullburner,,,,,Hits have %s chance to deal an extra %s damage.,25% | 500 Fragmentation,,,,7
+Antimatter Missile Launcher (Premium),sfcammissilepod,2,0.5,6000,2000,,400,,15,20,15,50,,,HIGH_EXPLOSIVE,0,,0,8,4,0.50,0,0,0,0,,600,100,5,450,,,DO_NOT_AIM,"missile19, strike15, sfc_wep_bp, sfc_bp",,Sindrian Fuel Company,,Anti Armor,Very Fast,Special,,,Unguided after a brief initial aiming stage. Hits on hull and armor deal extra %s damage equal to the original hit.,Energy,,,,14
+Medium Antimatter Destabilizer,sfcmediumdestabilizer,1,0.75,4000,700,,80,40,20,20,12,,,,ENERGY,100,,0.05,1,4,0.075,5,25,5,5,,900,,,100,,,"PD,PD_ALSO","energy10, pd8, sfc_wep_bp, sfc_bp",,Sindrian Fuel Company,,Anti Fighter (Area),,,,,"Projectiles will explode near targets. Each explosion will also have a %s chance to deal extra damage based on the original hit and cause an emp effect.
+
+Will target missiles if no other targets are in range.",50%,,,,16
+Antimatter Micro Missile Pod,sfcmicropod,2,0.75,2500,1500,,50,,5,40,12,200,,,FRAGMENTATION,0,,0,6,8,0.125,0,0,0,0,,500,200,8,20,,,"PD, PD_ALSO, ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","utility13, missile8, pd13, sfc_wep_bp, sfc_bp",,Sindrian Fuel Company,,Point Defense (Area),Very Fast,Excellent,,,Point Defense missiles equipped with an antimatter charge. Deals an extra %s damage on non-shield hits.,200% HE,,,,22
+Heavy PD Laser,sfcheavypdlaser,1,0.5,1500,700,100,,,0,20,10,,,,ENERGY,,100,0,0.25,,,,,,,4500,,,,,,,PD,"pd10, beam8, SR, hightech_bp, midline_bp, merc, ind",,,,Point Defense,,,,,,,,,,25
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# large weapons,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Heavy Antimatter Destabilizer,sfcamdestabilizer,2,0.75,8000,800,,80,40,20,20,20,,,,ENERGY,100,,0.05,1,9,0.05,5,25,5,5,,900,,,100,,,"PD,PD_ALSO","energy16, pd14, sfc_wep_bp, sfc_bp",,Sindrian Fuel Company,,Anti Fighter (Area),,,,,"Projectiles will explode near targets. Each explosion will also have a %s chance to deal extra damage based on the original hit and cause an emp effect.
+
+Will target missiles if no other targets are in range.",50%,,,,17
+Antimatter Burst Beam Array,sfcambba,3,0.5,12000,1000,1750,,,0,7,20,,,,HIGH_EXPLOSIVE,,2000,0.25,0.75,1,3,,,,,10000,,,,,,,"STRIKE, USE_VS_FRIGATES","energy20, beam15, LR, sfc_wep_bp, sfc_bp",,Sindrian Fuel Company,,Suppression,,,,,,,,,,18
+Asteroid Destroyer,sfcasteroid,0,0.5,7500,900,,600,,250,5,20,,,,HIGH_EXPLOSIVE,600,,0,2,1,,0,8,3,8,,700,,,400,,,,"he18, sfc_wep_bp, sfc_bp",,Sindrian Fuel Company,,Anti Armor,,,,,Projectiles deal AoE damage on hits.,,,,,19
+Antimatter Torpedo Launcher Rack (Regular),sfcamtorpedorack,2,1,9000,1500,,500,,75,20,25,30,,,FRAGMENTATION,0,,0,6,2,0.75,0,0,0,0,,600,200,3,200,,,"STRIKE, USE_VS_FRIGATES","strike18, rocket14, sfc_wep_bp, sfc_bp",,Sindrian Fuel Company,,Torpedo,Fast,None,,,"Projectiles explode upon hitting a target, dealing area of effect damage. Direct hits on ships will deal an extra %s damage.",2500 HE,,,TRUE,20
+Antimatter Micro MLMS,sfcmicromlms,2,0.6,7500,1500,,50,,5,40,18,400,,,FRAGMENTATION,0,,0,9,20,0.1,0,0,0,0,,500,200,8,20,,,"PD, PD_ALSO, ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","utility18, pd18, missile15, sfc_wep_bp, sfc_bp",,Sindrian Fuel Company,,Point Defense (Area),Very Fast,Excellent,,,Point Defense missiles equipped with an antimatter charge. Deals an extra %s damage on non-shield hits.,200% HE,,,,23
+Antimatter Thrower (Expanded),sfcamthrowerbig,1,0.75,8000,650,,25,,3,40,20,200,5,50,ENERGY,35,,,0.025,1,0.05,0,0,0,0,,750,,,,,,"STRIKE, USE_VS_FRIGATES","energy16, sfc_wep_bp, sfc_bp",,Sindrian Fuel Company,,Hullburner,,,,,Hits have %s chance to deal an extra %s damage.,25% | 500 Fragmentation,,,,8
+Heavy Assault Chaingun (AM),sfcheavyamchaingun,2,0.75,5000,700,,60,,3,30,18,,,,HIGH_EXPLOSIVE,50,,0,0.1,1,,0,10,0.5,5,,1000,,,30,,,,"he18, sfc_wep_bp, sfc_bp",,Sindrian Fuel Company,,Anti Armor,,,,,Hits do an additional %s Energy damage.,40,,,,10
+Guided Antimatter Fuel Torpedo (Premium),sfcgaft,4,0,15000,2000,,2000,,75,100,30,4,,,ENERGY,0,,1,29,1,,0,0,0,0,,125,25,45,1000,,,"STRIKE, DO_NOT_AIM","strike20, missile20",,Sindrian Fuel Company,,Guided Torpedo (Area),Very Slow,Excellent,,,"Slow, guided torpedo with long flight time and lengthy arming time. Goes into faster, less armored second stage on approach to a target. Projectile explodes upon hitting a target, dealing area of effect damage. Direct hits on ships will deal an extra %s damage.",400% HE,,,TRUE,24
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# built ins,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Antimatter Blaster (Recharge),sfcamblaster_recharge,5,0,,500,,1000,,0,30,9,,,,ENERGY,2000,,0.25,15,,,0,0,0,0,,1000,,,100,,,"STRIKE, USE_VS_FRIGATES, GROUP_ALTERNATING, SYSTEM",strike10,SR_strike_only,Sindrian Fuel Company,,Strike,,,,,,,,,,1
+Antimatter Cannon,sfcamcannon,5,0,,1200,,2000,,0,30,60,,,,ENERGY,1500,,2,15,3,0.50,0,0,0,0,,1000,,,100,,,"STRIKE, USE_VS_FRIGATES, GROUP_ALTERNATING, SYSTEM",strike10,SR_strike_only,Sindrian Fuel Company,,Strike,,,,,"Hits on hull or armor have a %s chance to arc to weapons and engines, dealing extra damage equal to the original hit.",10%,,,,2
+Twin-Pulse Lasers,sfcnotospd,5,0,,550,,40,,0,80,15,40,2,2,ENERGY,40,,0,0.15,2,0.10,0,3,1,10,,1200,,,30,,,"PD, ANTI_FTR, SYSTEM","pd19, energy15",,Sindrian Fuel Company,,Point Defense,,,,,Projectiles will explode near targets. Will prioritize missiles first.,,,,,3
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# system weapon,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Antimatter Plus Mine,sfcamplusmine,0,,,2000,,1250,2000,25,30,12,30,,,ENERGY,0,,0,3,1,,0,0,0,0,,50,50,20,500,,,SYSTEM,,,,,,,,,,,,,,,40
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# fighter weapons,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Antimatter Blaster (Limited),sfcamblaster_fighter,5,0,,400,,1400,,0,30,0,1,,,ENERGY,1500,,0.25,3,,,0,0,0,0,,1000,,,100,,,"STRIKE, USE_VS_FRIGATES, GROUP_ALTERNATING, SYSTEM",strike10,SR_strike_only,,,Strike,,,,,,,,,,60
+Light Autocannon (Fighter),sfclightac_fighter,5,0,,500,,50,,3,20,0,,,,KINETIC,40,,0,0.50,2,0.10,0,8,2,15,,1000,,,20,,,SYSTEM,kinetc6,,,,Anti Shield,,,,,,,,,,61
+Mining Laser (Mech),sfc_ajax_mining_laser,5,0,,750,40,,,0,80,0,,,,ENERGY,,10,0,0.25,,,,,,,2400,,,,,,,"SYSTEM, PD","beam0, energy0, pd0",,,,Point Defense,,,,,,,,,,16.5
+Antimatter Thrower (Mech),sfcmechamthrower,5,0,,500,,25,,3,60,0,,,,ENERGY,35,,1.5,5,4,0.05,0,0,0,0,,500,,,,,,SYSTEM,energy10,,,,Hullburner,,,,,Hits have %s chance to deal an extra %s damage.,25% | 500 Fragmentation,,,,62
+Light Graviton Beam (Mech),sfc_ajax_graviton_beam,5,0,,750,50,,,5,15,0,,,,KINETIC,,50,0.1,0.1,,,,,,,2400,,,,,,,SYSTEM,"beam12, kinetic11",,,,Suppression,,,,,"Disrupts the target's shields, increasing all shield damage taken by %s for one full-power graviton beam, %s for two, and %s for three or more hitting the shields at the same time.",5% | 8% | 10%,Gravitic effects slow and push target off-course. The effect is minor and is most noticeable vs fighters and missiles.,,,63
+Antimatter Micro Missile Launcher (Reloading),sfcmicrolauncherfighter,5,0,,1000,,75,,5,40,0,12,0.25,3,FRAGMENTATION,0,,0,5,1,,0,0,0,0,,750,300,8,35,,,"PD, PD_ALSO, ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE, SYSTEM","utility7, missile7, pd7",,Sindrian Fuel Company,,Point Defense (Area),Very Fast,Excellent,,,Point Defense missiles equipped with an antimatter charge. Deals %s damage on non-shield hits.,150 HE,,,,64
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# deco weapons,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Epimetheus Spine,sfcepimetheusspine,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,80
+Crius Front,sfccriusfront,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,81
+Iapetus Front,sfciapetusfront,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,82
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# ajax parts,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ajax Shoulder Left,sfcajaxshoulders,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,83
+Ajax Shoulder Left Mount,sfcajaxshoulder_left_mount,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,83
+Ajax Shoulder Right,sfcajaxshoulder_right,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,84
+Ajax Shoulder Right Mount,sfcajaxshoulder_right_mount,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,84
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# murmidon parts,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Super Gigacannon,sfcmurmidoncannonlg,5,,,800,,2500,,0,5,0,,,,ENERGY,2000,,2,11,,,0,0,0,0,,1800,,,,,,"STRIKE, USE_VS_FRIGATES, GROUP_ALTERNATING, SYSTEM","strike18, no_sell, no_dealer, no_drop_salvage",,Lion's Guard,,Strike,,,,,,,,,,90
+Kinetic Burst Blaster,sfcmurmidonblasterlg,5,,,700,,150,,0,15,0,20,1,5,KINETIC,150,,0.5,0.5,5,0.125,0,5,0.5,5,,1400,,,,,,SYSTEM,"kinetic11, no_sell, no_dealer, no_drop_salvage",,Lion's Guard,,Anti Shield,,,,,,,,,,90.1
+Andrada's Glare,sfcmurmidonheadlg,5,,,600,500,,,0,40,0,,,,ENERGY,,300,0.15,0.15,0.45,0.15,,,,,10000,,,,,,,"PD,ANTI_FTR, SYSTEM","pd15, beam10, no_sell, no_dealer, no_drop_salvage",,Lion's Guard,,Point Defense,,,,,,,,,,91
+Murmidon Left Shoulder (LG),sfcmurmidonleftshoulderlg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_sell, no_dealer, no_drop_salvage",,,,,,,,,,,,,,92
+Murmidon Right Shoulder (LG),sfcmurmidonrightshoulderlg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_sell, no_dealer, no_drop_salvage",,,,,,,,,,,,,,93
+Murmidon Left Wing (LG),sfcmurmidonleftwinglg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_sell, no_dealer, no_drop_salvage",,,,,,,,,,,,,,94
+Murmidon Right Wing (LG),sfcmurmidonrightwinglg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_sell, no_dealer, no_drop_salvage",,,,,,,,,,,,,,95
+Murmidon Left Arm (LG),sfcmurmidonleftarmlg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_sell, no_dealer, no_drop_salvage",,,,,,,,,,,,,,96
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# murmex parts,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Antimatter Gun,sfcmurmexgunlg,5,,,450,,1800,,0,30,0,1,,,ENERGY,2000,,0.5,1.5,,,0,0,0,0,,1500,,,100,,,"STRIKE, USE_VS_FRIGATES, GROUP_ALTERNATING, SYSTEM","strike10, no_sell, no_dealer, no_drop_salvage",SR_strike_only,Lion's Guard,,Strike,,,,,,,,,,100
+Antimatter Gun (Recharging),sfcmurmexgunlg_strikecraft,5,,,500,,1500,,0,30,0,,,,ENERGY,2000,,0.5,15,,,0,0,0,0,,1500,,,100,,,"STRIKE, USE_VS_FRIGATES, GROUP_ALTERNATING, SYSTEM","strike10, no_sell, no_dealer, no_drop_salvage",SR_strike_only,Lion's Guard,,Strike,,,,,,,,,,100
+IR Pulse Carbine,sfcmurmexgunleftlg,5,,,500,,30,,2,30,0,,,,ENERGY,25,,0.3,0.25,3,0.05,,,,,,1000,,,,,,SYSTEM,"energy8, no_sell, no_dealer, no_drop_salvage",,Lion's Guard,,General,,,,,,,,,,100.1
+Andrada's Gaze,sfcmurmexheadlg,5,,,500,300,,,0,100,0,,,,ENERGY,,200,0.05,0.05,0.25,0.075,,,,,10000,,,,,,,"PD,ANTI_FTR, SYSTEM","pd9, beam6, no_sell, no_dealer, no_drop_salvage",,Lion's Guard,,Point Defense,,,,,,,,,,101
+Murmex Left Shoulder (LG),sfcmurmexleftshoulderlg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_sell, no_dealer, no_drop_salvage",,,,,,,,,,,,,,102
+Murmex Right Shoulder (LG),sfcmurmexrightshoulderlg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_sell, no_dealer, no_drop_salvage",,,,,,,,,,,,,,103
+Murmex Left Arm (LG),sfcmurmexleftarmlg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_sell, no_dealer, no_drop_salvage",,,,,,,,,,,,,,104

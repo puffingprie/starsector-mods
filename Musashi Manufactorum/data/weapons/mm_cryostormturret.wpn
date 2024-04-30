@@ -1,0 +1,46 @@
+{
+  "id": "mm_cryostormturret",
+  "specClass": "projectile",
+  "projectileSpecId": "mm_cryospoolpd_shot",
+  "type": "BALLISTIC",
+  "mountTypeOverride": "HYBRID",
+  "size": "MEDIUM",
+  "everyFrameEffect": "com.fs.starfarer.api.impl.combat.CryofluxTransducerEffect",
+  "turretSprite": "graphics/mm/weapons/cryostormturret/mm_mb_cryostormturret_body00.png",
+  "turretGlowSprite": "graphics/mm/weapons/cryostormturret/mm_mb_cryostormturret_glow.png",
+  "hardpointSprite": "graphics/mm/weapons/cryostormturret/mm_mb_cryostormturret_body_hp00.png",
+  "hardpointGlowSprite": "graphics/mm/weapons/cryostormturret/mm_mb_cryostormturret_glow_hp.png",
+  "glowColor": [
+    225,
+    10,
+    15,
+    85
+  ],
+  "turretOffsets": [
+    14,
+    -6,
+    14,
+    6
+  ],
+  "turretAngleOffsets": [
+    -0,
+    0
+  ],
+  "hardpointOffsets": [
+    19,
+    6,
+    19,
+    -6
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    -0
+  ],
+  "barrelMode": "ALTERNATING_BURST",
+  "animationType": "GLOW",
+  "numFrames": 4,
+  "frameRate": 20,
+  "requiresFullCharge": false,
+  "noImpactSounds": true,
+  "unaffectedByProjectileSpeedBonuses": true
+}

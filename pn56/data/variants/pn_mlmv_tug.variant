@@ -1,0 +1,19 @@
+{
+  "displayName": "Utility",
+  "fluxCapacitors": 5,
+  "fluxVents": 0,
+  "hullId": "pn_mlmv_tug",
+  "hullMods": [
+    "blast_doors"
+  ],
+  "variantId": "pn_mlmv_tug",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pn_vulcan"
+      }
+    }
+  ]
+}

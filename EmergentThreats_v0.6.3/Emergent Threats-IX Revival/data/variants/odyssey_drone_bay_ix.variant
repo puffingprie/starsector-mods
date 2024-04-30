@@ -1,0 +1,13 @@
+{
+    "displayName": "Drone",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "terminus_drone_bay_ix",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "odyssey_drone_bay_ix",
+    "weaponGroups": [],
+	"wings": []
+}

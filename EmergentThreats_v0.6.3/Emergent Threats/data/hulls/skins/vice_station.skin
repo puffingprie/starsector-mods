@@ -1,0 +1,14 @@
+{
+	"baseHullId":"remnant_station2",
+	"skinHullId":"vice_station",
+	#"hullName":"",
+	#"hullDesignation":"",
+	"manufacturer":"Remnant",
+	"descriptionId":"vice_station",
+	"descriptionPrefix":"A remnant of the autonomous AI fleets developed by the Tri-Tachyon Corporation. Illegal under Domain (and Hegemony) law, and an abomination to the Church of Galactic Redemption, the First AI War saw these creations purged from the Sector. At least that is how the official histories tell it.",
+	"systemId":"vice_summonbolide",
+	#"builtInMods":["stealth_minefield"],
+	"addHints":[],
+	"tags":["no_autofit"],
+	"fpMod":200,
+}

@@ -1,0 +1,46 @@
+{
+  "id": "mm_rubionwarhead_single",
+  "specClass": "projectile",
+  "projectileSpecId": "mm_rubionwarhead_shot",
+  "type": "MISSILE",
+  "size": "SMALL",
+  "turretSprite": "graphics/mm/weapons/mm_rubionwarhead_rack.png",
+  "hardpointSprite": "graphics/mm/weapons/mm_rubionwarhead_rack_hp.png",
+  "renderHints": [
+		RENDER_LOADED_MISSILES_UNLESS_HIDDEN
+  ],
+  "turretOffsets": [
+    2,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    6,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 12,
+    "particleSizeRange": 12,
+    "cloudParticleCount": 6,
+    "cloudDuration": 1.5,
+    "cloudRadius": 10,
+    "blowbackParticleCount": 4,
+    "blowbackDuration": 2,
+    "blowbackLength": 22,
+    "blowbackSpread": 15,
+    "particleColor": [
+      125,
+      75,
+      25,
+      105
+    ]
+  },
+  "fireSoundTwo": "atropos_fire"
+}

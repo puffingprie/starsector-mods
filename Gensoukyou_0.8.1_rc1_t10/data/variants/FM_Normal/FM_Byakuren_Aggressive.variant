@@ -1,0 +1,45 @@
+{
+    "displayName": "Aggressive",
+    "fluxCapacitors": 45,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "FM_Byakuren",
+    "hullMods": [
+        "targetingunit",
+        "FantasyPlayerMod",
+        "missleracks"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Byakuren_Aggressive",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "FM_SilverBlade",
+                "WS0010": "FM_SilverBlade"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "annihilatorpod",
+                "WS0006": "annihilatorpod",
+                "WS0007": "annihilatorpod",
+                "WS0008": "annihilatorpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FM_IllusionLaser_M",
+                "WS0002": "FM_IllusionLaser_M",
+                "WS0003": "FM_IllusionLaser_M",
+                "WS0004": "FM_IllusionLaser_M"
+            }
+        }
+    ]
+}

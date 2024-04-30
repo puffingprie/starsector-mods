@@ -1,0 +1,10 @@
+{
+	"id":"whichmod",
+	"name":"WhichMod",
+	"author":"theDragn",
+	"version":"1.2.0",
+	"description":"Tells you what mod something is from.",
+	"gameVersion":"0.97a-RC7",
+	"jars":["jars/WhichMod.jar"],
+	"modPlugin":"data.WhichModPlugin"
+}

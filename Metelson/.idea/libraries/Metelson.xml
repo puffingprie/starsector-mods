@@ -1,0 +1,33 @@
+<component name="libraryTable">
+  <library name="Metelson">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../Nexerelin/jars" />
+      <root url="jar://$PROJECT_DIR$/../GraphicsLib/jars/Graphics.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../LazyLib/jars/LazyLib.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../LazyLib/jars/LazyLib-Kotlin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../MagicLib/jars/MagicLib.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../starsector-core/fs.common_obf.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../starsector-core/fs.sound_obf.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../starsector-core/jinput.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../starsector-core/json.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../starsector-core/log4j-1.2.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../starsector-core/lwjgl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../starsector-core/lwjgl_util.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../starsector-core/starfarer.api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../starsector-core/starfarer_obf.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../starsector-core/xstream-1.4.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../Nexerelin/jars" />
+      <root url="jar://$PROJECT_DIR$/../LazyLib/jars/LazyLib.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../LazyLib/jars/LazyLib.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../LazyLib/jars/LazyLib-Kotlin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../MagicLib/jars/MagicLib.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../MagicLib/jars/MagicLib.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../starsector-core/starfarer.api.zip!/" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../Nexerelin/jars" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../Nexerelin/jars" recursive="false" type="SOURCES" />
+  </library>
+</component>

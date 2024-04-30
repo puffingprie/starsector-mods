@@ -1,0 +1,7 @@
+name,id,planetary,decivRemove,script,desc,icon,order
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+Frontier Protocol,acs_frontierecon,,TRUE,data.scripts.campaign.econ.acs_frontierecon,Set your colony to hidden,graphics/industry/acs_frontier_hq.png,1205

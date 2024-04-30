@@ -1,0 +1,68 @@
+{
+  "id": "mm_cryofusionbattery",
+  "specClass": "projectile",
+  "projectileSpecId": "mm_cryofusionbattery_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "turretSprite": "graphics/mm/weapons/mm_le_cryofusionbattery_body.png",
+  "turretGlowSprite": "graphics/mm/weapons/mm_le_cryofusionbattery_glow.png",
+  "turretGunSprite": "graphics/mm/weapons/mm_le_cryofusionbattery_barrel.png",
+  "turretUnderSprite": "graphics/mm/weapons/mm_le_cryofusionbattery_base.png",
+  "hardpointSprite": "graphics/mm/weapons/mm_le_cryofusionbattery_body_hp.png",
+  "hardpointGlowSprite": "graphics/mm/weapons/mm_le_cryofusionbattery_glow_hp.png",
+  "hardpointGunSprite": "graphics/mm/weapons/mm_le_cryofusionbattery_barrel_hp.png",
+  "glowColor": [
+    225,
+    25,
+    25,
+    255
+  ],
+  "visualRecoil": 6,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    47.5,
+    -9,
+    47.5,
+    0,
+    47.5,
+    9
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    58,
+    -8,
+    58,
+    0,
+    58,
+    8
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 40,
+    "spread": 30,
+    "particleSizeMin": 20,
+    "particleSizeRange": 30,
+    "particleDuration": 0.4,
+    "particleCount": 12,
+    "particleColor": [
+      225,
+      25,
+      45,
+      55
+    ]
+  },
+  "fireSoundTwo": "mm_cryofusion_sound",
+  "mountTypeOverride": "HYBRID"
+}

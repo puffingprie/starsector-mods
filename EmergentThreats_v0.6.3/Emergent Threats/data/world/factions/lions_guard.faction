@@ -1,0 +1,47 @@
+{
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+		"eagle_LG_Support":0,
+		"executor_Standard":0,
+		"falcon_LG_Attack":0,
+		"hammerhead_LG_Balanced":0,
+		"sunder_LG_CS":0,
+		"vice_preceptor_standard":0,
+		"vice_unifier_standard":0,
+		"vice_exhortation_standard":0,
+
+		"eagle_LG_Assault":5,
+		"executor_Elite":5,
+		"falcon_LG_CS":5,
+		"hammerhead_LG_Elite":5,
+		"sunder_LG_Assault":5,
+		"vice_unifier_elite":5,
+		"vice_exhortation_elite":2,
+	},
+	"knownWeapons":{
+		"weapons":[
+			"vice_ionstreamer",
+			"vice_x-ray_pulse",
+			"vice_lrburstpd",
+			"vice_siege_burst",
+		]
+	},
+	"knownHullMods":{
+		"hullMods":["vice_attuned_emitter_diodes", "vice_convert_shuttle"],
+	},
+	"knownFighters":{
+		"tags":["sindrian_diktat", "lions_guard"],
+		"fighters":[
+			"gladius_wing",
+			"vice_spatha_wing",
+			"vice_estoc_wing",
+			"vice_kite_lg_wing",
+		],
+	},
+	"priorityFighters":{
+		"fighters":[
+			"vice_spatha_wing",
+			"vice_estoc_wing",
+		],
+	},
+},

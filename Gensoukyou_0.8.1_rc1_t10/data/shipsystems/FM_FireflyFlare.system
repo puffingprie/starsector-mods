@@ -1,0 +1,14 @@
+{
+	"id":"FM_FireflyFlare",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"statsScript":"data.shipsystems.FM_FireflyFlare",
+	"aiScript":"data.shipsystems.ai.FM_FlareLauncher_ai",	
+	
+	#"useSound":"system_flare_launcher_active",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		
+	}	
+}

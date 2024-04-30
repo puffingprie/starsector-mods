@@ -1,0 +1,85 @@
+{
+  "hullName": "FM_Fairy_ice",
+  "hullId": "FM_Fairy_ice",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/FM_Fairy_ice.png",
+  "style": "FM_fighter",
+  "height": 40,
+  "width": 40,
+  "center": [20, 17.5],
+  "collisionRadius": 29,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 27,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [2, 4]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [2, -4]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-9.5, 4]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -180,
+      "locations": [-9.5, -4]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-13, -0],
+      "length": 15.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-13, 1],
+      "length": 8.540298,
+      "width": 3.775343,
+      "angle": 161.5,
+      "contrailSize": 3.775343,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-13, -1],
+      "length": 8.540298,
+      "width": 3.775343,
+      "angle": -161.5,
+      "contrailSize": 3.775343,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -1, -9,
+    -12, -6,
+    -12, 6,
+    -1, 9,
+    6, -0
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "variantId": "mm_hachiman_standard",
+  "hullId": "mm_hachiman",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 35,
+  "fluxVents": 25,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mm_flakstormbattery",
+        "WS0002": "mm_flakstormbattery",
+        "WS0003": "mm_flakstormbattery",
+        "WS0004": "mm_flakstormbattery",
+        "WS0005": "mm_flakstormbattery",
+        "WS0006": "mm_flakstormbattery",
+        "WS0007": "mm_flakstormbattery"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "harpoon_single",
+        "WS0009": "harpoon_single"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "mm_machineturretpd",
+        "WS0012": "mm_machineturretpd",
+        "WS0017": "mm_machineturretpd",
+        "WS0018": "mm_machineturretpd",
+        "WS0019": "mm_machineturretpd",
+        "WS0020": "mm_machineturretpd",
+        "WS0022": "mm_machineturretpd"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

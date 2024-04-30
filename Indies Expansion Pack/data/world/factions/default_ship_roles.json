@@ -1,0 +1,139 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+		
+	"combatSmall":{
+	
+			"acs_auxilia_standard":1,
+			
+			#"acs_mil_buffalo_standard":4,
+			#"acs_mil_buffalo_raider":4,
+			
+			"acs_vigiles_standard":8,
+			"acs_vigiles_lrm":8,
+			
+			"acs_kerbeross_standard":4,	
+			"acs_ripenses_standard":5,
+			
+			"acs_phaetonmkii_standard":4,
+			"acs_phaetonmkii_skirmish":4,
+			
+			"acs_exploraria2_standard":6,
+			"acs_exploraria2_raider":7,
+			
+			"acs_tarsusmod_standard":6,
+	
+	},
+	
+	"combatMedium":{
+	
+			"acs_exploraria2_standard":2,
+			"acs_exploraria2_lrmsupport":3,
+			"acs_exploraria2_raider":3,
+			"acs_exploraria2_support":3,
+			#"acs_drifter_standard":1,
+			"acs_ripenses_standard":8,
+			#"acs_drifter_lrmsupport":2,
+			#"acs_drifter_missileraider":2,
+			"acs_drifter_new2_standard":1,
+			"acs_drifter_new2_desperate":5,
+			
+			"acs_tarsusmod_standard":7,
+			"acs_tarsusmod_carrier_support":4,
+			
+			"acs_commitatensis_standard":4,
+			
+			#"acs_mil_buffalo_standard":4,
+			#"acs_mil_buffalo_raider":4,
+			
+			"acs_vigiles_standard":6,
+			"acs_vigiles_lrm":6,
+			
+			"acs_phaetonmkii_standard":4,
+			"acs_phaetonmkii_raider":4,
+			"acs_phaetonmkii_skirmish":4,
+			"acs_phaetonmkii_heavy":4,
+			
+			"acs_barnabas_standard":4,
+			"acs_barnabas_p_standard":5,
+			"acs_barnabas_support":5,
+			
+			"acs_phaetonmkiv_standard":10,
+			
+			"acs_mod_collossus_standard":4,
+	
+	},
+	"combatFreighterSmall":{
+		"acs_auxilia_standard":7,
+		"acs_kerbeross_standard":5,
+		
+		"acs_vigiles_standard":8,
+		"acs_vigiles_lrm":8,
+		
+		#"acs_mil_buffalo_standard":7,
+		#"acs_mil_buffalo_raider":4,
+	},
+	"combatFreighterMedium":{
+		"acs_exploraria2_standard":10,
+		"acs_exploraria2_lrmsupport":6,
+		"acs_exploraria2_raider":5,
+		"acs_exploraria2_support":5,
+		#"acs_drifter_standard":4,
+		#"acs_drifter_lrmsupport":2,
+		#"acs_drifter_missileraider":0.5,
+		"acs_drifter_new2_standard":5,
+		"acs_drifter_new2_desperate":10,
+		"acs_mod_collossus_standard":7,
+		
+		#"acs_mil_buffalo_standard":10,
+		#"acs_mil_buffalo_raider":9,
+		#"acs_mil_buffalo_mraider":9,
+		#"acs_mil_buffalo_lrm":7,
+		
+		"acs_vigiles_standard":10,
+		"acs_vigiles_lrm":10,
+		
+		"acs_barnabas_standard":8,
+		"acs_barnabas_p_standard":8,
+		"acs_barnabas_support":8,
+		
+		"acs_phaetonmkii_standard":8,
+		"acs_phaetonmkii_raider":6,
+		"acs_phaetonmkii_skirmish":5,
+		"acs_phaetonmkii_heavy":5,
+	},
+	
+	"combatLarge":{
+		"acs_super_champion_standard":5,	
+		"acs_promjunkbarge_standard":8,
+	},
+	
+	"combatCapital":{
+		"acs_modatlas_standard":10,
+		"acs_modatlas_support":5,
+		"acs_modatlas_frigcarrier_standard":5,
+		"acs_modprom_standard":10,
+		"acs_legion_p_standard":4,
+		"acs_onslaught_p_standard":4,
+		"acs_modprom_frigcarrier_standard":6,
+	},
+	
+	"combatFreighterLarge":{
+		#"acs_drifter_standard":10,
+		"acs_drifter_new2_standard":10,
+		"acs_drifter_new2_lrm":10,
+		"acs_drifter_new2_skirmisher":10,
+		"acs_drifter_new2_elite":5,
+		"acs_modatlas_standard":5,
+		"acs_modatlas_frigcarrier_standard":4,
+		"acs_modprom_standard":5,
+		"acs_modprom_frigcarrier_standard":4,
+		"acs_modatlas_support":4,
+		"acs_promjunkbarge_standard":7,
+	},
+	
+	"personnelSmall":{
+		"acs_explorantores_standard":10,
+	},
+
+}

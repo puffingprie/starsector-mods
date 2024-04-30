@@ -1,0 +1,47 @@
+{
+  "hullName": "acutordrone",
+  "hullId": "mi_acutordrone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/acutordrone.png",
+  "style": "LOW_TECH",
+  "height": 12,
+  "width": 12,
+  "center": [6, 6],
+  "collisionRadius": 11.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 11.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "advancedoptics"
+  ],
+  "builtInWeapons": {
+    "WS0001": "light_maser_beam"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": 0,
+      "locations": [1, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-6, -0],
+      "length": 8,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    1, -6,
+    -5, -0,
+    1, 6,
+    6, -0
+  ]
+}

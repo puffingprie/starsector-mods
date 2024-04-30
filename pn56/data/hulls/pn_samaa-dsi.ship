@@ -1,0 +1,269 @@
+{
+  "bounds": [
+    272.5,
+    15,
+    90.5,
+    86,
+    136.5,
+    126,
+    23.5,
+    163,
+    -100.5,
+    148,
+    -140.5,
+    103,
+    -168.5,
+    95,
+    -200.5,
+    14,
+    -200.5,
+    -14,
+    -168.5,
+    -95,
+    -140.5,
+    -103,
+    -100.5,
+    -148,
+    23.5,
+    -163,
+    136.5,
+    -126,
+    90.5,
+    -86,
+    272.5,
+    -15
+  ],
+  "builtInMods": [
+    "pn_cores"
+  ],
+  "builtInWeapons": {
+    "WS0001": "pn_dsilaser",
+    "WS0008": "pn_dsiblink"
+  },
+  "center": [
+    178.5,
+    220.5
+  ],
+  "collisionRadius": 305.393585,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 22,
+      "location": [
+        -166,
+        -90.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 4
+    },
+    {
+      "angle": -180,
+      "contrailSize": 4,
+      "length": 22,
+      "location": [
+        -166,
+        90.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 4
+    },
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 35.5,
+      "location": [
+        -170.5,
+        -84
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 6
+    },
+    {
+      "angle": -180,
+      "contrailSize": 6,
+      "length": 35.5,
+      "location": [
+        -170.5,
+        84
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 6
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 38.5,
+      "location": [
+        -175.5,
+        -73
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 38.5,
+      "location": [
+        -175.5,
+        73
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 23.5,
+      "location": [
+        -178,
+        -62
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 6
+    },
+    {
+      "angle": -180,
+      "contrailSize": 6,
+      "length": 23.5,
+      "location": [
+        -178,
+        62
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 6
+    },
+    {
+      "angle": 180,
+      "contrailSize": 18,
+      "length": 67,
+      "location": [
+        -190.5,
+        -0
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 18
+    }
+  ],
+  "height": 494,
+  "hullId": "pn_samaa-dsi",
+  "hullName": "Samaa-DSI",
+  "hullSize": "CAPITAL_SHIP",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 295.205017,
+  "spriteName": "graphics/pn/ships/pn_samaa-dsi.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 200,
+      "id": "WS0001",
+      "locations": [
+        58,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 90,
+      "arc": 200,
+      "id": "WS0004",
+      "locations": [
+        169.5,
+        15.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -90,
+      "arc": 200,
+      "id": "WS0003",
+      "locations": [
+        169.5,
+        -15.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -90,
+      "arc": 200,
+      "id": "WS0006",
+      "locations": [
+        10.5,
+        -115.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 90,
+      "arc": 200,
+      "id": "WS0005",
+      "locations": [
+        10.5,
+        115.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 180,
+      "arc": 180,
+      "id": "WS0007",
+      "locations": [
+        -128,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 200,
+      "id": "WS0002",
+      "locations": [
+        202,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0008",
+      "locations": [
+        176,
+        -49.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 371
+}

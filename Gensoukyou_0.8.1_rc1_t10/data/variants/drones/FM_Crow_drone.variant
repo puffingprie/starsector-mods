@@ -1,0 +1,24 @@
+{
+  "variantId": "FM_Crow_drone",
+  "hullId": "FM_Crow_drone",
+  "displayName": "Drone Fighter",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "advancedcore"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "FM_Leaf_fighter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,51 @@
+{
+    "displayName": "Automated",
+    "fluxCapacitors": 30,
+    "fluxVents": 9,
+    "hullId": "vice_doom_ai",
+    "hullMods": [
+        "heavyarmor",
+        "fluxbreakers",
+        "advancedoptics",
+        "targetingunit",
+        "vice_adaptive_phase_coils"
+    ],
+    "permaMods": [],
+    "sMods": [
+        "heavyarmor",
+        "fluxbreakers",
+		],
+    "variantId": "vice_doom_automated",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "breachpod",
+                "WS 002": "breachpod",
+                "WS 007": "phasebeam",
+                "WS 008": "phasebeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "atropos",
+                "WS 004": "atropos",
+                "WS 005": "atropos",
+                "WS 006": "atropos"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "pdburst",
+                "WS 010": "pdburst",
+                "WS 011": "pdburst",
+                "WS 012": "pdburst"
+            }
+        }
+    ]
+}

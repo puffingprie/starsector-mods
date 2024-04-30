@@ -1,0 +1,29 @@
+{
+	"config":{
+		"colors":{
+			"What you always wanted":[229, 118, 246],
+		}
+	},
+
+	"starts":[
+		{
+			"id":"Mimikko_start",
+			"name":"What kind of Iseikai is this？",
+			"difficulty":"What you always wanted",
+			"desc":"Within the small ship hold, you gaze upon all the mental crystals. All of them are your most beloved assistants, not one is to be left behind. Having decided to escape, you decided to bring a warmer future for them. Board the ship, and begin a new journey.",
+			"className":"data.scripts.campaign.customstart.Mimikko_start",
+			"randomSector":-1,
+		},
+		#{
+		#	"id":"spacerStart",
+		#	"name":"老船长",
+		#	"difficulty":"非常困难",
+		#	"desc":"只有一架非战斗用的穿梭机, 且仅携带非常有限的资源, 以及需偿还一辈子的债务. 非常困难的开局, 献给那些 愿意挑战一切的玩家.",
+		#	"className":"exerelin.campaign.customstart.SpacerStart",
+		#	#"factionId":"player",	# for display purposes only, actual starting faction is set in script
+		#	#"requiredModId":"nexerelin",
+		#	#"randomSector":0,	# 0 = works in both; 1 = random only, -1 = non-random only 
+		#},
+		
+	],
+}

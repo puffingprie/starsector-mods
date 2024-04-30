@@ -1,0 +1,30 @@
+{
+	"id":"morningstar_ciws_ix",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"SMALL",
+	"turretSprite":"graphics/weapons/ix/morningstar_ciws_turret.png",
+	"turretGlowSprite":"graphics/weapons/ix/morningstar_ciws_turret_glow.png",
+	"hardpointSprite":"graphics/weapons/ix/morningstar_ciws_hardpoint.png",
+	"hardpointGlowSprite":"graphics/weapons/ix/morningstar_ciws_hardpoint_glow.png",
+	"glowColor":[100,255,100,140],
+	"turretOffsets":[10, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[12, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	#"animationType":"GLOW",
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":23.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":5.0,
+					   "particleSizeMin":10.0,
+					   "particleSizeRange":12.0,
+					   "particleDuration":0.12,
+					   "particleCount":12,
+					   "particleColor":[100,255,100,100]},	
+	"autocharge":true,
+	"requiresFullCharge":false, 
+	"projectileSpecId":"lightbringer_ix_shot", #morningstar_ix_shot is for Terminus (IX) only
+	"noImpactSounds":true,
+	"fireSoundTwo":"morningstar_ix_fire",
+}

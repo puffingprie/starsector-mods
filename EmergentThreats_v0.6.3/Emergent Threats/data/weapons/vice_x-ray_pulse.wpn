@@ -1,0 +1,28 @@
+{
+	"id":"vice_x-ray_pulse",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"LARGE",
+	"turretSprite":"graphics/vice/weapons/x-ray_pulse_turret.png",
+	"turretGlowSprite":"graphics/vice/weapons/x-ray_pulse_turret_glow.png",
+	"hardpointSprite":"graphics/vice/weapons/x-ray_pulse_hardpoint.png",
+	"hardpointGlowSprite":"graphics/vice/weapons/x-ray_pulse_hardpoint_glow.png",
+	"glowColor":[180,60,140,255],
+	"turretOffsets":[32, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[40, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	#"animationType":"GLOW",
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":30.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":5.0,
+					   "particleSizeMin":15.0,
+					   "particleSizeRange":20.0,
+					   "particleDuration":0.12,
+					   "particleCount":10,
+					   "particleColor":[180,60,140,255]},
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"projectileSpecId":"vice_x-ray_pulse_shot",  # projectile that will be fired
+	"fireSoundTwo":"vice_x-ray_pulse_fire",
+}

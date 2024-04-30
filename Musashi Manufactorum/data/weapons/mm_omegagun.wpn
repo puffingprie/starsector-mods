@@ -1,0 +1,62 @@
+{
+  "id": "mm_omegagun",
+  "specClass": "projectile",
+  "projectileSpecId": "mm_omegagun_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "displayArcRadius": 650,
+  "turretSprite": "graphics/mm/weapons/mm_lb_omegagun_body.png",
+  "turretGunSprite": "graphics/mm/weapons/mm_lb_omegagun_barrel.png",
+  "hardpointSprite": "graphics/mm/weapons/mm_lb_omegagun_body_hp.png",
+  "hardpointGunSprite": "graphics/mm/weapons/mm_lb_omegagun_barrel_hp.png",
+  "specialWeaponGlowHeight": 40,
+  "specialWeaponGlowWidth": 15,
+  "visualRecoil": 12,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    56.5,
+    13,
+    56.5,
+    0,
+    56.5,
+    -13
+  ],
+  "turretAngleOffsets": [
+    2,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    71,
+    13,
+    71,
+    0,
+    71,
+    -13
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 45,
+    "spread": 30,
+    "particleSizeMin": 20,
+    "particleSizeRange": 55,
+    "particleDuration": 4,
+    "particleCount": 12,
+    "particleColor": [
+      255,
+      120,
+      50,
+      245
+    ]
+  },
+  "fireSoundTwo": "mm_gigantic_sound",
+}

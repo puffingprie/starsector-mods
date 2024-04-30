@@ -1,0 +1,34 @@
+{
+	######WEAPONS######
+	"mm_cryofusion_sound":
+	{
+	"sounds":[
+		{"file":"sounds/mm/weapons/mm_cryofusion_sound.ogg","pitch":1.0,"volume":1.0},
+		],
+	},
+	"mm_hyperblast_sound":
+	{
+	"sounds":[
+		{"file":"sounds/mm/weapons/mm_hyperblast_sound.ogg","pitch":1.0,"volume":1.0},
+		],
+	},
+	"mm_gigantic_sound":
+	{
+	"sounds":[
+		{"file":"sounds/mm/weapons/mm_gigantic_sound.ogg","pitch":1.0,"volume":0.9},
+		],
+	},
+	"mm_tadaijilance_sound1":
+	{
+	"sounds":[
+		{"file":"sounds/mm/weapons/mm_tadaijilance_sound1.ogg","pitch":0.7,"volume":0.7},
+		],
+	},
+	"mm_tadaijilance_sound05":
+	{
+	"sounds":[
+		{"file":"sounds/mm/weapons/mm_tadaijilance_sound05.ogg","pitch":0.7,"volume":0.7},
+		],
+	},
+
+}

@@ -1,0 +1,131 @@
+{
+    "name": "Miruko",
+    "personalities": ["steady", "aggressive", "reckless","cautious"],
+    "gender": ["m","f","n"],
+    "chance": 0,
+    "talkativeness": 0.65,
+    "categoryTags": [
+        "othermedia",
+    ],
+    "lines": {
+        "start": [                                            #开始？
+            {
+                "text": "Captain, need my help?",
+            },
+            {
+                "text": "I'm here, what's up~",
+            },
+        ],
+        "start_boss": [                                    #打boss
+            {
+                "text": "Just like the legend",
+            },
+
+        ],
+        "retreat": [                                            #撤退
+            {
+                "text": "Hold on, captain, I'm booking it",
+            },
+        ],
+        "out_of_missiles": [                                #用完导弹
+            {
+                "text": "Ran out of missiles!",
+            },
+            {
+                "text": "There is not a single missile left!",
+            },
+        ],
+        "engaged": [                                     #舰船部署
+            {
+                "text": "Heh, though my condolences to the captain......you gotta finish your work properly!",
+            },
+            {
+                "text": "Hmm? What, Captain, need my help?",
+            },
+            {
+                "text": "I want to play games......ah, I am happy to be with the captain too, if only we can do both at the same time~",
+            },
+        ],
+        "need_help": [                                         #需要帮助
+            {
+                "text": "Miruko needs help!",
+            },
+            {
+                "text": "Hurry and come help Miruko, Captain! ",
+            },
+        ],
+        "pursuing": [                                               #发动进攻
+            {
+                "text": "Nanana?Nananananananana?",
+            },
+            {
+                "text": "Now is Miruko Hour!",
+            },
+            {
+                "text": "I have learned the skill of 100% dodge!",
+            },
+        ],
+        "running": [                                        #后撤
+            {
+                "text": "Stay back a bit",
+            },
+            {
+                "text": "Need to back off!",
+            },
+        ],
+        "hull_90": [                                     #90%生命值
+            {
+                "text": "This damage is no big deal! ",
+            },
+            {
+                "text": "HP bar is still green, no big deal",
+            },
+        ],
+        "hull_50": [
+            {
+                "text": "Its getting a bit risky eh",
+            },
+            {
+                "text": "HP Bar is yellow, time to show real skills",
+            },
+        ],
+        "hull_30": [
+            {
+                "text": "Wawawa, there is a big hole in the ship's hull!",
+            },
+            {
+                "text": "Low HP! It's time to flex skill",
+            },
+        ],
+        "overload": [                					#过载
+            {
+                "text": "Overloaded!",
+            },
+            {
+                "text": "I can't hold off their attacks!",
+            },
+        ],
+        "death": [							#沉船
+            {
+                "text": "Heh, though my condolences to the captain......you gotta finish your work properly!",
+            },
+            {
+                "text": "Now it is up to the Captain",
+            },
+            {
+                "text": "One more down for our team, how will the captain turn the match around!",
+            },
+        ],
+        "victory": [							#胜利
+            {
+                "text": "Catapin, your daily reminder alarm rang! rang! (loudly) RANG! I have to be loud, I'd be anxious if you didn't hear it. ",
+            },
+            {
+                "text": "If I eat this choclate, something very serious would happen. V!E!R!Y! SERIOUS!",
+            },
+            {
+                "text": "Hmm? A reward for me? Thanks~",
+            },
+        ],
+    },
+}

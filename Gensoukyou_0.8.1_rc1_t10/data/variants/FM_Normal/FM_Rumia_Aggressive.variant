@@ -1,0 +1,24 @@
+{
+    "displayName": "Aggressive",
+    "fluxCapacitors": 10,
+    "fluxVents": 4,
+    "goalVariant": true,
+    "hullId": "FM_Rumia",
+    "hullMods": [
+        "magazines",
+        "adaptive_coils",
+        "FantasySageMod",
+        "FantasyPlayerMod"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Rumia_Aggressive",
+    "weaponGroups": [{
+        "autofire": false,
+        "mode": "ALTERNATING",
+        "weapons": {
+            "WS0001": "FM_CaptureWeb",
+            "WS0002": "FM_CaptureWeb"
+        }
+    }]
+}

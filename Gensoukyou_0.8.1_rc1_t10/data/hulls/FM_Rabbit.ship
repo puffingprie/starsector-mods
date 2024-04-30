@@ -1,0 +1,184 @@
+{
+  "hullName": "FM_Rabbit",
+  "hullId": "FM_Rabbit",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/FM_Rabbit.png",
+  "style": "FM",
+  "height": 78,
+  "width": 92,
+  "center": [46, 39.5],
+  "collisionRadius": 62,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 60,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FantasyBasicMod"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 300,
+      "angle": 45,
+      "locations": [4.5, 31]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 300,
+      "angle": -45,
+      "locations": [4.5, -31]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [23.5, 23]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [23.5, -23]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": -0,
+      "locations": [24, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-20, -18],
+      "length": 10.5,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-20, 18],
+      "length": 10.5,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-18.5, -20.5],
+      "length": 11,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-18.5, 20.5],
+      "length": 11,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-17, -23.5],
+      "length": 12,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-17, 23.5],
+      "length": 12,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-16, -27],
+      "length": 12.5,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-16, 27],
+      "length": 12.5,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-15.5, -30],
+      "length": 13,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-15.5, 30],
+      "length": 13,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-14, -36],
+      "length": 11,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-14, 36],
+      "length": 11,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    32, -8,
+    36, -10,
+    27, -16.5,
+    27, -27,
+    22, -30,
+    11.5, -43.5,
+    3.5, -43.5,
+    -13, -39.5,
+    -18.5, -16,
+    -38.5, -2.5,
+    -38.5, 2.5,
+    -18.5, 16,
+    -13, 39.5,
+    3.5, 43.5,
+    11.5, 43.5,
+    22, 30,
+    27, 27,
+    27, 16.5,
+    36, 10,
+    32, 8
+  ]
+}

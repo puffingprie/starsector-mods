@@ -1,0 +1,17 @@
+{
+	"id":"FM_Persuasion_shell",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":65.0,
+	"hitGlowRadius":20,
+	"width":6,
+	"fadeTime":0.3,
+	"fringeColor":[255,144,154,255],
+	"coreColor":[235,235,255,255],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"onHitEffect":"data.weapons.onHit.FM_PersuasionOnHit",
+	"bulletSprite":"graphics/weapons/projects/FM_Persuasion_shell.png"
+}

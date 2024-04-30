@@ -1,0 +1,9 @@
+{
+	"baseHullId":"remnant_shield2",
+	"skinHullId":"vice_station_shield_platform",
+	#"hullName":"",
+	#"hullDesignation":"",
+	"manufacturer":"Remnant",
+	"systemId":"vice_remnantstationemp",
+	"tags":["no_autofit"],
+}

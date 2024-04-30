@@ -1,0 +1,156 @@
+{
+  "hullName": "FM_Nightbird",
+  "hullId": "FM_Nightbird",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/FM_Nightbird.png",
+  "style": "FM",
+  "height": 90,
+  "width": 68,
+  "center": [33, 39],
+  "collisionRadius": 64.5,
+  "shieldCenter": [2.5, -0],
+  "shieldRadius": 59.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FantasyBasicMod",
+    "ecm",
+    "eccm"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -30,
+      "locations": [8, -16]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": 0,
+      "locations": [30.5, 7]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [-7, -0],
+      "renderOrderMod": 20
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": 0,
+      "locations": [8.5, 18]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -90,
+      "locations": [-11, -22]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-36, 3],
+      "length": 25,
+      "width": 4,
+      "angle": -177,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-36, -3],
+      "length": 25,
+      "width": 4,
+      "angle": 177,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-33, 8.5],
+      "length": 16.5,
+      "width": 4,
+      "angle": -164.5,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-33, -8.5],
+      "length": 16.5,
+      "width": 4,
+      "angle": 164.5,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-37, -0],
+      "length": 47,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-34.5, 5.5],
+      "length": 25,
+      "width": 4,
+      "angle": -172,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-34.5, -5.5],
+      "length": 25,
+      "width": 4,
+      "angle": 172,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-35, 1.5],
+      "length": 14.5,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-35, -1.5],
+      "length": 14.5,
+      "width": 2,
+      "angle": -180,
+      "contrailSize": 2,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    44.5, -3,
+    27, -12.5,
+    13, -22,
+    -19.5, -31.5,
+    -36.5, -12,
+    -36.5, -2.5,
+    -36.5, 2.5,
+    -36.5, 12,
+    -19.5, 31.5,
+    13, 22,
+    14.5, 15.5,
+    29, 13,
+    44.5, 3
+  ]
+}

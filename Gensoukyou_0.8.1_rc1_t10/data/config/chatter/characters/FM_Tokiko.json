@@ -1,0 +1,108 @@
+{
+	"name":"\"Unnamed\" Tokiko",
+	"personalities":["steady", "aggressive", "reckless"],
+	"gender":["f"],
+	"chance":0,
+	"talkativeness":1.75,
+	"categoryTags":["othermedia"],
+	
+	"lines":{
+		"start":[
+			{"text":"Approching enemy, 5,4..."},
+			{"text":"Standard combat formation, enemy approaching."},
+			{"text":"Commander-San?"},
+			{"text":"Updating intel."},
+			{"text":"Everyone have to come back alive this time as well."},
+			{"text":"Just like the text book..."},
+			{"text":"Don't make the mistakes I've summarized last time, Commander-San."},
+			{"text":"The analysis result is unclear."},
+		],
+		"start_boss":[
+			{"text":"In situation like this, we can't be as careless as before."},
+			{"text":"This time I'll have to be more serious..."},
+			{"text":"Though the predicted result is not optimistic, this is precisely the time to keep your spirit up."},
+			{"text":"Commander-San, please be more careful than usual!"},
+			{"text":"Fairly challenging."},
+			{"text":"Yes, very anxious, but..."},
+			{"text":"Please live, everyone"},
+			{"text":"I hope these kind of practical experience are less common."},
+		],
+		"retreat":[
+			{"text":"Everyone got back safely?"},
+			{"text":"Commander-San is okay, right..."},
+			{"text":"Best choice in the circumstances."},
+			{"text":"No worries, next time"},
+			{"text":"Commander-San, I'll reward you if you come back safely, so please hurry!"},
+			{"text":"Time to go!"},
+		],
+		"out_of_missiles":[
+			{"text":"Missile empty, it will be a grind now."},
+			{"text":"Getting heated..."},
+		],
+		"engaged":[
+			{"text":"Target in range."},
+			{"text":"This time I won't be brashed aside like before..."},
+			{"text":"I'll apply what I learned."},
+			{"text":"Watch my fighting style!"},
+			{"text":"Don't judge me by my looks, I'm pretty good with fighting."},
+		],
+		"need_help":[
+			{"text":"Support should be coming soon?"},
+			{"text":"Commander-San, the situation is urgent in my area!"},
+			{"text":"Hold on everyone, I've requested support."},
+			{"text":"This sector is under presssure, I request support."}
+		],
+		"pursuing":[
+			{"text":"\"Don't charge ahead\"? Don't worry, Commander-San."},
+			{"text":"Yes, We are pursuing with advantage..."},
+			{"text":"Advantage is with me!"},
+			{"text":"Everyone's condition is great, we are going to pursue now."},
+			{"text":"Engine output steady, we will pursue."}
+		],
+		"running":[
+			{"text":"Maiden mobilizing..."},
+			{"text":"It's fine, I'm flexible amount these kind of things."},
+			{"text":"Ah, please don't stare at me for now, commander-san..."},
+			{"text":"Looks like the enemy seized some opportunites."},
+		],
+		"hull_90":[
+			{"text":"Damage within controllable range, don't worry, commander-san."},
+			{"text":"Be careful everyone, the fight will get more intense."},
+			{"text":"Umu, I should be more careful..."},
+			{"text":"Damage control team should get online."},
+		],
+		"hull_50":[
+			{"text":"So far within the text books."},
+			{"text":"Man your positions, we still have a chance."},
+			{"text":"Which compartment just exploded?"},
+			{"text":"Analysis show our chance of surival has greatly reduced, commander-san"},
+			{"text":"I think I've remebered something terrifying..."},
+		],
+		"hull_30":[
+			{"text":"Can we ensure evacation of the wounded?"},
+			{"text":"We can't hold, commander..."},
+			{"text":"I'm trying."},
+			{"text":"Ignore analysis and data, the key is to ensure survival now."},
+			{"text":"It really is hopeless, is it?"},
+		],
+		"overload":[
+			{"text":"Energy system warning, are the damage control team in posistion?"},
+			{"text":"Damn, this is the kind of situation I hate the most..."},
+			{"text":"Everyone brace for impact, we may recieve a high intensity strike."},
+			{"text":"It really is much more powerful than simulations..."},
+		],
+		"death":[
+			{"text":"...Commander-san, I..."},
+			{"text":"...the dead and the wounded..."},
+			{"text":"...Don't leave me alone..."},
+		],
+		"victory":[
+			{"text":"Battle is over, I will now take care of the wounded."},
+			{"text":"Yes, Commander-San, eh? Rewards? This..."},
+			{"text":"It finished pretty smoothly this time as well."},
+			{"text":"Since commander-san have worked hard, want to touch my wings?"},
+			{"text":"Its great that everyone is allright..."},
+			{"text":"So it is over."}
+		]
+	}
+}

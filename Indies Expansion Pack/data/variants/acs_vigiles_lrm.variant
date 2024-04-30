@@ -1,0 +1,28 @@
+{
+  "variantId": "acs_vigiles_lrm",
+  "hullId": "acs_vigiles",
+  "displayName": "Long Range Support",
+  "goalVariant": false,
+  "fluxCapacitors": 27,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pilum",
+        "WS0002": "acs_small_flakhag",
+        "WS0003": "acs_velites_single"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "acs_mook_r_wing"
+  ]
+}

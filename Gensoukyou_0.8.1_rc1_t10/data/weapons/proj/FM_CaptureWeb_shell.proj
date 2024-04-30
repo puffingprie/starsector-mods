@@ -1,0 +1,21 @@
+{
+	"id":"FM_CaptureWeb_shell",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":16.0,
+	"width":16.0,
+	"fadeTime":0.25,
+	"hitGlowRadius":50,
+	"fringeColor":[255,84,228,255],
+	"coreColor":[255,184,228,255],
+	"glowColor":[255,156,240,110],
+	"glowRadius":20,
+	"textureType":"ROUGH",  # only needed for BEAM spawnType
+	#"textureType":["graphics/fx/emp_arcs.png","graphics/fx/emp_arcs.png"],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"onHitEffect":"data.weapons.onHit.FM_CaptureWebOnHit",
+	"bulletSprite":"graphics/weapons/projects/FM_Blade_weapon_shell.png"
+}

@@ -1,0 +1,297 @@
+{
+  "bounds": [
+    -80,
+    5.5,
+    -34.5,
+    35,
+    -25,
+    81.5,
+    5,
+    66.5,
+    37,
+    71,
+    62.5,
+    47,
+    74.5,
+    7,
+    74.5,
+    -7,
+    62.5,
+    -47,
+    37,
+    -71,
+    5,
+    -66.5,
+    -25,
+    -81.5,
+    -34.5,
+    -35,
+    -80,
+    -5.5
+  ],
+  "builtInMods": [
+    "pn_cores"
+  ],
+  "center": [
+    76,
+    77
+  ],
+  "collisionRadius": 97.788032,
+  "engineSlots": [
+    {
+      "angle": -180,
+      "contrailSize": 8,
+      "length": 42.5,
+      "location": [
+        -30,
+        -34
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 8
+    },
+    {
+      "angle": 180,
+      "contrailSize": 8,
+      "length": 42.5,
+      "location": [
+        -30,
+        34
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 8
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -44,
+        -23
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -44,
+        23
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 4,
+      "length": 17,
+      "location": [
+        -28,
+        -62.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 4
+    },
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 17,
+      "location": [
+        -28,
+        62.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 4
+    },
+    {
+      "angle": -180,
+      "contrailSize": 4,
+      "length": 24,
+      "location": [
+        -26.5,
+        -71
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 4
+    },
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 24,
+      "location": [
+        -26.5,
+        71
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 4
+    },
+    {
+      "angle": -180,
+      "contrailSize": 5,
+      "length": 24,
+      "location": [
+        -69.5,
+        -10.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 5
+    },
+    {
+      "angle": 180,
+      "contrailSize": 5,
+      "length": 24,
+      "location": [
+        -69.5,
+        10.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 5
+    },
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -76,
+        -0
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 4,
+      "length": 24.5,
+      "location": [
+        -28.5,
+        -41
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 4
+    },
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 24.5,
+      "location": [
+        -28.5,
+        41
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 4
+    }
+  ],
+  "height": 155,
+  "hullId": "pn_sl-t2",
+  "hullName": "SL-t2",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 95.102577,
+  "spriteName": "graphics/pn/ships/pn_sl-t2.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 28.072487,
+      "id": "WS0001",
+      "locations": [
+        36,
+        -58.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -0,
+      "arc": 28.072487,
+      "id": "WS0002",
+      "locations": [
+        36,
+        58.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -130,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        -56,
+        -15
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 130,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        -56,
+        15
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": -120,
+      "arc": 0,
+      "id": "WS0005",
+      "locations": [
+        23.5,
+        -64.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 120,
+      "arc": 0,
+      "id": "WS0006",
+      "locations": [
+        23.5,
+        64.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 180,
+      "arc": 0,
+      "id": "WS0007",
+      "locations": [
+        -56,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    }
+  ],
+  "width": 152
+}

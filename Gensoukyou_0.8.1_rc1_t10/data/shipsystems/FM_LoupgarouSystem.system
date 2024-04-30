@@ -1,0 +1,16 @@
+{
+	"id":"FM_LoupgarouSystem",
+	"type":"STAT_MOD",
+	"aiType":"ENTROPY_AMPLIFIER",
+	"statsScript":"data.shipsystems.FM_LoupgarouSystem",
+
+	#"runScriptWhilePaused":true, # only for the player's ship
+	#"runScriptWhileIdle":false, # unapply() never gets called
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_quantumdisruptor",
+	"outOfUsesSound":"gun_out_of_ammo",
+
+	"aiHints":{
+	}
+}

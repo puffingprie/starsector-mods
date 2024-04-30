@@ -1,0 +1,14 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 8,
+    "fluxVents": 6,
+    "hullId": "buffalo_FM",
+    "hullMods": ["auxiliarythrusters"],
+    "permaMods": [],
+    "variantId": "buffalo_FM_Standard",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {"WS 001": "pdlaser"}
+    }]
+}

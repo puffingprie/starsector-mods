@@ -1,0 +1,193 @@
+{
+  "hullName": "Phaeton Mk.II",
+  "hullId": "acs_phaetonmkii",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/acs_phaetonmkii.png",
+  "style": "LOW_TECH",
+  "height": 246,
+  "width": 131,
+  "center": [65.5, 123],
+  "collisionRadius": 190.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 142,
+  "viewOffset": 0,
+  "builtInMods": [
+    "repair_gantry",
+    "rugged",
+    "acs_dampervent"
+  ],
+  "builtInWings": [
+    "acs_mook_r_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 203,
+      "angle": 0,
+      "locations": [62, 2]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [22, 1.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -180,
+      "locations": [-98.5, -0.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [15, 38]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 278,
+      "angle": -90,
+      "locations": [14, -40.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 21,
+      "angle": 0,
+      "locations": [40, -39.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [103.5, 12.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-23.5, -30.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 35,
+      "angle": 0,
+      "locations": [109, 29.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 35,
+      "angle": 0,
+      "locations": [109, -32.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-116, 8],
+      "length": 68.5,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-116, -8],
+      "length": 68.5,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-116, 23.5],
+      "length": 54.096489,
+      "width": 10.113313,
+      "angle": 180,
+      "contrailSize": 10.113313,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-116, -23.5],
+      "length": 54.096489,
+      "width": 10.113313,
+      "angle": -180,
+      "contrailSize": 10.113313,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-116, 35.5],
+      "length": 45.5,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-116, -35.5],
+      "length": 45.5,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    103.5, -21.5,
+    94, -33.5,
+    47, -30.5,
+    40, -40.5,
+    6.5, -51.5,
+    -43, -50.5,
+    -54.5, -39.5,
+    -63.5, -56.5,
+    -78.5, -55.5,
+    -88.5, -38.5,
+    -95.5, -48.5,
+    -106.5, -48.5,
+    -112.5, -37.5,
+    -112.5, 37.5,
+    -106.5, 48.5,
+    -95.5, 48.5,
+    -88.5, 38.5,
+    -78.5, 55.5,
+    -63.5, 55.5,
+    -51, 36,
+    -46.5, 46,
+    -12, 46,
+    0, 38,
+    4.5, 46.5,
+    61, 38.5,
+    78.5, 53,
+    112, 12.5
+  ]
+}

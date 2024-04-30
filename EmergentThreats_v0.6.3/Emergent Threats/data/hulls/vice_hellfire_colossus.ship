@@ -1,0 +1,202 @@
+{
+  "hullName": "Hellfire Colossus",
+  "hullId": "vice_hellfire_colossus",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/vice/ships/hellfire_colossus.png",
+  "style": "LOW_TECH",
+  "height": 273,
+  "width": 215,
+  "center": [107, 140],
+  "collisionRadius": 164,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 160,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS DEM": "vice_hellfire",
+    "WS TGT": "vice_hellfire_targeting"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS DEM",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [93, -0]
+    },
+    {
+      "id": "WS TGT",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [89, -0]
+    },
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -0,
+      "locations": [117, 28]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 0,
+      "locations": [117, -28]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 50,
+      "locations": [92, 40]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": -40,
+      "locations": [92, -40]
+    },
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 90,
+      "locations": [27, 63]
+    },
+    {
+      "id": "WS 006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -90,
+      "locations": [27, -63]
+    },
+    {
+      "id": "WS 007",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [-27, 79]
+    },
+    {
+      "id": "WS 008",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -0,
+      "locations": [-27, -79]
+    },
+    {
+      "id": "WS 009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 125,
+      "locations": [-65, 84]
+    },
+    {
+      "id": "WS 010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -125,
+      "locations": [-65, -84]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-135, 26],
+      "length": 57,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 44,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-135, -26],
+      "length": 57,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 44,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-116, 68],
+      "length": 57,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 44,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-116, -68],
+      "length": 57,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 44,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-135, -6],
+      "length": 70,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-135, 0],
+      "length": 70,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-135, 6],
+      "length": 70,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+  ],
+  "bounds": [
+    -133, -36,
+    -122, -38,
+    -111, -84,
+    -11, -95,
+    123, -64,
+    128, -14,
+    103, -14,
+    103, 14,
+    128, 14,
+    123, 64,
+    -11, 95,
+    -111, 84,
+    -122, 38,
+    -133, 36
+  ]
+}

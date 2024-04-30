@@ -1,0 +1,63 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 0,
+    "fluxVents": 44,
+    "goalVariant": true,
+    "hullId": "odyssey_ix",
+    "hullMods": [
+        "targetingunit",
+        "ix_laser_collimator",
+        "ix_reactive_combat_shields",
+        "frontemitter",
+        "stabilizedshieldemitter",
+        "ix_terminus_relay"
+    ],
+    "modules": [{"SM 1": "odyssey_drone_bay_ix"}],
+    "permaMods": ["hiressensors"],
+    "sMods": [],
+    "variantId": "odyssey_ix_attack",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "hil",
+                "WS 004": "twin_tactical_laser_ix",
+                "WS 005": "twin_tactical_laser_ix",
+                "WS 006": "twin_tactical_laser_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS TORP": "vampyr_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "orthrus_l_ix",
+                "WS 003": "orthrus_l_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "taclaser",
+                "WS 008": "taclaser",
+                "WS 009": "taclaser",
+                "WS 010": "taclaser",
+                "WS 011": "taclaser",
+                "WS 012": "taclaser",
+                "WS 013": "taclaser",
+                "WS 014": "taclaser",
+                "WS 015": "taclaser",
+                "WS 016": "taclaser",
+                "WS 017": "taclaser",
+                "WS 018": "taclaser"
+            }
+        }
+    ],
+    "wings": []
+}

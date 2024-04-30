@@ -1,0 +1,29 @@
+{
+  "variantId": "acs_mil_buffalo_raider",
+  "hullId": "acs_mil_buffalo",
+  "displayName": "Raider",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 13,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "acs_medium_minihag",
+        "WS0002": "acs_toyhammer_small2",
+        "WS0003": "acs_small_flakhag"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "acs_mook_r_wing"
+  ]
+}

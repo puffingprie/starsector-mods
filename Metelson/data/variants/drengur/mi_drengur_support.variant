@@ -1,0 +1,67 @@
+{
+  "variantId": "mi_drengur_support",
+  "hullId": "mi_drengur",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 38,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "blast_doors"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "mark9",
+        "WS 003": "mark9"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 006": "typhoon",
+        "WS 014": "typhoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "hellbore",
+        "WS 013": "phasebeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "heavy_chaingun",
+        "WS 005": "heavy_maser",
+        "WS 009": "heavy_chaingun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 007": "crackler",
+        "WS 008": "crackler",
+        "WS 010": "pdlaser",
+        "WS 012": "pdlaser",
+        "WS 015": "pdlaser",
+        "WS 017": "pdlaser",
+        "WS 018": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "negl_wing",
+    "negl_wing"
+  ]
+}

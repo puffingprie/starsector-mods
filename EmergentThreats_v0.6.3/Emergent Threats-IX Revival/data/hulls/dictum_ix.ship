@@ -1,0 +1,58 @@
+{
+  "hullName": "Dictum (IX)",
+  "hullId": "dictum_ix",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/ix/fighters/dictum_ix.png",
+  "style": "HIGH_TECH",
+  "height": 38,
+  "width": 34,
+  "center": [17, 16],
+  "collisionRadius": 27,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 27,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": 0,
+      "locations": [9, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-11, 9],
+      "length": 13,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-11, -9],
+      "length": 13,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-16, -0],
+      "length": 22,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    20, 0,
+    10, 14,
+    -14, 5,
+    -14, -5,
+    10, -14
+  ]
+}

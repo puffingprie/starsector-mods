@@ -1,0 +1,14 @@
+{
+	"id":"FM_FlareLauncherFighter",
+	"type":"WEAPON",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.ai.FM_FlareLauncherFighter_ai",	
+	"weaponDataId":"FM_FlareLauncher2",
+	
+	#"useSound":"system_flare_launcher_active",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		
+	}	
+}

@@ -1,0 +1,43 @@
+{
+    "playableFaction":true,
+	"freeStart":false,	# don't spawn markets in random mode
+	
+    "corvusCompatible":true,
+	"ngcTooltip":"Forged on the arid expanse of Ragnus, Metelson Industries stands as a testament to ingenuity and resilience. Specializing in high-end mining operations and advanced technological development, captains and crews of this faction are renowned for their robust craftsmanship and durable equipment. Selecting Metelson means investing in steadfast endurance, top-notch engineering, and the indomitable spirit of pioneers who turned a humble enterprise into a galactic standard for mining excellence. Are you ready to carve your legacy into the very stars?",
+	"noSyncRelations":"false",
+
+	"maxRelationships":{
+	},
+	
+	"morality":"good",
+
+    "alignments":{
+        "corporate":1,
+        "diplomatic":0.5
+    },
+	"diplomacyTraits":["monoopolist", "envious"],
+	
+	"startShipsCombatSmall":["mi_hammerhead_standard", "mi_wolf_standard", "mi_actelh35_standard"],
+    "startShipsCombatLarge":["mi_gadfar_standard", "mi_hammerhead_standard", "mi_wolf_standard"],
+    "startShipsCarrierLarge":["mi_bigvaringur_standard", "mi_rastrum_standard", "mi_vigilance_standard"],
+    "startShipsSuper":["mi_securi_standard"],
+	"startShipsGrandFleet":[
+	["mi_thrudgelmir_standard", "mi_drengur_standard", "mi_gadfar_standard", "mi_varingur_standard", "mi_enforcer_standard"],
+	],
+	
+	
+	
+	
+	
+	
+	
+	
+    "startSpecialItems":[
+        [["metelson_package",""]],
+    ],
+	
+		#rarely colonize and only nearby systems
+	"colonyExpeditionChance":1,
+	"colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
+    "maxColonyDistance": 25,
+}

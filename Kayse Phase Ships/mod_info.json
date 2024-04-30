@@ -1,0 +1,17 @@
+{
+	"id":"kayse_phaseships", # internal id
+	"name":"No Such Organization - Phase ships", # displayed to the player
+	"author":"Kayse",
+	"version":"0.4.0",
+	"description":"Some kitbashed phase ships.",
+	"gameVersion":"0.97a-RC11",
+	"jars":["jars/Kayse_PhaseShips.jar"],
+	"modPlugin":"data.scripts.NoSuchOrg_ModPlugin",
+	"dependencies": [
+		{
+			"id": "MagicLib",
+			"name": "MagicLib",
+			#"version": "0.32rc2" # If a specific version is NOT required, comment out this line
+		}
+	]
+}

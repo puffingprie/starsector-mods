@@ -1,0 +1,334 @@
+0.8.1_rc1
+更新Yatagarasu贴图
+尝试修复Tokiko事件贴图bug
+尝试修复隙间插件
+隙间插件初始次数3->2，恢复所需伤害调整3000/6000/15000/30000->3500/7000/16000/32000，护盾伤害充能比例33%->25%
+Yuugure部署12->10
+Byakuren部署50->55
+修复FM无人机无法安装在余晖舰船上的问题
+0.8.0_rc7
+更新Hotaru贴图与战术系统
+Suzumega 弹药量9->8
+Kaiten机动性加强
+Yasuzume机动性加强
+Yuugure机动性加强
+
+0.8.0_rc6
+修复Literary本显示bug
+修复等离子射弹不被Miko内置插件判断造成伤害的bug
+Blossom Rocket Silo（机载）和Blossom Rocket Silo 散布调整，增加破片与高爆散布，略微降低能量与动能散布
+Ice Fairy 容量 400->450
+Yatagarasu 盾角210->240，由全盾改为前盾
+Hearn 盾角180->150 护盾维持 0.35->0.4
+Margatroid 容量 3750->3500
+
+幻想基础套件 dph与幅能产生减少量 10%->16.7%
+
+0.8.0_rc5
+修改modinfo的版本号
+Blossom Rocket Silo（机载）弹体结构 100->75 冷却时间 0.1->0.125
+Blossom Rocket Silo 冷却时间3.5->2.5
+幅能关联隙间现在不可内置，且到达最大使用次数后将暂时不再计算伤害和增加次数
+Tamashif现在不会减少射程，武器幅能产生减少量变为25%
+Void Blade 弹速 700 -> 630
+Desire Accelerator 穿盾电弧概率 50%->33%
+
+0.8.0_rc4
+调整Kaiten与Bibliophile特效
+修正Peta Flare贴图
+0.8.0_rc3
+隐藏aptitude，等以后做完了全部再放出来
+0.8.0_rc2
+修复Bibliophile级未添加至生涯的bug
+0.8.0_rc1
+暂停并隐藏部分未完成内容
+微调核心内容
+0.7.3_rc1
+整合生涯人物框架FM_Person与其他实用方法（来自Nitori_Tachyon）
+Literary本修正
+视Neru调整
+Kagerou 护盾角度 240->270
+Majou 护盾角度 240->270
+Fairy 结构 350->250
+Ice Fairy 结构 350->250 容量 500->400
+White Fairy 第四轮DPH 800->400
+Hourai 整备 5->6 结构 200->150
+重制Hinotama 整备18
+新插件 镜流协议
+Fuujins Hidden Leaf EMP 100->150
+Desire Accelerator EMP 500->300 单发伤害 300->200
+Byakuren 装配点 295->330，提升少量机动性
+Sky Serpent MRM 导弹血量 200->100 最高航速变为500
+Suzumega 重制
+0.7.2_rc1
+重制Suzumega
+重制水獭PD插件
+Margatroid改为战斗航母ai
+新武器 Blossom Rocket Silo
+新舰载机 White Fairy 火箭轰炸机
+Amanojyaku机体 结构100->250 耗散 50->100，ai修正
+PD火花 备弹量 12->8 装填量改为一次4发
+重制Sky SerpentMRM
+Shining Needle Torpedo二阶弹速 600->900，瞄准时间减少 2s ->1s，精度提升
+Capture Web效率 1.3->1.2
+Kiseki f 添加禁用护盾
+Hinotama整备时间调整 21->14
+Fairy整备时间调整 15->9
+Ice Fairy整备时间调整 18->12 耗散 105->140
+Great Fairy武器射程 800->1500，增加f，ai修正
+重制巫女，更名为Miko 部署改为24
+Yasuzume战术系统回复时间缩短为约7s，cd缩短为1.1s（共1.5s），次数变为4
+重制露米娅，并改名为Yuugure 部署 8 -> 12
+修正Shining Needle Torpedo的演出效果
+Capture Web 射程450->500 最大散布 12->9
+调整Spirit Seal数据 变为弹夹武器 装配点 10 ->11
+Desire Accelerator EMP 200 ->500
+Hinotama主武器 dph 350 ->600，dps变为150，射程 1100->1000
+Hailstorm 最大散布 20 -> 10 EMP 130->300
+Icicle Fall 弹速 400->600 衍生弹幕减速至 150
+Heavy Spark数据重置
+Master Spark射程修正，伤害降低
+Kaiten 装配点 42->50
+Hotaru 装配点 42->45
+Karakasa 装配点 38->42
+Yatagarasu 装配点 45->50
+Tamashi 装配点 120->130 部署点 25->22
+Kiseki 部署点 30->29
+Neru 部署点 20->19
+Yagokoro 装配点 270->300 容量 14000 -> 16000 护盾效率 0.8 -> 0.7
+
+0.7.1_rc1
+刀刃自动炮改名为Void Blade
+PD火花: 弹药数16->12
+Peta Flare: 降低少量幅能效率和衍生弹头伤害
+银刃脉冲: 重制更改为动能武器
+Fuujins Hidden Leaf: 射程 650->700 增加穿盾电弧
+Sealing Needle: 单轮投射量 30->45 dps略微上升 其余基本不变
+Literary:护盾角度 150 ->360 护盾效率 0.8 ->0.6 部署变为11 无人机机动性能提升
+Amanojyaku轰炸机联队:提升机动性（不包括航速）
+Shining Needle Torpedo射程1100->1200
+Hourai支援机武器角度改为20
+Reisen战术系统射程提升为1000
+基础套件船插: 增加武器幅能减少10%的效果
+基础套件和弹幕滞留船插: 修正计算方式
+隙间船插: 主要效果修改为降低35%幅能，可通过造成一定量的伤害充能
+幻想祝福船插: 去除debuff，降低满效果的幅能要求
+修正Literary本
+
+添加一个新的酒吧事件和对应奖励，并修正已有的酒吧事件Literary本
+
+0.7.0_rc1
+新武器 Peta Flare
+新武器 Fuujins Hidden Leaf
+新武器 圣德拒止单元
+新武器 Capture Web
+新武器 Desire Accelerator
+调整Shanghai与Hourai的整备时间与机体数据
+提升巫女电网数据
+重制Hearn贴图与槽位 部署变更
+调整Hearn战术系统视Neru
+重制Reisen贴图与槽位 
+重制Yagokoro贴图与槽位
+略微提升Literary航速
+调整传统组件cr影响
+调整Hailstorm幅能产生
+调整Icicle Fall射速
+调整Great Fairy行为模式与武器飞行速度
+调整Spirit Seal弹速
+调整夜蛾衍生弹头射程（飞行时间
+调整刀刃展开距离
+调整Illusion Laser射角
+调整贤者核心效果
+调整Yagokoro部署
+调整Yagokoro战术系统
+调整Kaiten盾角
+调整Hotaru全盾
+调整Kiseki盾效和槽位
+重制Byakuren战术系统
+调整Reisen战术系统数据和部分视Neru
+
+增加一个新战役
+
+不知道是第几次修复Reisen的闪现
+
+调整更新装配
+
+调整部分武器Literary本与名称
+
+补充音效
+
+为一些其他mod进行了一些调整
+	
+0.6.2_rc6
+修正生涯装配
+0.6.2_rc5
+修正一些Literary本与表示以及装配
+修正模拟战id
+0.6.2_rc4
+修正factionLiterary件中的错误并优化
+0.6.2_rc3
+提升Karasu无人机武器射程
+减少巫女内置插件弹头飞行时间
+0.6.2_rc2
+调整Kagerou数据
+调整Karasu无人机行为
+0.6.2_rc1
+/
+武器部分
+调整Lunatic Bow射速与装填时间
+调整飞叶掩护单元效果实现
+调整飞叶掩护单元弹速
+重制部分尾迹
+/
+舰船部分
+修正Kaiten特效
+舰船贴图长宽微调
+协调所有护卫舰数据
+协调所有驱逐舰数据
+协调所有巡洋舰数据
+重制Kagerou
+Majou战术系统重制
+Literary战术系统特效修正
+/
+协调市场bgm
+协调所有音效
+/
+
+0.6.1_rc8
+Great Fairy行为调整
+舰船Literary本最终补完
+再次修复Yasuzumebug
+0.6.1_rc7
+修复战役问题
+0.6.1_rc6
+debug
+补完舰船Literary本更新
+Yasuzume部署调整，战术系统与ai调整
+火花pd伤害提升
+舰载机行为模式调整
+0.6.1_rc5
+舰船Literary本更新（部分）
+Yasuzume战术系统重制
+调整部分生涯后勤数据
+0.6.1_rc4
+调整武器数据
+Suzumega
+Lunatic Bow
+银刃脉冲
+0.6.1_rc3
+协调生涯后勤内容（尝试提升游戏体验）
+0.6.1_rc2
+重制装配Literary件夹和相关内容
+修正表示名称相关
+0.6.1_rc1
+////
+*debug部分
+修复Kaiten的战术系统bug
+修复传统组件在出现在巡洋舰和主力舰上时的bug
+修复Byakuren伤害bug
+//
+*翻译相关
+外置Literary本加入
+//
+*舰船调整
+Byakuren数据调整：盾效0.9->0.7
+Byakuren战术系统调整：
+充能和释放 0.5->0.25
+持续时间 2->3
+cd 20->10
+速度变更 260->180
+/
+Yagokoro内置插件调整：效果改为+80%射程（与其他类似插件冲突）和增加25%舰载机整备率恢复（与其他类似插件冲突）
+调整Yagokoro战术系统的视Neru效果
+/
+重制Neru的战术系统
+/
+调整Kaiten战术系统的视Neru效果
+/
+微调Margatroid战术系统的视Neru效果
+微调Majou级内置Master Spark的视Neru效果和武器效果
+调整Master Spark伤害与幅能
+//
+*常规插件调整
+水獭PD插件调整：
+软幅能产生倍率 0.5->0.85
+缩小作用半径
+幅能水平会影响工作效率
+//
+*武器调整
+Sky SerpentMRM调整：加入200接触式EMP伤害
+对立级鱼雷：面板射程1000->800
+/
+封印：
+名称变动：封印-> Spirit Seal
+重制效果数据
+介绍Literary本修改
+/
+星尘投射器：
+名称变动：星尘投射器->Suzumega
+重制效果数据
+介绍Literary本修改
+/
+Sealing Needle：
+重制效果数据
+/
+Hailstorm：
+装配点变更
+/
+狂气之弓：
+名称变动：狂气之弓->Lunatic Bow
+重制效果数据
+/
+银刃脉冲：
+重制效果数据
+介绍Literary本修改
+/
+Yakouchuu：
+重制效果数据
+槽位种类变更为大型导弹
+/
+调整所有武器光照效果
+//
+*调整了所有舰载机
+//
+*新内容
+新舰载机 Great Fairy
+新舰载机 Hourai
+新星球 Crino
+新星球特征 
+新武器 飞叶掩护单元
+UNGP规则加入
+////
+
+0.6.0_rc6
+再次修复Reisen的传送问题
+0.6.0_rc5
+修复Neru战术系统的bug
+增加了机载对立鱼雷的描述
+0.6.0_rc3
+再次修复生涯缺少舰船的问题
+0.6.0_rc2
+Master Spark基础射程1300->800
+修复了Kagerou的炮塔和挂载点的问题
+修复了Reisen的传送和残骸的问题
+0.6.0_rc1
+Hinotama舰载机调整 减慢武器发射频率
+修复生涯可能缺少舰船的问题
+0.6.0_rc0
+部 分 贴 图 优 化 (重点)
+Literary 本 调 整 (重点)
+战役重制
+生涯势力关系变更
+加入新舰船 Yatagarasu 以及对应插件与技能
+Margatroid 部分重制
+Fairy速度175->200
+Ice Fairy速度150->175
+对立级鱼雷 备弹->2
+加入对立级鱼雷(舰载机)
+对立级鱼雷特效重制
+刀刃自动炮 射程->600 dph->600 冷却时间->4 取消了emp
+幅能关联隙间特效重制
+传统组件现在不能内置
+AI调整
+部分代码优化
+增加了这份change_log和readme

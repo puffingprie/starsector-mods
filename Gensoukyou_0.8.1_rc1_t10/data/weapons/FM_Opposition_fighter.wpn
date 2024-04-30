@@ -1,0 +1,49 @@
+{
+  "id": "FM_Opposition_fighter",
+  "specClass": "projectile",
+  "projectileSpecId": "FM_Opposition_proj",
+  "type": "MISSILE",
+  "size": "SMALL",
+  #"everyFrameEffect":"data.weapons.deco.FM_Opposition_fighter_everyframe",
+  "turretSprite": "graphics/weapons/FM_Opposition_rack_turret.png",
+  "hardpointSprite": "graphics/weapons/FM_Opposition_rack_hardpoint.png",
+  "renderAboveAllWeapons": 0,
+  "renderHints": [
+    RENDER_LOADED_MISSILES
+  ],
+  "turretOffsets": [
+    0.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    180
+  ],
+  "hardpointOffsets": [
+    6,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    180
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 10,
+    "particleSizeRange": 20,
+    "cloudParticleCount": 5,
+    "cloudDuration": 1,
+    "cloudRadius": 10,
+    "blowbackParticleCount": 3,
+    "blowbackDuration": 2,
+    "blowbackLength": 20,
+    "blowbackSpread": 10,
+    "particleColor": [
+      144,
+      227,
+      225,
+      75
+    ]
+  },
+  "textureType": ROUGH,
+  "fireSoundTwo": "FM_Opposition_fire"
+}

@@ -1,0 +1,34 @@
+{
+  "variantId": "acs_phaetonmkii_skirmish",
+  "hullId": "acs_phaetonmkii",
+  "displayName": "Skirmisher",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 11,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "reinforcedhull",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "acs_medium_hag",
+        "WS0002": "acs_toyhammer_medium",
+        "WS0003": "acs_small_flakhag",
+        "WS0004": "acs_small_flakhag",
+        "WS0005": "acs_small_flakhag",
+        "WS0006": "acs_velites_single",
+        "WS0007": "acs_small_flakhag",
+        "WS0008": "acs_toyhammer_small2",
+        "WS0009": "acs_velites_single"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

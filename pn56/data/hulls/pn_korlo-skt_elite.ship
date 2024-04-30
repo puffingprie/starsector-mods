@@ -1,0 +1,246 @@
+{
+  "bounds": [
+    -60,
+    12,
+    -51,
+    63,
+    29,
+    146,
+    56,
+    149.5,
+    30,
+    22.5,
+    35,
+    8,
+    35,
+    -8,
+    30,
+    -22.5,
+    56,
+    -149.5,
+    29,
+    -146,
+    -51,
+    -63,
+    -60,
+    -12
+  ],
+  "builtInMods": [
+    "pn_cores",
+    "pn_phasefield"
+  ],
+  "center": [
+    144.5,
+    60.5
+  ],
+  "collisionRadius": 170.660477,
+  "engineSlots": [
+    {
+      "angle": -160.787323,
+      "contrailSize": 6.724585,
+      "length": 8.584579,
+      "location": [
+        -13.5,
+        -93
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 6.724585
+    },
+    {
+      "angle": 160.787323,
+      "contrailSize": 6.724585,
+      "length": 8.584579,
+      "location": [
+        -13.5,
+        93
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 6.724585
+    },
+    {
+      "angle": -159.590118,
+      "contrailSize": 7.083654,
+      "length": 11.987721,
+      "location": [
+        -9.5,
+        -98.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 7.083654
+    },
+    {
+      "angle": 159.590118,
+      "contrailSize": 7.083654,
+      "length": 11.987721,
+      "location": [
+        -9.5,
+        98.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 7.083654
+    },
+    {
+      "angle": 180,
+      "contrailSize": 18,
+      "length": 17.5,
+      "location": [
+        -57,
+        -0.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 18
+    },
+    {
+      "angle": -159.145538,
+      "contrailSize": 6.096418,
+      "length": 10.257115,
+      "location": [
+        -4,
+        -104.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 6.096418
+    },
+    {
+      "angle": 159.145538,
+      "contrailSize": 6.096418,
+      "length": 10.257115,
+      "location": [
+        -4,
+        104.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 6.096418
+    }
+  ],
+  "height": 111,
+  "hullId": "pn_korlo-skt_elite",
+  "hullName": "Cyz-C hP",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 163.747513,
+  "spriteName": "graphics/pn/ships/pn_cyz-chp.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 60,
+      "id": "WS0001",
+      "locations": [
+        31.5,
+        -39
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 60,
+      "id": "WS0002",
+      "locations": [
+        31.5,
+        39
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 60,
+      "id": "WS0003",
+      "locations": [
+        34.5,
+        -64
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 60,
+      "id": "WS0004",
+      "locations": [
+        34.5,
+        64
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 60,
+      "id": "WS0005",
+      "locations": [
+        41.5,
+        -92
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -0,
+      "arc": 60,
+      "id": "WS0006",
+      "locations": [
+        41.5,
+        92
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -150,
+      "arc": 150,
+      "id": "WS0007",
+      "locations": [
+        -16.5,
+        -55.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 150,
+      "arc": 150,
+      "id": "WS0008",
+      "locations": [
+        -16.5,
+        55.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0009",
+      "locations": [
+        -31.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    }
+  ],
+  "width": 290
+}

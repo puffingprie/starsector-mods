@@ -1,0 +1,13 @@
+{
+	"baseHullId":"vice_equalizer_base",
+	"skinHullId":"vice_equalizer_ex",
+	"hullName":"Equalizer (EX)",
+	"descriptionId":"vice_ex_all",
+	"descriptionPrefix":"A high-tech battleship prototype that represents an attempt to revive the all-big-guns paradigm of an earlier age. Unlike its ancient predecessors, the Equalizer is equipped with state of the art capacitor banks that grant it remarkable cruising speed and endurance. A smattering of limited arc point defense mounts have been begrudgingly included in the design, but veteran captains will just as often leave them empty, relying on the ship's powerful shields and main weapons to win the day.",
+	"tags":["rare_bp", "hist3t", "merc", "ind", "tritachyon", "vice_ex_bp"],
+	"removeHints":["HIDE_IN_CODEX"],
+	"builtInMods":["vice_energy_weapon_integration", "vice_supercruise_engines", "vice_experimental_hull"],
+		"builtInWeapons": {
+		"LIGHT 001": "vice_ultracapacitors_deco",
+	}	
+}

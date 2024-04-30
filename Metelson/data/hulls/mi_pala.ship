@@ -1,0 +1,91 @@
+{
+  "hullName": "Pala",
+  "hullId": "mi_pala",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/pala.png",
+  "style": "MIDLINE",
+  "height": 72,
+  "width": 62,
+  "center": [31, 36],
+  "collisionRadius": 76.580025,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 67.106262,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 90,
+      "locations": [0, 22]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": -90,
+      "locations": [0, -22]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [23.5, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 135,
+      "locations": [-25.5, 1]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": -135,
+      "locations": [-25.5, -1]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-34, 18],
+      "length": 80,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-34, -18],
+      "length": 80,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    31, -14.5,
+    16, -29.5,
+    -32, -24,
+    -32, -14.5,
+    -30, -10,
+    -30, 10,
+    -32, 14.5,
+    -32, 24,
+    16, 29.5,
+    31, 14.5
+  ]
+}

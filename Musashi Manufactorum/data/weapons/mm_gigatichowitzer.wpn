@@ -1,0 +1,50 @@
+{
+  "id": "mm_gigatichowitzer",
+  "specClass": "projectile",
+  "projectileSpecId": "mm_gigatichowitzer_shot",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "displayArcRadius": 650,
+  "turretSprite": "graphics/mm/weapons/mm_mb_gigatic_body.png",
+  "turretGunSprite": "graphics/mm/weapons/mm_mb_gigatic_barrel.png",
+  "hardpointSprite": "graphics/mm/weapons/mm_mb_gigatic_body_hp.png",
+  "hardpointGunSprite": "graphics/mm/weapons/mm_mb_gigatic_barrel_hp.png",
+  "specialWeaponGlowHeight": 40,
+  "specialWeaponGlowWidth": 15,
+  "visualRecoil": 12,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    21.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    2
+  ],
+  "hardpointOffsets": [
+    29.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 45,
+    "spread": 30,
+    "particleSizeMin": 20,
+    "particleSizeRange": 55,
+    "particleDuration": 4,
+    "particleCount": 12,
+    "particleColor": [
+      255,
+      80,
+      50,
+      245
+    ]
+  },
+  "fireSoundTwo": "mm_gigantic_sound"
+}

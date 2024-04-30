@@ -1,0 +1,36 @@
+{
+  "variantId": "acs_drifter_new2_desperate",
+  "hullId": "acs_drifter_new2",
+  "displayName": "Desperate",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "safetyoverrides"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "shredder",
+        "WS0002": "hammerrack",
+        "WS0003": "heavymg",
+        "WS0004": "breach",
+        "WS0005": "breach",
+        "WS0006": "breach",
+        "WS0007": "vulcan",
+        "WS0008": "vulcan",
+        "WS0009": "acs_toyhammer_small2",
+        "WS0010": "pilum"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "mining_drone_wing",
+    "acs_peasant_Fighter_wing"
+  ]
+}

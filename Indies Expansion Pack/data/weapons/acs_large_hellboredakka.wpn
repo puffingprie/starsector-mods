@@ -1,0 +1,36 @@
+{
+  "id": "acs_large_hellboredakka",
+  "specClass": "projectile",
+  "projectileSpecId": "hellbore_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "turretSprite": "graphics/hellbore dakka/acs_hellboredakka00.png",
+  "hardpointSprite": "graphics/hellbore dakka/acs_hellboredakka00.png",
+  "visualRecoil": 14,
+  "turretOffsets": [
+    36.5,
+    -1
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    55.5,
+    -1
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "numFrames": 20,
+  "frameRate": 20,
+  "muzzleFlashSpec":{"length":65.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":15.0,
+					   "particleSizeMin":10.0,
+					   "particleSizeRange":35.0,
+					   "particleDuration":0.75,
+					   "particleCount":50,
+					   "particleColor":[255,120,50,245]},
+  "fireSoundTwo": "hellbore_fire"
+}

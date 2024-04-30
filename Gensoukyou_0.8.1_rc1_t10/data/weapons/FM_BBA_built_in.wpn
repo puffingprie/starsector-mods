@@ -1,0 +1,40 @@
+{
+  "id": "FM_BBA_built_in",
+  "specClass": "projectile",
+  "projectileSpecId": "FM_wave_particle_proj",
+  "everyFrameEffect": "data.weapons.test.FM_BBA_built_in_everyfarme",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "turretSprite": "",
+  "hardpointSprite": "",
+  "turretOffsets": [
+    0,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 20,
+    "particleSizeMin": 10,
+    "particleSizeRange": 10,
+    "particleDuration": 0.5,
+    "particleCount": 10,
+    "particleColor": [
+      164,
+      159,
+      255,
+      200
+    ]
+  }
+}

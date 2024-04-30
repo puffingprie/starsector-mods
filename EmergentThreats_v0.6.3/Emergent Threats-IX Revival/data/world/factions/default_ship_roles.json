@@ -1,0 +1,104 @@
+{
+	"combatSmallForSmallFleet":{
+        "flourish_attack":5,
+		"flourish_cs":5,
+		
+		"flourish_ix_attack":5,
+		"flourish_ix_cs":5,
+		"temblor_ix_attack":4,
+		"temblor_ix_cs":4,
+		"wolf_ix_attack":5,
+		"wolf_ix_cs":5,
+		
+		"casimir_ix_aux":2,
+	},
+	"combatSmall":{
+        "flourish_attack":5,
+		"flourish_cs":5,
+		
+		"flourish_ix_attack":5,
+		"flourish_ix_cs":5,
+		"hyperion_ix_elite":3,
+		"temblor_ix_attack":4,
+		"temblor_ix_cs":4,
+		"wolf_ix_attack":5,
+		"wolf_ix_cs":5,
+		
+		"hyperion_ix_custom":0,
+		"hyperion_ix_honor":3,
+		"temblor_ix_custom":0,
+		"temblor_ix_honor":4,
+		
+		"casimir_ix_aux":2,
+	},
+	"combatMedium":{
+		"medusa_ix_attack":5,
+		"medusa_ix_cs":5,
+		"shrike_ix_attack":5,
+		"shrike_ix_cs":5,
+		"mandrake_ix_attack":3,
+		"mandrake_ix_cs":4,
+		"mandrake_ix_strike":4,
+	},
+	"combatLarge":{
+		"aurora_ix_attack":10,
+		"aurora_ix_cs":10,
+		"fury_ix_attack":10,
+		"fury_ix_cs":10,
+		"tigershark_ix_attack":2,
+		"tigershark_ix_missile":2,
+		
+		"tigershark_ix_custom":0,
+		"tigershark_ix_honor":3,
+	},
+	"combatCapital":{
+		"aquilon_ix_attack":5,
+		"aquilon_ix_cs":5,
+		"aquilon_ix_strike":5,
+		"equalizer_ix_attack":5,
+		"equalizer_ix_cs":5,
+		"equalizer_ix_strike":5,
+		"incursion_ix_attack":10,
+		"incursion_ix_cs":10,
+		"incursion_ix_strike":5,
+		"odyssey_ix_attack":3,
+		"odyssey_ix_cs":3,
+		"paragon_ix_attack":10,
+		"paragon_ix_cs":10,
+		"paragon_ix_strike":10,
+		
+		"odyssey_ix_custom":0,
+		"odyssey_ix_honor":3,
+		"paragon_ix_custom":0,
+		"paragon_ix_honor":2,
+		"radiant_ix_custom":0,
+		"radiant_ix_honor":3,
+		"radiant_ix_custom_2":0,
+		"radiant_ix_honor_2":3,
+	},
+	"carrierSmall":{
+		"iconoclast_ix_attack":5,
+		"iconoclast_ix_cs":5,
+		
+		"hetman_ix_aux":2,
+	},
+	"carrierMedium":{
+		"flamebreaker_ix_attack":5,
+		"flamebreaker_ix_cs":5,
+	},
+	"freighterSmall":{
+		"buffalo_ix_standard":3,
+	},
+	"freighterMedium":{
+		"banteng_ix_standard":3,
+	},
+	"personnelSmall":{
+		"buffalo_ix_converted":3,
+	},
+	"personnelMedium":{
+		"banteng_ix_converted":3,
+	},
+	"tankerMedium":{
+		"banteng_ix_standard":3,
+	},
+}

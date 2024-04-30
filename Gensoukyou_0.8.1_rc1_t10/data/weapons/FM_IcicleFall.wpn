@@ -1,0 +1,53 @@
+{
+  "id": "FM_IcicleFall",
+  "specClass": "projectile",
+  "projectileSpecId": "FM_IcicleFall_shot",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/FM_IcicleFall_turret.png",
+  "turretGlowSprite": "graphics/weapons/FM_IcicleFall_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/FM_IcicleFall_hardpoint.png",
+  "hardpointGlowSprite": "graphics/weapons/FM_IcicleFall_hardpoint_glow.png",
+
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+    0,
+    255,
+    255,
+    175
+  ],
+  "turretOffsets": [
+    6,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    10.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 20,
+    "particleSizeMin": 10,
+    "particleSizeRange": 10,
+    "particleDuration": 0.5,
+    "particleCount": 10,
+    "particleColor": [
+      63,
+      213,
+      255,
+      255
+    ]
+  },
+  "pixelsPerTexel":5.0,
+  "fireSoundTwo":"FM_IcicleFall_fire",
+  "textureType": SMOOTH
+}

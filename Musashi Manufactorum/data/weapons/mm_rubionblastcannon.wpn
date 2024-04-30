@@ -1,0 +1,66 @@
+{
+  "id": "mm_rubionblastcannon",
+  "specClass": "projectile",
+  "projectileSpecId": "mm_rubionblastcannon_shot",
+  "type": "BALLISTIC",
+  "mountTypeOverride": "HYBRID",
+  "size": "LARGE",
+  "turretSprite": "graphics/mm/weapons/rubionblastcannon/mm_le_rubionblastcannon_body00.png",
+  "turretGlowSprite": "graphics/mm/weapons/rubionblastcannon/mm_le_rubionblastcannon_glow.png",
+  "turretGunSprite": "graphics/mm/weapons/rubionblastcannon/mm_le_rubionblastcannon_barrel.png",
+  "turretUnderSprite": "graphics/mm/weapons/rubionblastcannon/mm_le_rubionblastcannon_base.png",
+  "hardpointSprite": "graphics/mm/weapons/rubionblastcannon/mm_le_rubionblastcannon_body_hp00.png",
+  "hardpointGlowSprite": "graphics/mm/weapons/rubionblastcannon/mm_le_rubionblastcannon_glow_hp.png",
+  "hardpointGunSprite": "graphics/mm/weapons/rubionblastcannon/mm_le_rubionblastcannon_barrel_hp.png",
+  "hardpointUnderSprite": "graphics/mm/weapons/rubionblastcannon/mm_le_rubionblastcannon_base_hp.png",
+  "glowColor": [
+    255,
+    0,
+    0,
+    185
+  ],
+  "visualRecoil": 12,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    44.5,
+    7,
+    44.5,
+    -7
+  ],
+  "turretAngleOffsets": [
+    -0,
+    0
+  ],
+  "hardpointOffsets": [
+    59.5,
+    7,
+    59.5,
+    -7
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "GLOW_AND_FLASH",
+  "numFrames": 12,
+  "frameRate": 12,
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 25,
+    "spread": 5,
+    "particleSizeMin": 12,
+    "particleSizeRange": 40,
+    "particleDuration": 1,
+    "particleCount": 20,
+    "particleColor": [
+      255,
+      0,
+      60,
+      165
+    ]
+  },
+  "fireSoundTwo": "rifttorpedo_fire"
+}

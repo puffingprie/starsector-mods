@@ -1,0 +1,152 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+Bright Moon,mimikko_nonona_paragon_hullmod,3,,Mimikko Tech,,,,,TRUE,,0,0,0,0,data.scripts.campaign.combat.hullmods.Mimikko_nonona_paragon_hullmod,"Mind of the Witch of the Silver Moon, craft of the Sage of Alchemy.
+
+All ship system has been replaced with scientific marvel created by combining alchemy and magic. 
+
+Complex magical circuit and alchemical pathways cannot protect against violent damage, fortunately, Nonona has already prepared an reactive potion coating for the ship.
+
+When using beam weapon, the best conduit of magic, it can allow more energy to be passed on to the enemy that is the focus of the ship's attack. Overflowing magical energy can also cause spatial distortion near the target. 
+",,graphics/icon/hullmod/mimikko_nonona_paragon_hullmod.png
+Resolution,mimikko_yurika_onslaught_hullmod,3,,Mimikko Tech,,,,,TRUE,,0,0,0,0,data.scripts.campaign.combat.hullmods.Mimikko_yurika_onslaguht_hullmod,"Understand all, conquer all!
+
+The Demon Lord will be in their element where the fighting is non-stop, they'll be even more eye-catching and swift as they flip the world upside down! 
+
+Any significant damage that cannot defeat the demon lord will only make them even stronger.
+
+There is always a place for her in the demon lord's heart.",,graphics/icon/hullmod/mimikko_yurika_onslaught_hullmod.png
+,,,,,,,,,,,,,,,,,,
+#零式超载-自动工厂,mimikko_zero_overload_1,3,,Mimikko Tech,"no_build_in, no_sell, no_drop, no_drop_salvage",Mimikko Tech,,TRUE,,,10,15,20,25,data.scripts.campaign.combat.hullmods.Mimikko_nonona_paragon_hullmod,"零入侵舰船的自动复制工厂，以参杂灵魂和情感的巨量算力超载自动复制工厂，使得LPC的制造速度大幅增加，战机更换时间}%s}。
+
+但是超载带来的负荷会使得舰船}%s}峰值时间。",,graphics/icon/hullmod/mimikko_nonona_paragon_hullmod.png
+#零式超载-控制网络,mimikko_zero_overload_2,3,,Mimikko Tech,"no_build_in, no_sell, no_drop, no_drop_salvage",Mimikko Tech,,TRUE,,,5,7,10,15,data.scripts.campaign.combat.hullmods.Mimikko_nonona_paragon_hullmod,"零拓展舰船的操控系统，舰船的所有模块均可以使用船员的精神连接操控，}%s}因船体受损造成的人员损耗。
+舰船的自动复制工厂也会被拓展，每个被生产的战机会被集成额外的控制模块。搭配零的计算系统，}%s}因战机受损造成的人员损耗。
+
+额外的操作接入会使得舰船的系统变得不稳定，使得舰船}%s}峰值时间。",,graphics/icon/hullmod/mimikko_nonona_paragon_hullmod.png
+#零式超载-覆面立场,mimikko_zero_overload_3,3,,Mimikko Tech,"no_build_in, no_sell, no_drop, no_drop_salvage",Mimikko Tech,,TRUE,,,10,15,20,25,data.scripts.campaign.combat.hullmods.Mimikko_nonona_paragon_hullmod,"零覆写舰船自动复制工厂的运作流程，所有被制造的战机都会额外加装一个覆面立场投射器，使得战机受到的伤害}%s}。
+
+额外的制造需要从舰船反应堆提取额外能量，使得舰船}%s}峰值时间。",,graphics/icon/hullmod/mimikko_nonona_paragon_hullmod.png
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+Converted Nano Replicator,mimikko_zero_hullmod1,3,,Mimikko Tech,"no_build_in, no_sell, no_drop, no_drop_salvage",Mimikko Tech,,TRUE,,,8,10,15,20,data.scripts.campaign.combat.hullmods.Mimikko_zero_hullmod1,"
+",,graphics/icon/hullmod/mimikko_zero_extandfighterbay_1.png
+Centralized Hacked Replicator Core,mimikko_zero_hullmod2,3,,Mimikko Tech,"no_build_in, no_sell, no_drop, no_drop_salvage",Mimikko Tech,,TRUE,,,5,5,5,5,data.scripts.campaign.combat.hullmods.Mimikko_zero_hullmod2,"
+",,graphics/icon/hullmod/mimikko_zero_extandfighterbay_2.png
+Magical Devouring Fury,mimikko_yurika_hullmod1,3,,Mimikko Tech,"no_build_in, no_sell, no_drop, no_drop_salvage",Mimikko Tech,,TRUE,,,15,30,45,75,data.scripts.campaign.combat.hullmods.Mimikko_yurika_safeoverride,"This time as well, for Nonona!",,graphics/icon/hullmod/mimikko_yurika_safeoverride.png
+,,,,,,,,,,,,,,,,"#零开始以更高功率的灵魂数据入侵舰船的纳米复制中心，为原始具有甲板的舰船额外提供 %s 的甲板数量，战机结构中的灵魂数据使得战机%s。
+但是纳米复制中心所占用的舰船资源会大大提升，舰船的护盾、船体、装甲会受到额外 %s 伤害。",,
+,,,,,,,,,,,,,,,,,,
+Star Link,mimikko_kasutariri_radiant_moudle_hullmod,3,,Mimikko Tech,"no_build_in, no_sell, no_drop, no_drop_salvage",Mimikko Tech,,,,TRUE,0,0,0,0,data.scripts.campaign.combat.hullmods.Mimikko_karutariri_radiant_moudle_hullmod,111,,graphics/icon/hullmod/mimikko_nonona_paragon_hullmod.png
+Multi-Phase Asynchronous Drive,mimikko_kasutariri_radiant_mainship_hullmod,3,,Mimikko Tech,"no_build_in, no_sell, no_drop, no_drop_salvage",Mimikko Tech,,,TRUE,,0,0,0,0,data.scripts.campaign.combat.hullmods.Mimikko_karutariri_radiant_mainship_hullmod,"Pass on the glory of Atraya.
+
+This ship have accidentally been blessed by the light of Atraya, allowing to operate beyond the bound of reality. However, the technology of Atraya far exceed what this ship can bear, peak operating time %s .
+
+Everytime the ship activates its ship system, will cause the ship to enter an alternate dimension for %s seconds,with the dimension, time flow increase by a factor of %s , at the end of the ship system's duration, things will return to normal.
+
+Within this alternate dimension, turning on the ship system again will allow the ship to dive into an even deeper dimension, refreshing the duration of the effect and multiplicatively increase the speed in which the time flows. 
+
+When this ship increase time flow speed with this system, the flux system will bear the burden of moving through the alternate dimension, generating {%s} hard flux per seconds for non-capital and capital ships respectively. If the ship overloads or choose to actively vent, it will be forced out of the alternate dimension and return to normal space. (rounding up when piloting a capital ship)
+
+According to %s ,all ship modules have built in %s ,this is a mysterious technology from Atraya, allowing the channeling of energy without loss. However, it cannot fully function within the Persean sector, allowing only %s of the time dilation effect from the core body.
+",峰值减少10%，开启系统两秒双倍时流，可多次开启叠加。但开启时每秒增加250ⅹ当前时流倍数硬幅能。模块只有主体一半的时间流速。,graphics/icon/hullmod/mimikko_kasutariri_radiant_hullmod.png
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+# ship skin buffs,,,,,,,,,,,,,,,,,,
+#第十四战斗群,fourteenth,,,,,,,,TRUE,,0,0,0,0,data.hullmods.Fourteenth,"基于}霸主}的建立者}-}人之领}第十四战斗群}为蓝本而建造的战舰，作为研究}人之领}海军}""决战""}教条的主要样本，其采用的大崩塌前的工业技术所进行的一系列激进化的结构改装方案，其目的就是为了安装更加厚重的装甲钢板。提高}%s}点装甲值，降低}%s}的最高航速与机动性。而调整到极佳状态下的能源系统让该舰的幅能耗散/容量提高}%s。",,graphics/hullmods/fourteenth.png
+#霸主军事配件,heg_militarized,,,,,,,,TRUE,,0,0,0,0,data.hullmods.Militarized,由于该舰在霸主的辅助舰列表中，因此才将其系统升级至军事级别标准。根据舰船级别，提高}%s/%s/%s/%s}装甲。而升级到军用标准的核心系统，让该舰的机动性提高}%s，幅能容量提高}%s，幅能耗散提高}%s。最大宇宙航速亦提升了}%s。,,graphics/hullmods/militarized_hegemony_auxiliary.png
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+# permanent ship debuffs,,,,,,,,,,,,,,,,,,
+#受损装甲,comp_armor,,,,"dmod, damage, damageStruct",,,,TRUE,,0,0,0,0,data.hullmods.CompromisedArmor,"在过去某刻该舰曾遭受了无法修复的巨大损伤，或是在生产组装过程中发生了极其严重的失误。装甲值降低}%s。 
+
+但部署所需补给下降}%s。",,graphics/hullmods/compromised_armor.png
+#受损船体,comp_hull,,,,"dmod, damage, damageStruct",,,,TRUE,,0,0,0,0,data.hullmods.CompromisedHull,"在过去某刻该舰曾遭受了无法修复的巨大损伤，或是在生产组装过程中发生了极其严重的失误。结构完整度降低}%s。 
+
+但部署所需补给下降}%s。",,graphics/hullmods/compromised_hull.png
+#老化引擎,degraded_engines,,,,"dmod, damage",,,,TRUE,,0,0,0,0,data.hullmods.DegradedEngines,"不论是因为在战斗中受损，还是生产时发生事故，亦或是糟糕的维护所致，该舰的该舰引擎的战斗表现已经大不如前。 
+
+战斗中最大航速与机动性均降低}%s}.
+
+但部署所需补给下降}%s。",,graphics/hullmods/degraded_engines.png
+#驱动力场故障,degraded_drive_field,,,,"dmod, damage, civOnly",,,,TRUE,,0,0,0,0,data.hullmods.DegradedDriveField,"不论是因为在战斗中受损，还是生产时发生事故，亦或是糟糕的维护所致，该舰的驱动力场性能已经永久性降低。 
+
+宇宙航速下降}%s，被侦测范围上升}%s。 
+
+但部署所需补给下降}%s。",,graphics/hullmods/degraded_drivefield.png
+#缺损电网,faulty_grid,,,,"dmod, damage",,,,TRUE,,0,0,0,0,data.hullmods.FaultyPowerGrid,"不论是因为在战斗中受损，还是生产时发生事故，亦或是糟糕的维护所致，该舰的电力单元的运行效率无法恢复到巅峰水准。 
+
+降低}%s}幅能容量与}%s}耗散速率。被侦测范围上升}%s。 
+
+但部署所需补给下降}%s。",,graphics/hullmods/faulty_power_grid.png
+#不稳定相位线圈,unstable_coils,,,,"dmod, phaseDamage",,,,TRUE,,0,0,0,0,data.hullmods.PhaseCoilInstability,"因一些微妙的缺陷，导致该舰的相位线圈无法进行精细校正，降低}%s}相位时间增益，降低}%s}秒峰值时间，并且提高}%s}战备损耗率。 
+
+但部署所需补给下降}%s}。",,graphics/hullmods/phase_coil_instability.png
+#结构损伤,comp_structure,,,,"dmod, damageStruct, destroyedDamageAlways",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.CompromisedStructure,"该舰的结构曾在过去受到一些极大的损伤，而导致其被重创后更容易会四分五裂。降低}%s}装甲值，降低}%s}结构值。 
+
+但部署所需补给下降}%s。",,graphics/hullmods/structural_damage.png
+#传感器阵列失灵,glitched_sensors,,,,"dmod, damage",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.GlitchedSensorArray,"该舰的传感器受到了无法挽回的损伤，本可以在彻底检修中修复，但为时已晚。武器射程降低}%s，探测范围降低}%s。 
+
+但部署所需补给下降}%s。",,graphics/hullmods/glitched_sensor_array.png
+#通讯系统故障,malfunctioning_comms,,,,"dmod, fighterBayDamage",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.MalfunctioningComms,"该舰的通讯系统因遭到严重破坏，使得难以在复杂战况下保持通讯信号的稳定性。战机联队的最大交战距离降低}%s。 
+
+但部署所需补给下降}%s。",,graphics/hullmods/malfunctioning_comms.png
+#受损的制造工厂,defective_manufactory,,,,"dmod, fighterBayDamage",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.DefectiveManufactory,"受损的制造车间所生产出的劣质战机底盘，且使用大量有轻微缺陷的零部件，而导致战机航速降低}%s}且所受伤害提高}%s。 
+
+但部署所需补给下降}%s。",,graphics/hullmods/defective_manufactory.png
+#受损的飞行甲板,damaged_deck,,,,"dmod, fighterBayDamage",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.DamagedFlightDeck,"因该舰的飞行甲板受到重创，且一般的维修已无法挽回。提高}%s}战机联队重返战场所需要的时间。 
+
+但部署所需补给下降}%s。",,graphics/hullmods/damaged_flight_deck.png
+#不可靠子系统,fragile_subsystems,,,,"dmod, damage, peak_time, notPhase",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.FragileSubsystems,"过多的组件损失导致峰值时间降低}%s，且战备状态的衰减速率提高}%s。 
+
+但部署所需补给下降}%s。",,graphics/hullmods/fragile_subsystems.png
+#受损货舱,comp_storage,,,,"dmod, damage, civOnly",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.CompromisedStorage,"该舰存储能力大大降低。船员，货物和燃料容量均降低}%s。 
+
+但部署所需补给下降}%s。",,graphics/hullmods/compromised_storage.png
+#过度维护,increased_maintenance,,,,"dmod, damage, civ, notAuto",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.IncreasedMaintenance,"每月维护消耗的补给提高}%s，最低所需船员提高}%s，并降低}%s}战备值}(CR)}上限。 
+
+但部署所需补给下降}%s。","提升维护成本与最低船员要求, 并降低战备值}(CR)}上限.",graphics/hullmods/increased_maintenance.png
+#不稳定推进器,erratic_injector,,,,"dmod, damage, civ",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.ErraticInjector,"燃料消耗量提高}%s，且降低}%s}点零幅能加速所提升的航速。 
+
+但部署所需补给下降}%s。","提升燃料消耗, 并降低零幅能加速增益.",graphics/hullmods/erratic_injector.png
+#自动化系统损毁,faulty_auto,,,,"dmod, damage, notAuto",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.FaultyAutomatedSystems,"提升最低所需船员数量}%s，并降低}%s}战备值}(CR)}上限。 
+
+但部署所需补给下降}%s。","提高最低船员需求, 并降低战备值}(CR)}上限.",graphics/hullmods/faulty_automated_systems.png
+#武器位损坏,damaged_mounts,,,,"dmod, damage",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.DamagedWeaponMounts,"降低武器转向速度}%s，并提高射击时的后坐力}%s。 
+
+
+但部署所需补给下降}%s。",降低武器旋转速度且提高后坐力。,graphics/hullmods/damaged_weapon_mounts.png
+#维生系统故障,degraded_life_support,,,,"dmod, damage, notAuto",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.DegradedLifeSupport,"降低最大载员数量}%s，并降低}%s}战备值}(CR)}上限。 
+
+
+但部署所需补给下降}%s。","降低最大载员数, 并降低战备值}(CR)}上限.",graphics/hullmods/degraded_life_support.png
+#护盾发生器老化,degraded_shields,,,,"dmod, damage, reqShields",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.DegradedShields,"提升护盾所受伤害}%s。 
+
+但部署所需补给下降}%s。",提高护盾所受伤害.,graphics/hullmods/degraded_shields.png
+,,,,,,,,,,,,,,,,,,
+#武器位损毁,destroyed_mounts,,,,dmod,,,,TRUE,,0,0,0,0,data.hullmods.DestroyedWeaponMounts,该舰的部分武器位已经遭到了无法修复的严重损伤，无法继续使用。,,graphics/hullmods/damaged_weapon_mounts.png
+#不明智改装,ill_advised,,,,dmod,,,,TRUE,,0,0,0,0,data.hullmods.IllAdvised,该舰所搭载的系统已经经过了大刀阔斧的修改，且过程中并未受到合规的工程监督。尽管系统看上去能在常规条件下正常工作，但在战备不足时，关键部位的故障概率将非常之高。,,graphics/hullmods/illadvised.png

@@ -1,0 +1,62 @@
+{
+    "displayName": "Mainline",
+    "fluxCapacitors": 50,
+    "fluxVents": 3,
+    "goalVariant": true,
+    "hullId": "pn_samaa-ebm",
+    "hullMods": [
+        "advancedshieldemitter",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "variantId": "pn_samaa-ebm_mainline",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0017": "pn_t3cannon-support",
+                "WS0019": "pn_raala",
+                "WS0020": "pn_raala"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0016": "pn_t3cannon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "pn_vaala",
+                "WS0006": "pn_vaala",
+                "WS0007": "pn_vaala",
+                "WS0008": "pn_vaala",
+                "WS0015": "pn_vaala"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "pn_skscannon",
+                "WS0004": "pn_skscannon",
+                "WS0011": "pn_skscannon",
+                "WS0012": "pn_skscannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "pn_double-vulcan",
+                "WS0002": "pn_double-vulcan",
+                "WS0009": "pn_vulcan",
+                "WS0010": "pn_vulcan",
+                "WS0013": "pn_vulcan",
+                "WS0014": "pn_vulcan"
+            }
+        }
+    ]
+}

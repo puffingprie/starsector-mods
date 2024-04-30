@@ -1,0 +1,60 @@
+{
+  "variantId": "mi_gadfar_support",
+  "hullId": "mi_gadfar",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 11,
+  "fluxVents": 30,
+  "quality": 0.55,
+  "permaMods": [],
+  "hullMods": [
+    "ecm",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "pilum"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ioncannon",
+        "WS0002": "ioncannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "heavymauler",
+        "WS0004": "heavymauler",
+        "WS0005": "combatmg",
+        "WS0006": "combatmg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "crackler",
+        "WS0008": "crackler",
+        "WS0009": "light_maser_beam",
+        "WS0010": "light_maser_beam",
+        "WS0013": "light_maser_beam",
+        "WS0014": "light_maser_beam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

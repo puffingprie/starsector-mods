@@ -1,0 +1,58 @@
+{
+  "variantId": "mi_cringer_standard",
+  "hullId": "mi_cringer",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 29,
+  "fluxVents": 30,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sylva",
+        "WS0002": "sylva"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "kasta"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "annihilator",
+        "WS0007": "annihilator"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "crackler",
+        "WS0005": "crackler"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "negl_wing",
+    "negl_wing"
+  ]
+}

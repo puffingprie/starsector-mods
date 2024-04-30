@@ -1,0 +1,68 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 19,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "aquilon_ix",
+    "hullMods": [
+        "fluxdistributor",
+        "targetingunit",
+        "ix_laser_collimator",
+        "frontemitter",
+        "stabilizedshieldemitter",
+        "ix_aquilon_fl_handler",
+        "ix_aquilon_fl"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "aquilon_ix_attack",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "thundermark_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "orthrus_m_ix",
+                "WS 003": "orthrus_m_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 006": "hil"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "twin_tactical_laser_ix",
+                "WS 005": "twin_tactical_laser_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "taclaser",
+                "WS 008": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 000": "diffraction_laser_ix"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "morningstar_ciws_ix",
+                "WS 010": "morningstar_ciws_ix"
+            }
+        }
+    ]
+}

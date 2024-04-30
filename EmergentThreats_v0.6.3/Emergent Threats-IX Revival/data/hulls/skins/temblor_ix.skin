@@ -1,0 +1,21 @@
+{
+	"baseHullId":"tempest_ix_base",
+	"skinHullId":"temblor_ix",
+	"hullName":"Temblor (IX)",
+	"incompatibleWithBaseHull":true,
+	"descriptionId":"temblor_ix",
+	"coversColor":[120,130,120,255],
+	"descriptionPrefix":"A prototype escort frigate based on the Tempest, and used by the 9th Domain Battlegroup to test various new weapon systems. the Temblor (IX) is faster, leaner, and better protected than its predecessor. Luckily for the rest of the Sector, this ship remains a relatively rare sight outside of the Fleet Command Honor Guard.",
+	"fleetPoints":9,
+	"ordnancePoints":48,
+	"baseValueMult":2,
+	"spriteName":"graphics/ships/ix/temblor_ix.png",
+	"builtInWings": ["terminus_ix_wing"],
+	"removeHints":["HIDE_IN_CODEX"],
+	"tags":["no_autofit", "ixbattlegroup", "ix_core_guard", "ix_core_bp"],
+	"tech":"IX Battlegroup",
+	"builtInMods":["ix_ninth", "ix_terminus_relay_built_in"],
+	"builtInWeapons": {
+        "WS DIF": "diffraction_laser_ix",
+    },
+}

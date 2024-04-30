@@ -1,0 +1,12 @@
+{
+	"id":"aptitude_nonona",
+	"governingAptitude":"Mimikko_nonona",
+	"effectGroups":[
+		{
+			"requiredSkillLevel":0,
+			"effects":[
+				{"type":"DESCRIPTION", "script":"data.scripts.skill.momonaAptitudeDesc$Level0"},
+			]
+		},
+	],
+}

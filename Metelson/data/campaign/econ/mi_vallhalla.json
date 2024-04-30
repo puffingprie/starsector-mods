@@ -1,0 +1,23 @@
+{
+"starSystem":"valhalla",
+	"markets":[		
+		{
+			"entities":["metelsonValhalla"],
+			"faction":"metelson",
+			"size":3,
+			"startingConditions":[
+				"population_5",
+				"ore_moderate",
+				"rare_ore_sparse",
+				],
+			"industries":[
+				"population",
+				"spaceport",
+				"mining",
+				"grounddefenses",
+				"patrolhq",
+				"battlestation",
+			],
+		},
+	],
+}

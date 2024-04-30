@@ -1,0 +1,5 @@
+id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order,disruptDanger
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+acs_industry_frontier_protocol,Frontier Command Center,60,60,5,8,,,"unraidable, tactical_bombardment, structure",,graphics/industry/acs_frontier_hq.png,data.scripts.industry.acs_industry_frontier_protocol,"Apply Frontier Protocol that make colony invisible to enemy raid and invasion at cost of losing access to wider sector economy, only trade with same faction market, provide small passive income, Also Additional hangars, maintenance bays, command/control center, barracks, and logistics operations required to magnify force projection throughout a star system. Once established, increases the size of militarized patrols launched from the colony.",1000,

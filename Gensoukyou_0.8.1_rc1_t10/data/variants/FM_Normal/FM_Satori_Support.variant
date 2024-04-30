@@ -1,0 +1,38 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 26,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "FM_Satori",
+    "hullMods": [
+        "targetingunit",
+        "FantasyKawausoMod"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Satori_Support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "FM_LunaticBow"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "FM_SkySerpent_M",
+                "WS0003": "FM_SkySerpent_M"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "taclaser",
+                "WS0007": "taclaser",
+                "WS0008": "taclaser"
+            }
+        }
+    ]
+}

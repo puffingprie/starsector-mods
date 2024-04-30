@@ -1,0 +1,291 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+
+		"FM_Bazhiwu_Standard":3,
+		"FM_Bazhiwu_Aggressive":2,
+		"FM_Bazhiwu_Fantasy":3,
+		"FM_Bazhiwu_Support":2,
+
+		"FM_Parasol_Standard":3,
+		"FM_Parasol_Aggressive":2,
+		"FM_Parasol_Fantasy":3,
+		"FM_Parasol_Support":2,
+	
+		"FM_Rotation_Standard":2,
+		"FM_Rotation_Aggressive":3,
+		"FM_Rotation_Fantasy":3,
+		"FM_Rotation_Support":2,
+	
+		"FM_Firefly_Standard":3,
+		"FM_Firefly_Aggressive":2,
+		"FM_Firefly_Fantasy":3,
+		"FM_Firefly_Support":2,
+	
+		"FM_Rabbit_Standard":2,
+		"FM_Rabbit_Aggressive":3,
+		"FM_Rabbit_Fantasy":3,
+		"FM_Rabbit_Support":2,
+	
+		"FM_Nightbird_Standard":3,
+		"FM_Nightbird_Aggressive":2,
+		"FM_Nightbird_Fantasy":2,
+		"FM_Nightbird_Support":3,
+
+
+	},
+	"combatSmall":{
+
+	"FM_Bazhiwu_Standard":3,
+	"FM_Bazhiwu_Aggressive":2,
+	"FM_Bazhiwu_Fantasy":3,
+	"FM_Bazhiwu_Support":2,
+
+	"FM_Bibliophilia_Standard":3,
+	"FM_Bibliophilia_Aggressive":2,
+	"FM_Bibliophilia_Fantasy":3,
+	"FM_Bibliophilia_Support":2,
+
+	"FM_Parasol_Standard":3,
+	"FM_Parasol_Aggressive":2,
+	"FM_Parasol_Fantasy":3,
+	"FM_Parasol_Support":2,
+
+	"FM_Rotation_Standard":2,
+	"FM_Rotation_Aggressive":3,
+	"FM_Rotation_Fantasy":3,
+	"FM_Rotation_Support":2,
+
+	"FM_Firefly_Standard":3,
+	"FM_Firefly_Aggressive":2,
+	"FM_Firefly_Fantasy":3,
+	"FM_Firefly_Support":2,
+
+	"FM_Rabbit_Standard":2,
+	"FM_Rabbit_Aggressive":3,
+	"FM_Rabbit_Fantasy":3,
+	"FM_Rabbit_Support":2,
+
+	"FM_Nightbird_Standard":3,
+	"FM_Nightbird_Aggressive":2,
+	"FM_Nightbird_Fantasy":2,
+	"FM_Nightbird_Support":3,
+
+	},
+	"combatMedium":{
+
+	"FM_Aya_Standard":3,
+	"FM_Aya_Aggressive":3,
+	"FM_Aya_Fantasy":2,
+	"FM_Aya_Support":2,
+
+	"FM_Witch_Standard":3,
+	"FM_Witch_Aggressive":2,
+	"FM_Witch_Fantasy":2,
+	"FM_Witch_Support":3,
+
+	"FM_Miko_Standard":2,
+	"FM_Miko_Aggressive":3,
+	"FM_Miko_Fantasy":3,
+	"FM_Miko_Support":2,
+
+	"FM_Loupgarou_Standard":2,
+	"FM_Loupgarou_Aggressive":2,
+	"FM_Loupgarou_Fantasy":3,
+	"FM_Loupgarou_Support":3,
+
+	"FM_Reisen_Standard":3,
+	"FM_Reisen_Aggressive":2,
+	"FM_Reisen_Fantasy":2,
+	"FM_Reisen_Support":3,
+
+	},
+	"combatLarge":{
+
+	"FM_Konpaku_Standard":3,
+	"FM_Konpaku_Aggressive":2,
+	"FM_Konpaku_Fantasy":3,
+	"FM_Konpaku_Support":2,
+
+	"FM_Satori_Standard":3,
+	"FM_Satori_Aggressive":3,
+	"FM_Satori_Fantasy":2,
+	"FM_Satori_Support":2,
+
+	"FM_Miracle_Standard":2,
+	"FM_Miracle_Aggressive":3,
+	"FM_Miracle_Fantasy":3,
+	"FM_Miracle_Support":2,
+
+	"FM_Hearn_Standard":2,
+	"FM_Hearn_Aggressive":3,
+	"FM_Hearn_Fantasy":3,
+	"FM_Hearn_Support":2,
+
+	},
+	"combatCapital":{
+
+	"FM_Yagokoro_Standard":3,
+	"FM_Yagokoro_Aggressive":3,
+	"FM_Yagokoro_Fantasy":2,
+	"FM_Yagokoro_Support":2,
+
+	"FM_Byakuren_Standard":2,
+	"FM_Byakuren_Aggressive":2,
+	"FM_Byakuren_Fantasy":3,
+	"FM_Byakuren_Support":3,
+
+	},
+
+
+	# hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall":{
+
+	},
+	"combatFreighterMedium":{
+
+		"FM_Baize_Standard":2,
+		"FM_Baize_Aggressive":3,
+		"FM_Baize_Fantasy":3,
+		"FM_Baize_Support":2,
+
+	},
+	"combatFreighterLarge":{
+
+	},
+
+	"civilianRandom":{
+
+	},
+
+	# carriers
+	"carrierSmall":{
+
+	"FM_Puppeteer_Standard":3,
+	"FM_Puppeteer_Aggressive":2,
+	"FM_Puppeteer_Fantasy":2,
+	"FM_Puppeteer_Support":3,
+
+
+	},
+	"carrierMedium":{
+
+	"FM_Egret_Standard":3,
+	"FM_Egret_Aggressive":2,
+	"FM_Egret_Fantasy":3,
+	"FM_Egret_Support":2,
+
+	"FM_Hearn_Standard":3,
+	"FM_Hearn_Aggressive":2,
+	"FM_Hearn_Fantasy":2,
+	"FM_Hearn_Support":3,
+
+	},
+	"carrierLarge":{
+
+	"FM_Yagokoro_Standard":3,
+	"FM_Yagokoro_Aggressive":3,
+	"FM_Yagokoro_Fantasy":2,
+	"FM_Yagokoro_Support":2,
+
+
+	},
+
+	# phase ships
+	"phaseSmall":{
+
+		"FM_Rumia_Standard":3,
+		"FM_Rumia_Aggressive":2,
+		"FM_Rumia_Fantasy":2,
+		"FM_Rumia_Support":3,
+
+
+	},
+	"phaseMedium":{
+
+	},
+	"phaseLarge":{
+
+	},
+	"phaseCapital":{
+	},
+
+	# freighters and such
+	"freighterSmall":{
+
+	},
+	"freighterMedium":{
+
+	},
+	"freighterLarge":{
+
+	},
+
+	"tankerSmall":{
+
+	},
+	"tankerMedium":{
+
+	},
+	"tankerLarge":{
+
+	},
+
+	"personnelSmall":{
+
+	},
+	"personnelMedium":{
+
+	},
+	"personnelLarge":{
+
+	},
+
+	"linerSmall":{
+
+	},
+	"linerMedium":{
+
+	},
+	"linerLarge":{
+
+	},
+
+	# utility ships
+	"tug":{
+
+	},
+	"crig":{
+
+	},
+	"utility":{
+
+	},
+
+	"orbitalStationLowTech":{
+
+	},
+
+	"battlestationLowTech":{
+
+	},
+
+
+
+
+	# Old/unused below this line
+	"fastAttack":{
+
+	},
+
+	"escortSmall":{
+
+
+	},
+	"escortMedium":{
+
+
+	},
+
+}

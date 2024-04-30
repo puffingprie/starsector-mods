@@ -1,0 +1,184 @@
+{
+  "hullName": "Banteng",
+  "hullId": "vice_banteng",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/vice/ships/banteng.png",
+  "style": "MIDLINE",
+  "height": 276,
+  "width": 130,
+  "center": [65, 138],
+  "collisionRadius": 170,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 170,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade"
+  ],
+  "builtInWeapons": {
+    "LIGHT 001": "blinker_red",
+    "LIGHT 002": "blinker_green",
+    "LIGHT 003": "blinker_red",
+    "LIGHT 004": "blinker_green",
+    "LIGHT 005": "blinker_red",
+    "LIGHT 006": "blinker_green"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 0,
+      "locations": [-35, 0]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 45,
+      "locations": [115, 26]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -45,
+      "locations": [115, -26]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 35,
+      "locations": [-27, 38]
+    },
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -35,
+      "locations": [-27, -38]
+    },
+    {
+      "id": "SYSTEM 001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 180,
+      "locations": [-110, 45]
+    },
+    {
+      "id": "SYSTEM 002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 180,
+      "locations": [-110, -45]
+    },
+    {
+      "id": "LIGHT 001",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [99, 48]
+    },
+    {
+      "id": "LIGHT 002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [99, -48]
+    },
+    {
+      "id": "LIGHT 003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-22, 53]
+    },
+    {
+      "id": "LIGHT 004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-22, -53]
+    },
+    {
+      "id": "LIGHT 005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-96, 60]
+    },
+    {
+      "id": "LIGHT 006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-96, -60]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-128, -0],
+      "length": 70,
+      "width": 30,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+	{
+      "location": [-128, 18],
+      "length": 40,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "MIDLINE"
+    },
+	{
+      "location": [-128, -18],
+      "length": 40,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    134, 12,
+    134, -12,
+    99, -50,
+    -17, -50,
+    -33, -61,
+    -97, -61,
+    -125, -19,
+    -125, 19,
+    -97, 61,
+    -33, 61,
+    -17, 50,
+    99, 50
+  ]
+}

@@ -1,0 +1,60 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 26,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "vice_equalizer_ex",
+    "hullMods": [
+        "fluxdistributor",
+        "hardenedshieldemitter",
+        "targetingunit",
+        "frontemitter",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_equalizer_ex_assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "autopulse",
+                "WS 002": "autopulse",
+                "WS 015": "breachpod",
+                "WS 016": "breachpod",
+                "WS 017": "breachpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "hil",
+                "WS 004": "hil"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "vice_deadeye_plasma",
+                "WS 006": "vice_deadeye_plasma"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "pdlaser",
+                "WS 008": "pdlaser",
+                "WS 009": "pdlaser",
+                "WS 010": "pdlaser",
+                "WS 011": "pdlaser",
+                "WS 012": "pdlaser",
+                "WS 013": "pdlaser",
+                "WS 014": "pdlaser"
+            }
+        }
+    ]
+}

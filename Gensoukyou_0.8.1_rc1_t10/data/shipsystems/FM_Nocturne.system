@@ -1,0 +1,22 @@
+{
+	"id":"FM_Nocturne",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	
+	"statsScript":"data.shipsystems.FM_Nocturne",
+	"aiScript":"data.shipsystems.ai.FM_Nocturne_ai",
+
+	"canUseWhileRightClickSystemOn":true,
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_interdictor",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+
+	}
+}
+
+
+
+

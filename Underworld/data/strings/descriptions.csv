@@ -1,0 +1,185 @@
+id,type,text1,text2,text3,text4,notes
+uw_tpc,WEAPON,"Differing from the Thermal Pulse Cannon, the light variant has a much smaller capacitor array. Being compact has a cost, and as such the light variant cannot store as much charge as its larger cousin. Even so, the Light TPC is a remarkably potent weapon system.",Assault,,,
+uw_hellfire,WEAPON,"This enormous weapon, itself the size of a destroyer, houses three modified Thermal Pulse Cannons. For all its bulk, the Hellfire can produce a tremendous stream of energetic ordnance.
+
+The Hellfire Cannon is the brainchild of a Fabrique Orbitale chief-engineer-turned-traitor. As one of the designers responsible for the Infernus-class, his contribution was this impressive battleship-buster. For power, the weapon requires a dedicated conduit running directly to a capital-grade flux core; even then, it is only able to fire for one-and-a-half seconds before reaching the temperature redline.",Assault,,,
+uw_diablo,WEAPON,"This modified Hellfire Cannon houses three full-powered Thermal Pulse Cannons. For all its bulk, the Diablo can produce a devastating stream of energetic ordnance.",Assault,,,
+uw_prototype_gauss,WEAPON,"Rare and powerful, this prototype variant of the gauss cannon is optimized for short bursts of firepower. The later (and more common) production model has greater range and per-shot potency, but this early prototype ultimately proves more destructive in combat.
+
+Few technicians have gotten a chance to inspect this rare weapon, since it is too unstable to function on ships other than the elusive Shadowclaw. Speculation about its inner workings bounces around holo-net tech bulletin boards from time to time, but a consensus has yet to be reached.",Close Support,,,
+uw_shredder,WEAPON,"A rotatory cannon built into the hull of the Revolver, and hacked to target missiles as well as small craft and warships. Highly effective against small targets and exposed hull.",,,,
+uw_needler_f,WEAPON,Fires bursts of small flechettes at a high rate of fire. A reduced-mass version of the warship-grade Light Needler.,,,,
+,,,,,,
+uw_sidecar,SHIP,"A peculiar design, the Sidecar is egregiously sub-par, often a deathtrap for the unfortunate souls crammed into its sardine-can interior. Cheap and disposable.",,,,
+uw_infernus,SHIP,"The Infernus is the ultimate symbol of defiance in the Persean Sector, a harbinger of anarchy and bringer of the reckoning to come. Once a harmless harvester, salvage barge, and refinery, the Infernus evolved into a glorious battlewagon capable of supporting an entire fleet. Wields the Hellfire Cannon, a huge weapon system capable of matching an Onslaught's opening TPC barrage.",,,,
+uw_barbarian,SHIP,"The aptly-named Barbarian is a mostly-failed ballistics-conversion of Aurora-class. Covered in weapons and heavily armored, but suffers from poor flux and a truly awkward weapons layout. A true abomination.",,,,
+uw_tiger,SHIP,"The brainchild of an AWOL Tri-Tachyon engineer shortly after the Collapse - or perhaps a rogue AI - the Tiger is a skeletonized hull built around an impressive reactor and a formidable array of energy weapons. Small and deadly, but fragile.",,,,
+uw_shark,SHIP,"The Shark battle barge seems to exist solely to function as the ideal raiding vessel: fast, spacious, and well-armed. Sharks palpably favor overwhelming firepower to cover for overall slipshod hull design. Less useful in a large engagement, but a terrible menace to smaller craft.",,,,
+uw_renegade,SHIP,"The hulking, rusted behemoth known as the Renegade is a favorite of pirate lords, a true force to be reckoned with. This unusual battlecruiser, while shrouded by mysterious origins, represents a triumph of ego, its existence a testament to the Persean Sector's inexorable path toward anarchy.",,,,
+uw_torch,SHIP,"A tomb for the criminally insane, nearly every inch of the Torch's hull is covered in weapons. To power its incredible arsenal, the Torch is outfitted with an uncharacteristically strong reactor, but it inexplicably lacks a shield generator.",,,,
+uw_boar,SHIP,"The Boar is an unholy mixture of an Enforcer and a Medusa, somehow combining the strengths and weaknesses of both ships. Allows complete 360-degree turret coverage and utilizes a much faster version of the burn drive system, but can't match the originals' firepower.",,,,
+uw_dragon,SHIP,"A valiant attempt to ""fix"" the Odyssey that ended up creating a formidable ballistic-focused alternative. Though the Dragon doesn't quite measure up to the proper Domain design, this battlecruiser remains an impressive feat of ingenuity, a testament to the tenacity of humankind... or perhaps a reminder of man's propensity for violence.",,,,
+uw_scythe,SHIP,"The Scythe is a bastardization of the Afflictor, sacrificing all of the original's grace in favor of raw firepower. Mostly notable for giving old freighter captains heart attacks.",,,,
+uw_stalker,SHIP,"Though the Stalker is based on the Apogee, it functionally bears little resemblance. A wide selection of substitutions and drawbacks were made to this hacked blueprint to get it to fly at all, but the effort was not made in vain. A dangerous and capable warship, excellent in close support duties.",,,,
+uw_venomx,SHIP,"The Venom-X is a heavily modified Venom-class blueprint with influences taken from the Hyperion and Scarab. Provides incredible flexibility and firepower for its size, but barely works.",,,,
+uw_venom,SHIP,"The Venom is a rare example of a completely unique pirate-manufactured starship design. Effectively an upgrade upon the ubiquitous Hound, the Venom is primarily valued as a catch-all combat freighter, capable of defending itself and ferrying illegal cargo.
+
+Although Kanta prefers to take credit for the Venom, this ship was actually designed mere decades after the collapse by one of the earliest pirates, an ex-Domain manufacturing specialist by the name of Fat Raymond.",,,,
+uw_mongrel,SHIP,"Sometimes (inaccurately) labeled ""Buffalo Mk. III"", the Mongrel is a heavy gunboat cobbled together from multiple ship hulls. This shieldless beast makes for a mean addition to any fleet desperate enough to use it.",,,,
+uw_amalgam,SHIP,"The Amalgam is often spoken of with dread, a space-boogeyman, more legend than reality. A torturous patchwork of many ships, this monster is wholly incoherent but must never be taken lightly.",,,,
+uw_predator,SHIP,"A working example of a ""chip-bash"", the Predator-class combines the hull and armaments of the Kite-class and Wolf-class frigates. The conversion is notably flawed, resulting in an eclectic mix of performance characteristics. Despite this, the Predator is a speedy combat frigate with flexible weapon mounts, making it notoriously popular among the unlawful.",,,,
+uw_predator_x,SHIP,"The pirate-modified Predator-X takes the Predator-class hull and transforms it into a killing machine, complete with souped-up thrusters, bootleg mount-mods, and a pair of missile pods attached to the fore.
+
+A working example of a ""chip-bash"", the Predator-class combines the hull and armaments of the Kite-class and Wolf-class frigates. The conversion is notably flawed, resulting in an eclectic mix of performance characteristics. Despite this, the Predator is a speedy combat frigate with flexible weapon mounts, making it notoriously popular among the unlawful.",,,,
+uw_shadowclaw,SHIP,"The Shadowclaw-class appears to be a Domain-era prototype testbed, likely used for field-testing cutting-edge weapon systems. This version evidently features an experimental gauss cannon on the prow. The Shadowclaw exhibits transitional design philosophy, fusing midline shipbuilding doctrine with high-tech avionics, flux conduits, and phasic systems. The only known Shadowclaw blueprint is owned by the Dickerson Clan.",,,,
+uw_eos_cabal,SHIP,"Thought to be a downsized Astral variant, the Eos-class is a true behemoth of a carrier. Fitting as much deck space as a Legion despite its cruiser size classification, the Eos grants capital-class fighter projection to fleets that can't field larger vessels. Efficient, considering its strike potential and advanced systems, but lacks much auxiliary firepower beyond its flight decks.
+
+The Eos-class carrier makes a number of sacrifices to fit so many flight decks on a small, efficient frame. Chief among these is the lack of thrusting power, awarding the ship its well-earned reputation for sluggishness. Apparently, the designers focused all efforts on tuning travel drive performance, leaving in-combat engine capabilities by the wayside.
+
+Another major problem is the miniaturized reactor, which - while fairly reliable and easy-to-replace - lacks adequate flux vent space. Aftermarket modifications can more than double the Eos' reactor performance, albeit at a cost.
+
+Finally, the Eos-class comes standard with what can be described as ""modest"" capacitor banks. Late-epoch ultra-efficient shield tech keeps this from being a fatal flaw, but heavy weapons can quickly run the Eos dry.","Upgraded by the Starlight Cabal, this ship represents the materialistic glitz and glamour of the high life.
+
+Thought to be a downsized Astral variant, the Eos-class is a true behemoth of a carrier. Fitting as much deck space as a Legion despite its cruiser size classification, the Eos grants capital-class fighter projection to fleets that can't field larger vessels. Efficient, considering its strike potential and advanced systems, but lacks much auxiliary firepower beyond its flight decks.",,,
+uw_starscream,SHIP,"The Starscream-class is a heavily-modified offshoot of the Starliner-class featuring across-the-board improvements, particularly in combat capabilities. Up-gunned and even fighter-capable, the Starscream is a powerful combat transport capable of holding its own in full fleet combat and supporting troops on the ground. However, her true specialization is luxury; there is hardly a more blissful ship in the sector than a fully-loaded Starscream. Recreational drugs are sold separately.",,,,
+uw_succubus,SHIP,"While the Succubus-class can be thought as a refinement of the Liberator-class, the truth is that the two blueprints are almost nothing alike. Most likely, the Succubus is a modification of some other rare, otherwise unknown capital ship design that was lost during the Collapse. Whatever its origin, however, this ship is a fast-burning terror capable of monstrous destruction. Like its namesake, the Succubus is best fought in groups; never face it alone.",,,,
+uw_climax,SHIP,"When the Starlight Cabal found need for a de-facto luxury flagship pattern, the spacious, exploration-suited Apogee quickly became a favorite for conversions. Now known as the ""Climax"" for the various sordid affairs that occur above its keel, this ship retains its long endurance and combat capabilities - but it's now the crew and passengers within, not interstellar space, that are oft ""explored"" by its officers.",,,,
+uw_palace,SHIP,"The Palace-class defies reason. It is impossible to fully produce in any standard Domain autofactory; instead, the Starlight Cabal cannibalize smaller ships (including a Paragon) and, at an undisclosed orbital forge, meld it together into this glitzy abomination. Effectively a mobile starbase, the Palace is a colony unto itself: self-sufficient in many ways, but dependent on local trade to stay afloat.",,,,
+,,,,,,
+uw_revolver,SHIP,"The Revolver is a recent LPC-hack produced by Kanta's self-proclaimed ""tech wizards"", trading out the expensive shields and ion beams of the original Xyphos in favor of cheaper parts. The result is an effective - if somewhat over-engineered - support fighter ideal for close support and point-defense duties.",,,,
+uw_razor,SHIP,"A clever derivative design, the Razor is a Claw-variant light fighter with the shields stripped out. Nimble but fragile, the Razor's claim to fame is the reduced-mag Light Needler at its prow. Effective at bringing down shields, but has a short operational range.",,,,
+,,,,,,
+uw_inferniumdrive,SHIP_SYSTEM,"Redirects shield power to the ship's drive system, providing a massive speed boost for a fixed time at the expense of being able to use shields. The ship runs the risk of full engine flameout on any significant collision.",Movement,Provides a massive speed boost at the expense of being unable to turn or use shields. Collisions can cause a flameout while the system is active.,,
+uw_shadowskim,SHIP_SYSTEM,Teleports the ship forward in the direction it's traveling. The system slowly builds up to two charges which can then be expended in short order.,Movement,Teleports the ship forward in the direction it's traveling. The system can store up to two charges at once.,,
+uw_fighterflares_eccm,SHIP_SYSTEM,Launches flares that distract the guidance systems of incoming missiles and PD weapons. Any missile hitting a flare will be destroyed.,Defensive,Launches flares to confuse the guidance systems of nearby enemy missiles.,,
+uw_incubusdrive,SHIP_SYSTEM,"Activates hot-burning plasma jets, providing a major speed boost and maneuverability improvement. A flux feedback system pushes the ship's performance ever higher if the flux level is high. The system must be allowed to cool down if used too often. The ship cannot slow down or stop while the system is active.",Movement,Propels the ship forward and greatly increases maneuverability. Ship cannot decelerate or stop. Boosts dissipation and energy weapon performance if flux is high.,,
+,,,,,,
+uw_station_arigato,CUSTOM,"Arigato is a repurposed utility station, damaged but not quite destroyed in the first AI War. Though few live there permanently, it remains a pit-stop for lawless starfaring captains who make use of its facilities to repair and replenish their rag-tag fleets. Arigato is most notable for its Scrapyard, a vast marketplace for discount refurbished ships and supplies of all sorts, lifted from the surface of Roboto.",,"This station is owned by the Dickerson Clan, who have owned and operated it for generations. Using built-up war assets, the Dickersons have always defended Arigato from rival pirate gangs, Hegemony sweeps, and mercenary raids.",,
+uw_planet_roboto,CUSTOM,"Once a Domain manufacturing center, Roboto was rendered an uninhabitable ruin by the first AI War. Factories are scattered across the land like tombstones, wrecked hulls and broken machinery dumped across its surface like forgotten refuse. If the treacherous landscape and toxic atmosphere weren't enough, Roboto is also sparsely populated by self-sustaining AI automaton colonies that react with hostility to human incursion. Roboto has no starports, but teams from Arigato periodically send missions to the lawless surface to scavenge for resources.",,,,
+uw_star_styx,CUSTOM,"This is a red dwarf star, light enough to undergo continous convective fusion. Due to its stability, this star will continue to burn for trillions of years.",,,,
+cabal,FACTION,"The Starlight Cabal is an exclusive cult of like-minded entrepreneurs and inheritors deeply embedded within the Tri-Tachyon Corporation. Believing that the future of mankind mandates complete technological synthesis, the Cabal ostensibly seeks a higher, euphoric state of being. However, to attain ascension within this scientific dark age, the price is steep. For the privilege of membership, tremendous sums of credits must be paid - either directly or indirectly - into a dark web of Cabal-controlled hedge funds and capital investments.
+
+Skeptics mock the Starlight Cabal as an elaborate financial scam, and others excoriate the organization as nothing more than a corpo-backed privateer group. Critics of the Cabal tend to lay low, however; more than a few whistleblowers have mysteriously disappeared over the cycles...
+
+The Starlight Cabal encourages a ""doctrine of acquisition"" (read: hyperspace robbery), broadly engaging in acts of piracy and the occasional bout of terrorism or vandalism. Direct strikes on political entities are rare, however.",,,,
+,,,,,,
+uw_boss_astral,SHIP,"Most ships are modified beyond the base design spec, specializing in a particular role or just squeezing some extra performance out of a hull. On rare occasion, a ship will undergo radical modifications to become a so-called Mod-ship, bearing unique characteristics and heightened capabilities. These Mod-ships often gain reputations unto their own, becoming coveted prizes for the Sector's elite. Above and beyond other Cabal upgrades, the Euphoria is an unstable, tricked-out Astral-class carrier. While this would be noteworthy by itself, the Euphoria's true claim to fame is its ""disco ball"", a one-of-a-kind drone commissioned from the Tri-Tachyon Corporation.",,,,
+uw_boss_cancer,SHIP,">>> Attempting to read target ship schema-
+
+ERROR -32768
+/:///CANNOT PARSE;;`|\\
+<< there is no god >>
+
+EOT",">>> Attempting to read target ship schema-
+
+ERROR -32768
+/:///CANNOT PARSE;;`|\\
+<< there is no god >>
+
+EOT",,,
+uw_boss_corruption,SHIP,">>> Attempting to read target ship schema-
+
+ERROR -4096
+/:///CANNOT PARSE;;`|\\
+<< there is no love >>
+
+EOT",">>> Attempting to read target ship schema-
+
+ERROR -4096
+/:///CANNOT PARSE;;`|\\
+<< there is no love >>
+
+EOT",,,
+uw_boss_cyst,SHIP,">>> Attempting to read target ship schema-
+
+ERROR -1024
+/:///CANNOT PARSE;;`|\\
+<< there is no justice >>
+
+EOT",">>> Attempting to read target ship schema-
+
+ERROR -1024
+/:///CANNOT PARSE;;`|\\
+<< there is no justice >>
+
+EOT",,,
+uw_boss_disease,SHIP,">>> Attempting to read target ship schema-
+
+ERROR -8192
+/:///CANNOT PARSE;;`|\\
+<< there is no death >>
+
+EOT",">>> Attempting to read target ship schema-
+
+ERROR -8192
+/:///CANNOT PARSE;;`|\\
+<< there is no death >>
+
+EOT",,,
+uw_boss_malignancy,SHIP,">>> Attempting to read target ship schema-
+
+ERROR -256
+/:///CANNOT PARSE;;`|\\
+<< there is no end >>
+
+EOT",">>> Attempting to read target ship schema-
+
+ERROR -256
+/:///CANNOT PARSE;;`|\\
+<< there is no end >>
+
+EOT",,,
+uw_boss_metastasis,SHIP,">>> Attempting to read target ship schema-
+
+ERROR -128
+/:///CANNOT PARSE;;`|\\
+<< there is no justice >>
+
+EOT",">>> Attempting to read target ship schema-
+
+ERROR -128
+/:///CANNOT PARSE;;`|\\
+<< there is no justice >>
+
+EOT",,,
+uw_boss_pustule,SHIP,">>> Attempting to read target ship schema-
+
+ERROR -16384
+/:///CANNOT PARSE;;`|\\
+<< there is no life >>
+
+EOT",">>> Attempting to read target ship schema-
+
+ERROR -16384
+/:///CANNOT PARSE;;`|\\
+<< there is no life >>
+
+EOT",,,
+uw_boss_tumor,SHIP,">>> Attempting to read target ship schema-
+
+ERROR -512
+/:///CANNOT PARSE;;`|\\
+<< there is no beginning >>
+
+EOT",">>> Attempting to read target ship schema-
+
+ERROR -512
+/:///CANNOT PARSE;;`|\\
+<< there is no beginning >>
+
+EOT",,,
+uw_boss_ulcer,SHIP,">>> Attempting to read target ship schema-
+
+ERROR -2048
+/:///CANNOT PARSE;;`|\\
+<< there is no honor >>
+
+EOT",">>> Attempting to read target ship schema-
+
+ERROR -2048
+/:///CANNOT PARSE;;`|\\
+<< there is no honor >>
+
+EOT",,,
+uw_boss_wasp,SHIP,"No one is quite sure where the Killer Bee originates from, despite its obvious connection to the Wasp frame. Some speculate that a top-secret Tri-Tachyon research division came up with a design equipped with a heavier beam weapon, only to hand it off to an unscrupulous ""collector"" upon discovering that it would be too expensive to manufacture. Whatever the case may be, the Killer Bee is a dangerous interceptor, capable of overwhelming most targets with a barrage of heavy burst lasers.",,,,
+uw_boss_drone_disco_ball,SHIP_SYSTEM,Deploys a powerful spheroid drone armed with six tachyon lances.,Drone (weapon),Deploys a single powerful drone armed with six tachyon lances.,six tachyon lances,

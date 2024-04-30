@@ -1,0 +1,30 @@
+{
+    "displayName": "Fantasy",
+    "fluxCapacitors": 20,
+    "fluxVents": 4,
+    "goalVariant": true,
+    "hullId": "FM_Witch",
+    "hullMods": [
+        "FantasyTraditionalMod",
+        "FantasySageMod",
+        "missleracks"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Witch_Fantasy",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "FM_Masterspark"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "FM_SkySerpent_M",
+                "WS0004": "FM_SkySerpent_M"
+            }
+        }
+    ]
+}

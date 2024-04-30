@@ -1,0 +1,15 @@
+{
+	"id":"vice_massdeployment",
+	"type":"STAT_MOD",
+	#"aiType":"RESERVE_DEPLOYMENT",
+	"aiType":"CUSTOM",
+	"aiScript":"data.scripts.vice.ai.MassDeploymentAI",
+	
+	"statsScript":"data.scripts.vice.shipsystems.MassDeployment",
+	
+	"useSound":"system_reserve_wing",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}

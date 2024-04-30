@@ -1,0 +1,41 @@
+{
+  "variantId": "kayse_harbinger_NSO_variant",
+  "hullId": "kayse_harbinger_NSO",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 11,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "unstable_injector",
+    "fluxbreakers"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "heavyblaster"
+      }
+    },
+	{
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "ionpulser",
+        "WS 003": "ionpulser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "pdburst",
+        "WS 005": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

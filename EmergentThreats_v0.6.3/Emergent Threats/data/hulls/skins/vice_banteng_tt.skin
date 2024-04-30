@@ -1,0 +1,18 @@
+{
+	"baseHullId":"vice_banteng",
+	"skinHullId":"vice_banteng_tt",
+	"hullName":"Banteng (TT)",
+	"incompatibleWithBaseHull":false,
+	"descriptionId":"vice_banteng",
+	"coversColor":[120,130,120,255],
+	"descriptionPrefix":"This ship has been given Tri-Tachyon markings. Systems modifications are otherwise superficial.",
+	"spriteName":"graphics/vice/ships/banteng_tt.png",
+	"tags":["rare_bp", "tritachyon"],
+	"tech":"Tri-Tachyon",
+	"builtInMods":[],
+    "engineSlotChanges":{
+		"0":{"style":"HIGH_TECH"},
+		"1":{"style":"HIGH_TECH"},
+		"2":{"style":"HIGH_TECH"},
+	},
+}

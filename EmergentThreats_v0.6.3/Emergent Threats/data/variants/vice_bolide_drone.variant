@@ -1,0 +1,15 @@
+{
+    "displayName": "Autonomous",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "hullId": "vice_bolide",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_bolide_drone",
+	"weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {"WS 000": "vice_hmc"}
+    }]
+}

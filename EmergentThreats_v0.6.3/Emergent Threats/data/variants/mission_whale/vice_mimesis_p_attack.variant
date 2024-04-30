@@ -1,0 +1,63 @@
+{
+    "displayName": "Pirate",
+    "fluxCapacitors": 0,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "vice_mimesis_p",
+    "hullMods": [
+        "armoredweapons",
+        "dedicated_targeting_core",
+        "turretgyros",
+        "reinforcedhull",
+        "vice_adaptive_thruster_control"
+    ],
+    "modules": [{"SM 1": "vice_active_flare_module"}],
+    "permaMods": [
+        "armoredweapons",
+        "dedicated_targeting_core"
+    ],
+    "sMods": [
+        "armoredweapons",
+        "dedicated_targeting_core"
+    ],
+    "variantId": "vice_mimesis_p_attack",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "vice_x-ray_pulse",
+                "WS 004": "vice_x-ray_pulse",
+                "WS 009": "breachpod",
+                "WS 010": "breachpod",
+                "WS 011": "breachpod",
+                "WS 012": "breachpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "locust",
+                "WS 008": "locust"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 015": "ionbeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "pdlaser",
+                "WS 002": "pdlaser",
+                "WS 005": "pdburst",
+                "WS 006": "pdburst",
+                "WS 013": "pdlaser",
+                "WS 014": "pdlaser"
+            }
+        }
+    ]
+}

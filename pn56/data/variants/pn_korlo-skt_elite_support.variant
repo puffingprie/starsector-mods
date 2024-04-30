@@ -1,0 +1,41 @@
+{
+  "variantId": "pn_korlo-skt_elite_support",
+  "hullId": "pn_korlo-skt_elite",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pn_skscannon",
+        "WS0002": "pn_skscannon",
+        "WS0003": "pn_skscannon",
+        "WS0004": "pn_skscannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "pn_pexplauncher",
+        "WS0006": "pn_pexplauncher"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "pn_vulcan",
+        "WS0008": "pn_vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

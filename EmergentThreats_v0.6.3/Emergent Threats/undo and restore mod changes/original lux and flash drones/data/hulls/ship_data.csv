@@ -1,0 +1,48 @@
+name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,c/s,c/f,f/s,f/f,crew/s,crew/f,hints,tags,rarity,breakProb,minPieces,maxPieces,travel drive,number
+#Dummy Ships,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Invictus,vice_invictus_base,Dreadnought,Lion's Guard,highenergyfocus,35,40000,2000,30000,,500,240,,35,15,15,4,4,10000,FRONT,,270,1.2,0.8,,,4000,6000,1000,800,20,40,6,700000,3,12,1200,0.25,60,60,,,,,,,"HIDE_IN_CODEX, NEVER_DODGE_MISSILES",no_dealer,,0.2,2,2,,511.1
+Paragon,vice_paragon_base,Battleship,Remnant,vice_massdeployment,30,18000,1500,25000,,1250,370,,30,15,10,5,5,3500,OMNI,,360,0.6,0.6,,,400,1000,300,300,10,30,7,500000,4,20,720,0.25,60,60,,,,,,,HIDE_IN_CODEX,no_dealer,,0.6,2,4,,504.5
+Preceptor,vice_preceptor_base,Escort Carrier,Sindrian Diktat,vice_targetingsweep,10,4500,250,2700,,170,85,2,60,35,15,25,20,400,OMNI,,150,0.4,0.8,,,55,120,250,70,2,35,9,36000,4,8,360,0.25,9,9,,,,,,,HIDE_IN_CODEX,no_dealer,,0.6,2,3,,305
+Unifier,vice_unifier_base,Fight Deck Cruiser,Lion's Guard,maneuveringjets,14,8000,1000,11000,,700,155,2,60,40,30,15,20,1200,FRONT,,270,0.4,0.8,,,150,250,150,100,3,33,8,100000,3,12,480,0.25,20,20,,,,,,,HIDE_IN_CODEX,no_dealer,,0.5,2,3,,401.5
+Venture,vice_venture_base,Cruiser,Pirate,fastmissileracks,10,10000,1250,7000,,300,115,1,40,15,10,12,6,1500,OMNI,,120,0.4,1,,,80,300,600,180,3,60,7,70000,5,10,540,0.25,14,14,,,,,,,HIDE_IN_CODEX,no_dealer,,0.4,2,3,,402
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Dummy EX Ships,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Equalizer,vice_equalizer_base,Battleship,High Tech,vice_capacitors,28,11000,1100,21000,,1150,305,,35,12,18,8,8,2200,OMNI,,180,0.348,0.7,,,300,400,225,200,8,25,7,400000,5,20,720,0.25,55,55,,,,,,,HIDE_IN_CODEX,no_dealer,,0.4,2,2,,351.9
+Flamebreaker,vice_flamebreaker_base,Cruiser,High Tech,vice_capacitors,15,9000,1000,12500,,900,180,,50,20,20,16,16,2000,OMNI,,180,0.4,0.6,,,100,250,200,100,4,25,8,200000,4,16,480,0.25,30,30,,,,,,,HIDE_IN_CODEX,no_dealer,,0.4,2,4,,347.9
+Hyperion,vice_hyperion_base,Advanced Gunship,High Tech,phaseteleporter,15,2500,250,8000,,500,65,,120,175,150,50,100,200,FRONT,,300,0.6,0.6,,,5,15,10,15,1,15,10,95000,8,40,120,0.25,15,15,,,,,,,HIDE_IN_CODEX,no_dealer,0.5,0.75,2,2,,202.9
+Incursion,vice_incursion_base,Battleship,High Tech,microburn,30,17000,1500,22000,,1250,310,,35,30,20,7,10,3500,FRONT,,180,0.48,0.8,,,400,1000,300,300,10,30,7,550000,4,20,720,0.25,55,55,,,,,,,HIDE_IN_CODEX,no_dealer,,0.6,2,4,,509.9
+Iris,vice_iris_base,Destroyer,High Tech,flarelauncher_active,10,2500,350,5500,,300,60,,55,40,40,30,60,250,FRONT,,360,0.4,0.6,,,25,35,30,40,2,20,9,45000,5,15,300,0.15,10,10,,,,,,,HIDE_IN_CODEX,no_dealer,,0.4,2,2,,339.9
+Mandrake,vice_mandrake_base,Destroyer,High Tech,vice_capacitors,9,3000,200,6000,,500,95,,100,80,60,35,60,300,OMNI,,180,0.4,0.8,,,35,50,50,40,2,20,9,55000,5,15,300,0.25,11,11,,,,,,,HIDE_IN_CODEX,no_dealer,,0.6,2,3,,301.9
+Tigershark,vice_tigershark_base,Cruiser,High Tech,plasmajets,17,7000,800,11000,,800,160,,75,55,55,30,30,1500,OMNI,,150,0.5,0.6,,,75,175,150,90,3,30,8,180000,4,20,420,0.25,30,30,,,,,,,HIDE_IN_CODEX,no_dealer,,0.4,2,2,,346.9
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Ships,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Aquilon,vice_aquilon,Battlecruiser,High Tech,vice_spatialcharges,24,10000,1200,17000,,800,250,,60,40,30,7,10,2250,OMNI,,180,0.5,0.6,,,300,450,300,280,8,35,8,300000,4,20,600,0.25,40,40,,,,,,,,"rare_bp, hist3t, merc, ind, tritachyon",,0.4,2,3,,505.1
+Banteng,vice_banteng,Long-haul Freighter,High Tech,flarelauncher_active,7,6000,250,3000,,140,60,,50,20,10,15,10,1800,OMNI,,150,0.5,0.8,,,35,140,800,600,3,200,7,60000,3,20,360,0.25,7,7,114,267,,,,,"CIVILIAN, FREIGHTER","rare_bp, merc, ind, persean",,0.6,2,3,,410.1
+Glycon,vice_glycon,Missile Cruiser,High Tech,vice_micromissile,14,5000,600,7000,,350,130,,50,35,35,20,20,1750,OMNI,,180,1,0.6,,,50,100,120,90,3,30,9,110000,5,15,420,0.25,20,20,,,,,,,ALWAYS_PANIC,"rare_bp, high_tech_package, merc, ind, tritachyon, no_autofit",,0.7,2,3,,413.1
+Hellfire Colossus,vice_hellfire_colossus,Modified Battlecruiser,Pirate,burndrive,20,15000,1500,8000,,350,150,,50,16,10,4,4,4000,FRONT,,180,0.5,1,,,250,300,200,600,10,60,7,150000,2,20,720,0.25,24,24,,,,,,,,"rare_bp, pirate_bp",,0.7,2,4,,502.9
+Jubilant,vice_jubilant,Missile Droneship,Remnant,microburn,15,6000,650,8000,,200,125,,50,35,35,20,20,1750,OMNI,,180,1.2,0.6,,,0,0,120,90,3,30,9,120000,5,15,540,0.25,22,22,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, ALWAYS_PANIC","remnant, auto_rec, no_autofit",,0.5,2,3,,413.2
+Lampetia,vice_lampetia,Drone Mothership,Remnant,displacer,28,10000,1000,15000,,1000,280,2,70,50,40,8,12,2500,OMNI,,180,0.25,1,,,0,0,400,450,8,56,8,500000,4,20,600,0.25,45,45,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, CARRIER, COMBAT, NO_AUTO_ESCORT, SHIP_WITH_MODULES","remnant, auto_rec",,0.6,2,4,,505
+Maquech,vice_maquech,Escort Carrier,High Tech,vice_drone_pd,9,3500,175,2400,,100,45,2,45,25,20,15,7,400,OMNI,,150,0.4,0.8,,,75,120,150,40,2,20,9,35000,5,10,360,0.25,9,9,,,,,,,CARRIER,"rare_bp, high_tech_package, merc, ind, tritachyon",,0.6,2,3,,304.1
+Mimesis (P),vice_mimesis_p,Modified Superfreighter,Pirate,maneuveringjets,21,9000,750,8000,,350,250,,30,8,4,4,2,4000,OMNI,,60,0.5,1,,,250,300,200,400,10,40,7,225000,2,20,720,0.25,24,24,,,,,,,"HIDE_IN_CODEX, COMBAT, SHIP_WITH_MODULES",no_dealer,,0.7,2,4,,502.5
+Mutilator,vice_mutilator,Phase Destroyer,High Tech,vice_phaseovercharge,15,4000,650,5000,,500,65,,100,75,50,30,30,400,PHASE,phasecloak,90,,,0.05,0.04,0,20,60,100,2,50,9,120000,5,30,300,0.25,15,15,,,,,,,HIDE_IN_CODEX,no_dealer,,0.5,2,3,,314
+Odyssey (TT),vice_odyssey_tt,Battlecarrier,Tri-Tachyon,microburn,27,10000,1000,15000,,1000,280,2,70,50,40,8,12,2500,OMNI,,180,0.25,1,,,400,800,400,450,8,56,8,500000,4,20,600,0.25,45,45,,,,,,,"CARRIER, COMBAT, NO_AUTO_ESCORT, SHIP_WITH_MODULES","tritachyon, high_tech_package",,0.6,2,4,,505
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Ship Modules,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,vice_emp_emitter,Emitter,Unknown,emp,0,10,10,5000,,600,0,0,0,0,0,0,0,1,NONE,,0,0,0,,,0,0,0,0,0,0,,0,,0,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","no_autofit, module_unselectable, module_no_status_bar",,0,,,,2060
+,vice_flare_module,Flare Launcher,High Tech,flarelauncher_active,0,10,10,5000,,600,0,0,0,0,0,0,0,1,NONE,,0,0,0,,,0,0,0,0,0,0,,0,,0,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","no_autofit, module_unselectable, module_no_status_bar",,0,,,,2060
+,vice_secondary_drone_bay,Drone Bay,High Tech,drone_strike,0,10,10,5000,,600,0,1,0,0,0,0,0,1,NONE,,0,0,0,,,0,0,0,0,0,0,,0,,0,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","no_autofit, module_unselectable, module_no_status_bar",,0,,,,505
+,vice_terminator_drone_forge,Core,High Tech,drone_strike,0,10,10,5000,,600,0,1,0,0,0,0,0,1,NONE,,0,0,0,,,0,0,0,0,0,0,,0,,0,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","no_autofit, module_unselectable, module_no_status_bar",,0,,,,2060
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Fighters,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Flash,flash,,Remnant,,,400,60,350,,50,0,,170,240,200,40,120,30,OMNI,,160,0,1,,,0,0,,,,,,,,,,,,,,,,,,,,,,0,,,,116
+#Lux,lux,,Remnant,,,400,60,350,,50,0,,400,600,500,150,300,30,OMNI,,160,0,1,,,0,0,,,,,,,,,,,,,,,,,,,,,,0,,,,115
+Helia,vice_helia,,Remnant,,,400,60,400,,50,0,,170,240,200,40,120,50,OMNI,,160,0,1,,,0,0,,,,,,,,,,,,,,,,,,,,,,0,,,,120
+Sundog,vice_sundog,,Remnant,,,450,50,600,,50,0,,160,300,250,60,140,40,OMNI,,160,0,1,,,0,0,,,,,,,,,,,,,,,,,,,,,,0,,,,103
+Gladius (LG),vice_gladius_lg,,Lion's Guard,flarelauncher_fighter,,500,75,200,,50,0,,300,400,300,150,300,40,NONE,,0,0,0,,,2,2,,,,,,,,,,,,,,,,,,,,,,0,,,,109
+Spatha,vice_spatha,,Sindrian Diktat,,,650,85,200,,50,0,,280,400,300,130,300,45,NONE,,0,0,0,,,2,2,,,,,,,,,,,,,,,,,,,,,,0,,,,109.1
+Estoc,vice_estoc,,Sindrian Diktat,,,500,75,500,,100,0,,180,225,200,60,120,40,NONE,,0,0,0,,,2,2,,,,,,,,,,,,,,,,,,,,,,0,,,,113.1
+Kite (LG),vice_kite_lg,,Lion's Guard,,,900,150,1400,,80,0,,140,150,75,45,85,120,OMNI,,150,0.5,0.8,,,4,4,,,,,,,,,,,,,,,,,,,,,,0.75,2,2,,217
+Apotheosis,vice_disruptor_drone,,Starlight Cabal,emp,,750,125,2000,,120,0,,300,400,300,150,300,100,OMNI,,360,0,1,,,0,0,,,,,,,,,,,,,,,,,,,,,,0.5,2,2,,205.1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Station Drones,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Bolide,vice_bolide,Hunter-Killer,Remnant,,,1600,250,3500,,600,20,,250,400,300,60,90,200,OMNI,,270,0,0.6,,,0,0,,,,,,,,,,,,,,,,,,,UNBOARDABLE,no_dealer,,0.4,2,2,,6

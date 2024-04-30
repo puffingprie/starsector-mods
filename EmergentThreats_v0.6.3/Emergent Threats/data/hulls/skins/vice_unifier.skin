@@ -1,0 +1,32 @@
+{
+	"baseHullId":"vice_unifier_base",
+	"skinHullId":"vice_unifier",
+	"descriptionId":"vice_unifier",
+	"hullName":"Unifier",
+	"ordnancePoints":131,
+	"hullDesignation":"Flight Deck Cruiser",
+	#"incompatibleWithBaseHull":true, # for the autofit dialog
+	"descriptionPrefix":"An unusual carrier-cruiser hybrid that was never intended for mass production. The Unifier originally served as a testbed for various fighter based technologies that would be built into the Diktat's new Exhortation-class battlecarrier, but a favorable comment from the Supreme Executor during an inspection tour led to the ship's full inclusion among both Lion's Guard and regular navy forces.",
+	"tags":["LG_bp"],
+	"tech":"Lion's Guard",
+	"builtInWings": ["vice_gladius_lg_wing"],
+	"fighterBays":2,
+	"spriteName":"graphics/vice/ships/unifier.png",
+	"baseValueMult":1,
+	"removeWeaponSlots":[], 			# ids
+	"removeEngineSlots":[], 			# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 			# hullmod ids
+	"removeBuiltInWeapons":[], 			# weapon slot ids
+	#"systemId":"vice_lightofsindria",
+	#"maxSpeed":50,
+	#"shieldEfficiency":0.6,
+	"builtInMods":["vice_converted_carrier", "solar_shielding", "andrada_mods", "vice_fleet_override"],
+	"addHints":["CARRIER", "COMBAT", "NO_AUTO_ESCORT"],
+	removeHints:["HIDE_IN_CODEX"],
+	"builtInWeapons":{
+    },
+    "weaponSlotChanges":{
+	},
+	"engineSlotChanges":{
+	},
+}

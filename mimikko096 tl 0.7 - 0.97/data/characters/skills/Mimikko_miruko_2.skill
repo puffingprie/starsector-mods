@@ -1,0 +1,31 @@
+{
+	"id":"Mimikko_miruko_2",
+	"governingAptitude":"Mimikko_miruko",
+	"compressHullmods":false,
+	"elite":true,
+	"scope":"PILOTED_SHIP",
+	"effectGroups":[
+		{
+			"requiredSkillLevel":1,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"SHIP", "script":"data.scripts.skill.Mimikko_miruko_2$Level1"},
+				{"type":"SHIP", "script":"data.scripts.skill.Mimikko_miruko_2$Level2"},
+				#{"type":"SHIP", "script":"data.scripts.skill.Mimikko_miruko_1$Level3"},
+				#{"type":"SHIP", "script":"data.scripts.skill.Mimikko_miruko_1$Level4"},
+			]
+		},
+		{
+			"name":"Elite",
+			"requiredSkillLevel":2,
+			"effectBasedOnLevel":false,
+			"effects":[
+			{"type":"SHIP", "script":"data.scripts.skill.Mimikko_miruko_2$Level3"},
+			{"type":"SHIP", "script":"data.scripts.skill.Mimikko_miruko_2$Level4"},
+			#{"type":"SHIP", "script":"data.scripts.skill.Mimikko_miruko_1$Level6"},
+			#{"type":"SHIP", "script":"data.scripts.skill.Mimikko_miruko_1$Level7"},
+			]
+		},
+	],
+}
+

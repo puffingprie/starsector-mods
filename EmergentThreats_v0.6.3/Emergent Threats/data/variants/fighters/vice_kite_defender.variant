@@ -1,0 +1,25 @@
+{
+    "displayName": "Fire Support Gunship",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "hullId": "vice_kite_lg",
+	"hullMods":["no_weapon_flux", "solar_shielding", "pointdefenseai"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_kite_defender",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "vice_breach_fighter",
+                "WS 002": "vice_breach_fighter"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "vice_lrburstpd_fighter"}
+        }
+    ]
+}

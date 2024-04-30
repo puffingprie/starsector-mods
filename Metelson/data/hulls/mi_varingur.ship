@@ -1,0 +1,165 @@
+{
+  "hullName": "Varingur",
+  "hullId": "mi_varingur",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/mi_varingur.png",
+  "style": "MIDLINE",
+  "height": 180,
+  "width": 102,
+  "center": [51, 78],
+  "collisionRadius": 151.694595,
+  "shieldCenter": [7.5, -0],
+  "shieldRadius": 117,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0006": "blinker_red",
+    "WS0007": "blinker_green"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": -70,
+      "locations": [77, -22]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": 70,
+      "locations": [77, 22]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 330,
+      "angle": 0,
+      "locations": [39, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 10.388858,
+      "angle": -90,
+      "locations": [27.5, -45]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 10.388858,
+      "angle": 90,
+      "locations": [26.5, 42]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -17, 2.5,
+        -17, 6,
+        -17, -6,
+        -17, -3.5,
+        -17, -0.5
+      ]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 180,
+      "locations": [-37, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-65, -19],
+      "length": 64,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-65, 19],
+      "length": 64,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-66, -29],
+      "length": 40,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-66, 29],
+      "length": 40,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-63.5, 10],
+      "length": 40,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-63.5, -10],
+      "length": 40,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-50.5, -0],
+      "length": 68,
+      "width": 18,
+      "angle": -180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    95, -9.5,
+    96, -23,
+    69, -44,
+    15, -47.5,
+    -23, -35.5,
+    -64, -38.5,
+    -64.5, -20,
+    -49.5, -0,
+    -64.5, 20,
+    -64, 38.5,
+    -23, 35.5,
+    15, 47.5,
+    69, 44,
+    96, 23,
+    95, 9.5,
+    82.5, -0
+  ]
+}

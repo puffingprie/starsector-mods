@@ -1,0 +1,75 @@
+{
+    "displayName": "Experimental",
+    "fluxCapacitors": 1,
+    "fluxVents": 50,
+    "hullId": "vice_resplendent_ex",
+    "hullMods": [
+        "targetingunit",
+        "fluxdistributor",
+        "magazines",
+        "hardenedshieldemitter",
+        "insulatedengine",
+        "stabilizedshieldemitter",
+        "vice_adaptive_gravity_drive"
+    ],
+    "modules": [
+        {"SM 1": "vice_resplendent_drone_forge"},
+        {"SM 2": "vice_resplendent_drone_forge"}
+    ],
+    "permaMods": [
+        "targetingunit",
+        "fluxdistributor"
+    ],
+    "sMods": [
+        "targetingunit",
+        "fluxdistributor"
+    ],
+    "variantId": "vice_resplendent_crewed",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "autopulse",
+                "WS 002": "autopulse",
+                "WS 007": "breachpod",
+                "WS 008": "breachpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "typhoon",
+                "WS 006": "typhoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "pulselaser",
+                "WS 004": "pulselaser",
+                "WS 009": "ioncannon",
+                "WS 012": "ioncannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 010": "pdburst",
+                "WS 011": "pdburst",
+                "WS 013": "pdburst",
+                "WS 014": "pdburst",
+                "WS 015": "pdburst"
+            }
+        }
+    ],
+    "wings": [
+        "vice_sundog_wing",
+        "vice_sundog_wing",
+        "vice_sundog_wing",
+        "vice_sundog_wing"
+    ]
+}

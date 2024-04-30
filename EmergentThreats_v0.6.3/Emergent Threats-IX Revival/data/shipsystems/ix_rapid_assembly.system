@@ -1,0 +1,11 @@
+{
+	"id":"ix_rapid_assembly",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.scripts.ix.ai.RapidAssemblyAI",
+	
+	"statsScript":"data.scripts.ix.shipsystems.RapidAssemblyStats",
+	
+	"useSound":"system_reserve_wing",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

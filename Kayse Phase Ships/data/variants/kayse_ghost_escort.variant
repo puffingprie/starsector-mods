@@ -1,0 +1,38 @@
+{
+  "variantId": "kayse_ghost_escort",
+  "hullId": "kayse_ghost",
+  "displayName": "Escort",
+  "goalVariant": true,
+  "fluxCapacitors": 12,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "salamanderpod",
+        "WS 010": "pdlaser",
+        "WS0001": "salamanderpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "pdburst",
+        "WS 002": "pdburst",
+        "WS 004": "pdburst",
+        "WS 009": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "kayse_poltergeist_wing",
+    "kayse_poltergeist_wing",
+    "kayse_poltergeist_wing"
+  ]
+}

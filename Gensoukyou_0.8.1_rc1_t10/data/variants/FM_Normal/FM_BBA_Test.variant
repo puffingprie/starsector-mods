@@ -1,0 +1,25 @@
+{
+    "displayName": "Test",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "hullId": "FM_BBA",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_BBA_Test",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "FM_BBA_built_in"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FM_Spark_pd",
+                "WS0002": "FM_Spark_pd"
+            }
+        }
+    ]
+}

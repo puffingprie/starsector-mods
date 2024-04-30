@@ -1,0 +1,45 @@
+{
+  "hullName": "P9 Energy Focus",
+  "hullId": "pn_drone_harb",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/pn/ships/Drones/pn_harbdrone.png",
+  "style": "HIGH_TECH",
+  "height": 216,
+  "width": 225,
+  "center": [111, 108.5],
+  "collisionRadius": 16.124516,
+  "shieldCenter": [-93.5, 98.5],
+  "shieldRadius": 15.524175,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0002": "pn_fluxbomb"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-6, -0],
+      "length": 28.71767,
+      "width": 60.524223,
+      "angle": 180,
+      "contrailSize": 60.524223,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    }
+  ],
+  "bounds": [
+    2.5, 4.5,
+    2.5, -4.5,
+    -7, -4.5,
+    -7, 4.5
+  ]
+}

@@ -1,0 +1,23 @@
+{
+	"baseHullId":"scarab",
+	"skinHullId":"scarab_ix",
+	"hullName":"Scarab (IX)",
+	"incompatibleWithBaseHull":true,
+	"descriptionId":"scarab",
+	"coversColor":[120,130,120,255],
+	"descriptionPrefix":"This ship appears at first glance to be a Scarab-class frigate modified by the 9th Domain Battlegroup. However, there are no records of such a ship ever being built, nor of the Immanence Engine onboard being miniaturized to such an extent. Every uncovered detail makes the origins of this ship an even more perplexing mystery.",
+	"fleetPoints":9,
+	"ordnancePoints":58,
+	"baseValueMult":4,
+	"systemId":"ix_immanence_engine",
+	"spriteName":"graphics/ships/ix/easter_egg/scarab_ix.png",
+	"addHints":["HIDE_IN_CODEX"],
+	"tags":[],
+	"tech":"IX Battlegroup",
+	"builtInMods":["ix_ninth", "ix_entropy_arrester", "ix_missile_nanoforge"],
+    "weaponSlotChanges":{
+		"WS 002":{"type": "MISSILE", "arc": 5,},
+		"WS 003":{"type": "MISSILE", "arc": 5,},
+		},
+	},
+}

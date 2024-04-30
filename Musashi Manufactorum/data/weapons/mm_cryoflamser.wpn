@@ -1,0 +1,47 @@
+{
+  "id": "mm_cryoflamser",
+  "specClass": "projectile",
+  "projectileSpecId": "mm_cryoflamser_shot",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "everyFrameEffect": "com.fs.starfarer.api.impl.combat.CryofluxTransducerEffect",
+  "turretSprite": "graphics/mm/weapons/mm_se_cyroflamser_body.png",
+  "turretGlowSprite": "graphics/mm/weapons/mm_se_cyroflamser_glow.png",
+  "turretGunSprite": "graphics/mm/weapons/mm_se_cyroflamser_barrel.png",
+  "turretUnderSprite": "graphics/mm/weapons/mm_se_cyroflamser_base.png",
+  "hardpointSprite": "graphics/mm/weapons/mm_se_cyroflamser_body_hp.png",
+  "hardpointGlowSprite": "graphics/mm/weapons/mm_se_cyroflamser_glow_hp.png",
+  "hardpointGunSprite": "graphics/mm/weapons/mm_se_cyroflamser_barrel_hp.png",
+  "glowColor": [
+    225,
+    10,
+    15,
+    85
+  ],
+  "visualRecoil": 2,
+  "turretOffsets": [
+    7.5,
+    -2.5,
+    7.5,
+    2.5
+  ],
+  "turretAngleOffsets": [
+    -0,
+    0
+  ],
+  "hardpointOffsets": [
+    11.5,
+    2.5,
+    11.5,
+    -2.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    -0
+  ],
+  "fireSoundTwo":"ir_pulse_laser_fire",
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW",
+  "autocharge": true,
+  "mountTypeOverride": "HYBRID",
+}

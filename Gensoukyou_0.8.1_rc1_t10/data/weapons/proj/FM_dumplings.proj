@@ -1,0 +1,51 @@
+{
+	"id":"FM_dumplings",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/weapons/projects/FM_dumplings.png",
+	"size":[32,32],	
+	"center":[16,16],	
+	"collisionRadius":16,
+	#"armingTime":1,
+	"collisionClass":"MISSILE_NO_FF",
+	"flameoutTime":0.1, # total time from flameout to full fadeout
+	"fadeTime":0.1, # fadeout duration
+	"noEngineGlowTime":0.05, # time spent without the engine glow being rendered
+	"explosionColor":[225,207,34,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":40, # purely visual	
+	"engineSpec":{"turnAcc":500,
+				  "turnRate":500,
+				  "acc":500,
+				  "dec":500},
+	"explosionSpec":{"duration":0.1f, # not visual
+					 "radius":40,
+					 "coreRadius":20, # full damage within core radius
+					 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+					 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS,
+					 "particleSizeMin":5.0,
+					 "particleSizeRange":3.0,
+					 "particleDuration":1,
+					 "particleCount":150,
+					 "particleColor":[225,207,34,255]},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-0, 0],
+				    #"style":"MISSILE_HIGH_TECH",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[100,165,255,0],
+						"contrailDuration":1,
+						"contrailWidthMult":1,
+						"contrailWidthAddedFractionAtEnd":2.5,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.5f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailColor":[255,243,102,75],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":7.0,
+				    "length":40.0,
+				    "angle":180.0},
+				    ]
+
+}

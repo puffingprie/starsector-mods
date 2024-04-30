@@ -1,0 +1,58 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 0,
+    "fluxVents": 29,
+    "goalVariant": true,
+    "hullId": "flamebreaker_ix",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "targetingunit",
+        "ix_laser_collimator",
+        "frontemitter",
+        "stabilizedshieldemitter",
+        "ix_point_defense_small",
+        "ix_point_defense_small_handler"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "flamebreaker_ix_attack",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "hil"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "orthrus_s_ix",
+                "WS 010": "orthrus_s_ix",
+                "WS 011": "orthrus_s_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "twin_tactical_laser_ix",
+                "WS 003": "twin_tactical_laser_ix",
+                "WS 004": "twin_tactical_laser_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "taclaser",
+                "WS 008": "taclaser",
+                "WS 012": "taclaser",
+                "WS 013": "taclaser"
+            }
+        }
+    ],
+    "wings": [
+        "axiom_ix_wing",
+        "axiom_ix_wing"
+    ]
+}

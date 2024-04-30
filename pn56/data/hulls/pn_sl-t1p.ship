@@ -1,0 +1,208 @@
+{
+  "hullName": "SL-t1.5p",
+  "hullId": "pn_sl-t1p",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/pn/ships/pn_sl-t1p.png",
+  "style": "HIGH_TECH",
+  "height": 140,
+  "width": 134,
+  "center": [67, 67],
+  "collisionRadius": 82.525757,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 95.102577,
+  "viewOffset": 0,
+  "builtInMods": [
+    "pn_pdaugmenter",
+    "pn_cores"
+  ],
+  "builtInWeapons": {
+    "WS0005": "pn_vulcan",
+    "WS0006": "pn_vulcan",
+    "WS0007": "pn_vulcan",
+    "WS0008": "pn_vulcan",
+    "WS0009": "pn_double-vulcan",
+    "WS0010": "pn_double-vulcan"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 40,
+      "angle": 0,
+      "locations": [58.5, 22.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 40,
+      "angle": -0,
+      "locations": [58.5, -22.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": 0,
+      "locations": [28, 39]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": -0,
+      "locations": [28, -39]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 90,
+      "locations": [-12, 38]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -90,
+      "locations": [-12, -38]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 285,
+      "angle": 145,
+      "locations": [-27.5, 21]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 285,
+      "angle": -145,
+      "locations": [-27.5, -21]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [57.5, -10.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [57.5, 10.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [59.5, -34.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [59.5, 34.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-26, -61],
+      "length": 10.765232,
+      "width": 4.294081,
+      "angle": -135,
+      "contrailSize": 4.294081,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-26, 61],
+      "length": 10.765232,
+      "width": 4.294081,
+      "angle": 135,
+      "contrailSize": 4.294081,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-29, -58.5],
+      "length": 8.766771,
+      "width": 3.54611,
+      "angle": -142.001266,
+      "contrailSize": 3.54611,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-29, 58.5],
+      "length": 8.766771,
+      "width": 3.54611,
+      "angle": 142.001266,
+      "contrailSize": 3.54611,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-19.5, 62.5],
+      "length": 16.247631,
+      "width": 9.058583,
+      "angle": 111.447739,
+      "contrailSize": 9.058583,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    },
+    {
+      "location": [-19.5, -62.5],
+      "length": 16.247631,
+      "width": 9.058583,
+      "angle": -111.447739,
+      "contrailSize": 9.058583,
+      "style": "CUSTOM",
+      "styleId": "pnEngine1"
+    }
+  ],
+  "bounds": [
+    -60.5, 16.5,
+    -47.5, 47,
+    -21, 64.5,
+    36.5, 56.5,
+    67.5, 43.5,
+    60, 7.5,
+    11.5, 5,
+    11.5, -5,
+    60, -7.5,
+    67.5, -43.5,
+    36.5, -56.5,
+    -21, -64.5,
+    -47.5, -47,
+    -60.5, -16.5
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "hullName": "Vaken",
+  "hullId": "mi_vigilance",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/mi_vigilance.png",
+  "style": "MIDLINE",
+  "height": 101,
+  "width": 63,
+  "center": [31, 45],
+  "collisionRadius": 96.032547,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 84.536972,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 60,
+      "locations": [12, 12]
+    },
+    {
+      "id": "WS 002",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [42, -15]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 300,
+      "angle": -100,
+      "locations": [8, -17]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 0.000007,
+      "angle": 90,
+      "locations": [-18.5, -7.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 0.000006,
+      "angle": -90,
+      "locations": [-17.5, -8.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-44, -0],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-44, 9],
+      "length": 32,
+      "width": 12,
+      "angle": 177.709396,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-44, -9],
+      "length": 32,
+      "width": 12,
+      "angle": -176.248276,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    17, 26,
+    42, 8,
+    40, -25,
+    -41, -14,
+    -41, 12
+  ]
+}

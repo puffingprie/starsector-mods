@@ -1,0 +1,37 @@
+name,id,planetary,decivRemove,script,desc,icon,order
+Tri Tachyon Influence,tt_smaller_investment,false,true,data.colonyevents.conditions.TriTachyonInvestmentApplier,"Local authorities have signed agreement with Tri Tachyon officials to support inital economical growth of economy, in exchange of montly income.",graphics/icons/markets/urbanized_polity.png,1000
+AoTD Event Break,fired_event,false,true,data.colonyevents.conditions.BreakFromEventsCondition,,graphics/icons/markets/urbanized_polity.png,1000
+Safety conditions : Good,safety_achieved,false,true,data.colonyevents.conditions.SafetyConditionsApplier,,graphics/icons/markets/urbanized_polity.png,1000
+Safety conditions : Bad,safety_declined,false,true,data.colonyevents.conditions.SafetyConditionsApplier,,graphics/icons/markets/urbanized_polity.png,1000
+cryosanctum_event_organs,cryosanctum_event_organs,false,true,data.colonyevents.conditions.CryoSanctumEventApplier,,graphics/icons/markets/urbanized_polity.png,1000
+cryosanctum_event_growth,cryosanctum_event_growth,false,true,data.colonyevents.conditions.CryoSanctumEventApplier,,graphics/icons/markets/urbanized_polity.png,1000
+bakery_fleet,aotd_bakery_assistance,false,true,data.colonyevents.conditions.BakeryEventApplier,,graphics/icons/markets/urbanized_polity.png,1000
+aotd_own_bakery,aotd_own_bakery,false,true,data.colonyevents.conditions.BakeryEventApplier,,graphics/icons/markets/urbanized_polity.png,1000
+mikoshi_consequence,mikoshi_consequence,false,false,data.colonyevents.conditions.MikoshiUsageApplier,,graphics/icons/markets/urbanized_polity.png,1000
+crest_of_phoenix,crest_of_phoenix,false,true,data.colonyevents.conditions.CrestOfPhoenixApplier,,graphics/icons/markets/urbanized_polity.png,1000
+hive_defence,hive_defence,false,true,data.colonyevents.conditions.UndergroundHiveApplier,,graphics/icons/markets/urbanized_polity.png,1000
+hive_food,hive_food,false,true,data.colonyevents.conditions.UndergroundHiveApplier,,graphics/icons/markets/urbanized_polity.png,1000
+tectonic_destabilization,tectonic_destabilization,false,true,data.colonyevents.conditions.TectonicDisasterEventApplier,,graphics/icons/markets/urbanized_polity.png,1000
+food_experiment_flowers,food_experiment_flowers,false,true,data.colonyevents.conditions.FoodExperimentEventApplier,,graphics/icons/markets/urbanized_polity.png,1000
+food_experiment_tree,food_experiment_tree,false,true,data.colonyevents.conditions.FoodExperimentEventApplier,,graphics/icons/markets/urbanized_polity.png,1000
+food_experiment_potato,food_experiment_potato,false,true,data.colonyevents.conditions.FoodExperimentEventApplier,,graphics/icons/markets/urbanized_polity.png,1000
+harvest_of_year,harvest_of_year,false,true,data.colonyevents.conditions.HarvestOfTheYearApplier,,graphics/icons/markets/urbanized_polity.png,1000
+Rampant Crime,crime_syndicate_beginning,false,true,data.colonyevents.conditions.CrimeSyndicateApplier,"Entire planet has entered into chaos and dissaray, unfortunaetly a lot of crime organizations saw this as opportunity to establish a crime syndicate. This syndicate is not a therat... at least yet.",graphics/icons/markets/recent_unrest.png,1000
+Deal with the Devil,crime_syndicate_resolve_deal,false,true,data.colonyevents.conditions.CrimeSyndicateApplier,"We made a deal with crime lord, we allowed them to operate, in return for peace on this planet",graphics/icons/markets/urbanized_polity.png,1000
+Martial Law,crime_syndicate_resolve_violence,false,true,data.colonyevents.conditions.CrimeSyndicateApplier,We won't make a deals with someone who descend so low in society. We will purge this disease from this planet,graphics/icons/markets/mercenaries.png,1000
+Stronghold of Justice,crime_syndicate_stabilize,false,true,data.colonyevents.conditions.CrimeSyndicateApplier,"We have quickly stabilized our market, which enabled us to eliminate crime organizations across planet. ",graphics/icons/markets/underground_arcology.png,1000
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,

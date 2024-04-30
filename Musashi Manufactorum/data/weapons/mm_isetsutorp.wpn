@@ -1,0 +1,51 @@
+{
+  "id": "mm_isetsutorp",
+  "specClass": "projectile",
+  "projectileSpecId": "mm_isetsutorp_shot",
+  "type": "MISSILE",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/mm/weapons/mm_isetsu_torpbay.png",
+  "hardpointSprite": "graphics/mm/weapons/mm_isetsu_torpbay.png",
+  "renderHints": [
+  ],
+  "turretOffsets": [
+    20,
+    14,
+    20,
+    -14
+  ],
+  "turretAngleOffsets": [
+    1,
+    -1
+  ],
+  "hardpointOffsets": [
+    33,
+    14,
+    33,
+    -14
+  ],
+  "hardpointAngleOffsets": [
+    1,
+    -1
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 12,
+    "particleSizeRange": 12,
+    "cloudParticleCount": 6,
+    "cloudDuration": 1.5,
+    "cloudRadius": 10,
+    "blowbackParticleCount": 4,
+    "blowbackDuration": 2,
+    "blowbackLength": 22,
+    "blowbackSpread": 15,
+    "particleColor": [
+      125,
+      75,
+      25,
+      105
+    ]
+  },
+  "fireSoundTwo": "atropos_fire"
+}

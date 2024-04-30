@@ -1,0 +1,58 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 18,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "incursion_ix",
+    "hullMods": [
+        "extendedshieldemitter",
+        "fluxdistributor",
+        "targetingunit",
+        "ix_reactive_combat_shields",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "incursion_ix_strike",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS CB1": "cutting_beam_ix",
+                "WS CB2": "cutting_beam_ix",
+                "WS DEM": "sbe_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "orthrus_m_ix",
+                "WS 006": "orthrus_m_ix",
+                "WS 007": "orthrus_m_ix",
+                "WS 008": "orthrus_m_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 016": "conversion_lance_ix",
+                "WS 017": "thundermark_ix",
+                "WS 018": "thundermark_ix"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "lightbringer_ciws_ix",
+                "WS 004": "lightbringer_ciws_ix",
+                "WS 009": "lightbringer_ciws_ix",
+                "WS 014": "morningstar_ciws_ix",
+                "WS 015": "morningstar_ciws_ix"
+            }
+        }
+    ]
+}

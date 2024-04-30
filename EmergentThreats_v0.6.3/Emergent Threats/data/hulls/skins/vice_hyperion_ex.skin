@@ -1,0 +1,10 @@
+{
+	"baseHullId":"vice_hyperion_base",
+	"skinHullId":"vice_hyperion_ex",
+	"hullName":"Hyperion (EX)",
+	"descriptionId":"vice_ex_all",
+	"descriptionPrefix":"An exceedingly rare high-tech prototype of the Hyperion. Although its systems are largely unchanged from the production model, the weapons loadout bears remarkable differences, with the central hardpoint being able to mount a capital grade energy weapon. As a prime example of Domain engineering, such feats are all but impossible to safely recreate in the current day.",
+	"tags":["rare_bp", "hist3t", "merc", "ind", "tritachyon", "vice_ex_bp"],
+	"removeHints":["HIDE_IN_CODEX"],
+	"builtInMods":["vice_experimental_hull"],
+}

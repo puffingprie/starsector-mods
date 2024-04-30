@@ -1,0 +1,212 @@
+{
+  "bounds": [
+    -51.5,
+    17,
+    -42,
+    50.5,
+    -23,
+    61,
+    12,
+    49.5,
+    35,
+    37,
+    62.5,
+    12.5,
+    62.5,
+    -12.5,
+    35,
+    -37,
+    12,
+    -49.5,
+    -23,
+    -61,
+    -42,
+    -50.5,
+    -51.5,
+    -17
+  ],
+  "builtInMods": [
+    "pn_cores"
+  ],
+  "builtInWeapons": {
+    "WS0004": "pn_sikeglow"
+  },
+  "center": [
+    59,
+    49.5
+  ],
+  "collisionRadius": 77.150825,
+  "engineSlots": [
+    {
+      "angle": -140.906143,
+      "contrailSize": 22.911297,
+      "length": 3.165141,
+      "location": [
+        -41.5,
+        -28.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "sikeEngine",
+      "width": 22.911297
+    },
+    {
+      "angle": 140.906143,
+      "contrailSize": 22.911297,
+      "length": 3.165141,
+      "location": [
+        -41.5,
+        28.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "sikeEngine",
+      "width": 22.911297
+    },
+    {
+      "angle": -119.16761,
+      "contrailSize": 10.784032,
+      "length": 1.85099,
+      "location": [
+        -29.5,
+        -50
+      ],
+      "style": "CUSTOM",
+      "styleId": "sikeEngine",
+      "width": 10.784032
+    },
+    {
+      "angle": 121.701431,
+      "contrailSize": 10.784032,
+      "length": 1.85099,
+      "location": [
+        -29.5,
+        50
+      ],
+      "style": "CUSTOM",
+      "styleId": "sikeEngine",
+      "width": 10.784032
+    },
+    {
+      "angle": -92.935677,
+      "contrailSize": 22.911297,
+      "length": 3.165141,
+      "location": [
+        -5.5,
+        -49
+      ],
+      "style": "CUSTOM",
+      "styleId": "sikeEngine",
+      "width": 22.911297
+    },
+    {
+      "angle": 92.935677,
+      "contrailSize": 22.911297,
+      "length": 3.165141,
+      "location": [
+        -5.5,
+        49
+      ],
+      "style": "CUSTOM",
+      "styleId": "sikeEngine",
+      "width": 22.911297
+    },
+    {
+      "angle": -16.858398,
+      "contrailSize": 22.911297,
+      "length": 3.165141,
+      "location": [
+        46,
+        -20.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "sikeEngine",
+      "width": 22.911297
+    },
+    {
+      "angle": 16.858398,
+      "contrailSize": 22.911297,
+      "length": 3.165141,
+      "location": [
+        46,
+        20.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "sikeEngine",
+      "width": 22.911297
+    },
+    {
+      "angle": 0.622756,
+      "contrailSize": 10.784032,
+      "length": 1.85099,
+      "location": [
+        56.5,
+        -0
+      ],
+      "style": "CUSTOM",
+      "styleId": "sikeEngine",
+      "width": 10.784032
+    }
+  ],
+  "height": 114,
+  "hullId": "pn_sike",
+  "hullName": "Sike",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 73.027389,
+  "spriteName": "graphics/pn/ships/pn_sike.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": -120,
+      "arc": 270,
+      "id": "WS0001",
+      "locations": [
+        -18.5,
+        -31
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 120,
+      "arc": 270,
+      "id": "WS0002",
+      "locations": [
+        -18.5,
+        31
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 270,
+      "id": "WS0003",
+      "locations": [
+        34.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        -13,
+        0.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 119
+}

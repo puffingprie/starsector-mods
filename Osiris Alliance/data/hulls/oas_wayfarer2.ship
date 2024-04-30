@@ -1,0 +1,96 @@
+{
+  "hullName": "Wombat",
+  "hullId": "oas_wayfarer2",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/oas/ships/oas_lilcarrie.png",
+  "style": "MIDLINE",
+  "height": 112,
+  "width": 88,
+  "center": [44, 58],
+  "collisionRadius": 85,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 77,
+  "viewOffset": 0,
+  "builtInMods": [
+    "rugged"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        24, 13,
+        24, -13,
+        24, -0
+      ]
+    },
+    {
+      "id": "WS 006",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 180,
+      "locations": [-46, 0]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-4, 24]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 0,
+      "locations": [4, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [46, -28]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-58, -12],
+      "length": 36.5,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "OAS"
+    },
+    {
+      "location": [-58, 12],
+      "length": 36.5,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "OAS"
+    }
+  ],
+  "bounds": [
+    49.5, 17,
+    31, 35.5,
+    -8.5, 41.5,
+    -53.5, 18.5,
+    -53.5, -18.5,
+    -8.5, -41.5,
+    31, -35.5,
+    49.5, -17
+  ]
+}

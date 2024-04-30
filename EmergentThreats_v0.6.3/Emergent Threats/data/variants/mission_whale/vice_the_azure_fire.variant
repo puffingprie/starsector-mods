@@ -1,0 +1,64 @@
+{
+    "displayName": "Evolving",
+    "fluxCapacitors": 7,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "vice_mimesis",
+    "hullMods": [
+        "autorepair",
+        "dedicated_targeting_core",
+        "advancedoptics",
+        "hardenedshieldemitter",
+        "vice_adaptive_drone_bay"
+    ],
+    "permaMods": [
+        "autorepair",
+        "dedicated_targeting_core"
+    ],
+    "sMods": [
+        "autorepair",
+        "dedicated_targeting_core"
+    ],
+    "variantId": "vice_the_azure_fire",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "tachyonlance",
+                "WS 004": "tachyonlance",
+                "WS 009": "breachpod",
+                "WS 010": "breachpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "squall",
+                "WS 008": "squall"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "taclaser",
+                "WS 006": "taclaser",
+                "WS 015": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "pdlaser",
+                "WS 002": "pdlaser",
+                "WS 013": "pdlaser",
+                "WS 014": "pdlaser"
+            }
+        }
+    ],
+	"modules": [{"SM 1": "vice_emp_module"}],
+    "wings": []
+}

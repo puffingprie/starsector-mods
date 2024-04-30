@@ -1,0 +1,43 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 2,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "flourish_stock",
+    "hullMods": ["missleracks"],
+    "modules": [{"WS 010": "flourish_undershield"}],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "flourish_cs",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "lightneedler",
+                "WS 003": "lightneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "atropos",
+                "WS 004": "atropos"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "ioncannon",
+                "WS 006": "ioncannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 007": "pdburst"}
+        }
+    ]
+}

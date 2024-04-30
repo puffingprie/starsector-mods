@@ -1,0 +1,19 @@
+{
+	"id":"FM_WindOfGensokyo_skill",
+	"governingAptitude":"FM_SkillAptitude",
+	"compressHullmods":false,
+	#"scope":ALL_CARRIERS,
+	"scope":CUSTOM,
+	"scopeStr":"All Cruisers & Capital Ships",
+	#"scopeStr":"all ships with non-built-in fighter bays",
+	"effectGroups":[
+		{
+			"requiredSkillLevel":1,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"ALL_SHIPS_IN_FLEET", "script":"data.campaign.skills.FM_WindOfGensokyo_skill$Level1"},
+				
+			]
+		},
+	],
+}

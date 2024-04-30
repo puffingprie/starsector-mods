@@ -1,0 +1,29 @@
+{
+  "id": "vice_deadeye_plasma",
+  "specClass": "projectile",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "turretSprite": "graphics/vice/weapons/deadeye_plasma_turret_base.png",
+  "turretGlowSprite":"graphics/vice/weapons/deadeye_plasma_turret_glow.png",
+  "hardpointSprite": "graphics/vice/weapons/deadeye_plasma_hardpoint_base.png",
+  "hardpointGlowSprite":"graphics/vice/weapons/deadeye_plasma_hardpoint_glow.png",
+  "glowColor": [255,20,0,255],
+  "turretOffsets": [22, -4, 19, 0, 22, 4],
+  "turretAngleOffsets": [0, 0, 0],
+  "hardpointOffsets": [25, -4, 22, 0, 25, 4],
+  "hardpointAngleOffsets": [0, 0, 0],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 20,
+    "spread": 10,
+    "particleSizeMin": 15,
+    "particleSizeRange": 15,
+    "particleDuration": 0.3,
+    "particleCount": 30,
+    "particleColor": [255,20,0,255]
+  },
+  "projectileSpecId": "vice_deadeye_plasma_shot",
+  "fireSoundTwo": "vice_deadeye_plasma_fire"
+}

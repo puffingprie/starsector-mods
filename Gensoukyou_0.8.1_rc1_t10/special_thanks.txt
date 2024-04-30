@@ -1,0 +1,55 @@
+List of individuals who have played a significant role in the improvement and development of this 
+
+Original Works:
+Team Shanghai Alice
+
+Spritings：
+Forever Seventeen(Ykaris)
+Shadow Light (影之光)
+lili
+Arctic Giant Seal (北冰洋大海豹)
+AnyIDElse
+mimeio(魅魔跳跳乐)
+LittleMercy
+
+Codings：
+AnyIDElse
+A111164
+ZeroXenon
+ShioZakana
+Nitori_Tachyon
+
+Data and Balancing：
+AnyIDElse
+scythe
+FAX
+
+Feedback and Bug Testing：
+AnyIDElse
+Illusionary Sound, Not Illusion (幻音不是幻影)
+Rosta_Atena
+Himemi
+Lao Yue (老越)
+CrocLava
+Various feedback in https://www.fossic.org/thread-2405-1-1.html and https://fractalsoftworks.com/forum/index.php?topic=24580.msg364859#msg364859 的各类反馈
+
+Music and Sound Effects：
+Shadow Light(影之光)
+ShioZakana
+
+Translation and Localization：
+Himemi and mycophobia (Main Translator)
+mycophobia (Main Translator & Editor)
+
+Design Concept：
+AnyIDElse
+Forever Seventeen(Ykaris)
+thbwiki：https://thwiki.cc/%E9%A6%96%E9%A1%B5
+
+Thanks to all other members of the Fossic mod development group, the Seafood group, the Pathers Communion group, for their efforts and suggestions in perfecting the mod.
+
+Special thanks to Originem for the instructional mod CMC, providing a wealth of references and basic guidance.
+
+Thanks to the modders of the olders mods for providing a convenient plethora of methods.
+
+Finally, thanks to the SS community; without their assistance, this mod would have been difficult to sustain and improve.

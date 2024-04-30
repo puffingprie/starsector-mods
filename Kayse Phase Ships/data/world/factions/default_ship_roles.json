@@ -1,0 +1,66 @@
+{
+	
+	"combatSmall":{
+		#Have to add at least one phase ship to each combat pool due to Nexerelin random start (and maybe base game?)
+		#checking the combat Pool and getting confused if there are none.
+		"kayse_grim_variant":1,
+		"kayse_grime_variant":1,
+		#"fallback":{"phaseSmall":1},
+	},
+	
+	"combatMedium":{
+		"kayse_dullahan_variant":1,
+		"kayse_harbinger_NSO_variant":1,
+		#"harbinger_Strike":1,
+		#"fallback":{"phaseMedium":1},
+	},
+	
+	"combatLarge":{
+		"kayse_banshee_variant":1,
+		"kayse_deathknight_beam":1,
+		#"fallback":{"phaseLarge":1},
+	},
+	
+	"combatCapital":{
+		"kayse_azrael_elite":1,
+		#"fallback":{"phaseCapital":1},
+	},
+	
+	# carriers
+	"carrierSmall":{
+		"kayse_haunt_escort":5,
+		"kayse_necromancer_support":2
+	},
+	"carrierMedium":{
+		"kayse_ghost_escort":3,
+		"kayse_ghost_strike":2,
+	},
+
+	# phase ships
+	"phaseSmall":{
+		"kayse_grim_variant":10,
+		"kayse_grime_variant":5,
+		"kayse_ghoul_variant":5,
+	},
+	"phaseMedium":{
+		"kayse_dullahan_variant":2,
+		"kayse_harbinger_NSO_variant":5,
+	},
+	"phaseLarge":{
+		"kayse_banshee_variant":10,
+		"kayse_deathknight_beam":10,
+	},
+	"phaseCapital":{
+		"kayse_azrael_elite":5,
+	},
+
+	# freighters and such
+	"freighterSmall":{
+		"kayse_wight_variant":2,
+	},
+	
+	"tankerSmall":{
+		"kayse_pyre_variant":3,
+	},
+	
+}

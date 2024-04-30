@@ -1,0 +1,193 @@
+{
+    "name": "Momona",
+    "personalities": ["steady", "aggressive", "reckless","cautious"],
+    "gender": ["m","f","n"],
+    "chance": 0,
+    "talkativeness": 0.65,
+    "categoryTags": [
+        "othermedia",
+    ],
+    "lines": {
+        "start": [                                            #开始？
+            {
+                "text": "Fighting with the Captain, is the captain happy? Hmph, being unhappy is not allowed!",
+            },
+            {
+                "text": "Captain, who is momona's target?",
+            },
+            {
+                "text": "After this battle, Captain needs to properly reward Momona.",
+            },
+            {
+                "text": "Heheh, Captain is so cool......ah, did the battle start?",
+            },
+        ],
+        "start_boss": [                                    #打boss
+            {
+                "text": "What a weird ship",
+            },
+            {
+                "text": "I wonder what is it like to pilot a ship like that?",
+            },
+        ],
+        "retreat": [                                            #撤退
+            {
+                "text": "Keep it up, captain, Momona will support you from the rear.",
+            },
+        ],
+        "out_of_missiles": [                                #用完导弹
+            {
+                "text": "Eh, no more missiles!",
+            },
+            {
+                "text": "Can I borrow some missile from the Captain's ship?",
+            },
+            {
+                "text": "Momona has ran out of missiles, you gotta pay for the new ones, Captain.",
+            },
+        ],
+        "engaged": [                                     #舰船部署
+            {
+                "text": "Momona is coming to help you, Captain!",
+            },
+            {
+                "text": "Captain and I are undefeated!",
+            },
+            {
+                "text": "Captain, who is momona's target?",
+            },
+            {
+                "text": "After this battle, Captain needs to properly reward Momona.",
+            },
+            {
+                "text": "Heheh, Captain is so cool......ah, did the battle start?",
+            },
+            {
+                "text": "Keep it up, Captain, Momona will always be by your side.",
+            },
+        ],
+        "need_help": [                                         #需要帮助
+            {
+                "text": "Captain, come help Momona!",
+            },
+            {
+                "text": "Momona can't hold on, Captain!",
+            },
+            {
+                "text": "Captain will spoil Momona, right? Right?",
+            },
+            {
+                "text": "Cap~tain~",
+            },
+            {
+                "text": "(Shy) If possible, I hope Captain can only look at me",
+            },
+        ],
+        "pursuing": [                                               #发动进攻
+            {
+                "text": "Momona is going!",
+            },
+            {
+                "text": "Watch Momona's performance!",
+            },
+            {
+                "text": "Chargeee!",
+            },
+            {
+                "text": "Let Momona check the piloting manual first.......hmm, full speed ahead!",
+            },
+            {
+                "text": "I won't let you hurt the Captain!",
+            },
+        ],
+        "running": [                                        #后撤
+            {
+                "text": "It's so hot inside a ship, Momona will find a cool spot.",
+            },
+            {
+                "text": "Back up a bit, let's back up next to the Captain!",
+            },
+            {
+                "text": "Retreat to the back, Momona want to see the Captain being awesome.",
+            },
+        ],
+        "hull_90": [                                     #90%生命值
+            {
+                "text": "That's the new ship Captain gave to Momon!",
+            },
+            {
+                "text": "You broke the Captain's gift to Momona!",
+            },
+            {
+                "text": "Hold on, the ship the Captain gave Momona is definately the safest!",
+            },
+        ],
+        "hull_50": [
+            {
+                "text": "Ehhh, what does the book say about what to do in this situation.。",
+            },
+            {
+                "text": "Hold on, Captain still need Momona's help",
+            },
+            {
+                "text": "Momona needs the Captain's help!",
+            },
+        ],
+        "hull_30": [
+            {
+                "text": "When this battle is over, Captain and I -- Staic ",
+            },
+            {
+                "text": "The screen is flashing, what to do!",
+            },
+            {
+                "text": "Momona is getting angry!",
+            },
+        ],
+        "overload": [                					#过载
+            {
+                "text": "Ehhhhhh, I can't open the shield!",
+            },
+            {
+                "text": "Let Momona have a look, Overload?",
+            },
+            {
+                "text": "Overload is so annoying.",
+            },
+            {
+                "text": "Overloaded! Momona sees missile flying over!",
+            },
+        ],
+        "death": [							#沉船
+            {
+                "text": "Captain! Momona can't, keep you company! Ah.......eh, my acting is fake?",
+            },
+            {
+                "text": "Mumumu......",
+            },
+            {
+                "text": "If the Captain is beside me at times like this......",
+            },
+            {
+                "text": "Escape pod target, next to the Captain.",
+            },
+        ],
+        "victory": [							#胜利
+            {
+                "text": "Captain still have things to do",
+            },
+            {
+                "text": "Captain, is Momona cute?",
+            },
+            {
+                "text": "Captain Captain! Momona likes the captain the mooooooooost~!",
+            },
+            {
+                "text": "Is the Captain tired, do you need Momona to give you a massage?",
+            },
+            {
+                "text": "The Captain isn't just Momona's family, but also the most important person to Momona!",
+            },
+        ],
+    },
+}

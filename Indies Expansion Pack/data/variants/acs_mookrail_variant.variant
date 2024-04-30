@@ -1,0 +1,24 @@
+{
+  "variantId": "acs_mookrail_variant",
+  "hullId": "acs_mookrail",
+  "displayName": "Escort Drone",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "acs_minilag",
+        "WS0002": "swarmer",
+        "WS0003": "acs_backupmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

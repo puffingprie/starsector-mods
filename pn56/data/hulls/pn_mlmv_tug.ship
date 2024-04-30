@@ -1,0 +1,104 @@
+{
+  "bounds": [
+    -5,
+    20,
+    25.5,
+    14.5,
+    25,
+    -10.5,
+    0,
+    -17.5,
+    -28,
+    -15.5,
+    -29,
+    1.5,
+    -22.5,
+    22.5
+  ],
+  "builtInMods": [
+    "tow_cable",
+    "pn_cores"
+  ],
+  "center": [
+    23,
+    29.5
+  ],
+  "collisionRadius": 36.359318,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 19,
+      "location": [
+        -25.5,
+        -13.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 6
+    },
+    {
+      "angle": 180,
+      "contrailSize": 11,
+      "length": 21,
+      "location": [
+        -26.5,
+        3
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 11
+    },
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 16.5,
+      "location": [
+        -27.5,
+        -6.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 4
+    },
+    {
+      "angle": 180,
+      "contrailSize": 7,
+      "length": 22,
+      "location": [
+        -22.5,
+        16
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 7
+    }
+  ],
+  "height": 57,
+  "hullId": "pn_mlmv_tug",
+  "hullName": "MLMV Tug",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 35.25975,
+  "spriteName": "graphics/pn/ships/pn_mlmv-tug.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 220,
+      "id": "WS0001",
+      "locations": [
+        19.5,
+        8
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    }
+  ],
+  "width": 41
+}

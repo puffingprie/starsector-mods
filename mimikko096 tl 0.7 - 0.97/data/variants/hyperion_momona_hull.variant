@@ -1,0 +1,16 @@
+{
+    "displayName": "Hull",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "hyperion_momona",
+    "hullMods": [
+
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "hyperion_momona_hull",
+    "weaponGroups": [
+       
+    ],
+}

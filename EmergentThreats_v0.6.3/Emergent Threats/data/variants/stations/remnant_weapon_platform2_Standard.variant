@@ -1,0 +1,33 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "hullId": "vice_station_weapon_platform2",
+    "hullMods": ["vice_adaptive_neural_net"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "remnant_weapon_platform2_Standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "autopulse"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "pdburst",
+                "WS 007": "pdburst"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "ionpulser",
+                "WS 004": "ionpulser"
+            }
+        }
+    ]
+}

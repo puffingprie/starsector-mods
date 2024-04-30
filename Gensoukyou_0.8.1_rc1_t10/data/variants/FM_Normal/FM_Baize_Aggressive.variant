@@ -1,0 +1,25 @@
+{
+    "displayName": "Aggressive",
+    "fluxCapacitors": 5,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "FM_Baize",
+    "hullMods": [
+        "militarized_subsystems",
+        "heavyarmor"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Baize_Aggressive",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0001": "FM_Spark_pd",
+            "WS0002": "FM_Spark_pd",
+            "WS0003": "FM_Spark_pd",
+            "WS0004": "FM_Spark_pd"
+        }
+    }],
+    "wings": ["FM_Fairy_bomb_wing"]
+}

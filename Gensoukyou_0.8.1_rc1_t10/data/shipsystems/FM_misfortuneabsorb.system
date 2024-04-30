@@ -1,0 +1,28 @@
+{
+	"id":"FM_misfortuneabsorb",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.ai.FM_misfortuneabsorb_ai",
+	"statsScript":"data.shipsystems.FM_misfortuneabsorb",
+	"range":800,
+	"jitterUnderColor":[219,30,9,155],
+	"jitterUnderCopies":25,
+	"jitterUnderMinRange":0,
+	"jitterUnderRange":7,
+	"jitterUnderRangeRadiusFraction":0,
+
+	"jitterColor":[219,30,9,55],
+	"jitterCopies":2,
+	"jitterMinRange":0,
+	"jitterRange":5,
+	"jitterRangeRadiusFraction":0,
+
+	"runScriptWhileIdle":false, # unapply() never gets called
+
+
+
+	"useSound":"shield_raise",
+	"loopSound":"beam_heavy_loop",
+	"deactivateSound":"shield_lower",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

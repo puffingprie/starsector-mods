@@ -1,0 +1,22 @@
+{
+	"displayName":"Heavy Fighter",
+	"hullId":"vice_spatha",
+	"variantId":"vice_spatha_fighter",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"hullMods":["no_weapon_flux"], # array of strings
+	"weaponGroups":[
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS 001":"vice_breach_fighter_single",		#vice_pilum_fighter
+		 			"WS 002":"vice_breach_fighter_single",
+		 		   },
+		},
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS 003":"irpulse_fighter",
+					"WS 004":"irpulse_fighter",
+		 		   },
+		},
+	],
+}

@@ -1,0 +1,5 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,icon
+Acutor Drones,drone_acutor,,,,,,,,15,0.05,,,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
+Collier Drones,drone_collier,,,,,,,,5,0.0253,,,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
+Rostor Field,rostor,50,,,175,,,,2,0.005,0.15,5,0.1,10,,,,,,,TRUE,,TRUE,,graphics/icons/hullsys/damper_field.png
+Heavy Rostor Field,heavyrostor,125,,,300,,,,4,0.005,0.15,8,0.1,20,,,,,,,TRUE,,TRUE,,graphics/icons/hullsys/damper_field.png

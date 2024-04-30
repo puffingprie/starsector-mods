@@ -1,0 +1,20 @@
+{
+	"id":"FM_cursedpd",
+	"type":"STAT_MOD",
+	"aiType":"ENTROPY_AMPLIFIER",
+	"range":2000,
+	"statsScript":"data.shipsystems.FM_cursedpd",
+
+	#"runScriptWhilePaused":true, # only for the player's ship
+	"runScriptWhileIdle":true, # unapply() never gets called
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_entropy",
+	"loopSound":"system_entropy_loop",
+	"deactivateSound":"system_entropy_off",
+	"outOfUsesSound":"gun_out_of_ammo",
+
+	"aiHints":{
+		"range":2000
+	}
+}

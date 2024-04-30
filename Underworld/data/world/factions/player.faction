@@ -1,0 +1,9 @@
+{
+    "portraits":{
+        "standard_male":[
+            "graphics/uw/portraits/uw_dickerson_extended_family.png",
+            "graphics/uw/portraits/uw_in_this_moment_i_am_euphoric.png",
+            "graphics/portraits/characters/volta.png",
+        ],
+    },
+}

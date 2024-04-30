@@ -1,0 +1,105 @@
+{
+  "bounds": [
+    -48,
+    5.5,
+    -36,
+    29.5,
+    20,
+    42.5,
+    34,
+    11.5,
+    34,
+    -11.5,
+    20,
+    -42.5,
+    -36,
+    -29.5,
+    -48,
+    -5.5
+  ],
+  "builtInMods": [
+    "pn_cores"
+  ],
+  "center": [
+    41,
+    48
+  ],
+  "collisionRadius": 60.074955,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -46.5,
+        -0.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 24.5,
+      "location": [
+        -35,
+        -23.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 6
+    },
+    {
+      "angle": -180,
+      "contrailSize": 6,
+      "length": 24.5,
+      "location": [
+        -35,
+        23.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "pnEngine1",
+      "width": 6
+    }
+  ],
+  "height": 86,
+  "hullId": "pn_rs",
+  "hullName": "RS",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 58.860004,
+  "spriteName": "graphics/pn/ships/pn_rs.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 120.510239,
+      "id": "WS0001",
+      "locations": [
+        -1,
+        13.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -0,
+      "arc": 120.510239,
+      "id": "WS0002",
+      "locations": [
+        -1,
+        -13.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    }
+  ],
+  "width": 82
+}

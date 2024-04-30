@@ -1,0 +1,105 @@
+{
+  "hullName": "Explorantores",
+  "hullId": "acs_explorantores",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/acs_explorantores.png",
+  "style": "LOW_TECH",
+  "height": 153,
+  "width": 89,
+  "center": [44.5, 76.5],
+  "collisionRadius": 192.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 130,
+  "viewOffset": 0,
+  "builtInMods": [
+    "acs_drifterlogistic",
+    "repair_gantry",
+    "rugged"
+  ],
+  "builtInWings": [
+    "acs_borer_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 229,
+      "angle": 0,
+      "locations": [60.5, 15.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [4.5, 1.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 228,
+      "angle": 180,
+      "locations": [-18.5, -7.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 34,
+      "angle": 0,
+      "locations": [61.5, -26.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        22.5, -21.5,
+        27, -21
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-73.5, -2.5],
+      "length": 91.520409,
+      "width": 26.628189,
+      "angle": 180,
+      "contrailSize": 26.628189,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-42.5, 33],
+      "length": 32.479755,
+      "width": 13.757248,
+      "angle": 135,
+      "contrailSize": 13.757248,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-42.5, -37],
+      "length": 32.479755,
+      "width": 13.757248,
+      "angle": -135,
+      "contrailSize": 13.757248,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -39, -36,
+    -71, -2.5,
+    -39.5, 33,
+    65.5, 21,
+    53.5, -30.5
+  ]
+}

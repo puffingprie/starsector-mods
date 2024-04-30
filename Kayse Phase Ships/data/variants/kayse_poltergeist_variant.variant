@@ -1,0 +1,23 @@
+{
+  "variantId": "kayse_poltergeist_variant",
+  "hullId": "kayse_poltergeist",
+  "displayName": "Phase Fighter",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "pdburst",
+        "WS 002": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

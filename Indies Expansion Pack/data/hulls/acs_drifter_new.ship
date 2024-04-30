@@ -1,0 +1,128 @@
+{
+  "hullName": "Drifter",
+  "hullId": "acs_drifter_new",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/acs_drifter.png",
+  "style": "LOW_TECH",
+  "height": 300,
+  "width": 255,
+  "center": [127, 149.5],
+  "collisionRadius": 203.5,
+  "shieldCenter": [-0.5, -0],
+  "shieldRadius": 155.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "rugged",
+    "repair_gantry",
+    "surveying_equipment"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -1.5,
+      "locations": [86.5, 19.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 299,
+      "angle": -161.5,
+      "locations": [-64.5, -0.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": 90,
+      "locations": [-14, 50.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -150,
+      "locations": [29, -25]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -43.5,
+      "locations": [76.5, -26]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "LAUNCH_BAY",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": 90,
+      "locations": [-51, 43]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [15, 24.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-117, 14.5],
+      "length": 65.778587,
+      "width": 19.562939,
+      "angle": 179.5,
+      "contrailSize": 19.562939,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-117, -14.5],
+      "length": 65.778587,
+      "width": 19.562939,
+      "angle": -179.5,
+      "contrailSize": 19.562939,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-114, 32],
+      "length": 39.072689,
+      "width": 16.318684,
+      "angle": 179.5,
+      "contrailSize": 16.318684,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-114, -32],
+      "length": 39.072689,
+      "width": 16.318684,
+      "angle": -179.5,
+      "contrailSize": 16.318684,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    82, 55,
+    110.5, 27,
+    106, -31,
+    85.5, -48,
+    -74, -49,
+    -106.5, -41,
+    -106.5, 41,
+    -74, 50.5
+  ]
+}

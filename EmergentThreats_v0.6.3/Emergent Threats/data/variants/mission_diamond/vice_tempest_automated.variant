@@ -1,0 +1,32 @@
+{
+    "displayName": "Automated",
+    "fluxCapacitors": 1,
+    "fluxVents": 10,
+	"goalVariant": false,
+    "hullId": "vice_tempest_ai",
+    "hullMods": [
+        "ecm",
+        "hardenedshieldemitter",
+        "targetingunit",
+        "vice_adaptive_emitter_diodes"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vice_tempest_automated",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "gravitonbeam",
+                "WS 002": "ionbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "atropos"}
+        }
+    ],
+    "wings": []
+}

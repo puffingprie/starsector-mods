@@ -1,0 +1,35 @@
+{
+    "displayName": "Overdriven",
+    "fluxCapacitors": 0,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "swp_caliber",
+    "hullMods": [
+        "heavyarmor",
+        "converted_hangar",
+        "targetingunit",
+        "reinforcedhull",
+        "armoredweapons"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "RC_dj2",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "gauss"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "swp_flaregun",
+                "WS0003": "swp_flaregun",
+                "WS0004": "swp_flaregun",
+                "WS0005": "swp_flaregun"
+            }
+        }
+    ],
+    "wings": ["broadsword_wing"]
+}

@@ -1,0 +1,56 @@
+{
+  "variantId": "mm_mikaboshi_standard",
+  "hullId": "mm_mikaboshi",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 25,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mm_magneticrifle",
+        "WS0002": "mm_magneticrifle",
+        "WS0004": "mm_hyperblastbattery",
+        "WS0005": "mm_hyperblastbattery"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "mm_flakstormbattery"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "mm_autoflakpd",
+        "WS0006": "mm_autoflakpd",
+        "WS0008": "mm_miniflakpd",
+        "WS0009": "mm_miniflakpd",
+        "WS0010": "mm_miniflakpd",
+        "WS0011": "mm_miniflakpd",
+        "WS0012": "mm_miniflakpd",
+        "WS0013": "mm_miniflakpd",
+        "WS0014": "mm_miniflakpd",
+        "WS0015": "mm_autoflakpd",
+        "WS0016": "mm_autoflakpd",
+        "WS0017": "mm_miniflakpd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "mm_fighter_jizo",
+    "mm_fighter_jizo",
+    "mm_fighter_jizo",
+    "mm_bomber_jizo",
+    "mm_bomber_jizo"
+  ]
+}
